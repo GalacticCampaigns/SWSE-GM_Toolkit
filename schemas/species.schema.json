@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Star Wars SAGA Edition Species Data",
+  "description": "Schema for the structure of species data, including traits and their mechanical effects.",
+  "type": "object",
+  "properties": {
+    "species_data": {
+      "type": "object",
+      "description": "Contains all species-related information.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A general description of the species data section."
+        },
+        "species_list": {
+          "type": "array",
+          "description": "A list of all species entries.",
+          "items": {
+            "$ref": "#/definitions/species"
+          }
+        }
+      },
+      "required": [
+        "species_list"
+      ]
+    }
+  },
+  "required": [
+    "species_data"
+  ],
+  "definitions": {
+    "species": {
+      "type": "object",
+      "description": "Represents a single species in the SAGA Edition.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the species."
+        },
+        "pc_or_npc": {
+          "type": "string",
+          "description": "Indicates if the species entry is primarily for Player Characters (P), Non-Player Characters (N), or unspecified.",
+          "enum": ["P", "N", ""]
+        },
+        "ability_modifiers": {
+          "type": "array",
+          "description": "List of ability score modifiers for the species.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ability": {
+                "type": "string",
+                "description": "The ability score affected (e.g., Strength, Dexterity) or 'Choice' if the player selects.",
+                "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Choice"]
+              },
+              "value": {
+                "oneOf": [
+                  { "type": "integer" },
+                  { "type": "string", "description": "Used for choice-based modifiers, e.g., '+2 to one ability score'." }
+                ],
+                "description": "The modifier value or a description of the choice."
+              }
+            },
+            "required": ["ability", "value"]
+          }
+        },
+        "size": {
+          "type": "string",
+          "description": "The size category of the species.",
+          "enum": ["Small", "Medium", "Large", "Diminutive", "Tiny", "Huge", "Gargantuan", "Colossal", "Unknown"]
+        },
+        "speed_squares": {
+          "type": "integer",
+          "description": "Base land speed in squares."
+        },
+        "special_qualities": {
+          "type": "array",
+          "description": "A list of special qualities, traits, and abilities of the species.",
+          "items": {
+            "$ref": "#/definitions/specialQuality"
+          }
+        },
+        "automatic_languages": {
+          "type": "array",
+          "description": "Languages known automatically by the species.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_book": {
+          "type": "string",
+          "description": "Abbreviation of the sourcebook where this species information is found."
+        },
+        "page": {
+          "type": "string",
+          "description": "Page number in the sourcebook."
+        }
+      },
+      "required": [
+        "name",
+        "ability_modifiers",
+        "size",
+        "speed_squares",
+        "special_qualities",
+        "automatic_languages",
+        "source_book",
+        "page"
+      ]
+    },
+    "specialQuality": {
+      "type": "object",
+      "description": "A special quality or trait of a species.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the special quality or trait."
+        },
+        "description": {
+          "type": "string",
+          "description": "The full textual description of the quality."
+        },
+        "effects": {
+          "type": "array",
+          "description": "Structured representation of the mechanical effects of the quality.",
+          "items": {
+            "$ref": "#/definitions/traitEffect"
+          }
+        }
+      },
+      "required": ["name", "description", "effects"]
+    },
+    "traitEffect": {
+      "type": "object",
+      "description": "A structured mechanical effect of a trait.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The general category of the effect.",
+          "enum": [
+            "defense_bonus",
+            "skill_bonus",
+            "feat_grant",
+            "damage_reduction",
+            "natural_weapon",
+            "reroll",
+            "class_skill",
+            "action",
+            "duration",
+            "on_expire",
+            "condition_penalty",
+            "speed_override_squares",
+            "damage_threshold_bonus",
+            "narrative_only",
+            "other"
+          ]
+        },
+        "defense": { "type": "string", "enum": ["Reflex", "Fortitude", "Will", "All", "Unknown"], "description": "Applicable defense for defense_bonus type." },
+        "bonus_type": { "type": "string", "description": "Type of bonus (e.g., species, natural_armor, untyped)." },
+        "value": { "oneOf": [{ "type": "integer" }, { "type": "string" }], "description": "Numerical value of the effect or specific string." },
+        "target": { "type": "string", "description": "The target of the bonus (e.g., a skill name, 'damage threshold')." },
+        "skill": { "type": "string", "description": "Specific skill affected for skill_bonus or class_skill type." },
+        "feat_name": { "type": "string", "description": "Name of the feat granted for feat_grant type." },
+        "weapon_name": { "type": "string", "description": "Name of the natural weapon (e.g., claws, bite)." },
+        "damage_dice": { "type": "string", "pattern": "^\\d+d\\d+$", "description": "Damage dice (e.g., 1d6)." },
+        "damage_type": { "type": "string", "description": "Type of damage (e.g., slashing, piercing)." },
+        "check_type": { "type": "string", "description": "The type of check that can be rerolled (e.g., Perception, any Climb)." },
+        "condition": { "type": "string", "description": "Condition for the reroll (e.g., must take result, keep better)." },
+        "summary": { "type": "string", "description": "Summary for narrative_only or other types." },
+        "cost": { "type": "string", "description": "Action cost (e.g., swift, standard) for action type." },
+        "frequency": { "type": "string", "description": "How often an action can be used (e.g., once_per_encounter)." },
+        "sub_effects": {
+          "type": "array", 
+          "items": {"$ref": "#/definitions/traitEffect"},
+          "description": "Nested effects for complex actions."
+        },
+        "basis": {"type": "string", "description": "Basis for a duration (e.g., Constitution modifier)."},
+        "minimum_rounds": {"type": "integer", "description": "Minimum duration in rounds."},
+        "condition_type": {"type": "string", "description": "Type of condition applied (e.g., persistent_condition_track)."}
+      },
+      "required": ["type"]
+    }
+  }
+}
