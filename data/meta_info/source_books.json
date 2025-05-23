@@ -1,0 +1,36 @@
+{
+  "saga_index_meta": {
+    "document_info": {
+      "title": "SAGA Character version 4.0",
+      "authors": [
+        "Shane A. Thelen (ewokontoast)",
+        "Staffan Bengtsson (JemyM)"
+      ],
+      "contact": {
+        "person": "richterbelmont10",
+        "email": "richterbelmont10@gmail.com",
+        "note": "(please put \"Saga Index\" in the subject line)"
+      }
+    },
+    "book_abbreviations": [
+      {        "abbr": "CR",         "full_name": "Saga Edition Core Rulebook"      },
+      {        "abbr": "S",         "full_name": "Starships of the Galaxy"      },
+      {        "abbr": "T",        "full_name": "Threats of the Galaxy"      },
+      {        "abbr": "K",        "full_name": "Knights of the Old Republic Campaign Guide"      },
+      {        "abbr": "F",        "full_name": "Force Unleashed Campaign Guide"      },
+      {        "abbr": "SV",        "full_name": "Scum & Villainy"      },
+      {        "abbr": "C",        "full_name": "Clone Wars Campaign Guide"      },
+      {        "abbr": "L",        "full_name": "Legacy Era Campaign Guide"      },
+      {        "abbr": "J",        "full_name": "Jedi Academy Training Manual"      },
+      {        "abbr": "R",        "full_name": "Rebellion Era Campaign Guide"      },
+      {        "abbr": "GW",        "full_name": "Galaxy at War"      },
+      {        "abbr": "SGD",        "full_name": "Scavenger's Guide to Droids"      },
+      {        "abbr": "GI",        "full_name": "Galaxy of Intrigue"      },
+      {        "abbr": "UR",        "full_name": "Unknown Regions"      },
+      {        "abbr": "D#",        "full_name": "Dawn of defiance (# equals episode)"      },
+      {        "abbr": "W",        "full_name": "Web Articles (download the file, then go to page)"      },
+      {        "abbr": "25",        "full_name": "25 to Rescue: A Star Wars Roleplaying Game Encounter"      },
+      {        "abbr": "ID",        "full_name": "Iridonian Darkness: A Knights of the Old Republic Adventure"      }
+    ]
+  }
+}
