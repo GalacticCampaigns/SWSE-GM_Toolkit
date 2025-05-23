@@ -1,0 +1,91 @@
+BOOK,PAGE,UNLEASHED ABILITY,Desc.,Force?,BENEFIT
+F,89,Unleashed Battle Meditation,"Your skill in Battle Meditation allows you to coordinate battles taking place across an entire star system.
+
+Prerequisites: Battle Meditation, Unleashed feat.
+
+Benefit: When you use the Battle Meditation talent, you can spend a Destiny Point to have its bonuses apply to all allies within the same star system.
+",Y,bonuses apply to all allies within the same star system
+F,90,Unleashed Battle Strike,"Your combat prowess is unparalleled.
+
+Prerequisites: Battlestrike, Unleashed feat.
+
+Benefit: When you use the battlestrike power and you spend a Destiny Point, your next melee attack, if successful, also moves the target an additional -2 steps along the condition track, regardless of whether the damage exceeds the target's damage threshold.
+",Y,your next melee Atk moves target additional -2 CT whether over thresh or not
+F,90,Unleashed Corruption,"You can draw upon the power of the dark side to cover your foes in an unavoidable miasma of evil.
+
+Prerequisites: Corruption, Unleashed feat.
+
+Benefit: When you successfully damage a target by using the corruption power and you spend a Destiny Point, the target takes the additional half damage each round for 5 rounds instead of just 1 round.
+",Y,"when successfully damage target with Corruption, takes half damage next 5 rounds"
+F,90,Unleashed Dark Rage,"You let the power of the dark side flow through you, bringing you closer to ultimate success.
+
+Prerequisites: Dark rage, Unleashed feat.
+
+Benefit: When you use the dark rage power, you can spend a Destiny Point to gain a +10 rage bonus on melee attack rolls and damage rolls for the remainder of the encounter.
+",Y,+10 melee attack & damage rolls rest of encounter
+F,91,Unleashed Force Blast,"You can fire a blast of Force energy at your opponents with enough power to damage even vehicles and starships.
+
+Prerequisites: Force blast, Unleashed feat.
+
+Benefit: When you use the Force blast power, you can spend a Destiny Point to multiply the damage by 2.
+",Y,multiply damage by 2
+F,91,Unleashed Force Grip,"Holding an enemy in your vise grip of the Force is a trivial matter.
+
+Prerequisites: Force grip, Unleashed feat.
+
+Benefit: When you successfully use the Force grip power on a target, you can spend a Destiny Point to maintain the power with no concentration (requiring no action) for a number of rounds equal to half your Charisma modifier (minimum 1 round). Taking damage still requires you to make Use the Force checks to maintain the power.
+",Y,maintain with no concentration for a number of rounds = Cha mod
+F,91,Unleashed Force Lightning,"The power of your Force lightning drives back your foes as they bear the brunt of your strength in the Force.
+
+Prerequisites: Force lightning Force power, Unleashed feat.
+
+Benefit: When you use the Force lightning power, you can spend a Destiny Point to target all creatures in a 6-square cone that originates from your square.
+",Y,target all in 6sq cone
+F,91,Unleashed Force Storm,"You become a maelstrom of dark Force energy, devastating nearby foes.
+
+Prerequisites: Force storm Force power, Unleashed feat.
+
+Benefit: When you use the Force storm power and you spend a Destiny Point, it deals 8d6 points of damage to adjacent targets for the duration of the power.
+",Y,8d6 dam to adjacent for duration of power
+F,91,Unleashed Force Thrust,"You can hurl your foes away with incredible strength and speed.
+
+Prerequisites: Force thrust Force power, Unleashed feat.
+
+Benefit: When you use the Force thrust power and you spend a Destiny Point, opponents affected by the power do not add their size modifier to their Strength checks to resist the power's effect. A creature that would normally have a penalty on its Strength check due to size still retains that penalty.
+
+Additionally, the distance you move the target is multiplied by 2, II you push the target into a larger object, the target takes 1d6 points of damage per square moved by this power.
+",Y,"opponents do not add size modifier, distance moved multiplied by2, damage 1d6 per square moved"
+F,91,Unleashed Move Object,"You can hurl an object through the air with such incredible force that it devastates even vehicles and starships.
+
+Prerequisites: Move object Force power, Unleashed feat.
+
+Benefit: When you hurl one object or character into another object or character and you spend a Destiny Point, multiply the damage dealt by 2.
+",Y,if you hurl an object into another object multiply damage by 2
+F,91,Unleashed Repulse,"You hurl back any encroaching enemies, ensuring that they are no immediate threat to you.
+
+Prerequisites: Repulse Force power, Unleashed feat.
+
+Benefit: When you use the repulse power and you spend a Destiny Point, opponents affected by the power do not add their size modifier to their Strength checks to resist the power's effect. A creature that would normally have a penalty on its Strength check due to size still retains that penalty.
+
+Additionally, the distance you move the target is multiplied by 2. If you push the target into a larger object, the target takes 1d6 points of damage per square moved by this power.
+",Y,"opponents do not add size modifier, distance moved multiplied by2, damage 1d6 per square moved"
+F,38,Bantha Rush,"When you use the Bantha Rush feat, you can spend a Destiny Point to automatically increase the distance you move your target by 5 squares and knock your target prone.",,increases the distance you move target by 5 squares & knocks target prone
+F,38,Charge,"By spending a Destiny Point, you make an amazing charge attack. As a standard action, you gain a +5 bonus on each attack roll and take a -2 penalty to your Reflex Defense until the start of your next turn. You can move up to twice your speed (minimum 2 squares) in a straight line through obstructed or unobstructed terrain, and then take a full attack action as a part of this standard action instead of a full-round action. Allies do not hinder your ability to charge. Special: If you have the Improved Charge feat, you can alter your course around obstructions and enemies. If you have the Powerful Charge feat, you can apply the benefit of that feat as well.
+",,"stan action +5 Atk & -2 Ref Def, can move twice speed (min2) in a straight line & full attack"
+F,38,Cleave,"When you deal enough damage to an opponent to reduce its hit points to 0, you can spend a Destiny Point to get an immediate extra melee attack against all opponents within your reach. This feat works in all other ways as the Cleave feat.",,"if reduce opponent to 0 hp, immediate extra melee attack against all opponents in reach"
+F,38,Devastating Attack,"When you make an attack (either as a single attack or part of a full attack action), you can spend a Destiny Point to treat every attack as though it exceeded the target’s damage threshold, regardless of whether or not the attack normally would, until the beginning of your next turn.",,treat every attack as if it exceeded thresh until beginning of next turn
+F,38,Extreme Effort,"When you use the Extreme Effort talent, you can spend a Destiny Point to increase the bonus provided by the talent to +20.",,bonus +20
+F,39,Firepower,"By spending a Destiny Point, as a standard action you can fire at up to five separate targets within range of your ranged weapon. Make a single attack roll and compare the result to the Reflex Defense of each target. Roll a single damage roll and apply it to every target successfully hit. Special: Bonuses and penalties from other feats and talents stack with this ability. You can attack each target only once. You must have enough ammunition for each target; otherwise you stop dealing damage when you run out. Aiming provides no benefit on this attack.
+",,"stan action, fire at five separate targets, make single Atk roll & compare, aiming does not benefit"
+F,39,Ignite Fervor,"When you use the Ignite Fervor talent, you can spend a Destiny Point to provide the damage bonus to all allies within line of sight. ",,provide damage bonus to all allies in LOS
+F,39,Keen Shot,"When you make a ranged attack, you can spend a Destiny Point to ignore all cover on attacks until the beginning of your next turn.",,ignore all cover until beginning of your next turn
+F,39,Mighty Swing,"When you use the Mighty Swing feat, you can spend a Destiny Point to gain a +5 bonus on attack rolls and damage rolls, and you can make an automatic trip attack (as with the Trip feat) against the target, also with a +5 bonus on the opposed grapple check.",,+5 Atk & damage & make automatic trip against target with +5 on grapple check
+F,39,Penetrating Attack,When you make an attack (either as a single attack or part of a full attack action). you can spend a Destiny Point to ignore all damage reduction of your targets until the beginning of your next turn. ,,ignore all DR until beginning of next turn
+F,39,Rage,"By spending a Destiny Point at the start of your rage, you gain an additional + 10 to your melee attack rolls and melee damage rolls and +5 to your Fortitude Defense. At the end of your rage, you move -2 persistent steps along the condition track. The penalties imposed by this condition persist until you take at least 20 minutes to recuperate, during which time you can’t engage in any strenuous activity. Special: Bonuses and penalties from other feats and talents stack with this ability.
+",,"gain and additional +10 melee Atk & dam, move -2 CT at end"
+F,39,Skirmisher,"When you gain the benefit of the Skirmisher talent on a melee or ranged attack, you can spend a Destiny Point to get an automatic critical hit on your attack and gain a bonus to your base damage equal to the number of squares you moved.",,if move 2 sq +1 & auto crit on your next attack & gain bonus to dam = squares moved
+F,39,Sneak Attack,"When you make an attack that deals extra damage thanks to the Sneak Attack talent, you can spend a Destiny Point to gain a +5 bonus on your melee or ranged attack roll and deal an extra 5d6 points of damage with a successful hit. You must be within 6 squares of the target to make a sneak attack with a ranged weapon. This extra damage stacks with any damage bonus provided by the Sneak Attack talent.",,"with successful Sneak Atk, +5 Atk & +5d6 dam, must be within 6sq for ranged"
+F,39,Strafe,"When you use the Strafe feat, you can spend a Destiny Point to target an area 4 squares long by 3 squares wide.
+",,target an area 4sq long & 3sq wide
+F,39,Whirlwind Attack,"When you use the Whirlwind Attack feat, you can spend a Destiny Point to gain a +5 bonus on your attack roll and knock prone any targets you damage.
+",,+5 Atk & knock prone any targets you damage

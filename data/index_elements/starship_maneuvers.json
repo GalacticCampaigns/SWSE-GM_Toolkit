@@ -1,0 +1,1155 @@
+{
+  "starship_maneuvers_data": {
+    "description": "Compilation of Starship Maneuvers for Star Wars SAGA Edition.",
+    "starship_maneuvers_list": [
+      {
+        "name": "Ackbar Slash",
+        "descriptor_tags": [],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "Pilot check when attack from adjacent opponent misses.\nDC20: missed Atk redirected to adjacent opponent, \nif original attack roll beats new target Ref Def = damage\nDC25: add +1 to redirected Atk roll\nDC30: add +2 to redirected Atk roll\nDC35: add +5 to redirected Atk roll\nnew target may not use Akbar slash redirect the attack",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "missed Atk redirected to adjacent opponent, \nif original attack roll beats new target Ref Def = damage",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "add +1 to redirected Atk roll",
+                "structured_effects": [
+                  {
+                    "type": "bonus",
+                    "action_verb": "add",
+                    "value_description": "+1",
+                    "numeric_value_approx": 1,
+                    "bonus_or_penalty_type": "untyped",
+                    "target_description": "redirected atk roll"
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "add +2 to redirected Atk roll",
+                "structured_effects": [
+                  {
+                    "type": "bonus",
+                    "action_verb": "add",
+                    "value_description": "+2",
+                    "numeric_value_approx": 2,
+                    "bonus_or_penalty_type": "untyped",
+                    "target_description": "redirected atk roll"
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "add +5 to redirected Atk roll\nnew target may not use Akbar slash redirect the attack",
+                "structured_effects": [
+                  {
+                    "type": "bonus",
+                    "action_verb": "add",
+                    "value_description": "+5",
+                    "numeric_value_approx": 5,
+                    "bonus_or_penalty_type": "untyped",
+                    "target_description": "redirected atk roll\nnew target may not use akbar slash redirect the attack"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot check when attack from adjacent opponent misses.\nDC20: missed Atk redirected to adjacent opponent, \nif original attack roll beats new target Ref Def = damage\nDC25: add +1 to redirected Atk roll\nDC30: add +2 to redirected Atk roll\nDC35: add +5 to redirected Atk roll\nnew target may not use Akbar slash redirect the attack"
+          }
+        ],
+        "source_book": "S",
+        "page": "24"
+      },
+      {
+        "name": "Afterburn",
+        "descriptor_tags": [],
+        "action_to_activate": "Full-Round Action",
+        "target_info": "you",
+        "effect_description": "Pilot Check:\nDC15: all-out movement as free action, +1 Pilot to avoid dogfight\nDC20: all-out movement as free action, +2 Pilot to avoid dogfight\nDC25: all-out movement as free action, +5 Pilot to avoid dogfight\nDC30: all-out movement as free action, +10 Pilot to avoid dogfight",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "all-out movement as free action, +1 Pilot to avoid dogfight",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 20,
+                "description": "all-out movement as free action, +2 Pilot to avoid dogfight",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "all-out movement as free action, +5 Pilot to avoid dogfight",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "all-out movement as free action, +10 Pilot to avoid dogfight",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot Check:\nDC15: all-out movement as free action, +1 Pilot to avoid dogfight\nDC20: all-out movement as free action, +2 Pilot to avoid dogfight\nDC25: all-out movement as free action, +5 Pilot to avoid dogfight\nDC30: all-out movement as free action, +10 Pilot to avoid dogfight"
+          }
+        ],
+        "source_book": "S",
+        "page": "25"
+      },
+      {
+        "name": "Angle Deflector Shields",
+        "descriptor_tags": [
+          "attack pattern"
+        ],
+        "action_to_activate": "Swift Action",
+        "target_info": "you",
+        "effect_description": "Pilot DC15: SR doubled from particular target, SR halved from all others, change or deactivate with swif",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "SR doubled from particular target, SR halved from all others, change or deactivate with swif",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot DC15: SR doubled from particular target, SR halved from all others, change or deactivate with swif"
+          }
+        ],
+        "source_book": "S",
+        "page": "25"
+      },
+      {
+        "name": "Attack Pattern Delta",
+        "descriptor_tags": [
+          "attack pattern"
+        ],
+        "action_to_activate": "Swift Action",
+        "target_info": "you",
+        "effect_description": "Pilot DC20: +1 Ref Def with adjacent allied fighter (+2 if ally is using same maneuver)",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "+1 Ref Def with adjacent allied fighter (+2 if ally is using same maneuver)",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot DC20: +1 Ref Def with adjacent allied fighter (+2 if ally is using same maneuver)"
+          }
+        ],
+        "source_book": "S",
+        "page": "25"
+      },
+      {
+        "name": "Attack Pattern Zeta Nine",
+        "descriptor_tags": [
+          "attack pattern"
+        ],
+        "action_to_activate": "Swift Action",
+        "target_info": "you",
+        "effect_description": "Pilot DC20: -1 die dam for +20 SR, deactivate with swift",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "-1 die dam for +20 SR, deactivate with swift",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "swift"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot DC20: -1 die dam for +20 SR, deactivate with swift"
+          }
+        ],
+        "source_book": "S",
+        "page": "25"
+      },
+      {
+        "name": "Corellian Slip",
+        "descriptor_tags": [],
+        "action_to_activate": "Full-Round Action",
+        "target_info": "1",
+        "effect_description": "Target must be w/in 2 x your speed in squares.  If movement halted, lose maneuver. Pilot Check:\nDC15: move up to twice speed straight, attack as free action, if destroy target no collision\nDC20: +1 Atk\nDC25: +1 Atk & 1 die\nDC30: +2 Atk & 1 die\nDC35: +2 Atk & 2 die\nif fails, cannot attack and you may not avoid collision (opponent can)",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "move up to twice speed straight, attack as free action, if destroy target no collision",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 20,
+                "description": "+1 Atk",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "+1 Atk & 1 die",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "+2 Atk & 1 die",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "+2 Atk & 2 die\nif fails, cannot attack and you may not avoid collision (opponent can)",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Target must be w/in 2 x your speed in squares.  If movement halted, lose maneuver. Pilot Check:\nDC15: move up to twice speed straight, attack as free action, if destroy target no collision\nDC20: +1 Atk\nDC25: +1 Atk & 1 die\nDC30: +2 Atk & 1 die\nDC35: +2 Atk & 2 die\nif fails, cannot attack and you may not avoid collision (opponent can)"
+          }
+        ],
+        "source_book": "S",
+        "page": "25"
+      },
+      {
+        "name": "Counter",
+        "descriptor_tags": [
+          "dogfight"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "you",
+        "effect_description": "As a reaction to being attacked by a vehicle you are dogfighting make a Pilot check:\nDC20: you may immediately take a swift action\nDC25: you may immediately take a move action\nDC30: you may immediately take a standard action",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "you may immediately take a swift action",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "swift"
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "you may immediately take a move action",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "you may immediately take a standard action",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "standard"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "As a reaction to being attacked by a vehicle you are dogfighting make a Pilot check:\nDC20: you may immediately take a swift action\nDC25: you may immediately take a move action\nDC30: you may immediately take a standard action"
+          }
+        ],
+        "source_book": "S",
+        "page": "26"
+      },
+      {
+        "name": "Darklighter Spin",
+        "descriptor_tags": [],
+        "action_to_activate": "Standard Action",
+        "target_info": "2x2",
+        "effect_description": "Pilot Check:\nDC25: area attack with autofire weapon with normal -5 Atk\nDC30: area attack with autofire weapon with -2 Atk\nDC35: area attack with autofire weapon with no penalty",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 25,
+                "description": "area attack with autofire weapon with normal -5 Atk",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "area attack with autofire weapon with -2 Atk",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "area attack with autofire weapon with no penalty",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot Check:\nDC25: area attack with autofire weapon with normal -5 Atk\nDC30: area attack with autofire weapon with -2 Atk\nDC35: area attack with autofire weapon with no penalty"
+          }
+        ],
+        "source_book": "S",
+        "page": "26"
+      },
+      {
+        "name": "Devastating Hit",
+        "descriptor_tags": [
+          "gunner"
+        ],
+        "action_to_activate": "Standard Action",
+        "target_info": "1",
+        "effect_description": "Attack Roll Exceeds Ref by:\n0-4:  +1 die damage\n5-9:  +2 die damage\n10+: +3 die damage",
+        "effects_breakdown": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually in the description."
+          }
+        ],
+        "source_book": "S",
+        "page": "26"
+      },
+      {
+        "name": "Engine Hit",
+        "descriptor_tags": [
+          "gunner"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "Use when crit or over thresh.  Attack Roll Exceeds Ref by:\n0-4:  speed -1 (may be repaired with full-round DC20 Mechanics)\n5-9:  speed -2 (may be repaired with full-round DC25 Mechanics)\n10+: speed -3 (may be repaired with full-round DC30 Mechanics)",
+        "effects_breakdown": [
+          {
+            "type": "special_action",
+            "frequency": "at will (unless specified otherwise)",
+            "action_cost": "full-round"
+          }
+        ],
+        "source_book": "S",
+        "page": "26"
+      },
+      {
+        "name": "Evasive Action",
+        "descriptor_tags": [
+          "dogfight"
+        ],
+        "action_to_activate": "Move Action",
+        "target_info": "you",
+        "effect_description": "Pilot Check \nDC15: disengage from dogfight +2 Pilot\nDC20: disengage from dogfight +5 Pilot\nDC25: disengage from dogfight +10 Pilot\nDC30: disengage from dogfight +20 Pilot",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "disengage from dogfight +2 Pilot",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 20,
+                "description": "disengage from dogfight +5 Pilot",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "disengage from dogfight +10 Pilot",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "disengage from dogfight +20 Pilot",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot Check \nDC15: disengage from dogfight +2 Pilot\nDC20: disengage from dogfight +5 Pilot\nDC25: disengage from dogfight +10 Pilot\nDC30: disengage from dogfight +20 Pilot"
+          }
+        ],
+        "source_book": "S",
+        "page": "26"
+      },
+      {
+        "name": "Explosive Shot",
+        "descriptor_tags": [
+          "gunner"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "spec",
+        "effect_description": "Use when you destroy a target. Attack Roll Exceeds Ref by:\n0-4:  3d10x2 dam to adjacent targets (to the destroyed vehicle)\n5-9:  4d10x2 dam to adjacent targets (to the destroyed vehicle)\n10+: 5d10x2 dam to adjacent targets (to the destroyed vehicle)",
+        "effects_breakdown": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually in the description."
+          }
+        ],
+        "source_book": "S",
+        "page": "26"
+      },
+      {
+        "name": "Howlrunner Formation",
+        "descriptor_tags": [
+          "attack pattern"
+        ],
+        "action_to_activate": "Swift Action",
+        "target_info": "you",
+        "effect_description": "Pilot DC20: +1 Atk with adjacent allied fighter (+2 if ally is using same maneuver)",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "+1 Atk with adjacent allied fighter (+2 if ally is using same maneuver)",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot DC20: +1 Atk with adjacent allied fighter (+2 if ally is using same maneuver)"
+          }
+        ],
+        "source_book": "S",
+        "page": "27"
+      },
+      {
+        "name": "I Have You Now",
+        "descriptor_tags": [],
+        "action_to_activate": "Swift Action",
+        "target_info": "1",
+        "effect_description": "Pilot Check:\nDC15: against adjacent target, if your attack this turn damage over Fort Def = -1 down track\nDC20: as DC15 but +1 to attack roll.\nDC25: as DC15 but +2 to attack roll\nDC30: as DC15 but +5 to attack roll",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "against adjacent target, if your attack this turn damage over Fort Def = -1 down track",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 20,
+                "description": "as DC15 but +1 to attack roll.",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "as DC15 but +2 to attack roll",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "as DC15 but +5 to attack roll",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot Check:\nDC15: against adjacent target, if your attack this turn damage over Fort Def = -1 down track\nDC20: as DC15 but +1 to attack roll.\nDC25: as DC15 but +2 to attack roll\nDC30: as DC15 but +5 to attack roll"
+          }
+        ],
+        "source_book": "S",
+        "page": "27"
+      },
+      {
+        "name": "Intercept",
+        "descriptor_tags": [],
+        "action_to_activate": "Reaction",
+        "target_info": "you",
+        "effect_description": "Pilot Check:\nDC20: with enemy fighter moving w/in 2 sq, initiate dogfight as attack of opportunity, move 1 sq as reac\nDC25: As above with +1 Pilot check to initiate dogfight\nDC30: As above with +2 Pilot check to initiate dogfight\nDC35: As above with +5 Pilot check to initiate dogfight",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "with enemy fighter moving w/in 2 sq, initiate dogfight as attack of opportunity, move 1 sq as reac",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "As above with +1 Pilot check to initiate dogfight",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "As above with +2 Pilot check to initiate dogfight",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "As above with +5 Pilot check to initiate dogfight",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot Check:\nDC20: with enemy fighter moving w/in 2 sq, initiate dogfight as attack of opportunity, move 1 sq as reac\nDC25: As above with +1 Pilot check to initiate dogfight\nDC30: As above with +2 Pilot check to initiate dogfight\nDC35: As above with +5 Pilot check to initiate dogfight"
+          }
+        ],
+        "source_book": "S",
+        "page": "27"
+      },
+      {
+        "name": "Overwhelming Assault",
+        "descriptor_tags": [
+          "attack pattern"
+        ],
+        "action_to_activate": "Swift Action",
+        "target_info": "you*",
+        "effect_description": "Pilot DC20: nominate target and  you may subtract Atk for double that amount in damage (pre multipliers), \nchange target or deactivate as swif action",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "nominate target and  you may subtract Atk for double that amount in damage (pre multipliers), \nchange target or deactivate as swif action",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot DC20: nominate target and  you may subtract Atk for double that amount in damage (pre multipliers), \nchange target or deactivate as swif action"
+          }
+        ],
+        "source_book": "S",
+        "page": "27"
+      },
+      {
+        "name": "Segnor's Loop",
+        "descriptor_tags": [],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "If you end your turn further away from a target than you started make an attack run and Pilot Check \nDC20: attack run penalty to Ref Def is -10\nDC25: attack run penalty to Ref Def is -5\nDC30: attack run penalty to Ref Def is -2\nDC35: attack run penalty to Ref Def is -1",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "attack run penalty to Ref Def is -10",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "attack run penalty to Ref Def is -5",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "attack run penalty to Ref Def is -2",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "attack run penalty to Ref Def is -1",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "If you end your turn further away from a target than you started make an attack run and Pilot Check \nDC20: attack run penalty to Ref Def is -10\nDC25: attack run penalty to Ref Def is -5\nDC30: attack run penalty to Ref Def is -2\nDC35: attack run penalty to Ref Def is -1"
+          }
+        ],
+        "source_book": "S",
+        "page": "28"
+      },
+      {
+        "name": "Shield Hit",
+        "descriptor_tags": [
+          "gunner"
+        ],
+        "action_to_activate": "Standard Action",
+        "target_info": "1",
+        "effect_description": "Make an attack if it deals damage it reduces shields depending on hold much Attack Roll Exceeds Ref by:\n0-4:  additional 5 points of shield damage\n5-9:  additional 10 points of shield damage\n10+: additional 15 points of shield damage",
+        "effects_breakdown": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually in the description."
+          }
+        ],
+        "source_book": "S",
+        "page": "28"
+      },
+      {
+        "name": "Skim the Surface",
+        "descriptor_tags": [],
+        "action_to_activate": "Full-Round Action",
+        "target_info": "1",
+        "effect_description": "When you fly through the fighting space of a target Colossal (Frigate) or larger, make a Pilot Check:\nDC20: ignores SR, can move twice speed, attack run at -10 Atk\nDC25: ignores SR, can move twice speed, attack run at -5 Atk\nDC30: ignores SR, can move twice speed, attack run at -2 Atk\nDC35: ignores SR, can move twice speed, attack run at -1 Atk\nPilot check below 19 causes a collision, target may avoid",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "ignores SR, can move twice speed, attack run at -10 Atk",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "ignores SR, can move twice speed, attack run at -5 Atk",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "ignores SR, can move twice speed, attack run at -2 Atk",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "ignores SR, can move twice speed, attack run at -1 Atk\nPilot check below 19 causes a collision, target may avoid",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "When you fly through the fighting space of a target Colossal (Frigate) or larger, make a Pilot Check:\nDC20: ignores SR, can move twice speed, attack run at -10 Atk\nDC25: ignores SR, can move twice speed, attack run at -5 Atk\nDC30: ignores SR, can move twice speed, attack run at -2 Atk\nDC35: ignores SR, can move twice speed, attack run at -1 Atk\nPilot check below 19 causes a collision, target may avoid"
+          }
+        ],
+        "source_book": "S",
+        "page": "28"
+      },
+      {
+        "name": "Skywalker Loop",
+        "descriptor_tags": [
+          "dogfight"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "if opponent fails Pilot check to attack in dogfight, \nmake a Pilot Check DC20 to may make an attack of opportunity",
+        "effects_breakdown": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually in the description."
+          }
+        ],
+        "source_book": "S",
+        "page": "28"
+      },
+      {
+        "name": "Snap Roll",
+        "descriptor_tags": [],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "Pilot check replaces Ref Def until next turn, can keep Ref Def if lower",
+        "effects_breakdown": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually in the description."
+          }
+        ],
+        "source_book": "S",
+        "page": "29"
+      },
+      {
+        "name": "Strike Formation",
+        "descriptor_tags": [
+          "attack pattern"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "Pilot Check DC20: +1 die dam, -2 Ref Def, can deactivate with swift action",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "+1 die dam, -2 Ref Def, can deactivate with swift action",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "swift"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Pilot Check DC20: +1 die dam, -2 Ref Def, can deactivate with swift action"
+          }
+        ],
+        "source_book": "S",
+        "page": "29"
+      },
+      {
+        "name": "Tallon Roll",
+        "descriptor_tags": [
+          "dogfight"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "When opponent attempts to disengage from dogfight, declare before opposed check\nDC20: if target fails to disengage, make attack of opportunity\nDC25: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -1\nDC30: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -2\nDC35: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -5",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "if target fails to disengage, make attack of opportunity",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "if target fails to disengage, make attack of opportunity, opposed Pilot check for target -1",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "if target fails to disengage, make attack of opportunity, opposed Pilot check for target -2",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "if target fails to disengage, make attack of opportunity, opposed Pilot check for target -5",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "When opponent attempts to disengage from dogfight, declare before opposed check\nDC20: if target fails to disengage, make attack of opportunity\nDC25: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -1\nDC30: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -2\nDC35: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -5"
+          }
+        ],
+        "source_book": "S",
+        "page": "29"
+      },
+      {
+        "name": "Target Lock",
+        "descriptor_tags": [
+          "dogfight"
+        ],
+        "action_to_activate": "Standard Action",
+        "target_info": "1",
+        "effect_description": "Make a pilot check:\nDC15: +1 opposed Pilot checks and  attack rolls\nDC20: +2 opposed Pilot checks and  +1 to attack rolls\nDC25: +2 opposed Pilot checks and attack rolls\nDC30: +5 opposed Pilot checks and +2 to attack rolls\nDC35: +5 opposed Pilot checks and attack rolls\nTarget disengages maneuver ends.",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "+1 opposed Pilot checks and  attack rolls",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 20,
+                "description": "+2 opposed Pilot checks and  +1 to attack rolls",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "+2 opposed Pilot checks and attack rolls",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "+5 opposed Pilot checks and +2 to attack rolls",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 35,
+                "description": "+5 opposed Pilot checks and attack rolls\nTarget disengages maneuver ends.",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Make a pilot check:\nDC15: +1 opposed Pilot checks and  attack rolls\nDC20: +2 opposed Pilot checks and  +1 to attack rolls\nDC25: +2 opposed Pilot checks and attack rolls\nDC30: +5 opposed Pilot checks and +2 to attack rolls\nDC35: +5 opposed Pilot checks and attack rolls\nTarget disengages maneuver ends."
+          }
+        ],
+        "source_book": "S",
+        "page": "30"
+      },
+      {
+        "name": "Target Sense",
+        "descriptor_tags": [
+          "Force"
+        ],
+        "action_to_activate": "Swift Action",
+        "target_info": "you",
+        "effect_description": "Cha bonus replaces Int bonus for vehicle weapons this round.\nMake a Use the Force check:\nDC20: Add Charisma Bonus to all attack rolls until start of next turn.\nDC25: Additional +2 to rolls.\nDC30: Additional +5 to rolls.\nStacks with Battle Strike force power.",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 20,
+                "description": "Add Charisma Bonus to all attack rolls until start of next turn.",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "Additional +2 to rolls.",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 30,
+                "description": "Additional +5 to rolls.\nStacks with Battle Strike force power.",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "Cha bonus replaces Int bonus for vehicle weapons this round.\nMake a Use the Force check:\nDC20: Add Charisma Bonus to all attack rolls until start of next turn.\nDC25: Additional +2 to rolls.\nDC30: Additional +5 to rolls.\nStacks with Battle Strike force power."
+          }
+        ],
+        "source_book": "S",
+        "page": "30"
+      },
+      {
+        "name": "Thruster Hit",
+        "descriptor_tags": [
+          "gunner"
+        ],
+        "action_to_activate": "Reaction",
+        "target_info": "1",
+        "effect_description": "Use when crit or over thresh.  Attack Roll Exceeds Ref by:\n0-4:   target's Ref Def, Init, & Pilot all -1\n5-9:   target's Ref Def, Init, & Pilot all -2\n10+: target's Ref Def, Init, & Pilot all -5, target can only move in a straight line\nEffect last the remainder of the encounter.",
+        "effects_breakdown": [
+          {
+            "type": "special_action",
+            "frequency": "at will (unless specified otherwise)",
+            "action_cost": "move"
+          }
+        ],
+        "source_book": "S",
+        "page": "30"
+      },
+      {
+        "name": "Wotan Weave",
+        "descriptor_tags": [],
+        "action_to_activate": "Swift Action",
+        "target_info": "you",
+        "effect_description": "when fighting defensively or with total defense, make a pilot check:\nDC15: reduce speed by half (round down) +1 Ref Def\nDC20:reduce speed by half (round down) +2 Ref Def\nDC25: reduce speed by half (round down) +5 Ref Def\nif reduce speed to 0, maneuver fails",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Pilot",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 15,
+                "description": "reduce speed by half (round down) +1 Ref Def",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 20,
+                "description": "reduce speed by half (round down) +2 Ref Def",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 25,
+                "description": "reduce speed by half (round down) +5 Ref Def\nif reduce speed to 0, maneuver fails",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "when fighting defensively or with total defense, make a pilot check:\nDC15: reduce speed by half (round down) +1 Ref Def\nDC20:reduce speed by half (round down) +2 Ref Def\nDC25: reduce speed by half (round down) +5 Ref Def\nif reduce speed to 0, maneuver fails"
+          }
+        ],
+        "source_book": "S",
+        "page": "30"
+      }
+    ]
+  }
+}

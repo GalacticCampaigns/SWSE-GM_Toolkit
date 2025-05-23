@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Prestige Classes",
+  "description": "Schema for Star Wars SAGA Edition Prestige Classes, including prerequisites, talent trees, and level progression.",
+  "type": "object",
+  "properties": {
+    "prestige_classes_data": {
+      "type": "object",
+      "description": "Container for the list of Prestige Classes.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A general description of this data section."
+        },
+        "prestige_classes_list": {
+          "type": "array",
+          "description": "A list of all Prestige Class entries.",
+          "items": {
+            "$ref": "#/definitions/prestigeClass"
+          }
+        }
+      },
+      "required": ["description", "prestige_classes_list"]
+    }
+  },
+  "required": ["prestige_classes_data"],
+  "definitions": {
+    "prestigeClass": {
+      "type": "object",
+      "description": "Represents a single Prestige Class.",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the Prestige Class." },
+        "source_book": { "type": "string", "description": "Sourcebook abbreviation." },
+        "page": { "type": "string", "description": "Page number in the sourcebook." },
+        "hit_points_die": { "type": "string", "description": "Hit die for the class (e.g., d8)." },
+        "force_points_per_level": { "type": ["integer", "string", "null"], "description": "Number of Force Points gained per level in this class." },
+        "defense_bonuses": {
+          "type": "object",
+          "properties": {
+            "reflex": { "type": "string", "description": "Reflex defense bonus progression (e.g., '+4')." },
+            "fortitude": { "type": "string", "description": "Fortitude defense bonus progression." },
+            "will": { "type": "string", "description": "Will defense bonus progression." }
+          }
+        },
+        "minimum_character_level_text": { "type": ["string", "null"], "description": "Minimum character level to enter this class (e.g., '7th')." },
+        "prerequisites_summary": {
+          "type": "object",
+          "description": "Summary of prerequisites as text from individual CSV columns.",
+          "properties": {
+            "skill_training_text": { "type": ["string", "null"] },
+            "skill_focus_text": { "type": ["string", "null"] },
+            "feat_text": { "type": ["string", "null"] },
+            "talent_text": { "type": ["string", "null"] },
+            "other_text": { "type": ["string", "null"] }
+          }
+        },
+        "prerequisites_structured": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/prerequisite" },
+          "description": "Structured list of all prerequisites combined and parsed."
+        },
+        "group_heading": { "type": ["string", "null"], "description": "Group heading from the CSV, if any." },
+        "available_talent_trees": {
+          "type": "array",
+          "description": "List of talent trees this prestige class grants access to.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tree_name": { "type": "string", "description": "Name of the talent tree." },
+              "source_description": { "type": "string", "description": "Source of the talent tree (e.g., the PrC name itself, or a base class like 'Scoundrel')." }
+            },
+            "required": ["tree_name", "source_description"]
+          }
+        },
+        "level_progression": {
+          "type": "array",
+          "description": "Level-by-level benefits for the prestige class.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "level": { "type": "integer", "description": "The prestige class level." },
+              "bab": { "type": "string", "description": "Base Attack Bonus gained at this PrC level (e.g., '+0', '+1')." },
+              "gains_talent_choice": { "type": "boolean", "description": "True if a talent choice is gained at this level." },
+              "class_feature": { "type": ["string", "null"], "description": "Specific class feature gained at this level, if any." },
+              "special_abilities": { "type": ["string", "null"], "description": "Text describing special abilities gained at this level." }
+            },
+            "required": ["level", "bab", "gains_talent_choice"]
+          }
+        }
+      },
+      "required": ["name", "source_book", "page", "hit_points_die", "prerequisites_structured", "available_talent_trees", "level_progression"]
+    },
+    "prerequisite": {
+      "type": "object", "description": "A structured prerequisite.",
+      "properties": {
+        "text_description": { "type": "string" }, "type": { "type": "string", "enum": ["ability_score", "base_attack_bonus", "skill_trained", "skill_rank", "class_level", "character_level", "feat_or_ability", "restriction_feat", "other", "talent_prerequisite"] },
+        "ability": { "type": "string" }, "value": { "type": "integer" }, "skill_name": { "type": "string" }, "ranks": { "type": "integer" },
+        "class_name": { "type": "string" }, "level": { "type": "integer" }, "name": { "type": "string" }, "restriction": { "type": "string", "enum": ["cannot_have"] },
+        "talent_name": {"type": "string"}, "required_class": {"type": "string"}, "required_talent_tree": {"type": "string"}
+      }, "required": ["text_description", "type"]
+    },
+    "mechanicalEffect": { 
+      "type": "object", "description": "A structured representation of a game mechanical effect (reused definition).",
+      "properties": {
+        "type": { "type": "string", "enum": ["dc_progression", "defense_bonus", "skill_bonus", "feat_grant", "damage_reduction", "natural_weapon", "reroll", "class_skill", "special_action", "immunity", "generic_modifier", "bonus", "penalty", "damage_modifier", "speed_modifier", "condition_track_change", "narrative_only", "other", "gain_benefit", "temporary_effect"] },
+        "action_verb": { "type": "string" }, "value_description": { "type": "string" },
+        "numeric_value_approx": { "type": ["integer", "null"] }, "bonus_or_penalty_type": { "type": "string" },
+        "target_description": { "type": "string" }, "defense": { "type": "string", "enum": ["Reflex", "Fortitude", "Will", "All", "Unknown"] },
+        "skill": { "type": "string" }, "feat_name": { "type": "string" },
+        "value": { "oneOf": [{ "type": "integer" }, { "type": "string" }] },
+        "weapon_name": { "type": "string" }, "damage_dice": { "type": "string", "pattern": "^\\d*d\\d+$" },
+        "damage_type": { "type": "string" }, "check_type": { "type": "string" },
+        "condition": { "type": "string" }, "summary": { "type": "string" },
+        "action_cost": { "type": "string" }, "frequency": { "type": "string" },
+        "immune_to": { "type": "string" }, "benefit_name": { "type": "string" },
+        "duration_hours": { "type": "integer" }, "target": { "type": "string" },
+        "effect_description": { "type": "string" }, "bonus_to": { "type": "string" },
+        "condition_type": { "type": "string" }, "check_skill_or_ability": { "type": "string" },
+        "progression_rule": { "type": "string", "enum": ["cumulative_up_to_achieved_dc", "highest_achieved_only", "specific_to_dc_achieved"] },
+        "tiers": { "type": "array", "items": { "type": "object", "properties": { "dc": { "type": "integer" }, "description": { "type": "string" }, "structured_effects": { "type": "array", "items": { "$ref": "#/definitions/mechanicalEffect" }}}, "required": ["dc", "description", "structured_effects"]}},
+        "full_progression_text": { "type": "string"}
+      }, "required": ["type"]
+    },
+    "specialNote": {
+      "type": "object", "description": "A special rule or note.",
+      "properties": {
+        "note_type": { "type": "string", "enum": ["lightsaber_form_interaction", "force_point_option", "general_description_detail", "general_special_rule", "other"] },
+        "form_name": { "type": "string" }, "text": { "type": "string" }
+      }, "required": ["note_type", "text"]
+    }
+  }
+}

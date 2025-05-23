@@ -1,0 +1,4275 @@
+{
+  "prestige_classes_data": {
+    "description": "Compilation of Prestige Classes for Star Wars SAGA Edition.",
+    "prestige_classes_list": [
+      {
+        "name": "Ace Pilot",
+        "source_book": "CR",
+        "page": "206",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Pilot",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Vehicular Combat",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Pilot",
+            "type": "feat_or_ability",
+            "name": "Pilot"
+          },
+          {
+            "text_description": "Vehicular Combat",
+            "type": "feat_or_ability",
+            "name": "Vehicular Combat"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Blockade Runner",
+            "source_description": "Ace Pilot"
+          },
+          {
+            "tree_name": "Expert Pilot",
+            "source_description": "Ace Pilot"
+          },
+          {
+            "tree_name": "Gunner",
+            "source_description": "Ace Pilot"
+          },
+          {
+            "tree_name": "Squadron Leader",
+            "source_description": "Ace Pilot"
+          },
+          {
+            "tree_name": "Wingman",
+            "source_description": "Ace Pilot"
+          },
+          {
+            "tree_name": "Spacer",
+            "source_description": "Scoundrel"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Vehicle Dodge: Dodge bonus on vehicle = 1/2 level"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Vehicle Dodge +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Vehicle Dodge +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Vehicle Dodge +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Vehicle Dodge +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Vehicle Dodge +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Assassin",
+        "source_book": "SV",
+        "page": "28",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Stealth",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Sniper",
+          "TALENT PREREQUISITE": "Dastardly Strike (Scoundrel-Misfortune)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "Sniper",
+            "type": "feat_or_ability",
+            "name": "Sniper"
+          },
+          {
+            "text_description": "Dastardly Strike (Scoundrel-Misfortune)",
+            "type": "feat_or_ability",
+            "name": "Dastardly Strike"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Assassin",
+            "source_description": "Assassin"
+          },
+          {
+            "tree_name": "Genohardan",
+            "source_description": "Assassin"
+          },
+          {
+            "tree_name": "Misfortune",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Malkite Poisoner",
+            "source_description": "Scoundrel"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Mark: single target in LOS, start of encounter, dam bonus, as swif target flat-foot instead"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Mark +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Mark +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Mark +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Mark +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Mark +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "source_book": "CR",
+        "page": "207",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Survival",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 from Awareness (Scout)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Survival",
+            "type": "feat_or_ability",
+            "name": "Survival"
+          },
+          {
+            "text_description": "2 from Awareness (Scout)",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Bounty Hunter",
+            "source_description": "Bounty Hunter"
+          },
+          {
+            "tree_name": "Force Hunter",
+            "source_description": "Bounty Hunter"
+          },
+          {
+            "tree_name": "Gand Findsman",
+            "source_description": "Bounty Hunter"
+          },
+          {
+            "tree_name": "Misfortune",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Awareness",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Familiar foe: observe opponent, Atk bonus & Ref Def bonus"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Familiar foe +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Familiar foe +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Familiar foe +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Familiar foe +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Familiar foe +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Charlatan",
+        "source_book": "SV",
+        "page": "30",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 Disgrace, Influence or Lineage (Noble)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Persuasion",
+            "type": "feat_or_ability",
+            "name": "Persuasion"
+          },
+          {
+            "text_description": "1 Disgrace",
+            "type": "other"
+          },
+          {
+            "text_description": "Influence or Lineage (Noble)",
+            "type": "feat_or_ability",
+            "name": "Influence or Lineage"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Trickery",
+            "source_description": "Charlatan"
+          },
+          {
+            "tree_name": "Disgrace",
+            "source_description": "Noble"
+          },
+          {
+            "tree_name": "Fortune",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Provocateur",
+            "source_description": "Noble"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Score: full-round observing target, reroll Deception & keep better until end of encounter"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Score",
+            "special_abilities": "Swindle: substitute Deception for Stealth to pick-pocket but you convinced them to give"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Swindle",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Swindle +1",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Swindle +2",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Swindle +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Corporate Agent",
+        "source_book": "K",
+        "page": "41",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Gather Info,\nKnowledge (bureaucracy)",
+          "SKILL FOCUS PREREQ.": "Knowledge \n(bureaucracy)",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "work for \ninterstellar corporation"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Gather Info",
+            "type": "feat_or_ability",
+            "name": "Gather Info"
+          },
+          {
+            "text_description": "Knowledge (bureaucracy)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Knowledge \n(bureaucracy)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "work for \ninterstellar corporation",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Corporate Power",
+            "source_description": "Corporate Agent"
+          },
+          {
+            "tree_name": "Leadership",
+            "source_description": "Noble"
+          },
+          {
+            "tree_name": "Lineage",
+            "source_description": "Noble"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Executive Leadership: grant ally in LOS one of +2 Spd, +2 Atk, or +2 all Def"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Executive Leadership/1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Executive Leadership/2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Executive Leadership/3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Executive Leadership/4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Executive Leadership/5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Crime Lord",
+        "source_book": "CR",
+        "page": "209",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "one from Fortune, Misfortune (scoundrel), or Lineage (Noble)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Persuasion",
+            "type": "feat_or_ability",
+            "name": "Persuasion"
+          },
+          {
+            "text_description": "one from Fortune",
+            "type": "feat_or_ability",
+            "name": "one from Fortune"
+          },
+          {
+            "text_description": "Misfortune (scoundrel)",
+            "type": "feat_or_ability",
+            "name": "Misfortune"
+          },
+          {
+            "text_description": "or Lineage (Noble)",
+            "type": "feat_or_ability",
+            "name": "or Lineage"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Infamy",
+            "source_description": "Crime Lord"
+          },
+          {
+            "tree_name": "Mastermind",
+            "source_description": "Crime Lord"
+          },
+          {
+            "tree_name": "Influence",
+            "source_description": "Noble"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Ref Def +1 per ally adjacent to you = 1/2 level"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": "Command cover",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": "Command cover",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": true,
+            "class_feature": "Command cover",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": "Command cover",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": "Command cover",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Droid Commander",
+        "source_book": "C",
+        "page": "42",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics), Use Comp",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 Leadership (Noble)\nor Commando (Soldier)",
+          "OTHER PREREQUISITE": "Droids only"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (tactics)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Use Comp",
+            "type": "feat_or_ability",
+            "name": "Use Comp"
+          },
+          {
+            "text_description": "1 Leadership (Noble)\nor Commando (Soldier)",
+            "type": "other"
+          },
+          {
+            "text_description": "Droids only",
+            "type": "feat_or_ability",
+            "name": "Droids only"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Droid Commander",
+            "source_description": "Droid Commander"
+          },
+          {
+            "tree_name": "Override",
+            "source_description": "Droid Commander"
+          },
+          {
+            "tree_name": "Inspiration",
+            "source_description": "Noble"
+          },
+          {
+            "tree_name": "Leadership",
+            "source_description": "Noble"
+          },
+          {
+            "tree_name": "Droid",
+            "source_description": "Droid"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Networked mind: droid allies can benefit from your mind-affecting effects"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Networked mind (1 droid ally)",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Networked mind (2 droid allies)",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Networked mind (3 droid allies)",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Networked mind (4 droid allies)",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Networked mind (5 droid allies)",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Elite Trooper",
+        "source_book": "CR",
+        "page": "211",
+        "hit_points_die": "d12",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "AP light & medium, \nMartial Arts I, & \nPB Shot OR Flurry",
+          "TALENT PREREQUISITE": "1 Armor Spec, Commando, Weapon Spec or Mercenary (Soldier)",
+          "OTHER PREREQUISITE": "BAB +7"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "AP light & medium",
+            "type": "feat_or_ability",
+            "name": "AP light & medium"
+          },
+          {
+            "text_description": "Martial Arts I",
+            "type": "feat_or_ability",
+            "name": "Martial Arts I"
+          },
+          {
+            "text_description": "& \nPB Shot OR Flurry",
+            "type": "feat_or_ability",
+            "name": "& \nPB Shot OR Flurry"
+          },
+          {
+            "text_description": "1 Armor Spec",
+            "type": "other"
+          },
+          {
+            "text_description": "Commando",
+            "type": "feat_or_ability",
+            "name": "Commando"
+          },
+          {
+            "text_description": "Weapon Spec or Mercenary (Soldier)",
+            "type": "feat_or_ability",
+            "name": "Weapon Spec or Mercenary"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Critical Master",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Mandalorian Warrior",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Master of Teras Kasi",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Melee Specialist",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Protection",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Republic Commando",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Squad Leader",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Weapon Master",
+            "source_description": "Elite Trooper"
+          },
+          {
+            "tree_name": "Camouflage",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Commando",
+            "source_description": "Soldier"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": "Delay damage",
+            "special_abilities": "Delay damage: 1/encounter delay one attack or effect until the end of your next turn"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Damage Reduction 1",
+            "special_abilities": "Damage Reduction"
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Damage Reduction 2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Damage Reduction 3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Damage Reduction 4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Damage Reduction 5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Enforcer",
+        "source_book": "F",
+        "page": "43",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Gather Info, Perception",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 from Survivor (Scout)",
+          "OTHER PREREQUISITE": "work for law enforcement \nor security organization"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Gather Info",
+            "type": "feat_or_ability",
+            "name": "Gather Info"
+          },
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "1 from Survivor (Scout)",
+            "type": "other"
+          },
+          {
+            "text_description": "work for law enforcement \nor security organization",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Enforcement",
+            "source_description": "Enforcer"
+          },
+          {
+            "tree_name": "Survivor",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": "Resources",
+            "special_abilities": "Resources: every level restricted or military equipment = HLx2000, can bank"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Targeted Suspect +1",
+            "special_abilities": "Targeted Suspect: observe opponent, Atk bonus & Deception,"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Targeted Suspect +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Targeted Suspect +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Targeted Suspect +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Targeted Suspect +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Force Adept",
+        "source_book": "CR",
+        "page": "212",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity",
+          "TALENT PREREQUISITE": "any three Force. Force Tradition talents are also Force talents",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "any three Force. Force Tradition talents are also Force talents",
+            "type": "feat_or_ability",
+            "name": "any three Force. Force Tradition talents are also Force talents"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Beastwarden",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Dark Side Devotee",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Force Adept",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Force Item",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Imperial Inquisitor",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Mystic",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Telepath",
+            "source_description": "Force Adept"
+          },
+          {
+            "tree_name": "Alter",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Control",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Sense",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Dark Side",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Light Side",
+            "source_description": "Force"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Gains Force Techniques"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Force Disciple",
+        "source_book": "CR",
+        "page": "215",
+        "hit_points_die": "d8",
+        "force_points_per_level": "7",
+        "defense_bonuses": {
+          "reflex": "+3",
+          "fortitude": "+3",
+          "will": "+6"
+        },
+        "minimum_character_level_text": "12th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity",
+          "TALENT PREREQUISITE": "any two from Dark Side \nDevotee, Force Adept, or Force Item (Force Adept)",
+          "OTHER PREREQUISITE": "Farseeing,\n1 Force Technique"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "any two from Dark Side \nDevotee",
+            "type": "other"
+          },
+          {
+            "text_description": "Force Adept",
+            "type": "feat_or_ability",
+            "name": "Force Adept"
+          },
+          {
+            "text_description": "or Force Item (Force Adept)",
+            "type": "feat_or_ability",
+            "name": "or Force Item"
+          },
+          {
+            "text_description": "Farseeing",
+            "type": "feat_or_ability",
+            "name": "Farseeing"
+          },
+          {
+            "text_description": "1 Force Technique",
+            "type": "feat_or_ability",
+            "name": "1 Force Technique"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Force Adept",
+            "source_description": "Force Disciple"
+          },
+          {
+            "tree_name": "Any tree from chapter #6",
+            "source_description": ""
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": "Indomitable, Prophet",
+            "special_abilities": "Indomitable: immune to mind-affecting effects"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Force secret",
+            "special_abilities": "Prophet: receive 2 Destiny Points instead of 1, may immediately"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": "Force secret",
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Force secret",
+            "special_abilities": "Force Secrets"
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": "Force secret",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Gladiator",
+        "source_book": "K",
+        "page": "43",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Imp Dam Thresh, WP advanced",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Imp Dam Thresh",
+            "type": "feat_or_ability",
+            "name": "Imp Dam Thresh"
+          },
+          {
+            "text_description": "WP advanced",
+            "type": "feat_or_ability",
+            "name": "WP advanced"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Gladiatorial Combat",
+            "source_description": "Gladiator"
+          },
+          {
+            "tree_name": "Awareness",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Armor Specialist",
+            "source_description": "Soldier"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Unflinching: once per encounter add Gladiator level to Fort Def"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Unflinching/1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Unflinching/2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Unflinching/3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Unflinching/4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Unflinching/5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Gunslinger",
+        "source_book": "CR",
+        "page": "216",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "PB Shot, Precise Shot, \nQuick Draw, WP(pistols)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "PB Shot",
+            "type": "feat_or_ability",
+            "name": "PB Shot"
+          },
+          {
+            "text_description": "Precise Shot",
+            "type": "feat_or_ability",
+            "name": "Precise Shot"
+          },
+          {
+            "text_description": "Quick Draw",
+            "type": "feat_or_ability",
+            "name": "Quick Draw"
+          },
+          {
+            "text_description": "WP(pistols)",
+            "type": "feat_or_ability",
+            "name": "WP"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Carbineer",
+            "source_description": "Gunslinger"
+          },
+          {
+            "tree_name": "Gunslinger",
+            "source_description": "Gunslinger"
+          },
+          {
+            "tree_name": "Pistoleer",
+            "source_description": "Gunslinger"
+          },
+          {
+            "tree_name": "Sharpshooter",
+            "source_description": "Gunslinger"
+          },
+          {
+            "tree_name": "Fortune",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Awareness",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Trusty Sidearm: add to damage"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Trusty Sidearm +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Trusty Sidearm +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Trusty Sidearm +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Trusty Sidearm +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Trusty Sidearm +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Imperial Knight",
+        "source_book": "L",
+        "page": "43",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "AP(medium),\nWP(lightsabers)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7, \nDefender of Roan Fel"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "AP(medium)",
+            "type": "feat_or_ability",
+            "name": "AP"
+          },
+          {
+            "text_description": "WP(lightsabers)",
+            "type": "feat_or_ability",
+            "name": "WP"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "text_description": "Defender of Roan Fel",
+            "type": "feat_or_ability",
+            "name": "Defender of Roan Fel"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Knight's Armor",
+            "source_description": "Imperial Knight"
+          },
+          {
+            "tree_name": "Knight's Resolve",
+            "source_description": "Imperial Knight"
+          },
+          {
+            "tree_name": "Armor Specialist",
+            "source_description": "Soldier"
+          },
+          {
+            "tree_name": "Lightsaber Combat",
+            "source_description": "Jedi"
+          },
+          {
+            "tree_name": "Duelist",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Alter",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Control",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Sense",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Dark Side",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Light Side",
+            "source_description": "Force"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Gains Force Techniques"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Improviser",
+        "source_book": "R",
+        "page": "41",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Mechanics, Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Skill Focus (Mechanics)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Mechanics",
+            "type": "feat_or_ability",
+            "name": "Mechanics"
+          },
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          },
+          {
+            "text_description": "Skill Focus (Mechanics)",
+            "type": "feat_or_ability",
+            "name": "Skill Focus"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Procurement",
+            "source_description": "Improviser"
+          },
+          {
+            "tree_name": "Improviser",
+            "source_description": "Improviser"
+          },
+          {
+            "tree_name": "Outlaw Tech",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Slicer",
+            "source_description": "Scoundrel"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": "No tools required",
+            "special_abilities": "Contraband: Obtain rare or illegal items equal to half level x credits"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Contraband (2,000 credits)",
+            "special_abilities": "No Tools Required: always considered to be using a tool kit or security kit"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Contraband (4,000 credits)",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Contraband (6,000 credits)",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Contraband (8,000 credits)",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Contraband (10,000 credits)",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Independent Droid",
+        "source_book": "F",
+        "page": "46",
+        "hit_points_die": "d12",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "3rd",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "Heuristic Processor, \nDroids only"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          },
+          {
+            "text_description": "Heuristic Processor",
+            "type": "feat_or_ability",
+            "name": "Heuristic Processor"
+          },
+          {
+            "text_description": "Droids only",
+            "type": "feat_or_ability",
+            "name": "Droids only"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Autonomy",
+            "source_description": "Independent Droid"
+          },
+          {
+            "tree_name": "Elite Droid",
+            "source_description": "Independent Droid"
+          },
+          {
+            "tree_name": "Specialized Droid",
+            "source_description": "Independent Droid"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": "Sapience",
+            "special_abilities": "Sapience: can choose to not have droid immunities apply to mind-affecting effects,"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Independent spirit +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Independent Spirit: once per encounter grant yourself morale bonus to one Def"
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Independent spirit +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Independent spirit +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Independent spirit +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Independent spirit +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Infiltrator",
+        "source_book": "F",
+        "page": "48",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Perception, Stealth",
+          "SKILL FOCUS PREREQ.": "Stealth",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 from Camouflage or Spy (Scout)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "2 from Camouflage or Spy (Scout)",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Bothan SpyNet",
+            "source_description": "Infiltrator"
+          },
+          {
+            "tree_name": "Infiltration",
+            "source_description": "Infiltrator"
+          },
+          {
+            "tree_name": "Camouflage",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Spy",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Unarmed stun: unarmed attack deals +1 die dam to stun (+2 at 6th, +3 at 10th)"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Unarmed stun +1 die",
+            "special_abilities": "Lead infiltrator: make Stealth for allies in LOS = Cha mod, allies must stay in LOS"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Lead infiltrator",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Unarmed stun +2 dice",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Lead infiltrator",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Unarmed stun +3 dice",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Jedi Knight",
+        "source_book": "CR",
+        "page": "217",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7, self-built lightsaber, \nJedi tradition"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "WP lightsabers",
+            "type": "feat_or_ability",
+            "name": "WP lightsabers"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "text_description": "self-built lightsaber",
+            "type": "other"
+          },
+          {
+            "text_description": "Jedi tradition",
+            "type": "feat_or_ability",
+            "name": "Jedi tradition"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Duelist",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Archivist",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Artisan",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Battlemaster",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Healer",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Instructor",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Investigator",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Refugee",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Shadow",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Watchman",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Jedi Weapon Master",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Lightsaber Forms",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Lightsaber Combat",
+            "source_description": "Jedi"
+          },
+          {
+            "tree_name": "Armor Specialist",
+            "source_description": "Soldier"
+          },
+          {
+            "tree_name": "Alter",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Control",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Sense",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Dark Side",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Light Side",
+            "source_description": "Force"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Gains Force Techniques"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Jedi Master",
+        "source_book": "CR",
+        "page": "219",
+        "hit_points_die": "d10",
+        "force_points_per_level": "7",
+        "defense_bonuses": {
+          "reflex": "+3",
+          "fortitude": "+3",
+          "will": "+3"
+        },
+        "minimum_character_level_text": "12th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "1 Force Technique, \nJedi tradition"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "WP lightsabers",
+            "type": "feat_or_ability",
+            "name": "WP lightsabers"
+          },
+          {
+            "text_description": "1 Force Technique",
+            "type": "feat_or_ability",
+            "name": "1 Force Technique"
+          },
+          {
+            "text_description": "Jedi tradition",
+            "type": "feat_or_ability",
+            "name": "Jedi tradition"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Duelist",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Any tree from chapter #6",
+            "source_description": ""
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": "Fearless, Serenity",
+            "special_abilities": "Fearless: immune to fear effects"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Force secret",
+            "special_abilities": "Serenity: trance, lose Dex to Def, exit swif, 1st attack or Use the Force is nat 20"
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": "Force secret",
+            "special_abilities": "Force Secrets"
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Force secret",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": "Force secret",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Martial Arts Master",
+        "source_book": "GW",
+        "page": "32",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Martial Arts I&II, Melee Defense, 1 Martial Arts Training",
+          "TALENT PREREQUISITE": "1 either Brawler (Soldier) or Survivor (Scout)",
+          "OTHER PREREQUISITE": "BAB +7"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Martial Arts I&II",
+            "type": "feat_or_ability",
+            "name": "Martial Arts I&II"
+          },
+          {
+            "text_description": "Melee Defense",
+            "type": "feat_or_ability",
+            "name": "Melee Defense"
+          },
+          {
+            "text_description": "1 Martial Arts Training",
+            "type": "other"
+          },
+          {
+            "text_description": "1 either Brawler (Soldier) or Survivor (Scout)",
+            "type": "other"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Martial Arts Forms",
+            "source_description": "Martial Arts Master"
+          },
+          {
+            "tree_name": "Unarmed Mastery",
+            "source_description": "Martial Arts Master"
+          },
+          {
+            "tree_name": "Awareness",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Master of Teras Kasi",
+            "source_description": "Elite Trooper"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Tough as Durasteel: When you damage a target with an unarmed atk, gain bonus hp"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Tough as Durasteel +2",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Tough as Durasteel +4",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Tough as Durasteel +6",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Tough as Durasteel +8",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Tough as Durasteel +10",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Master Privateer",
+        "source_book": "SV",
+        "page": "32",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Pilot",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Vehicular Combat",
+          "TALENT PREREQUISITE": "2 from Misfortune, Smuggling,\nor Spacer (all Scoundrel)",
+          "OTHER PREREQUISITE": "expanded on F51"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Pilot",
+            "type": "feat_or_ability",
+            "name": "Pilot"
+          },
+          {
+            "text_description": "Vehicular Combat",
+            "type": "feat_or_ability",
+            "name": "Vehicular Combat"
+          },
+          {
+            "text_description": "2 from Misfortune",
+            "type": "other"
+          },
+          {
+            "text_description": "Smuggling",
+            "type": "feat_or_ability",
+            "name": "Smuggling"
+          },
+          {
+            "text_description": "or Spacer (all Scoundrel)",
+            "type": "feat_or_ability",
+            "name": "or Spacer"
+          },
+          {
+            "text_description": "expanded on F51",
+            "type": "feat_or_ability",
+            "name": "expanded on F51"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Piracy",
+            "source_description": "Master Privateer"
+          },
+          {
+            "tree_name": "Privateer",
+            "source_description": "Master Privateer"
+          },
+          {
+            "tree_name": "Infamy",
+            "source_description": "Crime Lord"
+          },
+          {
+            "tree_name": "Spacer",
+            "source_description": "Scoundrel"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Veteran Privateer: you can add +2 Atk to yourself as a free action"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Veteran Privateer/1",
+            "special_abilities": "Piracy: If you are lost to the dark side, you may not take any further levels of master privateer."
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Veteran Privateer/2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Veteran Privateer/3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Veteran Privateer/4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Veteran Privateer/5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Medic",
+        "source_book": "F",
+        "page": "52",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "0",
+          "fortitude": "+4",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (life sciences), \nTreat Injury",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Surgical Expertise",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (life sciences)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Treat Injury",
+            "type": "feat_or_ability",
+            "name": "Treat Injury"
+          },
+          {
+            "text_description": "Surgical Expertise",
+            "type": "feat_or_ability",
+            "name": "Surgical Expertise"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Advanced Medicine",
+            "source_description": "Medic"
+          },
+          {
+            "tree_name": "Survivor",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Improved First Aid"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Medical Secret",
+            "special_abilities": "target gains +1hp for every point over the DC"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Improved Heal Damage"
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Medical Secret",
+            "special_abilities": "surgery heals an additional number of hp = your class level"
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Improved Long-Term Care"
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Medical Secret",
+            "special_abilities": "long-term care heals an additional number of hp = your class level"
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Improved Perform Surgery"
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Medical Secret",
+            "special_abilities": "perform surgery in half the time"
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Improved Revivify"
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Medical Secret",
+            "special_abilities": "revivify as stan not full"
+          }
+        ]
+      },
+      {
+        "name": "Melee Duelist",
+        "source_book": "K",
+        "page": "46",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Melee Def, Rapid Strike,\nWeapon Focus (any melee)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Melee Def",
+            "type": "feat_or_ability",
+            "name": "Melee Def"
+          },
+          {
+            "text_description": "Rapid Strike",
+            "type": "feat_or_ability",
+            "name": "Rapid Strike"
+          },
+          {
+            "text_description": "Weapon Focus (any melee)",
+            "type": "feat_or_ability",
+            "name": "Weapon Focus"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Melee Duelist",
+            "source_description": "Melee Duelist"
+          },
+          {
+            "tree_name": "Brawler",
+            "source_description": "Soldier"
+          },
+          {
+            "tree_name": "Weapon Specialist",
+            "source_description": "Soldier"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Master of Movement/(no. of times per encounter): ignore movement penalty on a single move action"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Master of Movement/1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Master of Movement/2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Master of Movement/3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Master of Movement/4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Master of Movement/5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Military Engineer",
+        "source_book": "C",
+        "page": "44",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Mechanics, Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Mechanics",
+            "type": "feat_or_ability",
+            "name": "Mechanics"
+          },
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Military Engineer",
+            "source_description": "Military Engineer"
+          },
+          {
+            "tree_name": "Outlaw Tech",
+            "source_description": "Scoundrel"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Field-created weapon: 1/enc as stan, DC20 Mechanics to create weapon"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Field-created weapon +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Field-created weapon +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Field-created weapon +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Field-created weapon +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Field-created weapon +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Officer",
+        "source_book": "CR",
+        "page": "220",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics)",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
+          "OTHER PREREQUISITE": "military membership"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (tactics)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
+            "type": "other"
+          },
+          {
+            "text_description": "military membership",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Fugitive Commander",
+            "source_description": "Officer"
+          },
+          {
+            "tree_name": "Military Tactics",
+            "source_description": "Officer"
+          },
+          {
+            "tree_name": "Naval Officer",
+            "source_description": "Officer"
+          },
+          {
+            "tree_name": "Rebel Recruiter",
+            "source_description": "Officer"
+          },
+          {
+            "tree_name": "Leadership",
+            "source_description": "Noble"
+          },
+          {
+            "tree_name": "Commando",
+            "source_description": "Soldier"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Command Cover: Ref Def +1 per ally adjacent to you = 1/2 level"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Command cover, Share talent",
+            "special_abilities": "Share talent: once a day to ally w/in 10 sq. share talent w/# of allies = 1/2 level"
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Talents need to be from the Influence, Inspiration, Commando or the Military Tactics tree."
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Command cover, Share talent",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Command cover, Share talent",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Command cover, Share talent",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Command cover, Share talent",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Outlaw",
+        "source_book": "SV",
+        "page": "34",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Stealth, Survival",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
+          "OTHER PREREQUISITE": "Must be wanted by the authorities in at least one system"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "Survival",
+            "type": "feat_or_ability",
+            "name": "Survival"
+          },
+          {
+            "text_description": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
+            "type": "other"
+          },
+          {
+            "text_description": "Must be wanted by the authorities in at least one system",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Outlaw",
+            "source_description": "Outlaw"
+          },
+          {
+            "tree_name": "Slicer",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Fringer",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Survivor",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Fugitive: 1/encounter, move +X squares during withdraw"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Fugitive +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Fugitive +1",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Fugitive +1",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Fugitive +1",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Fugitive +1",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Pathfinder",
+        "source_book": "R",
+        "page": "43",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Perception, Survival",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 Awareness, Camouflage\nor Survivor (Scout)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "Survival",
+            "type": "feat_or_ability",
+            "name": "Survival"
+          },
+          {
+            "text_description": "2 Awareness",
+            "type": "other"
+          },
+          {
+            "text_description": "Camouflage\nor Survivor (Scout)",
+            "type": "feat_or_ability",
+            "name": "Camouflage\nor Survivor"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Pathfinder",
+            "source_description": "Pathfinder"
+          },
+          {
+            "tree_name": "Awareness",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Survivor",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Create Cover: Designate an area of squares equal to half your level, within 6 squares from you."
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Create Cover (1 square)",
+            "special_abilities": "This area is considered to give cover from distant fire."
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Create Cover (2 squares)",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Create Cover (3 squares)",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Create Cover (4 squares)",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Create Cover (5 squares)",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Saboteur",
+        "source_book": "F",
+        "page": "54",
+        "hit_points_die": "d8",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Mechanics, Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Mechanics",
+            "type": "feat_or_ability",
+            "name": "Mechanics"
+          },
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Sabotage",
+            "source_description": "Saboteur"
+          },
+          {
+            "tree_name": "Turret",
+            "source_description": "Saboteur"
+          },
+          {
+            "tree_name": "Slicer",
+            "source_description": "Scoundrel"
+          },
+          {
+            "tree_name": "Misfortune",
+            "source_description": "Scoundrel"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": "Unexpected results",
+            "special_abilities": "Unexpected results: If an enemy rolls a nat 1 v. you immediately disabled until repaired"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Destructive",
+            "special_abilities": "Destructive: you always deal double damage to unattended vehicles or objects"
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Quick Sabotage: disable devices w/improvised tools & no kit, at 4th simple swif"
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Quick Sabotage",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Quick Sabotage",
+            "special_abilities": "Master saboteur: reroll any Mechanics to disable device or handle explosives, take best"
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Quick Sabotage",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Master saboteur",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Shaper",
+        "source_book": "L",
+        "page": "46",
+        "hit_points_die": "d8",
+        "force_points_per_level": "0",
+        "defense_bonuses": {
+          "reflex": "0",
+          "fortitude": "+2",
+          "will": "+4"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (life science), \nTreat Injury",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Biotech Specialist",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "Yuuzhan Vong"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (life science)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Treat Injury",
+            "type": "feat_or_ability",
+            "name": "Treat Injury"
+          },
+          {
+            "text_description": "Biotech Specialist",
+            "type": "feat_or_ability",
+            "name": "Biotech Specialist"
+          },
+          {
+            "text_description": "Yuuzhan Vong",
+            "type": "feat_or_ability",
+            "name": "Yuuzhan Vong"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Implant",
+            "source_description": "Shaper"
+          },
+          {
+            "tree_name": "Shaper",
+            "source_description": "Shaper"
+          },
+          {
+            "tree_name": "Advanced Medicine",
+            "source_description": "Medic"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "0",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Shaper Lore: Gain a bonus 1/2 class level to Knowledge(life sciences) and Treat Injury for biotech"
+          },
+          {
+            "level": 2,
+            "bab": "1",
+            "gains_talent_choice": false,
+            "class_feature": "Shaper Lore +1",
+            "special_abilities": "Shaper Hand: Gains artificial hand that replaces the need for a biotech toolkit."
+          },
+          {
+            "level": 3,
+            "bab": "2",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "3",
+            "gains_talent_choice": false,
+            "class_feature": "Shaper Lore +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Shaper Lore +3, Shaper Hand",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Shaper Lore +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "6",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "7",
+            "gains_talent_choice": false,
+            "class_feature": "Shaper Lore +5",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Sith Apprentice",
+        "source_book": "CR",
+        "page": "223",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "Dark Side score = Wis, \nSith tradition"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "WP lightsabers",
+            "type": "feat_or_ability",
+            "name": "WP lightsabers"
+          },
+          {
+            "text_description": "Dark Side score = Wis",
+            "type": "feat_or_ability",
+            "name": "Dark Side score = Wis"
+          },
+          {
+            "text_description": "Sith tradition",
+            "type": "feat_or_ability",
+            "name": "Sith tradition"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Sith",
+            "source_description": "Sith Apprentice"
+          },
+          {
+            "tree_name": "Sith Alchemy",
+            "source_description": "Sith Apprentice"
+          },
+          {
+            "tree_name": "Sith Commander",
+            "source_description": "Sith Apprentice"
+          },
+          {
+            "tree_name": "Armor Specialist",
+            "source_description": "Soldier"
+          },
+          {
+            "tree_name": "Lightsaber Combat",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Duelist",
+            "source_description": "Jedi Knight"
+          },
+          {
+            "tree_name": "Alter",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Control",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Sense",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Dark Side",
+            "source_description": "Force"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Gains Force Techniques"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Force technique",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Sith Lord",
+        "source_book": "CR",
+        "page": "224",
+        "hit_points_die": "d10",
+        "force_points_per_level": "7",
+        "defense_bonuses": {
+          "reflex": "+3",
+          "fortitude": "+3",
+          "will": "+3"
+        },
+        "minimum_character_level_text": "12th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "1 Force Technique, \nDark Side score = Wis, \nSith tradition"
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "WP lightsabers",
+            "type": "feat_or_ability",
+            "name": "WP lightsabers"
+          },
+          {
+            "text_description": "1 Force Technique",
+            "type": "feat_or_ability",
+            "name": "1 Force Technique"
+          },
+          {
+            "text_description": "Dark Side score = Wis",
+            "type": "feat_or_ability",
+            "name": "Dark Side score = Wis"
+          },
+          {
+            "text_description": "Sith tradition",
+            "type": "feat_or_ability",
+            "name": "Sith tradition"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Sith",
+            "source_description": "Sith Apprentice"
+          },
+          {
+            "tree_name": "Any tree from chapter #6",
+            "source_description": ""
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": "Fearless, Temptation",
+            "special_abilities": "Fearless: immune to fear effects"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Force secret",
+            "special_abilities": "Temptation: Persuasion v. Will Def w/in LOS see p.225 SECR"
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": "Force secret",
+            "special_abilities": "Force secrets"
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Force secret",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": "Force secret",
+            "special_abilities": null
+          }
+        ]
+      },
+      {
+        "name": "Vanguard",
+        "source_book": "C",
+        "page": "47",
+        "hit_points_die": "d10",
+        "force_points_per_level": "6",
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "minimum_character_level_text": "7th",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Perception, Stealth",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 Camouflage (Scout) or Commando (Soldier)",
+          "OTHER PREREQUISITE": ""
+        },
+        "prerequisites_structured": [
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "2 Camouflage (Scout) or Commando (Soldier)",
+            "type": "other"
+          }
+        ],
+        "group_heading": "Y",
+        "available_talent_trees": [
+          {
+            "tree_name": "Vanguard",
+            "source_description": "Vanguard"
+          },
+          {
+            "tree_name": "Awareness",
+            "source_description": "Scout"
+          },
+          {
+            "tree_name": "Survivor",
+            "source_description": "Scout"
+          }
+        ],
+        "level_progression": [
+          {
+            "level": 1,
+            "bab": "1",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": "Surprise Attack: if target is unaware of you or lost Dex to Ref Def gain Atk bonus on first attack"
+          },
+          {
+            "level": 2,
+            "bab": "2",
+            "gains_talent_choice": false,
+            "class_feature": "Surprise Attack +1",
+            "special_abilities": null
+          },
+          {
+            "level": 3,
+            "bab": "3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "4",
+            "gains_talent_choice": false,
+            "class_feature": "Surprise Attack +2",
+            "special_abilities": null
+          },
+          {
+            "level": 5,
+            "bab": "5",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 6,
+            "bab": "6",
+            "gains_talent_choice": false,
+            "class_feature": "Surprise Attack +3",
+            "special_abilities": null
+          },
+          {
+            "level": 7,
+            "bab": "7",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 8,
+            "bab": "8",
+            "gains_talent_choice": false,
+            "class_feature": "Surprise Attack +4",
+            "special_abilities": null
+          },
+          {
+            "level": 9,
+            "bab": "9",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 10,
+            "bab": "10",
+            "gains_talent_choice": false,
+            "class_feature": "Surprise Attack +5",
+            "special_abilities": null
+          }
+        ]
+      }
+    ]
+  }
+}

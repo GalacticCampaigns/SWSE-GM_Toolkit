@@ -1,0 +1,539 @@
+BOOK,PAGE,DROID SYSTEM,Desc.,GROUP,COST,WEIGHT,AVAIL.,COMMENTS & BENEFITS
+SGD,55,Antitheft comlink locator,"Some droids are equipped with internal comlinks to broadcast messages. However, these devices require the droid to speak out loud, and in some situations such an act is inadvisable. A droid equipped with an antitheft comlink locator can send a distress signal to its master's com link with no apparent activity by the droid. The distress signal broadcasts no information, but it can it be tracked. The signal continues to broadcast if the droid is deactivated, but it shuts down if the droid is destroyed.
+
+",Accessory,100,0.5,-,signal sent to master's comlink that can be tracked until droid is destroyed
+CR,193,Armor,,Accessory,,,,See Armor
+SGD,64,Astrogation buffer,,Accessory,,,,Input hyperspace jump coordinates
+SGD,55,Audio enhancers,"Audio enhancers increase the sensitivity of a droid's aural sensors, enabling it to pick up sounds not normally perceived by standard sensors. When eavesdropping or listening for distant and ambient sounds, a droid equipped with audio enhancers can reroll Perception checks, taking the better of the two results. All other modifiers for the Perception check still apply.
+
+",Accessory,2000,1,-,reroll Perception & keep better
+SGD,55,Audio-Radial Stunner,"This defense system protects droids in dangerous situations. As a standard action, the audio-radial stunner broadcasts a short-ranged, high-pitched frequency on all channels, calling attention to the droid and stunning any nearby creatures. Until the end of the droid's next turn, any creature that starts its turn adjacent to the droid must make a DC 20 Endurance check. Failure causes the creature to move -1 step on the condition track. The stunner shuts down if the droid is deactivated or destroyed.
+",Accessory,5000,3,Restricted,as stan action adjacent must make DC 20 Endurance or move -1 CT
+SGD,55,Automap,"An automap system actively scans the area within a 12-square radius of a droid in which it is installed. The scan reveals terrain, atmospheric conditions, electromagnetic signatures, and lifeforms. However, an automap scan cannot penetrate solid objects such as walls and closed doors. The scan also includes navigational information, such as the droid's direction and speed when readings were taken as well as global coordinates if the droid can establish a link to an orbiting satellite or starship.
+
+",Accessory,1000,2,-,12 sq radius but cannot penetrate solid objects
+CR,191,Backup Processor,"Backup Processor: A droid with a remote receiver can also have a backup processor that allows the droid to function even if it loses contact with its remote processor. The droid will continue executing its last received orders until contact is reestablished.
+
+",Processors,100,-,-,Allows a remote drone to function like a droid when losing contact with processor
+CR,190,Basic Processor,"Basic Processor: Basic processors are not designed for creative thought and problem solving, and as such most droids interpret instructions and behavioral inhibitions very literally. Furthermore, basic processors are very limited in that the droid cannot perform any task for which it was not programmed. For example, a droid that is not trained in the Deception skill cannot lie or otherwise convey false or unknown information. A droid with a basic processor cannot use any skill untrained except for Acrobatics, Climb, Jump, and Perception. Similarly, a basic processor does not allow a droid to use any weapon with which it is not proficient, and a droid's behavioral inhibitors may prevent it from harming sentient living beings altogether (see Behavioral Inhibitors, below). 
+
+Every droid comes with a basic processor, at the very least.
+
+",Processors,-,-,-,No creative thought or problem solving
+SGD,63,Battle station,"Droid battle stations provide the functionality of regular droid command stations, and they can be used to direct droids in combat. Droid battle stations are typically large installations, capable of coordinating hundreds or thousands of droids of al l types. Some droid battle stations emulate droid commanders. When the station is installed, select two talents from the droid commander prestige class (see page 28 of this book and pages 42-44 of The Clone Wars Campaign Guide). These talents can be used by the character operating the battle station as if the character has the talents. The number of times each talent can be used is calculated per station, not per character, so switching characters in the middle of a battle does not grant additional uses. Droids with the droid commander prestige class cannot use these talents more often even if they duplicate talents the droid already possesses. 
+
+",Stations,50000 per 100,5000,Military,"select 2 talents from droid commander prestige class, calculated per station not creature, does not duplicate "
+CR,191,Behavioral Inhibitors,"Even without a restraining bolt or periodic memory wipes, most droids operate according to a rigid set of guidelines. A droid's core programming-the part of its memory that can't be wiped-provides it with strict instructions on how to react to common circumstances, most of which revolve around obedience, safety, ethics, and morality. These instructions are the droid's behavioral inhibitors.
+
+The most common restriction coded into a droid's memory is the notion that it can't harm a sentient living being or, through inaction, allow a sentient living being to come to harm. (Fourth-degree droids do not have this restriction.) Droids are under similar strictures not to allow themselves to be harmed unless specifically ordered to do so. Of course, droids are also hardwired to obey the commands of their designated masters. When a master's orders conflict with the droid's behavioral inhibitors, the droid is required to inform its master immediately.
+
+",Processors,varies,varies,-,Behavioral Inhibitors include restraining bolt and droid caller
+SGD,55,Blaster Recharge Interface,"This hand accessory enables a droid to recharge a standard blaster pack for its master. As a swift action, the droid can plug in and transfer energy to the power pack. Recharging a power pack depletes energy from the droid. For each recharge, the droid loses hit points equal to one of the blaster's damage-dice type. Thus, a droid recharging a power pack for a heavy blaster pistol (3d8) takes 8 points of damage (since the die type is d8).
+
+",Accessory,300,1,Licensed,"as swif action recharge power packs, droid loses hp = dam dice of weapon"
+SGD,52,Burrower drive,"Mining and other fifth-degree droids can use a burrower drive to tear through large chunks of ore embedded in the crust of a planet or in an asteroid. A burrower drive enables a droid to move at half speed underground. It can also move vertically up or down at a similar rate.
+
+A burrower drive can be used as a weapon. The droid makes a melee attack. If the attack is successful, the droid deals damage equal to the amount it would do if it had used a self- destruct device. However, each successful attack moves the droid -1 step on the condition track with a persistent condition, as the drill gears and bits strip down and damage the droid.
+
+",Locomotion,200xCFxSp²,50xCF,Restricted,"move half spd, if used as weapon dam = to self-destruct device & each atk moves droid -1 CT"
+CR,198,Circular saw,,Appendage,,,,part of four standard appendages of an R2 astromech droid
+CR,190,Claw,"Claw: Claws are an intermediate step between tools and hands. They are useful for grabbing onto objects to be moved, but aren't very good for tasks that require fine manipulation. While a droid could easily carry a blaster in its claw, it would have difficulty firing it, for example. A droid using a claw to perform a task that normally requires a true hand must make a DC 15 Dexterity check to succeed at the task. If the check fails, the droid drops the object it is attempting to manipulate.
+
+",Appendage,20xCF,(5xCF),-,"Tasks that requires a hand requires a DC15 DEX roll, if fail it drops the object."
+CR,189,Climbing Claws,"Claws designed to grip a surface can be added to any droid with a walking locomotion system. Climbing claws grant the droid a climb speed equal to one-half its walking speed. In addition, a droid equipped with climbing claws may reroll a failed Climb check (keeping the better result) and can take 10 on Climb checks even when rushed or threatened. Climbing claws double the cost of a walking locomotion system.
+
+",Appendage,x2,-,-,"Climb = /2  speed, reroll & keep better, can always take 10"
+SGD,55,Collapsible Construction,"A droid sometimes needs to be stowed in places where it usually would not fit. For example, a droid stowed in a smaller cargo space might surprise an enemy. The collapsible construction modification allows a droid to lower its Size category by one when it shuts down. The droid brain enters stand-by mode while it compacts itself into a smaller size. The droid can reactivate at any time as a standard action.
+
+",Accessory,2000xCF,10xCF,-,"lowers size category by 1, reactivate as stan"
+CR,193,Comlink,"Comlink: The droid is equipped with an integrated comlink system. It is otherwise identical to the standard comlink (see page 134).
+
+",Communications,250,0.1,-,"integrated comlink system, as standard comlink "
+CR,193,"Comlink, internal","Comlink: The droid is equipped with an integrated comlink system. It is otherwise identical to the standard com link (see page 134).
+
+",Communications,250,0.1,-,"integrated comlink system, as standard comlink "
+SGD,63,Command station,"On starships and at other installations requiring a large droid population, centralized droid command stations direct and control droids as they carry out their daily operations. A droid or an organic overseer can operate the droid command station. On large starships or major facilities, the station is manned at all hours. Smaller operations might use the station to issue commands and to provide automated oversight. Droids in the command station's pool must have a com link, an integrated comlink, or a remote processor in order to maintain contact with the station. Accessing the station requires the appropriate password or code cylinder. The station typically has Intelligence 14 (or the ship's Intelligence, whichever is higher) and a Will Defense of 15. 
+
+Standard droid command stations provide the following functions with the indicated Use Computer or Mechanics check: 
+
+• Issue a routine command to order a droid in the droid pool to carry out a specific task. If the droid is familiar with the task, or if the droid is trained in the associated skill, no skill check is required. If the command is unusual or highly specific, a Use Computer check might be required at the Gamemaster's discretion. The user gains a +10 equipment bonus to Use Computer, Persuasion, and Perception checks against the droid. Commands can be issued verbally or by keypad.
+• Coordinate multiple droids in the pool, enabling them to complete tasks more efficiently. With a DC 15 Use Computer check by the station operator, each droid aiding in a given task provides a +3 bonus instead of a +2 bonus and automatically succeeds on checks to aid another.
+• Locate any droid in the droid pool anywhere within the station's operational range-typically the vessel or facility where the station is installed. The target droid must be fitted with a tracking device or a restraining bolt that can be tracked by station's sensors or the facility's security network. A Use Computer check of DC 5 is sufficient to locate any such droid.
+• Receive detailed information about a droid's status, including current hit points, position on the condition track, and the operational condition of its systems and accessories. No check is required.
+• Reprogram a droid in the pool by remote or direct connection to the station (see page 192 of the Saga Edition core rulebook). 
+• Translate between Binary and common languages. No check is required.
+",Stations,10000,1000,Licensed,"Int 14, Will Def 15, see text for details on: issue routine command, coordinate, locate droid, receive details on droid status, reprogram droid, translate Binary"
+SGD,56,Communications Countermeasure System,"One of the first things enemy forces do after discovering a droid is prevent the droid from establishing communications to request rescue or call for help from its allies. A communications countermeasure system prevents jamming of a droid's communications. The system broadcasts signals on multiple frequencies to counteract interference. A droid with a communications countermeasure system gains a +5 equipment bonus to all Use Computer checks made to overcome communications jamming.
+
+",Communications,1000,3,Restricted,+5 Use Computer to overcome jamming
+SGD,56,Communications jammer,"When behind enemy lines, a droid takes every possible precaution to ensure that anyone who finds it is unable to call for help or alert others about the droid's presence. The communications jammer allows a droid to jam any comlink signal by interfering with a facility's communications systems or by directly jamming signals in the droid's general vicinity.
+
+A communications jammer grants a droid a +5 equipment bonus when making a Use Computer check to slice into a computer system and shut it down. The droid also gets the +5 equipment bonus to maintain that status if any slicers attempt to stop the jamming. Once the droid has successfully connected with the communications system and begun jamming, it can continue jamming the system until it disconnects or it is forced out.
+
+The signal jammer emits signals at multiple frequencies to interfere with any comlink signals within a 1- kilometer radius of the droid. The droid must make a DC 25 Use Computer check to successfully jam any incoming or outgoing com link signals.
+
+",Communications,5000,5,Military,"+5 Use Computer to slice & shut down computer, +5 to stop slicer's jamming, DC 25 Use Computer to jam incoming or outgoing comlinks w/in 1 km"
+SGD,56,Concealed Item,"This system enables the droid to have a weapon or a tool built into a hidden compartment in its body, an appendage, or its head. With this system, a weapon can also be camouflaged to look like a standard tool or appendage. For example, an arm can hide a blaster rifle, or a beam cutter might actually be a blaster pistol. Typically, the size of the appendage must be similar to the size of the concealed weapon or tool. If the item is fully concealed by the droid's armor or outer covering, it cannot be detected by visual observation alone. If a weapon is not fully concealed and portions are visible, such as a muzzle or blade, then when being searched for weapons the droid gains a +5 bonus to Stealth checks to conceal the weapon, plus any weapon size modifier that applies (see page 72 of the Saga Edition core rulebook). The droid also gains a + 10 bonus to Deception checks to create Deceptive Appearances with regards to the concealed item.
+
+The cost of concealing a weapon or a tool equals the base cost of the item plus the cost of the appendage and/or internal storage compartment x 2. The Gamemaster can increase the cost multiplier to account for complex or unusual installations. Deploying a fully concealed weapon is a swift action, and it is subject to the same bonuses and penalties as drawing a weapon.
+
+",Accessory,see text,App+weapon,Restricted,"+5 Stealth to conceal plus size modifiers, +10 Deception to create Deceptive Appearances"
+SGD,56,Courier compartments,"Droids are sometimes used as messengers to deliver important messages and items across the galaxy. To protect items entrusted into their care, these droids can have hidden courier compartments installed in their chassis. Such compartments are also favorites of smugglers who own droids. A droid with a courier compartment might walk right past a starport inspection team that is on the way to tear its master's ship apart.
+
+Courier compartments can be installed in four locations within a droid. A courier compartment in the torso can hold an item that is 3 sizes smaller than the droid's size. A compartment in the arm or leg can hold an item that is 4 sizes smaller than the droid's size. A head compartment can hold an item that is 5 sizes smaller. Detecting a courier compartment requires a successful Perception check with a DC equal to the droid's Will Defense +5.
+
+A common accessory in a courier compartment is a toaster, which destroys the contents of the compartment with a brief blast of plasma energy triggered by the droid. Installing a toaster into a courier compartment doubles the cost of the compartment.
+
+Example: S-3PO, a protocol droid in service to Count Czasiz, has a courier compartment hidden in its left arm. As a Medium droid, the compartment can an hold item of up to Fine size, so it can hold the skifter sabacc card the Count needs to guarantee his next win.
+
+",Accessory,200,2xCF,-,"hold an item 3 sizes smaller than droid's torso, 4 leg/arm, 5 head, Perception to detect with DC = droid's Will Def +5"
+SGD,56,Credit reader,"Interplanetary banks and crime lords have one common interest: They need to know how much money a client has before they do business. Whether a line of credit or hard currency, a credit reader determines whether a target's credits are real or if a line of credit exists for that being. The credit reader gives the droid a +5 bonus to any Perception check against any Deception check made to forge credit accounts or financial documents. The droid can also instantly count any sum of hard credits presented to it as a free action.
+
+",Accessory,50,1,Licensed,"+5 Perception against Deception of a forgery, can count hard credits as a free action"
+CR,196,Darkvision,"Darkvision: The droid with darkvision ignores concealment (including total concealment) from darkness.
+
+",Sensors,150,1.5,-,"+2 Perception, low-light vision, ignores concealment (including total) from darkness"
+CR,193,Diagnostics Package,"Some droids are equipped to perform diagnostics, either as an aid to a technician or as a general safety feature. The diagnostic package gives a droid a +2 equipment bonus on Mechanics checks to diagnose problems.
+
+",Accessory,250,4,-,+2 on Mechanics checks to diagnose problems
+CR,192,Downloading and Restoring Memory,"Unlike organic beings, droids have a form of mechanical immortality: If a droid's programming is saved to a computer system, and a new chassis and droid brain can be bought or found, others can attempt to load its memory into the new droid and reactivate the droid.
+
+A successful Use Computer check is required to transfer a droid's programming into a new chassis. The DC for the Use Computer check depends on the type of new chassis being used: 
+
+Same model  DC 20
+Different model, same degree DC 25
+Different model, different degree DC 35
+
+Each time the transfer is attempted, the droid must make a DC 15 Intelligence check. A failed check indicates that the droid's memory suffers corruption: a permanent reduction of 1d6 Intelligence points. The corrupted programming can't be repaired; if the droid's Intelligence modifier decreases because of corruption, the droid's trained skills must be reduced accordingly.
+
+The droid also loses access to feats that have an Intelligence prerequisite higher than the droid's new Intelligence score. A droid successfully transferred into another droid of the same model resumes functioning as it was before the transfer, retaining all ability scores, class levels, skills, feats, and talents.
+
+A droid successfully transferred into a different model adopts the Strength and Dexterity of the new model but keeps its previous Intelligence, Wisdom, and Charisma scores. The droid retains its trained skills, although skill modifiers based on Strength and Dexterity might need adjusting. Finally, the droid loses one class level (including all associated talents and feats) as it has to reprogram and adapt its memory and sensory inputs for the new chassis.
+
+",Reprogramming,,,,See page 192
+CR,192,Droid caller,"Droid Caller: The droid caller is a handheld transmitter weighing 0.2 kg. It transmits a signal to any droid equipped with a restraining bolt. The droid caller overrides a droid's motor function and impels it toward the caller for as long as the device is activated.
+
+A droid with a heuristic processor fitted with a restraining bolt can resist the droid caller with a successful DC 20 Charisma check. If successful, that droid can't be affected by that specific droid caller for 24 hours. 
+
+",Communications,10,0.2,-,"Summons droid with restraining bolt, resist with DC20 CHA to be immune to the caller for 24h"
+SGD,56,Droid oil bath,"Droids look forward to an oil bath after a long period of work. This standard maintenance procedure lubricates the droid's servos and joints, allowing the droid to move as if it has just come off the assembly line. An oil bath is recommended at least once a week for a droid working in a harsh environment, and once a month for a droid working in a temperate climate or on board a ship. A droid immersed in an oil bath for at least 30 minutes can activate a second wind, even if it has already done so that day. The price of an oil bath depends on the size of the droid: small droids and smaller-100 credits; medium droids-1,000 credits; large droids-5,000 credits; huge droids and larger-10,000 credits.
+
+",Accessory,500,600xCF,-,if in at least 30 min can activate 2nd Wind
+SGD,53,Droid remote control,"Droid Remote Control (SGtD): An advanced version of the restraining bolt system (see page 191 of the Saga Edition core rulebook), the droid remote control allows the owner to use a droid caller to move the droid using its own locomotion system. The droid cannot be compelled to use any of its other systems or possessions. It simply moves as directed at one-half its speed.
+
+",Processors,500,0.5,-,droid caller to move droid using its own locomotion at half spd
+SGD,64,Droid Socket,"Designed exclusively for astromech droids, the droid socket serves as a station combining copilot, systems monitoring, astrogation, and damage-control operations for minimally crewed craft.
+
+Droid sockets are featured on many snub fighters, the occasional shuttle, and a few airspeeders. They generally must be designed and installed as original equipment, although savvy techs can build their own or transplant one onto a ship that does not normally carry a socket.
+
+Standard droid sockets allow an astromech droid to perform the following tasks:
+• Pilot or copilot the ship or vehicle with the pilot's permission; if the pilot is unconscious, permission is not required.
+• Act as a system operator to raise, lower, or recharge shields (see page 172 of the Saga Edition core rulebook).
+• Act as an engineer to reroute power (see page 172 of the Saga Edition core rulebook).
+• Make limited Mechanics checks to jury-rig or otherwise repair a ship's systems as determined by the Gamemaster.
+• Make Use Computer checks through the ship's system and built-in scomp link.
+• Operate the communications system and sensors.
+• Input hyperspace jump coordinates from an astrogation buffer and control the hyperdrive with the Use Computer skill, if the ship has a hyperdrive.
+• Operate pilot and droid ejection system-with the pilot's express permission. The droid ejection system fires the droid out of the socket and away from the ship at speed 12.
+
+Standard prohibited actions and systems (can be overridden by the pilot):
+• Weapons activation and firing.
+• Jumping to hyperspace without approval.
+
+Optional systems that might not be found on every ship include:
+• Astromech self-loading system, such as on the Naboo N-1 starfighter.
+
+",Stations,10000*,1000,Military,"*cost usually included in cost of vehicle, see text for more on: pilot or copilot, system operator, engineer, jury-rig/repair, Use Computer checks, communications/sensors, input hyperdrive coordinates, operate ejection system, prohibited actions, optional self-loading system"
+SGD,57,Earphone binary-to-basic translator,"Binary is the primary language of droids. This translator unit is installed on a droid's Basic-output jack, a standard jack found on most droids that enables them to connect to a terminal or a data pad and to express themselves in written Basic. The translator converts audible Binary into audible Basic, transmitting the spoken words to an earphone receiver. The less expensive version requires a large headphone set, while the more expensive version transmits to an earbud receiver. Detecting the earbud requires a Perception check of DC 20.
+
+",Accessory,20,0.5,-,"converts audible Binary to audible Basic, Perception DC 20 to detect"
+SGD,57,Electric defense grid,"Most combat droids are effective at using blasters and other ranged weapons. Some models, however, fail miserably at melee combat and are quickly dispatched by enemies that gain the upper hand in close quarters. To improve a droid's melee defenses, an electric defense grid can be installed either on top of or as part of the droid's armor or outer shell. Whenever a droid with an electric defense grid is damaged by a melee attack, the attacker automatically takes 5 points of energy damage. Melee weapons that rely on energy to cause damage, such as lightsabers, are immune to the effect of the electric defense grid.
+
+",Accessory,3000xCF,100xCF,Restricted,"if damaged by melee atk attacker takes 5 dam, energy melee weapons ignore the effect"
+CR,139,Electroshock probe,,Appendage,,,,tool mount; 1d8 ion damage
+SGD,57,Emergency oxygen supply,"This accessory is installed on search-and - rescue droids sent to recover pi lots who bailout during combat. The small oxygen tank attached to the droid's torso provides enough oxygen for a creature of Medium size for 30 minutes. The tank can be used to recharge a vacsuit's supply, or the oxygen can be administered through a breath mask attached to the tank. Connecting the supply to a vacsuit is a swift action. Securing the breath mask is a standard action.
+
+",Accessory,200,20,-,"Med size creature for 30 min, connect as swif & secure as stan"
+CR,189,Exclusive Locomotion System,"Exclusive Locomotion System: The droid must spend a move action to engage or disengage this locomotion system. While the system is engaged, the droid can only use the move and run actions.
+
+",Locomotion,x0.1,x1,-,"move action to engage system, enabled = can only move, disengaged = cannot move"
+CR,189,Extra Legs,"Walking droids are usually bipedal, but a walking droid can be built with three or more legs (usually four) to grant the droid extra stability and carrying capacity. This doubles the cost of the walking locomotion system, but the droid's carrying capacity is 50% higher than that of a bipedal droid of the same Strength. In addition, the droid gains a +5 stability bonus on checks to resist attempts to knock it prone.
+
+",Appendage,x2,-,-,"+50% carry, +5 stability to resist getting knocked prone"
+CR,188,Flying,"Flying Droids: Flying droids use engines of some kind to travel more or less wherever they please. They are not hampered by any type of terrain, but tend to be the most expensive.
+
+",Locomotion,200xCFxSp²,-,-,Speed: F-S: 9 M: 12 L-C: 12
+CR,139,Fusion cutter,,Appendage,,,,tool mount; 2d6 energy
+SGD,52,Gyroscopic stabilizers,"Using an integrated system of gyroscopes, hydraulics, and high-speed processing, this system gives a droid greater stability. The droid gains a +5 stability bonus to checks and defenses to resist attempts to knock it prone. This bonus stacks with the bonus provided by extra legs (see page 189 of the Saga Edition core rulebook).
+
+",Locomotion,2xCFxSp²,4xCF,-,"+5 stability to being knocked prone, stacks with bonus from extra legs"
+CR,190,Hand,"Hand: A droid is considered to have a true hand as its gripping appendage includes at least three digits, one of which is opposable. Factory-model 3PO Series protocol droids and Baktoid Combat Automata battle droids come equipped with hands.
+
+",Appendage,50xCF,(5xCF),-,true hand as its gripping appendage
+CR,193,Hardened Systems x2,"Droids of Large or greater size can be designed to have internal armor and redundant systems that enable it to continue functioning despite heavy damage. This is represented by a multiplier that increases the bonus hit points and damage threshold based on the droid's size. For example, a Large droid with hardened systems x3 would have +30 hit points and a + 15 bonus to its damage threshold instead of the usual + 10 hit points and +5 bonus to its damage threshold.
+
+",Hardened Systems,1000xCF,(100xCF),Military,Multiplies HP/Threshold based on droid size
+CR,193,Hardened Systems x3,"Droids of Large or greater size can be designed to have internal armor and redundant systems that enable it to continue functioning despite heavy damage. This is represented by a multiplier that increases the bonus hit points and damage threshold based on the droid's size. For example, a Large droid with hardened systems x3 would have +30 hit points and a + 15 bonus to its damage threshold instead of the usual + 10 hit points and +5 bonus to its damage threshold.
+
+",Hardened Systems,2500xCF,[250xCF),Military,Multiplies HP/Threshold based on droid size
+CR,193,Hardened Systems x4,"Droids of Large or greater size can be designed to have internal armor and redundant systems that enable it to continue functioning despite heavy damage. This is represented by a multiplier that increases the bonus hit points and damage threshold based on the droid's size. For example, a Large droid with hardened systems x3 would have +30 hit points and a + 15 bonus to its damage threshold instead of the usual + 10 hit points and +5 bonus to its damage threshold.
+
+",Hardened Systems,4000xCF,(400xCF),Military,Multiplies HP/Threshold based on droid size
+CR,193,Hardened Systems x5,"Droids of Large or greater size can be designed to have internal armor and redundant systems that enable it to continue functioning despite heavy damage. This is represented by a multiplier that increases the bonus hit points and damage threshold based on the droid's size. For example, a Large droid with hardened systems x3 would have +30 hit points and a + 15 bonus to its damage threshold instead of the usual + 10 hit points and +5 bonus to its damage threshold.
+
+",Hardened Systems,6250xCF,(650xCF),Military,Multiplies HP/Threshold based on droid size
+CR,190,Heuristic Processor,"Heuristic Processor: This type of processor allows a droid to learn by doing, usually without instruction. The droid is able to reason through several potential solutions to tasks and formulate the best approach. Because of this, a droid with a heuristic processor may use skills untrained, just like any other character. Similarly, the droid can wield a weapon even if it is not proficient in its use (but still takes the normal -5 penalty on attack rolls).
+
+In addition, a droid with a heuristic processor can creatively interpret its instructions, allowing it to complete tasks in a manner that it deems appropriate. A heuristic processor allows a droid to work around its behavioral inhibitors as long as it can justify a given action. For example, a noncombat droid with a heuristic processor can attack and even harm sentient living being as long as it believes that doing so will ultimately save more sentient living beings from harm.
+
+Over time, a droid equipped with a heuristic processor develops a unique personality based on experience. Because of this, memory wipes and restraining bolts are commonly used to ensure that a heuristic processor doesn't allow a droid to stray too far from its intended purpose. Still, some progressive masters actually encourage their droids to break their programming, trusting the droid's judgment to make independent decisions without taking advantage of the situation.
+
+",Processors,2000,5,-,Allows a droid to behave like a normal character would
+SGD,53,Hidden core,"Hidden Core (SGtD): The droid has a concealed back-up copy of its personality and the data, skills, and memories it regards as critical to its mission or operation. The copy can be concealed within the droid's main processor or be installed as a hidden secondary data store elsewhere within the droid. The backup restores itself 1d6 days after a memory wipe with a successful DC 20 Use Computer check (roll 1d20+ 10, or 1d20+ the droid's current Use Computer skill modifier, whichever is greater). If unsuccessful, the core tries to restore itself again every 1d6 days. Discovering a hidden core requires a Use Computer check against the droid's Will Defense. The character making the Use Computer check must state that he or she is looking for a hidden core or for anything suspicious. For double the standard cost of a hidden core, the core's installer can automatically provide a Will Defense of 30 for this check.
+
+",Processors,200,1 or -,Restricted,"restores personality 1d6 days after memory wipe DC 20 use Computer, tries gain 1d6 days later on failure, for double the cost for Will Def 30"
+SGD,57,Hidden holster,"Some fourth-degree droids lack built-in weapons attached directly to the droids' appendages. This attachment gives a droid access to a weapon without having to visibly carry it. Installed in a droid's leg, the holster can hold a weapon on size category smaller than the droid, or smaller. As a free action, the droid can activate the holster, which opens up, providing access to the weapon. The hidden holster provides the benefit of the Quick Draw feat with whatever weapon the droid is keeping in the holster-the droid can draw or holster the weapon as a swift action. To gain this benefit, the droid must have the feat's + 1 base attack bonus prerequisite.
+
+",Accessory,500xCF,2xCF,Licensed,free to activate& acts as Quick Draw (draw or holster as swif) if has BAB +1
+SGD,57,High-Speed Cutting Torch and Welding System,"A droid can be equipped with a powerful cutting torch and a welding system for use in repair operations and for cutting materials, doors, or other items. This bulky and heavy device can be installed only on droids of Medium size or larger. The precision welder can be used for small repairs and for large construction welds, typically in half the time required by a normal welding unit. The cutting torch has a range of 1 square and deals 4d10 damage. When in contact with an object for two or more consecutive rounds, the torch also ignores 5 points of DR and reduces the object's damage threshold by 10 points.
+
+",Accessory,2500,500,Licensed,"only on Med or larger, half time of regular welding, range of 1 sq & 4d10 dam, for 2 or more consecutive rounds ignores 5 pts of DR & reduces thresh by 10"
+SGD,57,Holographic game system,"In spite of all the utilitarian functions that a droid can perform, owners might want to use their droids for entertainment. A holographic game system provides fifteen of the galaxy's more popular games, including dejarik and sabacc. The droid can serve as its master's opponent, or it can run the game so its master can play with another being. The game is projected through the droid's holoprojector (sold separately) and does not require a solid surface for game play. The game-system processor is sufficiently advanced to allow a player to interact with the board as if he or she is actually picking up the holographic playing pieces. The game system is adaptable, allowing ten additional games to be added to its database with a successful DC 15 Use Computer check.
+
+",Accessory,300,3,-,"fifteen of the galaxy's more popular games, including dejarik and sabacc"
+SGD,60,Holographic image disguiser,"The holographic image disguiser hides a droid's true appearance. A central processor installed in the droid's chassis coordinates several small, full-color, high-resolution holoprojectors installed at various points on the droid's body. The disguise r's processor synchronizes the holographic image with the droid's movements and its vocabulator, making the disguise particularly lifelike. The basic model is essentially a standard holoshroud, granting the droid a + 10 equipment bonus to Deception checks using Deceptive Appearance (see page 64 of the Saga Edition core rulebook). An advanced model, for double the price, includes sensor nodes that track a number of other factors, such as ambient temperature and weather conditions, making the image react to those variables. The advanced model allows the droid to disguise its appearance as a full-round action at no penalty.
+
+",Accessory,20000xCF,20xCF,Restricted,"like standard holoshroud, +10 Deception for Deceptive Appearance, advanced model double the price & activate as full"
+CR,188,Hovering,"Hovering Droids: Hovering droids use repulsorlift technology to float slowly above the ground (within 3 meters). They ignore the penalties of difficult terrain.
+
+",Locomotion,100xCFxSp²,-,-,Speed: F-S: 6 M: 6 L-C: 6
+SGD,60,ID Dodge,"Some automated security systems check biometric data before granting access to an area. Droids cannot provide retinal scans, fingerprints, or other unique biological features. The 10 dodge simulates such information, allowing a droid to access secure areas. This accessory allows the droid to use its Deception check instead of a Use Computer check on any security device that requires organic biometric identification.
+
+",Accessory,5000,1,Illegal,use Deception instead of Use Computer that requires biometric ID
+SGD,60,Improved coordination circuitry,"Droid brains work well in concert with each other, and improved coordination circuitry enhances this ability. This accessory links droids' skill routines, allowing them to aid in tasks more effectively. Each circuit is keyed to a specific ski ll. When a droid with improved coordination circuitry aids another droid with the circuitry, the bonus increases to +4. A droid must be trained in the skill to gain the +4 bonus.
+
+",Accessory,1000,1,-,+4 aid another for droid with same circuitry & must be trained
+CR,196,Improved Sensor Package,"Improved Sensor Package: A droid with an improved sensor package gains a +2 equipment bonus on Perception checks. In addition, the droid gains low-light vision, ignoring concealment (but not total concealment) from darkness.
+
+",Sensors,200,2.5,-,"+2 Perception, low-light vision, ignores concealment (but not total) from darkness"
+CR,190,Instrument,"Instrument: Instruments are a step up from simple probes. They might be designed to accomplish specific tasks. For example, a droid with a hypodermic syringe as its sole appendage can use the syringe for its intended purpose, but otherwise can only push objects with it. A few instruments are actually designed to clamp, and can thus hold objects, but they are generally delicate. A droid using an instrument of this nature has a carrying capacity (see Encumbrance, page 140) as if its Strength score were one-quarter of its actual value.
+
+",Appendage,5xCF,(1xCF),-,"Simple tasks, carry STR 1/4, push objects"
+SGD,60,Interference generator,"This accessory is a favorite of nobles who want to keep their conversations private. A droid with an interference generator emits a low-frequency sound that interferes with any listening equipment such as bugs, microphones, or other audio recording devices. The deluxe version also interferes with video and holographic recording devices. The generator masks everything in the squares adjacent to the droid. Anyone eavesdropping or reviewing recordings of targets protected by an interference generator must make a DC 30 Perception or Use Computer check to pick up even scattered words and phrases.
+
+",Accessory,2500,1,Restricted,DC 30 perception or Use Computer for each sq around droid
+SGD,60,Internal defenses,"A droid with internal defenses has built-in defenses that operate independently of the droid. Anyone opening the droid's maintenance or access panels without the droid's permission receives an electric shock as a ld20+5 attack against the character's Fortitude Defense. If the attack succeeds, the character receives damage equal to 1d8 + half the droid's heroic level. The droid is unharmed. The system remains active until disabled (Mechanics DC 25, 1 hour of work) or is depleted after 10 attacks.
+
+",Accessory,10xCF,1xCF,Licensed,"opening access or maintenance panels = 1d20+5 atk v. Fort Def fro dam = 1d8+1/2 HL, 10 attacks"
+SGD,60,Internal grapple gun,"When a droid needs to reach an inaccessible area, an internal grapple gun can be indispensible. The gun fires a magnetic grapple hook with an ultra-thin cord. The internal compartment holds 15 meters (10 squares) of cord, and an external magazine can hold up to 100 meters of cord. The cord can be detached from the droid as a free action. Firing the grapple is a standard action.
+
+",Accessory,100xCF,2xCF,-,"15m or 10 sq of cord internally or 100m externally, fire as stan, detach as free"
+CR,194,Internal Storage,"The droid has a certain amount of open space in its chassis, allowing for the addition of new internal components or compartments for carried items. Droids of Tiny size or smaller cannot have internal storage.
+
+For each 50 credits spent, the droid can carry 1 kg of material or equipment in internal storage. A droid's size determines the maximum weight of items stored in internal storage, as noted below:
+
+DROID SIZE MAXIMUM WEIGHT LIMIT
+Small 5 kg
+Medium 10 kg
+Large 20 kg
+Huge 50 kg
+Gargantuan 500 kg
+Colossal 5,000 kg
+
+see also Spring-Loaded Mechanism
+
+",Accessory,50,-,-,compartments for carried items.
+CR,189,Jump servos,"Repulsorlift-assisted jump servos can be added to any droid with a walking locomotion system. Jump servos grant the droid the ability to treat all jumps as running jumps, even without the normal running start (see the Jump skill, page 68). In addition, the droid may reroll a failed Jump check (keeping the better result) and take 10 on Jump checks even when rushed or threatened. Jump servos double the cost of a walking locomotion system.
+
+",Appendage,x2,(2xCF),-,"Standing jumps are treated as running jumps, reroll & keep better, can always take 10"
+CR,139,Laser welder,,Appendage,,,,tool mount; 1d8 energy
+CR,189,Limited Locomotion System,"Limited Locomotion System: The droid can only use this locomotion system for a limited time. After using this locomotion system for 1 round, the droid must make an Endurance check (DC 10, + 1 per check after the first) or it cannot use that locomotion system again for 1 minute (10 rounds).
+
+",Locomotion,x0.1,x1,-,"Endurance DC10+1 per round to move an additional round, must wait 10 rounds (1 min) after failure"
+CR,195,Locked access,"A droid with locked access has its shutdown switch secured or located internally, preventing it from being shut off by an opponent. The droid must be disabled or otherwise rendered helpless before it can be shut down. 
+
+",Processors,50,-, Licensed,Cannot be shut down by an opponent
+CR,189,Magnetic Feet,"Electromagnetic grippers enable a droid to cling to a ship's hull, even when the ship is moving at high speed. Only droids with walking, wheeled, or tracked locomotion can have magnetic feet.
+
+",Appendage,x2,-,-,Stick to ships hull
+SGD,52,Magnetic hands,"Magnetic feet are a common accessory. Droids specializing in extra-vehicular activities are often equipped with them. Magnetic hands function like magnetic feet. When used in concert with magnetic fee t, they provide a +2 bonus to any Climb checks made while maneuvering around a hull in space, as well as a +5 bonus to defenses against any attempt to knock the droid off the hull. When magnetic hands are activated, the droid cannot make attacks or use anything requiring its hands, including weapons.
+
+",Appendage,ACx2,2xCF,-,+2 Climb & +5 v. being knocked off hull
+CR,192,Memory Wipes,"Although intelligent droids consider it frightful and ghoulish and heroic droids regard it as a fate worse than death, the memory wipe is a fact of existence for most droids. Its primary purpose is to eradicate personality quirks that distinguish an independent droid.
+
+Wiping a droid's memory requires a successful Use Computer check against the droid's Will Defense. The droid must be shut down to perform the memory wipe.
+
+A memory wipe erases one class level per minute. A complete memory wipe reduces a droid to a basic model with no personality quirks and no class abilities. For example, a 3PO Series protocol droid that had been a 1st-level non heroic/4th-level scoundrel becomes a 1st-level non heroic basic model after a 4-minute memory wipe, losing its scoundrel levels and all the corresponding benefits.
+
+",Reprogramming,,,,"Use C. vs WILLED, 1 lvl per minute"
+SGD,60,Mesh tape dispenser,"Mounted on an appendage, a mesh tape dispenser enables a droid to quickly apply mesh tape to anything within reach of its manipulator (usually an adjacent square). In addition to its more conventional uses, an installed mesh tape dispenser can be used by a droid to entangle an adjacent enemy. With a successful melee attack, the droid can hinder either the target's arms or its leg s. If the target's arms are hindered, it incurs a -2 penalty to all attacks and Dexterity-based skill checks. If the target's legs are hindered, its speed is reduced by 2 squares, and it cannot run. If the droid has the Pin feat and succeeds at an opposed grapple check, the enemy is considered pinned until the tape is removed (instead of until the start of the droid's next turn).
+
+",Accessory,10xCF,5,-,"can hinder adjacent w/normal unarmed atk for -2 atk & Dex skills or -2 spd & no run, with Pin & successful grapple enemy pinned until tape is removed"
+SGD,60,Micro shield,"The force shield is a tool that prevents incoming attacks from hitting and damaging the wielder. Attached to one of the droid's appendages, the shield is composed of a central hub with two wide arcs mounted on struts above and below the hub. When inactive, the arcs rest against the hub in the shape of a large humanoid eye. When the droid activates the unit as a swift action, the arcs slide away from the hub, activating a translucent energy shield that provides a + 1 equipment bonus to the user's Reflex Defense. The force shield is originally designed to be installed on a droid's arm, but a handheld version that runs on a single energy cell is available for 400 credits. The energy cell provides enough power to run the shield continuously for 1 hour.
+
+",Accessory,600xCF,10xCF,Licensed,"activate as swif, +1 Ref Def, handheld version 400 credits, can run for 1 hour"
+SGD,60,Multifunction apparatus,"Each type of droid appendage performs one specific function. The multifunction apparatus, however, al lows up to three tools or weapons to be attached to a single appendage. The multifunction apparatus is commonly used to mount multiple weapons. Only one tool or weapon can be active at a time, but switching to a different tool or weapon requires only a swift action.
+
+",Accessory,80xCF,15xCF,-,"allows 3 tools or weapons on single appendage, switch between as swif"
+SGD,60,Multispectrum searchlight,"This handheld or installed accessory is a powerful spotlight that shines visible, infrared, or ultraviolet light. It has a 6-km range and is powered by the droid's own internal power supply. Droids able to see the projected light gain a +2 equipment bonus to Perception checks to Search and Notice Targets (see page 70 of the Saga Edition core rulebook) and to other situations in which the Gamemaster judges that the light provides an advantage. This bonus stacks with bonuses granted by helmet packages and improved sensor packages. 
+
+The light can also be used to blind targets in a 6-square cone. All targets within the cone receive a -10 penalty to Stealth checks. As a standard action, the droid makes a ranged attack against each target's Fortitude Defense. If the attack is successful, the target receives a -5 penalty to attack rolls, Perception checks, Pilot checks, and other skill checks until the end of the droid's next turn. If the attack does not exceed a target's Fortitude Defense, the target receives a -2 penalty instead. This accessory can be used only by droids of Tiny size or larger.
+
+",Accessory,100,2,-,"6km range, +2 Perception to Search & Notice Targets, can blind in a 6sq cone (see text)"
+SGD,53,Personality downloader,"Personality Downloader (SGtD): Highly illegal, a personality down loader is a custom-built electronic unit designed to quickly suppress an existing droid's personality with a new one. Thieves, pirates, smugglers, infiltrators, and other scoundrels occasionally use a personality down loader to take control of an enemy's droid for their own use. Using the device requires the attacker to plug the personality downloader into one of the droid's data ports. Droids with locked access or without accessible data ports must be coaxed into complying. Once the personality down loader is attached, the user makes a Use Computer check opposed by the droid's Will Defense. If the check is successful, the personality copies itself to the droid's processor and suppresses the existing personality in 5 minutes. The process is imperfect, however. To maintain control, every 10 minutes the new personality must make another Use Computer check opposed by the original personality. The invading personality continues to use the attacking character's Use Computer skill, even though the actual character is not actively involved after the initial download is successful.
+
+",Processors,custom,2+,Illegal,"cost usually 5000+, see SGD 53"
+CR,139,Power prybar,,Appendage,,,,tool mount; 1d8 bludgeoning
+CR,190,Probe,"Probe: Few droids have no actual manipulators. The bare minimum is a probe that can push or pull objects. 
+
+",Appendage,2xCF,(0.5xCF),-,push objects
+SGD,52,Projectile hand,"Fourth-degree droids are programmed for combat and security, but other droids can defend themselves as well. A popular modification is a projectile appendage, usually a hand on humanoid droids. When the projectile is activated, the hand flies toward the target. It is considered a nonlethal weapon. A droid might use a projectile hand in order to stun an aggressor or knock a blaster away rather than risking destruction in a blaster fight. 
+
+The basic package is a tension-spring device that costs 250 cred its to install. A projectile hand is considered to be a ranged simple weapon that deals 2d8 damage. Additionally, the projectile hand can be used to make a ranged disarm attempt against a target within 6 squares.
+
+",Appendage,ACx2,2xCF,Licensed,"tension-spring 250 credits, 2d8 dam as weapon, can be used for ranged disarm 6 sq away"
+SGD,52,"Quick-release coupling, appendage","Some droids require frequent changes of tools and equipment to carry out their designated tasks. A too l-sized quick-release mechanism allows a droid (or a mechanic) to swap a tool in two standard actions: one to detach the tool and one to attach another. Both the appendage and the tool must have quick-release couplings.
+
+The appendage-sized quick release mechanism allows a droid (or a mechanic) to swap an appendage in two full-round actions: one round to detach the appendage and one round to attach another. Both the appendage and the droid chassis must have quick-release couplings. A tool-sized quick-release coupling cannot be used with an appendage-sized coupling. Additionally, to swap out its own appendage or tool, a droid must have must have another appendage capable of carrying out the task, usually a hand or claw appendage of sufficient size, strength, and agility. A droid mechanic must also be capable of handling the weight of the tool or appendage (see the Droid Accessories tab les on page 58 and on page 194 of the Saga Edition core rulebook). Swapping appendages with a quick-release coup ling does not require a Mechanics check.
+
+",Appendage,50xCF,5xCF,-,2 full actions to swap with no Mechanics check
+SGD,52,"Quick-release coupling, tool","Some droids require frequent changes of tools and equipment to carry out their designated tasks. A too l-sized quick-release mechanism allows a droid (or a mechanic) to swap a tool in two standard actions: one to detach the tool and one to attach another. Both the appendage and the tool must have quick-release couplings.
+
+The appendage-sized quick release mechanism allows a droid (or a mechanic) to swap an appendage in two full-round actions: one round to detach the appendage and one round to attach another. Both the appendage and the droid chassis must have quick-release couplings. A tool-sized quick-release coupling cannot be used with an appendage-sized coupling. Additionally, to swap out its own appendage or tool, a droid must have must have another appendage capable of carrying out the task, usually a hand or claw appendage of sufficient size, strength, and agility. A droid mechanic must also be capable of handling the weight of the tool or appendage (see the Droid Accessories tab les on page 58 and on page 194 of the Saga Edition core rulebook). Swapping appendages with a quick-release coup ling does not require a Mechanics check.
+
+",Appendage,10xCF,2xCF,-,2 stan actions to swap with no Mechanics check
+SGD,61,Radiant heat element,"This accessory enables a droid to radiate heat from its torso, providing warmth necessary for a master's survival in the wilderness or in deep space. The heat can be adjusted to provide ambient warmth or to boil water and cook food on the droid's exterior. The heating element can also be used by the droid as a defensive tool. When the radiant heat element is on its highest setting, any character ending its turn in a square adjacent to the droid takes ld4 fire damage from the droid. The droid itself takes 1 point of damage from the heat each turn.
+
+",Accessory,200,20xCF,-,adjacent take 1d4 fire dam & droid takes 1 dam if used as weapon
+SGD,64,Recharge station,"Droid recharge stations are found anywhere droids are commonly used: starships, residences, starports, industrial facilities, and similar locations. Public recharge stations are available for a fee of 20 credits per recharge. Droids typically require 1 hour to recharge. The station is not self- powered, and must be linked to an outside power source. Droids also use recharge stations while waiting until their services are called upon. Recharge stations provide basic droid diagnostics with a DC 10 Use Computer check, revealing the droid's current hit points, position on the condition track, and the operational status of all systems, appendages, and tools. Aboard starships, droids parked in a recharge station are secured for travel. A recharge station can be universal for all droids up to a certain size-typically Small, Medium, or Large-or designed for a specific droid degree or model.
+
+",Stations,4000,500,-,"public use =  20 credits, 1 hour recharge, provides basic diagnostic Use Computer DC 10"
+SGD,53,Remote limb control,"A disassembled droid is usually not a threat. Most beings overlook a pile of droid parts on the floor and keep moving. This package allows a droid to voluntarily remove an arm or a hand and operate it as if it were still attached to the droid's body. 
+
+This equipment comes in basic and deluxe version s. The 1500-credit basic package enables one specified limb to operate on its own. The limb has a small repulsor unit inside it, allowing it to move (hover) up to 6 squares, and remains functional at a maximum range of 24 squares. While detached, the limb can perform any action it would normally be able to if attached to the droid. The 6,000-cred it deluxe package enables multiple limbs to be active at once. A droid can control a number of limbs equal to 1 + its Intelligence modifier (minimum 1).
+
+",Appendage,ACx2,-,Restricted,"limb can hover 6 sq & max range 24 sq & can perform any action it normally does, 1500 credit for 1 limb, 6000 credit for multiple limbs = 1 + Int mod"
+CR,191,"Remote Processor, 5000-km range","Remote Processor: The droid's processor isn't located in the droid; instead, the droid is actually a drone for a remote processor. The processor is equipped with a transmitter that allows a droid equipped with the appropriate remote receiver to operate as far away as 5 km (for the least expensive model) to as much as 5,000 km (for the most expensive model).
+
+The advantage of a remote processor is that it makes the droid much less expensive because it only needs a receiver instead of a local control system. The drawback is that the droid doesn't react as quickly as a droid with an internal processor, so it takes a -2 penalty to its Dexterity.
+
+",Processors,1000000,10000,Military,Controls drones with remote processor up to range away
+CR,191,"Remote Processor, 500-km range","Remote Processor: The droid's processor isn't located in the droid; instead, the droid is actually a drone for a remote processor. The processor is equipped with a transmitter that allows a droid equipped with the appropriate remote receiver to operate as far away as 5 km (for the least expensive model) to as much as 5,000 km (for the most expensive model).
+
+The advantage of a remote processor is that it makes the droid much less expensive because it only needs a receiver instead of a local control system. The drawback is that the droid doesn't react as quickly as a droid with an internal processor, so it takes a -2 penalty to its Dexterity.
+
+",Processors,100000,1000,Military,Controls drones with remote processor up to range away
+CR,191,"Remote Processor, 50-km range","Remote Processor: The droid's processor isn't located in the droid; instead, the droid is actually a drone for a remote processor. The processor is equipped with a transmitter that allows a droid equipped with the appropriate remote receiver to operate as far away as 5 km (for the least expensive model) to as much as 5,000 km (for the most expensive model).
+
+The advantage of a remote processor is that it makes the droid much less expensive because it only needs a receiver instead of a local control system. The drawback is that the droid doesn't react as quickly as a droid with an internal processor, so it takes a -2 penalty to its Dexterity.
+
+",Processors,10000,100,-,Controls drones with remote processor up to range away
+CR,191,"Remote Processor, 5-km range","Remote Processor: The droid's processor isn't located in the droid; instead, the droid is actually a drone for a remote processor. The processor is equipped with a transmitter that allows a droid equipped with the appropriate remote receiver to operate as far away as 5 km (for the least expensive model) to as much as 5,000 km (for the most expensive model).
+
+The advantage of a remote processor is that it makes the droid much less expensive because it only needs a receiver instead of a local control system. The drawback is that the droid doesn't react as quickly as a droid with an internal processor, so it takes a -2 penalty to its Dexterity.
+
+",Processors,1000,10,-,Controls drones with remote processor up to range away
+CR,191,Remote Receiver,"Remote Receiver: This unit allows a droid to receive instructions from a remote processor. Only droids without internal processors (such as Baktoid Combat Automata battle droids) can be fitted with remote receivers. A remote receiver can only be connected to one remote processor at a time. Changing the connection to a different remote processor requires a DC 20 Mechanics check and a tool kit.
+
+",Processors,-500,1,-,"Droid is a drone to remote processor, -2 DEX, remove with toolkit and DC20 mechanics check"
+SGD,61,Remote receiver jammer,"The portable remote receiver jammer is developed during the Clone Wars to scramble battle droid remote processor links at short range, rendering the droids use less. The jammer incorporates a backpack transmitter and a handheld computer controller. Remote receiver jammers have three significant weak nesses: They have an extremely short range; datalinks are notoriously difficult to disrupt; and many droids have backup processors. A remote receiver jammer can be activated as a standard action, and the jammer affects all droids with remote receivers and no backup processors. When the jammer is activated, the droid using the jammer makes a Use Computer check. At the start of any affected droid's turn, compare the results of the Use Computer check to the droid's Will Defense; if the Use Computer check is equal to or higher than the droid's Will Defense, the droid can take no actions and is flat-footed until the start of its next turn. The droid activating the jammer must activate it each turn, making a new Use Computer check each time.
+
+",Communications,2000,2,Military,"activate as stan, Use Computer v. Will Def & if higher droid can take no actions & is flat-footed, make new check each rnd"
+SGD,61,Remote receiver signal booster,"Droids that rely on a remote processor for instructions cannot stray too far from that processor without risking losing contact and becoming stranded. A remote receiver signal booster can prevent this loss of contact. The signal booster increases the receiver's reception strength, extending the range of a droid by 50%. A successful DC 30 Use Computer check made by the droid can further extend the range up to 100% for 1 hour.
+
+",Communications,500,2,Licensed,"extends range of receiver by 50%, Use Computer DC 30 by droid can extend range 100% 1 hour"
+SGD,53,Remote starship starter,"Remote Starship Starter (SGtD): Scoundrels have a habit of fleeing starports with the authorities on their heels. When a captain cannot leave a crew member back at the ship, a remote starship starter comes in handy. A droid equipped with this radio transmitter can signal the ship to begin the preflight processes; the ship transmits preflight diagnostics back to the droid as a free action. Although the droid is not able to operate the ship remotely, having the ship prepared for departure can save the crew vital minutes during an escape.
+
+",Processors,50,2,-,signals ship to begin preflight processes with preflight diagnostics sent back to droid
+SGD,61,Remote viewer,"The remote viewer is a small, se lf-contained visual and audio sensor attached to a micro-sized repulsorlift unit. Functioning as one of a droid's regular audio and visual sensors, the remote viewer can be externally mounted, concealed, or made to look like one of the droid's regular sensors. However, the droid can detach the unit and send it to inspect an area remotely. The viewer can travel up to 12 squares away from the droid, has a speed of 4, a Reflex Defense 18, a Fortitude Defense 12, and it runs for 30 minutes before needing to be recharged for 1 hour.
+
+",Accessory,1000,20,-,"viewer can travel 12 sq, spd 4, ref Def 18, Fort Def 12, runs 30 min before recharge 1 hour"
+SGD,61,Rental restraining bolt,"Some beings cannot afford to own a droid. The rental restraining bolt works like a standard bolt, except it also has a cred it reader. The user must deposit a specific number of credits to the credit reader on the restraining bolt to control the droid for a specified time. At the end of that time, the droid deactivates and does not reactivate until sufficient credits are again deposited.
+
+",Accessory,10,0.5,-,runs based on credits deposited
+CR,192,"Reprogramming, feat/talent package","A basic model droid comes with factory-preset skills and a certain set of trained skills, feats, and sometimes talents. These factory-presets are embedded in the droid's core programming and cannot be altered, but many droids have one or more trained skills left unassigned so that they can easily be programmed for their specific duties. Unassigned skills as well as feats and talents gained through level advancement can be altered through reprogramming.
+
+Reprogramming a droid requires a Use Computer check (DC = droid's Will Defense) and 30 minutes of uninterrupted work. Reprogramming feats and talents is more difficult, so you take a -5 penalty on your Use Computer check. Furthermore, feats and talents can only be reprogrammed if they are neither a requirement for any of the droid's prestige classes nor a prerequisite for any feat or talent the droid retains. As always, a droid must meet all prerequisites for any replacement feats or talents. A droid can only have talents he is eligible for based on his classes; thus, a droid with 5 levels in the soldier class could only be reprogrammed with 3 talents that can be taken by soldiers (soldier levels 1, 3, and 5). A droid with 5 levels of soldier and 3 levels of scoundrel could be reprogrammed with 3 soldier talents and 2 scoundrel talents. Reprogramming requires that the droid be shut down for the duration of the procedure (but see ""Droid Self-Reprogramming,"" below).
+
+To reprogram a skill, the programmer must be trained in that skill or purchase a skill package (100 credits). To reprogram a feat or talent, the programmer must either have that feat or talent or purchase a feat or talent package (1,000 credits).
+
+If the droid's owner is unable to do the reprogramming himself, he can hire a professional programmer to do the task for him. The standard cost of hiring a programmer is (droid's Will Defense squared) x 10 credits for a skill, or 10 times this amount for a feat or talent. This cost includes any necessary skill, feat, or talent packages.
+
+",Reprogramming,1000,-,-,"Use Computer, DC=WILLED, 30min, -5 penalty"
+CR,192,"Reprogramming, professional","A basic model droid comes with factory-preset skills and a certain set of trained skills, feats, and sometimes talents. These factory-presets are embedded in the droid's core programming and cannot be altered, but many droids have one or more trained skills left unassigned so that they can easily be programmed for their specific duties. Unassigned skills as well as feats and talents gained through level advancement can be altered through reprogramming.
+
+Reprogramming a droid requires a Use Computer check (DC = droid's Will Defense) and 30 minutes of uninterrupted work. Reprogramming feats and talents is more difficult, so you take a -5 penalty on your Use Computer check. Furthermore, feats and talents can only be reprogrammed if they are neither a requirement for any of the droid's prestige classes nor a prerequisite for any feat or talent the droid retains. As always, a droid must meet all prerequisites for any replacement feats or talents. A droid can only have talents he is eligible for based on his classes; thus, a droid with 5 levels in the soldier class could only be reprogrammed with 3 talents that can be taken by soldiers (soldier levels 1, 3, and 5). A droid with 5 levels of soldier and 3 levels of scoundrel could be reprogrammed with 3 soldier talents and 2 scoundrel talents. Reprogramming requires that the droid be shut down for the duration of the procedure (but see ""Droid Self-Reprogramming,"" below).
+
+To reprogram a skill, the programmer must be trained in that skill or purchase a skill package (100 credits). To reprogram a feat or talent, the programmer must either have that feat or talent or purchase a feat or talent package (1,000 credits).
+
+If the droid's owner is unable to do the reprogramming himself, he can hire a professional programmer to do the task for him. The standard cost of hiring a programmer is (droid's Will Defense squared) x 10 credits for a skill, or 10 times this amount for a feat or talent. This cost includes any necessary skill, feat, or talent packages.
+
+",Reprogramming,(WD²)x10,-,-,Need package
+CR,192,"Reprogramming, self","Droid Self-Reprogramming: A droid trained in the Use Computer skill may attempt to reprogram itself. However, the droid must have the appropriate skill, feat, or talent package to do so, and it takes a -5 penalty on its Use Computer skill check. A droid attempting to self-reprogram does not have to be shut down, but it is helpless and unable to take any actions until the attempt is completed.
+
+",Reprogramming,-,-,-,"Need package, Use Computer check at an additional -5 penalty."
+CR,192,"Reprogramming, skill package","A basic model droid comes with factory-preset skills and a certain set of trained skills, feats, and sometimes talents. These factory-presets are embedded in the droid's core programming and cannot be altered, but many droids have one or more trained skills left unassigned so that they can easily be programmed for their specific duties. Unassigned skills as well as feats and talents gained through level advancement can be altered through reprogramming.
+
+Reprogramming a droid requires a Use Computer check (DC = droid's Will Defense) and 30 minutes of uninterrupted work. Reprogramming feats and talents is more difficult, so you take a -5 penalty on your Use Computer check. Furthermore, feats and talents can only be reprogrammed if they are neither a requirement for any of the droid's prestige classes nor a prerequisite for any feat or talent the droid retains. As always, a droid must meet all prerequisites for any replacement feats or talents. A droid can only have talents he is eligible for based on his classes; thus, a droid with 5 levels in the soldier class could only be reprogrammed with 3 talents that can be taken by soldiers (soldier levels 1, 3, and 5). A droid with 5 levels of soldier and 3 levels of scoundrel could be reprogrammed with 3 soldier talents and 2 scoundrel talents. Reprogramming requires that the droid be shut down for the duration of the procedure (but see ""Droid Self-Reprogramming,"" below).
+
+To reprogram a skill, the programmer must be trained in that skill or purchase a skill package (100 credits). To reprogram a feat or talent, the programmer must either have that feat or talent or purchase a feat or talent package (1,000 credits).
+
+If the droid's owner is unable to do the reprogramming himself, he can hire a professional programmer to do the task for him. The standard cost of hiring a programmer is (droid's Will Defense squared) x 10 credits for a skill, or 10 times this amount for a feat or talent. This cost includes any necessary skill, feat, or talent packages.
+
+",Reprogramming,100,-,-,"Use Computer, DC=WILLED, 30min"
+SGD,62,Repulsorcam,"A repulsorcam is an audio and video recorder mounted on a tiny repulsorlift. The device can detach from a droid's chassis, float to where its droid desires, up to 12 squares away, and record events. The repulsorcam can record up to 2 hours of audio and video data to its own memory. The unit has a speed of 4, a Reflex Defense of 16, and a Fortitude Defense of 10. A sing le energy cell powers the repulsorcam for 4 hours, recharging when it reattaches to the specialized socket on the droid or when it lands on a separate recharging unit available for an additional 150 credits.
+
+",Accessory,1000,20,-,"travel 12 sq & record 2 hours, spd 4, Ref Def 16, Fort Def 10, 4 hours power, separate recharger 100 credits"
+CR,192,Restraining Bolt,"Restraining Bolt: A restraining bolt turns off a droid's motor impulse without actually shutting down the droid. The restraining bolt is activated with a handheld device called a droid caller (see below). Restraining bolts must be secured to specific locations on droids. Attaching or removing a restraining bolt is a full - round action and requires a DC 10 Mechanics check.
+
+A droid fitted with a restraining bolt can't upgrade or improve its skills (see Reprogramming, below). A droid with a heuristic processor can attempt to remove its own restraining bolt as a standard action with a successful DC 20 Charisma check followed by a successful DC 15 Mechanics check. A droid that fails the Charisma check can't attempt to remove the restraining bolt again until 24 hours pass.
+
+",Processors,5,-,-,"Turn off motor, DC10 Mech. to remove, self: DC20 CHA + DC15 Mech. Retry in 24h"
+CR,189,Restricted Locomotion System,"The cost of a droid's locomotion system can be reduced by placing limitations on its use. The two types of restrictions are exclusive and limited. A restricted locomotion system costs only one-tenth the normal cost.
+
+Exclusive Locomotion System: The droid must spend a move action to engage or disengage this locomotion system. While the system is engaged, the droid can only use the move and run actions.
+
+Limited Locomotion System: The droid can only use this locomotion system for a limited time. After using this locomotion system for 1 round, the droid must make an Endurance check (DC 10, + 1 per check after the first) or it cannot use that locomotion system again for 1 minute (10 rounds).
+
+",Locomotion,x0.1,x1,-,Restricted system costs 1/10 of the cost and includes exclusive or limited locomotion
+SGD,53,Rocket arm,"This illegal modification is derived from the nonlethal projectile appendage security systems available for noncombat droids. A rocket arm is essentially a hollowed-out droid arm in which the servo control has been replaced by a short-range rocket engine and fuel. The arm's fine control is eliminated, but the droid can point its arm at a target and fire. The arm detaches and flies at the target, detonating the remaining fuel on impact. Rocket arms are unguided projectiles without targeting computers.
+
+This illegal modification costs 2,000 cred its and installation requires a DC 20 Mechanics check. Failure on the Mechanics check means the rocket might not detach properly when fired, exploding and dealing its damage to the droid and all targets in a 1-square splash radius. The rocket arm is considered to be a ranged heavy weapon that deals 3d8 points of damage upon detonation, with a 1-square splash.
+
+",Appendage,ACx4,2xCF,Illegal,"2000 credits to install & DC 20, considered heavy ranged weapon 3d8 dam & 1sq splash"
+SGD,62,Scomp link,"A scomp link is a universal data port mounted on an extendable arm, available for many types of droids. Astromech droids have them as standard equipment. Scomp link ports are standard input/output links, found on computer systems and starships throughout the galaxy. Using a scomp link gives a droid a +2 equipment bonus to Use Computer checks to Access Information (see pages 75-76 of the Saga Edition co re rulebook) when the computer's attitude toward it is helpful or friendly.
+
+",Accessory,100,1,-,+2 Use Computer to Access Information if attitude is friendly or helpful
+CR,196,Secondary Battery,"A secondary battery (sometimes called a redundant battery or backup battery) provides the droid with additional power, allowing it to operate for a longer duration. The secondary battery enables the droid to remain operational for 200 hours (instead of the normal 100 hours) before it needs to shut down and recharge.
+
+",Accessory,400,4,-,Double uptime
+CR,196,Self-destruct system,"To prevent capture and analysis, the droid comes equipped with a powerful explosive. The charge destroys the droid from within (no attack required), and a droid destroyed in this fashion cannot be repaired or salvaged. The explosion is treated as an area attack (+5 attack bonus). The damage to all targets with the area is determined by the droid's size (see below), and the burst radius of the explosion is 2 squares per 4d6 of damage (minimum 2 squares). Droids of Tiny size and smaller do not deal collateral damage when they self-destruct.
+
+DROID SIZE DAMAGE
+Small 4d6
+Medium 6d6
+Large 8d6
+Huge 10d6
+Gargantuan or larger 20d6
+",Accessory,M.Dx20,(MaxDamx01),Restricted,"Area ATK +5, damage based on droid size"
+SGD,62,Sensor booster,"Sensor Booster (SGtD): Probe droids try to coax a little more range out of their sensor equipment to get that extra amount of information about the area they are scanning. A sensor booster is a droid enhancement that extends the range of its sensors to a maximum of 2 kilometers, if the droid has a sensor pack installed. 
+
+",Sensors,200,5,-,extends sensors range 2km
+SGD,62,Sensor countermeasure package,"Sensor Countermeasure Package (SGtD): Droids operating covertly must avoid drawing attention to themselves. The sensor countermeasure package broadcasts signals that interfere with incoming sensor signals. A droid equipped with the sensor countermeasure package can make a Use Computer check to avoid being detected. If the Use Computer check equals or exceeds a Perception check made to detect the droid through any form of nonvisual sensor equipment, the droid remains undetected.
+
+",Sensors,1000,2,-,make Use Computer checks to avoid being detected if check exceeds nonvisual sensor check
+SGD,62,Shield expansion module,"This accessory enables a droid with a shield generator installed to expand its own shield by a single square, allowing an adjacent Medium or smaller ally to benefit from the droid's SR. Activating the expansion module is a standard action, and the droid chooses the single adjacent affected square; any creature in that square uses the droid's SR as long as it remains in that square and the droid remains adjacent to that square. Only droids of Small or larger size can use this accessory. Droids of Medium or smaller size can install only one shield expansion module. Droids of Large or larger size can install up to two modules. A second module protects an additional square.
+
+",Shield Generator,50xSRxCF,2xSRxCF,Military,"expand shield by 1 single adjacent sq to for Med or smaller adjacent, only droids Small or larger, Large or larger can have 2"
+CR,196,Shield Generator,"The droid is fitted with a deflector shield generator-the same type mounted on starships. Whenever the droid would take damage, reduce the damage by the droid's shield rating (SR). If the damage is equal to or greater than the droid's shield rating, the droid's shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the droid may make a DC 20 Endurance check to restore lost shield power. If the check succeeds, the droid's shield rating increases by 5 points (up to its normal shield rating).
+
+Due to the size and energy requirements of shield generators, only droids of Small size or larger can be equipped with a SR 10 generator. Only droids of Medium size or larger can be equipped with a SR 15 generator. Only droids of Large or bigger size can be equipped with a SR 20 generator.
+
+",Shield Generator,varies,varies,Military,"SR drops with -5 if taking over current SR, DC20 endurance to restore 5pt"
+CR,196,"Shield Generator, SR10","The droid is fitted with a deflector shield generator-the same type mounted on starships. Whenever the droid would take damage, reduce the damage by the droid's shield rating (SR). If the damage is equal to or greater than the droid's shield rating, the droid's shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the droid may make a DC 20 Endurance check to restore lost shield power. If the check succeeds, the droid's shield rating increases by 5 points (up to its normal shield rating).
+
+Due to the size and energy requirements of shield generators, only droids of Small size or larger can be equipped with a SR 10 generator. Only droids of Medium size or larger can be equipped with a SR 15 generator. Only droids of Large or bigger size can be equipped with a SR 20 generator.
+
+",Shield Generator,5000xCF,(20xCF),Military,"SR drops with -5 if taking over current SR, DC20 endurance to restore 5pt, min small"
+CR,196,"Shield Generator, SR15","The droid is fitted with a deflector shield generator-the same type mounted on starships. Whenever the droid would take damage, reduce the damage by the droid's shield rating (SR). If the damage is equal to or greater than the droid's shield rating, the droid's shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the droid may make a DC 20 Endurance check to restore lost shield power. If the check succeeds, the droid's shield rating increases by 5 points (up to its normal shield rating).
+
+Due to the size and energy requirements of shield generators, only droids of Small size or larger can be equipped with a SR 10 generator. Only droids of Medium size or larger can be equipped with a SR 15 generator. Only droids of Large or bigger size can be equipped with a SR 20 generator.
+
+",Shield Generator,7500xCF,(30xCF),Military,"SR drops with -5 if taking over current SR, DC20 endurance to restore 5pt, min medium"
+CR,196,"Shield Generator, SR20","The droid is fitted with a deflector shield generator-the same type mounted on starships. Whenever the droid would take damage, reduce the damage by the droid's shield rating (SR). If the damage is equal to or greater than the droid's shield rating, the droid's shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the droid may make a DC 20 Endurance check to restore lost shield power. If the check succeeds, the droid's shield rating increases by 5 points (up to its normal shield rating).
+
+Due to the size and energy requirements of shield generators, only droids of Small size or larger can be equipped with a SR 10 generator. Only droids of Medium size or larger can be equipped with a SR 15 generator. Only droids of Large or bigger size can be equipped with a SR 20 generator.
+
+",Shield Generator,10000xCF,(40xCF),Military,"SR drops with -5 if taking over current SR, DC20 endurance to restore 5pt, min large"
+CR,196,"Shield Generator, SR5","The droid is fitted with a deflector shield generator-the same type mounted on starships. Whenever the droid would take damage, reduce the damage by the droid's shield rating (SR). If the damage is equal to or greater than the droid's shield rating, the droid's shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the droid may make a DC 20 Endurance check to restore lost shield power. If the check succeeds, the droid's shield rating increases by 5 points (up to its normal shield rating).
+
+Due to the size and energy requirements of shield generators, only droids of Small size or larger can be equipped with a SR 10 generator. Only droids of Medium size or larger can be equipped with a SR 15 generator. Only droids of Large or bigger size can be equipped with a SR 20 generator.
+
+",Shield Generator,2500xCF,(10xCF),Military,"SR drops with -5 if taking over current SR, DC20 endurance to restore 5pt"
+SGD,62,Silence-bubble generator,"The silence -bubble generator creates an energy sphere that dampens sound waves. The apparatus is originally marketed as a way for music lovers to enjoy their favorite music without being disturbed by noise. However, spies and crime lords also find the generator useful. Activating the silence bubble is a standard action. The bubble covers all squares within 3 squares of the droid. Any attempt to hear anything inside the bubble by someone outside of the bubble takes a -10 penalty to Perception checks.
+
+",Accessory,3500,20xCF,Licensed,"stan to activate, covers all sq w/in 3 sq, -10 Perception to hear"
+CR,139,Sonic welder,,Appendage,,,,tool mount; 1d8 energy
+SGD,63,Space-beacon launcher,"Space beacons are used by pilots and flight crews to mark specific locations or to help navigate through hazardous areas of space. A beacon is .25 meters long and can transmit a signal throughout an entire star system, if it is not blocked by nebular gases or signal jamming systems. The spacebeacon launcher-modeled after a small version of the standard space mine launcher-enables a droid to quickly position space beacons while in f light. The system can carry up to 12 beacons. Additional storage can be added, increasing the cost of the launcher by 10% for each additional beacon (up to a maximum of 24 beacons) . Locating a beacon requires a DC 10 Use Computer check when using a ship's sensor system.
+
+",Accessory,5000,10,-,"12 beacons & additional for 10% for each up to 24, locate with DC 10 Use Computer"
+SGD,53,Specialized subprocessor,"Specialized Subprocessor (SGtD): Specialized subprocessors are customized processing units designed to aid droids in specific tasks. Varying in size, abilities, cost, and difficulty of installation, each subprocessor enables a droid to carry out a specific calculation or analysis more quickly or simultaneously with other tasks. A specialized subprocessor grants a droid a single extra swift action each turn that can only be used to perform an action related to a single skill, chosen at the time the subprocessor is created. A droid can only have one specialized subprocessor. For examples of specialized subprocessors, see the modifications sections of some droids described in this volume, such as the GD1 6-Series pilot droid on page 100.
+
+",Processors,1000,2,-,"+1 swif each turn to perform action related to 1 skill, limit 1 per droid"
+CR,195,Spring-loaded mechanism,"Spring-Loaded Mechanism: This device allows a Small, Medium, or Large droid to launch an item held in an internal storage compartment up to 4 squares as a standard action. The item can weight no more than 4 kg, and the droid makes a ranged attack against Reflex Defense 10 to launch the projectile into a designated square. Anyone within reach of the target square who has a readied action can try to catch the item, provided the droid's attack succeeds. (If the attack fails, the item lands in a randomly determined square adjacent to the target square.) Catching the item requires a DC 10 Dexterity check and is considered a move action.
+
+Spring-loaded mechanisms are not typically designed (or practical) for droids of Huge or larger size.
+
+",Accessory,150,3,-,"S, M or L launch 1 object 4 squares, max 4kg (ranged attack vs REF 10). Catch DC10 DEX (move)"
+CR,190,Stabilized Mount,"For five times the listed cost and weight, a tool appendage can be stabilized so that it can hold a larger weapon. This allows the droid to use that weapon as if was wielded in two hands.
+
+",Appendage,x5,x5,-,Can hold large weapon as if held with two hands
+CR,189,Stationary Droids,"Stationary Droids: Stationary droids do not have a locomotion system and cannot move from a fixed location. 
+
+",Locomotion,-,-,-,Droid cannot move
+SGD,63,Survival kit,"Droids do not worry about water, food, or the elements, but their masters do. A survival kit is the perfect accessory for long treks into the wilderness. It contains a small refrigeration unit, a water recycler and dispenser, a rechargeable glow rod, and a fire sparker. When aiding a Survival check, a droid with this accessory gives a +4 bonus to the check rather than the normal +2 bonus.
+
+",Accessory,100,1,-,+4 when aiding Survival check
+CR,191,Synchronized Fire Circuits,"Synchronized Fire Circuits: A droid with a remote receiver can have synchronized fire circuits that better coordinate its actions with other droids. When successfully using the aid another action to assist another droid connected to the same remote processor, a droid with synchronized fire circuits grants a +5 bonus instead of a +2 bonus on the other droid's check or roll.
+
+",Processors,150,1,Military,When synchronized droids help each other they grant an additional +5 to the roll
+SGD,54,Tactician battle computer,"Tactician Battle Computer (SGtD): Strict governmental regulations apply to fourth-degree droids. However, droid manufacturers know that money can be made by manufacturing droids for war, so they develop systems such as the tactician battle computer to circumvent restrictions on fourth-degree droids. This software package and transmitter can be installed on any droid. Additionally, small transceivers must also be installed on the ranged weapons used with the package. Restrictions prohibit the droid from using any weapons other than those with transceivers associated with its tactician battle computer. In fact, if the droid running the tactician battle computer picks up a weapon not equipped with the transceiver, the tactician battle computer shuts down and can be restarted only after succeeding on a DC 20 Mechanics check.  
+
+The droid spends a standard action to analyze the current battle conditions. The droid transmits its findings to the sensors installed on the weapons of its allies. The droid automatically grants a +2 bonus to the next attack roll made by a number of allies equal to its Intelligence modifier (minimum 1). If an ally does not make its next attack before the end of its next turn, this bonus is lost. Only ranged weapons can be used with the tactician battle computer.
+",Processors,5000,10,Restricted,stan action to send data to # of allies ranged weapons for +2 atk = Int mod
+SGD,63,Taser,"Many star systems prohibit droids from carrying lethal weapons or having such systems installed without the proper permits. A taser is a nonlethal projectile weapon that droids can use to defend themselves. It fires two small projectiles attached to long, thin wires that deliver an electric charge that incapacitates an organic target's nervous and muscular systems. If the target is a droid, the electric current acts like an ion gun and interferes with the droid's systems. Additionally, a taser can be used as a melee weapon like an electroshock probe.
+
+",Accessory,250,2,Licensed,"like ion v. droid, as electroshock probe"
+CR,190,Telescopic Appendage,"The droid has an appendage that reaches farther from its body than normal.
+
+A telescopic appendage has twice the normal reach for the droid's size.
+
+For example, a Medium droid with a telescopic appendage has a reach of 2 squares.
+
+",Appendage,x2,(N.Wx2),-,Twice normal reach
+CR,190,Tool,"Tool: Tool appendages are somewhat sturdier than instruments. A droid must make a DC 15 Dexterity check to lift, carry, or drag objects for which its tools were not designed. The GM might rule that particularly delicate objects have a higher DC. If the check fails, the droid drops the object.
+
+Weapons mounted on a droid are considered tool appendages unless otherwise noted. A tool mount does not include the cost of the tool or weapon mounted on it.
+
+",Appendage,10xCF,(2xCF),-,"Specific tool, can push/lift/carry/drag objects with DC15 DEX"
+CR,188,Tracked,"Tracked Droids: Tracked droids are an improvement on the wheeled droid, having ridged treads that give them more traction. Tracked droids ignore the penalties of difficult terrain, but they take a -5 penalty on all Climb checks.
+
+",Locomotion,20xCFxSp²,-,-,Speed: F-S: 4 M: 6 L-C: 8
+CR,196,"Translator Unit, DC10","The droid is equipped with a device that allows it to understand and convey information in a variety of languages, including nonverbal ones. When the droid experiences a form of communication for the first time, it makes an Intelligence check to determine whether it can identify and understand the language. The DC is based on the translator unit's database, with the better units having a lower DC.
+
+",Translator Unit,1000,4,-,Roll Int vs DC to see if droid understands a new language
+CR,196,"Translator Unit, DC15","The droid is equipped with a device that allows it to understand and convey information in a variety of languages, including nonverbal ones. When the droid experiences a form of communication for the first time, it makes an Intelligence check to determine whether it can identify and understand the language. The DC is based on the translator unit's database, with the better units having a lower DC.
+
+",Translator Unit,500,2,-,Roll Int vs DC to see if droid understands a new language
+CR,196,"Translator Unit, DC20","The droid is equipped with a device that allows it to understand and convey information in a variety of languages, including nonverbal ones. When the droid experiences a form of communication for the first time, it makes an Intelligence check to determine whether it can identify and understand the language. The DC is based on the translator unit's database, with the better units having a lower DC.
+
+",Translator Unit,200,1,-,Roll Int vs DC to see if droid understands a new language
+CR,196,"Translator Unit, DC5","The droid is equipped with a device that allows it to understand and convey information in a variety of languages, including nonverbal ones. When the droid experiences a form of communication for the first time, it makes an Intelligence check to determine whether it can identify and understand the language. The DC is based on the translator unit's database, with the better units having a lower DC.
+
+",Translator Unit,2000,8,-,Roll Int vs DC to see if droid understands a new language
+SGD,52,Underwater drive,"A droid purchased on a water world such as Mon Calamari comes with an underwater drive as a standard option. The drive process is simple. The engine draws water in through the front of the drive and expels it quickly out the back. An underwater drive gives the droid a swim speed equal to its base land speed.
+
+",Locomotion,20xCFxSp²,10xCF,Licensed,"comes standard if purchased on water world, swim spd = land spd"
+SGD,63,Video screen,"This accessory gives the droid a small, built-in video screen to display text, translations, diagnostics, programming, pictures, and other information. Screen sizes vary from 50mm to 500mm and are priced at 1 credit per square millimeter of screen size.
+
+",Accessory,1xsq mm,1+.01kg,-,"built-in video screen to display text, translations, diagnostics, programming, pictures, etc"
+CR,193,Vocabulator,"Vocabulator: The droid is equipped with a speaker that enables it to emulate speech, rather than simply spout machine code. This device is standard if the droid has ability to speak any language other than Binary.
+
+",Communications,50,0.5,-,Droid can speak other languages than binary
+SGD,63,Voice-print command lock,"This accessory ensures that a droid is able to obey only its master. With a voice-print command lock installed, a droid follows only commands issued by a single source. The droid analyses the voice print of its master and ignores commands from anyone else. A recording of the master's voice can be used, but getting the droid to obey a recorded command requires a Use Computer check against the droid's Will Defense with a +5 bonus to the droid's defense.
+
+",Accessory,400,1,-,"follows command from single source, to obey recording = Use Computer v. Will Def + 5"
+CR,188,Walking,"Walking Droids: Walking droids are the most versatile droids, having legs and feet that let them travel like bipeds, quadrupeds, and other similar creatures. The most common chassis for walking droids is the ""humanoid"" form (two arms, two legs, and a head). They suffer the usual penalties when moving through difficult terrain (See Difficult Terrain, page 159).
+
+",Locomotion,10xCFxSp²,-,-,Speed: F-S: 4 M: 6 L-C: 8
+SGD,63,Weapon detector,"Droids use sophisticated sensor systems, which can easily be adjusted to offer additional security. A weapon-detector package features a high-frequency receiver that can detect the hum of a deactivated vibro-weapon. It can also perform a chemical analysis to detect tibanna gas residue on blasters.
+
+A weapon-detector package allows a droid to add its Intelligence modifier to Perception checks made to Search for weapons.
+
+",Accessory,1500,5,Licensed,add Int mod to Perception made to Search for weapons
+CR,188,Wheeled,"Wheeled Droids: Wheeled droids use one or more powered wheels to move and are generally designed to traverse smooth surfaces. Wheeled droids can't use the Climb skill, and the penalties of moving through difficult terrain are doubled.
+
+",Locomotion,5xCFxSp²,-,-,Speed: F-S: 6 M: 8 L-C: 10
+SGD,62,YV sensor package,"YV Sensor Package (SGtD): Standard on the YVH-Series battle droid (see page 158), a YV pack can be successfully installed on other droids, including mouse droids. The YV pack features highly specialized sensors calibrated specifically to detect Yuuzhan Vong, including those concealed by ooglith masquers or other methods. The sensor pack grants a +10 bonus to Perception rolls to detect Yuuzhan Vong within 12 squares and within line of sight of the droid.
+
+",Sensors,1000,3,Military,+10 Perception to detect Yuuzhan Vong w/in 12 sq & LOS

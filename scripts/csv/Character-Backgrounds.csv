@@ -1,0 +1,49 @@
+BOOK,PAGE,Type,BACKGROUND,"RELEVANT
+SKILLS",BENEFIT,"BONUS
+LANGUAGE"
+R,17,E,Bankrupt,"Deception, Gather Information, Survival",Use survival to sustain yourself in urban or civilized areas,
+R,17,E,Conspiracy,"Deception, Stealth, Use Computer","Reroll any Perception check to sense deception or influence, keep better result",
+R,17,E,Crippled,"Endurance, Mechanics, Treat Injury","Start with cybernetic prosthesis. When Fortitude Defense is reduced through condition, keep Damage Threshold the same.",
+R,17,E,Disgraced,"Deception, Gather Information, Stealth",Disguising yourself is one step simpler.,
+R,17,E,Enslaved,"Climb, Endurance, Jump",+2 to grapple checks.,
+R,17,E,Exiled,"Gather Information, Knowledge (galactic lore), Survival",Plot safe course for hyperspace in half time. If trained in Knowledge (galactic lore) you gain the Skill Focus as conditional bonus feat.,
+R,18,E,Imprisoned,"Acrobatics, Gather Information, Stealth",Obtain black market goods at half time.,
+R,18,E,Marooned,"Ride, Survival, Swim",No penalty to heal yourself.,
+R,18,E,Orphaned,"Gather Information, Survival, Treat Injury",+1d6 when using a Force Point to aid a skill check.,
+R,18,E,Scarred,"Deception, Persuasion, Treat Injury",Intimidation is always favorable.,
+R,18,E,Widowed,"Gather Information, Knowledge (galactic lore), Use Computer","Can take 20 on Gather Information, but takes 20 times longer.",
+R,18,Oc,Academic,"Knowledge (any one skill), Persuasion, Use Computer",,
+R,19,Oc,Celebrity,"Deception, Gather Information, Persuasion",,
+R,19,Oc,Criminal,"Deception, Gather Information, Stealth",,
+R,19,Oc,Executive,"Initiative, Persuasion, Use Computer",,
+R,19,Oc,Labor,"Climb, Endurance, Jump",,
+R,19,Oc,Law Enforcement,"Acrobatics, Gather Information, Knowledge (bureaucracy)",,
+R,19,Oc,Medical,"Knowledge (life sciences), Treat Injury, Use Computer",,
+R,19,Oc,Military,"Endurance, Ride, Treat Injury",,
+R,19,Oc,Pilot,"Knowledge (galactic lore), Mechanics, Use Computer",,
+R,19,Oc,Politics,"Deception, Gather Information, Use Computer",,
+R,19,Oc,Technology,"Knowledge (technology), Mechanics, Use Computer",,
+R,20,Or,Alderaan,"Knowledge (any one), Persuasion, Treat Injury",,High Galactic
+R,20,Or,Bakura,"Mechanics, Treat Injury, Use Computer",,High Galactic
+R,20,Or,Bespin,"Deception, Knowledge (bureaucracy), Persuasion",,Bocce
+R,20,Or,Bothawui,"Deception, Gather Information, Persuasion",,Bothese
+R,20,Or,Cerea,"Acrobatics, Knowledge (life sciences), Survival",,Cerean
+R,20,Or,Corellia,"Initiative, Knowledge (technology), Mechanics",,Old Corellian
+R,20,Or,Coruscant,"Gather Information, Knowledge (bureaucracy), Knowledge (galactic lore)",,High Galactic
+R,20,Or,Dorin,"Endurance, Survival, Treat Injury",,Kel Dor
+R,20,Or,Duro,"Knowledge (technology), Mechanics, Use Computer",,Durese
+R,21,Or,Fondor,"Knowledge (technology), Mechanics, Use Computer",,Bocce
+R,21,Or,Gamorr,"Climb, Endurance, Survival",,Gamorrean
+R,21,Or,Iridonia,"Acrobatics, Endurance, Survival",,Zabrak
+R,21,Or,Ithor,"Knowledge (life sciences), Persuasion, Treat Injury",,Ithorese
+R,21,Or,Kashyyyk,"Climb, Persuasion, Survival",,Shyriwook (understand only)
+R,21,Or,Mon Calamari,"Mechanics, Persuasion, Swim",,Mon Calamarian or Quarrenese
+R,21,Or,Naboo,"Ride, Persuasion, Swim",,Gunganese
+R,21,Or,Nar Shaddaa,"Deception, Gather Information, Stealth",,Huttese
+R,21,Or,Rodia,"Climb, Stealth, Survival",,Rodese
+R,21,Or,Ryloth,"Deception, Persuasion, Survival",,Ryl
+R,22,Or,Socorro,"Deception, Stealth, Survival",,Socorran
+R,22,Or,Sullust,"Climb, Mechanics, Survival",,Sullustese
+R,22,Or,Taris,"Deception, Mechanics, Stealth",,Sy Bisti
+R,22,Or,Tatooine,"Endurance, Ride, Survival",,Jawa Trade Language
+R,22,Or,Trandosha,"Endurance, Persuasion, Survival",,Dosh

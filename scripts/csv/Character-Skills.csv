@@ -1,0 +1,26 @@
+BOOK,PAGE,SKILLS,Ability,Armor check penalty?,Jedi,Noble,  Scoundrel,Scout,Soldier
+CR,62,Acrobatics,DEX,Y,x,,x,,
+CR,64,Climb,STR,Y,,,,x,x
+CR,66,Deception,CHA,N,,x,x,,
+CR,67,Endurance,CON,Y,x,,,x,x
+CR,67,Gather Information,CHA,N,,x,x,,
+CR,68,Initiative,DEX,Y,x,x,x,x,x
+CR,68,Jump,STR,Y,x,,,x,x
+CR,68,Knowledge (Bureaucracy),INT,N,x,x,x,x,x
+CR,68,Knowledge (Galactic Lore),INT,N,x,x,x,x,x
+CR,68,Knowledge (Life Sciences),INT,N,x,x,x,x,x
+CR,68,Knowledge (Physical Sciences),INT,N,x,x,x,x,x
+CR,68,Knowledge (Social Sciences),INT,N,x,x,x,x,x
+CR,68,Knowledge (Tactics),INT,N,x,x,x,x,x
+CR,68,Knowledge (Technology),INT,N,x,x,x,x,x
+CR,68,Mechanics,INT,N,x,,x,x,x
+CR,70,Perception,WIS,N,x,x,x,x,x
+CR,71,Persuasion,CHA,N,,x,x,,
+CR,71,Pilot,DEX,N,x,x,x,x,x
+CR,72,Ride,DEX,Y,,x,,x,
+CR,72,Stealth,DEX,Y,,,x,x,
+CR,73,Survival,WIS,N,,,,x,
+CR,74,Swim,STR,Y,,,,x,x
+CR,74,Treat Injury,WIS,N,,x,,,x
+CR,76,Use Computer,INT,N,,x,x,,x
+CR,77,Use the Force,CHA,N,x,,,,

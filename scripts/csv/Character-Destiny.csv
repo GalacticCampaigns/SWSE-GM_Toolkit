@@ -1,0 +1,37 @@
+BOOK,PAGE,DESTINY,ACTIVATE,BONUS,PREREQ,PENALTY,FULFILLED
+CR,113,Corruption,"Corrupt an individual, organization or location.",24 hours: you and allies within 10sq +1 skill & ability checks,,24 hours: you -2 skill & ability checks,"two ability scores +1, if Dark Side score less than Wis increase to Wis"
+CR,115,Death and Destiny,Die while fulfilling or trying to fulfill your destiny,"Noble Sacrifice: all allies in star system +1 atk +1 all def 24 hours
+Vengeance: any ally who witnesses death +2 atk +2 dam 24 hours, Dark Side Score +1",Force-Sensitive,"You are, at least in some aspects, dead.","Force Spirit: retains Int, Wis, Cha, incorporeal"
+CR,114,Destruction,"Destroy a person or an object, for good or for evil.",24 hours: you and allies within 10sq +2 dam,,24 hours: you -2 dam,one ability +2
+CR,114,Discovery,"Discover a person, species, object or location that was either previously lost or unknown to the civilized galaxy.",24 hours: you and allies within 10sq +1 all Def,,24 hours: you -1 all Def,all Def +1
+CR,114,Education,Educate another being or group or beings in some way.,24 hours: you and allies within 10sq +1 skill & ability checks,,24 hours: you -2 skill & ability checks,one skill permanent +5
+CR,114,Redemption,Redeem a character that has been corrupted or otherwise turned to evil.,24 hours: you gain a Force Point,,"24 hours: lose one Force Point, if no fop -1 atk until you gain a level","Dark Side score of redeemed reduced to 1 & loses remaining Force Points, you gain FP 3+redeemed lost FP"
+CR,115,Rescue,"Save a person from death, or an object from destruction.",24 hours: you and allies within 10sq +2 dam,,24 hours: you -2 atk,two ability scores +1
+F,36,Champion,Become the leader of a large and/or significant group or organization and successfully lead it through an extremely threatening event.,24 hours: you and allies within 10sq +1 all Def,,24 hours: you -2 all Def,Cha +2
+F,35,Creation,"Create an object, machine, or item of great power or significant use.",24 hours: you and allies within 10sq +1 skill & ability checks,,24 hours: you -2 skill & ability checks,you or an ally in sight can spend 2 Force Points in a single round while using the created object
+F,36,Liberation,"Your destiny is to liberate a group, population, or region from Imperial domination.",24 hours: you and allies within 10sq +2 dam,,24 hours: you -2 dam,all Def +1
+L,22,"Legacy, Ackbar",spend a Destiny Point as a free action,"double insight, morale, or competence bonus you grant",Mon Calamari,,
+L,22,"Legacy, Antilles",spend a Destiny Point as a free action,treat your next Pilot check as if you had rolled 20 on the check,Human or Near-Human,,
+L,22,"Legacy, Darklighter",spend a Destiny Point as a free action,automatically negate an attack against an adjacent ally or allied vehicle,Human or Near-Human,,
+L,21,"Legacy, Denying it",Deny your Legacy,24 hours: you gain +2 single atk or skill check of choice,,24 hours: you -2 first atk in any encounter,
+L,23,"Legacy, Droid",spend a Destiny Point as a free action,treat your next Knowledge check as if you had rolled 20 on the check,Droid,,
+L,21,"Legacy, Embracing it",Embrace your Legacy,24 hours: you gain +2 single atk or skill check of choice,,24 hours: you -2 first atk in any encounter,
+L,23,"Legacy, Fel",spend a Destiny Point as a free action,grant all allies in LOS +5 Will Def until end of encounter,Human or Near-Human,,
+L,23,"Legacy, Fett",spend a Destiny Point as a free action,"for rest of encounter, score critical hits on natural 19 or 20",Human or Near-Human,,
+L,23,"Legacy, Fey'lya",spend a Destiny Point as a free action,treat your next Persuasion check as if you had rolled 20 on the check,Bothan,,
+L,23,"Legacy, Halcyon/Horn",spend a Destiny Point as a free action,treat your next skill check to activate a mind-affecting effect as if you had rolled 20 on the check,Human or Near-Human,,
+L,24,"Legacy, Koon",spend a Destiny Point as a free action,treat your next Use the Force check as if you had rolled 20 on the check,Kel Dor,,
+L,24,"Legacy, Koth",spend a Destiny Point as a free action,do not move down the condition track as a result of an attack the rest of the encounter,Zabrak,,
+L,24,"Legacy, Mundi",spend a Destiny Point as a free action,treat your next Perception check as if you had rolled 20 on the check,Cerean,,
+L,24,"Legacy, Nadon",spend a Destiny Point as a free action,treat your next Treat Injury check as if you had rolled 20 on the check,Ithorian,,
+L,24,"Legacy, Nunb",spend a Destiny Point as a free action,treat your next Pilot check as if you had rolled 20 on the check,Sullustan,,
+L,24,"Legacy, Organa",spend a Destiny Point as a free action,treat your next Persuasion check as if you had rolled 20 on the check,Human or Near-Human,,
+L,24,"Legacy, Qel-Droma",spend a Destiny Point as a free action,double the results of Force Point rolls added to attacks and skill checks until the end of the encounter,Human or Near-Human,,
+L,24,"Legacy, Secura",spend a Destiny Point as a free action,increase speed +2 squares until the end of the encounter,Twi'lek,,
+L,24,"Legacy, Skywalker",spend a Destiny Point as a free action,treat your next Use the Force check as if you had rolled 20 on the check,Human or Near-Human,,
+L,25,"Legacy, Solo",spend a Destiny Point as a free action,treat your next Mechanics check as if you had rolled 20 on the check,Human or Near-Human,,
+L,25,"Legacy, Sunrider",spend a Destiny Point as a free action,grant all allies in LOS bonus hp = 15+ your Cha mod (min +1),Human or Near-Human,,
+L,25,"Legacy, Tarpals",spend a Destiny Point as a free action,grant all allies in LOS +5 Will Def until end of encounter,Gungan,,
+L,25,"Legacy, Tetsu",spend a Destiny Point as a free action,treat your next Survival check as if you had rolled 20 on the check,Rodian,,
+L,25,"Legacy, Vao",spend a Destiny Point as a free action,regain all your hit points but take -2 atk and skill checks for the rest of the encounter,Twi'lek,,
+SV,53,We've been through a lot together,Link yourself with a ship,"varies, see SV page 53",Ship,,

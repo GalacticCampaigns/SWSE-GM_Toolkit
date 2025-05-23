@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Star Wars SAGA Edition Skills Data",
+  "description": "Schema for the structure of skills data, including their general properties and common uses.",
+  "type": "object",
+  "properties": {
+    "skills_data": {
+      "type": "object",
+      "description": "Contains all skill-related information.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A general description of the skills data section."
+        },
+        "skill_list": {
+          "type": "array",
+          "description": "A list of all skill entries.",
+          "items": {
+            "$ref": "#/definitions/skill"
+          }
+        }
+      },
+      "required": [
+        "skill_list"
+      ]
+    }
+  },
+  "required": [
+    "skills_data"
+  ],
+  "definitions": {
+    "skill": {
+      "type": "object",
+      "description": "Represents a single skill in the SAGA Edition.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the skill (e.g., Acrobatics)."
+        },
+        "key_ability": {
+          "type": "string",
+          "description": "The primary ability score associated with this skill.",
+          "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Str", "Dex", "Con", "Int", "Wis", "Cha", ""]
+        },
+        "armor_check_penalty_applies_generally": {
+          "type": "boolean",
+          "description": "True if this skill generally incurs an armor check penalty."
+        },
+        "source_book": {
+          "type": "string",
+          "description": "Abbreviation of the sourcebook for the skill's main definition."
+        },
+        "page": {
+          "type": "string",
+          "description": "Page number in the sourcebook for the skill's main definition."
+        },
+        "class_skill_for": {
+          "type": "array",
+          "description": "List of character classes for which this is a class skill.",
+          "items": {
+            "type": "string",
+            "enum": ["Jedi", "Noble", "Scoundrel", "Scout", "Soldier"]
+          }
+        },
+        "common_uses": {
+          "type": "array",
+          "description": "A list of common ways this skill can be used.",
+          "items": {
+            "$ref": "#/definitions/skillUse"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "key_ability",
+        "armor_check_penalty_applies_generally",
+        "source_book",
+        "page",
+        "class_skill_for",
+        "common_uses"
+      ]
+    },
+    "skillUse": {
+      "type": "object",
+      "description": "Describes a specific use or action for a skill.",
+      "properties": {
+        "use_name": {
+          "type": "string",
+          "description": "The name of the specific skill use or action (e.g., Balance, Feint)."
+        },
+        "source_book_for_use": {
+          "type": ["string", "null"],
+          "description": "Sourcebook for this specific use, if different from the skill's main source."
+        },
+        "page_for_use": {
+          "type": ["string", "null"],
+          "description": "Page number for this specific use, if different."
+        },
+        "related_ability_for_use": {
+          "type": "string",
+          "description": "The ability score used for this specific action (can differ from the skill's key ability).",
+           "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Str", "Dex", "Con", "Int", "Wis", "Cha", ""]
+        },
+        "trained_only": {
+          "type": "boolean",
+          "description": "True if this specific use of the skill requires training."
+        },
+        "armor_check_penalty_for_this_use": {
+          "type": ["boolean", "null"],
+          "description": "True if this specific use incurs an armor check penalty."
+        },
+        "dc_details": {
+          "type": ["string", "integer", "null"],
+          "description": "Difficulty Class for the check. Can be a number, textual description (e.g., 'Opponent's Will Defense', 'table, pgXX'), or null if not applicable/defined."
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Additional notes or context for this skill use."
+        },
+        "requirements": {
+          "type": ["string", "null"],
+          "description": "Any specific requirements or conditions for this skill use (e.g., 'Tool kit', 'Droids only')."
+        },
+        "take_10_20_allowed": {
+          "type": ["string", "null"],
+          "description": "Information on whether Taking 10 or Taking 20 is allowed (e.g., 'Yes', 'No', '10')."
+        },
+        "retry_info": {
+          "type": ["string", "null"],
+          "description": "Information on whether the skill use can be retried (e.g., 'Yes', 'No', 'With Penalty', '*')."
+        },
+        "time_to_perform": {
+          "type": ["string", "null"],
+          "description": "The time it takes to perform this skill use (e.g., 'Move Action', 'Standard Action', 'Full Round', '1 minute')."
+        }
+      },
+      "required": [
+        "use_name",
+        "related_ability_for_use",
+        "trained_only"
+      ]
+    }
+  }
+}

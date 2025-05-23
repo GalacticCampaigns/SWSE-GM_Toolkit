@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Force Powers",
+  "description": "Schema for Star Wars SAGA Edition Force Powers, including activation, effects, DC progressions, and descriptors.",
+  "type": "object",
+  "properties": {
+    "force_powers_data": {
+      "type": "object",
+      "description": "Container for the list of Force Powers.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A general description of this data section."
+        },
+        "force_powers_list": {
+          "type": "array",
+          "description": "A list of all Force Power entries.",
+          "items": {
+            "$ref": "#/definitions/forcePower"
+          }
+        }
+      },
+      "required": ["description", "force_powers_list"]
+    }
+  },
+  "required": ["force_powers_data"],
+  "definitions": {
+    "forcePower": {
+      "type": "object",
+      "description": "Represents a single Force Power.",
+      "properties": {
+        "name": { "type": "string", "description": "The base name of the Force Power." },
+        "name_qualifier": { "type": ["string", "null"], "description": "Qualifier for the name, if any (e.g., 'lightsaber form', extracted from brackets)." },
+        "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text from the 'Desc.' column, including flavor and special rules." },
+        "action_to_activate": { "type": ["string", "null"], "description": "Action required to activate the power (e.g., Standard Action)." },
+        "action_to_maintain": { "type": ["string", "null"], "description": "Action required to maintain the power, if any." },
+        "target_info": { "type": ["string", "null"], "description": "Targeting information for the power (e.g., 'One creature', 'Self')." },
+        "range_squares": { "type": ["string", "integer", "null"], "description": "Range of the power in squares or textual description (e.g., '6', 'Personal')." },
+        "line_of_sight_requirement_text": { "type": ["string", "null"], "description": "Line of sight requirement text (from LOS column, e.g., 'yes', 'no')." },
+        "effect_summary_dc_progression": { "type": "string", "description": "The raw text from the EFFECT column, typically containing DC progressions." },
+        "effects": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/mechanicalEffect" },
+          "description": "Structured mechanical effects, primarily parsed from the 'effect_summary_dc_progression'."
+        },
+        "descriptors": {
+          "type": "object",
+          "description": "Boolean flags or specific values for Force Power descriptors.",
+          "properties": {
+            "dark_light_affinity": { "type": ["string", "null"], "enum": ["Dark", "Light", null], "description": "Dark or Light side affinity." },
+            "is_lightsaber_form_related": { "type": "boolean", "description": "True if related to a lightsaber form." },
+            "is_mind_affecting": { "type": "boolean", "description": "True if the power is mind-affecting." },
+            "is_telekinetic": { "type": "boolean", "description": "True if the power is telekinetic." },
+            "is_unleashed_power": { "type": "boolean", "description": "True if it's an Unleashed power." }
+          }
+        },
+        "special_rules_and_notes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/specialNote" },
+          "description": "Structured notes for special rules, form interactions, or Force Point options parsed from the full description."
+        },
+        "source_book": { "type": "string", "description": "Sourcebook abbreviation." },
+        "page": { "type": "string", "description": "Page number in the sourcebook." }
+      },
+      "required": ["name", "effect_summary_dc_progression", "effects", "descriptors", "special_rules_and_notes", "source_book", "page"]
+    },
+    "prerequisite": {
+      "type": "object", "description": "A structured prerequisite.",
+      "properties": {
+        "text_description": { "type": "string" }, "type": { "type": "string", "enum": ["ability_score", "base_attack_bonus", "skill_trained", "skill_rank", "class_level", "character_level", "feat_or_ability", "restriction_feat", "other"] },
+        "ability": { "type": "string" }, "value": { "type": "integer" }, "skill_name": { "type": "string" }, "ranks": { "type": "integer" },
+        "class_name": { "type": "string" }, "level": { "type": "integer" }, "name": { "type": "string" }, "restriction": { "type": "string", "enum": ["cannot_have"] }
+      }, "required": ["text_description", "type"]
+    },
+    "mechanicalEffect": {
+      "type": "object", "description": "A structured representation of a game mechanical effect.",
+      "properties": {
+        "type": { "type": "string", "enum": ["dc_progression", "defense_bonus", "skill_bonus", "feat_grant", "damage_reduction", "natural_weapon", "reroll", "class_skill", "special_action", "immunity", "generic_modifier", "bonus", "penalty", "damage_modifier", "speed_modifier", "condition_track_change", "narrative_only", "other", "gain_benefit", "temporary_effect"] },
+        "action_verb": { "type": "string" }, "value_description": { "type": "string" },
+        "numeric_value_approx": { "type": ["integer", "null"] }, "bonus_or_penalty_type": { "type": "string" },
+        "target_description": { "type": "string" }, "defense": { "type": "string", "enum": ["Reflex", "Fortitude", "Will", "All", "Unknown"] },
+        "skill": { "type": "string" }, "feat_name": { "type": "string" },
+        "value": { "oneOf": [{ "type": "integer" }, { "type": "string" }] },
+        "weapon_name": { "type": "string" }, "damage_dice": { "type": "string", "pattern": "^\\d*d\\d+$" },
+        "damage_type": { "type": "string" }, "check_type": { "type": "string" },
+        "condition": { "type": "string" }, "summary": { "type": "string" },
+        "action_cost": { "type": "string" }, "frequency": { "type": "string" },
+        "immune_to": { "type": "string" }, "benefit_name": { "type": "string" },
+        "duration_hours": { "type": "integer" }, "target": { "type": "string" },
+        "effect_description": { "type": "string" }, "bonus_to": { "type": "string" },
+        "condition_type": { "type": "string" }, "check_skill_or_ability": { "type": "string" },
+        "progression_rule": { "type": "string", "enum": ["cumulative_up_to_achieved_dc", "highest_achieved_only", "specific_to_dc_achieved"] },
+        "tiers": { "type": "array", "items": { "type": "object", "properties": { "dc": { "type": "integer" }, "description": { "type": "string" }, "structured_effects": { "type": "array", "items": { "$ref": "#/definitions/mechanicalEffect" }}}, "required": ["dc", "description", "structured_effects"]}},
+        "full_progression_text": { "type": "string"}
+      }, "required": ["type"]
+    },
+    "specialNote": {
+      "type": "object", "description": "A special rule or note, often parsed from a longer description.",
+      "properties": {
+        "note_type": { "type": "string", "enum": ["lightsaber_form_interaction", "force_point_option", "general_description_detail", "general_special_rule", "other"] },
+        "form_name": { "type": "string", "description": "Name of the Lightsaber Form, if applicable." },
+        "text": { "type": "string", "description": "The textual content of the special note." }
+      }, "required": ["note_type", "text"]
+    }
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "training_regimens_data": {
+    "description": "Compilation of Training Regimens for Star Wars SAGA Edition.",
+    "training_regimens_list": [
+      {
+        "name": "Awaken Force Sensitivity",
+        "action_text": "1 hr",
+        "target_info": "1",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC13: gain the benefit of Gauge Force potential\nDC18: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks\nDC23: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +1\nDC28: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +2",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 13,
+                "description": "gain the benefit of Gauge Force potential",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 18,
+                "description": "gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +1",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 28,
+                "description": "gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +2",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC13: gain the benefit of Gauge Force potential\nDC18: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks\nDC23: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +1\nDC28: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +2"
+          }
+        ],
+        "source_book": "J",
+        "page": "10",
+        "full_text_additional_desc": "This training regimen is used to awaken another character to the larger world of Force sensitivity. You and the beneficiary of this regimen practice meditation, quieting your minds and listening to the Force. Time: 1 hour. Target: One willing ally who does not possess the Force Sensitivity feat.\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 13: You gain the benefit of the Gauge Force Potential talent (if you do not already have it).\nDC 18: As DC 13, and you awaken the first glimmers of Force sensitivity in the target. For the next 24 hours, the target can make untrained Use the Force checks as though he or she possesses the Force Sensitivity feat.\nDC 23: As DC 18, except the target also gains a +1 Force bonus on Use the Force checks.\nDC 28: As DC 18, except the student also gains a +2 Force bonus on Use the Force checks."
+      },
+      {
+        "name": "Eyes of the Force",
+        "action_text": "1 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC13: +1 Use the Force with Telepathy\nDC18: +2 Use the Force with Telepathy\nDC23: +2 Use the Force with Telepathy & against unwilling can sense surface emotions & stray thoughts",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 13,
+                "description": "+1 Use the Force with Telepathy",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 18,
+                "description": "+2 Use the Force with Telepathy",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "+2 Use the Force with Telepathy & against unwilling can sense surface emotions & stray thoughts",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC13: +1 Use the Force with Telepathy\nDC18: +2 Use the Force with Telepathy\nDC23: +2 Use the Force with Telepathy & against unwilling can sense surface emotions & stray thoughts"
+          }
+        ],
+        "source_book": "J",
+        "page": "10",
+        "full_text_additional_desc": "This regimen trains you to sense images that you cannot normally see by reading the surface thoughts of others. During this regimen, an assistant holds a two-dimensional image viewer so that you see the images being displayed on the screen. As the image viewer cycles through different images of common objects, you must read the surface thoughts of the assistant to determine what image is being displayed on the screen at that time. Time: 1 hour. Target: You. Requirements: A two-dimensional image display and an assistant\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 13: You successfully read one-third of the assistant's surface thoughts. You gain a +1 Force bonus on Use the Force checks made to use the Telepathy application of the Use the Force skill.\nDC 18: You successfully read two-thirds of the assistant's surface thoughts. You gain a +2 Force bonus on Use the Force checks made to use the Telepathy application of the Use the Force skill.\nDC 23: You successfully read all of the assistant's surface thoughts. You gain a +2 Force bonus on Use the Force checks made to use the Telepathy application of the Use the Force skill. In addition, if you successfully use Telepathy against an unwilling target, you can also sense the target's surface emotions and stray thoughts (as determined by the Gamemaster)."
+      },
+      {
+        "name": "Oxygen Bottle",
+        "action_text": "1 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC13: +2 Fort Def v. inhaled poisons & non-corrosive atmosphere\nDC18: +5 Fort Def v. inhaled poisons & non-corrosive atmosphere\nDC23: immune v. inhaled poisons & non-corrosive atmosphere",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 13,
+                "description": "+2 Fort Def v. inhaled poisons & non-corrosive atmosphere",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 18,
+                "description": "+5 Fort Def v. inhaled poisons & non-corrosive atmosphere",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "immune v. inhaled poisons & non-corrosive atmosphere",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC13: +2 Fort Def v. inhaled poisons & non-corrosive atmosphere\nDC18: +5 Fort Def v. inhaled poisons & non-corrosive atmosphere\nDC23: immune v. inhaled poisons & non-corrosive atmosphere"
+          }
+        ],
+        "source_book": "J",
+        "page": "11",
+        "full_text_additional_desc": "This difficult regimen trains you to master environmental manipulation through the Force. You must first empty a glass bottle of air, creating a perfect vacuum inside. Then you must allow only oxygen to slip past the seal created by the Force, eventually filling the bottle with pure oxygen before placing the vac-seal stopper. This regimen requires you to use the Force in a nearly molecular level, as well as the Sense aspect of the Force to determine what molecules are making their way into the bottle. Time: 1 hour. Target: You. Requirements: A glass bottle with a vac-seal stopper\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 26: You fail to create a vacuum in the bottle before the regimen begins, resulting in an imperfect mixture. You gain a +2 Force bonus to your Fortitude Defense against inhaled poisons and non-corrosive atmospheric hazards.\nDC 32: You create a vacuum in the bottle, but let other molecules enter through your Force seal, creating an imperfect mixture. You gain a +5 Force bonus to your Fortitude Defense against inhaled poisons and non-corrosive atmospheric hazards.\nDC 38: You complete this regimen perfectly, resulting in a bottle full of nothing but pure oxygen. You become immune to inhaled poisons and non-corrosive atmospheric hazards."
+      },
+      {
+        "name": "Quiet the Mind",
+        "action_text": "1 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC13: +1 farseeing but not regained if used\nDC18: +1 farseeing \nDC23: +1 farseeing & gain benefit of Visions",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 13,
+                "description": "+1 farseeing but not regained if used",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 18,
+                "description": "+1 farseeing",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "+1 farseeing & gain benefit of Visions",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC13: +1 farseeing but not regained if used\nDC18: +1 farseeing \nDC23: +1 farseeing & gain benefit of Visions"
+          }
+        ],
+        "source_book": "J",
+        "page": "11",
+        "full_text_additional_desc": "This regimen trains you to block out distractions and stray thoughts. It requires little more than finding a quiet, secluded spot and slipping into a meditative trance to clear your mind of doubt, questions, fear, and the chaos of the galaxy. Jedi use this technique to open themselves to the flow of the Force, allowing them to see distant places and events. Time: 1 hour. Target: You.\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 13: You meditate, but your mind is still clouded by external stimuli. You can add one use of the farseeing power to your Force suite, but once it is used, it cannot be regained by any means.\nDC 18: You meditate, quieting your mind except for but a few small distractions. You can add one use of the farseeing power to your Force suite.\nDC 23: You meditate, quieting your mind entirely. You can add one use of the farseeing power to your Force suite, and you gain the benefits of the Visions talent (if you do not already know it)."
+      },
+      {
+        "name": "Sparring Practice",
+        "action_text": "2 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC18: spend a Force Point to add to Block, does not count as one Force Point use\nDC23: spend a Force Point to add to Block, does not count as one Force Point use, gain FP for Block\nDC28: spend a Force Point to add to Block, does not count as one Force Point use, gain 2 FP for Block",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 18,
+                "description": "spend a Force Point to add to Block, does not count as one Force Point use",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "spend a Force Point to add to Block, does not count as one Force Point use, gain FP for Block",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 28,
+                "description": "spend a Force Point to add to Block, does not count as one Force Point use, gain 2 FP for Block",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC18: spend a Force Point to add to Block, does not count as one Force Point use\nDC23: spend a Force Point to add to Block, does not count as one Force Point use, gain FP for Block\nDC28: spend a Force Point to add to Block, does not count as one Force Point use, gain 2 FP for Block"
+          }
+        ],
+        "source_book": "J",
+        "page": "11",
+        "full_text_additional_desc": "This simple regimen allows you to practice against another living opponent, simulating one-on-one combat. During sparring practice, each combatant attempts to strike the other while exercising restraint and control. If you use a training lightsaber (see page 56), you can spar without fear of harming your opponent. Time: 2 hours. Target: You. Requirements: Lightsaber (or training lightsaber) and a sparring partner.\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 18: You hone your lightsaber skills but see little in the way of improvement. You can spend a Force Point to add to the result of a Use the Force check made to activate the Block talent. This does not count toward the \u201cone Force Point per round\u201d limit.\nDC 23: You hone your lightsaber skills, improving your technique by small degrees. You can spend a Force Point to add to the result of a Use the Force check made to activate the Block talent. This does not count toward the \u201cone Force Point per round\u201d limit. You also gain 1 temporary Force Point, which can only be used to add to the result of a Use the Force check made to activate the Block talent.\nDC 28: You hone your lightsaber skills and see significant improvement in your technique. You can spend a Force Point to add to the result of a Use the Force check made to activate the Block talent. This does not count toward the \u201cone Force Point per round\u201d limit. You also gain 2 temporary Force Points, which can only be used to add to the results of Use the Force checks made to activate the Block talent."
+      },
+      {
+        "name": "Telekinetic Practice",
+        "action_text": "1 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC18: +1 Force Point when you use telekinetic Force Powers\nDC23: +2 Force Points when you use telekinetic Force Powers\nDC28: +2 Force Points when you use telekinetic Force Powers & reroll Use the Force made to activate (mtr)",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 18,
+                "description": "+1 Force Point when you use telekinetic Force Powers",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "+2 Force Points when you use telekinetic Force Powers",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 28,
+                "description": "+2 Force Points when you use telekinetic Force Powers & reroll Use the Force made to activate (mtr)",
+                "structured_effects": [
+                  {
+                    "type": "reroll",
+                    "check_type": "u",
+                    "condition": "unspecified"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC18: +1 Force Point when you use telekinetic Force Powers\nDC23: +2 Force Points when you use telekinetic Force Powers\nDC28: +2 Force Points when you use telekinetic Force Powers & reroll Use the Force made to activate (mtr)"
+          }
+        ],
+        "source_book": "J",
+        "page": "11",
+        "full_text_additional_desc": "This regimen hones your skill with the Alter aspect of the Force and enhances telekinetic precision. You begin by placing a deep bowl on the ground, with an orb at the bottom of the bowl. First, you must use the Force to hold the bowl perfectly still and pin it to the ground. Then you roll the ball slowly up the side of the bowl, keeping it in contact with the bowl at all times, until it reaches the upper rim. The orb is then held in place for 5 minutes, and must remain perfectly still. You then roll the orb slowly back to the bottom of the bowl, moving it with the Force and not allowing the orb to move under gravity's power. Time: 1 hour. Target: You. Requirements: A deep bowl and a polished stone orb.\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 18: You let the bowl move during the regimen. You gain 1 temporary Force Point which you can apply only to a Use the Force check to activate a power with the [telekinetic] descriptor.\nDC 23: You let the orb roll under gravity's power back to its starting position. You gain 2 temporary Force Points which you can apply only to Use the Force checks to activate powers with the [telekinetic] descriptor.\nDC 28: You complete the regimen perfectly. You gain 2 temporary Force Points which you can apply to Use the Force checks to activate powers with the [telekinetic] descriptor or use to reroll a Use the Force check made to activate a power with the [telekinetic] descriptor (you must keep the second result, even if it is worse)."
+      },
+      {
+        "name": "Training Remote",
+        "action_text": "1 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC18: spend a Force Point to add result to Deflect, does not count as one Force Point use\nDC23: spend a Force Point to add result to Deflect, does not count as one FP use, gain FP for Deflect\nDC28: spend a Force Point to add result to Deflect, does not count as one FP use, gain 2 FP for Deflect",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 18,
+                "description": "spend a Force Point to add result to Deflect, does not count as one Force Point use",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "spend a Force Point to add result to Deflect, does not count as one FP use, gain FP for Deflect",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 28,
+                "description": "spend a Force Point to add result to Deflect, does not count as one FP use, gain 2 FP for Deflect",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC18: spend a Force Point to add result to Deflect, does not count as one Force Point use\nDC23: spend a Force Point to add result to Deflect, does not count as one FP use, gain FP for Deflect\nDC28: spend a Force Point to add result to Deflect, does not count as one FP use, gain 2 FP for Deflect"
+          }
+        ],
+        "source_book": "J",
+        "page": "12",
+        "full_text_additional_desc": "You hone your skill at deflecting blaster bolts using your lightsaber. This Force regimen is performed blind, often with the help of a helmet equipped with an opaque blast shield. Time: 1 hour. Target: You. Requirements: Lightsaber, training remote, and a helmet with a blast shield.\nMake a Use the Force check. The result of the check determines the benefits of the regimen:\nDC 18: You hone your lightsaber skills, but the training remote gets several hits on you. You can spend a Force Point to add to the result of a Use the Force check made to activate the Deflect talent. This does not count toward the \u201cone Force Point per round\u201d limit.\nDC 23: You hone your lightsaber skills, and the remote gets in a few small hits on you. You can spend a Force Point to add to the result of a Use the Force check made to activate the Deflect talent. This does not count toward the \u201cone Force Point per round\u201d limit. You also gain 1 temporary Force Point, which can only be used to add to the result of a Use the Force check made to activate the Deflect talent.\nDC 28: You hone your lightsaber skills, and the remote never harms you. You can spend a Force Point to add to the result of a Use the Force check made to activate the Deflect talent. This does not count toward the \u201cone Force Point per round\u201d limit. You also gain 2 temporary Force Points, which can only be used to add to the results of Use the Force checks made to activate the Deflect talent."
+      },
+      {
+        "name": "Vo'Ren's 1st Cadence",
+        "action_text": "1 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC13: +1 Will Def\nDC18: +2 Will Def\nDC23: +2 Will Def & benefits of Severing Strike",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 13,
+                "description": "+1 Will Def",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 18,
+                "description": "+2 Will Def",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "+2 Will Def & benefits of Severing Strike",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC13: +1 Will Def\nDC18: +2 Will Def\nDC23: +2 Will Def & benefits of Severing Strike"
+          }
+        ],
+        "source_book": "J",
+        "page": "12",
+        "full_text_additional_desc": "Vo\u2019ren's first cadence teaches precision through control of one's body and sensory awareness. You set up 19 wax cylinders at 10-degree intervals around your body, each one approximately 1.5 meters away, forming a semicircle. Atop each cylinder, one metal ball bearing is placed. You must then use your lightsaber to strike each ball bearing without making contact with the wax cylinder beneath it. You must place the cylinders and ball bearings one at a time until all 19 have been placed. Time: 1 hour. Target: You. Requirements: Lightsaber, 19 wax cylinders, and 190 ball bearings.\nMake a Use the Force check. You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen:\nDC 13: You damage two cylinders. You gain a +1 Force bonus to your Will Defense.\nDC 18: You damage one cylinder. You gain a +2 Force bonus to your Will Defense.\nDC 23: You complete the cadence without damaging any cylinders. You gain a +2 Force bonus to your Will Defense, and you gain the benefits of the Severing Strike talent (if you do not already know it)."
+      },
+      {
+        "name": "Vo'Ren's 2nd Cadence",
+        "action_text": "2 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC18: +1 atk against creatures that flank you\nDC23: +2 atk against creatures that flank you\nDC28: +2 atk against creatures that flank you & benefits of Whirlwind Attack",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 18,
+                "description": "+1 atk against creatures that flank you",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 23,
+                "description": "+2 atk against creatures that flank you",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 28,
+                "description": "+2 atk against creatures that flank you & benefits of Whirlwind Attack",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC18: +1 atk against creatures that flank you\nDC23: +2 atk against creatures that flank you\nDC28: +2 atk against creatures that flank you & benefits of Whirlwind Attack"
+          }
+        ],
+        "source_book": "J",
+        "page": "12",
+        "full_text_additional_desc": "Vo'ren's second cadence teaches not only control but also spatial awareness. You must set up 72 wax cylinders at 5-degree intervals around your body, each one approximately 1.5 meters away. Atop each cylinder, one metal ball bearing is placed. Like in the first cadence, you must place the cylinders and ball bearings one at a time until all 72 have been placed. However, unlike the first cadence, you must strike at all of the cylinders in a full 360-degree arc without turning your body to face the cylinders to the rear, honing your ability to strike at enemies coming from all sides. Time: 2 hours. Target: You. Requirement: Lightsaber, 72 wax cylinders, and 2,701 ball bearings\nMake a Use the Force check. You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen:\nDC 18: You damage two cylinders. You gain a +1 Force bonus on lightsaber attack rolls against creatures that flank you.\nDC 23: You damage one cylinder. You gain a +2 Force bonus on lightsaber attack rolls against creatures that flank you.\nDC 28: You complete the regimen without damaging the cylinders. You gain a +2 Force bonus on lightsaber attack rolls against creatures that flank you, and you gain the benefits of the Whirlwind Attack feat (if you do not already know it)."
+      },
+      {
+        "name": "Vo'Ren's 3rd Cadence",
+        "action_text": "3 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC23: +1 on ranged attacks when Redirecting Shot\nDC28: +2 on ranged attacks when Redirecting Shot\nDC33: +2 on ranged attacks when Redirecting Shot & spend FP to Block & Deflect, does not count as 1 FP",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 23,
+                "description": "+1 on ranged attacks when Redirecting Shot",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 28,
+                "description": "+2 on ranged attacks when Redirecting Shot",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 33,
+                "description": "+2 on ranged attacks when Redirecting Shot & spend FP to Block & Deflect, does not count as 1 FP",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC23: +1 on ranged attacks when Redirecting Shot\nDC28: +2 on ranged attacks when Redirecting Shot\nDC33: +2 on ranged attacks when Redirecting Shot & spend FP to Block & Deflect, does not count as 1 FP"
+          }
+        ],
+        "source_book": "J",
+        "page": "13",
+        "full_text_additional_desc": "Vo'ren's third cadence teaches precision through control of one's body and sensory awareness. You set up 180 wax cylinders at 2-degree intervals around your body, each one approximately 1.5 meters away. Atop each cylinder, one metal ball bearing is placed. Unlike the second cadence, in the third cadence you must strike every fifth ball bearing, making a rotation around your body several times over the course of the regimen. This prepares you for irregular attack patterns from all sides. Time: 3 hours. Target: You. Requirements: Lightsaber, 180 wax cylinders, and 16,290 ball bearings\nMake a Use the Force check. You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen:\nDC 23: You damage two cylinders. You gain a +1 Force bonus on ranged attack rolls made when using the Redirect Shot talent.\nDC 28: You damage one cylinder. You gain a +2 Force bonus on ranged attack rolls made when using the Redirect Shot talent.\nDC 33: You complete the regimen without damaging the cylinders. You gain a +2 Force bonus on ranged attack rolls made when using the Redirect Shot talent, and you can spend Force Points to enhance Use the Force checks to Block and Deflect (as per the talents), even when it is not your turn. Furthermore, Force Points spent to enhance Use the Force checks to Block and Deflect do not count toward the \u201cone Force Point per round\u201d limit normally applied to spending Force Points."
+      },
+      {
+        "name": "Vo'Ren's 4th Cadence",
+        "action_text": "3 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC26: +1 Use the Force to maintain Force power when you take damage\nDC32: +2 Use the Force to maintain Force power when you take damage\nDC38: +2 UtF to maintain Force power when you take damage & can spend FP as reac to not make new UtF",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 26,
+                "description": "+1 Use the Force to maintain Force power when you take damage",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 32,
+                "description": "+2 Use the Force to maintain Force power when you take damage",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              },
+              {
+                "dc": 38,
+                "description": "+2 UtF to maintain Force power when you take damage & can spend FP as reac to not make new UtF",
+                "structured_effects": [
+                  {
+                    "type": "narrative_only",
+                    "summary": "Mechanics are described textually in the description."
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC26: +1 Use the Force to maintain Force power when you take damage\nDC32: +2 Use the Force to maintain Force power when you take damage\nDC38: +2 UtF to maintain Force power when you take damage & can spend FP as reac to not make new UtF"
+          }
+        ],
+        "source_book": "J",
+        "page": "13",
+        "full_text_additional_desc": "Vo'ren's fourth cadence teaches composure and quick thinking amid the chaos of battle. It begins by setting up 360 wax cylinders at 1-degree intervals around your body, each one approximately 1.5 meters away. No ball bearings are required for this cadence. You must strike the cylinders according to a complex mathematical formula. By the time the cadence is completed, you will have learned to perform incredibly taxing mental tasks while also focusing on the external chaos of combat. Time: 3 hours. Target: You. Requirements: Lightsaber and 360 wax cylinders.\nMake a Use the Force check. You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen:\nDC 26: You make a mistake during the first hour. You gain a +1 Force bonus on Use the Force checks made to continue maintaining a Force power whenever you take damage.\nDC 32: You make a mistake during the second hour. You gain a +2 Force bonus on Use the Force checks made to continue maintaining a Force power whenever you take damage.\nDC 38: You make no mistakes during the regimen. You gain a +2 Force bonus on Use the Force checks made to continue maintaining a Force power whenever you take damage, and if you are damaged while maintaining a Force power, you can spend a Force Point as a reaction to not have to make a new Use the Force check."
+      },
+      {
+        "name": "Vo'Ren's 5th Cadence",
+        "action_text": "3 hr",
+        "target_info": "you",
+        "is_lightsaber_related": null,
+        "prerequisites_text": "None",
+        "prerequisites_structured": [],
+        "effect_description": "DC31: +1 Use the Force to Move Light Object\nDC37: +2 Use the Force to Move Light Object\nDC43: +2 UtF to Move Lt Object & add Kinetic Combat, can spend FP to reroll UtF to activate telekinetic",
+        "effects_breakdown": [
+          {
+            "type": "dc_progression",
+            "check_skill_or_ability": "Use the Force",
+            "progression_rule": "cumulative_up_to_achieved_dc",
+            "tiers": [
+              {
+                "dc": 31,
+                "description": "+1 Use the Force to Move Light Object",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 37,
+                "description": "+2 Use the Force to Move Light Object",
+                "structured_effects": [
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              },
+              {
+                "dc": 43,
+                "description": "+2 UtF to Move Lt Object & add Kinetic Combat, can spend FP to reroll UtF to activate telekinetic",
+                "structured_effects": [
+                  {
+                    "type": "reroll",
+                    "check_type": "u",
+                    "condition": "unspecified"
+                  },
+                  {
+                    "type": "special_action",
+                    "frequency": "at will (unless specified otherwise)",
+                    "action_cost": "move"
+                  }
+                ]
+              }
+            ],
+            "full_progression_text": "DC31: +1 Use the Force to Move Light Object\nDC37: +2 Use the Force to Move Light Object\nDC43: +2 UtF to Move Lt Object & add Kinetic Combat, can spend FP to reroll UtF to activate telekinetic"
+          }
+        ],
+        "source_book": "J",
+        "page": "13",
+        "full_text_additional_desc": "In Vo'ren's fifth and final cadence, you must demonstrate true mastery over yourself and your lightsaber. No wax cylinders are required; you simply know when you have made a correct strike. Unlike the other cadences, this regimen requires you to use the Force to manipulate your lightsaber, an act of pure telekinetic power in which your hands never touch the weapon. This technique brings together the Control, Sense, and Alter aspects of the Force into one training regimen. Time: 3 hours. Target: You. Requirement: Lightsaber.\nMake a Use the Force check. You take a penalty on your Use the Force check equal to your Dark Side Score. The result of the check determines the benefits of the regimen:\nDC 31: You make a mistake during the first hour. You gain a +1 bonus on Use the Force checks made to use the Move Light Object application of the skill.\nDC 37: You make a mistake during the second hour. You gain a +2 bonus on Use the Force checks made to use the Move Light Object application of the skill.\nDC 43: You complete the cadence without making a single mistake. You gain a +2 bonus on Use the Force checks made to use the Move Light Object application of the skill, and you add the Kinetic Combat Force power (see page 51 of the Knights of the Old Republic Campaign Guide) to your Force suite. Additionally, you can spend a Force Point to reroll any Use the Force check made to activate a Force power with the [telekinetic] descriptor, keeping the better result."
+      }
+    ]
+  }
+}

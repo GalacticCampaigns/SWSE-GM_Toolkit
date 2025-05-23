@@ -1,0 +1,168 @@
+Skill,AP,Ability,Use,Trained,DC,Notes,Take 10/20,Retry,Time
+Acrobatics,Yes,Dex,Balance,,,"table, pg62",No,,Move
+Acrobatics,Yes,Dex,Cross Difficult Terrian,Y,15,norml spd,No,,Move
+Acrobatics,Yes,Dex,Escape Bonds,,,"table, pg62",No,,Standard/Full/1 min
+Acrobatics,Yes,Dex,Fall prone,Y,15,free,No,,Free
+Acrobatics,Yes,Dex,Reduce Fall Damage,Y,15,pg62,No,,
+Acrobatics,Yes,Dex,Stand Up From Prone,Y,15,swift,No,,Swift
+Acrobatics,Yes,Dex,Tumble,Y,15,"no AoO, dbl move",No,,Move
+Acrobatics,Yes,Dex,Fight Defensive,Y,,5+ Reflex,No,,Attack
+Acrobatics,Yes,Dex,Long Falls,,20,KOTOR30,No,,
+Acrobatics,Yes,Dex,High/Low Gravity,Y,20,"TFU29, pg256",No,,
+Acrobatics,Yes,Dex,Zero Gravity,Y,,"TFU29, pg257",No,,Swift
+Acrobatics,Yes,Dex,Catch Item,Y,20,S&V19,No,,Free
+Acrobatics,Yes,Dex,Escape Artist,Y,10+,"S&V19, pg63",No,,Move/Attack/5 rnd
+Acrobatics,Yes,Dex,Nimble Charge,Y,25,S&V19,No,,Charge
+Climb,Yes,Str,Climb Surfaces,,,"table, pg64",10,,Move/Full
+Climb,Yes,Str,Accelerated Climbing,,-5,"table, pg64",10,,Move/Full
+Climb,Yes,Str,Catch Yourself If Falling,,20+,"table, pg64",10,,
+Climb,Yes,Str,Make Hand/Foot Holds,,15,,10,,
+Climb,Yes,Str,Climb In High/Low Gravity,,,KOTOR30,10,,Move/Full
+Climb,Yes,Str,Extreme Conditions,,5+,TFU29,10,,Move/Full
+Deception,,Cha,Deceptive Appearance,,Perc,"pg64, table pg65",10,*,pg64
+Deception,,Cha,Deceptive Infomation,,Will,"pg64, table pg65",10,*,pg64
+Deception,,Cha,Creating a Diversion to hide,,Will,attempt Stealth,10,*,
+Deception,,Cha,Feint,,Init,includes Ships,No,,Standard
+Deception,,Cha,Creating a Diversion to hide Items,,Will,attempt Stealth,,,
+Deception,,Cha,Haywire (Droids),,Will,TFU29,,,Full Round
+Deception,,Cha,Alternate Story,Y,Will,S&V19,,,Immediatly
+Deception,,Cha,Cheat,Y,,S&V19,,,
+Deception,,Cha,Group Feint,Y,,S&V19,,,Full Round
+Deception,,Cha,Innuendo,Y,,S&V19,,,
+Endurance,Yes,Con,Force March,,10+,"pg66, 8 hrs",,,8 hrs
+Endurance,Yes,Con,Hold Breath,,10+,"Con, pg66, rnds",,,Full Round
+Endurance,Yes,Con,Ignore Hunger,,10+,"Con, pg66, days",,,Day
+Endurance,Yes,Con,Ignore Thrist,,10+,"Con, pg66, hrs*3",,,Hrs*3
+Endurance,Yes,Con,Run,,10+,"Con, pg66",,,
+Endurance,Yes,Con,Sleep In Armour,,,pg66,,,
+Endurance,Yes,Con,Swim/Tread Water,,15+,pg66,,,
+Gather Information,,Cha,Learn News And Rumours,,10,,10,*,1d6 hrs
+Gather Information,,Cha,Verifify News And Rumours,,20,50 creds,10,*,1d6 hrs
+Gather Information,,Cha,Learn Secret Infromation,,25,"5000 creds, GM",10,*,1d6 hrs
+Gather Information,,Cha,Locate Individual,,15,easy to find,10,*,1d6 hrs
+Gather Information,,Cha,Locate Individual,,25,500 creds,10,*,1d6 hrs
+Gather Information,,Cha,Analysis,Y,15+,TFU30,,,
+Gather Information,,Cha,Find a Good Score,Y,,S&V19,,,1 hr
+Gather Information,,Cha,Identify,,20,S&V19,10,*,1d6 hrs
+Gather Information,,Cha,Quick Intel,Y,10+,1/2 Time for G/Info,,,.5d3 hrs
+Initiative,Yes,Dex,Start Battle,,,Order of Combat,10,,Inititive Check
+Initiative,Yes,Dex,Aviod Feint,,Decp,,,,
+Jump,Yes,Str,Long Jump,,,pg68,20*,,Move*
+Jump,Yes,Str,High Jump,,,pg68,20*,,Move*
+Jump,Yes,Str,Jump Down,,15,"Reduce fall, pg68, Errta",20*,,
+Knowledge (Bureaucracy),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Bureaucracy),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Knowledge (Galactic Lore),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Galactic Lore),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Knowledge (Life Sciences),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Life Sciences),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Knowledge (Physical Sciences),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Physical Sciences),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Knowledge (Social Sciences),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Social Sciences),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Knowledge (Tactics),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Tactics),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Knowledge (Tactics),,Int,Anticipate Enemy Strategy,Y,Will,CW27,,,Move
+Knowledge (Tactics),,Int,Battlefield Tactics,Y,20*,CW27,,,3*Swift
+Knowledge (Technology),,Int,Common Knowledge,,10,,10,N,
+Knowledge (Technology),,Int,Expert Knowledge,Y,15*,pg68,10,N,
+Mechanics,,Int,Disable Device,Y,,"Security Kit, pg69",,Neg,Full Round
+Mechanics,,Int,Handle Explosives,Y,,pg69,,Neg,Full Round
+Mechanics,,Int,Set Detonator,Y,10*,pg69,,Neg,
+Mechanics,,Int,Place Explosives,Y,15*,pg69,,Neg,
+Mechanics,,Int,Diarm Explosives,Y,15*,"Security Kit, pg69",,Neg,
+Mechanics,,Int,Jury-rig,Y,25,"pg70, Errta",10,,Full Round
+Mechanics,,Int,Modify Driod,Y,,"Tool Kit, pg197",,,
+Mechanics,,Int,Recharge Shields,Y,20,pg70,,,3*Swift
+Mechanics,,Int,Regulate Power,Y,20,pg70,,,3*Swift
+Mechanics,,Int,Repair,Y,,"Tool Kit, pg70",,,min 1*hr
+Mechanics,,Int,Repair Droid,Y,20,"Tool Kit, pg70",,,min 1*hr
+Mechanics,,Int,Repair Object,Y,20,pg70,,,min 1*hr
+Mechanics,,Int,Build Object,Y,,"Tool Kit, TFU30",,,
+Mechanics,,Int,Booby Trap,Y,,"Tool Kit, S&V20",,,
+Mechanics,,Int,Hot Shot,Y,20+,"Tool Kit, S&V20",,,1 hr
+Mechanics,,Int,Assist Another,,10,"Errta,",,,As Above
+Mechanics,,Int,Biotech Adaptation,Y,,"Tool kit, LotF31",,,
+Mechanics,,Int,Graft Technology,Y,25,LotF31,,N,1 hr
+Mechanics,,Int,Mechanical Enhancements,Y,30,LotF31,,N,1 hr
+Mechanics,,Int,Refit Antiquated Veh or Wpn,Y,-,"Tool kit, LotF31",-,,LotF31
+Mechanics,,Int,Improvsed Connection,,20,"Tool kit, LotF32",,,1 hr
+Perception,,Wis,Avoid Surprise,,,pg149,,,Reaction
+Perception,,Wis,Eavesdrop,,10*,pg70,,,Standard
+Perception,,Wis,Hear Noises,,10,,,,Standard
+Perception,,Wis,Notice Targets,,Slth,"pg70, includes Ships",,,Reac/Stnd
+Perception,,Wis,Search,,15/Slth,pg70,,,Full Round
+Perception,,Wis,Sense Deception,,Decp,,,,Reaction
+Perception,,Wis,Sense Influance,,20,Detect Mind-affects,,,Full Round
+Perception,,Wis,Quick Search,Y,-10,S&V20,,,Full Round
+Perception,,Wis,Long-Range Spotter,Y,10,CW27,,,As Aid Another
+Persuasion,,Cha,Change Attitude,,Will,"table, pg71",10,N,Full Round
+Persuasion,,Cha,Haggle,,,"table, pg71",10,N,Full Round
+Persuasion,,Cha,Intimidate,,Will,"table, pg71",10,N,Full Round
+Persuasion,,Cha,Bribery,,,"table,TFU31",,,
+Persuasion,,Cha,Improvised Communication,,20-,TFU31,,,Move
+Pilot,,Dex,Aviod Collision,,15,pg173,10,,Reaction
+Pilot,,Dex,Dogfight,,,pg171,10,,Standard
+Pilot,,Dex,Engage The Enemy,Y,,,10,,Inititive Check
+Pilot,,Dex,Increase Vehicle Speed,Y,20,pg72,N,,Swift
+Pilot,,Dex,Ram,,,pg172,10,,Full Round
+Pilot,,Dex,Fly Casual,Y,,Use Pilot instead of Decp,,,
+Ride,Yes,Dex,Ride Mount,,,"table, pg72",10,,Move
+Ride,Yes,Dex,Control Mount In Battle,,20,not if battletrained,10,,Move
+Ride,Yes,Dex,Fast Mount/Dismount,,20*,pf72,10,,Swift
+Ride,Yes,Dex,Guide With Knees,,10,pg72,10,,Each Round
+Ride,Yes,Dex,Leap,,15,pg72,10,,Move
+Ride,Yes,Dex,Soft Fall,,15,pg72,10,,Reaction
+Ride,Yes,Dex,Stay In Saddle,,10,pg72,10,,Reaction
+Ride,Yes,Dex,Use Mount as Cover,,15,pg72,10,,Reaction
+Stealth,Yes,Dex,Sneak,,Perc,"pg72, includes Ships",10,,
+Stealth,Yes,Dex,Conceal Item,,Perc,pg72,10,,Standard
+Stealth,Yes,Dex,Draw Conceal Item,,,,,,Standard
+Stealth,Yes,Dex,Hide During Diversion,,Perc,pg72,10,,Move
+Stealth,Yes,Dex,Pick Pocket,,Perc,pg72,10,,
+Stealth,Yes,Dex,Sleight Of Hand,,Perc,,10,,
+Stealth,Yes,Dex,Snipe,,Perc,pg72,10,,Move
+Stealth,Yes,Dex,Conceal Large Item,,Perc,TFU31,10,,Full Round
+Stealth,Yes,Dex,Drop,,Perc,S&V20,,,
+Survival,,Wis,Basic Survival,,15,pg73,,,Day
+Survival,,Wis,Endure Extreme Temps,,20,Field Kit,,,Day
+Survival,,Wis,Know Direction,,10,,,,Full Round
+Survival,,Wis,Track,Y,,"table, pg74",,,Full Round
+Survival,,Wis,Extended Survival,Y,20,TFU31,,,48 Hours
+Survival,,Wis,Create Defensive Position,Y,20,CW28,,,10 Mins
+Survival,,Wis,Sleeping/Unconscious,,10-,CW28,,,
+Swim,Yes,Str,Swim,,,"1/2 moves, table pg74",10,Y,Move
+Treat Injury,,Wis,First Aid,,15,"medpac, pg74",10,,Full Round
+Treat Injury,,Wis,Long-term Care,,,pg74,10,,8 hrs
+Treat Injury,,Wis,Perform Surgery,Y,,"Surgery Kit, pg74",10,,1 hr
+Treat Injury,,Wis,Heal Damage,,20,pg74,10,,
+Treat Injury,,Wis,Install Cybernetics,,20,pg75,10,,
+Treat Injury,,Wis,Revivfy,Y,25,"Med Kit, pg75",10,,Full Round
+Treat Injury,,Wis,Treat Disease,Y,,"Med Kit, pg254",10,,8 hrs
+Treat Injury,,Wis,Treat Poison,Y,,"Med Kit, pg255",10,,Full Round
+Treat Injury,,Wis,Treat Radiation,Y,,"Med Kit, pg255",10,,8 hrs
+Treat Injury,,Wis,Biotech Repair,Y,,"Biotech kit, LotF32",,,
+Treat Injury,,Wis,Temporary Mending,Y,20,LotF32,,,Ful Round
+Use Computer,,Int,Access Information,,,"table, pg76",,,
+Use Computer,,Int,Connect Computer,,10,connect to net,,,Full Round
+Use Computer,,Int,Astrogate,Y,,"pg 237, SOTG pg19",,,1 Min
+Use Computer,,Int,Disable/Erase Program,Y,15,pg76,,,10 Min
+Use Computer,,Int,Improve Access,Y,Will,pg76,10,,Full Round
+Use Computer,,Int,Issue Routine Commands,,,pg76,,,Standard
+Use Computer,,Int,Reprogram Droid,Y,Will,pg76,,,10 Min
+Use Computer,,Int,Use Communication,,,SOTG pg19,,,
+Use Computer,,Int,Use Sensors,,,SOTG pg19,,,
+Use Computer,,Int,Backtrail,Y,25+,S&V20,,,
+Use Computer,,Int,Cover Tracks,Y,5+,S&V20,,,
+Use Computer,,Int,Access and Reprogram,,,LotF32,,,
+Use Computer,,Int,Copy or Reprogram Access Cards,,,LotF32,,,10 Min
+Use the Force,,Cha,Force Power,Y,,pg95,10,,
+Use the Force,,Cha,Force Tance,Y,10,pg77,10,,Full Round
+Use the Force,,Cha,Move Light Object,Y,10,"pg77, LotF33",10,,Move
+Use the Force,,Cha,Seach Your Feelings,,15,pg77,10,,Full Round
+Use the Force,,Cha,Sense Force,Y,15+,"pg77, LotF33",10,,Full Round
+Use the Force,,Cha,Sense Surrounds,",Y","15, 30","pg77, LotF34",10,,Swift
+Use the Force,,Cha,Telepathy,,,"table, pg77, LotF34",10,,Standard
+Use the Force,,Cha,Breath Control,Y,15,"KOTOR30, JATM10",,,2*Con
+Use the Force,,Cha,Catch/Move Light Object,Y,*,"CW28, JATM10",,,Readied
+Use the Force,,Cha,Place Another in Force Trance,Y,15,"CW28, JATM10",,,Full Round

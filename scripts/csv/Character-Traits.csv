@@ -1,0 +1,541 @@
+BOOK,PAGE,SPECIES,TRAIT,BENEFIT
+L,199,Advozse,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+L,199,Advozse,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+L,199,Advozse,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+F,12,Aleena,Nimble,"You can reroll any Acrobatics check, but you must accept the result of the reroll"
+F,12,Aleena,Quick Energy,"Once per encounter, an Aleena can gain a temporary boost to quickness and reflexes. When this ability is activated as a swift action, an Aleena gains a +2 bonus on Dexterity-based skill checks and increases its speed to 8 squares. The energy lasts for a number of rounds equal to the Aleena's Constitution modifier (minimum 1 round). When the energy is expended, the Aleena moves -1 persistent step along the condition track. The penalties imposed by this condition persist until the Aleena takes at least 10 minutes to recuperate, during which time the creature can't engage in any strenuous activity."
+W,337,Amanin,Primitive,"Amanin do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at 1st level, even if their class normally grants those feats"
+W,337,Amanin,Reach,Amanin have a natural reach of 2 squares
+W,337,Amanin,Resilient,Amanin gain a +1 species bonus to their Fortitude Defense due to their natural resilience
+W,337,Amanin,Roll,"When using the run action, Amanin may roll into a ball to move at greater speed. When rolling, Amanin take a –5 penalty on Perception checks, but their speed is doubled."
+W,337,Amanin,Skills,"Due to their arboreal background, Amanin may choose to take 10 on Climb checks even when distracted or threatened"
+UR,10,Anzati,Hunter's Instincts,Stealth and Survival are class skills for you
+UR,10,Anzati,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,10,Anzati,Mesmerize,"As a standard action, you can make a special attack against the Will Defense of a single target, within 6 squares. The attack modifier is equal to your character level plus your CHA modifier. If the attack succeeds, the target loses its standard action for the next turn. If it fails, the target is immune to this effect for 24 hours. This is a mind-affecting effect."
+UR,10,Anzati,Presence Sense,"When making a Survival check to track a living creature, you gain a species bonus equal to the quarry's Force Point total"
+UR,10,Anzati,Soup Drinking,"As a swift action once/round, you can use your proboscii to drain energy from a grabbed target, moving the target -1 step on the condition track as a persistent condition and granting you bonus hit points equal to 5 + half your level. You can repeat this action each round until the target escapes the grab or is rendered unconscious. If the target survives the feeding attempt, the persistent condition is removed after the target rests for 8 hours."
+CR,284,Aqualish,Bonus Feat,You gain Toughness as a bonus feat
+CR,284,Aqualish,Breathe Underwater,You cannot drown in water
+CR,284,Aqualish,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+W,156,Arcona,Great Fortitude,You gain a +2 species bonus to your Fortitude Defense
+W,156,Arcona,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+K,10,Arkanian,Darkvision,You ignore concealment (including total concealment) from darkness
+K,10,Arkanian,Flash of Genius,"Once/encounter add a +5 circumstance bonus to the result of one Knowledge, Mechanics or Use Computer skill check"
+K,10,Arkanian,Intellectual Reputation,You can use your INT bonus instead of your CHA bonus on Persuasion checks
+K,11,Arkanian Offshoot,Conditional Bonus Feat,"Gain the Skill Focus feat for one of the following skills in which you are trained: Endurance, Mechanics, Pilot, Survival, Treat Injury"
+K,11,Arkanian Offshoot,Determination,"Once per encounter, they can reroll one failed skill check with a trained skill. This reroll can be declared after the success or failure of the roll is known. The Arkanian offshoot must take the result of the second roll. A skill check is considered a failure only when the check fails to meet the minimum DC for any kind of success."
+SV,154,Balosar,Antennapalps,"While his antennapalps are extended, a Balosar can reroll a Perception check involving sound but must keep the second result. A Balosar may choose to retract his antennapalps as a free action (extending them is likewise a free action) to pass as human (no Deception check required)."
+SV,154,Balosar,Moral Ambiguity,You gain a +2 species bonus to Will Defense against Deception and Persuasion checks
+SV,154,Balosar,Poison Resistance,You gain a +5 species bonus to Fortitude Defense against poisons
+GW,11,Barabel,Darkvision,You ignore concealment (including total concealment) from darkness
+SV,154,Barabel,Darkvision,You ignore concealment (including total concealment) from darkness
+GW,11,Barabel,Natural Armor,You gain a +2 natural armor bonus to your Reflex Defense
+SV,154,Barabel,Natural Armor,You gain a +2 natural armor bonus to your Reflex Defense
+GW,11,Barabel,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, teeth or tail, dealing 1d6 slashing, piercing or bludgeoning damage respectively"
+SV,154,Barabel,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, teeth or tail, dealing 1d6 slashing, piercing or bludgeoning damage respectively"
+GW,11,Barabel,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+SV,154,Barabel,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+GW,11,Barabel,Radiation Resistance,You gain a +5 species bonus to your Fortitude Defense to resist the effect of radiation; never gain persistent condition from the effects of radiation
+SV,154,Barabel,Radiation Resistance,You gain a +2 species bonus to your Fortitude Defense to resist the effect of radiation; never gain persistent condition from the effects of radiation
+GW,11,Barabel,Skills,"You may choose to reroll any Persuasion check made to intimidate others, but you must accept the result of the reroll"
+SV,154,Barabel,Skills,"You may choose to reroll any Persuasion check made to intimidate others, but you must accept the result of the reroll"
+GW,11,Barabel,Stun Resistance,You gain a +5 species bonus to your damage threshold to resist stun damage
+GI,10,Bith,Evolved Intellect,"Whenever a Bith spends a Force Point for any reason, the Bith gains a temporary Force Point that must be spent to add to an Intelligence-based skill check. If the temporary Force Point has not been used by the end of the encounter, it is lost."
+T,26,Bith,Evolved Intellect,"Once per encounter, treat any INT-based skill check as though it were a natural 20"
+T,26,Bith,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+GI,10,Bith,Meditative Trance,"You can enter a trance that lasts 4 hours, after which you gain the benefits of having rested for 8 hours"
+T,26,Bith,Meditative Trance,"You can enter a trance that lasts 4 hours, after which you gain the benefits of having rested for 8 hours"
+GI,10,Bith,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+SV,6,Blood Carver,Conditional Bonus Feat,You gain Skill Focus (Acrobatics) as a bonus feat if you are trained in the Acrobatics skill
+SV,6,Blood Carver,Deathstrike,You deal +1 die of damage to an opponent denied its DEX bonus to Reflex Defense when you hit with a melee attack
+CR,23,Bothan,Conditional Bonus Feat,You gain Skill Focus (Gather Information) if you are trained in the Gather Information skill
+CR,23,Bothan,Iron Will,You gain a +2 species bonus to your Will Defense
+F,13,Caamasi,Adept Diplomat,"You may choose to reroll any Persuasion check, keeping the better result"
+F,13,Caamasi,Memory Sharing,"Caamasi can create strong, lasting memories and share them with others of their species through an inborn telepathy. Sharing a memory begins with taking a full-round action to initiate the link between two adjacent Caamasi; transferring a memory requires as much time as the events being recalled. The recipient of a memory must be willing to receive it. Experiencing memniiis not like receiving a photographic memory of those events, but rather a complete, immersive experience. Any character who receives a memnis from a Caamasi always gains favorable circumstances on Knowledge checks related to that memory. Force-using characters can also receive memnii from a Caamasi with a successful DC 15 Use the Force check, made as a reaction."
+F,13,Caamasi,Pacifism,"As a standard action, a Caamasi can make a Persuasion check against the Will Defense of a single target within line of sight. If the check is successful, the target moves -1 step along the condition track if it makes any attacks before the start of the Caamasi's next turn. The target must be able to hear and understand the Caamasi for this ability to have any effect, and any single target can be affected only once at any given time (meaning that multiple Caamasi may not use this ability on the same target at the same time). This is a mind-affecting effect."
+K,12,Cathar,Cathar Instincts,Climb and Stealth are class skills for Cathar.
+K,12,Cathar,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+K,12,Cathar,Reactive Claw,"Once/encounter when you damage an opponent in melee, you can make a single melee attack with a claw against that target as a swift action if you have a free hand"
+J,106,Celegian,Broadcast Telepath,"Celegians can use the Telepathy application of the Use the Force skill untrained, even if they do not possess the Force Sensitivity feat. A Celegian automatically succeeds on this check to communicate with willing targets within 60 squares of it and in its line of sight."
+J,106,Celegian,Cyanogen Breather,"Unless you are encased in a special environment chamber, you will suffocate. Ooroo's Life-support chamber: DR 10, +5 equipment bonus to Fortitude Defense, increases fly speed by +2 squares"
+J,106,Celegian,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+CR,24,Cerean,Conditional Bonus Feat,You gain Skill Focus (Initiative) if you are trained in the Initiative skill
+CR,24,Cerean,Intuitive Initiative,"You may choose to reroll any Initiative check, but you must accept the result of the reroll"
+L,211,Chadra-Fan,Darkvision,You ignore concealment (including total concealment) from darkness
+UR,11,Chadra-Fan,Darkvision,You ignore concealment (including total concealment) from darkness
+UR,11,Chadra-Fan,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+L,211,Chadra-Fan,Tinkerer,"You have Mechanics as a class skill, you can choose to reroll any Mechanics check, but must accept the result of the reroll. Whenever you repair or jury-rig a droid or device with Mechanics check, it gains an additional 1d8 hit points"
+UR,11,Chadra-Fan,Tinkerer,"Whenever you repair or jury-rig a droid or device with Mechanics check, it gains an additional 1d8 hit points"
+C,159,Chagrian,Breathe Underwater,You can breathe normally in water
+L,10,Chagrian,Breathe Underwater,You cannot drown in water
+C,159,Chagrian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+L,10,Chagrian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+C,159,Chagrian,Radiation Resistance,You gain a +5 species bonus to your Fortitude Defense to resist the effect of radiation
+L,10,Chagrian,Radiation Resistance,You gain a +5 species bonus to your Fortitude Defense to resist the effect of radiation
+F,192,Chiss,Bonus Trained Skill,You choose one additional trained skill
+L,11,Chiss,Bonus Trained Skill,You choose one additional trained skill
+UR,126,Chiss,Bonus Trained Skill,You choose one additional trained skill
+F,192,Chiss,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+L,11,Chiss,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,126,Chiss,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+T,34,Chistori,Armor Plating,Chistori have thick scales that provide damage reduction 2.
+T,34,Chistori,Cold-Blooded,You take a -5 penalty to Fortitude Defense when exposed to extreme cold
+T,34,Chistori,Rage,"Once/day you can fly into a rage as a swift action, temporarily gaining +2 rage bonus to melee attack rolls and damage rolls, but unable to use skills requiring concentration and patience; lasts 5 + Constitution rounds, and moves character -1 persistent step along the condition track until 10 minutes of relaxed recuperation have passed"
+SV,7,Clawdite,Shapeshift,"Clawdites are shapechangers and can alter their appearance at will. A Clawdite gains a +10 species bonus on Deception checks made to disguise appearance. Additionally, a Clawdite can disguise its appearance as a full-round action at no penalty."
+SV,7,Clawdite,Startle,"Once/encounter as a reaction to an attack, you can make a Deception check against the attacker's Will Defense to impose a -5 penalty on the attack roll"
+C,91,"Clone, Republic",Bonus Feat,You gain one bonus feat
+C,91,"Clone, Republic",Bonus Trained Skill,You choose one additional trained skill
+L,12,Codru-Ji,Bonus Feat,Gains Dual Weapon Mastery as a bonus feat provided he or she meets the prerequisites of the feat (minimum Dexterity of 13 and a base attack bonus of + 1).
+L,12,Codru-Ji,Extra Arms,"Codru-Ji can hold up to four items or weapons at a time. This ability does not grant extra attacks; however, it does mean that a Codru-Ji can wield two two-handed weapons at a time."
+L,12,Codru-Ji,Skilled Grappler,You gain a +5 species bonus to grab attacks
+J,128,Croke,Illusory Form,"A Croke can hide its true appearance behind an illusion. As a swift action, it can appear as a Small or Medium creature that can vary in appearance depending on who views it, and it can maintain this illusion indefinitely. The illusion has no effect on the Croke's statistics. A creature can pierce the illusion by making a Perception or Use the Force check against the Croke's Will Defense as a standard action, but only while the Croke is stunned or unconscious. The illusion otherwise looks and feels absolutely real."
+J,128,Croke,Immune to vacuum,You are immune to the effects of vacuum
+GW,12,Dashade,Environmental Adaptation,"You gain a +5 species bonus to your Fortitude Defense against the effects of extreme heat, extreme cold and radiation"
+GW,12,Dashade,Fearsome Reputation,"You can reroll Persuasion checks made to intimidate another, keeping the better result"
+GW,12,Dashade,Force Resistance,You gain a +5 species bonus to your Fortitude and Will Defenses against any Use the Force checks
+GI,11,Defel,Partial Invisibility,When you are in shadowy illumination or darker conditions you are treated as having total concealment; you are fully visible and gain no concealment against opponents with darkvision
+GI,11,Defel,Special Equipment,"You require special goggles to see in normal light. Without such a visor, a Defel is considered blind (see ""Blindness"" on page 254 of the Saga Edition core rulebook). An ultraviolet visor costs 2,000 credits. A Defel character begins play with this item at no cost."
+L,214,Devaronian,Conditional Bonus Feat,You gain Skill Focus (Deception) as a bonus feat if you are trained in the Deception skill
+W,228,Devaronian,Conditional Bonus Feat,You gain Skill Focus (Deception) as a bonus feat if you are trained in the Deception skill
+L,214,Devaronian,Natural Curiosity,"Once/encounter as a standard action, you can make a Perception check against a single target within line of sight (DC 15 or the result of an opposed Stealth check); if successful, you gain a +1 insight bonus on attack rolls against that target."
+W,228,Devaronian,Natural Curiosity,"Once/encounter as a standard action, you can make a Perception check against a single target within line of sight (DC 15 or the result of an opposed Stealth check); if successful, you gain a +1 insight bonus on attack rolls against that target."
+K,12,Draethos,Bonus Feat,You gain Weapon Proficiency (advanced melee weapons) as a bonus feat
+K,12,Draethos,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+K,12,Draethos,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+K,12,Draethos,Natural Telepath,Gain a +5 species bonus using the Telepathy aspect of the Use the Force skill and make untrained Use the Force checks to use Telepathy without the Force Sensitivity feat
+CR,187,Droid,Behavioral Inhibitors,"Droids (except 4th-degree droids) cannot intentionally harm a sentient living being or knowingly allow a sentient living being to be harmed. Furthermore, all droids must follow orders given to them by their rightful owners, as long as those orders don't require the droid to harm a sentient living being. Droids with heuristic processors can sometimes violate these restrictions by creatively interpreting their behavioral inhibitions (see Processors, page 190)."
+CR,187,Droid,Ion Damage Vulnerability,"As electronic constructs, droids are vulnerable to damage from ion weapons (see Ion Weapons, page 159). Generally, ion weapons have the same effect on droids that stun weapons have on living beings."
+CR,187,Droid,Maintenance,"Droids do not sleep, eat, or breathe. However, they do need to enter shutdown mode and recharge for 1 hour after 100 hours of operation. If a droid fails to do so, it must make an Endurance check each hour (DC 10, + 1 per additional hour after the first) or move -1 persistent step along the condition track (see Conditions, page 148). This persistent condition can only be removed by the droid recharging for 1 hour."
+CR,188,Droid,Repair,"Droids can regain lost hit points only through the use of the Mechanics skill (see page 68). A droid can use this skill to repair itself, but it takes a -5 penalty on its skill check."
+CR,188,Droid,Shut Down,"A droid that is shut down can take no actions and is effectively unconscious. Shutting down a willing droid is a standard action. Shutting down an unwilling droid is more difficult, requiring that you to grab the droid (see Grab, page 152) and then make a Mechanics check (DC = droid's Will Defense) as a standard action while it's grabbed. You cannot shut down an unwilling droid with locked access unless it is disabled or otherwise helpless (see Locked Access, page 195)."
+CR,188,Droid,Skills,"Droids normally cannot use any skill untrained except for Acrobatics, Climb, Jump, and Perception. A droid with a heuristic processor ignores this limitation (see Processors, page 190)."
+CR,188,Droid,Systems,"Droids can have many of their characteristics changed by installing or replacing existing systems (see Modifying Droids, page 197)."
+CR,188,Droid,Nonliving,"A droid is immune to poison, disease, radiation, noncorrosive atmospheric hazards, vacuum, mind-affecting effects, stunning effects, and any other effect that works only on living targets. Droids have no connection to the Force and can't gain the Force Sensitivity feat or learn Force powers. Droids do not have a Constitution score, so they don't get bonus hit points for having a high Constitution, and they apply their Strength modifier to their Fortitude Defense. Unlike living beings, droids don't ""die,"" but they can be disabled or destroyed. If a droid is reduced to 0 hit points, it is disabled and cannot be reactivated until it is repaired so that has at least 1 hit point. If the attack that reduced the droid to 0 hit points also exceeds the droid's damage threshold, the droid is destroyed instead. A destroyed droid cannot be repaired or salvaged."
+SGD,11,"Droid, Astromech",Bonus Equipment,"Astromech droids are constructed with the following droid systems installed in each: wheeled locomotion, walking locomotion, magnetic feet, heuristic processor, 6 tool appendages, 1 claw appendage, astrogation buffer (5 memory units), diagnostics package, and internal storage (2 kg)."
+SGD,11,"Droid, Astromech",Conditional Bonus Feat,An astromech droid with Mechanics or Use Computer as a trained skill can select Skill Focus (Mechanics) or Skill Focus (Use Computer) as a bonus feat.
+SGD,11,"Droid, Astromech",Droid Traits,You are a second-degree droid and have all droid immunities and typical droid traits
+SGD,11,"Droid, Astromech",Hardwired Design,You gain Mechanics as a bonus trained skill
+SGD,11,"Droid, Battle",Bonus Equipment,"Battle droids are constructed with the following droid systems installed in each: walking locomotion, plasteel shell (+2 armor), basic processor, internal com link, locked access, 2 hand appendages, and vocabulator."
+SGD,11,"Droid, Battle",Bonus Feat,"At 1st level, a battle droid can select one Armor Proficiency feat and one Weapon Proficiency feat for which it meets the prerequisites."
+SGD,11,"Droid, Battle",Droid Traits,You are a fourth-degree droid and have all droid immunities and typical droid traits
+SGD,11,"Droid, Labor",Bonus Equipment,"Labor droids are constructed with the following droid systems installed in each: walking locomotion, durasteel shell (+4 armor), basic processor, 2 claw appendages, and vocabulator."
+SGD,11,"Droid, Labor",Droid Traits,You are a fifth-degree droid and have all droid immunities and typical droid traits
+SGD,11,"Droid, Labor",Heavy Lifting,You can reroll any STR check or STR-based skill check and keep the better result
+SGD,12,"Droid, Mechanic",Bonus Equipment,"Mechanic droids are constructed with the following droid systems installed in each: walking locomotion (or tracked or wheeled locomotion), basic processor, 2 hand appendages, 4 tool appendages, diagnostics package, internal storage (2 kg), and a vocabulator."
+SGD,12,"Droid, Mechanic",Droid Traits,You are a second-degree droid and have all droid immunities and typical droid traits
+SGD,12,"Droid, Mechanic",Hardwired Design,You gain Mechanics as a bonus trained skill
+SGD,12,"Droid, Mechanic",Mechanically Minded,You can reroll any Mechanics check
+SGD,12,"Droid, Medical",Bonus Equipment,"Medical droids are constructed with the following droid systems installed in each: walking locomotion, heuristic processor, 2 hand appendages, 1 tool appendage, vocabulator, and improved sensor package."
+SGD,12,"Droid, Medical",Conditional Bonus Feat,"A medical droid with Treat Injury or Knowledge (life sciences) as a trained skill can select Skill Focus (Treat Injury) or Skill Focus (Knowledge [life sciences]) as a bonus feat, A medical droid can take only one of these bonus feats."
+SGD,12,"Droid, Medical",Droid Traits,You are a first-degree droid and have all droid immunities and typical droid traits
+SGD,12,"Droid, Medical",Hardwired Design,You gain Treat Injury as a bonus trained skill
+SGD,12,"Droid, Probe",Bonus Equipment,"Probe droids are designed for surveillance and are constructed with the following droid systems installed in each: hovering locomotion, heuristic processor, internal comlink, locked access, 1 hand appendage, 1 tool appendage, improved sensor package, and darkvision."
+SGD,12,"Droid, Probe",Conditional Bonus Feat,A probe droid with Stealth or Perception as a trained skill can select Skill Focus (Stealth) or Skill Focus (Perception) as a bonus feat. A probe droid can take only one of these bonus feats.
+SGD,12,"Droid, Probe",Droid Traits,You are a fourth-degree droid and have all droid immunities and typical droid traits
+SGD,12,"Droid, Probe",Hardwired Design,You gain Perception as a bonus trained skill
+SGD,13,"Droid, Protocol",Bonus Equipment,"Protocol droids are constructed with the following droid systems installed in each: walking locomotion, basic processor, 2 hand appendages, vocabulator, and translator unit (DC 10)."
+SGD,13,"Droid, Protocol",Bonus Feat,"To supplement its translation and etiquette duties, a protocol droid can select Skill Training (Knowledge [bureaucracy]), Skill Training (Knowledge [galactic lore]), or Skill Training (Knowledge [social sciences]) as a bonus feat. A protocol droid can take only one these bonus feats."
+SGD,13,"Droid, Protocol",Droid Traits,You are a third-degree droid and have all droid immunities and typical droid traits
+SGD,13,"Droid, Protocol",Hardwired Design,You gain Persuasion as a bonus trained skill
+SGD,13,"Droid, Service",Bonus Equipment,"Service droids are constructed with the following droid systems installed in each: walking locomotion, basic processor, 2 hand appendages, 1 tool mount, and vocabulator."
+SGD,13,"Droid, Service",Bonus Feat,"To enhance its service role, a service droid can select Skill Training (Perception), Skill Training (Knowledge [bureaucracy]), or Skill Training (Knowledge [galactic lore]) as a bonus feat. A service droid can take only one of these bonus feats."
+SGD,13,"Droid, Service",Droid Traits,You are a third-degree droid and have all droid immunities and typical droid traits
+C,10,Dug,Athletic,"A Dug can reroll any Climb or Jump check, but the result of the reroll must be accepted, even if it is worse. In addition, a Dug can take 10 on Climb and Jump checks even when distracted or threatened."
+W,312,Dug,Conditional Bonus Feat,A Dug that has Acrobatics as a trained skill gains Skill Focus (Acrobatics) as a bonus feat.
+W,312,Dug,Dug Agility,"The Dugs' natural environment makes them extremely agile. Dugs may reroll any Climb check or Jump check, but the result of the reroll must be accepted, even if it is worse."
+W,312,Dug,Lightning Reflexes,"Dugs gain a +2 species bonus to their Reflex Defense, accounting for their uncanny ability to avoid danger."
+CR,25,Duros,Expert Pilot,"You may choose to reroll any Pilot check, but you must accept the result of the reroll"
+UR,127,Ebruchi,Conditional Bonus Feat,You gain Improved Damage Threshold as a bonus feat if your have a CON 13 or better
+UR,127,Ebruchi,Iron Will,You gain a +2 species bonus to your Will Defense
+UR,127,Ebruchi,Unsettling,"Once per encounter, when an Ebruchi successfully uses the Persuasion skill to intimidate a target, the Ebruchi can move the target -1 step on the condition track instead of applying one of the standard intimidation effects. The target must be within 6 squares of the Ebruchi, and the effect lasts until the end of the encounter. This is a mind-affecting effect."
+GI,133,Elomin,Impose Order,"Once per encounter, an Elomin can spend a swift action to allow each ally within 12 squares to move up to half that ally's speed as a reaction. This movement does not provoke opportunity attacks."
+GI,133,Elomin,Logical Mind,You gain a +5 species bonus to Will Defense against mind-affecting effects
+CR,25,Ewok,Conditional Bonus Feat,You gain Skill Focus (Survival) as a bonus feat if you are trained in the Survival skill
+CR,25,Ewok,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+CR,25,Ewok,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+SV,8,Falleen,Hold Breath,You can hold your breath for a number of rounds equal to 25 x your CON score before having to make Endurance checks to hold your breath
+SV,8,Falleen,Pheromone Acclimation,You gain a +5 species bonus to your Fortitude Defense against the pheromones of other Falleen
+SV,8,Falleen,Pheromones,"As a standard action, you can make a special attack vs adjacent creature; the attack bonus = your character level + your CHA bonus; if the attack equals or exceeds the target's Fortitude Defense, the target moves -1 step on the condition track. If you fail, target is immune for 24h. If target reaches -5 CT, instead of falling unconscious, it becomes friendly. Pheromones function as an inhaled poison. Any creature holding its breath is unaffected (see the Endurance skill description on page 66 of the Saga Edition core rulebook). A creature can be affected by Falleen pheromones only once per round. Multiple exposures to pheromones from different Falleen in the same round produce no additional effects. A hostile creature cannot be targeted by this effect."
+K,13,Feeorin,Brutal,"Once per encounter, after making a successful melee attack, a Feeorin may treat its opponents damage threshold as though it were 5 points lower when determining the result of the attack."
+K,13,Feeorin,Great Fortitude,You gain a +2 species bonus to your Fortitude Defense
+K,13,Feeorin,Inborn Resilience,"A Feeorin can use Second Wind even when unconscious (no action required, but the Second Wind can only be taken when the Feeorin would normally get a turn). Taking a Second Wind while unconscious also move the Feeorin +3 steps on the condition track."
+K,13,Feeorin,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+K,13,Feeorin,Stronger by Age,"At middle age, a Feeorin adds a +1 species bonus to all Strength or Constitution checks. At old age, this bonus increases to +2. Feeorin do not increase their Intelligence, Wisdom or Charisma or decrease their Strength, Dexterity or Constitution as they age."
+F,14,Felucian,Bonus Feat,You gain Force Sensitivity as a bonus feat
+F,14,Felucian,Breathe Underwater,You cannot drown in water
+F,14,Felucian,Force Blast,Once per encounter a Felucian can make an untrained Use the Force check to activate the Force blast power. A Felucian who takes the Force Training feat automatically adds a single use of the Force blast power to his Force power suite (for free) instead of this ability.
+F,14,Felucian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+F,14,Felucian,Natural Camouflage,"You can choose to reroll any Stealth check to sneak, keeping the better result"
+F,14,Felucian,Primitive,"Regardless of your starting class, you only gain Weapon Proficiency for the simple weapons group"
+F,14,Felucian,Weapon Familiarity,You treat the Felucian skullblade as a simple weapon instead of an exotic weapon
+GI,12,Fosh,Deceptive,"You may choose to reroll any Deception check, but you must accept the result of the reroll"
+GI,12,Fosh,Healing Glands,"You are always considered to have a medpac or medical kit for the purposes of making Treat Injury checks, and can perform Trained Only applications of the Treat Injury skill even when untrained"
+CR,26,Gamorrean,Bonus Feat,You gain Improved Damage Threshold as a bonus feat
+CR,26,Gamorrean,Great Fortitude,You gain a +2 species bonus to your Fortitude Defense
+CR,26,Gamorrean,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+SV,8,Gand,Darkvision,You ignore concealment (including total concealment) from darkness
+SV,8,Gand,Hardy,"When you catch a second wind, you regain a number of additional hit points equal to 5 + your character level"
+SV,8,Gand,Limb Regeneration,You can regrow a lost limb in 1d10 days
+SV,8,Gand,Special Equipment,"You require a breathing apparatus and a transliterator. Without a breathing apparatus, a Gand will suffocate. Without a transliterator, a Gand cannot communicate in any language other than Gand. A breathing apparatus costs 2,000 credits, and a year's supply of breathing filters cost 200 credits (50 credits on Gand). A transliterator costs 100 credits. A Gand character begins play with these items at no cost."
+C,11,Gen'dai,Gen'dai Surge,"Whenever a Gen'Dai takes its second wind, it regains 5 hit points every round at the end of its turn until killed, until the end of the encounter, or until reaching one-half hit points (whichever comes first). [Gen'dai continue to regain hp at the end of their turn even if they are knocked unconscious. They regain hp, move +1 CT to the -10 step, and regain consciousness, although prone]"
+C,11,Gen'dai,Hibernation,"A Gen'Dai can enter a state similar to a hibernation trance. A Gen'Dai can use the Force Trance application of the Use the Force skill untrained (and even if not Force -sensitive) and can remain in the trance indefinitely. A Gen'Dai in such a state ceases to age, and needs no food, water, or air until it emerges from hibernation."
+C,11,Gen'dai,Mental Instability,"You do not gain WIS as you age, and take a -1 penalty to WIS for each age category you advance to beyond Adult"
+C,11,Gen'dai,Regeneration,"A Gen'Dai can regrow lost body parts- including significant portions of its physical structure and individual limbs- in 1d10 minutes. At the end of that time, all persistent penalties associated with the loss of one or more limbs are removed."
+C,11,Gen'dai,Resilient Physiology,Your damage threshold is doubled after adding bonuses for feats or size when determining whether you are killed by an attack (but not for any other purpose)
+W,164,Geonosian,Bonus Feat,Weapon Proficiency (advanced melee weapons)
+W,164,Geonosian,Conditional Bonus Feat,Skill Focus (Mechanics) if trained in Mechanics
+C,181,Geonosian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+W,164,Geonosian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+W,164,Geonosian,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+C,181,Geonosian,Radiation Resistance,You gain a +5 species bonus to your Fortitude Defense to resist the effect of radiation
+W,164,Geonosian,Radiation Resistance,You gain a +2 species bonus to your Fortitude Defense to resist the effect of radiation
+GI,13,Givin,Deductive Reasoning,"You can reroll any Knowledge check, but you must accept the result of the reroll"
+GI,13,Givin,Exoskeleton,You gain a +2 species bonus to your Fortitude Defense and DR 2
+GI,13,Givin,Unique Physiology,You are immune to the effects of vacuum and to the effects of inhaled chemicals and poisons
+GI,14,Gotal,Energy Reading,"Gotals can read the emotions of any sentient being within 6 squares. As a standard action, a Gotal can make a Perception check against a target's Will Defense. A successful check reveals the target's emotional state (such as happy, sad, nervous, or scared)."
+GI,14,Gotal,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+GI,14,Gotal,Sensor Cones,You can use the Sense Force and Sense Surroundings applications of the Use the Force skill untrained
+F,15,Gran,Conditional Bonus Feat,You gain Precise Shot as a bonus feat if you have the Point Blank Shot feat
+F,15,Gran,Darkvision,You ignore concealment (including total concealment) from darkness
+F,15,Gran,Target Awareness,You take no distance penalties on Perception checks made to notice targets for the first 50 squares between you and the targets
+F,15,Gran,Triple Vision,Once/encounter you can aim by taking a swift action instead of two swift actions
+CR,26,Gungan,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+CR,26,Gungan,Hold Breath,You can hold your breath for a number of rounds equal to 25 x your CON score before having to make Endurance checks to hold your breath
+CR,26,Gungan,Lightning Reflexes,You gain a +2 species bonus to your Reflex Defense
+CR,26,Gungan,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+CR,26,Gungan,Weapon Familiarity,You are proficient with the atlatl and the cesta if you have the Weapon Proficiency (simple weapons) feat
+GI,15,Herglic,Conditional Bonus Feat,You gain Skill Focus (Gather Information) if you are trained in the Gather Information skill
+GI,15,Herglic,Sturdy,When you catch a second wind you regain a number of additional hit points equal to 5 + half of your level
+SV,155,Houk,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+SV,155,Houk,Physically Intimidating,You use your STR bonus instead of your CHA bonus for Persuasion checks made to intimidate others
+CR,23,Human,Bonus Feat,You gain one bonus feat
+CR,23,Human,Bonus Trained Skill,You choose one additional trained skill
+CR,284,Hutt,Force Resistance,You gain a +5 species bonus to your Will Defense against any Use the Force checks
+CR,284,Hutt,Skills,"You may reroll a Persuasion check, keeping the better result"
+CR,284,Hutt,Supreme Stability,You cannot be tripped or knocked prone
+C,12,Iktotchi,Expert Pilot,"You may choose to reroll any Pilot check, but you must accept the result of the reroll"
+C,12,Iktotchi,Limited Precognition,Once/encounter as a reaction you can grant yourself or a vehicle you are piloting a +2 species bonus to Reflex Defense against any single attack
+C,12,Iktotchi,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+UR,12,Ishi Tib,Breathe Underwater,You cannot drown in water
+UR,12,Ishi Tib,Ecological Awareness,"You can roll twice when making a Knowledge (life sciences) check, keeping the better result"
+UR,12,Ishi Tib,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+UR,12,Ishi Tib,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,12,Ishi Tib,Natural Weapons,"When you make an unarmed attack, you may choose to use your beak, dealing 1d6 piercing damage"
+CR,27,Ithorian,Bellow,"As a standard action, an Ithorian can open all four of its throats and emit a terrible subsonic bellow. The Ithorian makes a special attack roll (ld20 + its character level) and compares the result to the Fortitude Defense of all creatures and unattended objects in a 6-square cone. A successful hit deals 3d6 points of sonic damage; if the attack misses, the target takes half damage instead. Each use of this ability moves the Ithorian -1 step along the condition track (see Conditions, page 148). An Ithorian can choose to add more dice (d6s) to the damage it deals with its bellow, but each additional 1d6 of damage moves the Ithorian another-1 step along the condition track. You add the damage bonus from your heroic levels to this attack."
+CR,27,Ithorian,Conditional Bonus Feat,You gain Skill Focus (Knowledge (life sciences)) as a bonus feat if you are trained in Knowledge (life sciences)
+CR,27,Ithorian,Iron Will,You gain a +2 species bonus to your Will Defense
+CR,27,Ithorian,Survival Instinct,"You may choose to reroll any Survival check, but you must accept the result of the reroll"
+SV,9,Jawa,Darkvision,You ignore concealment (including total concealment) from darkness
+W,164,Jawa,Darkvision,You ignore concealment (including total concealment) from darkness
+SV,9,Jawa,Desert Dweller,"When making Survival checks to resist the effects of extreme heat, you can reroll the check and keep the better result"
+SV,9,Jawa,Scavenger,"Whenever a Jawa armed with an ion weapon successfully damages a droid or vehicle, the Jawa adds half its level in ion damage."
+SV,9,Jawa,Skills,"You have Mechanics as a class skill and you can choose to reroll any Mechanics check, but must accept the result of the reroll"
+W,164,Jawa,Skills,You may take 10 on Survival checks in desert terrain
+W,164,Jawa,Skills,"You may reroll Mechanics checks when repairing an object, vehicle, or droid"
+C,12,Kaleesh,Conditional Bonus Feat,You gain Skill Focus (Survival) as a bonus feat if you are trained in the Survival skill
+C,12,Kaleesh,Darkvision,You ignore concealment (including total concealment) from darkness
+C,12,Kaleesh,Driven,You gain a +5 species bonus to Will Defense against mind-affecting effects
+C,12,Kaleesh,Persistent,"You can reroll any Endurance check, but you must accept the result of the reroll"
+C,13,Kaminoan,Conditional Bonus Feat,You gain Skill Focus (Treat Injury) as a bonus feat if you are trained in the Treat Injury skill
+C,13,Kaminoan,Resistant,You gain a +2 species bonus to your Fortitude Defense
+W,164,Kaminoan,Skills,You may take 10 on Survival checks in aquatic terrain
+W,164,Kaminoan,Skills,You may reroll Treat Injury and Knowledge (life sciences) checks
+CR,28,Kel Dor,Keen Force Sense,"You may choose to reroll any Use the Force check made to search your feelings or sense the Force, keeping the best result"
+CR,28,Kel Dor,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+CR,28,Kel Dor,Special Equipment,"You require protective goggles and an antiox breath mask. Without protective goggles, a Kel Dor is considered blind (see page 254). Without an antiox breath mask, a Kel Dor begins to suffocate (see Endurance, page 66). A replacement mask costs 2,000 credits (500 on Dorin)' and a year's supply of filters costs 200 credits (50 on Dorin). Kel Dor characters begin play with these items at no cost. An antiox breath mask is poisonous to other species (see page 255)."
+C,14,Kerkoiden,Predator's Heritage,You gain a +2 species bonus on damage rolls against a target that has been damaged since the beginning of your last turn
+C,14,Kerkoiden,Social Cunning,You may use your WIS bonus in the place of your CHA bonus for determining your skill bonus on Deception and Persuasion
+K,14,Khil,Cooperative Spirit,"As a swift action you can aid adjacent allies or vice-versa on skill checks with the following skills: Climb, Endurance, Gather Information, Jump, Knowledge, Mechanics, Pilot, Ride, Survival, Swim, Treat Injury or Use Computer"
+K,14,Khil,Dependable Worker,"Once per encounter, a Khil can treat one skill check with certain skills [detailed below) as though he or she had taken 10, even after the roll has been made (but before the result of the check is known). The Khil may only use this ability on checks with one of the following skills: Climb, Endurance, Gather Information, Jump, Knowledge [any), Mechanics, Pilot, Ride, Survival, Swim, Treat Injury, or Use Computer."
+K,14,Khil,Hullepi,"You do not suffer the effects of starvation, except in a sterile environment"
+UR,131,Killik,Hive Mind,When you are within 1 kilometre of another Killik you can communicate via telepathy
+UR,131,Killik,Joiners,"Whenever a Killik reduces a living creature with an Intelligence of 3 or higher to 0 hit points, or the Killik knocks the creature unconscious by moving it down the condition track, the Killik can transform the target into a Joiner. The target must be helpless for this to occur. The process takes 1 minute and exposes the target to mind-altering pheromones. Once the target becomes a Joiner, its attitude shifts to friendly to the Killik and its allies, and the target gains a + 10 bonus to Will Defense against attempts to use Persuasion to alter its perceptions of its new Killik friends. A target transformed into a Joiner in this manner can make a DC 20 Intelligence check once per day to remove the effect and return to its original attitude. This is a mind-affecting effect."
+UR,131,Killik,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,131,Killik,Multiple Limbs,"When making multiple attacks, reduce the penalty to your attack rolls by 2"
+UR,131,Killik,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+UR,131,Killik,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+K,15,Kissai,Inspired,"When you receive a morale or insight bonus from any source, the bonus increases by 1"
+K,15,Kissai,Warrior's Awareness,Once/encounter as a reaction you can gain the benefit of the Uncanny Dodge 1 and Uncanny Dodge 2 talents until the beginning of your next turn
+K,15,Kissai,Weapon Familiarity,You treat the lanvarok as a simple weapon instead of an exotic weapon
+L,13,Klatooinian,Iron Will,You gain a +2 species bonus to your Will Defense
+J,111,Krevaaki,Carapace,Krevaaki gain a +1 natural armor bonus to Reflex Defense and a + 1 natural armor bonus to Fortitude Defense. A natural armor bonus stacks with an armor bonus.
+UR,12,Krevaaki,Carapace,Krevaaki gain a +1 natural armor bonus to Reflex Defense and a + 1 natural armor bonus to Fortitude Defense. A natural armor bonus stacks with an armor bonus.
+UR,12,Krevaaki,Conditional Bonus Feat,You gain Skill Focus (Climb) as a bonus feat if you are trained in the Climb skill
+J,111,Krevaaki,Grasping Tentacles,You gain a +2 species bonus on Climb checks and +2 species bonus on grapple checks
+UR,12,Krevaaki,Grasping Tentacles,You gain a +2 species bonus on Climb checks and grapple attack rolls
+J,111,Krevaaki,Stoic,Any creature attempting to use the Sense Motive application of the Perception skill on you takes a -5 penalty on the skill check
+UR,12,Krevaaki,Stoic,Any creature attempting to use the Sense Motive application of the Perception skill on you takes a -5 penalty on the skill check
+UR,135,Lugubraa,Bonus Feat,You gain Improved Damage Threshold as a bonus feat
+UR,135,Lugubraa,Darkvision,You ignore concealment (including total concealment) from darkness
+UR,135,Lugubraa,Lockbite,"If you make a successful grapple attack you can automatically latch onto the target with your teeth, giving you a +5 bonus to any subsequent grapple checks against that target"
+UR,135,Lugubraa,Lugubraa Learning,"Before 50 years of age, a Lugubraa can have a maximum Intelligence score of 8. Around 50 years of age, a Lugubraa's Intelligence score naturally increases by 1d4+2 points."
+UR,135,Lugubraa,Natural Weapons,"When you make an unarmed attack, you may choose to use your barbed tentacles (1d6 damage) or teeth (1d4 damage)"
+GW,12,Lurmen,Mender,"If you are trained in Treat Injury, you reduce the DC for all applications of that skill by your WIS bonus"
+GW,12,Lurmen,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+GW,12,Lurmen,Roller,"A Lurmen can curl into a ball and quickly roll along the ground. As a swift action, a Lurmen can increase his or her base speed by 4. In this form, the Lurmen can take only move, withdraw, catch a second wind, drop an item, recover, and run actions. The Lurmen can also spend a swift action to emerge from rolling form, losing the +4 speed bonus and regaining access to all actions he or she can normally take."
+GW,12,Lurmen,Skills,You may choose to take 10 on Climb checks even when distracted or threatened
+T,117,Mantellian Savrip,Natural Armor,You gain a +2 natural armor bonus to your Reflex Defense
+T,117,Mantellian Savrip,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+T,117,Mantellian Savrip,Poison,"If the claws of a Savrip deal damage to a living target, the target is also poisoned. If the poison succeeds on an attack roll (1d20 + the Savrip's character level) against the target's Fortitude Defense, the target moves -1 step along the condition track. A target moved to the end of the condition track by the poison is immobilized, but not unconscious."
+T,117,Mantellian Savrip,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+T,117,Mantellian Savrip,Rage,"Once/day you can fly into a rage as a swift action, temporarily gaining +2 rage bonus to melee attack rolls and damage rolls, but unable to use skills requiring concentration and patience; lasts 5 + Constitution rounds, and moves character -1 persistent step along the condition track until 10 minutes of relaxed recuperation have passed"
+K,15,Massassi,Conditional Bonus Feat,You gain Skill Focus (Survival) as a bonus feat if you are trained in the Survival skill
+K,15,Massassi,Duty Bound,"Once/encounter when you receive a morale bonus of any kind from any source, you gain bonus hit points equal to 4 x your level until the end of the encounter"
+K,15,Massassi,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+K,15,Massassi,Warrior's Awareness,Once/encounter as a reaction you can gain the benefit of the Uncanny Dodge 1 and Uncanny Dodge 2 talents until the beginning of your next turn
+K,15,Massassi,Weapon Familiarity,You treat the lanvarok as a simple weapon instead of an exotic weapon
+K,16,Miraluka,Conditional Bonus Feat,You gain Force Training as a bonus feat if you are trained in the Use the Force skill
+T,31,Miraluka,Conditional Bonus Feat,You gain Force Training as a bonus feat if you are trained in the Use the Force skill
+K,16,Miraluka,Force Sight,"Although blind, Miraluka can ""see"" by using the Force. They act normally without taking any penalties for blindness when in the presence of living creatures or life of any kind. This trait enables them to make Perception checks, and read and write as a sighted person. They can ignore the effect of darkness as if they had darkvision. Miraluka cannot, however, detect creatures that are ""invisible"" to the Force such as the Yuuzhan Vong and the ysalamiri. These creatures have total concealment from Miraluka, as do creatures in areas that dampen or suppress the Force. Additionally, the Miraluka ignores all penalties to Perception checks from cover and concealment (but not total cover or total concealment). Miraluka do not increase the DC of Use the Force checks made to Sense Surroundings against targets with total cover."
+T,31,Miraluka,Force Sight,"Although blind, Miraluka can ""see"" by using the Force. They act normally without taking any penalties for blindness when in the presence of living creatures or life of any kind. This trait enables them to make Perception checks, and read and write as a sighted person. They can ignore the effect of darkness as if they had darkvision. Miraluka cannot, however, detect creatures that are ""invisible"" to the Force such as the Yuuzhan Vong and the ysalamiri. These creatures have total concealment from Miraluka, as do creatures in areas that dampen or suppress the Force. Additionally, the Miraluka ignores all penalties to Perception checks from cover and concealment (but not total cover or total concealment). Miraluka do not increase the DC of Use the Force checks made to Sense Surroundings against targets with total cover."
+CR,28,Mon Calamari,Breathe Underwater,You cannot drown in water
+CR,28,Mon Calamari,Conditional Bonus Feat,You gain Skill Focus (Perception) as a bonus feat if you are trained in the Perception skill
+CR,28,Mon Calamari,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+CR,28,Mon Calamari,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+GI,16,Mrlssi,Conditional Bonus Feat,You gain Skill Focus (Persuasion) as a bonus feat if you are trained in the Persuasion skill
+GI,16,Mrlssi,Scholarly Inclination,You gain any one trained Knowledge skill as a bonus skill
+GI,16,Mrlssi,Skills,You have Mechanics as a class skill
+L,14,Nagai,Lightning Reflexes,You gain a +2 species bonus to your Reflex Defense
+L,14,Nagai,Soothing Voice,"You may choose to reroll any Persuasion check, but you must accept the result of the reroll"
+L,14,Nagai,Weapon Familiarity,You treat tehk'la blades as simple weapons instead of exotic weapons
+C,15,Nautolan,Breathe Underwater,You cannot drown in water
+C,15,Nautolan,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+C,15,Nautolan,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+C,15,Nautolan,Natural Damage Reduction,You gain DR 2
+C,15,Nautolan,Phenomenal Sensor,"You can reroll any Perception check made to sense deception or influence, but you must accept the result of the reroll; when underwater, you may take the better of the two rolls instead"
+W,234,Nazren,Nazren Resilience,"Once/encounter, when you would be moved down the condition track by taking damage equal to or exceeding your damage threshold, you may reduce the number of steps moved down the condition track by 1 (minimum 0 steps)."
+UR,18,Near-Human,Ability Adjustment,You can increase one ability score by +2 and reduce another by -2
+UR,18,Near-Human,Additional Arms,"Up to 2 additional arms. When making multiple attacks, the character can reduce the penalty to the attack roll by 2."
+UR,18,Near-Human,Biotech Augmentation,Augmented with biotechnology. Select one bio-implant (see pages 67-68 of the Legacy Era Campaign Guide).
+UR,18,Near-Human,Breathe Underwater,You cannot drown in water
+UR,18,Near-Human,Climate Adaptation,"Resistant to a specific climate. Select one: freezing, rarefied atmosphere, searing, smoky, tropical, or watery. When challenged by an environmental factor in that climate (chosen from those listed, or others at the Gamemaster's discretion), can reroll an Endurance or a Survival check, taking the better result."
+UR,18,Near-Human,Conductive,"Naturally generate a small amount of electrical energy and use as a natural weapon in an unarmed attack, dealing 1d6 points of energy damage. Character is always considered armed with a natural weapon."
+UR,18,Near-Human,Cultural Cybernetics,You have one cybernetic enhancement
+UR,18,Near-Human,Darkvision,You ignore concealment (including total concealment) from darkness
+UR,18,Near-Human,Empath,"You can use the telepathy application of Use the Force untrained and without having the Force Sensitivity feat, and can sense the emotions of a target if your Use the Force check equals or exceeds the target's Will Defense"
+UR,18,Near-Human,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+UR,18,Near-Human,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+UR,18,Near-Human,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,18,Near-Human,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+UR,18,Near-Human,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+UR,18,Near-Human,Naturally Acrobatic,You are considered to be trained in the Acrobatics skill
+UR,18,Near-Human,Persistent,"You can reroll any Endurance check, but you must accept the result of the reroll"
+UR,18,Near-Human,Quick,You gain +1 to your speed
+UR,18,Near-Human,Quick Healing,At the end of an encounter you regain hit points equal to 1d4 + your CON modifier (minimum of 1)
+UR,18,Near-Human,Resistant,"Naturally resistant to poisons, disease, radiation, or other hazards, gaining a +2 species bonus to Fortitude Defense. Depending on species, Gamemaster can restrict resistance to a single, specific hazard."
+UR,18,Near-Human,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+UR,18,Near-Human,Spring Step,"When you use the High or Long Jump applications of the Jump skill, reduce the length of the running start you require by 2"
+UR,18,Near-Human,Strength Surge,"Once per encounter, can reroll one Strength-based ability or skill check, doubling the character's Strength modifier (minimum +1), or can add 2 to a single damage roll on a successful melee attack, when Strength normally adds to the roll. This does not apply when Weapon Finesse is used."
+UR,18,Near-Human,Visually Striking,"Your CHA bonus is doubled when using the Persuasion skill on humans, near-humans or similar humanoids (such as Twi'leks)"
+UR,18,Near-Human,Weapon Familiarity,You select a single exotic weapon used by your native culture and treat it as a simple weapon
+UR,163,Near-Human Altiri,Bonus Trained Skill,You choose one additional trained skill
+UR,163,Near-Human Altiri,Visually Striking,"Your CHA bonus is doubled when using the Persuasion skill on humans, near-humans or similar humanoids (such as Twi'leks)"
+UR,163,Near-Human Anarrian,Bonus Feat,You gain one bonus feat
+UR,163,Near-Human Anarrian,Strength Surge,"Once per encounter, can reroll one Strength-based ability or skill check, doubling the character's Strength modifier (minimum +1), or can add 2 to a single damage roll on a successful melee attack, when Strength normally adds to the roll. This does not apply when Weapon Finesse is used."
+UR,179,Near-Human O'reenians,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+UR,179,Near-Human O'reenians,Persistent,"You can reroll any Endurance check, but you must accept the result of the reroll"
+UR,18,Near-Human variation,Digit variation,"Number of digits on each hand or foot is greater or fewer than 5, but without affecting skill use in terms of game mechanics."
+UR,18,Near-Human variation,Eye variation,Eyes are of an unusual color and/or pupils are of an unusual shape.
+UR,18,Near-Human variation,Fins,Character has small fins that have no effect on swimming.
+UR,18,Near-Human variation,Hair variation,"Character's hair is naturally an unusual color, length, texture, or size."
+UR,18,Near-Human variation,Shaped,"Character has been biologically altered by the Yuuzhan Vong shaping process. This can account for the character's near-Human trait, or the trait might be cosmetic or for roleplaying purposes. Shaped characters typically gain Yuuzhan Vong physical features or are otherwise physically altered."
+UR,18,Near-Human variation,Skin Color,Skin is naturally a color (or a combination of colors) not normally associated with Humans.
+UR,18,Near-Human variation,Skin Texture,"Obviously unusual skin texture, such as leathery, especially smooth, overly wrinkled, or scaly."
+UR,18,Near-Human variation,Teeth Variation,"Teeth are noticeably differently colored, sharper, larger, or smaller than those of typical Humans."
+UR,18,Near-Human variation,Towering,"Over 2 meters tall, although the additional height does not change the character's Size."
+UR,18,Near-Human variation,Webbed Digits,Flaps of skin span the character's fingers or toes.
+CR,285,Neimoidian,Conditional Bonus Feat,You gain Skill Focus (Deception) as a bonus feat if you are trained in the Deception skill
+GI,17,Neimoidian,Conditional Bonus Feats,You gain Skill Focus (Deception) as a bonus feat if you are trained in the Deception skill and Skill Focus (Persuasion) as a bonus feat if you are trained in the Persuasion skill
+CR,285,Neimoidian,Skills,"You can reroll any Deception check, but you must accept the result of the reroll"
+C,16,Nelvaanian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+C,16,Nelvaanian,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+C,16,Nelvaanian,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+C,16,Nelvaanian,Shadow Swiftness,"If you start your turn with concealment from a target or with the targets unaware of you, you do not provoke attacks of opportunity when moving through the target's threatened space until the end of your turn"
+UR,13,Nikto,Great Fortitude,You gain a +2 species bonus to your Fortitude Defense
+UR,13,Nikto,Natural Armor,You gain a +2 natural armor bonus to your Reflex Defense
+UR,13,Nikto,Survival Instinct,"You may choose to reroll any Survival check, but you must accept the result of the reroll"
+W,164,Noghri,Bonus Feat,Martial Arts 1
+F,185,Noghri,Conditional Bonus Feat,You gain Running Attack as a bonus feat if your DEX is 13 or better
+F,185,Noghri,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+W,164,Noghri,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+F,185,Noghri,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+W,164,Noghri,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+W,164,Noghri,Skills,"You can reroll any Initiative check, but you must accept the result of the reroll"
+F,15,Nosaurian,Climber's Heritage,You have Climb as a class skill
+F,15,Nosaurian,Natural Weapons,"When you make an unarmed attack, you may choose to use your horns, dealing 1d6 piercing damage"
+F,15,Nosaurian,Survival Instinct,"You may choose to reroll any Survival check, but you must accept the result of the reroll"
+GI,144,Nyriaanan,Bonus Class Skill,Survival is always considered a class skill for Nyriaanans.
+GI,144,Nyriaanan,Bonus Feat,You gain one bonus feat
+GI,144,Nyriaanan,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+GI,131,Pa'lowick,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+GI,131,Pa'lowick,Hold Breath,You can hold your breath for a number of rounds equal to 25 x your CON score before having to make Endurance checks to hold your breath
+GI,131,Pa'lowick,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+W,230,Pau'an,Authority,"As a species accustomed to being in authority, Pau’ans add +1 to any insight or morale bonuses they grant to themselves or other characters."
+W,230,Pau'an,Conditional Bonus Feat,You gain Skill Focus (Persuasion) as a bonus feat if you are trained in the Persuasion skill
+W,230,Pau'an,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+W,158,Phindian,Bonus Feat,You gain Skill Training (Knowledge (technology)) as a bonus feat
+W,158,Phindian,Conditional Bonus Feat,You gain Skill Focus (Mechanics) as a bonus feat if you are trained in the Mechanics skill
+W,249,Polis Massan,Conditional Bonus Feat,You gain Skill Focus (Treat Injury) as a bonus feat if you are trained in the Treat Injury skill
+W,249,Polis Massan,Darkvision,You ignore concealment (including total concealment) from darkness
+W,249,Polis Massan,Limited Telepathy,"In conjunction with their sign language and technological methods of communication, Polis Massans are able to employ a weak form telepathy that allows them to convey simple feelings and thoughts to any willing recipient within ten squares. They can use the Telepathy aspect of the Use the Force skill untrained (even if not Force-sensitive). If the target of the telepathy is within 10 squares, no skill check is requires to initiate the telepathic contact."
+W,249,Polis Massan,Mute,"Polis Massans have no vocal cords, and must rely on a combination of sign language, computers, and telepathy in order to communicate with others. When they learn new languages, they can understand but not speak them."
+CR,29,Quarren,Breathe Underwater,You cannot drown in water
+CR,29,Quarren,Conditional Bonus Feat,You gain Skill Focus (Persuasion) as a bonus feat if you are trained in the Persuasion skill
+CR,29,Quarren,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+CR,29,Quarren,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+K,17,Rakata,Ancient Knowledge,"Rakata retain many of the quailtles that led their ancestors to create great technological works in the distant past. Rakata reduce the penalty for not being proficient in a weapon from -5 to -2 and reduce the armor check penalty for armor they are not proficient in by one step (-5 for heavy armor, -2 for medium armor, and no penalty for light armor) All other penalties for not being proficient still apply. Additionally, once per encounter the Rakata can use a trained-only application of the Mechanics, Pilot, Treat injury or Use Computer skill even if untrained in that skill."
+K,17,Rakata,Conditional Bonus Feat,Rakata with Weapon Proficiency (simple weapons) or proficient in an Exotic melee weapon gain the Weapon Focus feat (for simple weapons or a chosen Exotic melee weapon) as a bonus feat.
+K,17,Rakata,Force Blind,"Have lost the connection to the Force. Cannot take the Force Sensitivity feat. Can still increase Dark Side Score and are still affected by Force powers, talents, and the Use the Force skill as normal."
+K,17,Rakata,Primitive,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at first level, even if your class normally grants them"
+K,17,Rakata,Rage,"Once/day you can fly into a rage as a swift action, temporarily gaining +2 rage bonus to melee attack rolls and damage rolls, but unable to use skills requiring concentration and patience; lasts 5 + Constitution rounds, and moves character -1 persistent step along the condition track until 10 minutes of relaxed recuperation have passed"
+T,153,Replica Droid,Bonus Equipment,"Replica droids can be constructed with two of the following droid systems installed: integrated comlink, darkvision, diagnostics package, improved sensor package, internal storage (subject to size limitations), translator unit (DC 15)."
+T,153,Replica Droid,Conditional Bonus Feat,You gain Skill Focus (Deception) as a bonus skill if you are trained in the Deception skill
+T,153,Replica Droid,Variable Size,"Since replica droids are designed to imitate organic beings, their size depends on the species that they copy. Medium droids have no special bonuses or penalties due to their size. Those of Small size gain a + 1 size bonus to their Reflex Defense and a +5 size bonus to Stealth checks but have lifting and carrying limits of three- quarters those of Medium characters."
+T,153,Replica Droid,Droid Traits,"You act as a fourth-degree droid and have all droid immunities and typical droid traits, but you ignore the maintenance requirement"
+CR,29,Rodian,Conditional Bonus Feat,You gain Skill Focus (Survival) as a bonus feat if you are trained in the Survival skill
+CR,29,Rodian,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+CR,29,Rodian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+SV,10,Ryn,Connections,"Whenever a Ryn character makes a Gather Information check to learn secret information, he can forgo the credit cost. If this check fails, the Ryn can try again, but must spend the credits as normal."
+SV,10,Ryn,Musical Beak,"Ryn can move air through their beaks to create pleasant tunes and notes. When using its musical beak to imitate sounds or noises to convey deceptive information, a Ryn can reroll Deception checks and take the better resuIt. A Ryn can also throw his voice or project sounds from his musical beak out to a range of 10 squares. As a swift action, a Ryn can use ventriloquism to create a diversion to hide (see the Deception skill description on page 66 of the Saga Edition core rulebook)."
+SV,10,Ryn,Prehensile Tail,"Ryn have long tails nearly as strong and flexible as their hands. A Ryn can effectively hold (but not weild) a Small or smaller item with its tail. When holding a Medium or larger item with its tail, the Ryn is encumbered and considered to be carrying a heavy load."
+L,204,Sakiyan,Conditional Bonus Feat,You gain Skill Focus (Perception) as a bonus feat if you are trained in the Perception skill
+L,204,Sakiyan,Darkvision,You ignore concealment (including total concealment) from darkness
+L,204,Sakiyan,Lightning Reflexes,You gain a +2 species bonus to your Reflex Defense
+K,18,Selkath,Able Healer,"Whenever a Selkath restores hit points to another character by any means, or aids another who is doing so, the target regains an additional 5 hit points. Additionally, once per encounter as a swift action the Selkath can grant an adjacent ally bonus hit points equal to 10 + the Selkath's level, which last until the end of the encounter"
+K,18,Selkath,Breathe Underwater,You cannot drown in water
+K,18,Selkath,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+J,79,Shard,Bonus Skill,"Shards gain Use Computer as a bonus trained Skill, regardless of their class."
+J,79,Shard,Droid Shell,"Shards must inhabit droid bodies to travel and function in the galaxy at large. In this form, they gain the following traits. -Shards must undergo maintenance as per a droid. -Shards are immune to poison, disease, radiation, noncorrosive atmospheric hazards, and vacuum. They can regain hit points only through the Repair Droid application of the Mechanics skill. They do not benefit from natural healing unless they have the Force Repair talent. -Shards are considered cybernetic creatures for the purposes of being damaged by ion weapons. -Shards can make use of droid systems and accessories, subject to some limitations. Shards can have the following droid accessories: appendages, armor, communications devices, internal storage, sensors, and translator units. Shard bodies have a cost modifier of x1."
+UR,14,Shistavanen,Conditional Bonus Feat,You gain Skill Focus (Perception) as a bonus feat if you are trained in the Perception skill
+UR,14,Shistavanen,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,14,Shistavanen,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+UR,14,Shistavanen,Quick Reflexes,"You can reroll Initiative checks, but you must accept the result of the reroll"
+UR,14,Shistavanen,Uncanny Tracker,Survival is a class skill for you
+W,160,Skakoan,Bonus Feat,Armor Proficiency (light)
+W,160,Skakoan,Conditional Bonus Feat,Skakoans with Mechanics as a trained skill gain Skill Focus (Mechanics).
+W,160,Skakoan,Mechanical Savant,"Once per encounter, a Skakoan can make a standard action Mechanics or Use Computer check as a swift action."
+W,160,Skakoan,Special Equipment,"Skakoans suffer limitations outside their native atmosphere. Without a pressure suit (see below), a Skakoan takes 1d6 points of damage each round and begins to suffocate. Skakoan characters begin play with a light pressure suit at no cost."
+UR,14,Sluissi,Careful Worker,A Sluissi who takes twice the normal amount of time required to use the Mechanics skill gains a + 10 circumstance bonus to the Mechanics check.
+UR,14,Sluissi,Conditional Bonus Feat,You gain Tech Specialist as a bonus feat if you are trained in the Mechanics skill
+UR,14,Sluissi,Serpentine,You are always considered to have a running start for Jump checks and gain a +5 stability bonus when making grapple checks against the Trip feat
+K,19,Snivvian,Cold Resistance,You add a +5 species bonus to Fortitude Defense to resist extreme cold
+K,19,Snivvian,Observant,Once/encounter you can use your Perception bonus in place of your Deception or Persuasion bonus
+UR,143,Sorcerer of Rhand,Bonus Feat,You gain Force Sensitivity as a bonus feat
+UR,143,Sorcerer of Rhand,Dark-Infused,"You gain the Force Training feat for free, but half of the selected powers must have the (dark side) descriptor and none may have the (light side) descriptor"
+UR,143,Sorcerer of Rhand,Repulsive Appearance,"You may reroll Persuasion checks made to intimidate, keeping the better result, and you gain a +5 bonus to Will Defense to resist the Persuasion checks others make against you"
+UR,143,Sorcerer of Rhand,Special Qualities,"Each Sorcerer gains from one to three special qualities unique to his or her relationship with the Dark. Create these qualities, or select one or more using the Creature Generator on UR page 89."
+UR,15,Squib,Natural Diplomat,Persuasion is always a class skill for you and you gain a +5 species bonus to Persuasion checks made to haggle
+UR,15,Squib,Tech Savvy,"You may choose to reroll any Knowledge (technology) checks, but you must accept the result of the reroll, and you are not limited to common knowledge when making an untrained Knowledge (technology) check"
+UR,15,Squib,Weapon Familiarity,You are proficient with the Squib tensor rifle if you have the Weapon Proficiency (rifles) feat
+UR,147,Ssi-Ruuk,Conditional Bonus Feat,You gain Skill Focus (Persuasion) as a bonus feat if you are trained in the Persuasion skill
+UR,147,Ssi-Ruuk,Force Blind,"Have lost the connection to the Force. Cannot take the Force Sensitivity feat. Can still increase Dark Side Score and are still affected by Force powers, talents, and the Use the Force skill as normal."
+UR,147,Ssi-Ruuk,Keen Smell,"When within 6 squares of a target in the same room or open area, you can reroll Persuasion checks against that target, keeping the best result"
+UR,147,Ssi-Ruuk,Natural Armor,You gain a +2 natural armor bonus to your Reflex Defense
+D9,12,Stereb,Conditional Bonus Feat,"Any Stereb that has Mechanics as a trained skill gains Skill Focus (Mechanics) as a bonus feat. However, this bonus applies only when the Stereb character is working with stone."
+D9,12,Stereb,Darkvision,"Stereb ignore concealment (including total concealment) from darkness. However, they cannot perceive colors in total darkness."
+D9,12,Stereb,Primitive,"Stereb do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats at 1st level, even if their class normally grants those feats"
+D9,12,Stereb,Subterranean,"Stereb are adapted to a subterranean life and can take 10 on Survival checks when in an underground environment, even when distracted or threatened."
+D9,12,Stereb,Tough,"Like the stone they work with, Stereb are physically hardened, gaining a +5 species bonus to their damage threshold and a +2 species bonus to their Fortitude Defense."
+CR,30,Sullustan,Darkvision,You ignore concealment (including total concealment) from darkness
+CR,30,Sullustan,Expert Climber,You may choose to take 10 on Climb checks even when distracted or threatened
+CR,30,Sullustan,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+F,16,Talz,Conditional Bonus Feat,You gain Skill Focus (Mechanics) as a bonus feat if you are trained in the Mechanics skill
+F,16,Talz,Darkvision,You ignore concealment (including total concealment) from darkness
+F,16,Talz,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+GW,13,Taung,Armor Training,Taung characters increase the Maximum Dexterity bonus from worn armor by 1.
+GW,13,Taung,Superior Defenses,You gain a +1 species bonus to all of your Defenses
+GW,13,Taung,Warrior Culture,"You can reroll any Knowledge (tactics) check, but you must accept the result of the reroll"
+J,109,Tchuukthai,Quadruped,You gain +5 bonus to all defenses against effects that trip or knock you prone
+GW,14,Thakwaash,Multiple Personalities,"Once/encounter as a free action at the start of your turn, you can negate or remove any mind-affecting effects"
+GW,14,Thakwaash,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+UR,149,Tof,Bonus Feat,You can take either Rapid Shot or Rapid Strike as a bonus feat
+UR,149,Tof,Conditional Bonus Feat,You gain Mighty Swing as a bonus feat if you have Martial Arts 1 and a STR 13 or better
+UR,149,Tof,Tof Fearlessness,Once/encounter you can ignore one fear-related or mind-affecting effect used against you; you have a +5 species bonus to your Will Defense when resisting attempts to intimidate you
+F,17,Togorian,Feline Reflexes,You gain a +1 species bonus to your Reflex Defense
+F,17,Togorian,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+F,17,Togorian,Physically Intimidating,You use your STR bonus instead of your CHA bonus for Persuasion checks made to intimidate others
+F,17,Togruta,Pack Hunter,You deal an extra 2 points of damage on melee attacks against opponents you flank
+F,17,Togruta,Sneaky,"You can choose to reroll any Stealth check to sneak, but you must accept the result of the reroll"
+F,17,Togruta,Spatial Awareness,You ignore all cover and concealment when making Perception checks to notice targets within 10 squares
+SV,11,Toydarian,Conditional Bonus Feat,You gain Skill Focus (Deception) as a bonus feat if you are trained in the Deception skill
+SV,11,Toydarian,Force Resistance,You gain a +5 species bonus to your Will Defense against any Use the Force checks with the mind-affecting descriptor
+CR,31,Trandoshan,Bonus Feat,You gain Toughness as a bonus feat
+CR,31,Trandoshan,Darkvision,You ignore concealment (including total concealment) from darkness
+CR,31,Trandoshan,Limb Regeneration,You can regrow a lost limb in 1d10 days
+CR,31,Trandoshan,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+GW,15,Trianii,Acrobatic Prowess,"You can reroll any Acrobatics check, but you must accept the result of the reroll"
+GW,15,Trianii,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+GW,15,Trianii,Prehensile Tail,"can effectively hold (but not weild) a Small or smaller item with its tail. When holding a Medium or larger item with its tail, encumbered and considered to be carrying a heavy load."
+W,164,Tusken Raider,Skills,"You can reroll any Stealth or Survival check, but you must accept the result of the reroll"
+CR,31,Twi'lek,Deceptive,"You may choose to reroll any Deception check, but you must accept the result of the reroll"
+CR,31,Twi'lek,Great Fortitude,You gain a +2 species bonus to your Fortitude Defense
+CR,31,Twi'lek,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+SV,12,Ubese,Aggressive,"If an Ubese character hits with a charge attack, the +2 bonus on attack rolls against the target persists for the duration of the encounter."
+SV,12,Ubese,Conditional Bonus Feat,You gain Skill Focus (Perception) as a bonus feat if you are trained in the Perception skill
+SV,12,Ubese,Special Equipment,"Ubese cannot tolerate the atmospheres of other worlds and must rely on breath masks to survive. Without a breath mask, an Ubese begins to suffocate (see ""Endurance"" on page 66 of the Saga Edition core rulebook). When not on their homeworld, Ubese wear environmental suits to stave of the hazards found on other planets as well as to hide their appearance. An environmental suit functions as a combat jumpsuit that also grants a +2 equipment bonus to Fortitude Defense. The suit also includes a voice modulator to emulate the voice of a male or female or to mask the Ubese's gender. An Ubese environmental suit with breath mask and voice modulator costs 2,000 credits, and a year's supply of breathing filters cost 200 credits (50 credits on Ubese). Ubese characters begin with these items at no cost."
+SV,12,Ubese,Survival Instinct,"You may choose to reroll any Survival check, but you must accept the result of the reroll"
+D4,9,Ugor,Amorphous Nature,"As a full-round action, an Ugor can raise or lower any physical ability by a maximum of 5 points, but each point must be transferred from another similar ability (such as Str, Dex, and Con). Abilities cannot be altered more than 5 points above or below the Ugor’s original scores. Bonuses and penalties (to skills, defenses, attacks, and so on) have to be adjusted accordingly."
+C,160,Umbaran,Conditional Bonus Feat,You gain Skill Focus (Persuasion) as a bonus feat if you are trained in the Persuasion skill
+GI,18,Umbaran,Conditional Bonus Feat,You gain Skill Focus (Gather Information) as a bonus feat if you are trained in the Gather Information skill
+GI,18,Umbaran,Darkvision,You ignore concealment (including total concealment) from darkness
+C,160,Umbaran,Light Sensitivity,"If you are exposed to bright light (such as sunlight), you're blinded for 1 round"
+C,160,Umbaran,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+C,160,Umbaran,Skills,"You can reroll any Persuasion check, but you must accept the result of the reroll"
+GI,18,Umbaran,Stealthy,"You can reroll any Stealth check, but you must accept the result of the reroll"
+T,127,Utai,Animal Handler,"The Utai are naturally gifted when it comes to dealing with beasts and wild creatures. An Utai can choose to reroll any Ride check, but the result of the reroll must be accepted even if it is worse. Additionally, an Utai can make Persuasion checks to change the attitude of an undomesticated creature that has an Intelligence of 2 or lower."
+T,127,Utai,Cooperative,"You automatically succeed when attempting to aid another on a skill check, as long as the target is adjacent to and can hear and understand you"
+T,127,Utai,Low-Light Vision,You ignore concealment (but not total concealment) from darkness
+UR,153,Vagaari,Bioknowledge,"Vagaari have great working knowledge of biology throughout their sphere of influence in the Unknown Regions. They can reroll any Knowledge (life sciences) or Treat Injury check but must take the second result, even if it is worse."
+UR,153,Vagaari,Conditional Bonus Feat,You gain Skill Focus (Deception) as a bonus feat if you are trained in the Deception skill
+UR,153,Vagaari,Frightening Visage,"When using the Persuasion skill to intimidate, a Vagaari clad in traditional masks and garments can reroll a failed Persuasion check and take the better result. The Vagaari is considered trained in the Persuasion skill for this action."
+L,59,Vahla,Cartilaginous Skeleton,"You can reroll any Acrobatics check, but you must accept the result of the reroll"
+L,59,Vahla,Dark Side Stigma,You must spend two Force Points to reduce your Dark Side Score by 1
+L,59,Vahla,Force Sensitivity,You gain Force Sensitivity as a bonus feat
+UR,16,Verpine,Conditional Bonus Feat,You gain Skill Focus (Mechanics) as a bonus feat if you are trained in the Mechanics skill
+UR,16,Verpine,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+UR,16,Verpine,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+UR,16,Verpine,Verpine Communication,You can mentally communicate with any Verpine within a 1 kilometre radius
+J,107,Vultan,Bonus Trained Skill,You choose one additional trained skill
+J,107,Vultan,Conditional Bonus Feat,You gain Skill Focus (one Knowledge skill) as a bonus feat if you are trained in one or more Knowledge skills
+C,17,Vurk,Breathe Underwater,You cannot drown in water
+C,17,Vurk,Expert Swimmer,"You can choose to reroll any Swim check, but you must accept the second result, and you can take 10 on Swim checks even when distracted or threatened"
+C,17,Vurk,Nomads,"You can reroll any Survival check, but you must accept the result of the reroll"
+C,17,Vurk,Placid,Once/encounter as a free action you can remove one fear effect currently affecting you
+L,15,Weequay,Conditional Bonus Feat,You gain Skill Focus (Endurance) as a bonus feat if you are trained in the Endurance skill
+L,15,Weequay,Natural Armor,You gain a +1 natural armor bonus to your Reflex Defense
+L,15,Weequay,Pheromones,"Weequay communicate silently with other members of their tribe by emitting complex pheromones. This form of communication has a maximum range of 20 squares. Species with the scent ability can detect Weequay pheromones by smell, but this does not allow them to understand what the Weequay are communicating."
+F,18,Whiphid,Insulating Fur,You gain a +5 species bonus to Fortitude Defense to resist extreme cold
+F,18,Whiphid,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+F,18,Whiphid,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+CR,32,Wookiee,Extraordinary Recuperation,"A Wookiee regains hit points at double the normal rate (see Natural Healing, page 148)."
+CR,32,Wookiee,Rage,"Once/day you can fly into a rage as a swift action, temporarily gaining +2 rage bonus to melee attack rolls and damage rolls, but unable to use skills requiring concentration and patience; lasts 5 + Constitution rounds, and moves character -1 persistent step along the condition track until 10 minutes of relaxed recuperation have passed"
+CR,32,Wookiee,Skills,"You may choose to take 10 on Climb checks even when distracted or threatened; you may choose to reroll any Persuasion check made to intimidate other, but you must accept the result of the reroll"
+CR,32,Wookiee,Weapon Familiarity,You treat bowcasters as rifles instead of exotic weapons
+SV,156,Wroonian,Free Spirit,You gain a +2 species bonus to your Will Defense
+SV,156,Wroonian,Skills,"You can reroll Persuasion checks, but you must accept the result of the reroll"
+F,19,Yarkora,Confusion,"As a defense mechanism, all Yarkora can use a combination of motions and sounds to distract and deter potential enemies. Once per encounter as a standard action, a Yarkora can make a Deception check against the Will Defense of all targets within 6 squares. If the Deception check result equals or exceeds a target's Wil l Defense, that target does not threaten any squares until the end of the Yarkora's next turn. This is a mind-affecting effect."
+F,19,Yarkora,Deceptive,"You may choose to reroll any Deception check, but you must accept the result of the reroll"
+F,19,Yarkora,Streetwise,You have Gather Information as a class skill
+GW,16,Yevetha,Mechanical Aptitude,Once/encounter you can treat any single Mechanics check as if the die roll is a natural 20
+GW,16,Yevetha,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws, dealing 1d6 slashing damage"
+GW,16,Yevetha,Xenophobia,You gain a +2 species bonus to Will Defense against Persuasion checks made to improve your attitude made by non-Yevetha
+CR,285,Yuuzhan Vong,Force Immunity,"Yuuzhan Vong can't take the Force Sensitivity feat, can't make Use the Force checks, and never gain Force Points. In addition, they are immune to any Force effect that targets Will Defense (including Force powers and aspects of the Use the Force skill)."
+L,16,Yuuzhan Vong,Force Immunity,"Yuuzhan Vong can't take the Force Sensitivity feat, can't make Use the Force checks, and never gain Force Points. In addition, they are immune to any Force effect that targets Will Defense (including Force powers and aspects of the Use the Force skill)."
+CR,285,Yuuzhan Vong,Technophobic,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats, even if your class normally grants them"
+L,16,Yuuzhan Vong,Technophobic,"You do not gain Weapon Proficiency (pistols, rifles, or heavy weapons) as starting feats, even if your class normally grants them"
+CR,285,Yuuzhan Vong,Weapon Familiarity,You treat amphistaffs as simple weapons instead of exotic weapons
+L,16,Yuuzhan Vong,Weapon Familiarity,You treat amphistaffs as simple weapons instead of exotic weapons
+GW,17,Yuzzem,Natural Weapons,"When you make an unarmed attack, you may choose to use your claws or teeth, dealing 1d8 slashing or piercing damage respectively"
+GW,17,Yuzzem,Physically Intimidating,You use your STR bonus instead of your CHA bonus for Persuasion checks made to intimidate others
+GW,17,Yuzzem,Scent,"At close range (within 10 squares), you ignore concealment and cover for purposes of Perception checks, and you take no penalty from poor visibility when tracking"
+GW,17,Yuzzem,Skills,"You can reroll Climb checks, but you must accept the result of the reroll"
+CR,32,Zabrak,Heightened Awareness,"You may choose to reroll any Perception check, but you must accept the result of the reroll"
+CR,32,Zabrak,Superior Defenses,You gain a +1 species bonus to all of your Defenses
+W,311,Zeltron,Conditional Bonus Feat,A Zeltron that has Persuasion as a trained skill gains Skill Focus (Persuasion) as a bonus feat.
+L,17,Zeltron,Empathy,You add your CHA bonus to Perception checks made to sense deception or sense influence
+W,311,Zeltron,Intuitive Initiative,"Zeltrons are known for their quick reactions. A Zeltron may choose to reroll any Initiative check, but the result of the reroll must be accepted, even if it is worse."
+L,17,Zeltron,Pheromones,You gain a +5 species bonus on Persuasion checks made to change the attitudes of non-Zeltrons
+W,311,Zeltron,Zeltron Empathy,"Zeltrons are naturally empathic. As a free action, a Zeltron may make a Perception check opposed by a target's Will Defense. If successful, the Zeltron may discover the target's attitude toward him or her, as well as the target's general emotional state. The target cannot detect this check."
+GW,17,Zygerrian,Bonus Feat,You gain Martial Arts 1 as a bonus feat
+GW,17,Zygerrian,Iron Will,You gain a +2 species bonus to your Will Defense
+GW,17,Zygerrian,Strength of Conviction,You can use your CHA bonus in place of your WIS bonus when calculating Will Defense

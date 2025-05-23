@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Starship Maneuvers",
+  "description": "Schema for Star Wars SAGA Edition Starship Maneuvers.",
+  "type": "object",
+  "properties": {
+    "starship_maneuvers_data": {
+      "type": "object",
+      "description": "Container for the list of Starship Maneuvers.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A general description of this data section."
+        },
+        "starship_maneuvers_list": {
+          "type": "array",
+          "description": "A list of all Starship Maneuver entries.",
+          "items": {
+            "$ref": "#/definitions/starshipManeuver"
+          }
+        }
+      },
+      "required": ["description", "starship_maneuvers_list"]
+    }
+  },
+  "required": ["starship_maneuvers_data"],
+  "definitions": {
+    "starshipManeuver": {
+      "type": "object",
+      "description": "Represents a single Starship Maneuver.",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the Starship Maneuver." },
+        "descriptor_tags": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of tags or descriptors for the maneuver (from DESCRIPTOR column)."
+        },
+        "action_to_activate": { "type": "string", "description": "The action type or time required (from Time column)." },
+        "target_info": { "type": ["string", "null"], "description": "Target of the maneuver, if applicable (from Target column)." },
+        "skill_check_raw_text": { "type": ["string", "null"], "description": "Original text for any skill check involved (from CHECK column, if it existed)." },
+        "description_text": { "type": "string", "description": "The primary textual description of the maneuver's effect (from EFFECT column)." },
+        "effects": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/mechanicalEffect" },
+          "description": "Structured mechanical effects derived from the description text."
+        },
+        "source_book": { "type": "string", "description": "Sourcebook abbreviation." },
+        "page": { "type": "string", "description": "Page number in the sourcebook." }
+      },
+      "required": ["name", "action_to_activate", "description_text", "effects", "source_book", "page"]
+    },
+    "mechanicalEffect": {
+      "type": "object", "description": "A structured representation of a game mechanical effect.",
+      "properties": {
+        "type": { "type": "string", "enum": ["dc_progression", "defense_bonus", "skill_bonus", "feat_grant", "damage_reduction", "natural_weapon", "reroll", "class_skill", "special_action", "immunity", "generic_modifier", "bonus", "penalty", "damage_modifier", "speed_modifier", "condition_track_change", "narrative_only", "other", "gain_benefit", "temporary_effect"] },
+        "action_verb": { "type": "string" }, "value_description": { "type": "string" },
+        "numeric_value_approx": { "type": ["integer", "null"] }, "bonus_or_penalty_type": { "type": "string" },
+        "target_description": { "type": "string" }, "defense": { "type": "string", "enum": ["Reflex", "Fortitude", "Will", "All", "Unknown"] },
+        "skill": { "type": "string" }, "feat_name": { "type": "string" },
+        "value": { "oneOf": [{ "type": "integer" }, { "type": "string" }] },
+        "weapon_name": { "type": "string" }, "damage_dice": { "type": "string", "pattern": "^\\d*d\\d+$" },
+        "damage_type": { "type": "string" }, "check_type": { "type": "string" },
+        "condition": { "type": "string" }, "summary": { "type": "string" },
+        "action_cost": { "type": "string" }, "frequency": { "type": "string" },
+        "immune_to": { "type": "string" }, "benefit_name": { "type": "string" },
+        "duration_hours": { "type": "integer" }, "target": { "type": "string" },
+        "effect_description": { "type": "string" }, "bonus_to": { "type": "string" },
+        "condition_type": { "type": "string" }, "check_skill_or_ability": { "type": "string" },
+        "progression_rule": { "type": "string", "enum": ["cumulative_up_to_achieved_dc", "highest_achieved_only", "specific_to_dc_achieved"] },
+        "tiers": { "type": "array", "items": { "type": "object", "properties": { "dc": { "type": "integer" }, "description": { "type": "string" }, "structured_effects": { "type": "array", "items": { "$ref": "#/definitions/mechanicalEffect" }}}, "required": ["dc", "description", "structured_effects"]}},
+        "full_progression_text": { "type": "string"}
+      }, "required": ["type"]
+    }
+  }
+}
