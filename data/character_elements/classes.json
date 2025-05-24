@@ -1,0 +1,354 @@
+{
+  "classes_data": {
+    "description": "Compilation of Heroic, Nonheroic, and Beast Classes for Star Wars Saga Edition, primarily based on the Core Rulebook.",
+    "classes_list": [
+      {
+        "id": "jedi_cr_38",
+        "name": "Jedi",
+        "source_book": "CR",
+        "page_crb_main_description": "38",
+        "description_general": "Jedi combine physical training with mastery of the Force. They concentrate on battle prowess, defense, and lightsaber training. Additionally, they are ambassadors of the Jedi order, protecting the Republic from all dangers. [CRB p.39]",
+        "role_summary": "Guardians of peace and justice, masters of the Force and lightsaber combat.",
+        "key_abilities_text": "Wisdom and Charisma are most important. Strength and Dexterity are also useful. [CRB p.40]",
+        "hit_points": {
+          "hit_die": "d10",
+          "starting_hp_1st_level_formula": "30 + Constitution modifier",
+          "hp_per_level_after_1st_formula": "1d10 + Constitution modifier"
+        },
+        "force_points_per_level_formula": "5 + one-half character level (rounded down)",
+        "base_attack_bonus_progression": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "defense_bonuses_1st_level": [
+          {"defense": "Fortitude", "value": 1},
+          {"defense": "Reflex", "value": 1},
+          {"defense": "Will", "value": 1}
+        ],
+        "starting_feats": [
+          "Force Sensitivity",
+          "Weapon Proficiency (lightsabers)",
+          "Weapon Proficiency (simple weapons)"
+        ],
+        "class_skills_list": [
+          "acrobatics",
+          "climb", 
+          "endurance",
+          "initiative",
+          "jump",
+          "knowledge_bureaucracy",
+          "knowledge_galactic_lore",
+          "knowledge_life_sciences",
+          "knowledge_physical_sciences",
+          "knowledge_social_sciences",
+          "knowledge_tactics",
+          "knowledge_technology",
+          "mechanics",
+          "perception",
+          "pilot",
+          "ride", 
+          "stealth", 
+          "swim", 
+          "treat_injury", 
+          "use_computer",
+          "use_the_force"
+        ],
+        "trained_skills_count_formula": "2 + Intelligence modifier",
+        "talents_progression_summary": "Selects a talent at 1st level and every odd-numbered Jedi level thereafter (3rd, 5th, 7th, etc.).",
+        "bonus_feats_progression_summary": "Gains a bonus feat at 2nd level and every even-numbered Jedi level thereafter (2nd, 4th, 6th, etc.).",
+        "bonus_feat_selection_notes": "Must be selected from: Acrobatic Strike, Cleave, Combat Reflexes, Dodge, Double Attack, Dual Weapon Mastery I, Dual Weapon Mastery II, Dual Weapon Mastery III, Great Cleave, Improved Charge, Improved Disarm, Martial Arts I, Martial Arts II, Martial Arts III, Melee Defense, Mobility, Quick Draw, Power Attack, Powerful Charge, Rapid Strike, Running Attack, Skill Focus, Skill Training, Strong in the Force, Triple Attack, Triple Crit, Weapon Finesse, Weapon Focus (lightsabers). [CRB p.42]",
+        "talent_trees": [
+          {"tree_name": "Jedi Consular","description_brief": "Skilled negotiators and talented ambassadors."},
+          {"tree_name": "Jedi Guardian","description_brief": "More combat-oriented, honing skills to become deadly combatants."},
+          {"tree_name": "Jedi Sentinel","description_brief": "True enemies of the dark side, hunting down evil and stopping darkness."},
+          {"tree_name": "Lightsaber Combat","description_brief": "Improve prowess with a lightsaber."}
+        ],
+        "starting_credits_formula": "3d4 x 100",
+        "errata_applied_notes":"Class skills list updated to include Jump and Mechanics per CRB Errata (reflected in Table 4-2 from user image and p.38 errata for Jedi class skills). Resilience Talent (CRB p.40) action changed to full-round action from standard action per errata. [cite: 2011]"
+      },
+      {
+        "id": "noble_cr_42",
+        "name": "Noble",
+        "source_book": "CR",
+        "page_crb_main_description": "42",
+        "description_general": "Members of the noble class use their intelligence and natural charisma to make their way in the galaxy. From true royalty to elected officials, military commanders to crime lords, traders, merchants, ambassadors, holovid stars, and influential corporate magnates. [CRB p.43]",
+        "role_summary": "Shrewd bargainer, negotiator, leader, and inspirer.",
+        "key_abilities_text": "Charisma is undoubtedly a noble's most important ability score. Wisdom and Intelligence form the basis of other important skills. [CRB p.43]",
+        "hit_points": {
+          "hit_die": "d6",
+          "starting_hp_1st_level_formula": "18 + Constitution modifier",
+          "hp_per_level_after_1st_formula": "1d6 + Constitution modifier"
+        },
+        "force_points_per_level_formula": "5 + one-half character level (rounded down)",
+        "base_attack_bonus_progression": [0, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10, 11, 12, 12, 13, 14, 15],
+        "defense_bonuses_1st_level": [
+          {"defense": "Reflex", "value": 1},
+          {"defense": "Will", "value": 2}
+        ],
+        "starting_feats": [
+          "Linguist (requires INT 13)",
+          "Weapon Proficiency (pistols)",
+          "Weapon Proficiency (simple weapons)"
+        ],
+        "class_skills_list": [
+          "deception",
+          "gather_information",
+          "initiative",
+          "knowledge_bureaucracy",
+          "knowledge_galactic_lore",
+          "knowledge_life_sciences",
+          "knowledge_physical_sciences",
+          "knowledge_social_sciences",
+          "knowledge_tactics",
+          "knowledge_technology",
+          "perception",
+          "persuasion",
+          "pilot",
+          "ride",
+          "treat_injury",
+          "use_computer"
+        ],
+        "trained_skills_count_formula": "6 + Intelligence modifier",
+        "talents_progression_summary": "Selects a talent at 1st level and every odd-numbered Noble level thereafter.",
+        "bonus_feats_progression_summary": "Gains a bonus feat at 2nd level and every even-numbered Noble level thereafter.",
+        "bonus_feat_selection_notes": "Must be selected from: Armor Proficiency (light), Cybernetic Surgery, Exotic Weapon Proficiency, Linguist, Melee Defense, Skill Focus, Skill Training, Surgical Expertise, Weapon Finesse, Weapon Proficiency (advanced melee weapons), Weapon Proficiency (rifles). [CRB p.45]",
+        "talent_trees": [
+          {"tree_name": "Influence","description_brief": "Exert influence over opponents."},
+          {"tree_name": "Inspiration","description_brief": "Inspire followers and urge them to greatness."},
+          {"tree_name": "Leadership","description_brief": "Take charge and lead companions and followers."},
+          {"tree_name": "Lineage","description_brief": "Benefit from a privileged upbringing."}
+        ],
+        "starting_credits_formula": "3d4 x 400",
+        "errata_applied_notes": "Wealth Talent (CRB p.44) refers to 'class level' not 'noble level' per errata. [cite: 2012]"
+      },
+      {
+        "id": "scoundrel_cr_45",
+        "name": "Scoundrel",
+        "source_book": "CR",
+        "page_crb_main_description": "45",
+        "description_general": "Scoundrels are rogues who either live outside the law or fight against it. They use intelligence, dexterity, and charisma. They live by their wits, lying, cheating, stealing, and fighting when needed. [CRB p.46]",
+        "role_summary": "Tricky, skillful rogue succeeding by stealth and wit.",
+        "key_abilities_text": "Dexterity and Intelligence are most important. Charisma for talking out of trouble, Wisdom for spotting trouble. [CRB p.46]",
+        "hit_points": {
+          "hit_die": "d6",
+          "starting_hp_1st_level_formula": "18 + Constitution modifier",
+          "hp_per_level_after_1st_formula": "1d6 + Constitution modifier"
+        },
+        "force_points_per_level_formula": "5 + one-half character level (rounded down)",
+        "base_attack_bonus_progression": [0, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10, 11, 12, 12, 13, 14, 15],
+        "defense_bonuses_1st_level": [
+          {"defense": "Reflex", "value": 2},
+          {"defense": "Will", "value": 1}
+        ],
+        "starting_feats": [
+          "Point Blank Shot",
+          "Weapon Proficiency (pistols)",
+          "Weapon Proficiency (simple weapons)"
+        ],
+        "class_skills_list": [
+          "acrobatics",
+          "deception",
+          "gather_information",
+          "initiative",
+          "knowledge_bureaucracy",
+          "knowledge_galactic_lore",
+          "knowledge_life_sciences",
+          "knowledge_physical_sciences",
+          "knowledge_social_sciences",
+          "knowledge_tactics",
+          "knowledge_technology",
+          "mechanics",
+          "perception",
+          "persuasion",
+          "pilot",
+          "stealth",
+          "use_computer"
+        ],
+        "trained_skills_count_formula": "4 + Intelligence modifier",
+        "talents_progression_summary": "Selects a talent at 1st level and every odd-numbered Scoundrel level thereafter.",
+        "bonus_feats_progression_summary": "Gains a bonus feat at 2nd level and every even-numbered Scoundrel level thereafter.",
+        "bonus_feat_selection_notes": "Must be selected from: Deadeye, Dodge, Melee Defense, Mobility, Precise Shot, Quick Draw, Rapid Shot, Running Attack, Skill Focus, Skill Training, Vehicular Combat, Weapon Proficiency (advanced melee weapons). [CRB p.48]",
+        "talent_trees": [
+          {"tree_name":"Fortune","description_brief":"Gamble with destiny, trusting fate or the Force."},
+          {"tree_name":"Misfortune","description_brief":"Cause trouble and instigate chaos for enemies."},
+          {"tree_name":"Slicer","description_brief":"Hack into enemy computer systems with grace."},
+          {"tree_name":"Spacer","description_brief":"Prowl space lanes seeking wealth, fame, or adventure; good with vehicles."}
+        ],
+        "starting_credits_formula": "3d4 x 250",
+        "errata_applied_notes":"Hyperdriven Talent (CRB p.47) refers to 'class level', not 'scoundrel class level' per errata. [cite: 2012]"
+      },
+      {
+        "id": "scout_cr_48",
+        "name": "Scout",
+        "source_book": "CR",
+        "page_crb_main_description": "48",
+        "description_general":"Scouts are natural explorers and adventurers, curious and trained for out-of-the-way locations. They are independent, understanding terrain and stars, recognizing danger, and finding necessities for survival. [CRB p.49]",
+        "role_summary":"Cunning, skilled explorer for wilderness and backwater worlds.",
+        "key_abilities_text":"Dexterity, Intelligence, and Wisdom are key. Strength is also useful for athletic skills. [CRB p.50]",
+        "hit_points": {
+          "hit_die": "d8",
+          "starting_hp_1st_level_formula": "24 + Constitution modifier",
+          "hp_per_level_after_1st_formula": "1d8 + Constitution modifier"
+        },
+        "force_points_per_level_formula":"5 + one-half character level (rounded down)",
+        "base_attack_bonus_progression": [0, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10, 11, 12, 12, 13, 14, 15],
+        "defense_bonuses_1st_level":[
+          {"defense": "Fortitude", "value": 1},
+          {"defense": "Reflex", "value": 2}
+        ],
+        "starting_feats":[
+          "Shake It Off (requires CON 13 and trained in Endurance)",
+          "Weapon Proficiency (pistols)",
+          "Weapon Proficiency (rifles)",
+          "Weapon Proficiency (simple weapons)"
+        ],
+        "class_skills_list":[
+          "climb",
+          "endurance",
+          "initiative",
+          "jump",
+          "knowledge_bureaucracy",
+          "knowledge_galactic_lore",
+          "knowledge_life_sciences",
+          "knowledge_physical_sciences",
+          "knowledge_social_sciences",
+          "knowledge_tactics",
+          "knowledge_technology",
+          "mechanics",
+          "perception",
+          "pilot",
+          "ride",
+          "stealth",
+          "survival",
+          "swim"
+        ],
+        "trained_skills_count_formula":"5 + Intelligence modifier",
+        "talents_progression_summary":"Selects a talent at 1st level and every odd-numbered Scout level thereafter.",
+        "bonus_feats_progression_summary":"Gains a bonus feat at 2nd level and every even-numbered Scout level thereafter.",
+        "bonus_feat_selection_notes":"Must be selected from: Armor Proficiency (light, medium, or heavy), Careful Shot, Deadeye, Dodge, Far Shot, Linguist, Mobility, Point Blank Shot, Precise Shot, Rapid Shot, Running Attack, Skill Focus, Skill Training, Sniper, Vehicular Combat, Weapon Proficiency (advanced melee weapons). [CRB p.51]",
+        "talent_trees":[
+          {"tree_name":"Awareness","description_brief":"Exceptionally good at noticing things and avoiding perilous situations."},
+          {"tree_name":"Camouflage","description_brief":"Learn quickly how to blend in with the environment."},
+          {"tree_name":"Fringer","description_brief":"Especially skilled at 'getting by' on backwater worlds."},
+          {"tree_name":"Survivor","description_brief":"Trained to react to danger swiftly, navigate difficult terrain, and reduce damage."}
+        ],
+        "starting_credits_formula":"3d4 x 250"
+      },
+      {
+        "id":"soldier_cr_50",
+        "name":"Soldier",
+        "source_book":"CR",
+        "page_crb_main_description":"50",
+        "description_general":"Soldiers combine discipline with martial skills to become the best pure warriors in the galaxy. They can be stalwart defenders, cruel marauders, or brave adventurers, fighting for various motivations. [CRB p.51]",
+        "role_summary":"Warrior with exceptional combat capability and unequaled skill with weapons.",
+        "key_abilities_text":"Dexterity is most important for ranged combat. Constitution and Strength are also key. Intelligence and Wisdom are useful for skills. [CRB p.52]",
+        "hit_points": {
+          "hit_die": "d10",
+          "starting_hp_1st_level_formula": "30 + Constitution modifier",
+          "hp_per_level_after_1st_formula": "1d10 + Constitution modifier"
+        },
+        "force_points_per_level_formula":"5 + one-half character level (rounded down)",
+        "base_attack_bonus_progression":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "defense_bonuses_1st_level":[
+          {"defense": "Reflex", "value": 1}, 
+          {"defense": "Fortitude", "value": 2}
+        ],
+        "starting_feats":[
+          "Armor Proficiency (light)",
+          "Armor Proficiency (medium)",
+          "Weapon Proficiency (pistols)",
+          "Weapon Proficiency (rifles)",
+          "Weapon Proficiency (simple weapons)"
+        ],
+        "class_skills_list":[
+          "climb",
+          "endurance",
+          "initiative",
+          "jump",
+          "knowledge_tactics",
+          "mechanics",
+          "perception",
+          "pilot",
+          "swim",
+          "treat_injury",
+          "use_computer"
+        ],
+        "trained_skills_count_formula":"3 + Intelligence modifier",
+        "talents_progression_summary":"Selects a talent at 1st level and every odd-numbered Soldier level thereafter.",
+        "bonus_feats_progression_summary":"Gains a bonus feat at 2nd level and every even-numbered Soldier level thereafter.",
+        "bonus_feat_selection_notes":"Must be selected from: Armor Proficiency (heavy), Bantha Rush, Careful Shot, Charging Fire, Cleave, Combat Reflexes, Coordinated Attack, Crush, Deadeye, Double Attack, Dual Weapon Mastery I/II/III, Exotic Weapon Proficiency, Far Shot, Great Cleave, Improved Charge, Improved Disarm, Martial Arts I/II/III, Melee Defense, Mighty Swing, Pin, Point Blank Shot, Power Attack, Precise Shot, Quick Draw, Rapid Shot, Rapid Strike, Running Attack, Shake It Off, Skill Focus, Skill Training, Sniper, Throw, Toughness, Trip, Triple Attack, Triple Crit, Vehicular Combat, Weapon Focus, Weapon Proficiency (advanced melee weapons/heavy weapons). [CRB p.54]",
+        "talent_trees":[
+          {"tree_name":"Armor Specialist","description_brief":"Maximize benefits of wearing armor while reducing drawbacks."},
+          {"tree_name":"Brawler","description_brief":"Prefers 'up close and personal' melee combat."},
+          {"tree_name":"Commando","description_brief":"Uses advanced combat tactics to take down enemies, shield comrades, and endure challenges."},
+          {"tree_name":"Weapon Specialist","description_brief":"Highly trained at using specific weapons."}
+        ],
+        "starting_credits_formula":"3d4 x 250",
+        "errata_applied_notes":"Defense Bonuses at 1st level corrected to +1 Reflex, +2 Fortitude per CRB Errata. [cite: 2011] Stunning Strike Talent (CRB p.52) refers to 'damage roll' not 'attack roll' per errata. [cite: 2011]"
+      },
+      {
+        "id":"nonheroic_cr_277",
+        "name":"Nonheroic",
+        "source_book":"CR",
+        "page_crb_main_description":"277",
+        "description_general":"Nonheroic characters include professional workers, petty criminals, police officers, common thugs, and baseline Imperial stormtroopers or Rebel troopers. They lack the inclination or training to be heroes but are capable in their own fields. [CRB p.278]",
+        "role_summary":"Represents ordinary individuals or rank-and-file members of organizations.",
+        "key_abilities_text":"Varies by role; no specific emphasis unless specialized.",
+        "hit_points": {
+          "hit_die": "d4",
+          "starting_hp_1st_level_formula":"(Maximized d4, i.e., 4) + Constitution modifier (if starting at 1st level as Nonheroic)",
+          "hp_per_level_after_1st_formula":"1d4 + Constitution modifier"
+        },
+        "force_points_per_level_formula":"0",
+        "destiny_points_per_level_formula":"0",
+        "base_attack_bonus_progression":[0, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10, 11, 12, 12, 13, 14, 15],
+        "defense_bonuses_1st_level":[],
+        "starting_feats_description":"Gains three starting feats at 1st level, chosen from: Armor Proficiency (light), Armor Proficiency (medium), Skill Focus (chosen from class skills), Skill Training (chosen from class skills), Weapon Proficiency (advanced melee weapons), Weapon Proficiency (heavy weapons), Weapon Proficiency (pistols), Weapon Proficiency (rifles), Weapon Proficiency (simple weapons). Skill Focus/Training can be selected multiple times for different skills. [CRB p.278]",
+        "class_skills_list":[
+          "acrobatics","climb","deception","endurance","gather_information","initiative","jump",
+          "knowledge_bureaucracy","knowledge_galactic_lore","knowledge_life_sciences","knowledge_physical_sciences","knowledge_social_sciences","knowledge_tactics","knowledge_technology",
+          "mechanics","perception","persuasion","pilot","ride","stealth","survival","swim","treat_injury","use_computer"
+        ],
+        "trained_skills_count_formula":"1 + Intelligence modifier (minimum 1)",
+        "talents_progression_summary":"Do not gain talents.",
+        "bonus_feats_progression_summary":"Gain feats by character level as per Table 3-1 (CRB p.37).",
+        "ability_score_increase_note":"Increase one ability score by +1 at 4th character level and every four character levels thereafter.",
+        "special_rules":[
+          "Do not add their nonheroic class level to their defense scores (Reflex, Fortitude, Will).",
+          "Can multiclass into a heroic class following normal multiclassing rules."
+        ],
+        "errata_applied_notes":"Class skills list on CRB p.278 errata adds Ride skill. [cite: 2011]"
+      },
+      {
+        "id":"beast_cr_273",
+        "name":"Beast",
+        "source_book":"CR",
+        "page_crb_main_description":"273",
+        "description_general":"Animals and other nonsentient life forms have levels in the beast class (a nonheroic class). They are usually encountered as threats or mounts. Intelligence is 1 or 2. [CRB p.275]",
+        "role_summary":"Represents non-sentient animals and creatures.",
+        "key_abilities_text":"Intelligence is 1 or 2. Other five abilities rolled normally. Wisdom is important for cunning beasts.",
+        "hit_points": {
+          "hit_die": "d8",
+          "starting_hp_1st_level_formula":"(Maximized d8, i.e., 8) + Constitution modifier (if starting at 1st level as Beast)",
+          "hp_per_level_after_1st_formula":"1d8 + Constitution modifier"
+        },
+        "force_points_per_level_formula":"0",
+        "destiny_points_per_level_formula":"0",
+        "base_attack_bonus_progression":[0, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10, 11, 12, 12, 13, 14, 15],
+        "defense_bonuses_1st_level":[],
+        "starting_feats":[],
+        "class_skills_list":["acrobatics","climb","endurance","initiative","jump","perception","stealth","survival","swim"],
+        "trained_skills_count_formula":"1 + Intelligence modifier (minimum 1)",
+        "talents_progression_summary":"Do not gain talents.",
+        "bonus_feats_progression_summary":"Gain feats normally by character level as per Table 3-1 (CRB p.37).",
+        "ability_score_increase_note":"Increase one ability score by +1 at 4th character level and every four character levels thereafter.",
+        "special_rules":[
+          "Do not add their beast class level to their defense scores.",
+          "Beasts with INT 1 or 2 cannot multiclass. If INT becomes 3+ via ability increase, can multiclass into heroic classes.",
+          "Possess Natural Armor (amount varies, never higher than beast class level).",
+          "Possess Natural Weapons (bite, claw, gore, slam, sting; damage by size, see CRB p.275-276). Applies STR to melee attack/damage, DEX to ranged. Multiple natural weapons can be used in full attack with no penalty.",
+          "Bonus on damage rolls with natural weapons = 1/2 beast class level (rounded down).",
+          "Proficient with own natural weapons only.",
+          "May have specific Species Traits based on adaptation (Airborne, Aquatic, Arctic, Desert, Subterranean - see CRB p.276)."
+        ]
+      }
+    ]
+  }
+}

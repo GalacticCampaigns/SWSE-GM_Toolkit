@@ -1,0 +1,123 @@
+{
+  "file_description": "Overview of character creation steps and initial statistics for Star Wars Saga Edition, synthesizing Core Rulebook Chapter 1 and the SWSE Primer.",
+  "source_book_reference": "CR",
+  "primary_page_reference_crb": "13-16",
+  "general_notes": [
+    "Characters generally begin play at 1st level."
+  ],
+  "creation_steps": [
+    {
+      "step_number": 1,
+      "title": "Generate Ability Scores",
+      "summary_from_crb": "Every character has six abilities (Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma) that represent basic strengths and weaknesses. Use one of the methods described in Chapter 1: Abilities to generate your six ability scores.",
+      "primer_notes": "Determine your character's six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma) using methods like dice rolling, point-buy, or a standard array. These scores will determine your character's fundamental capabilities and modifiers for most actions. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See 'SagaIndex/data/core_rules/ability_system_rules.json' and Core Rulebook Chapter 1 (Abilities, p.18-20) for generation methods and details."
+    },
+    {
+      "step_number": 2,
+      "title": "Select Your Species",
+      "summary_from_crb": "Select the species you want to play from those presented in Chapter 2: Species. Each species has its own set of special abilities and modifiers.",
+      "primer_notes": "Choose your character's species from the available options. Each species provides ability score adjustments, automatic languages, and unique traits that define their inherent strengths and weaknesses. (Primer: I.E. Characters, I.E. Species)",
+      "detailed_rules_reference": "See 'SagaIndex/data/character_elements/species.json' and Core Rulebook Chapter 2 (Species, p.22-34) for species details."
+    },
+    {
+      "step_number": 3,
+      "title": "Choose Your Class",
+      "summary_from_crb": "A class provides a starting point for your character. Choose a class from those presented in Chapter 3: Heroic Classes. [cite: 391]",
+      "primer_notes": "Select a heroic class (Jedi, Noble, Scoundrel, Scout, Soldier). This is the foundation for your character's skills, feats, talents, and role in the game. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See 'SagaIndex/data/character_elements/classes.json' (once created) and Core Rulebook Chapter 3 (Heroic Classes, p.35-55) for class details."
+    },
+    {
+      "step_number": 4,
+      "title": "Assign Ability Scores",
+      "summary_from_crb": "Assign the scores you generated to the six abilities. Then make any adjustments to these scores according to the species you selected. Each class description indicates which abilities are most important. [cite: 392]",
+      "primer_notes": "Distribute your generated ability scores among the six abilities. Apply any species-based adjustments to these scores. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "Core Rulebook Chapter 1 (Abilities, p.18-20) and Chapter 2 (Species, p.22-34)."
+    },
+    {
+      "step_number": 5,
+      "title": "Determine Combat Statistics",
+      "summary_from_crb": "Calculate your character's hit points, defenses (Reflex, Fortitude, Will), damage threshold, attack bonuses (melee and ranged), speed, Force Points, and Destiny Points (if used). [cite: 393]",
+      "primer_notes": "Record your character's combat statistics including Hit Points, Defenses (Reflex, Fortitude, Will), Damage Threshold, Attack Bonuses, and Speed. These are derived from your class, species, and ability scores. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See 'initial_combat_statistics_summary' section below and Core Rulebook Chapter 9 (Combat, p.142-163) for general combat rules."
+    },
+    {
+      "step_number": 6,
+      "title": "Select Skills",
+      "summary_from_crb": "Each class has a list of class skills. Choose a number of trained skills from this list based on your class and Intelligence modifier. Determine skill check modifiers.",
+      "primer_notes": "Based on your class and Intelligence modifier, select a number of trained skills from your class's skill list. Calculate the modifier for each skill. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See 'SagaIndex/data/character_elements/skills.json', 'SagaIndex/data/core_rules/skill_rules.json', and Core Rulebook Chapter 4 (Skills, p.56-77) for details."
+    },
+    {
+      "step_number": 7,
+      "title": "Select Feats",
+      "summary_from_crb": "Your character begins with at least one feat. Humans get a bonus feat. Your class also gives starting feats. Select feats from Chapter 5: Feats.",
+      "primer_notes": "Characters receive starting feats from their class, one general feat at 1st level, and an additional bonus feat if Human. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See 'SagaIndex/data/character_elements/feats.json' (once created), 'SagaIndex/data/core_rules/feat_rules.json', and Core Rulebook Chapter 5 (Feats, p.78-90) for details."
+    },
+    {
+      "step_number": 8,
+      "title": "Select a Talent",
+      "summary_from_crb": "At 1st level, your character gets a talent (a special class feature). Choose a talent from any of the talent trees in your character's class description. Prerequisites must be met.",
+      "primer_notes": "At 1st level, choose one talent from your character's class talent trees. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See class descriptions in Core Rulebook Chapter 3 (Heroic Classes, p.35-55) and specific class JSON files (once created)."
+    },
+    {
+      "step_number": 9,
+      "title": "Determine Starting Credits and Buy Gear",
+      "summary_from_crb": "Your character's class determines starting credits. Use credits to purchase equipment from Chapter 8: Equipment. [cite: 403]",
+      "primer_notes": "Starting credits are determined by your class. Purchase weapons, armor, and other gear. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "See Core Rulebook Chapter 8 (Equipment, p.117-141) and class descriptions for starting credits."
+    },
+    {
+      "step_number": 10,
+      "title": "Finish Your Character",
+      "summary_from_crb": "Add details like name, age, gender, height, weight, appearance, and background information. Refer to Chapter 7: Heroic Traits for guidelines.",
+      "primer_notes": "Finalize your character with a name, age, gender, physical description, and a backstory including personality and goals. (Primer: I.E. Characters)",
+      "detailed_rules_reference": "Core Rulebook Chapter 7 (Heroic Traits, p.108-116)."
+    }
+  ],
+  "initial_combat_statistics_summary_at_1st_level": {
+    "hit_points": {
+      "source_page_reference": "CR 14",
+      "by_class_type": [
+        {"class_group": ["Noble", "Scoundrel"], "formula": "18 + Constitution modifier"},
+        {"class_group": ["Scout"], "formula": "24 + Constitution modifier"},
+        {"class_group": ["Jedi", "Soldier"], "formula": "30 + Constitution modifier"}
+      ],
+      "general_note": "Hit points increase with each level gained."
+    },
+    "defenses": {
+      "source_page_reference": "CR 14-15",
+      "reflex_defense_formula": "10 + Heroic Level (or Armor Bonus) + Dexterity modifier + Class Bonus + Natural Armor Bonus (if any) + Size Modifier",
+      "fortitude_defense_formula": "10 + Heroic Level + Constitution modifier + Class Bonus + Equipment Bonus (if any)",
+      "will_defense_formula": "10 + Heroic Level + Wisdom modifier + Class Bonus",
+      "class_bonus_note": "At 1st level in a heroic class, you gain specific class bonuses to two or more defenses (see CRB p.36). Class bonuses do not stack if multiclassing; apply the best from all classes."
+    },
+    "damage_threshold": {
+      "source_page_reference": "CR 15",
+      "formula_small_medium": "Fortitude Defense",
+      "note": "Larger creatures add a size modifier to their Fortitude Defense to determine Damage Threshold."
+    },
+    "base_attack_bonus": {
+      "source_page_reference": "CR 15",
+      "at_1st_level": [
+        {"class_group": ["Jedi", "Soldier"], "bab": "+1"},
+        {"class_group": ["Noble", "Scoundrel", "Scout"], "bab": "+0"}
+      ]
+    },
+    "melee_attack_bonus": "Base Attack Bonus + Strength modifier [cite: 398]",
+    "ranged_attack_bonus": "Base Attack Bonus + Dexterity modifier [cite: 398]",
+    "speed": "Determined by species (e.g., most Medium species have 6 squares, Ewoks 4 squares). [cite: 398]",
+    "force_points": {
+      "source_page_reference": "CR 15",
+      "starting_value": 5,
+      "note_feat": "The Force Boon feat grants an additional 3 Force Points (CRB p.85)."
+    },
+    "destiny_points": {
+      "source_page_reference": "CR 15",
+      "starting_value": 1,
+      "condition": "If the GM uses the optional destiny rules (see CRB Chapter 7: Heroic Traits)."
+    }
+  }
+}

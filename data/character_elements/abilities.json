@@ -1,0 +1,97 @@
+{
+  "source_book": "CR",
+  "page_reference_general": "18-20",
+  "modifier_calculation_formula": "floor((score - 10) / 2)",
+  "general_description": "The six fundamental abilities define a character's raw potential: Strength (STR), Dexterity (DEX), Constitution (CON), Intelligence (INT), Wisdom (WIS), and Charisma (CHA). These scores, and primarily their modifiers, underpin most other character statistics and are critical inputs for nearly all game mechanics.",
+  "abilities": [
+    {
+      "id": "str",
+      "full_name": "Strength",
+      "abbreviation": "STR",
+      "description_summary": "Strength measures your character's muscle and physical power. This ability is especially important for soldiers because it helps them prevail in physical combat.",
+      "page_specific": 19,
+      "typical_uses_summary": [
+        "Melee attack rolls.",
+        "Damage rolls for melee and thrown weapons. (Exceptions: Grenades don't have their damage modified by Strength.)",
+        "Climb, Jump, and Swim checks (the skills with Strength as the key ability).",
+        "Strength checks (for breaking down doors and the like)."
+      ],
+      "notes_for_ai_gm": "Modifier is added to relevant d20 rolls and damage. Recalculate derived stats if STR score changes."
+    },
+    {
+      "id": "dex",
+      "full_name": "Dexterity",
+      "abbreviation": "DEX",
+      "description_summary": "Dexterity measures hand-eye coordination, agility, reflexes, and balance. This ability is the most important ability for scoundrels, but it's also high on the list for characters who want to be good shots with ranged weapons (such as blaster pistols) or who want to handle the controls of a starship or speeder fairly well.",
+      "page_specific": 19,
+      "typical_uses_summary": [
+        "Ranged attack rolls, such as with blasters.",
+        "Reflex Defense, provided the character can react to the attack.",
+        "Acrobatics, Pilot, Ride, and Stealth checks (the skills where Dexterity is the key ability)."
+      ],
+      "notes_for_ai_gm": "Modifier is added to relevant d20 rolls and Reflex Defense. Recalculate derived stats if DEX score changes."
+    },
+    {
+      "id": "con",
+      "full_name": "Constitution",
+      "abbreviation": "CON",
+      "description_summary": "Constitution represents your character's health and stamina. Constitution adds to a hero's hit points, so it's important for everyone, but most important for soldiers and Jedi.",
+      "page_specific": 19,
+      "typical_uses_summary": [
+        "Each die roll for gaining additional hit points (though a penalty can never drop a hit point roll below 1; a character always gains at least 1 hit point each time he or she goes up a level).",
+        "Fortitude Defense, for resisting poison, radiation, and similar threats.",
+        "The Endurance skill."
+      ],
+      "notes_for_ai_gm": "Modifier is added to HP per level and Fortitude Defense. Recalculate derived stats if CON score changes. Droids typically do not have a Constitution score."
+    },
+    {
+      "id": "int",
+      "full_name": "Intelligence",
+      "abbreviation": "INT",
+      "description_summary": "Intelligence determines how well your character learns and reasons. Intelligence is important for scouts, nobles, and any character who wants to have a wide assortment of skills.",
+      "page_specific": 19,
+      "typical_uses_summary": [
+        "The number of languages your character knows at the start of the game.",
+        "The number of trained skills you have.",
+        "Knowledge, Mechanics, and Use Computer checks (the skills with Intelligence as the key ability)."
+      ],
+      "notes_for_ai_gm": "Modifier also affects number of known languages and trained skills dynamically if INT changes."
+    },
+    {
+      "id": "wis",
+      "full_name": "Wisdom",
+      "abbreviation": "WIS",
+      "description_summary": "Wisdom describes a character's willpower, common sense, perception, and intuition. Compared to Intelligence, Wisdom is more related to being in tune with and aware of one's surroundings, while Intelligence represents one's ability to analyze information. Wisdom is the most important ability for scouts, but it's also important to characters wishing to be in-tune with their environment or characters who like to gamble. If you want your character to have keen senses, put a high score in Wisdom.",
+      "page_specific": 20,
+      "typical_uses_summary": [
+        "Will Defense, generally for resisting certain Force attacks.",
+        "Perception, Survival, and Treat Injury checks (the skills with Wisdom as the key ability).",
+        "The number of Force powers you learn when you take the Force Training feat."
+      ],
+      "notes_for_ai_gm": "Modifier also affects number of known Force powers dynamically if WIS changes (for characters with Force Training feat)."
+    },
+    {
+      "id": "cha",
+      "full_name": "Charisma",
+      "abbreviation": "CHA",
+      "description_summary": "Charisma measures a character's force of personality, persuasiveness, personal magnetism, ability to lead, and physical attractiveness. It represents actual strength of personality and force of presence, not merely how others perceive you in a social setting. Charisma is most important for nobles and Jedi.",
+      "page_specific": 20,
+      "typical_uses_summary": [
+        "Deception, Gather Information, Persuasion, and Use the Force checks (skills with Charisma as the key ability)."
+      ],
+      "notes_for_ai_gm": "Modifier is added to relevant skill checks. Recalculate derived stats if CHA score changes."
+    }
+  ],
+  "character_creation_notes": {
+    "score_generation_methods_summary": "Core Rulebook details multiple methods: Dice rolling (e.g., 4d6 drop lowest with reroll conditions), Planned Generation (point-buy), and Standard Score Package. See ability_system_rules.json for specifics.",
+    "typical_score_range_start_pc_before_species_mods": "3-18",
+    "ability_score_increases_on_level_up": {
+      "description": "At Character Levels 4, 8, 12, 16, and 20, a heroic character increases two different ability scores by +1 each.",
+      "levels": [4, 8, 12, 16, 20],
+      "number_of_scores_increased": 2,
+      "increase_amount_per_score": 1,
+      "restriction": "Cannot apply both increases to a single ability score at the same level.",
+      "source_page_reference": "CR 20"
+    }
+  }
+}

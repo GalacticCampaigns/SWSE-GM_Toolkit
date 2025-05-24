@@ -1,0 +1,25 @@
+{
+  "file_description": "General rules for acquiring and using Feats in Star Wars Saga Edition.",
+  "source_book_reference": "CR",
+  "page_reference_general": "79",
+  "acquiring_feats": {
+    "at_character_creation": "Each character gets one feat when the character is created (at 1st level). [cite: 538]",
+    "by_level_progression": {
+      "levels": [3, 6, 9, 12, 15, 18],
+      "description": "Characters gain another feat at 3rd, 6th, 9th, 12th, 15th, and 18th character level (see Table 3-1: Experience and Level-Dependent Benefits, CRB page 37). [cite: 538]",
+      "multiclass_note": "For multiclass characters, feats are gained according to total character level, not individual class levels. [cite: 538]"
+    },
+    "bonus_feats": [
+      "Heroic classes grant bonus feats chosen from special lists found in their class descriptions (see Chapter 3: Heroic Classes). [cite: 538]",
+      "Humans gain one bonus feat at 1st level, chosen from any feat the character qualifies for. [cite: 538]"
+    ],
+    "source_page_reference": "CR 79"
+  },
+  "prerequisites": {
+    "general_rule": "A character must have the listed ability score, feat, trained skill, or base attack bonus in order to select or use that feat. [cite: 539]",
+    "timing_of_acquisition": "A character can gain a feat at the same level at which he or she gains the prerequisite(s). [cite: 539]",
+    "numerical_values_as_minimums": "A prerequisite that contains a numerical value is a minimum; any value higher than the one given also meets the prerequisite. [cite: 539]",
+    "losing_prerequisites_effect": "You can't use a feat if you've lost a prerequisite (e.g., if an ability score drops below the required minimum or another feat is lost). [cite: 539]",
+    "source_page_reference": "CR 79"
+  }
+}

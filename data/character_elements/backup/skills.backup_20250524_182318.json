@@ -6,7 +6,7 @@
         "id": "acrobatics",
         "name": "Acrobatics",
         "source_book": "CR",
-        "page": 62,
+        "page": "62",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -17,7 +17,7 @@
         "common_uses": [
           {
             "use_name": "Balance",
-            "description": "Move at half speed along a narrow surface. DC varies with surface width. If surface is slippery or unstable, increase DC by 5. You are considered flat-footed while balancing, unless trained in Acrobatics. If you take damage while balancing, make another Acrobatics check against the same DC to keep from falling. [CRB text p.63, cite: 404-405]",
+            "description": "Move at half speed along a narrow surface. DC varies with surface width. If surface is slippery or unstable, increase DC by 5. You are considered flat-footed while balancing, unless trained in Acrobatics. If you take damage while balancing, make another Acrobatics check against the same DC to keep from falling.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -43,13 +43,13 @@
                   "dc_modifier": 5
                 }
               ],
-              "notes": "Reference CRB p.63 for full DC table."
+              "notes": "You are considered flat-footed while balancing unless trained in Acrobatics. If you take damage while balancing, you must immediately make another Acrobatics check against the same DC to keep from falling. Reference CRB p.63 for full DC table. [cite: 405]"
             },
             "action_cost": "Part of movement (move at half speed)"
           },
           {
             "use_name": "Cross Difficult Terrain",
-            "description": "Move through difficult terrain at your normal speed. [CRB text p.64, cite: 406]",
+            "description": "Move through difficult terrain at your normal speed. [cite: 406]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -60,7 +60,7 @@
           },
           {
             "use_name": "Escape Bonds or Grapple",
-            "description": "Slip free of restraints, wriggle through a tight space, or escape from a grapple. [CRB text p.64, cite: 406-407]",
+            "description": "Slip free of restraints, wriggle through a tight space, or escape from a grapple.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -88,13 +88,13 @@
                   "determination_formula": "Grappler's grapple check result"
                 }
               ],
-              "notes": "Reference CRB p.64 for specific DC values."
+              "notes": "Reference CRB p.64 for specific DC values. [cite: 407]"
             },
-            "time_to_perform": "Attack action to escape a grapple. Full-round action to escape a net or to move 1 square through a tight space. 1 minute to escape from ropes, binder cuffs, or manacles."
+            "time_to_perform": "Attack action to escape a grapple. Full-round action to escape a net or to move 1 square through a tight space. 1 minute to escape from ropes, binder cuffs, or manacles. [cite: 407]"
           },
           {
             "use_name": "Fall Prone (as Free Action)",
-            "description": "Drop to a prone position as a free action instead of a swift action. [CRB text p.64, cite: 407]",
+            "description": "Drop to a prone position as a free action instead of a swift action. [cite: 407]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -105,7 +105,7 @@
           },
           {
             "use_name": "Reduce Falling Damage",
-            "description": "Treat a fall as if it were 3 meters (2 squares) shorter when determining damage. For every 10 points by which you beat this DC, you can subtract an additional 3 meters from the fall. If you take no damage from the fall, you land on your feet. If struck by a falling object, a successful check reduces damage by half. [CRB text p.64, cite: 408-409]",
+            "description": "Treat a fall as if it were 3 meters (2 squares) shorter when determining damage. For every 10 points by which you beat this DC, you can subtract an additional 3 meters from the fall. If you take no damage from the fall, you land on your feet. If struck by a falling object, a successful check reduces damage by half.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -116,7 +116,7 @@
           },
           {
             "use_name": "Stand Up from Prone (as Swift Action)",
-            "description": "Stand up from a prone position as a swift action instead of a move action. [CRB text p.64, cite: 409]",
+            "description": "Stand up from a prone position as a swift action instead of a move action. [cite: 409]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -127,7 +127,7 @@
           },
           {
             "use_name": "Tumble",
-            "description": "Tumble through the threatened area or fighting space of an enemy as part of your move action without provoking an attack of opportunity. Each threatened square or occupied square that you tumble through counts as 2 squares of movement. [CRB text p.64, cite: 409-410]",
+            "description": "Tumble through the threatened area or fighting space of an enemy as part of your move action without provoking an attack of opportunity. Each threatened square or occupied square that you tumble through counts as 2 squares of movement.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -137,19 +137,19 @@
             "action_cost": "Part of Move Action"
           }
         ],
-        "description_general": "You can move at normal speed across difficult terrain, keep your balance while walking on a narrow surface, take less damage from a fall, slip free of restraints or a grappling foe, and get up from prone safely. In addition to the specific options listed below, you can use Acrobatics to perform typical tumbling, flipping, or gymnastic maneuvers. [CRB text p.63, cite: 404]",
+        "description_general": "You can move at normal speed across difficult terrain, keep your balance while walking on a narrow surface, take less damage from a fall, slip free of restraints or a grappling foe, and get up from prone safely. In addition to the specific options listed below, you can use Acrobatics to perform typical tumbling, flipping, or gymnastic maneuvers. [cite: 404]",
         "key_ability": "DEX",
         "page_range": "63-64",
         "special_rules_summary": [
-          "You can't take 10 or take 20 on an Acrobatics check. [CRB text p.64, cite: 410]",
-          "If you are trained in Acrobatics, you gain a +2 dodge bonus to your Reflex Defense when fighting defensively (see Fighting Defensively, page 152). (CRB Errata p.290 changes this to +5 bonus [cite: 1968])"
+          "You can't take 10 or take 20 on an Acrobatics check. [cite: 410]",
+          "If you are trained in Acrobatics, you gain a +2 dodge bonus to your Reflex Defense when fighting defensively (see Fighting Defensively, page 152). [cite: 410]"
         ]
       },
       {
         "id": "climb",
         "name": "Climb",
         "source_book": "CR",
-        "page": 64,
+        "page": "64",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -159,7 +159,7 @@
         "common_uses": [
           {
             "use_name": "Climb Surface",
-            "description": "Advance up, down, or across a slope or a wall or other steep incline (or even a ceiling with handholds). A slope is <60 degrees; a wall is >=60 degrees. Climb at one-half speed as a full-round action, or one-fourth speed as a move action. Failure by 5+ means you fall. [CRB text p.65, cite: 411-412]",
+            "description": "Advance up, down, or across a slope or a wall or other steep incline (or even a ceiling with handholds). A slope is <60 degrees; a wall is >=60 degrees. Climb at one-half speed as a full-round action, or one-fourth speed as a move action. Failure by 5+ means you fall.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -205,13 +205,13 @@
                   "dc_modifier": 5
                 }
               ],
-              "notes": "Perfectly smooth, flat, vertical surface cannot be climbed. Opponents get +2 to attack you; you lose DEX to Reflex Defense. If you take damage, make a Climb check against wall's DC to avoid falling. Reference CRB p.65."
+              "notes": "Perfectly smooth, flat, vertical surface cannot be climbed. Opponents get +2 to attack you; you lose DEX to Reflex Defense. If you take damage, make a Climb check against wall's DC to avoid falling. Reference CRB p.65 for full DC table."
             },
             "action_cost": "Full-round or Move Action"
           },
           {
             "use_name": "Accelerated Climbing",
-            "description": "Climb more quickly than normal, but take a -5 penalty on Climb checks. Allows climbing at full speed as a full-round action, or one-half speed as a move action. [CRB text p.65, cite: 416]",
+            "description": "Climb more quickly than normal, but take a -5 penalty on Climb checks. Allows climbing at full speed as a full-round action, or one-half speed as a move action. [cite: 416]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -222,7 +222,7 @@
           },
           {
             "use_name": "Catch Yourself When Falling",
-            "description": "Attempt to catch yourself on a wall while falling. Make a Climb check (DC = wall's DC + 20). A slope is relatively easier (DC = slope's DC + 10). [CRB text p.65, cite: 416]",
+            "description": "Attempt to catch yourself on a wall while falling. [cite: 416]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -234,7 +234,7 @@
           },
           {
             "use_name": "Making Handholds and Footholds",
-            "description": "Make your own handholds/footholds by pounding pitons into a wall or cutting into an ice wall. Reduces Climb DC of that surface to 15. [CRB text p.65, cite: 416-417]",
+            "description": "Make your own handholds/footholds by pounding pitons or cutting into ice. Reduces Climb DC of that surface to 15. [cite: 417]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -244,19 +244,19 @@
             "time_to_perform": "1 minute per piton (one piton needed per meter)."
           }
         ],
-        "description_general": "Use this skill to scale a cliff, to get to a window on the second story of a building, or to climb up an antenna array after falling out of an airway at the bottom of a floating city. [CRB text p.64, cite: 410-411]",
+        "description_general": "Use this skill to scale a cliff, to get to a window on the second story of a building, or to climb up an antenna array after falling out of an airway at the bottom of a floating city. [cite: 411]",
         "key_ability": "STR",
         "page_range": "64-65",
         "special_rules_summary": [
-          "Someone using a rope can haul a character by strength (see encumbrance rules p.140).",
-          "You can take 10 while climbing, but you can't take 20. [CRB text p.65, cite: 418]"
+          "Someone using a rope can haul a character by strength.",
+          "You can take 10 while climbing, but you can't take 20. [cite: 418]"
         ]
       },
       {
         "id": "deception",
         "name": "Deception",
         "source_book": "CR",
-        "page": 66,
+        "page": "66",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -266,7 +266,7 @@
         "common_uses": [
           {
             "use_name": "Deceive (Deceptive Appearance)",
-            "description": "Produce a deceptive appearance (disguise, forged documents). Make a Deception check opposed by Perception of any target. Success means target believes appearance is authentic. Modifiers apply based on difficulty. Rushing incurs -10 penalty. [CRB text p.65-66, cite: 420-421, 423-426]",
+            "description": "Produce a deceptive appearance (disguise, forged documents). Make a Deception check opposed by Perception of any target. Success means target believes appearance is authentic. Rushing incurs -10 penalty.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -299,13 +299,13 @@
                   "description": "Almost too unlikely, requires material you don't have. Ex: impersonating a Jedi to fool another Jedi; claiming to be Emperor giving orders."
                 }
               ],
-              "notes": "Reference CRB p.66 for Difficulty Modifiers table."
+              "notes": "Reference CRB p.66 for Difficulty Modifiers."
             },
-            "time_to_perform": "Varies: At least 1 minute for simple, 10 minutes for moderate, 1 hour for difficult, 1 day for incredible, 2 weeks (10 days) for outrageous."
+            "time_to_perform": "Varies: At least 1 minute for simple, up to 2 weeks for outrageous."
           },
           {
             "use_name": "Deceive (Deceptive Information)",
-            "description": "Communicate deceptive information (lie, distort facts). Make Deception check against Will Defense of target. Success means target believes information. Modifiers apply based on difficulty. Rushing incurs -10 penalty. If combined with deceptive appearance, compare single check to both Perception and Will Defense, or make separate checks if different timings. [CRB text p.66, cite: 421-422, 428-431]",
+            "description": "Communicate deceptive information (lie, distort facts). Make Deception check against Will Defense of target. Success means target believes information. Rushing incurs -10 penalty. If combined with deceptive appearance, compare single check to both Perception and Will Defense, or make separate checks if different timings.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -333,24 +333,24 @@
                   "modifier": -20
                 }
               ],
-              "notes": "Failure by 10 or less may mean target believes but is reluctant if risky. Failure by 11+ means target sees through deception. Reference CRB p.66 for Difficulty Modifiers table."
+              "notes": "Failure by 10 or less may mean target believes but is reluctant if risky. Failure by 11+ means target sees through deception. Reference CRB p.66 for Difficulty Modifiers."
             },
-            "time_to_perform": "Varies: At least Standard Action for simple, Full-round for moderate, 1 minute+ for difficult/incredible/outrageous."
+            "time_to_perform": "Varies: At least Standard Action for simple, up to 1 minute+ for difficult/outrageous. [cite: 422]"
           },
           {
             "use_name": "Creating a Diversion to Hide",
-            "description": "Use Deception to help you hide. Successful Deception check (vs. target's Will Defense) gives momentary diversion needed to attempt a Stealth check while target is aware. [CRB text p.67, cite: 432-433]",
+            "description": "Use Deception to help you hide. Successful Deception check (vs. target's Will Defense) gives momentary diversion needed to attempt a Stealth check while target is aware.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
               "type": "opposed_check",
               "target_defense": "will_defense"
             },
-            "action_cost": "Varies (Deception part), then Stealth check as move action."
+            "action_cost": "(Deception part) Varies, then Stealth check as move action."
           },
           {
             "use_name": "Feint",
-            "description": "Make a Deception check as a standard action opposed by target's Initiative check. If you beat opponent's roll, target is flat-footed against your first attack next round. -5 penalty vs. non-humanoids or creatures with INT < 3. [CRB text p.67, cite: 433]",
+            "description": "Make a Deception check as a standard action to set the DC of your opponent's Initiative check. If you beat opponent's roll, target is flat-footed against your first attack next round. -5 penalty vs. non-humanoids or INT < 3. [cite: 433]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -360,19 +360,19 @@
             "action_cost": "Standard Action"
           }
         ],
-        "description_general": "You can make the untrue seem true, the outrageous seem plausible, and the nefarious seem ordinary. The skill encompasses conning, fast-talking, misdirection, forgery, disguise, and outright lying. [CRB text p.65, cite: 419]",
+        "description_general": "You can make the untrue seem true, the outrageous seem plausible, and the nefarious seem ordinary. The skill encompasses conning, fast-talking, misdirection, forgery, disguise, and outright lying. [cite: 419]",
         "key_ability": "CHA",
         "page_range": "65-67",
-        "retry_rules_summary": "Generally, a failed Deception check makes the target too suspicious for another attempt in the same circumstances. For feinting in combat, you may retry freely. [CRB text p.67, cite: 434]",
+        "retry_rules_summary": "Generally, a failed Deception check makes the target too suspicious for another attempt in the same circumstances. For feinting in combat, you may retry freely. [cite: 434]",
         "special_rules_summary": [
-          "You can take 10 when making a deception (except for feinting in combat), but you can't take 20. [CRB text p.67, cite: 434]"
+          "You can take 10 when making a deception (except for feinting in combat), but you can't take 20. [cite: 434]"
         ]
       },
       {
         "id": "endurance",
         "name": "Endurance",
         "source_book": "CR",
-        "page": 67,
+        "page": "67",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -383,7 +383,7 @@
         "common_uses": [
           {
             "use_name": "Force March",
-            "description": "Each hour of walking after 8 hours requires a DC 10 Endurance check (+2 DC per hour after the first). Failure means -1 persistent step on condition track (removed by 8 hours rest). [CRB text p.67, cite: 435]",
+            "description": "Each hour of walking after 8 hours requires a DC 10 Endurance check (+2 DC per hour after the first). Failure means -1 persistent step on condition track (removed by 8 hours rest). [cite: 435]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -395,7 +395,7 @@
           },
           {
             "use_name": "Hold Breath",
-            "description": "Hold breath for rounds equal to CON score. Then, DC 10 Endurance check each round (+2 DC per additional round). Failure: must breathe or -1 step on condition track. Unconscious at bottom of track; die next turn if still unable to breathe. [CRB text p.67, cite: 436]",
+            "description": "Hold breath for rounds equal to CON score. Then, DC 10 Endurance check each round (+2 DC per additional round). Failure: must breathe or -1 step on condition track. Unconscious at bottom of track; die next turn if still unable to breathe. [cite: 436]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -408,7 +408,7 @@
           },
           {
             "use_name": "Ignore Hunger",
-            "description": "Go without food for days equal to CON modifier (min 1). Then, DC 10 Endurance check each day (+2 DC per day thereafter). Failure: -1 persistent step on condition track (removed by nutritious meal). [CRB text p.67, cite: 437]",
+            "description": "Go without food for days equal to CON modifier (min 1). Then, DC 10 Endurance check each day (+2 DC per day thereafter). Failure: -1 persistent step on condition track (removed by nutritious meal). [cite: 437]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -421,7 +421,7 @@
           },
           {
             "use_name": "Ignore Thirst",
-            "description": "Go without water for hours equal to 3x CON score. Then, DC 10 Endurance check each hour (+2 DC per day thereafter according to text, likely error and means per hour). Failure: -1 persistent step on condition track (removed by drinking ~1 liter water). [CRB text p.67, cite: 437-438]",
+            "description": "Go without water for hours equal to 3x CON score. Then, DC 10 Endurance check each hour (+2 DC per day thereafter from original text, likely means +2 per hour). Failure: -1 persistent step on condition track (removed by drinking ~1 liter water).",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -429,13 +429,13 @@
               "base_dc": 10,
               "increment_per_hour": 2,
               "initial_duration_formula": "3_x_CON_score_hours",
-              "notes": "CRB p.67 text states '+2 each day thereafter' for thirst DC increase, but context of hourly checks suggests per hour was intended."
+              "notes": "CRB text mentions '+2 each day thereafter' for thirst, but context suggests per hour is more likely intended for hourly checks."
             },
             "time_to_perform": "Per hour"
           },
           {
             "use_name": "Run",
-            "description": "Run as full-round action up to 4x speed (3x in heavy armor/load). Lose DEX to Reflex. Run for rounds = CON score. Then, DC 10 Endurance check each round (+1 DC per previous check). Failure: -1 persistent step on condition track (removed by resting for same duration as run; can only move speed during this rest). [CRB text p.67, cite: 439-441]",
+            "description": "Run as full-round action up to 4x speed (3x in heavy armor/load). Lose DEX to Reflex. Run for rounds = CON score. Then, DC 10 Endurance check each round (+1 DC per previous check). Failure: -1 persistent step on condition track (removed by resting for same duration as run; can only move speed during this rest).",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -448,12 +448,11 @@
           },
           {
             "use_name": "Sleep in Armor",
-            "description": "Sleep in armor with Endurance check (DC 10 light, DC 15 medium, DC 20 heavy). Failure: no sleep, -1 persistent step on condition track (removed by 8 hours sleep). [CRB text p.67, cite: 441]",
+            "description": "Sleep in armor with Endurance check (DC 10 light, DC 15 medium, DC 20 heavy). Failure: no sleep, -1 persistent step on condition track (removed by 8 hours sleep). [cite: 441]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
-              "type": "variable_from_table",
-              "table_name": "Sleep in Armor DC",
+              "type": "variable",
               "options": [
                 {
                   "condition": "Light armor",
@@ -473,7 +472,7 @@
           },
           {
             "use_name": "Swim/Tread Water (Endurance Aspect)",
-            "description": "Each hour swimming: DC 15 Endurance check (+2 DC per consecutive hour). Failure: -1 persistent step on condition track (removed by resting for same duration as swim). Treading water reduces DC by 5. [CRB text p.67, cite: 441-442]",
+            "description": "Each hour swimming: DC 15 Endurance check (+2 DC per consecutive hour). Failure: -1 persistent step on condition track (removed by resting for same duration as swim). Treading water reduces DC by 5.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -485,7 +484,7 @@
             "time_to_perform": "Per hour"
           }
         ],
-        "description_general": "You can push yourself beyond your normal physical limits. [CRB text p.67, cite: 435]",
+        "description_general": "You can push yourself beyond your normal physical limits. [cite: 435]",
         "key_ability": "CON",
         "page_range": "67-68"
       },
@@ -493,7 +492,7 @@
         "id": "gather_information",
         "name": "Gather Information",
         "source_book": "CR",
-        "page": 67,
+        "page": "67",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -503,7 +502,7 @@
         "common_uses": [
           {
             "use_name": "Learn News and Rumors",
-            "description": "Major news stories and popular local rumors can be unearthed with a DC 10 Gather Information check. Learning the detailed, unclassified facts of a news story or determining the veracity of a rumor requires a DC 20 check and 50 credits in bribes. [CRB text p.68, cite: 442-443]",
+            "description": "Unearth major news/popular local rumors. Learning detailed facts or veracity of rumor requires higher DC and bribes.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -524,7 +523,7 @@
           },
           {
             "use_name": "Learn Secret Information",
-            "description": "'Secret information' includes anything unavailable to the general public. Examples include a classified police report, a hidden location, military blueprints, installation security procedures, and computer access codes. Learning a piece of secret information typically requires a DC 25 check and 5,000 credits in bribes; however, information that's especially difficult to obtain (such as the technical blueprints of the Death Star) might require a DC 30 or higher skill check and cost 50,000 credits or more, at the GM's discretion. If the check fails by 5 or more, someone notices that you're asking questions and comes to investigate, arrest, or silence you. [CRB text p.68, cite: 443-444]",
+            "description": "Acquire info unavailable to general public (classified reports, hidden locations, security procedures, access codes). Especially difficult info has higher DC/cost. Failure by 5+ alerts someone.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -547,7 +546,7 @@
           },
           {
             "use_name": "Locate Individual",
-            "description": "Make a Gather Information check to locate a specific individual—either someone you know by name or someone with the skill, item, or information you need. The DC of the check is 15 if the target is relatively easy to locate; if the target isn't well known or has taken strides to conceal his or her presence and/or activities, the DC is 25 and the information costs 500 credits in bribes. [CRB text p.68-69, cite: 444-445]",
+            "description": "Find a specific individual (by name or by need for their skill/item/info). Higher DC if target is unknown or concealed.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -567,20 +566,20 @@
             "time_to_perform": "1d6 hours"
           }
         ],
-        "description_general": "Use this skill to make contacts, learn local new stories and gossip, and acquire secrets. [CRB text p.68, cite: 442]",
+        "description_general": "Use this skill to make contacts, learn local new stories and gossip, and acquire secrets. [cite: 442]",
         "key_ability": "CHA",
         "page_range": "68-69",
         "special_rules_summary": [
-          "You can take 10 on a Gather Information check, but you can't take 20. [CRB text p.69, cite: 446]",
-          "A successful Persuasion check can reduce the monetary cost of a Gather Information check. [CRB text p.69, cite: 446]",
-          "Some information is beyond the reach of a Gather Information skill check (GM discretion). [CRB text p.69, cite: 446]"
+          "You can take 10 on a Gather Information check, but you can't take 20. [cite: 446]",
+          "A successful Persuasion check can reduce the monetary cost of a Gather Information check. [cite: 446]",
+          "Some information is beyond the reach of this skill (GM discretion). [cite: 446]"
         ]
       },
       {
         "id": "initiative",
         "name": "Initiative",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -593,7 +592,7 @@
         "common_uses": [
           {
             "use_name": "Start Battle",
-            "description": "An Initiative check sets the order of combat when a fight starts. Each character aware of the fight makes an Initiative check and goes in order from highest to lowest. When piloting a vehicle in combat, you must apply the vehicle's size modifier to your Initiative check. [CRB text p.69, cite: 447]",
+            "description": "An Initiative check sets the order of combat when a fight starts. Each character aware of the fight makes an Initiative check and goes in order from highest to lowest. When piloting a vehicle in combat, you must apply the vehicle's size modifier to your Initiative check.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -604,7 +603,7 @@
           },
           {
             "use_name": "Avoid Feint",
-            "description": "When an opponent attempts to feint in combat, you oppose their Deception check with an Initiative check. If you meet or beat their check result, their feint attempt fails. [CRB text p.69, cite: 447-448]",
+            "description": "When an opponent attempts to feint in combat, you oppose their Deception check with an Initiative check. If you meet or beat their check result, their feint attempt fails.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -614,18 +613,18 @@
             "action_cost": "Reaction (implicitly, in response to feint)"
           }
         ],
-        "description_general": "Use this skill to gain the advantage in combat. [CRB text p.69, cite: 447]",
+        "description_general": "Use this skill to gain the advantage in combat.",
         "key_ability": "DEX",
         "page_range": "69",
         "special_rules_summary": [
-          "You can take 10 on an Initiative check, but you can't take 20. [CRB text p.69, cite: 448]"
+          "You can take 10 on an Initiative check, but you can't take 20."
         ]
       },
       {
         "id": "jump",
         "name": "Jump",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -636,7 +635,7 @@
         "common_uses": [
           {
             "use_name": "Long Jump",
-            "description": "The DC of a running long jump is equal to the distance cleared (in meters) multiplied by 3. For example, clearing a 3-meter-wide (2-square-wide) pit requires a successful DC 9 Jump check. If you do not get at least a 4-square running start, the DC is doubled. [CRB text p.69, cite: 449]",
+            "description": "The DC of a running long jump is equal to the distance cleared (in meters) multiplied by 3. For example, clearing a 3-meter-wide (2-square-wide) pit requires a successful DC 9 Jump check. If you do not get at least a 4-square running start, the DC is doubled.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -648,7 +647,7 @@
           },
           {
             "use_name": "High Jump",
-            "description": "The DC of a running high jump is equal to the distance cleared (in meters) multiplied by 12. For example, landing atop a 1.5-meter-high (1-square-high) ledge requires a successful DC 18 Jump check. If you use a pole of sufficient height to help you vault the distance, the DC is halved. If you do not get at least a 4-square running start, the DC is doubled. [CRB text p.69, cite: 449-450]",
+            "description": "The DC of a running high jump is equal to the distance cleared (in meters) multiplied by 12. For example, landing atop a 1.5-meter-high (1-square-high) ledge requires a successful DC 18 Jump check. If you use a pole of sufficient height to help you vault the distance, the DC is halved. If you do not get at least a 4-square running start, the DC is doubled.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -661,7 +660,7 @@
           },
           {
             "use_name": "Jump Down",
-            "description": "If you intentionally jump down from a height, you can attempt a DC 15 Jump check to take falling damage as if you had dropped 3 meters (2 squares) fewer than you actually did. For every 10 points by which you beat the DC, you can subtract an additional 3 meters from the fall when determining damage (CR Errata p.290). If you succeed on this check and take no damage, you land on your feet. [CRB text p.69, cite: 450]",
+            "description": "If you intentionally jump down from a height, you can attempt a DC 15 Jump check to take falling damage as if you had dropped 3 meters (2 squares) fewer than you actually did. For every 10 points by which you beat the DC, you can subtract an additional 3 meters from the fall when determining damage (CR Errata p.290). If you succeed on this check and take no damage, you land on your feet.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -671,20 +670,20 @@
             "action_cost": "Part of movement"
           }
         ],
-        "description_general": "Use this skill to leap over pits, vault low fences, or jump down from a tree's lowest branches. [CRB text p.69, cite: 449]",
+        "description_general": "Use this skill to leap over pits, vault low fences, or jump down from a tree's lowest branches.",
         "key_ability": "STR",
         "page_range": "69",
         "special_rules_summary": [
-          "You can take 10 when making a Jump check. [CRB text p.69, cite: 450]",
-          "If there is no danger associated with failing, you can take 20. [CRB text p.69, cite: 450]",
-          "Distance covered by a long jump or high jump counts against your maximum movement in a round; distance covered by jumping down does not. [CRB text p.69, cite: 451]"
+          "You can take 10 when making a Jump check.",
+          "If there is no danger associated with failing, you can take 20.",
+          "Distance covered by a long jump or high jump counts against your maximum movement in a round; distance covered by jumping down does not."
         ]
       },
       {
         "id": "knowledge_bureaucracy",
         "name": "Knowledge (Bureaucracy)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -696,7 +695,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about bureaucracy. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about bureaucracy.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -707,7 +706,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within bureaucracy that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within bureaucracy that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -719,12 +718,12 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of bureaucracy: Business procedures, legal systems and regulations, and organizational structures. [CRB text p.69, cite: 451-452]",
+        "description_general": "Represents study of bureaucracy: Business procedures, legal systems and regulations, and organizational structures.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. The roll represents what you know. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. The roll represents what you know.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
         ]
       },
@@ -732,7 +731,7 @@
         "id": "knowledge_galactic_lore",
         "name": "Knowledge (Galactic Lore)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -744,7 +743,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about galactic lore. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about galactic lore.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -755,7 +754,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within galactic lore that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within galactic lore that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -767,12 +766,12 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of galactic lore: Planets, homeworlds, sectors of space, galactic history, and the Force. [CRB text p.69, cite: 452]",
+        "description_general": "Represents study of galactic lore: Planets, homeworlds, sectors of space, galactic history, and the Force.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
         ]
       },
@@ -780,7 +779,7 @@
         "id": "knowledge_life_sciences",
         "name": "Knowledge (Life Sciences)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -792,7 +791,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about life sciences. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about life sciences.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -803,7 +802,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within life sciences that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within life sciences that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -815,12 +814,12 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of life sciences: Biology, botany, genetics, archaeology, xenobiology, medicine, and forensics. [CRB text p.69, cite: 452]",
+        "description_general": "Represents study of life sciences: Biology, botany, genetics, archaeology, xenobiology, medicine, and forensics.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
         ]
       },
@@ -828,7 +827,7 @@
         "id": "knowledge_physical_sciences",
         "name": "Knowledge (Physical Sciences)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -840,7 +839,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about physical sciences. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about physical sciences.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -851,7 +850,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within physical sciences that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within physical sciences that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -863,12 +862,12 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of physical sciences: Astronomy, astrogation, chemistry, mathematics, physics, and engineering. [CRB text p.69, cite: 452]",
+        "description_general": "Represents study of physical sciences: Astronomy, astrogation, chemistry, mathematics, physics, and engineering.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
         ]
       },
@@ -876,7 +875,7 @@
         "id": "knowledge_social_sciences",
         "name": "Knowledge (Social Sciences)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -888,7 +887,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about social sciences. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about social sciences.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -899,7 +898,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within social sciences that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within social sciences that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -911,12 +910,12 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of social sciences: Sociology, psychology, philosophy, theology, and criminology. [CRB text p.69, cite: 452]",
+        "description_general": "Represents study of social sciences: Sociology, psychology, philosophy, theology, and criminology.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
         ]
       },
@@ -924,7 +923,7 @@
         "id": "knowledge_tactics",
         "name": "Knowledge (Tactics)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -937,7 +936,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about tactics. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about tactics.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -948,7 +947,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within tactics that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within tactics that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -960,21 +959,21 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of tactics: Techniques and strategies for disposing and maneuvering forces in combat. [CRB text p.69, cite: 452]",
+        "description_general": "Represents study of tactics: Techniques and strategies for disposing and maneuvering forces in combat.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill.",
-          "Footnote 2 from Table 4-2 (CRB p.62 [cite: 403]): Soldier has Knowledge (Tactics) as a class skill only."
+          "Footnote 2 from Table 4-2: Soldier has Knowledge (Tactics) as a class skill only."
         ]
       },
       {
         "id": "knowledge_technology",
         "name": "Knowledge (Technology)",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -986,7 +985,7 @@
         "common_uses": [
           {
             "use_name": "Common Knowledge",
-            "description": "Answer a basic question about technology. [CRB text p.70, cite: 452]",
+            "description": "Answer a basic question about technology.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -997,7 +996,7 @@
           },
           {
             "use_name": "Expert Knowledge",
-            "description": "Answer a question within technology that requires some level of expertise. [CRB text p.70, cite: 453]",
+            "description": "Answer a question within technology that requires some level of expertise.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1009,12 +1008,12 @@
             "action_cost": "Swift Action"
           }
         ],
-        "description_general": "Represents study of technology: Function and principle of technological devices, as well as knowledge of cutting edge theories and advancements. [CRB text p.69, cite: 452]",
+        "description_general": "Represents study of technology: Function and principle of technological devices, as well as knowledge of cutting edge theories and advancements.",
         "key_ability": "INT",
         "page_range": "69-70",
-        "retry_rules_summary": "No, you can't reroll a failed Knowledge check. [CRB text p.70, cite: 454]",
+        "retry_rules_summary": "No, you can't reroll a failed Knowledge check.",
         "special_rules_summary": [
-          "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
+          "You can take 10 when making a Knowledge check, but you can't take 20.",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
         ]
       },
@@ -1022,7 +1021,7 @@
         "id": "mechanics",
         "name": "Mechanics",
         "source_book": "CR",
-        "page": 68,
+        "page": "68",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": false,
         "class_skill_for": [
@@ -1034,7 +1033,7 @@
         "common_uses": [
           {
             "use_name": "Disable Device",
-            "description": "Disarm a security device, defeat a lock or trap, or rig a device to fail. Requires security kit. Failure by 5+ springs trap or device appears disabled but isn't. [CRB text p.70, cite: 455-456]",
+            "description": "Disarm a security device, defeat a lock or trap, or rig a device to fail. Requires security kit. Failure by 5+ springs trap or device appears disabled but isn't.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1066,7 +1065,7 @@
           },
           {
             "use_name": "Handle Explosives (Set Detonator)",
-            "description": "Connect a detonator to an explosive. Failure means explosive fails to go off. Failure by 10+ means it goes off during installation. Can set a higher disarm DC (New Set Detonator DC = Chosen Disarm DC - 5). [CRB text p.70, cite: 457-458]",
+            "description": "Connect a detonator to an explosive. Failure means explosive fails to go off. Failure by 10+ means it goes off during installation. Can set a higher disarm DC (New Set Detonator DC = Chosen Disarm DC - 5).",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1078,7 +1077,7 @@
           },
           {
             "use_name": "Handle Explosives (Place Explosive Device)",
-            "description": "Carefully place explosive against fixed structure/vehicle for maximum effect. GM makes check. DC 15: ignore target's DR. DC 25: double damage. DC 35: triple damage. Normal damage to other targets in burst. [CRB text p.70, cite: 459-460]",
+            "description": "Carefully place explosive against fixed structure/vehicle for maximum effect. GM makes check. DC 15: ignore target's DR. DC 25: double damage. DC 35: triple damage. Normal damage to other targets in burst.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1102,7 +1101,7 @@
           },
           {
             "use_name": "Handle Explosives (Disarm Explosive Device)",
-            "description": "Disarm an explosive set to go off. Requires security kit. DC usually 15 unless setter chose higher. Failure by 5+ detonates explosive. [CRB text p.70-71, cite: 460-461]",
+            "description": "Disarm an explosive set to go off. Requires security kit. DC usually 15 unless setter chose higher. Failure by 5+ detonates explosive.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1114,7 +1113,7 @@
           },
           {
             "use_name": "Jury-Rig",
-            "description": "Make temporary repairs to disabled mechanical/electronic device. Success gains +2 steps on condition track and 1d8 hit points (CR Errata p.290 [cite: 1969]). Device moves -5 steps and disables again at end of scene/encounter. Tool kit grants +5 bonus. [CRB text p.71, cite: 461-462]",
+            "description": "Make temporary repairs to disabled mechanical/electronic device. Success gains +2 steps on condition track. Device moves -5 steps and disables again at end of scene/encounter. Tool kit grants +5 bonus.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1125,7 +1124,7 @@
           },
           {
             "use_name": "Modify Droid",
-            "description": "Make a Mechanics check to modify a droid (see Modifying Droids, CRB p.197). Requires tool kit. [CRB text p.71, cite: 462]",
+            "description": "Make a Mechanics check to modify a droid (see Modifying Droids, p.197). Requires tool kit.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1136,7 +1135,7 @@
           },
           {
             "use_name": "Recharge Shields",
-            "description": "When acting as shield operator on vehicle or device with shield rating, spend three swift actions (same or consecutive turns) to make DC 20 Mechanics check. Success restores 5 SR points (up to max). [CRB text p.71, cite: 462-463]",
+            "description": "When acting as shield operator on vehicle or device with shield rating, spend three swift actions (same or consecutive turns) to make DC 20 Mechanics check. Success restores 5 SR points (up to max).",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1147,7 +1146,7 @@
           },
           {
             "use_name": "Regulate Power",
-            "description": "When acting as engineer on vehicle or device, spend three swift actions to make DC 20 Mechanics check. Success moves vehicle +1 step on condition track. [CRB text p.71, cite: 463]",
+            "description": "When acting as engineer on vehicle or device, spend three swift actions to make DC 20 Mechanics check. Success moves vehicle +1 step on condition track.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1158,7 +1157,7 @@
           },
           {
             "use_name": "Repair Droid",
-            "description": "Repair a damaged or disabled droid. Restores HP equal to droid's character level and removes persistent conditions. Droid repairing self takes -5 penalty. Requires tool kit. [CRB text p.71, cite: 464-465]",
+            "description": "Repair a damaged or disabled droid. Restores HP equal to droid's character level and removes persistent conditions. Droid repairing self takes -5 penalty. Requires tool kit.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1169,7 +1168,7 @@
           },
           {
             "use_name": "Repair Object",
-            "description": "Repair a damaged or disabled object (device/vehicle). Restores 1d8 HP and removes persistent conditions. If on board damaged vehicle, apply vehicle's condition track penalties to check. Requires tool kit. [CRB text p.71, cite: 465-466]",
+            "description": "Repair a damaged or disabled object (device/vehicle). Restores 1d8 HP and removes persistent conditions. If on board damaged vehicle, apply vehicle's condition track penalties to check. Requires tool kit.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1179,21 +1178,21 @@
             "time_to_perform": "1 hour."
           }
         ],
-        "description_general": "You can bypass locks and traps, set and disarm explosives, fix malfunctioning devices, and modify and repair damaged droids. [CRB text p.70, cite: 455]",
+        "description_general": "You can bypass locks and traps, set and disarm explosives, fix malfunctioning devices, and modify and repair damaged droids.",
         "key_ability": "INT",
         "page_range": "69-71",
-        "retry_rules_summary": "You can usually retry a Mechanics check. In some specific cases (e.g., Disable Device, Set Detonator, Disarm Explosive), a failed check has negative ramifications that prevent or alter repeated checks. [CRB text p.71, cite: 466]",
+        "retry_rules_summary": "You can usually retry a Mechanics check. In some specific cases (e.g., Disable Device, Set Detonator, Disarm Explosive), a failed check has negative ramifications that prevent or alter repeated checks.",
         "special_rules_summary": [
-          "You can take 10 or take 20 on a Mechanics check. [CRB text p.71, cite: 466]",
-          "When making a Mechanics check to accomplish a jury-rig repair, you can't take 20. [CRB text p.71, cite: 466-467]",
-          "CR Errata p.290[cite: 1970]: Characters who are untrained in the Mechanics skill can still use the aid another action to assist on Mechanics checks."
+          "You can take 10 or take 20 on a Mechanics check.",
+          "When making a Mechanics check to accomplish a jury-rig repair, you can't take 20.",
+          "CR Errata p.290: Characters who are untrained in the Mechanics skill can still use the aid another action to assist on Mechanics checks."
         ]
       },
       {
         "id": "perception",
         "name": "Perception",
         "source_book": "CR",
-        "page": 70,
+        "page": "70",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1206,7 +1205,7 @@
         "common_uses": [
           {
             "use_name": "Avoid Surprise",
-            "description": "A Perception check made at the start of a battle determines whether or not you are surprised (see Surprise, CRB p.149). A Perception check made to avoid surprise is a reaction. [CRB text p.71, cite: 467]",
+            "description": "A Perception check made at the start of a battle determines whether or not you are surprised. This is a reaction. [cite: 467, 1056]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1217,7 +1216,7 @@
           },
           {
             "use_name": "Eavesdrop",
-            "description": "A DC 10 Perception check allows you to eavesdrop on a conversation. You must be able to understand the language being spoken. The DC increases to 15 in relatively noisy areas (such as a cantina) or 25 in particularly loud areas (such as a droid factory). Eavesdropping on a conversation is a standard action. [CRB text p.71, cite: 468]",
+            "description": "Listen to a conversation. Base DC 10. DC 15 in relatively noisy areas (cantina), DC 25 in loud areas (droid factory). Must understand language. [cite: 468]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1241,7 +1240,7 @@
           },
           {
             "use_name": "Hear Distant or Ambient Noises",
-            "description": "A DC 10 Perception check allows you to detect and identify distant or ambient noises. Actively listening for distant or ambient noises is a standard action. [CRB text p.71, cite: 468-469]",
+            "description": "Detect and identify distant or ambient noises.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1252,7 +1251,7 @@
           },
           {
             "use_name": "Notice Targets",
-            "description": "A Perception check lets you hear or spot other targets or detect someone or something sneaking up on you from behind. If the target is actively attempting to remain undetected, your Perception check is opposed by the target's Stealth check. If the target is not making any special effort to avoid detection, the Perception check DC is determined by the target's size: Colossal, DC -15; Gargantuan, DC -10; Huge, DC -5; Large, DC 0; Medium, DC 5; Small, DC 10; Tiny, DC 15; Diminutive, DC 20; Fine, DC 25. For every 10 squares of distance between you and the target, you take a -5 penalty on your Perception check. You also take a -5 penalty if the target has concealment or cover, or a -10 penalty if it has total concealment or total cover. Detecting a target that enters your line of sight is a reaction. Actively looking or listening for hidden enemies is a standard action. [CRB text p.71, cite: 469-470]",
+            "description": "Spot or hear targets. Opposed by target's Stealth if actively hiding. If not hiding, DC based on target size (Colossal -15 to Fine +25). Modifiers: -5 per 10 squares distance; -5 for concealment/cover; -10 for total concealment/cover. Detecting target entering line of sight is a reaction; actively looking/listening is standard action.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1261,39 +1260,39 @@
               "base_dc_table": [
                 {
                   "size": "Colossal",
-                  "value": -15
+                  "dc_mod": -15
                 },
                 {
                   "size": "Gargantuan",
-                  "value": -10
+                  "dc_mod": -10
                 },
                 {
                   "size": "Huge",
-                  "value": -5
+                  "dc_mod": -5
                 },
                 {
                   "size": "Large",
-                  "value": 0
+                  "dc_mod": 0
                 },
                 {
                   "size": "Medium",
-                  "value": 5
+                  "dc_mod": 5
                 },
                 {
                   "size": "Small",
-                  "value": 10
+                  "dc_mod": 10
                 },
                 {
                   "size": "Tiny",
-                  "value": 15
+                  "dc_mod": 15
                 },
                 {
                   "size": "Diminutive",
-                  "value": 20
+                  "dc_mod": 20
                 },
                 {
                   "size": "Fine",
-                  "value": 25
+                  "dc_mod": 25
                 }
               ],
               "distance_penalty_per_10_squares": -5,
@@ -1304,7 +1303,7 @@
           },
           {
             "use_name": "Notice Concealed Object on Character",
-            "description": "Notice if a character has a concealed weapons or objects. Make a Perception check opposed by the target's Stealth check result. If you win the opposed check, you notice the concealed object. If you win by 5 or more, you can tell what kind of object is concealed. [CRB text p.71, cite: 471]",
+            "description": "Notice if a character has a concealed weapon or object. Opposed by target's Stealth. Success by 5+ identifies object type. [cite: 471]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1315,7 +1314,7 @@
           },
           {
             "use_name": "Search Area",
-            "description": "Carefully examine a 1-square area or a 1-cubic-meter volume as a full-round action. A DC 15 Perception check allows you to find clues, hidden compartments, secret doors, traps, irregularities, and other details not readily apparent within that area. The GM may increase the DC for especially obscure well-hidden features. [CRB text p.71, cite: 471-472]",
+            "description": "Carefully examine a 1-square area or 1-cubic-meter volume. DC 15 finds clues, hidden compartments, secret doors, traps, irregularities. GM may increase DC for obscure features.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1327,7 +1326,7 @@
           },
           {
             "use_name": "Search Character (for concealed items)",
-            "description": "Search a character for concealed weapons or objects. Make a Perception check opposed by the target's Stealth check result. If you win the opposed check, you find the concealed object. You receive a +10 circumstance bonus on your Perception check if you physically touch the target to search for concealed items; this requires a full-round action and can only be used on a willing, pinned, or helpless target. [CRB text p.71, cite: 472-473]",
+            "description": "Search a character for concealed items. Opposed by target's Stealth. +10 circumstance bonus if physically touching target (requires full-round action, target willing/pinned/helpless).",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1339,7 +1338,7 @@
           },
           {
             "use_name": "Sense Deception",
-            "description": "You can use Perception to see through deceptive appearances made using the Deception skill. If your Perception check meets or exceeds the result of the Deception check, you realize that you're being deceived. Your Perception check to sense the deception is a reaction. [CRB text p.71, cite: 473]",
+            "description": "See through deceptive appearances made using Deception skill. Opposed by Deception check result. [cite: 473]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1350,7 +1349,7 @@
           },
           {
             "use_name": "Sense Influence",
-            "description": "Make a Perception check to determine whether someone is under the influence of a mind-affecting Force power or other method of coercion (assuming the effect isn't obvious). This requires a full-round action and a successful DC 20 check. [CRB text p.72, cite: 474-475]",
+            "description": "Determine if someone is under mind-affecting Force power or coercion (if not obvious). DC 20.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1360,20 +1359,20 @@
             "time_to_perform": "Full-round action."
           }
         ],
-        "description_general": "Use this skill to perceive threats as well as your surroundings. The distance between you and whatever you're trying to perceive affects your Perception check, as do solid barriers and concealment. [CRB text p.71, cite: 467]",
+        "description_general": "Use this skill to perceive threats as well as your surroundings. Distance, barriers, and concealment affect Perception checks.",
         "key_ability": "WIS",
         "page_range": "71-72",
-        "retry_rules_summary": "You can make a Perception check every time you have the opportunity to notice something as a reaction. As a swift action, you may attempt to see or hear something that you failed (or believe you failed) to notice previously. [CRB text p.72, cite: 475]",
+        "retry_rules_summary": "You can make a Perception check every time you have the opportunity to notice something as a reaction. As a swift action, you may attempt to see or hear something that you failed (or believe you failed) to notice previously.",
         "special_rules_summary": [
-          "You can take 10 or take 20 when making a Perception check. [CRB text p.72, cite: 475]",
-          "Taking 20 means you spend 2 minutes attempting to notice something that may or may not be there. [CRB text p.72, cite: 475]"
+          "You can take 10 or take 20 when making a Perception check.",
+          "Taking 20 means you spend 2 minutes attempting to notice something."
         ]
       },
       {
         "id": "persuasion",
         "name": "Persuasion",
         "source_book": "CR",
-        "page": 71,
+        "page": "71",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1383,7 +1382,7 @@
         "common_uses": [
           {
             "use_name": "Change Attitude",
-            "description": "As a full-round action, make a Persuasion check to adjust attitude of a creature (INT 2+). Target must see you. Modifiers: Hostile -10, Unfriendly -5, Indifferent -2, Friendly +0. Vs. target's Will Defense, success shifts attitude one step better. -5 penalty if target can't understand speech. Attempt once per encounter. [CRB text p.72, cite: 476-477]",
+            "description": "Adjust the attitude of a creature (INT 2+) using words/body language. Target must see you. Apply modifier based on target's current attitude (Hostile -10, Unfriendly -5, Indifferent -2, Friendly +0). Success (vs. target's Will Defense) shifts attitude one step in your favor. -5 penalty if target can't understand your speech. Attempt once per encounter per creature.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1413,7 +1412,7 @@
           },
           {
             "use_name": "Haggle",
-            "description": "Swift action: reduce Gather Info cost by half. Full-round action: increase/reduce item sell price by 50%. DC depends on target attitude (Unfriendly DC 30, Indifferent DC 25, Friendly DC 20, Helpful DC 15). No haggle with hostile/INT 2- or if standard price easily available elsewhere. [CRB text p.72, cite: 477-479]",
+            "description": "Reduce by half the credits cost for Gather Information, or increase/reduce sell price of an item by 50%. DC depends on target's attitude (Unfriendly DC 30, Indifferent DC 25, Friendly DC 20, Helpful DC 15). Cannot haggle with hostile or INT 2- creatures. Cannot make creature pay more than standard price if item easily obtained elsewhere.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1438,11 +1437,11 @@
                 }
               ]
             },
-            "action_cost": "Swift Action (Gather Info cost), Full-round Action (item price)"
+            "action_cost": "Swift Action (for Gather Info cost reduction), Full-round Action (for item price)"
           },
           {
             "use_name": "Intimidate",
-            "description": "Full-round action: force creature (INT 1+) to back down, surrender item, reveal info, or flee. Target must see you. Vs. target's Will Defense. Threat Modifiers: Target helpless +5 to You helpless -15. Can't force life-endangering actions. Success makes target more hostile later. [CRB text p.72, cite: 479-481]",
+            "description": "Force a creature (INT 1+) to back down, surrender item, reveal info, or flee. Target must see you. Check vs. target's Will Defense. Apply modifier based on perceived threat (Target helpless +5 to You helpless -15). Cannot force life-endangering actions. Successfully intimidated creature becomes one step more hostile once threat passes.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1474,19 +1473,19 @@
             "time_to_perform": "Full-round action."
           }
         ],
-        "description_general": "You can influence others with your tact, subtlety, and social grace, or you can threaten them into being more cooperative. [CRB text p.72, cite: 476]",
+        "description_general": "You can influence others with your tact, subtlety, and social grace, or you can threaten them into being more cooperative.",
         "key_ability": "CHA",
         "page_range": "72",
-        "retry_rules_summary": "If you fail a Persuasion check (Change Attitude or Intimidate), you cannot make any further Persuasion checks against that creature for that purpose for 24 hours. [CRB text p.72, cite: 481]",
+        "retry_rules_summary": "If you fail a Persuasion check (Change Attitude or Intimidate), you cannot make any further Persuasion checks against that creature for that purpose for 24 hours. Haggle retries are not specified but likely limited by GM.",
         "special_rules_summary": [
-          "You can take 10 on a Persuasion check, but you can't take 20. [CRB text p.72, cite: 481]"
+          "You can take 10 on a Persuasion check, but you can't take 20."
         ]
       },
       {
         "id": "pilot",
         "name": "Pilot",
         "source_book": "CR",
-        "page": 71,
+        "page": "71",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1499,7 +1498,7 @@
         "common_uses": [
           {
             "use_name": "Avoid Collision",
-            "description": "Make a DC 15 Pilot check as a reaction to reduce or negate the damage from a collision (see Avoid Collision, CRB p.173). [CRB text p.73, cite: 482]",
+            "description": "Reduce or negate damage from a collision. (See Vehicle Combat rules, CR p.173) [cite: 482, 1192]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1510,7 +1509,7 @@
           },
           {
             "use_name": "Dogfight",
-            "description": "When operating a flying vehicle, make a Pilot check as a standard action to engage in a dogfight (see Dogfight, CRB p.171). [CRB text p.73, cite: 482-483]",
+            "description": "Engage in a dogfight. (See Vehicle Combat rules, CR p.171)",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1522,7 +1521,7 @@
           },
           {
             "use_name": "Engage the Enemy (Initiative)",
-            "description": "When piloting a vehicle in combat, you can choose to make a Pilot check instead of an Initiative check to determine your place in the initiative order. [CRB text p.73, cite: 483]",
+            "description": "Make a Pilot check instead of an Initiative check to determine place in initiative order when piloting a vehicle in combat. [cite: 483, 1199]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1533,7 +1532,7 @@
           },
           {
             "use_name": "Increase Vehicle Speed",
-            "description": "Make a DC 20 Pilot check as a swift action to make your vehicle perform beyond its normal limits. If the check fails, your vehicle's speed does not increase, and your vehicle moves -1 step on the condition track. If you succeed, your vehicle's speed increases by 1 square until the start of your next turn. For every 5 points by which you exceed the DC, your vehicle's speed increases by an additional 1 square. You can't take 10 on this check. [CRB text p.73, cite: 483-484]",
+            "description": "Push vehicle beyond normal limits. Failure: vehicle speed not increased, vehicle moves -1 step on condition track. Success: speed increases by 1 square until start of next turn. For every 5 points exceeding DC, speed increases by additional 1 square. Can't take 10 on this check.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1544,7 +1543,7 @@
           },
           {
             "use_name": "Ram",
-            "description": "Make a Pilot check as part of a full-round action to collide intentionally with a target (see Ram, CRB p.172). [CRB text p.73, cite: 484]",
+            "description": "Intentionally collide with a target. (See Vehicle Combat rules, CR p.172)",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1555,19 +1554,19 @@
             "action_cost": "Full-round Action"
           }
         ],
-        "description_general": "Use this skill to operate a vehicle. Basic operation does not require a skill check or special training, but performing evasive maneuvers and difficult stunts does. Whenever you make a Pilot check, you must apply the vehicle's size modifier to your check. [CRB text p.72, cite: 481-482]",
+        "description_general": "Use this skill to operate a vehicle. Basic operation does not require a check, but evasive maneuvers and difficult stunts do. Vehicle's size modifier applies to Pilot checks.",
         "key_ability": "DEX",
         "page_range": "72-73",
         "special_rules_summary": [
-          "You can take 10 when making a Pilot check except when attempting to increase a vehicle's speed. [CRB text p.73, cite: 485]",
-          "You can't take 20 on a Pilot check. [CRB text p.73, cite: 485]"
+          "You can take 10 when making a Pilot check except when attempting to increase a vehicle's speed.",
+          "You can't take 20 on a Pilot check."
         ]
       },
       {
         "id": "ride",
         "name": "Ride",
         "source_book": "CR",
-        "page": 72,
+        "page": "72",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1576,50 +1575,19 @@
         ],
         "common_uses": [
           {
-            "use_name": "Ride Mount (General Tasks)",
-            "description": "Typical riding actions (saddle, mount, ride, dismount) don't require checks. Mounting or dismounting is a move action. Checks required for tasks undertaken in combat or other extreme circumstances, trick riding, or convincing an animal to do something unusual. [CRB text p.73, cite: 485-486]",
+            "use_name": "Ride Mount (General)",
+            "description": "Typical riding actions (saddle, mount, ride, dismount) don't require checks. Mounting/dismounting is a move action. Checks required for combat or extreme circumstances, trick riding, or unusual animal actions.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
-              "type": "table_reference",
-              "table_name": "Ride Task DC",
-              "details": [
-                {
-                  "task": "Guide with knees",
-                  "value": 10
-                },
-                {
-                  "task": "Stay in saddle",
-                  "value": 10
-                },
-                {
-                  "task": "Cover (Use mount as)",
-                  "value": 15
-                },
-                {
-                  "task": "Soft fall",
-                  "value": 15
-                },
-                {
-                  "task": "Leap (Stay on mount)",
-                  "value": 15
-                },
-                {
-                  "task": "Control mount in battle",
-                  "value": 20
-                },
-                {
-                  "task": "Fast mount or dismount",
-                  "value": 20,
-                  "notes": "Armor check penalty applies (Errata p.298)"
-                }
-              ]
+              "type": "contextual",
+              "description": "No DC for basic riding; specific tasks have DCs."
             },
-            "action_cost": "Varies (Mount/Dismount is Move Action; specific tasks have their own costs)"
+            "action_cost": "Varies (Mount/Dismount is Move Action)"
           },
           {
             "use_name": "Control Mount in Battle",
-            "description": "As a move action, attempt to control a mount in combat. If fail, you can do nothing else that round. No roll needed for animals trained for battle. [CRB text p.73, cite: 486-487]",
+            "description": "Control a mount in combat. Failure means you can do nothing else that round. No roll needed for animals trained for battle.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1630,7 +1598,7 @@
           },
           {
             "use_name": "Fast Mount or Dismount",
-            "description": "Mount or dismount as a swift action. If check fails, mounting/dismounting is a move action. (ACP Applies) [CRB text p.73, cite: 487]",
+            "description": "Mount or dismount as a swift action. Failure means it's a move action. [cite: 487] (Errata: ACP applies only here)",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1641,18 +1609,18 @@
           },
           {
             "use_name": "Guide with Knees",
-            "description": "React instantly to guide mount with knees to use both hands. Make check at start of round. If fail, one hand needed to control mount. [CRB text p.73, cite: 487-488]",
+            "description": "React instantly to guide mount with knees to use both hands. Check at start of round. Failure means one hand needed to control mount.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
               "type": "fixed",
               "value": 10
             },
-            "action_cost": "Check at start of round"
+            "action_cost": "Part of round's actions (check at start)"
           },
           {
             "use_name": "Leap with Mount",
-            "description": "Get mount to leap obstacles. Use Ride skill or mount's Jump skill (whichever lower) for distance. DC 15 Ride check to stay on mount when it leaps. [CRB text p.73, cite: 488-489]",
+            "description": "Get mount to leap obstacles. Use your Ride skill or mount's Jump skill, whichever is lower. DC 15 Ride check to stay on mount when it leaps.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1664,7 +1632,7 @@
           },
           {
             "use_name": "Soft Fall",
-            "description": "React instantly when you fall off mount to try to avoid damage. Failure: 1d6 falling damage. [CRB text p.73, cite: 489] (Errata p.298 implies this could be a reaction similar to Use Mount as Cover)",
+            "description": "React instantly when you fall off a mount to avoid damage. Failure means 1d6 falling damage. [cite: 489] (Errata: Reaction timing for Use Mount as Cover implies this is also reaction [cite: 2014])",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1675,7 +1643,7 @@
           },
           {
             "use_name": "Stay in Saddle",
-            "description": "React instantly to try to avoid falling when mount rears/bolts or when you take damage. [CRB text p.73, cite: 489-490]",
+            "description": "React instantly to avoid falling when mount rears/bolts or you take damage.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1686,7 +1654,7 @@
           },
           {
             "use_name": "Use Mount as Cover",
-            "description": "As a reaction to an attack against you (Errata p.298 [cite: 2014]), drop down and hang alongside mount, using it as one-half cover. Can't attack while using mount as cover. If fail, no cover. [CRB text p.73, cite: 490]",
+            "description": "React instantly (Errata: as reaction to attack against you [cite: 2014]) to drop and hang alongside mount, using it as 1/2 cover. Can't attack while doing so. Failure means no cover. [cite: 490]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1696,19 +1664,19 @@
             "action_cost": "Reaction"
           }
         ],
-        "description_general": "Use this skill to ride any kind of mount, such as a tauntaun, dewback, or bantha. [CRB text p.73, cite: 485]",
+        "description_general": "Use this skill to ride any kind of mount, such as a tauntaun, dewback, or bantha.",
         "key_ability": "DEX",
         "page_range": "73",
         "special_rules_summary": [
-          "You can take 10 when making a Ride check, but you can't take 20. [CRB text p.73, cite: 490]",
-          "Errata p.298: Armor Check Penalty applies only when attempting to fast mount or fast dismount."
+          "You can take 10 when making a Ride check, but you can't take 20.",
+          "Errata (p.298): Armor Check Penalty applies only when attempting to fast mount or fast dismount."
         ]
       },
       {
         "id": "stealth",
         "name": "Stealth",
         "source_book": "CR",
-        "page": 72,
+        "page": "72",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1718,7 +1686,7 @@
         "common_uses": [
           {
             "use_name": "Sneak",
-            "description": "Stealth check sets DC for Perception checks to notice you. Modifiers: Hampering circumstances -2, favorable +2. Moving > speed: -5 penalty. Moving > 2x speed: -10 penalty. Size modifiers apply (Fine +20 to Colossal -20). [CRB text p.73, cite: 491-492]",
+            "description": "Your Stealth check sets DC for Perception checks to notice you. Modifiers: -2 for hampering circumstances (e.g. debris), +2 for favorable (abundant hiding places). Moving > speed: -5 penalty. Moving > 2x speed: -10 penalty. Size modifiers apply (Fine +20 to Colossal -20).",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1729,7 +1697,7 @@
           },
           {
             "use_name": "Conceal Item",
-            "description": "Standard action to conceal item (at least one size smaller). Modifiers based on object's relative size: One size smaller -5, two sizes smaller +0, three +5, four+ +10. Opposed by Perception. Drawing concealed item is a standard action (Errata p.290 [cite: 1970]). [CRB text p.73-74, cite: 492-494]",
+            "description": "Conceal an item (at least one size smaller than you) on your person. Modifiers based on object's relative size: One size smaller -5, two sizes smaller +0, three +5, four+ +10. Opposed by Perception. Drawing concealed item is standard action (Errata p.290 [cite: 1970]).",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1754,11 +1722,11 @@
                 }
               ]
             },
-            "action_cost": "Standard Action to conceal, Standard Action to draw."
+            "action_cost": "Standard Action"
           },
           {
             "use_name": "Create a Diversion to Hide",
-            "description": "Use Deception (vs. target's Will Defense) to get momentary diversion to make a Stealth check while target is aware. Must reach hiding place as move action. [CRB text p.74, cite: 494-495]",
+            "description": "Use Deception (vs. target's Will Defense) to get momentary diversion to make a Stealth check while target is aware. Must reach hiding place as move action.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1770,7 +1738,7 @@
           },
           {
             "use_name": "Pick Pocket",
-            "description": "Standard action (Errata p.298 [cite: 2015]) to pilfer small, hand-sized object from target within reach. Stealth opposed by target's Perception (+5 bonus to target). Fail by 4 or less: no item, target unaware. Fail by 5+: no item, target catches you. [CRB text p.74, cite: 495-496]",
+            "description": "Pilfer a small, hand-sized object from target within reach. Stealth opposed by target's Perception (+5 bonus to target). Fail by 4 or less: no item, target unaware. Fail by 5+: no item, target catches you. (Errata p.298[cite: 2015]: Standard action)",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1782,7 +1750,7 @@
           },
           {
             "use_name": "Sleight of Hand",
-            "description": "Standard action (Errata p.298 [cite: 2015]) to palm hand-sized objects, perform minor legerdemain, or minor action unnoticed (flip switch, pull detonator, draw pistol under table). Opposed by observer's Perception. [CRB text p.74, cite: 496-497]",
+            "description": "Palm hand-sized objects, perform minor legerdemain, or minor action unnoticed (flip switch, pull detonator, draw pistol under table). Opposed by observer's Perception. (Errata p.298[cite: 2015]: Standard action)",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1793,7 +1761,7 @@
           },
           {
             "use_name": "Snipe",
-            "description": "After ranged attack from hiding (at least 2 squares from target, target unaware), try to hide again. New Stealth check with -10 penalty as move action. Success: remain hidden. [CRB text p.74, cite: 497-498]",
+            "description": "After ranged attack from hiding (at least 2 squares from target, target unaware), try to hide again. New Stealth check with -10 penalty as move action. Success: remain hidden.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1803,18 +1771,18 @@
             "action_cost": "Move Action"
           }
         ],
-        "description_general": "Use this skill to slink past a sentry without being heard, catch your enemy off-guard, snipe from a concealed location, or perform sleight of hand. [CRB text p.73, cite: 490-491]",
+        "description_general": "Use this skill to slink past a sentry without being heard, catch your enemy off-guard, snipe from a concealed location, or perform sleight of hand.",
         "key_ability": "DEX",
         "page_range": "73-74",
         "special_rules_summary": [
-          "You can take 10 when making a Stealth check, but you can't take 20. [CRB text p.74, cite: 498]"
+          "You can take 10 when making a Stealth check, but you can't take 20."
         ]
       },
       {
         "id": "survival",
         "name": "Survival",
         "source_book": "CR",
-        "page": 73,
+        "page": "73",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1823,7 +1791,7 @@
         "common_uses": [
           {
             "use_name": "Basic Survival",
-            "description": "Once per day, make a DC 15 Survival check to avoid natural hazards and keep yourself safe and fed in the wild for the next 24 hours. You can provide food and water for one additional person for every 2 points by which your check result exceeds 10. [CRB text p.74, cite: 499]",
+            "description": "Avoid natural hazards, keep self fed and safe in wild for 24 hours. Can provide for one additional person per 2 points check exceeds 10. [cite: 499]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1834,7 +1802,7 @@
           },
           {
             "use_name": "Endure Extreme Temperatures",
-            "description": "Once per day, make a DC 20 Survival check to ignore the effects of extreme cold or extreme heat for the next 24 hours (see Extreme Temperatures, CRB p.254). Requires field kit. [CRB text p.74, cite: 499]",
+            "description": "Ignore effects of extreme cold or heat for 24 hours. Requires field kit. [cite: 499]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1845,7 +1813,7 @@
           },
           {
             "use_name": "Know Direction",
-            "description": "As a full-round action, ascertain which direction is north by succeeding on a DC 10 Survival check (assuming cardinal directions matter). [CRB text p.74, cite: 499-500]",
+            "description": "Ascertain which direction is north (if applicable).",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1856,7 +1824,7 @@
           },
           {
             "use_name": "Track",
-            "description": "Find or follow tracks. Requires a full-round action and a successful Survival check. DC depends on surface and circumstances (see table CRB p.75). Make new check when tracks become difficult. Move at half normal speed while tracking; normal speed incurs -5 penalty. [CRB text p.74-75, cite: 500-501]",
+            "description": "Find or follow tracks. DC depends on surface and circumstances (see table CRB p.75). Make new check when tracks become difficult. Move at half speed while tracking; normal speed incurs -5 penalty.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1881,15 +1849,15 @@
                   "modifier": -1
                 },
                 {
-                  "condition": "Every day since the trail was made",
+                  "condition": "Every day since trail made",
                   "modifier": 1
                 },
                 {
-                  "condition": "Every hour of rain since the trail was made",
+                  "condition": "Every hour of rain since trail made",
                   "modifier": 1
                 },
                 {
-                  "condition": "Fresh snow cover since the trail was made",
+                  "condition": "Fresh snow cover since trail made",
                   "modifier": 5
                 },
                 {
@@ -1897,7 +1865,7 @@
                   "modifier": 5
                 },
                 {
-                  "condition": "Tracked target hides trail (and moves at half speed)",
+                  "condition": "Target hides trail (moves half speed)",
                   "modifier": 5
                 }
               ],
@@ -1928,19 +1896,19 @@
             "action_cost": "Full-round Action (per check)"
           }
         ],
-        "description_general": "Use this skill to hunt and forage, guide a party safely through arid wastelands, identify signs that gundarks live nearby, or avoid quicksand and other natural hazards. [CRB text p.74, cite: 499]",
+        "description_general": "Use this skill to hunt and forage, guide a party safely through arid wastelands, identify signs that gundarks live nearby, or avoid quicksand and other natural hazards.",
         "key_ability": "WIS",
         "page_range": "74-75",
         "special_rules_summary": [
-          "You can take 10 when making a Survival check. [CRB text p.75, cite: 503]",
-          "You can take 20 if there is no danger or penalty for failure, but it takes twenty times as long as normal to do so. [CRB text p.75, cite: 503]"
+          "You can take 10 when making a Survival check.",
+          "You can take 20 if there is no danger or penalty for failure, but it takes twenty times as long as normal."
         ]
       },
       {
         "id": "swim",
         "name": "Swim",
         "source_book": "CR",
-        "page": 74,
+        "page": "74",
         "armor_check_penalty_applies_generally": true,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1950,7 +1918,7 @@
         "common_uses": [
           {
             "use_name": "Swim",
-            "description": "A successful Swim check allows you to swim one-quarter your speed as a move action or one-half your speed as a full-round action. Roll once per round. If you fail, you make no progress through the water. If you fail by 5 or more, you go underwater and must hold your breath (see the Endurance skill, CRB p.66) until you reach the surface by succeeding on a Swim check. The DC depends on the situation. [CRB text p.75, cite: 504]",
+            "description": "Swim one-quarter speed as move action, or one-half speed as full-round action. Roll once per round. Failure: no progress. Failure by 5+: go underwater, must hold breath (Endurance skill) until reaching surface with a successful Swim check.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1974,19 +1942,19 @@
             "action_cost": "Move or Full-round Action"
           }
         ],
-        "description_general": "Using this skill, a land-based creature can swim, dive, navigate underwater obstacles, and so on. [CRB text p.75, cite: 504]",
+        "description_general": "Using this skill, a land-based creature can swim, dive, navigate underwater obstacles, and so on.",
         "key_ability": "STR",
         "page_range": "75",
-        "retry_rules_summary": "A new check is allowed the round after a check is failed. [CRB text p.75, cite: 504]",
+        "retry_rules_summary": "A new check is allowed the round after a check is failed.",
         "special_rules_summary": [
-          "You can take 10 when making a Swim check, but you can't take 20. [CRB text p.75, cite: 504]"
+          "You can take 10 when making a Swim check, but you can't take 20."
         ]
       },
       {
         "id": "treat_injury",
         "name": "Treat Injury",
         "source_book": "CR",
-        "page": 74,
+        "page": "74",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -1997,7 +1965,7 @@
         "common_uses": [
           {
             "use_name": "First Aid",
-            "description": "As a full-round action, administer first aid to an unconscious or wounded creature. Requires a medpac. Success (DC 15): creature regains HP = character level +1 per point check exceeds DC. Medical kit grants +2 equipment bonus. Creature can only benefit once per 24 hrs. Self-aid: -5 penalty. [CRB text p.75, cite: 505-506]",
+            "description": "Administer first aid to unconscious/wounded creature. Requires medpac. Success: creature regains HP = character level +1 per point check exceeds DC. Medical kit: +2 equip bonus. Creature can only benefit once per 24 hrs. Self-aid: -5 penalty.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2008,7 +1976,7 @@
           },
           {
             "use_name": "Long-Term Care",
-            "description": "Tend to a creature for 8 consecutive hours; creature regains HP = character level (in addition to natural healing). Benefit once per 24 hrs. Can tend 1 creature (untrained) or up to 6 (trained) simultaneously. Cannot give to self. [CRB text p.75, cite: 506-507]",
+            "description": "Tend creature for 8 consecutive hours. Creature regains HP = character level (in addition to natural healing). Benefit once per 24 hrs. Can tend 1 creature (untrained) or up to 6 (trained). Cannot give to self.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2019,7 +1987,7 @@
           },
           {
             "use_name": "Perform Surgery (Heal Damage)",
-            "description": "Perform surgery to heal damage to a wounded creature. Requires a surgery kit. Takes 1 hour. Success (DC 20): heal HP = target's CON bonus (min 1) x target's level. Failure: target takes damage = its damage threshold. If target was at 0 HP, it dies (unless Force Point spent). Self-surgery: -5 penalty. Also removes persistent conditions. [CRB text p.75-76, cite: 508-510]",
+            "description": "Perform surgery to heal damage. Requires surgery kit. Success: heal HP = target's CON bonus (min 1) x target's level. Failure: target takes damage = its damage threshold. If target was at 0 HP, it dies (unless Force Point spent). Self-surgery: -5 penalty. Also removes persistent conditions.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2030,7 +1998,7 @@
           },
           {
             "use_name": "Perform Surgery (Install Cybernetic Prosthesis)",
-            "description": "Install a cybernetic prosthesis. Requires Cybernetic Surgery feat and surgery kit. Takes 1 hour. Success (DC 20): prosthesis installed. Failure: not installed, can try again after another hour. Self-surgery: -5 penalty. [CRB text p.76, cite: 510-511]",
+            "description": "Install cybernetic prosthesis. Requires Cybernetic Surgery feat and surgery kit. Success: prosthesis installed. Failure: not installed, can try again after another hour. Self-surgery: -5 penalty.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2041,7 +2009,7 @@
           },
           {
             "use_name": "Revivify",
-            "description": "As a full-round action, revive a creature that died within 1 round. Requires a medical kit. Success (DC 25): creature unconscious instead of dead. Failure: cannot revive. Medpac grants +2 equipment bonus. [CRB text p.76, cite: 511-512]",
+            "description": "Revive a creature that just died (within 1 round). Requires medical kit. Success: creature unconscious instead of dead. Failure: cannot revive. Medpac: +2 equip bonus.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2052,7 +2020,7 @@
           },
           {
             "use_name": "Treat Disease",
-            "description": "Treating a diseased character requires 8 hours and a medical kit. Check vs. disease's DC. Success: patient cured, persistent conditions from disease removed. Can treat 1 (untrained) or up to 6 (trained) simultaneously. [CRB text p.76, cite: 512]",
+            "description": "Treat a diseased character. Requires medical kit. Success vs. disease's DC: patient cured, persistent conditions from disease removed. Can treat 1 (untrained) or up to 6 (trained) simultaneously. [cite: 512]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2063,7 +2031,7 @@
           },
           {
             "use_name": "Treat Poison",
-            "description": "As a full-round action, treat a poisoned character. Requires a medical kit. Check vs. poison's DC. Success: poison detoxified, persistent conditions from poison removed. [CRB text p.76, cite: 512-513]",
+            "description": "Treat a poisoned character. Requires medical kit. Success vs. poison's DC: poison detoxified, persistent conditions from poison removed.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2074,7 +2042,7 @@
           },
           {
             "use_name": "Treat Radiation",
-            "description": "Treating an irradiated character requires 8 hours and a medical kit. Check vs. radiation's DC. Success: patient cured, persistent conditions from radiation removed. Can treat 1 (untrained) or up to 6 (trained) simultaneously. [CRB text p.76, cite: 513-514]",
+            "description": "Treat an irradiated character. Requires medical kit. Success vs. radiation's DC: patient cured, persistent conditions from radiation removed. Can treat 1 (untrained) or up to 6 (trained) simultaneously.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2084,18 +2052,18 @@
             "time_to_perform": "8 hours."
           }
         ],
-        "description_general": "Use this skill to keep a badly wounded friend from dying, to heal the injured, or to treat a diseased or poisoned character. [CRB text p.75, cite: 505]",
+        "description_general": "Use this skill to keep a badly wounded friend from dying, to heal the injured, or to treat a diseased or poisoned character.",
         "key_ability": "WIS",
         "page_range": "75-76",
         "special_rules_summary": [
-          "You can take 10 when making a Treat Injury check, but you can't take 20. [CRB text p.76, cite: 514]"
+          "You can take 10 when making a Treat Injury check, but you can't take 20."
         ]
       },
       {
         "id": "use_computer",
         "name": "Use Computer",
         "source_book": "CR",
-        "page": 76,
+        "page": "76",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -2108,7 +2076,7 @@
         "common_uses": [
           {
             "use_name": "Access Information",
-            "description": "Connect to network (DC 10 Use Computer check if remote, full-round action) or use computer's local memory. Find info on topic (see table CRB p.77 for DC/time). Computer must be indifferent or better. Secret info requires helpful computer. [CRB text p.76-77, cite: 515-517, 519]",
+            "description": "Connect to network (DC 10 if remote, full-round action) or use computer's local memory. Find info on topic (see table for DC/time). Computer must be indifferent or better. Secret info requires helpful computer.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2142,7 +2110,7 @@
           },
           {
             "use_name": "Astrogate",
-            "description": "Plot a safe course through hyperspace. Usually requires 1 minute. DC varies by factors (see Astrogation, CRB p.237). [CRB text p.77, cite: 519-520]",
+            "description": "Plot a safe course through hyperspace. DC varies by factors (see Astrogation, CRB p.237).",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2153,7 +2121,7 @@
           },
           {
             "use_name": "Disable or Erase Program",
-            "description": "Disable or erase a program on a computer that is helpful toward you. [CRB text p.77, cite: 520]",
+            "description": "Disable or erase a program on a helpful computer. [cite: 520]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2164,7 +2132,7 @@
           },
           {
             "use_name": "Improve Access",
-            "description": "Full-round action to adjust computer's attitude. Check vs. computer's Will Defense. Modifiers: Hostile -10, Unfriendly -5, Indifferent -2, Friendly +0. Success: attitude shifts +1 step. Fail by 5+: attitude -1 step, admin notified. Hostile computer on fail by 5+ traces & isolates connection for 24hrs. (Computer attitudes table CRB p.77) [CRB text p.77, cite: 520-523]",
+            "description": "Adjust computer's attitude to gain access. Check vs. computer's Will Defense. Modifiers: Hostile -10, Unfriendly -5, Indifferent -2, Friendly +0. Success: attitude shifts one step better. Fail: no change. Fail by 5+: attitude one step worse, admin notified. Hostile computer on fail by 5+ traces location, isolates connection for 24 hrs.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2193,7 +2161,7 @@
           },
           {
             "use_name": "Issue Routine Command",
-            "description": "Standard action to issue routine command (on/off, view/edit docs, print, open/close doors). Requires friendly or better computer. No check usually. Opposed Use Computer if contradictory command by another with same computer attitude. [CRB text p.77, cite: 523-525]",
+            "description": "Issue routine command (on/off, view/edit docs, print, open/close doors). Requires friendly or better computer. No check usually. Opposed Use Computer if contradictory command by another with same computer attitude.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2204,7 +2172,7 @@
           },
           {
             "use_name": "Reprogram Droid",
-            "description": "Reprogram droid (new master, copy data, change trained skills, erase memory). Requires tool kit. DC = droid's Will Defense. [CRB text p.77, cite: 525]",
+            "description": "Reprogram droid (new master, copy data, change trained skills, erase memory). Requires tool kit. DC = droid's Will Defense. [cite: 525]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2214,20 +2182,20 @@
             "time_to_perform": "10 minutes."
           }
         ],
-        "description_general": "Use this skill to access secured files and defeat security systems. [CRB text p.76, cite: 515]",
+        "description_general": "Use this skill to access secured files and defeat security systems.",
         "key_ability": "INT",
         "page_range": "76-77",
         "special_rules_summary": [
-          "You can take 10 on Use Computer checks. [CRB text p.78, cite: 526]",
-          "You can take 20 on a Use Computer check except when attempting to improve access. [CRB text p.78, cite: 526]",
-          "When a computer is friendly or helpful toward you, you gain an equipment bonus on all Use Computer checks made with that computer equal to its Intelligence bonus. [CRB text p.78, cite: 526]"
+          "You can take 10 on Use Computer checks.",
+          "You can take 20 on a Use Computer check except when attempting to improve access.",
+          "When a computer is friendly or helpful toward you, you gain an equipment bonus on all Use Computer checks made with that computer equal to its Intelligence bonus."
         ]
       },
       {
         "id": "use_the_force",
         "name": "Use the Force",
         "source_book": "CR",
-        "page": 77,
+        "page": "77",
         "armor_check_penalty_applies_generally": false,
         "can_be_used_untrained_generally": true,
         "class_skill_for": [
@@ -2236,7 +2204,7 @@
         "common_uses": [
           {
             "use_name": "Activate Force Power",
-            "description": "Make a Use the Force check to use a Force power (see Force Powers, CRB p.95). This use of the skill requires no action. [CRB text p.78, cite: 527]",
+            "description": "Make a Use the Force check to use a Force power. [cite: 527]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2247,7 +2215,7 @@
           },
           {
             "use_name": "Force Trance",
-            "description": "As a full-round action, DC 10 Use the Force check to enter trance. Remain aware. Each hour, regain HP = character level. Emerge as swift action. 4 consecutive hours = full 8-hour rest. Go 10x longer without food/water. [CRB text p.78, cite: 527-528]",
+            "description": "Enter a Force trance. Remain aware. Each hour, regain HP = character level. Emerge as swift action. 4 consecutive hours = full 8-hour rest. Go 10x longer without food/water.",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2258,7 +2226,7 @@
           },
           {
             "use_name": "Move Light Object",
-            "description": "As move action, DC 10 Use the Force check to telekinetically lift/move object up to 5kg, 6 squares. As standard action, DC 15 to use object as projectile (1d6 bludgeoning if UtF check beats target's Reflex Defense). [CRB text p.78, cite: 528-530]",
+            "description": "Telekinetically lift/move object up to 5kg, 6 squares. DC 15 to use object as projectile (1d6 bludgeoning damage if Use the Force check beats target's Reflex Defense).",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2278,7 +2246,7 @@
           },
           {
             "use_name": "Search Your Feelings",
-            "description": "Full-round action, DC 15 Use the Force check to determine if an action yields favorable/unfavorable results in immediate future (10 min or less). Does not account for long-term consequences. [CRB text p.78, cite: 530-531]",
+            "description": "Determine if a particular action will yield favorable/unfavorable results in immediate future (10 min or less). Answer doesn't account for long-term consequences.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2289,7 +2257,7 @@
           },
           {
             "use_name": "Sense Force",
-            "description": "Automatically sense strong dark side disturbances (1 km), kin in mortal danger (10,000 light years), or major galactic disturbances. Full-round action, DC 15 Use the Force check to determine distance/direction of disturbance. Full-round action, DC 15 to actively sense other Force-users up to 100km (reveals number, approx. distance/direction, if met). Opposed by target's Use the Force to conceal. Errata (p.299): Can specify sensing only Dark Side users. [CRB text p.78, cite: 531-534]",
+            "description": "Automatically sense strong dark side disturbances (1 km), or kin in mortal danger (10,000 light years), or major galactic disturbances. DC 15 Use the Force check (full-round) to determine distance/direction. Actively sense other Force-users (full-round) up to 100km (DC 15); success reveals number, approx. distance/direction, if met before. Opposed by target's Use the Force to conceal. (Errata p.299[cite: 2015]: Can specify sensing only Dark Side users.)",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2302,7 +2270,7 @@
           },
           {
             "use_name": "Sense Surroundings",
-            "description": "Swift action, DC 15 Use the Force check to ignore effects of cover and concealment for Perception checks until start of next turn. DC +5 if vs. total cover. (Errata p.299). [CRB text p.78, cite: 534]",
+            "description": "Ignore effects of cover and concealment for Perception checks until start of next turn. DC +5 if vs. total cover. [cite: 534] (Errata p.299 [cite: 2016])",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2314,7 +2282,7 @@
           },
           {
             "use_name": "Telepathy",
-            "description": "Standard action to establish telepathic link with distant creature (INT 2+). Exchange emotions or single thought. DC based on distance (see table CRB p.78). Vs. unwilling target, check vs. target's Will Defense (or base skill DC, whichever higher per Errata p.299); fail means no attempt for 24 hrs unless target becomes willing. [CRB text p.78, cite: 534-536]",
+            "description": "Establish telepathic link with distant creature (INT 2+). Exchange emotions or single thought. DC based on distance (see table CRB p.78). Vs. unwilling target, check vs. target's Will Defense (or base skill DC, whichever higher, Errata p.299 [cite: 2016]); fail means no attempt for 24 hrs unless target becomes willing.",
             "trained_only": false,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2343,13 +2311,13 @@
             "action_cost": "Standard Action."
           }
         ],
-        "description_general": "You draw upon the Force to help you recover from injuries, gain special insights, or perform other remarkable acts. Requires the Force Sensitivity feat to be trained in this skill. [CRB text p.78, cite: 526-527]",
+        "description_general": "You draw upon the Force to help you recover from injuries, gain special insights, or perform other remarkable acts. Requires the Force Sensitivity feat to be trained or use most applications.",
         "key_ability": "CHA",
         "page_range": "77-78",
         "special_rules_summary": [
-          "You can't make Use the Force checks unless you have the Force Sensitivity feat. [CRB text p.78, cite: 536]",
-          "Use the Force is a class skill for any character with the Force Sensitivity feat (CRB Table 4-2 footnote).",
-          "You can take 10 on a Use the Force check, but you can't take 20. [CRB text p.78, cite: 536]"
+          "You can't make Use the Force checks unless you have the Force Sensitivity feat.",
+          "Use the Force is a class skill for any character with the Force Sensitivity feat (Errata p.62 for Table 4-2 implies this is how it becomes a class skill).",
+          "You can take 10 on a Use the Force check, but you can't take 20."
         ]
       }
     ]
