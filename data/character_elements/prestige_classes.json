@@ -165,8 +165,10 @@
           },
           {
             "text_description": "Dastardly Strike (Scoundrel-Misfortune)",
-            "type": "feat_or_ability",
-            "name": "Dastardly Strike"
+            "type": "talent_prerequisite",
+            "talent_name": "Dastardly Strike",
+            "required_class": "Scoundrel",
+            "required_talent_tree": "Misfortune"
           }
         ],
         "group_heading": "Y",

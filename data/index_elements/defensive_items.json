@@ -1,0 +1,381 @@
+{
+  "defensive_items_data": {
+    "description": "Compilation of Defensive Items for Star Wars SAGA Edition.",
+    "defensive_items_list": [
+      {
+        "name": "Bounding mine",
+        "cost_credits": 250,
+        "damage_text": "6d6",
+        "damage_structured": {
+          "text": "6d6",
+          "dice_count": 6,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 1,
+        "perception_dc_to_detect": 25,
+        "availability": "Military",
+        "splash_radius_text": "3sq",
+        "delay_rounds_text": null,
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "99"
+      },
+      {
+        "name": "Cannon, heavy",
+        "cost_credits": 2000,
+        "damage_text": "10d10x2",
+        "damage_structured": {
+          "text": "10d10x2",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 15,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "6sq",
+        "delay_rounds_text": "6",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Cannon, light",
+        "cost_credits": 1000,
+        "damage_text": "8d10x2",
+        "damage_structured": {
+          "text": "8d10x2",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 8,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "4sq",
+        "delay_rounds_text": "4",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Field gun",
+        "cost_credits": 500,
+        "damage_text": "4d10x2",
+        "damage_structured": {
+          "text": "4d10x2",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 2,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": "2",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Fragmentation wire",
+        "cost_credits": "100/m",
+        "damage_text": "2d6",
+        "damage_structured": {
+          "text": "2d6",
+          "dice_count": 2,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": "2/m",
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "1sq",
+        "delay_rounds_text": null,
+        "comments_and_effects_text": "makes +10 atk for target in sq",
+        "parsed_effects": [
+          {
+            "type": "narrative_property",
+            "description": "makes +10 atk for target in sq"
+          }
+        ],
+        "source_book": "GW",
+        "page": "98"
+      },
+      {
+        "name": "Howitzer",
+        "cost_credits": 750,
+        "damage_text": "6d10x2",
+        "damage_structured": {
+          "text": "6d10x2",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 4,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "3sq",
+        "delay_rounds_text": "3",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Mortar, frag",
+        "cost_credits": 300,
+        "damage_text": "4d6",
+        "damage_structured": {
+          "text": "4d6",
+          "dice_count": 4,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 1.8,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": "2",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Mortar, ion",
+        "cost_credits": 450,
+        "damage_text": "4d6",
+        "damage_structured": {
+          "text": "4d6",
+          "dice_count": 4,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Energy"
+        ],
+        "weight_kg": 1.8,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": "2",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Mortar, stun",
+        "cost_credits": 450,
+        "damage_text": "4d6",
+        "damage_structured": {
+          "text": "4d6",
+          "dice_count": 4,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Energy (Ion)"
+        ],
+        "weight_kg": 1.8,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": "2",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Mortar, thermal",
+        "cost_credits": 3000,
+        "damage_text": "8d6",
+        "damage_structured": {
+          "text": "8d6",
+          "dice_count": 8,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Energy"
+        ],
+        "weight_kg": 1.8,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "4sq",
+        "delay_rounds_text": "2",
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "100"
+      },
+      {
+        "name": "Razor wire",
+        "cost_credits": "10/m",
+        "damage_text": "2d6",
+        "damage_structured": {
+          "text": "2d6",
+          "dice_count": 2,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": "2/m",
+        "perception_dc_to_detect": null,
+        "availability": "Restricted",
+        "splash_radius_text": null,
+        "delay_rounds_text": null,
+        "comments_and_effects_text": "makes +10 atk for target in sq & if successful target can't move, difficult terrain",
+        "parsed_effects": [
+          {
+            "type": "narrative_property",
+            "description": "makes +10 atk for target in sq & if successful target can't move, difficult terrain"
+          }
+        ],
+        "source_book": "GW",
+        "page": "98"
+      },
+      {
+        "name": "Repulsorlift Inhibitor",
+        "cost_credits": null,
+        "damage_text": "3d10x2",
+        "damage_structured": {
+          "text": "3d10x2",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": null,
+        "perception_dc_to_detect": null,
+        "availability": "",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": null,
+        "comments_and_effects_text": "makes +10 atk v. vehicle for 3d10x2 ion dam & half spd",
+        "parsed_effects": [
+          {
+            "type": "narrative_property",
+            "description": "makes +10 atk v. vehicle for 3d10x2 ion dam & half spd"
+          }
+        ],
+        "source_book": "GW",
+        "page": "99"
+      },
+      {
+        "name": "Smart mine",
+        "cost_credits": 500,
+        "damage_text": "5d6",
+        "damage_structured": {
+          "text": "5d6",
+          "dice_count": 5,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 1.5,
+        "perception_dc_to_detect": 20,
+        "availability": "Military",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": null,
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "99"
+      },
+      {
+        "name": "Static mine",
+        "cost_credits": 100,
+        "damage_text": "4d6",
+        "damage_structured": {
+          "text": "4d6",
+          "dice_count": 4,
+          "die_type": 6,
+          "bonus": 0
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 1,
+        "perception_dc_to_detect": 25,
+        "availability": "Military",
+        "splash_radius_text": "2sq",
+        "delay_rounds_text": null,
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "99"
+      },
+      {
+        "name": "Turbolaser, orbital",
+        "cost_credits": null,
+        "damage_text": "5d10x5",
+        "damage_structured": {
+          "text": "5d10x5",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Energy"
+        ],
+        "weight_kg": null,
+        "perception_dc_to_detect": null,
+        "availability": "Military",
+        "splash_radius_text": "10sq",
+        "delay_rounds_text": "10",
+        "comments_and_effects_text": "-10 penalty to hit",
+        "parsed_effects": [
+          {
+            "type": "narrative_property",
+            "description": "-10 penalty to hit"
+          }
+        ],
+        "source_book": "GW",
+        "page": "101"
+      },
+      {
+        "name": "Vehicular mine",
+        "cost_credits": 500,
+        "damage_text": "4d10x2",
+        "damage_structured": {
+          "text": "4d10x2",
+          "notes": "Could not fully parse damage string."
+        },
+        "damage_types": [
+          "Slashing"
+        ],
+        "weight_kg": 10,
+        "perception_dc_to_detect": 25,
+        "availability": "Military",
+        "splash_radius_text": "3sq",
+        "delay_rounds_text": null,
+        "comments_and_effects_text": null,
+        "parsed_effects": [],
+        "source_book": "GW",
+        "page": "99"
+      }
+    ]
+  }
+}

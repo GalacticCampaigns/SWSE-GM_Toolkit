@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Accessories",
+  "description": "Schema for Star Wars SAGA Edition accessories and item upgrades.",
+  "type": "object",
+  "properties": {
+    "accessories_data": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "accessories_list": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/accessory" }
+        }
+      },
+      "required": ["description", "accessories_list"]
+    }
+  },
+  "required": ["accessories_data"],
+  "definitions": {
+    "accessory": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "full_text_description": { "type": ["string", "null"] },
+        "accessory_type_code": { "type": "string", "description": "Raw code from 'Type' column (e.g., A, R, Any, Tools)." },
+        "accessory_type_description": { "type": "string", "description": "Parsed description of the accessory type." },
+        "upgrade_points_cost_text": { "type": ["string", "null"], "description": "Upgrade points cost as text." },
+        "availability": { "type": "string" },
+        "cost_credits": { "type": ["integer", "string", "null"] },
+        "weight_text": { "type": ["string", "null"], "description": "Original weight text, can include '%'." },
+        "weight_kg": { "type": ["number", "null"], "description": "Parsed weight in kg, null if modifier or unparseable." },
+        "comments_and_effects_text": { "type": ["string", "null"] },
+        "parsed_effects": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
+        "source_book": { "type": "string" },
+        "page": { "type": "string" }
+      },
+      "required": ["name", "accessory_type_description", "source_book", "page"]
+    },
+    "itemPropertyEffect": {
+      "type": "object", "description": "A structured item property.",
+      "properties": {
+        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
+        "description": { "type": "string" },
+        "value": { "type": ["integer", "null"] },
+        "target": { "type": ["string", "null"] }
+      }, "required": ["type", "description"]
+    }
+  }
+}

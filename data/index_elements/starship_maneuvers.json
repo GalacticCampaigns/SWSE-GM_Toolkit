@@ -7,8 +7,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot check when attack from adjacent opponent misses.\nDC20: missed Atk redirected to adjacent opponent, \nif original attack roll beats new target Ref Def = damage\nDC25: add +1 to redirected Atk roll\nDC30: add +2 to redirected Atk roll\nDC35: add +5 to redirected Atk roll\nnew target may not use Akbar slash redirect the attack",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -78,8 +79,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Full-Round Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot Check:\nDC15: all-out movement as free action, +1 Pilot to avoid dogfight\nDC20: all-out movement as free action, +2 Pilot to avoid dogfight\nDC25: all-out movement as free action, +5 Pilot to avoid dogfight\nDC30: all-out movement as free action, +10 Pilot to avoid dogfight",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -143,8 +145,9 @@
         ],
         "action_to_activate": "Swift Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot DC15: SR doubled from particular target, SR halved from all others, change or deactivate with swif",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -174,8 +177,9 @@
         ],
         "action_to_activate": "Swift Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot DC20: +1 Ref Def with adjacent allied fighter (+2 if ally is using same maneuver)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -205,8 +209,9 @@
         ],
         "action_to_activate": "Swift Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot DC20: -1 die dam for +20 SR, deactivate with swift",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -235,8 +240,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Full-Round Action",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Target must be w/in 2 x your speed in squares.  If movement halted, lose maneuver. Pilot Check:\nDC15: move up to twice speed straight, attack as free action, if destroy target no collision\nDC20: +1 Atk\nDC25: +1 Atk & 1 die\nDC30: +2 Atk & 1 die\nDC35: +2 Atk & 2 die\nif fails, cannot attack and you may not avoid collision (opponent can)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -307,8 +313,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "As a reaction to being attacked by a vehicle you are dogfighting make a Pilot check:\nDC20: you may immediately take a swift action\nDC25: you may immediately take a move action\nDC30: you may immediately take a standard action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -359,8 +366,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Standard Action",
         "target_info": "2x2",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot Check:\nDC25: area attack with autofire weapon with normal -5 Atk\nDC30: area attack with autofire weapon with -2 Atk\nDC35: area attack with autofire weapon with no penalty",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -410,8 +418,9 @@
         ],
         "action_to_activate": "Standard Action",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Attack Roll Exceeds Ref by:\n0-4:  +1 die damage\n5-9:  +2 die damage\n10+: +3 die damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -427,8 +436,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Use when crit or over thresh.  Attack Roll Exceeds Ref by:\n0-4:  speed -1 (may be repaired with full-round DC20 Mechanics)\n5-9:  speed -2 (may be repaired with full-round DC25 Mechanics)\n10+: speed -3 (may be repaired with full-round DC30 Mechanics)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -445,8 +455,9 @@
         ],
         "action_to_activate": "Move Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot Check \nDC15: disengage from dogfight +2 Pilot\nDC20: disengage from dogfight +5 Pilot\nDC25: disengage from dogfight +10 Pilot\nDC30: disengage from dogfight +20 Pilot",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -506,8 +517,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "spec",
+        "skill_check_raw_text": null,
         "effect_description": "Use when you destroy a target. Attack Roll Exceeds Ref by:\n0-4:  3d10x2 dam to adjacent targets (to the destroyed vehicle)\n5-9:  4d10x2 dam to adjacent targets (to the destroyed vehicle)\n10+: 5d10x2 dam to adjacent targets (to the destroyed vehicle)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -523,8 +535,9 @@
         ],
         "action_to_activate": "Swift Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot DC20: +1 Atk with adjacent allied fighter (+2 if ally is using same maneuver)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -552,8 +565,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Swift Action",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot Check:\nDC15: against adjacent target, if your attack this turn damage over Fort Def = -1 down track\nDC20: as DC15 but +1 to attack roll.\nDC25: as DC15 but +2 to attack roll\nDC30: as DC15 but +5 to attack roll",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -611,8 +625,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Reaction",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot Check:\nDC20: with enemy fighter moving w/in 2 sq, initiate dogfight as attack of opportunity, move 1 sq as reac\nDC25: As above with +1 Pilot check to initiate dogfight\nDC30: As above with +2 Pilot check to initiate dogfight\nDC35: As above with +5 Pilot check to initiate dogfight",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -673,8 +688,9 @@
         ],
         "action_to_activate": "Swift Action",
         "target_info": "you*",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot DC20: nominate target and  you may subtract Atk for double that amount in damage (pre multipliers), \nchange target or deactivate as swif action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -702,8 +718,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "If you end your turn further away from a target than you started make an attack run and Pilot Check \nDC20: attack run penalty to Ref Def is -10\nDC25: attack run penalty to Ref Def is -5\nDC30: attack run penalty to Ref Def is -2\nDC35: attack run penalty to Ref Def is -1",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -763,8 +780,9 @@
         ],
         "action_to_activate": "Standard Action",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Make an attack if it deals damage it reduces shields depending on hold much Attack Roll Exceeds Ref by:\n0-4:  additional 5 points of shield damage\n5-9:  additional 10 points of shield damage\n10+: additional 15 points of shield damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -778,8 +796,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Full-Round Action",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "When you fly through the fighting space of a target Colossal (Frigate) or larger, make a Pilot Check:\nDC20: ignores SR, can move twice speed, attack run at -10 Atk\nDC25: ignores SR, can move twice speed, attack run at -5 Atk\nDC30: ignores SR, can move twice speed, attack run at -2 Atk\nDC35: ignores SR, can move twice speed, attack run at -1 Atk\nPilot check below 19 causes a collision, target may avoid",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -843,8 +862,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "if opponent fails Pilot check to attack in dogfight, \nmake a Pilot Check DC20 to may make an attack of opportunity",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -858,8 +878,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot check replaces Ref Def until next turn, can keep Ref Def if lower",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -875,8 +896,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Pilot Check DC20: +1 die dam, -2 Ref Def, can deactivate with swift action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -907,8 +929,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "When opponent attempts to disengage from dogfight, declare before opposed check\nDC20: if target fails to disengage, make attack of opportunity\nDC25: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -1\nDC30: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -2\nDC35: if target fails to disengage, make attack of opportunity, opposed Pilot check for target -5",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -968,8 +991,9 @@
         ],
         "action_to_activate": "Standard Action",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Make a pilot check:\nDC15: +1 opposed Pilot checks and  attack rolls\nDC20: +2 opposed Pilot checks and  +1 to attack rolls\nDC25: +2 opposed Pilot checks and attack rolls\nDC30: +5 opposed Pilot checks and +2 to attack rolls\nDC35: +5 opposed Pilot checks and attack rolls\nTarget disengages maneuver ends.",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -1039,8 +1063,9 @@
         ],
         "action_to_activate": "Swift Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "Cha bonus replaces Int bonus for vehicle weapons this round.\nMake a Use the Force check:\nDC20: Add Charisma Bonus to all attack rolls until start of next turn.\nDC25: Additional +2 to rolls.\nDC30: Additional +5 to rolls.\nStacks with Battle Strike force power.",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",
@@ -1090,8 +1115,9 @@
         ],
         "action_to_activate": "Reaction",
         "target_info": "1",
+        "skill_check_raw_text": null,
         "effect_description": "Use when crit or over thresh.  Attack Roll Exceeds Ref by:\n0-4:   target's Ref Def, Init, & Pilot all -1\n5-9:   target's Ref Def, Init, & Pilot all -2\n10+: target's Ref Def, Init, & Pilot all -5, target can only move in a straight line\nEffect last the remainder of the encounter.",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -1106,8 +1132,9 @@
         "descriptor_tags": [],
         "action_to_activate": "Swift Action",
         "target_info": "you",
+        "skill_check_raw_text": null,
         "effect_description": "when fighting defensively or with total defense, make a pilot check:\nDC15: reduce speed by half (round down) +1 Ref Def\nDC20:reduce speed by half (round down) +2 Ref Def\nDC25: reduce speed by half (round down) +5 Ref Def\nif reduce speed to 0, maneuver fails",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Pilot",

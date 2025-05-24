@@ -1,0 +1,37 @@
+BOOK,PAGE,TRAIT,Type,Cost,Feat,COMMENTS
+SV,24,Mobile Armor,Armor,"20% or 2000 credits, whichever is more.",Superior Tech: Armor,Increases speed by 1 square (medium and heavy armors only).
+SV,24,Reinforced Armor,Armor,"20% or 2000 credits, whichever is more.",Superior Tech: Armor,Grants damage reduction 2.
+SV,24,Superior Agile Armor,Armor,"20% or 2000 credits, whichever is more.",Superior Tech: Armor,Increases the armor's maximum Dexterity bonus 2.
+SV,24,Superior Fortifying Armor,Armor,"20% or 2000 credits, whichever is more.",Superior Tech: Armor,Increases the armor's equipment bonus to Fortitude Defense by 2.
+SV,24,Superior Helmet Package,Armor,"20% or 2000 credits, whichever is more.",Superior Tech: Armor,Grants wearer a +5 equipment bonus on Perception shecks.
+SV,24,Superior Protective Armor,Armor,"20% or 2000 credits, whichever is more.",Superior Tech: Armor,Increases the armor's armor bonus to Reflex Defense by 2.
+SV,25,Superior Strength,Device,"20% or 2000 credits, whichever is more.",Superior Tech: Device,Increases the device's Strength score by 2.
+SV,25,Superior Durability,Device,"20% or 2000 credits, whichever is more.",Superior Tech: Device,"The device's damage reduction increases by 2, and it gains extra hit points equal to one-half of its maximum hit points."
+SV,25,Reinforced Device,Device,"20% or 2000 credits, whichever is more.",Superior Tech: Device,The Device’s break DC increase by 5.
+SV,25,Superior Mastercraft,Device,"20% or 2000 credits, whichever is more.",Superior Tech: Device,"Skill checks made using the device gain a +2 equipment bonus, or the device's existing equipment bonus increase by 2."
+SV,25,Ion Dispersal Coating,Droid,"20% or 2000 credits, whichever is more.",Superior Tech: Droid,Droid Gains DR 5 against ion damage.
+SV,25,Superior Ability,Droid,"20% or 2000 credits, whichever is more.",Superior Tech: Droid,"Increases the droid's Dexterity, Intelligens or Strength score by 4."
+SV,25,Superior Ability,Vehicle,"20% or 2000 credits, whichever is more.",Superior Tech: Vehicle,Increases the vehicle's Dexterity score by 4 or its Strength by 2.
+SV,25,Superior Sensors,Vehicle,"20% or 2000 credits, whichever is more.",Superior Tech: Vehicle,Increase the vehicle’s Perception modifier by 2.
+SV,25,Superior Speed,Vehicle,"20% or 2000 credits, whichever is more.",Superior Tech: Vehicle,Increases the vehicle's speed by one-third of its base speed (minimum 1 square).
+SV,25,Superior Shields,Vehicle,"20% or 2000 credits, whichever is more.",Superior Tech: Vehicle,Increases the vehicle's shield rating by 10.
+SV,25,Superior Accuracy,Weapon,"20% or 2000 credits, whichever is more.",Superior Tech: Weapon,The weapon gains a +2 equipment bonus on attack rolls.
+SV,25,Superior Capacity,Weapon,"20% or 2000 credits, whichever is more.",Superior Tech: Weapon,The weapons power pack provides double the number of shots.
+SV,25,Superior Damage,Weapon,"20% or 2000 credits, whichever is more.",Superior Tech: Weapon,The weapon deals +5 points of damage with a successful hit. If the weapon has a damage multiplier apply the extra damage before applying the multiplier.
+SV,25,Superior Range,Weapon,"20% or 2000 credits, whichever is more.",Superior Tech: Weapon,The weapon’s ranges all increase by 50%.
+S,21,Agile Armor,Armor,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the armor's maximum Dexterity bonus 1.
+S,21,Fortifying Armor,Armor,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the armor's equipment bonus to Fortitude Defense by 1.
+S,21,Protective Armor,Armor,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the armor's armor bonus to Reflex Defense by 1.
+SV,48,Additional Upgrade Slot,Device,"10% or 1000 credits, whichever is more.",Tech Specialist,The device gain one additional upgrade slot 
+S,21,Enhanced Strength,Device,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the device's Strength score by 2.
+S,21,Improved Durability,Device,"10% or 1000 credits, whichever is more.",Tech Specialist,"The device's damage reduction increases by 1, and it gains extra hit points equal to one-quarter of its maximum hit points."
+S,21,Mastercraft Device,Device,"10% or 1000 credits, whichever is more.",Tech Specialist,"Skill checks made using the device gain a +1 equipment bonus, or the device's existing equipment bonus increase by 1."
+S,21,Enhanced Dexterity,Droid,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the droid's Dexterity score by 2.
+S,21,Enhanced Intelligence,Droid,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the droid's Intelligence score by 2.
+S,21,Enhanced Strength,Droid,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the droid's Strength score by 2.
+S,21,Enhanced Dexterity,Vehicle,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the vehicle's Dexterity score by 2.
+S,21,Improved Speed,Vehicle,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the vehicle's speed by one-quarter of its base speed (minimum 1 square).
+S,21,Improved Shields,Vehicle,"10% or 1000 credits, whichever is more.",Tech Specialist,Increases the vehicle's shield rating by 5.
+S,21,Improved Accuracy,Weapon,"10% or 1000 credits, whichever is more.",Tech Specialist,The weapon gains a +1 equipment bonus on attack rolls.
+S,21,Improved Damage,Weapon,"10% or 1000 credits, whichever is more.",Tech Specialist,The weapon deals +2 points of damage with a successful hit. If the weapon has a damage multiplier (for example 6d10x2) apply the extra damage before the multiplier.
+S,21,Selective Fire,Weapon,"10% or 1000 credits, whichever is more.",Tech Specialist,"An autofire-only ranged weapon can be set to fire single shots, or a single-shot ranged weapon can be made to have an autofire mode. (Not allowed for weapons that have a burst radius or splash radius.)"

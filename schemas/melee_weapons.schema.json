@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Melee Weapons",
+  "description": "Schema for Star Wars SAGA Edition melee weapons.",
+  "type": "object",
+  "properties": {
+    "melee_weapons_data": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "melee_weapons_list": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/meleeWeapon" }
+        }
+      },
+      "required": ["description", "melee_weapons_list"]
+    }
+  },
+  "required": ["melee_weapons_data"],
+  "definitions": {
+    "meleeWeapon": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "full_text_description": { "type": ["string", "null"] },
+        "weapon_category": { "type": "string", "description": "e.g., Simple Melee Weapons, Advanced Melee Weapons, Lightsabers, Exotic Melee Weapons." },
+        "size_category": { "type": "string", "description": "Size of the weapon (e.g., Tiny, Small, Medium, Large)." },
+        "cost_credits": { "type": ["integer", "string", "null"] },
+        "damage_text": { "type": ["string", "null"] },
+        "damage_structured": { "$ref": "#/definitions/damageStructure" },
+        "stun_damage_text": { "type": ["string", "null"] },
+        "stun_damage_structured": { "$ref": "#/definitions/damageStructure" },
+        "weight_kg": { "type": ["number", "string", "null"] },
+        "damage_types": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of damage types (e.g., ['Slashing', 'Energy'])."
+        },
+        "availability": { "type": "string" },
+        "reach_or_thrown_info": { "type": ["string", "null"] },
+        "extra_cost_note": { "type": ["string", "null"] },
+        "build_dc_note": { "type": ["string", "null"] },
+        "special_properties_text": { "type": ["string", "null"] },
+        "parsed_properties": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
+        "used_by_text": { "type": ["string", "null"] },
+        "source_book": { "type": "string" },
+        "page": { "type": "string" }
+      },
+      "required": ["name", "weapon_category", "damage_types", "source_book", "page"]
+    },
+    "damageStructure": {
+      "type": "object", "description": "Structured weapon damage.",
+      "properties": {
+        "dice_count": { "type": "integer" }, "die_type": { "type": "integer" },
+        "bonus": { "type": "integer" }, "text": { "type": "string" },
+        "notes": { "type": ["string", "null"] },
+        "primary": { "$ref": "#/definitions/damageStructure" },
+        "secondary": { "$ref": "#/definitions/damageStructure" }
+      }, "required": ["text"]
+    },
+    "itemPropertyEffect": {
+      "type": "object", "description": "A structured item property.",
+      "properties": {
+        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
+        "description": { "type": "string" },
+        "value": { "type": ["integer", "null"] },
+        "target": { "type": ["string", "null"] }
+      }, "required": ["type", "description"]
+    }
+  }
+}

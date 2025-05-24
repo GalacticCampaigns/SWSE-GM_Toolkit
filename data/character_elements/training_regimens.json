@@ -7,10 +7,11 @@
         "action_text": "1 hr",
         "target_info": "1",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC13: gain the benefit of Gauge Force potential\nDC18: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks\nDC23: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +1\nDC28: gain the benefit of Gauge Force potential, for next 24 hrs target can make untrained UtF checks +2",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -69,10 +70,11 @@
         "action_text": "1 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC13: +1 Use the Force with Telepathy\nDC18: +2 Use the Force with Telepathy\nDC23: +2 Use the Force with Telepathy & against unwilling can sense surface emotions & stray thoughts",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -121,10 +123,11 @@
         "action_text": "1 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC13: +2 Fort Def v. inhaled poisons & non-corrosive atmosphere\nDC18: +5 Fort Def v. inhaled poisons & non-corrosive atmosphere\nDC23: immune v. inhaled poisons & non-corrosive atmosphere",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -173,10 +176,11 @@
         "action_text": "1 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC13: +1 farseeing but not regained if used\nDC18: +1 farseeing \nDC23: +1 farseeing & gain benefit of Visions",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -225,10 +229,11 @@
         "action_text": "2 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC18: spend a Force Point to add to Block, does not count as one Force Point use\nDC23: spend a Force Point to add to Block, does not count as one Force Point use, gain FP for Block\nDC28: spend a Force Point to add to Block, does not count as one Force Point use, gain 2 FP for Block",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -277,10 +282,11 @@
         "action_text": "1 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC18: +1 Force Point when you use telekinetic Force Powers\nDC23: +2 Force Points when you use telekinetic Force Powers\nDC28: +2 Force Points when you use telekinetic Force Powers & reroll Use the Force made to activate (mtr)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -330,10 +336,11 @@
         "action_text": "1 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC18: spend a Force Point to add result to Deflect, does not count as one Force Point use\nDC23: spend a Force Point to add result to Deflect, does not count as one FP use, gain FP for Deflect\nDC28: spend a Force Point to add result to Deflect, does not count as one FP use, gain 2 FP for Deflect",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -382,10 +389,11 @@
         "action_text": "1 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC13: +1 Will Def\nDC18: +2 Will Def\nDC23: +2 Will Def & benefits of Severing Strike",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -434,10 +442,11 @@
         "action_text": "2 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC18: +1 atk against creatures that flank you\nDC23: +2 atk against creatures that flank you\nDC28: +2 atk against creatures that flank you & benefits of Whirlwind Attack",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -486,10 +495,11 @@
         "action_text": "3 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC23: +1 on ranged attacks when Redirecting Shot\nDC28: +2 on ranged attacks when Redirecting Shot\nDC33: +2 on ranged attacks when Redirecting Shot & spend FP to Block & Deflect, does not count as 1 FP",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -538,10 +548,11 @@
         "action_text": "3 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC26: +1 Use the Force to maintain Force power when you take damage\nDC32: +2 Use the Force to maintain Force power when you take damage\nDC38: +2 UtF to maintain Force power when you take damage & can spend FP as reac to not make new UtF",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -590,10 +601,11 @@
         "action_text": "3 hr",
         "target_info": "you",
         "is_lightsaber_related": null,
+        "time_to_complete": null,
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "DC31: +1 Use the Force to Move Light Object\nDC37: +2 Use the Force to Move Light Object\nDC43: +2 UtF to Move Lt Object & add Kinetic Combat, can spend FP to reroll UtF to activate telekinetic",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",

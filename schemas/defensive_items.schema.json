@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Defensive Items",
+  "description": "Schema for Star Wars SAGA Edition defensive items like mines, emplacements, etc.",
+  "type": "object",
+  "properties": {
+    "defensive_items_data": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "defensive_items_list": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/defensiveItem" }
+        }
+      },
+      "required": ["description", "defensive_items_list"]
+    }
+  },
+  "required": ["defensive_items_data"],
+  "definitions": {
+    "defensiveItem": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the defensive item (from WEAPON column)." },
+        "cost_credits": { "type": ["integer", "string", "null"] },
+        "damage_text": { "type": ["string", "null"] },
+        "damage_structured": { "$ref": "#/definitions/damageStructure" },
+        "damage_types": { "type": "array", "items": { "type": "string" } },
+        "weight_kg": { "type": ["number", "string", "null"] },
+        "perception_dc_to_detect": { "type": ["integer", "string", "null"] },
+        "availability": { "type": "string" },
+        "splash_radius_text": { "type": ["string", "null"] },
+        "delay_rounds_text": { "type": ["string", "null"] },
+        "comments_and_effects_text": { "type": ["string", "null"] },
+        "parsed_effects": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
+        "source_book": { "type": "string" },
+        "page": { "type": "string" }
+      },
+      "required": ["name", "source_book", "page"]
+    },
+    "damageStructure": {
+      "type": "object", "description": "Structured weapon damage.",
+      "properties": {
+        "dice_count": { "type": "integer" }, "die_type": { "type": "integer" },
+        "bonus": { "type": "integer" }, "text": { "type": "string" },
+        "notes": { "type": ["string", "null"] },
+        "primary": { "$ref": "#/definitions/damageStructure" },
+        "secondary": { "$ref": "#/definitions/damageStructure" }
+      }, "required": ["text"]
+    },
+    "itemPropertyEffect": {
+      "type": "object", "description": "A structured item property.",
+      "properties": {
+        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
+        "description": { "type": "string" },
+        "value": { "type": ["integer", "null"] },
+        "target": { "type": ["string", "null"] }
+      }, "required": ["type", "description"]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "skills_data": {
-    "description": "Comprehensive list of skills in Star Wars SAGA Edition, their general properties, and detailed common uses with associated mechanics.",
-    "skill_list": [
+    "description": "Compilation of Skills for Star Wars SAGA Edition.",
+    "skills_list": [
       {
         "name": "Acrobatics",
         "key_ability": "DEX",

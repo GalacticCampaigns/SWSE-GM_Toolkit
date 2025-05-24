@@ -8,7 +8,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend Destiny to fully heal and remove all conditions",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -25,7 +25,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend Force Point to cure disease if you equal or exceed the DC",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -41,7 +41,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "use vital transfer to detoxify poison, compare Use the Force to poison's DC as Treat Injury",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -57,7 +57,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "with mind trick if over Will Def by 10, you choose what target does with stan action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -73,7 +73,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "base range increases to 18 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -89,7 +89,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "base range increases to 18 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -105,7 +105,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "base range increases to 18 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -121,7 +121,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "base range increases to 18 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -137,7 +137,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "base range increases to 18 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -153,7 +153,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "at end of encounter, regain one Force Point spent in encounter",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "bonus",
             "action_verb": "gain",
@@ -173,7 +173,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "take 10 on a selected Force Power even if distracted",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "bonus",
             "action_verb": "take",
@@ -193,7 +193,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to target 3x3 area",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -209,7 +209,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can apply bonus to attack & damage rolls for all attacks during full attack",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -225,7 +225,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "maintain Cloak as move not stan",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -242,7 +242,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "when target takes fire damage, the fire attacks the target's Fort Def with your BAB not the normal +5",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -258,7 +258,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "with crucitorn, if more damage is dealt than your threshold you do not expend this use of the power",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -274,7 +274,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can use cyrokinesis on vehicles w/in range but the vehicle only moves down CT if exceeds Fort Def",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -291,7 +291,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can perform skills that require patience, can activate in surprise round",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -307,7 +307,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to revive a creature that died since the end of your last turn, DC25, unconscious not healed",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -323,7 +323,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "compare Use the Force v. all enemies within 2sq of the object, enemy takes half dam done to object, area atk",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -339,7 +339,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can affect ally within 6sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -355,7 +355,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to affect one additional ally",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -371,7 +371,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to move the object anywhere in LOS, spend DP for anywhere in system",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -388,7 +388,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change activation to full to remove Ref Def bonus of opponent with disarming",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -405,7 +405,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can spend a Force Point to maintain 1 additional round without concentrating, may not resume after",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -421,7 +421,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can spend a Force Point to blind who it harms granting concealment to all other targets, Destiny Point for total",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -437,7 +437,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change activation to full, v. Str to push back 1sq + 1sq for every 5 over, if into larger 1d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -453,7 +453,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to protect adjacent allies, spend a Destiny Point to protect any size vehicle",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -469,7 +469,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change activation to full to affect all targets within 2sq radius, spend Force Point for 4sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -485,7 +485,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can spend a Force Point to fill storm with force lightning, Use the Force v. Ref Def 3d6 dam or Destiny Point  for 6d6",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -501,7 +501,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "as a swif action, end duration of storm to deal 4d6 dam to all targets within 2sq of you",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -517,7 +517,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "target temporarily immobilized one round",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -533,7 +533,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change activation to full to affect all targets in 6sq cone",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -549,7 +549,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "each hour in a Force Trance, regain hp = 2 x character level",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -565,7 +565,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to have target take full ion dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -581,7 +581,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can wield three weapons",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -597,7 +597,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "if moved off elevated surface involuntarily can activate power as reac and end move on last square",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -614,7 +614,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "compare Use the Force to Fort Def, if over both Fort & Ref Def, push target 1 sq & target knocked prone",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -630,7 +630,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "maintain threshold penalty as swif",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -646,7 +646,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change activation to full to target all within 6sq cone, spend Force Point for 12sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -662,7 +662,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "move object as swift not move, use as a weapon requires move not standard",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -679,7 +679,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to gain +5 on Use the Force",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "bonus",
             "action_verb": "gain",
@@ -699,7 +699,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can end move in occupied space but must be legal unoccupied square",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -716,7 +716,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can spend a Force Point to target all in 5x5 area at least one square in range, Destiny Point for 10x10 area",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -732,7 +732,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can rebuke for an ally within 12sq & LOS",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -748,7 +748,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "range = 12 sq, ignore DR",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -764,7 +764,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change activation to full to target all within 2sq radius, spend Force Point for 4sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -780,7 +780,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can affect ally within 6sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -796,7 +796,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "Sense Force as a move action not full-round action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -813,7 +813,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "use as a free action not a swift action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -830,7 +830,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "if move target down CT can spend Force Point to make condition persistent (surgery or repairs)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -847,7 +847,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "spend a Force Point to push target 2 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -863,7 +863,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can change time to full in order to target all droids in 6-square cone from your square",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -879,7 +879,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "may reroll Use the Force for Telepathy and keep the better result",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "reroll",
             "check_type": "u",
@@ -896,7 +896,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can spend a Force Point to target all enemies within 5 squares, spend a Destiny Point for all in LOS",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -912,7 +912,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "you gain benefits as well",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -928,7 +928,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "can affect ally within 6sq & LOS",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -944,7 +944,7 @@
         "prerequisites_text": "None",
         "prerequisites_structured": [],
         "effect_description": "if unwilling, Use the Force v. Will Def, retain ability to speak & understand 24 hours",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."

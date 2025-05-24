@@ -1,0 +1,786 @@
+BOOK,PAGE,WEAPON,Desc.,Wpn Type,Size,Cost, Damage,Stun,Weight,Dmg Type,Avail.,Thrown / Reach, Extra cost, Build DC,COMMENTS,Used by
+CR,121,"Amphistaff, Quarterstaff form","Amphistaff
+Exotic Weapon
+An amphistaff is a serpentine creature genetically engineered by the Yuuzhan Vong to serve as a weapon. The amphistaff can become as rigid as stone or as flexible as rope, and it can contract the muscles around its head and tail to form razor-sharp edges.
+
+The amphistaff has three distinct weapon forms: quarterstaff, spear, or whip. Switching from one weapon form to another takes a swift action.
+
+Quarterstaff Form: A rigid amphistaff has all the qualities of a quarterstaff (see below).
+
+Spear Form: A rigid amphistaff can be wielded or thrown as a spear (see below). The spear's head is poisonous: If the target takes damage and the attack roll equals or exceeds its Fortitude Defense, the target moves -1 persistent step on the condition track (see Conditions, page 148).
+
+Whip Form: A flexible amphistaff has a reach of 2 squares (see Reach, page 161). The whip's tail deals 1d4 points of piercing damage (plus the wielder's Strength modifier) and is poisonous: If the target takes damage and the attack roll equals or exceeds its Fortitude Defense, the target moves -1 persistent step on the condition track. Instead of dealing damage with the whip, the wielder may use it to pin or trip the target (see Grapple, page 153) as though he was using the Pin or Trip feat (see Chapter 5: Feats); the wielder must be proficient with the amphistaff but doesn't need to have the Pin or Trip feat to use this feature of the weapon .
+
+In any of its weapon forms, an amphistaff may be coaxed by its wielder to spit venom up to 10 squares away (a standard action). If this ranged attack hits both the target's Reflex Defense and Fortitude Defense, the target moves -1 persistent step on the condition track. An amphistaff can only spit venom once every 24 standard hours.
+
+",E,L,,1d6/1d6,,2,Bludgeoning,Rare,,,,Yuuzhan Vong treat the amphistaff as a simple weapon instead of an exotic weapon.,Yuuzhan Vong
+CR,121,"Amphistaff, Spear form","Amphistaff
+Exotic Weapon
+An amphistaff is a serpentine creature genetically engineered by the Yuuzhan Vong to serve as a weapon. The amphistaff can become as rigid as stone or as flexible as rope, and it can contract the muscles around its head and tail to form razor-sharp edges.
+
+The amphistaff has three distinct weapon forms: quarterstaff, spear, or whip. Switching from one weapon form to another takes a swift action.
+
+Quarterstaff Form: A rigid amphistaff has all the qualities of a quarterstaff (see below).
+
+Spear Form: A rigid amphistaff can be wielded or thrown as a spear (see below). The spear's head is poisonous: If the target takes damage and the attack roll equals or exceeds its Fortitude Defense, the target moves -1 persistent step on the condition track (see Conditions, page 148).
+
+Whip Form: A flexible amphistaff has a reach of 2 squares (see Reach, page 161). The whip's tail deals 1d4 points of piercing damage (plus the wielder's Strength modifier) and is poisonous: If the target takes damage and the attack roll equals or exceeds its Fortitude Defense, the target moves -1 persistent step on the condition track. Instead of dealing damage with the whip, the wielder may use it to pin or trip the target (see Grapple, page 153) as though he was using the Pin or Trip feat (see Chapter 5: Feats); the wielder must be proficient with the amphistaff but doesn't need to have the Pin or Trip feat to use this feature of the weapon .
+
+In any of its weapon forms, an amphistaff may be coaxed by its wielder to spit venom up to 10 squares away (a standard action). If this ranged attack hits both the target's Reflex Defense and Fortitude Defense, the target moves -1 persistent step on the condition track. An amphistaff can only spit venom once every 24 standard hours.
+
+",E,L,,1d8,,2,Piercing,,T,,,"can be thrown, if over threshold -1 CT (poison)",Yuuzhan Vong
+CR,121,"Amphistaff, Whip form","Amphistaff
+Exotic Weapon
+An amphistaff is a serpentine creature genetically engineered by the Yuuzhan Vong to serve as a weapon. The amphistaff can become as rigid as stone or as flexible as rope, and it can contract the muscles around its head and tail to form razor-sharp edges.
+
+The amphistaff has three distinct weapon forms: quarterstaff, spear, or whip. Switching from one weapon form to another takes a swift action.
+
+Quarterstaff Form: A rigid amphistaff has all the qualities of a quarterstaff (see below).
+
+Spear Form: A rigid amphistaff can be wielded or thrown as a spear (see below). The spear's head is poisonous: If the target takes damage and the attack roll equals or exceeds its Fortitude Defense, the target moves -1 persistent step on the condition track (see Conditions, page 148).
+
+Whip Form: A flexible amphistaff has a reach of 2 squares (see Reach, page 161). The whip's tail deals 1d4 points of piercing damage (plus the wielder's Strength modifier) and is poisonous: If the target takes damage and the attack roll equals or exceeds its Fortitude Defense, the target moves -1 persistent step on the condition track. Instead of dealing damage with the whip, the wielder may use it to pin or trip the target (see Grapple, page 153) as though he was using the Pin or Trip feat (see Chapter 5: Feats); the wielder must be proficient with the amphistaff but doesn't need to have the Pin or Trip feat to use this feature of the weapon .
+
+In any of its weapon forms, an amphistaff may be coaxed by its wielder to spit venom up to 10 squares away (a standard action). If this ranged attack hits both the target's Reflex Defense and Fortitude Defense, the target moves -1 persistent step on the condition track. An amphistaff can only spit venom once every 24 standard hours.
+
+",E,L,,1d4,,2,Piercing,,R,,,"reach 2sq, if over thresh -1 CT (poison), can pin or trip w/out feat",Yuuzhan Vong
+L,97,Anakin Solo's Lightsaber,"Anakin Solo's Lightsaber (LECG)
+Lightsaber, Heirloom Item
+After Anakin Solo dies on the planet Myrkr, his lightsaber finds its way into the hands of Ganner Rhysode and even Anakin's uncle, Luke Skywalker, who wields it in a duel against Supreme Overlord Shimrra . The weapon is returned to Han Solo, who lays his son's lightsaber to rest in Chewbacca's memorial tree on Kashyyyk. 
+
+In the Legacy era, Anakin's lightsaber could fall into the hands of a Jedi Padawan sent on a special mission to Kashyyyk to retrieve the weapon as a rite of passage for reaching knighthood.
+
+Anakin Solo's Lightsaber: Medium lightsaber (2d8 damage) and symbol of the light. Once per encounter, as a reaction, the wielder can impose a penalty on anyone attack roll or skill check made by a character with a Dark Side Score of 1 or higher. This penalty is equal to the target's Dark Side Score. In addition, its wielder ignores restrictions on Sense Force and Sense Surroundings imposed by Yuuzhan Vong.
+",L,M,,2d8,,1,Energy and slashing,Rare,,,,Symbol of the light and heirloom lightsaber (see L 97),
+K,64,Arg'garok,"Arg'garok (KotORCG)
+Exotic Weapon
+The arg'garok is a rarely seen weapon created by the Gamorrean species and prized by their greatest warriors. The arg'garok resembles nothing more than a huge axe, balanced so that only the strongest and best-trained warriors can use it effectively. Any character attempting to wield an arg'garok without a Strength of 15+ suffers a -5 penalty on attack rolls with the weapon. Gamorreans treat the arg'garok as an advanced melee weapon instead of an exotic weapon.
+
+",E,L,150,2d12,,2,Slashing,Rare,,,,"need Str 15 or -5 Atk, advanced melee weapon for Gamorreans",Gamorrean warriors
+CR,121,Atlatl,"Atlatl
+Exotic Weapon
+A Gungan weapon, the atlatl adds speed and power as an extension of a throwing arm, allowing the user to hurl energy balls farther than with just an unaided toss. If forced into close combat, the wielder can use the atlatl as a club like melee weapon. Although the atlatl is considered an exotic weapon, Gungans are treated as proficient if they have the Weapon Proficiency (simple weapons) feat.
+
+",E,M,50,2d4,,1.5,Bludgeoning,Rare,,,,Gunguns treat as simple weapon instead of exotic,Gungan
+R,48,Axe,"Axe (RECG)
+Simple Melee Weapon
+Though this weapon is a smaller, unpowered version of the vibro-ax, many fringers find a blade on a haft to be indispensable in the wilds of untamed planets. An axe also has the advantage of being legal nearly everywhere, largely because no one thinks to outlaw such a simple tool. Modern versions made of advanced composite materials are common in many explorers' shops, and various species pressed into service by the Empire bring their own traditional axes with them when they are shipped across the galaxy.
+
+",S,M,35,1d8,,2,Slashing,,T,,,Can be thrown,fringers
+W,276,"Axe, small","Axe (RECG)
+Simple Melee Weapon
+Though this weapon is a smaller, unpowered version of the vibro-ax, many fringers find a blade on a haft to be indispensable in the wilds of untamed planets. An axe also has the advantage of being legal nearly everywhere, largely because no one thinks to outlaw such a simple tool. Modern versions made of advanced composite materials are common in many explorers' shops, and various species pressed into service by the Empire bring their own traditional axes with them when they are shipped across the galaxy.
+
+",S,S,,1d6,,,Slashing,,T,,,Can be thrown,Ewok Scout
+CR,121,Bayonet,"Bayonet
+Simple Weapon
+When mounted on a rifle, a bayonet allows you to use the rifle as a melee weapon much like a spear. When wielding a rifle with a mounted bayonet, you threaten squares within your reach (even if you used the rifle to make a ranged attack on your last turn), and you can use it to make attacks of opportunity. A bayonet requires two hands to use when mounted on a rifle.
+
+A bayonet cannot be used on a rifle with a folded stock. A bayonet detached from a rifle is treated as a knife; a mounted bayonet deals more damage than the knife because of the added leverage and bulk.
+
+",S,M,50,1d8,,1,Piercing,Licensed,,,,,military
+UR,36,Blastsword,"Blastsword (UR)
+Exotic Weapon
+The favored weapon of duelists from the remote world of Adumar, the blastsword is an odd combination of a standard vibroblade and the inner workings more commonly found in blaster weapons. At the tip of the blade sits a small metal nozzle, which emits a slight glow and an audible hum when activated. When the user successfully stabs a target, the blaster energy discharges.
+
+A blastsword is well balanced, and its wielder can consider it to be a light weapon for the purpose of using the Weapon Finesse feat. A blastsword requires a power pack to operate.
+
+",E,M,600,3d6,,2.1,Energy,Rare,,,,considered light weapon,duelists
+UR,142,"Ceremonial gloves, medium","Combat Gloves
+Simple Weapon
+A pair of padded gloves provides extra hitting power thanks to their weight and the materials used to construct them. Anyone who expects to get into a fistfight or a brawl probably wants to wear combat gloves. They provide a + 1 bonus to damage on a successful unarmed attack.
+
+Combat gloves are two sizes smaller than their wearer (for example, a pair of combat gloves designed for a Human are Tiny). Because of how they are worn, combat gloves can't be disarmed or dropped.
+
+",S,M,250,1,,0.5,Bludgeoning,,,,,Combat gloves count as both Unarmed AND Simple Weapons; are 2 sizes smaller than wearer,
+UR,142,"Ceremonial gloves, small","Combat Gloves
+Simple Weapon
+A pair of padded gloves provides extra hitting power thanks to their weight and the materials used to construct them. Anyone who expects to get into a fistfight or a brawl probably wants to wear combat gloves. They provide a + 1 bonus to damage on a successful unarmed attack.
+
+Combat gloves are two sizes smaller than their wearer (for example, a pair of combat gloves designed for a Human are Tiny). Because of how they are worn, combat gloves can't be disarmed or dropped.
+
+",S,S,150,1,,0.4,Bludgeoning,,,,,Combat gloves count as both Unarmed AND Simple Weapons; are 2 sizes smaller than wearer,
+CR,121,Cesta,"Cesta
+Exotic Weapon
+Another Gungan weapon, the cesta is a flexible pole used to hurl small energy balls. It can also be used as a staff-like melee weapon. Although the cesta is considered an exotic weapon, Gungans are treated as proficient if they have the Weapon Proficiency (simple weapons) feat.
+
+",E,L,100,2d4,,1.8,Bludgeoning,Rare,R,,,Gunguns treat as simple weapon instead of exotic,Gungan
+D7,15,"Club, large",,S,L,,1d8,,,Bludgeoning,,,,,,Coruscani Ogre
+CR,121,Club/baton,"Club/Baton
+Simple Weapon
+Powered by the wielder's brute strength, clubs break an opponent's bones, or worse. They are the favored weapons of thugs. Batons (a variety of the club) are used by police forces on relatively peaceful worlds in crowd-control situations.
+
+",S,S,15,1d6,,0.5,Bludgeoning,,,,,,"thugs, police"
+CR,121,"Combat gloves, medium","Combat Gloves
+Simple Weapon
+A pair of padded gloves provides extra hitting power thanks to their weight and the materials used to construct them. Anyone who expects to get into a fistfight or a brawl probably wants to wear combat gloves. They provide a + 1 bonus to damage on a successful unarmed attack.
+
+Combat gloves are two sizes smaller than their wearer (for example, a pair of combat gloves designed for a Human are Tiny). Because of how they are worn, combat gloves can't be disarmed or dropped.
+
+",S,M,250,1,,0.5,Bludgeoning,,,,,Combat gloves count as both Unarmed AND Simple Weapons; are 2 sizes smaller than wearer,brawlers
+CR,121,"Combat gloves, small","Combat Gloves
+Simple Weapon
+A pair of padded gloves provides extra hitting power thanks to their weight and the materials used to construct them. Anyone who expects to get into a fistfight or a brawl probably wants to wear combat gloves. They provide a + 1 bonus to damage on a successful unarmed attack.
+
+Combat gloves are two sizes smaller than their wearer (for example, a pair of combat gloves designed for a Human are Tiny). Because of how they are worn, combat gloves can't be disarmed or dropped.
+
+",S,S,150,1,,0.4,Bludgeoning,,,,,Combat gloves count as both Unarmed AND Simple Weapons; are 2 sizes smaller than wearer,brawlers
+UR,36,Contact stunner,"Contact Stunner (UR)
+Simple Weapon
+Frequently sold as a personal protection device, the contact stunner is a small, inconspicuous weapon, the forward end of which is covered with over a dozen contact disks, enabling it to deliver a concentrated and, therefore, effective discharge when it contacts a target. However, the weapon's lack of mass makes it less useful for anything other than rendering a target unconscious.
+
+Because of its slender and compact design, a contact stunner grants a +5 equipment bonus to Stealth checks made to conceal the weapon. A contact stunner requires an energy cell to operate.
+
+",S,S,700,1d4,2d8,1.1,Bludgeoning or energy,Licensed,,,,+5 Stealth to conceal,inconspicuous personal protection
+CR,122,Coufee,"Knife
+Simple Weapon
+While many weapons rely on highly advanced technology, knives still see wide use. A knife is completely silent and serves well in close-combat skirmishes.
+
+",S,T,,1d4,,1,Slashing or piercing,,T,,,can be thrown,Yuuzhan Vong
+GW,36,Darkstick,"Darkstick (GaW)
+Exotic Weapon
+The darkstick is a curved blade developed by the Kerestian species. Difficult to master, the weapon is deadly in the hands of a proficient wielder. Although they vary in size, a typical darkstick is about 20 centimeters long with a handle designed to be gripped between the large knuckles of a Kerestian. Masters of the darkstick can hold two or even three of the blades in each hand, greatly increasing the damage they deal. Darksticks are named for the Kerestian belief of the Great Darkness that awaits all souls.
+
+Later versions of the darkstick also incorporate special webs of light-absorbing cells, which shroud the wielder in darkness. Attacks from enemies who are immediately adjacent treat the wielder as if he or she were in total concealment. Creatures or characters with darkvision ignore this penalty. The darkstick wielder must be able to see in the dark or take the penalty as well.
+
+Any character proficient in the use of the darkstick can hold more than one in one hand, as Kerestians do. When wielding multiple darksticks in one hand, you are considered to be wielding only one weapon, but you increase the damage dice for the darkstick from 1d6 to 2d8. (The damage remains 2d8 for any number of darksticks over two.)
+
+A darkstick can be thrown. If your attack exceeds the target's Reflex Defense by 5 or more, the darkstick also returns to your hand immediately after the attack.
+
+",E,S,1000,1d6,,1.5,Slashing,Rare,T,,,"if wielding multiple can be considered wielding one for 2d8 dam, if thrown and over Ref Def by 5 returns to hand immediately",assassins?
+T,13,Datadagger,"Datadagger (TotG)
+Simple Weapon
+A datadagger is an elaborate and decorative code cylinder (CR 134) that contains a hidden weapon. When the wielder twists the hilt, a needlelike blade extends from the socket. Since the blade is so well hidden within the code's electronics, it is hard to detect (+5 bonus to the Stealth check to conceal the object and no circumstance bonus if the examiner touches the wielder).
+
+",S,T,500,1d4,,0.1,Piercing,Illegal,,,,"code cylinder, +5 Stealth to conceal dagger","smugglers, scoudrels, assassins?"
+K,65,Dire sword,"Dire Sword (KotORCG)
+Simple Weapon
+This archaic weapon is a favorite of duelists and other students of classic fighting styles. Unpowered, this weapon is little more than a refinement of the classic longsword, crafted with tradition in mind but using the most modern technology.
+
+",S,L,100,1d10,,4,Slashing or piercing,,,,,,duelists
+K,65,Double-bladed sword,"Double-Bladed Sword (KotORCG)
+Simple Weapon
+This two-bladed version of the war sword allows those proficient in the use of two weapons to take advantage of their skills while wielding only one weapon. Typically the two blades are connected in the middle by a short length of metal, providing a safe place for the wielder to grip the weapon.
+
+A double-bladed sword is a double weapon. You can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty (although certain feats and talents can reduce these penalties).
+
+",S,L,120,1d6/1d6,,2,Slashing or piercing,,,,,,duelists?
+UR,36,Electropole,"Electropole (UR)
+Advanced Melee Weapon
+Similar to the more common electrostaff, the electropole or static pike is an electrified melee weapon used primarily by the Gungans of Naboo and the picadors on Geonosis. Both cultures use the weapon for herding beasts as well as in battle. Unlike the standard electrostaff and the force pike, the electropole can be thrown like a javelin. Experienced users often keep two or three electropoles within reach when expecting trouble, one for close combat and the rest to be thrown at the enemy.
+
+Gungans are considered proficient with the electropole if they have the Weapon Proficiency (simple weapons) feat. An electropole requires two energy cells to operate.
+
+",AM,M,1500,2d8,2d8,1.3,Bludgeoning and energy,Licensed,T,,,"can be thrown, used by Geonosian arena guards (Picadors), Gunguns treat as simple weapon","Gungans, picadors on Geonosis, beastherders"
+CR,139,Electroshock probe,,S,T,,1d8 ion,,,Energy (ion),,,,,normally a tool but can be used as makeshift weapon at -5 penalty (see Tool Kit); droid tool mounts avoid penalty,
+CR,121,Electrostaff,"Electrostaff
+Advanced Melee Weapon
+An electrostaff is a double weapon: Each end has an electromagnetic pulse generator that discharges upon impact, allowing it to deal blunt-force wounds. If desired, either electromagnetic pulse can be set to stun its target instead. The staff is made of a resilient phrik alloy that gives it DR 20; this damage reduction applies even against lightsaber attacks.
+
+Electrostaffs are not common except during the Clone Wars. The IG-100 Series MagnaGuard droid (see page 201) typically carries an electrostaff.
+
+An electrostaff requires two energy cells to operate.
+
+",AM,L,3000,2d6/2d6,2d6/2d6,2,Bludgeoning and energy,Restricted,,,,DR20 including against lightsabers; Magnaguard droid weapon,IG-100 Series MagnaGuard droid
+L,98,Emperor Palpatine's Lightsaber,"Emperor Palpatine's Lightsaber (LECG)
+Lightsaber, Heirloom Item
+This red-bladed lightsaber belonged to one of the galaxy's most fearsome dictators. Constructed in the style of all Sith lightsabers, Emperor Palpatine's lightsaber practically drips with the dark side of the Force.
+
+This lightsaber is a sacred artifact to the Sith of the legacy era, and any hero who comes to possess it will likely be stalked by agents of Darth Krayt until the weapon is secured.
+
+Emperor Palpatine's Lightsaber:  Medium lightsaber (2d8 damage) steeped in the da rk side. Once per encounter, while carrying or using the lightsaber, the wielder can apply a destiny bonus equal to one- half his or her Dark Side Score on anyone attack roll or skill check made before the end of the wielder's turn. Applying this bonus increases the wielder's Dark Side Score by 1.
+",L,M,,2d8,,1,Energy and slashing,Rare,,,,Steeped in the dark side and heirloom lightsaber (see L 97),
+R,48,Energy Lance,"Energy Lance/Power Lance (RECG)
+Advanced Melee Weapon
+Essentially, an energy lance is a force pike that has been combined with an electromagnetic pulse generator (the same kind used by an electrostaff) and balanced for use while riding a mount. Energy lances once were commonly carried by honor guards and ceremonial troops such as the Mon Calamari Knights, and many such weapons still in circulation bear signs of their once- proud heritage. Though an energy lance is a Large weapon, it is balanced in such a way that a Medium creature trained in the Ride skill can wield it in one hand when mounted. If an energy lance is wielded by a Medium creature that is not mounted, attacks with the weapon take a -1 penalty.
+
+The electromagnetic pulse can also be channeled along the length of the staff and fired from the tip as a bolt of plasma. When used in this way, the energy lance functions as a blaster carbine with no stun setting. This use of the energy lance requires a power pack, and has the same ammunition capacity as a blaster carbine.
+
+An energy lance requires two energy cells to operate. Its melee attack and its ranged attack both function underwater.
+
+Power lances are energy lances that lack the ability to fire bolts of plasma. These weapons are significantly cheaper and are mass-produced as secondary weapons for scouts on speeder bikes and for cavalry.
+
+",AM,L,3500,2d8,,5,Piercing and energy,Restricted,,,,-1 if medium creature and not mounted; Mon Calamari traditional weapon,Mon Calamari Knights
+C,193,Energy Lance,"Force Pike
+Advanced Melee Weapon
+Force pikes are 1-meter-long poles topped with power tips. A two-setting power dial located near the bottom of the pike allows the user to set the weapon to ""lethal"" or ""stun."" Although primarily a vibro weapon, the force pike also delivers an electrical shock through its tip, dealing both piercing and energy damage.
+
+A force pike requires two energy cells to operate.
+
+",AM,M,,2d8,2d8,2,Piercing and energy,,R,,,as Force Pike +1 square reach,IG Lancer Combat Droid
+GW,36,Entrenching tool,"Entrenching Tool (GaW)
+Simple Weapon
+Used by soldiers for thousands of years, the entrenching tool is a durable, multipurpose tool that also can be an effective melee weapon. The entrenching tool can be configured as a short shovel, a pickaxe, or even a makeshift hammer.
+
+The entrenching tool is designed to be durable enough for combat, but it is not as balanced as a regular weapon. The wielder takes a -2 penalty to attack rolls (improvised weapons normally impose a —5 penalty to attack rolls) and can choose to deal either piercing or slashing damage
+
+",S,S,50,1d6,,1,Slashing or piercing,,,,,-2 atk,soldiers
+F,96,Felucian skullblade,"Felucian Skullblade (TFUCG)
+Exotic Weapon
+Used in combat and ceremonies by Force-sensitive shamans on Felucia, skullblades are sword-like melee weapons made from the skulls of local animals. They are similar to crude weapons made by more primitive cultures throughout the galaxy, except for their ability to be imbued with Force energy and (when so imbued) block lightsaber strikes. This is possible because a few creatures on Felucia naturally grow trace amounts of Force-reactive crystal in their bones. Similar to crystals used for the focusing of lightsaber blades, these trace amounts aren't large enough to be harvested for any other use, but do make the skullblades surprisingly effective weapons in the hands of trained Force-sensitive wielders.
+
+Skullblades are considered items of great honor and importance. Although they can occasionally be found on the black market, they are normally available only to those who train with Force adepts on Felucia.
+
+",E,S,1500,2d6,,0.5,Slashing,Rare,,,,Felucians treat Skullblades as simple weapons instead of exotic,Felucian
+K,65,Fira,"Fira (KotORCG)
+Exotic Weapon
+The fira is a traditional weapon used by Selkath warriors belonging to the Order of Shasa. Constructed from the wreckage of a kolto harvester and forged in underwater volcanic vents, fira are tough, curved swords made out of an alloy containing cortosis (thus benefiting from the cortosis weave general template, presented below). If an attack roll with the fira against a living creature equals or exceeds both the target's Reflex Defense and Fortitude Defense, the target takes half damage again on the following round from the grievous wound.
+
+",E,M,100,1d8,,2,Slashing or piercing,Rare,,,,"if an atk exceeds Ref & Fort Def, take half dam following round, Selkath order of Shasa blade",Selkath warriors belonging to the Order of Shasa
+W,242,Fira sword,Fira sword,S,S,,1d6,,,Slashing or piercing,,,,,,Shasa
+GW,37,Fire blade,"Fire Blade (GaW)
+Simple Weapon
+The inhabitants of the planet Dathomir coined the term ""fire blade"" for this cutting energized blade, but similar tools can be found on nearly every planet in the galaxy. When activated, a sheath of energy surrounds the blade of this weapon, allowing it to slice through nearly any material. The fire blade cauterizes a wound as it cuts, and it is used to trim the nails of the ferocious kwi, lizard creatures native to Dathomir.
+
+A fire blade ignores the DR of unattended objects, and requires an energy cell to operate.
+
+",S,S,200,2d4,,1,Energy and slashing,,,,,ignores DR of unattended objects,inhabitants of the planet Dathomir
+CR,121,Force pike,"Force Pike
+Advanced Melee Weapon
+Force pikes are 1-meter-long poles topped with power tips. A two-setting power dial located near the bottom of the pike allows the user to set the weapon to ""lethal"" or ""stun."" Although primarily a vibro weapon, the force pike also delivers an electrical shock through its tip, dealing both piercing and energy damage.
+
+A force pike requires two energy cells to operate.
+
+",AM,M,500,2d8,2d8,2,Piercing and energy,Restricted,,,,,"Senate Guards, Imperial Royal Guards, Sith assassins, planetary militias, police forces, security forces"
+W,242,Freedon Nadd's Short Lightsaber,"Freedon Nadd's Short Lightsaber (W)
+Lightsaber, Heirloom Item
+Legendary icon short lightsaber with a rubat crystal (Small lightsaber, 2d8 damage, legendary icon).
+
+",L,S,,2d8,,0.5,Energy and slashing,Rare,,100,,can be thrown; Legendary icon short lightsaber with a rubat crystal,
+CR,139,Fusion cutter,,S,T,,2d6,,,Energy,,,,,normally a tool but can be used as makeshift weapon at -5 penalty (see Tool Kit); droid tool mounts avoid penalty,
+R,48,Gaderffii,"Gaderffii (RECG)
+Simple Melee Weapon
+Primarily found in the hands of Tusken Raiders, the gaderffii (also called a gaffi stick) is a pole weapon made from scrap metal. It always features a spike or blade on one end and some kind of bludgeoning instrument on the other. Similar weapons are sometimes carried by the raiders and scavengers of many worlds, especially in places that include old battlegrounds or plenty of discarded junk.
+
+The gaderffii is a double weapon. The wielder can attack with both ends as a full-round action, but both attacks take a -10 penalty (certain feats and talents can reduce these penalties).
+
+",S,L,60,2d4/2d4,,5,Bludgeoning and slashing,,,,,Tusken raider weapon,Tusken Raiders
+D2,31,Gamorrean warmace,,S,L,,1d10,,,Bludgeoning,,,,,,
+C,59,Garrote,"Garrote (CWCG)
+Exotic Weapon
+Typically fashioned from a strand of spun durasteel, a garrote is designed to crush the target's throat and prevent breathing. A garrote requires two hands to use, and any attack made with the garrote is treated as a grab attack (see page 152 of the Saga Edition core rulebook). Bonuses granted by talents and feats apply to the grab attack as though it was a garrote attack; for example, a character with the Weapon Focus (garrote) feat gains a +1 bonus on grab attacks made with the garrote.
+
+The effects of a garrote are felt on the target's turn. At the beginning of the grabbed target's turn, before it can take any actions, the target takes damage from the garrote and moves -1 step along the condition track. The target also suffers the normal effects of a grab. The target may attempt to break the grab, as normal.
+
+",E,S,50,1d6*,,0.5,Slashing,,,,,"attack considered grab, effects and damage is dealt on target's turn; -1 CT + 1d6","Rebel alliance, Republic Commandos"
+CR,122,Knife,"Knife
+Simple Weapon
+While many weapons rely on highly advanced technology, knives still see wide use. A knife is completely silent and serves well in close-combat skirmishes.
+
+",S,T,25,1d4,,1,Slashing or piercing,,T,,,can be thrown,
+CR,139,Laser welder,,S,T,,1d8,,,Energy,,,,,normally a tool but can be used as makeshift weapon at -5 penalty (see Tool Kit); droid tool mounts avoid penalty,
+K,65,Lightfoil,"Lightfoil (KotORCG)
+Lightsaber
+If the lightsaber is an elegant weapon for a more civilized age, then this is that age and the lightfoil is the pinnacle of elegant design. More lightweight and balanced than a lightsaber, the lightfoil is wielded with just one hand, as its petite and elegantly designed handles attest. Assembled in secret by Mecrosa’s Sith Knights of the Tapani Sector, each lightfoil is a work of art. The combination of these weapons and the graceful Makashi form of lightsaber combat produces a graceful and deadly fighting style.
+
+Up until the Cleansing of the Nine Houses, the quality of Mecrosa lightfoil construction is on par with Jedi lightsabers. However, after these Sith are eliminated, mediocre copies of diminished efficacy spring up due to the lack of Force abilities on the part of their makers. Many nobles in the Tapani Sector pay huge sums of money to obtain lightfoils, and for centuries to come the lightfoil is a favored weapon of Tapani duelists.
+
+A lightfoil is delicately balanced and its wielder may choose to consider it a Small weapon whenever it would be beneficial. However, a lightfoil may not be wielded two-handed. A lightfoil requires an energy cell to operate.",L,M,4500,2d8,,0.5,Energy and slashing,Rare,,,20,"may be considered a Small weapon, cannot be used two-handed; created by Sith knights",practitioners of Makashi
+J,50,"Lightfoil, archaic","Lightfoil, Archaic (JATM)
+Lightsaber
+Lighter than the average lightsaber and more delicately balanced, the archaic lightfoil is wielded with only one hand and was once the favored weapon of many Jedi dueling masters. Originally created by Sith agents in the Tapani Sector, lightfoils promote a more graceful fighting style and are favored by practitioners of the Makashi style of lightsaber combat. Popular in the years leading up to the Great Sith War, the lightfoil in its original form was created in much the same way as other lightsabers and benefitted from the builder's mastery of the Force.
+
+An archaic lightfoil is delicately balanced, and its wielder can choose to consider it a Small weapon whenever it would be beneficial. However, a lightfoil cannot be wielded two-handed.
+
+An archaic lightfoil requires an energy cell to operate.
+
+",L,M,4500,2d8,,0.5,Energy and slashing,Rare,,,20,"may be considered a Small weapon, cannot be used two-handed; created by Sith knights",Old Republic practitioners of Makashi
+J,50,"Lightfoil, modern","Lightfoil, Modern (JATM)
+Lightsaber
+After the decline of the Sith in the Tapani Sector, the art of creating a true lightfoil was all but lost. However, craftsfolk in the employ of the nobles from the Tapani Sector continued to try and meet the demand for the archaic weapon millennia after the secrets of building the original lightfoil died with the Sith who had mastered them. The modern lightfoil, still popular among young Tapani Sector nobles, is less potent than its original form but can be built even by those who have no training in the Force.
+
+A modern lightfoil is delicately balanced, and its wielder can choose to consider it a Small weapon whenever it would be beneficial. However, a lightfoil cannot be wielded two-handed.
+
+A modern lightfoil requires an energy cell to operate.
+
+",L,M,2500,2d6,,0.5,Energy and slashing,Rare,,,15,"may be considered a Small weapon, cannot be used two-handed; created by Sith knights",practitioners of Makashi
+CR,122,Lightsaber,"Lightsaber
+Lightsaber
+The lightsaber, simple in design yet difficult to wield and master, features a handgrip hilt that projects a blade of pure energy. The traditional weapon of the Jedi, the lightsaber stands as a symbol of their skill, dedication, and authority.
+
+The blade of a lightsaber is generated by an energy cell and focused through crystals within the hilt. The saber can cut through most materials (except another lightsaber blade, an energy shield, or a few exotic materials), given enough time. Because only the handgrip has any weight, unskilled users have difficulty judging the position of the blade. The lightsaber's true potential becomes apparent in the hands of a fully trained Jedi, who can defend and attack with the weapon, deflecting shots or striking opponents with the glowing blade.
+
+A lightsaber requires a special energy cell to operate (the cost is ten times the price of an ordinary energy cell, but it lasts almost indefinitely).
+
+Advanced Lightsaber Construction
+(JATM) For some Jedi and Sith, a lightsaber is not just a weapon; it is a personalized emblem of one's life and philosophy. Similarly, some players may wish to customize their Jedi hero's lightsaber to reflect the character's philosophy and fighting style, beyond the basic lightsaber construction rules found in the Saga Edition core rulebook. This following section includes a wealth of new options for players and Gamemasters looking to customize their lightsabers to better fit the characters who wield them.
+
+The lightsaber construction process begins when a hero reaches 7th level. First, the player or Gamemaster must decide what kind of lightsaber to build. The standard lightsaber is the most common lightsaber in the galaxy, and it is not only the easiest to build but also requires no special training to use effectively in combat (besides the standard Weapon Proficiency feat). Once a particular kind of lightsaber has been selected, the next step is to choose a lightsaber crystal. Any character can build a lightsaber from Adegan crystals, Hum crystals, or synthetic crystals; the default assumption is that Jedi (and other lightsaber-wielding traditions) have ample access to these crystals and need perform no special quest to obtain one. However, if you wish to use a lightsaber crystal of another kind, the character may need to undergo a special adventure to obtain the crystal.
+
+Once the desired crystal has been chosen and obtained, the next step is to choose any special accessories or modifications to be made. With that in mind, the construction process can begin. Special lightsaber crystals and lightsaber accessories can modify the DC to construct the lightsaber; when construction begins, using the rules on page 40 of the Saga Edition core rulebook, applying these modifiers to the standard Use the Force check DC before the check is made (the base DC is determined by the kind of lightsaber being built, as presented on Table 3-2). Once the lightsaber is complete, the Jedi attunes the weapon as normal, gaining whatever benefit the attunement provides (based on the kind of lightsaber crystal that was used) for that wielder.
+
+Message From the Faculty: Creator Bonuses
+(JATM) The standard benefit for creating a lightsaber with Adegan, Hum, and synthetic crystals is a +1 untyped bonus on attack rolls with that weapon. This bonus is granted only to the person attuned to the lightsaber, and only the person that built the lightsaber can be attuned to it. Some crystals provide other benefits instead of the +1 bonus on attack rolls. Like the standard benefit, these benefits from the lightsaber crystals apply only to the person who created the lightsaber (provided he or she is attuned to the blade). If a character who is not attuned to the weapon wields it, the weapon still does normal damage and otherwise functions as normal; that person does not receive the benefits of the special crystal. The exception to this rule is crystals that change the weapon's damage type or damage dice, like Barab ingots, Bondar crystals, and Firkraan crystals; this effect applies to the lightsaber's damage no matter who wields it. A lightsaber crystal's description tells you what the bonus is for wielding an attuned lightsaber with a particular crystal.
+
+",L,M,3000,2d8,,1,Energy and slashing,Rare,,100,20,can be thrown,"jedi, sith"
+J,53,Lightsaber pike,"Lightsaber Pike (JATM)
+Lightsaber
+The favored weapon of the Emperor's Shadow Guard, the lightsaber pike resembles a conventional polearm in many respects. The long haft of the weapon is made of phrik alloy, meaning that a lightsaber does not ignore the pike's damage reduction. At the end of the handle is a slightly shorter and thicker lightsaber blade, which can be activated as a swift action using a switch about midway down the weapon's haft. A lightsaber pike increases the wielder's reach by 1 square but imposes a -2 penalty on Use the Force checks to use the Block or Deflect talent.
+
+A character with the Long Haft Form feat (see page 23) can use the lightsaber pike as a double weapon. If you have this feat, you can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty; certain feats and talents can reduce these penalties. The non-lightsaber end of the pike deals 1d6 damage. A lightsaber pike requires an energy cell to operate.
+
+",L,L,4000,2d8,,2,Energy and slashing,Rare,R,,20,"reach increases by 1sq, but -2 block and deflect, phrik alloy, also J53",Emperor's Shadow Guard
+F,199,Lightsaber pike,"Lightsaber Pike (TFUCG)
+Lightsaber
+Employed almost exclusively by the Emperor's Shadow Guard, an elite cadre of Force-wielding Royal Guards, the lightsaber pike resembles a primitive polearm in many respects. The long handle of the weapon is made of a phrik alloy, meaning that a lightsaber does not ignore the pike's damage reduction. At the end of the handle is a slightly shorter and thicker lightsaber blade, which can be activated with a swift action as normal by means of a switch farther down the weapon's haft. A lightsaber pike increases the wielder's reach by 1 square but imposes a -2 penalty on Use the Force checks to use the Block or Deflect talents.
+
+A lightsaber pike requires an energy cell to operate.
+
+",L,L,4000,2d8,,2,Energy and slashing,Rare,R,,20,"reach increases by 1sq, but -2 block and deflect, phrik alloy, also J53",Emperor's Shadow Guard
+J,51,"Lightsaber, archaic","Lightsaber, Archaic (JATM)
+Lightsaber
+Before the Great Sith War, lightsabers required significantly higher power output to maintain the stable, solid blade that makes the weapon useful both for offense and defense. As a result, lightsabers required large power cells, some larger than a human hand, to function at full capacity. These power cells were worn on the belt or on the back and were connected to the hilt of the lightsaber via a long, slender cord. Around the same time that pulse-wave weapons were phased out in favor of modern blasters, lightsabers underwent a design revolution that miniaturized the power cells required to fuel the energy blade. With the development of this new technology, the Jedi devised methods of lightsaber creation that integrated these drastically smaller power cells into the hilt of the lightsaber, eliminating the need for the external power pack. With this revolution, the archaic lightsaber design was almost entirely abandoned.
+
+An archaic lightsaber is somewhat weaker than the classic lightsaber due to the lack of a sophisticated power supply and the distance of the energy cell from the lightsaber's main body.
+
+An archaic lightsaber requires a special power pack (which costs 600 credits) to operate.
+
+Holocron Lesson: Archaic Power Racks and ""Retrosabers""
+The archaic lightsaber is an example of how ancient technology evolved into an object of great importance in modern times. Though few examples of archaic lightsabers still exist in the galaxy, Jedi historians have pre¬served a few of these ancient weapons and have even devised ways of recharging their failing power packs.
+
+The archaic power pack has one advantage over its modern analogs. The fact that the lightsaber is physically attached to the power pack by a power cord means that the weapon doesn't go far or roll away on its own when dropped, though any kind of force applied to the power cord (such as a disarm attempt) immediately disconnects the lightsaber from its power source.
+
+For modern Jedi, there is almost no reason to use an archaic lightsa¬ber with its special, belt-mounted power packs other than for nostalgic reasons. However, Jedi artisans have spent years examining archaic power packs, in search of a way to turn its disadvantages into advantages. At least one Jedi Master claims to have found a way to reconstruct the archaic power cell using modern technology, creating a version of the archaic lightsaber that uses the most cutting edge components. Though still possessing the form of an archaic lightsaber—a blade-emitting hilt connected to a belt-mounted power pack-this weapon takes advantage of thousands of years of technological achievement to produce a weapon that is not only as potent a the modern lightsaber but also possesses some unique advantages that Jedi artisans have sought for decades.
+
+Construction of an archaic lightsaber using modern components- dubbed the retrosaber by its creators-follows much the same process as construction of a normal lightsaber. A retrosaber has a base construc¬tion DC of 25 and deals 2d8 damage (instead of the archaic lightsaber's usual 2d6). As a swift action, the wielder can dial up the lightsaber's power, increasing the base damage to 2d10 until the end of the wielder's next turn. At the end of the wielder's next turn, the lightsaber begins to burn out, decreasing the weapon's base damage to 2d4 for one round. During that round, the lightsaber's damage may not be dialed back up to 2d10.",L,M,2000,2d6,,1,Energy and slashing,Rare,,600,15,,
+J,52,"Lightsaber, crossguard","Lightsaber, Crossguard (JATM)
+Lightsaber
+An extremely rare lightsaber variant that is usually only found in the hands of skilled lightsaber duelists, the crossguard lightsaber (sometimes referred to as a forked lightsaber) has a special hilt that emits two lightsaber blades. The first blade is the standard, full-length blade common to all lightsabers. The crossguard lightsaber also emits a second blade, less than a human handspan in length and narrower than the standard blade, at an angle away from both the hilt and the main blade. This secondary blade is used to protect the wielder's hand from lightsaber attacks that slide down the blade. The crossguard lightsaber also enables the wielder to parry incoming lightsaber attacks between either of the two blades, making it easier to block lightsaber attacks.
+
+When using a crossguard lightsaber with the Block talent, each successive Use the Force check made to block n incoming attack incurs only a cumulative -2 penalty, instead of the normal -5 penalty. However, a crossguard lightsaber can be difficult to master against ranged opponents, and as such the wielder takes a -2 penalty on all Use the Force checks made to use the Deflect talent.
+
+A crossguard lightsaber requires an energy cell to operate.
+
+",L,M,4000,2d8,,0.7,Energy and slashing,Rare,,,25,"successive Use the Force checks to block are -2 not -5, always -2 to Deflect",skilled lightsaber duelists
+CR,123,"Lightsaber, double","Lightsaber, Double-Bladed
+Lightsaber
+The double-bladed lightsaber consists of two sabers fused at their hilts. These weapons are rare and require even greater skill to wield than single-bladed lightsabers. One or both blades can be ignited at once.
+
+With both blades ignited, a double-bladed lightsaber is a double weapon. You can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty (although certain feats and talents can reduce these penalties).
+
+A double-bladed lightsaber requires two special energy cells to operate (the cost of each is ten times the price of an ordinary energy cell, but it lasts almost indefinitely).
+
+",L,L,7000,2d8/2d8,,2,Energy and slashing,Rare,,200,,,
+J,51,"Lightsaber, dual-phase","Lightsaber, Dual-Phase (JATM)
+Lightsaber
+A dual-phase lightsaber is a lightsaber variant that, at first glance, appears to be identical to a standard lightsaber, with a small handle emitting an energy blade about 1.3 meters long. However, dual-phase lightsabers include a complex array of multiple lightsaber crystals within the handle of the weapon, allowing the user to switch the blade's length from the standard length out to a length of nearly 3 meters. Dual-phase lightsabers are extremely popular during the days of the Jedi Civil War and the surrounding time periods due to the large number of lightsaber-wielding opponents a Jedi is likely to face. The longer blade setting allows the wielder to keep an opponent at a distance during a duel, but lightsabers on this setting are also more unwieldy, making it difficult to defend against enemies that get up close to the wielder.
+
+In its basic setting, a dual-phase lightsaber functions as a normal lightsaber. As a swift action, the wielder can switch to the extended blade setting. While on this setting, the lightsaber increases the wielder's reach by 1 square, but the wielder also takes a -2 penalty to Reflex Defense against attacks made by adjacent targets.
+
+If you use a lightsaber crystal with a special effect when constructing a dual-phase lightsaber, that crystal's effect applies to both the default set¬ting and the extended blade setting (see also the Message from the Faculty: Dual-Phase Lightsaber Variants sidebar).
+
+A dual-phase lightsaber requires an energy cell to operate.
+
+Message from the Faculty; Dual-Phase Lightsaber Variants
+Some Jedi adapt the technology behind dual-phase lightsabers to allow them to wield a weapon that uses two different lightsaber crystals with different effects. When constructing a dual-phase lightsaber, you can choose a lightsaber crystal as normal for the default weapon setting and also apply its properties to its extended blade setting.
+
+However, instead of gaining the extended blade setting of a normal dual-phase lightsaber, you can instead choose a second lightsaber crystal with a different effect to add to your lightsaber. If you do this, you create two settings for your lightsaber with mutually exclusive effects. When you use a swift action to change the setting of the lightsaber, you then gain the benefits of whichever crystal is attuned to that setting.
+
+For example, you might choose an Hum crystal for your default crystal (gaining the +1 Force bonus on attack rolls), and then a Bondar crystal for the second phase crystal (which converts the weapon's damage to stun damage). If you switch from the default setting to the Bondar crystal setting, you lose the +1 Force bonus on attack rolls but gain the ability to convert the weapon's normal damage to stun damage.
+
+",L,M,6000,2d8,,0.5,Energy and slashing,Rare,R,,25,"swif to extend blade to 3m or +1 sq reach but -2 Ref Def v. adjacent, or sacrifice extended blade setting to have more than one crystal/effect",duelists of Jedi Civil War
+J,52,"Lightsaber, dueling","Lightsaber, Dueling (JATM)
+Lightsaber
+The dueling lightsaber isn't so much a variant lightsaber as it is a hilt style engineered specifically to enhance lightsaber duels. Count Dooku and his apprentices, Komari Vosa and Asajj Ventress, wield dueling lightsabers that feature a curved hilt designed to maximize the potential of a one-handed, finesse-based fighting style.
+
+When you wield a dueling lightsaber one-handed, you gain a +1 equipment bonus on attack rolls whenever you make an attack of opportunity with the weapon.
+
+A dueling lightsaber requires an energy cell to operate.
+
+",L,M,3000,2d8,,0.3,Energy and slashing,Rare,,,25,when wielding one-handed +1 attacks of opportunity,"one-handed, finesse-based fighters"
+J,53,"Lightsaber, great","Lightsaber, Great (JATM)
+Lightsaber
+Favored by Large species, the great lightsaber produces an oversized lightsaber blade. The blade of a great lightsaber is much longer and thicker than that of a normal lightsaber, and the handle itself is nearly as long as that of a double-bladed lightsaber. Only Large (or larger) creatures can use the great lightsaber in conjunction with feats that affect light weapons or lightsabers (such as the Weapon Finesse feat or talents from the melee duelist prestige class in the Knights of the Old Republic Campaign Guide). A great lightsaber requires an energy cell to operate.
+
+",L,L,5000,2d10,,5,Energy and slashing,Rare,,,20,only a Large creature can use with feats that affect light weapons or lightsabers,Large species
+L,62,"Lightsaber, long-handle","Lightsaber, Long-Handle (LECG)
+Lightsaber
+A weapon favored by the Sith Lord Darth Nihl, the long-handle lightsaber caters to a particular fighting style. The weapon's handle grip is several times larger than the standard lightsaber, making it easier to swing the weapon around the body using arms, legs, shoulders, hips, and other joints as fulcrums upon which the lightsaber can be levered.
+
+The fighting style used with a long-handled lightsaber takes advantage of the larger grip to allow the wielder to rotate the weapon around his body. When you wield the lightsaber two-handed, you can choose to forego doubling your Strength bonus to damage and instead increase the lightsaber's base damage to 2d10.
+
+A long-handle lightsaber requires an energy cell to operate.
+
+",L,L,4500,2d8 (2d10),,2,Energy and slashing,Rare,,,20,"can do 2d10 damage instead of doubling damage with two hands, also J53",
+J,53,"Lightsaber, long-handle","Lightsaber, Long-Handle (JATM)
+Lightsaber
+The long-handle lightsaber caters to a particular fighting style. The handle where the weapon is gripped is several times larger than the standard lightsaber handle, providing a much larger surface area upon which the wielder can place his hands. Likewise, this longer grip makes it easier to swing the weapon around the body, using arms, legs, shoulders, hips, and other joints as fulcrums upon which the lightsaber can be levered.
+
+The fighting style used with a long-handled lightsaber takes advantage of the larger grip to allow the wielder to rotate the weapon around his body. When you wield the lightsaber two-handed, you can choose to forego doubling your Strength bonus to damage and instead increase the lightsaber's base damage to 2d10. Additionally, a character with the Long Haft Form feat (see page 23) can use the long-handle lightsaber as a double weapon. If you have this feat, you can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty; certain feats and talents can reduce these penalties. The haft end of the lightsaber deals 1d6 damage. A long-handle lightsaber requires an energy cell to operate.
+
+",L,L,4500,2d8 (2d10),,2,Energy and slashing,Rare,,,20,"can do 2d10 damage instead of doubling damage with two hands, also J53",
+J,50,"Lightsaber, retrosaber","Lightsaber, Archaic and ""Retrosabers"" (JATM)
+Lightsaber
+
+Construction of an archaic lightsaber using modern components- dubbed the retrosaber by its creators-follows much the same process as construction of a normal lightsaber. A retrosaber has a base construction DC of 25 and deals 2d8 damage (instead of the archaic lightsaber's usual 2d6). As a swift action, the wielder can dial up the lightsaber's power, increasing the base damage to 2d10 until the end of the wielder's next turn. At the end of the wielder's next turn, the lightsaber begins to burn out, decreasing the weapon's base damage to 2d4 for one round. During that round, the lightsaber's damage may not be dialed back up to 2d10.
+",L,M,3000,2d8,,1,Energy and slashing,Rare,,,25,"swift to dial up damage to 2d10 until end of next turn, then damage becomes 2d4 for 1 rnd",
+CR,123,"Lightsaber, short","Lightsaber, Short
+Lightsaber
+Small Jedi characters such as Master Yoda favor the short lightsaber, sometimes called a shoto. Jedi skilled at two-weapon fighting often use the shoto as their off-hand weapon of choice.
+
+A short lightsaber requires a special energy cell to operate (the cost is ten times the price of an ordinary energy cell, but it lasts almost indefinitely.) 
+
+",L,S,2500,2d6,,0.5,Energy and slashing,Rare,T,100,,can be thrown,Small Jedi characters
+J,53,Lightwhip,"Lightwhip (JATM)
+Lightsaber
+A lightwhip is similar to a lightsaber in that it emits a beam of energy from its handgrip. The device differs, though, in that the ""blade"" is long and flexible, giving it the properties of a whip. Although a lightwhip has a greater reach, it lacks the power of a more traditional lightsaber.
+
+A lightwhip has a reach of 2 squares. When you hit a target with a lightwhip, it deals normal damage and you can initiate a grab or a grapple against the target. A target that is grabbed or grappled can attempt to escape the lightwhip (requiring a DC 15 Acrobatics check). You can use the Pin and Trip feats with a lightwhip, but you cannot use the Crush or Throw feats. Any character that ends its turn in a grab or grapple from a lightwhip takes damage equal to the weapon's base damage (you do not add your Strength bonus, half your heroic level, or any other modifiers to this damage). A lightwhip requires an energy cell to operate.
+
+",L,M,5000,2d4,,1,Energy and slashing,Rare,R,,25,"reach 2sq, can be used to pin or trip without feat, also J53","Sith, Nightsisters, darksiders"
+T,84,Lightwhip,"Lightwhip (TotG)
+Lightsaber
+A lightwhip is similar to a lightsaber in that it emits a beam of energy from its handgrip. The device differs, though, in that the ""blade"" is long and flexible, giving it the properties of a whip, Although a lightwhip has a greater reach, it lacks the power of a more traditional lightsaber.
+
+A lightwhip has a reach of 2 squares. Aside from the normal damage this weapon deals in combat, it can be used to pin and trip the target as if the wielder was using the Pin or Trip feat; the wielder must be proficient with lightsabers but doesn't need to have the Pin or Trip feat to use this feature of the weapon.
+
+",L,M,5000,2d4,,1,Energy and slashing,Rare,R,,25,"reach 2sq, can be used to pin or trip without feat, also J53","Sith, Nightsisters, darksiders"
+W,242,Ludo Kressh's War Sword,"Ludo Kressh's War Sword (W)
+Simple Weapon, Heirloom Item
+Sith alchemical war sword, steeped in the dark side (Medium simple weapon, 1d8 damage, can spend a Force Point to gain bonus to damage equal to Dark Side Score, steeped in the dark side).
+
+",S,M,,1d8,,2,Slashing or piercing,,,,,"Legendary icon Sith alchemical war sword, steeped in the dark side; spend FP to gain bonus to damage equal to Dark Side Score",
+L,98,Luke Skywalker's Lightsaber,"Luke Skywalker’s Lightsaber (LECG)
+Lightsaber, Heirloom Item
+Once the lightsaber of Anakin Skywalker before his transformation into Darth Vader, this blue-bladed lightsaber was given to luke Skywalker by Obi-Wan Kenobi on Tatooine and served as Luke's primary weapon until the fateful duel on Cloud City. Years later, the lightsaber reappeared in the hands of Luke's clone, and was then handed down through the Skywalker family via Mara Jade Skywalker and their son, Ben Skywalker.
+
+The heroes might come into possession of this iconic lightsaber simply by being a member of the Skywalker lineage, or perhaps the weapon is recovered from the remnants of the Ossus academy following the Sith-Imperial War.
+
+Luke Skywalker's Lightsaber: Medium lightsaber (2d8 damage) and legendary icon (grants favorable  circumstances on Charisma-based skill checks, except for Use the Force checks).
+
+",L,M,,2d8,,1,Energy and slashing,Rare,,,,Legendary icon and heirloom lightsaber (see L 97),
+CR,123,Mace,"Mace
+Simple Weapon
+The mace is a weapon made of metal, consisting of a heavy ball atop a handle.
+
+",S,M,50,1d8,,2.5,Bludgeoning,,,,,,Mandalorian
+GI,212,Machete,,S,S,,1d6,,,Slashing,,,,,,
+K,202,Mythosaur Axe,"Mythosaur Axe
+Simple Weapon
+Crafted from the calcified bones of the extinct monster for which it is named, the Mythosaur axe is one ceremonial weapon that can be deadly. Mandalore the Ultimate's variation, atop a staff, uses modern metals and an energy cell to achieve double the damage.
+
+",S,L,1000,1d12,,10,Slashing,"Restricted, Rare",,,,,Mandalorian Crusaders
+K,200,Mythosaur Axe (modernized),"Mythosaur Axe
+Simple Weapon
+Crafted from the calcified bones of the extinct monster for which it is named, the Mythosaur axe is one ceremonial weapon that can be deadly. Mandalore the Ultimate's variation, atop a staff, uses modern metals and an energy cell to achieve double the damage.
+
+",AM,L,,2d12,,10,Slashing,"Restricted, Rare",,,,"uses modern metals & energy cell for double damage, used by Mandalore the Ultimate",Mandalore the Ultimate
+L,68,Natural weapon bio-implant,,U,,4000,1d6,,,"Slashing, piercing, or bludgeoning",Illegal,,,,"may deal slashing, piercing, or bludgeoning damage instead of unarmed damage; creature considered armed",
+F,200,Neuronic whip,"Neuronic Whip (TFUCG)
+Exotic Weapon
+A neuronic whip is a long, flexible cable connected to a power pack in a handle that delivers a stunning jolt on contact. Unlike a typical leather whip, the heavy cable can crack bones and break flesh, but it is extremely unlikely to kill. As a result, the neuronic whip was very popular with slavers. A target successfully hit by a neuronic whip takes normal stun damage, plus ld4 points of slashing damage. Additionally, a neuronic whip increases the wielder's reach by 1 square.
+
+A neuronic whip requires an energy cell to operate.
+
+",E,M,500,,2d8,0.5,Bludgeoning and energy,Restricted,R,,,deals 2d8 stun + 1d4 slashing damage; reach increases by 1sq,slavers
+F,97,Power hammer,"Power Hammer (TFUCG)
+Advanced Melee Weapon
+A power hammer is a durasteel bludgeoning weapon with a small gravity generator located in the head. The user triggers the gravity generator on the downward end of a swing, causing the hammer to hit with more power than the muscles of the wielder can impart to it (though it's difficult for the wielder to swiftly recover from a blow). This results in a weapon that can smash through armored plates or solid rock. Power hammers were originally used by asteroid miners. They became popular melee weapons after a few conflicts early in the history of the Empire when mining companies found their possessions claimed by the Empire, and their miners fought back.
+
+Extra damage from the use of the Power Attack feat can be added to damage dealt to an object or a vehicle with a power hammer. If you use the Double Attack, Triple Attack, or Rapid Strike feats with a power hammer, you take an additional -2 penalty on attack rolls.
+
+A power hammer requires two energy cells to operate.
+
+",AM,L,1500,2d12,,10,Bludgeoning,Restricted,,,,"Double Atk, Triple Atk, Rapid Strike -2 Atk",
+R,48,Power Lance,"Energy Lance/Power Lance (RECG)
+Advanced Melee Weapon
+Essentially, an energy lance is a force pike that has been combined with an electromagnetic pulse generator (the same kind used by an electrostaff) and balanced for use while riding a mount. Energy lances once were commonly carried by honor guards and ceremonial troops such as the Mon Calamari Knights, and many such weapons still in circulation bear signs of their once- proud heritage. Though an energy lance is a Large weapon, it is balanced in such a way that a Medium creature trained in the Ride skill can wield it in one hand when mounted. If an energy lance is wielded by a Medium creature that is not mounted, attacks with the weapon take a -1 penalty.
+
+The electromagnetic pulse can also be channeled along the length of the staff and fired from the tip as a bolt of plasma. When used in this way, the energy lance functions as a blaster carbine with no stun setting. This use of the energy lance requires a power pack, and has the same ammunition capacity as a blaster carbine.
+
+An energy lance requires two energy cells to operate. Its melee attack and its ranged attack both function underwater.
+
+Power lances are energy lances that lack the ability to fire bolts of plasma. These weapons are significantly cheaper and are mass-produced as secondary weapons for scouts on speeder bikes and for cavalry.
+
+",AM,L,2500,2d8,,5,Bludgeoning and energy,Licensed,,,,-1 if medium creature and not mounted; Mon Calamari traditional weapon,"honor guards,  ceremonial troops, Mon Calamari Knights"
+CR,139,Power prybar,,S,T,,1d8,,,Bludgeoning,,,,,normally a tool but can be used as makeshift weapon at -5 penalty (see Tool Kit); droid tool mounts avoid penalty,
+CR,124,Quarterstaff,"Quarterstaff
+Simple Weapon
+A quarterstaff is made of wood, plasteel, or a metal alloy. A user can strike with either end of the quarterstaff, taking full advantage of any openings in an opponent's defenses.
+
+A quarterstaff is a double weapon. You can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty; certain feats and talents can reduce these penalties.
+
+",S,L,65,1d6/1d6,,1.8,Bludgeoning,,,,,,
+SGD,88,Rapier,,S,S,,1d8,,,Slashing or piercing,,,,,,
+T,77,Riot Shield,"Riot Shield (TotG)
+Simple Weapon
+Riot shields are common gear for law enforcement and planetary defense forces. Measuring about 1 meter long and half as wide, a riot shield is made of a metal frame that generates an energy shield that bends light so that its outer surface is opaque while its inner side is transparent, allowing you unobstructed vision but not extending the same benefit to your opponents. A riot shield has DR 5, 20 hit points, and a break DC of 25.
+
+When held, a riot shield grants you cover (+5 cover bonus to your Reflex Defense) against all ranged attacks on any turn during which you fight defensively. You can also wield a riot shield as a melee weapon. When used in this way, it has the same statistics as a stun baton (SE 123).
+
+",S,,500,1d6,2d6,6,Bludgeoning,,,,,shield is DR5 20hp break DC25; provides cover (+5 cover to Ref) against ranged attack when you fight defensively,law enforcement and planetary defense
+F,97,Ryyk blade,"Ryyk Blade (TFUCG)
+Exotic Weapon
+A ryyk blade is a traditional Wookiee blade used for hunting, clearing paths, and (if necessary) combat. The blade is always a broad, curved design, and the handle is wrapped in leather, but the exact style varies from Wookiee to Wookiee. For a non-Wookiee to use a ryyk without having earned the right is an insult to most Wookiees. In fact, Trandoshan slavers often carry ryyk blades from captured Wookiees just to mock them.
+
+Wookiees who have the Weapon Proficiency (advanced melee weapons) feat are proficient with the ryyk blade. A proficient character carrying a ryyk blade gains a +2 bonus on Survival checks made for basic survival in forest or jungle wilderness.
+
+",E,M,500,2d10,,1.5,Slashing,Rare,,,,"Wookiees treat Ryyk blades as advanced melee weapons, not exotic weapons.",Wookiees
+J,53,San-ni staff,"San-Ni Staff (JATM)
+Advanced Melee Weapon
+The san-ni staff is favored by martial artists throughout the galaxy, including Jedi weapon masters looking for more variety than the lightsaber offers. Consisting of three metal rods held together by power couplings, the san-ni staff is a flexible weapon that can be whipped around the wielder's body in combat, both for leverage and to confuse an opponent. Moreover, a san-ni staff's power couplings are made of pure energy that are impervious to lightsaber damage (much as lightsaber blades are).
+
+The san-ni staff is a double weapon. You can attack with both ends of a san-ni staff as a full-round action, but both attack rolls take a -10 penalty; certain feats and talents can reduce these penalties. Additionally, the san-ni staff can be used in conjunction with the Block talent as though it were a lightsaber. Also, the wielder of a san-ni staff can designate (at the time the attack is made) that he or she is striking the opponent with the power couplings, dealing stun damage instead of normal, lethal damage. A san-ni staff requires two energy cells to operate.
+
+",AM,L,4500,2d6/2d6,2d6/2d6,2.2,Bludgeoning and energy,Rare,,,,can be used with Block as if it was a lightsaber,"martial artists, Jedi weapon masters"
+GW,37,Shock stick,"Shock Stick (GaW)
+Advanced Melee Weapon
+The shock stick is a melee weapon that delivers a stunning blow to the enemy's senses. Using technology similar to that of a stun baton, a shock stick has the added benefit of delivering its stunning energy in a rapid, overwhelming burst that can completely disable less hardy beings.
+
+A shock stick always deals stun damage. When a target susceptible to stun damage is hit by a shock stick, compare the damage (before halving) to the target's current hit point total. If the damage equals or exceeds the target's hit point total, the target moves -5 steps on the condition track and is knocked unconscious. Otherwise, compare the result to the target's damage threshold and resolve the attack as normal.
+
+A shock stick requires an energy cell to operate. Additionally, a shock stick can be mounted on a weapon as a bayonet (see page 121 of the Saga Edition core rulebook). When a shock stick is mounted on a rifle as a bayonet, the wielder takes no penalty to attacks with the shock stick for not having the Weapon Proficiency (advanced melee weapons) feat, if the wielder is proficient in the rifle's use.
+
+",AM,L,450,,3d6,1.4,Energy,Licensed,,,,can be mounted as a bayonet & not necessary to have AM feat,"crowd-control weapon, security forces, slavers, brawlers "
+L,62,Shock whip,"Shock Whip (LECG)
+Advanced Melee Weapon
+A nasty weapon deemed by many to be unnecessarily painful, the shock whip has been used by warriors throughout the galaxy for generations. Fast and cruel, the shock whip is the chosen weapon of the Mistryl Shadow Guards and is also used by the Sith Lord Darth Maleval. A shock whip consists of a metal grip from which extend long, thick wires woven together into a single strand. The metal grip houses a power cell that can send a surge of energy through the shock whip's cord, issuing an electric shock to the target.
+
+A shock whip is a melee weapon with a reach of 2 squares. When you hit with the shock whip, the target takes normal damage from the weapon (as listed on Table 5-1: Melee Weapons). Also on a hit, you can choose to make a grab attack (as a free action) against the target using the whip, provided the target is no more than one size category larger than you. Unlike a normal grab attack, you make a second attack roll at the normal attack bonus with the whip, and you do not take a -5 penalty on the attack roll. If this second attack roll hits, the target is grabbed. As a swift action once per turn, you can automatically deal 2d6 energy damage to a target grabbed by the shock whip (no additional attack roll required).
+
+If you have the Trip feat, you can choose to use the shock whip to knock the target prone instead of making a grab attack.
+
+While grabbing a target with the shock whip, you cannot use the weapon to make attacks against any other targets.
+
+A shock whip requires an energy cell to operate.
+
+",AM,S,1200,1d6,,2.3,Bludgeoning,Restricted,R,,,"reach 2sq, can grab but do not take -5 atk, swif each turn for 2d6 dam",Mistryl Shadow Guards
+GW,37,Shockboxing gloves (for Med. chars.),"Shockboxing Gloves (GaW)
+Simple Weapon
+Shockboxing gloves are powered gauntlets worn during a shockboxing match. Shockboxing gloves protect the wearer's hands and also deal damage to any character hit by them. Shockboxing gloves are similar to stunning gauntlets (see page 202 of the Knights of the Old Republic Campaign Guide). However, unlike stunning gauntlets, shockboxing gloves have various settings, from lethal to a light shock (for sparring) as well as a stun setting.
+
+Shockboxing gloves provide a +1 bonus to damage with a successful unarmed attack. They can be set to stun as a swift action, converting the wearer's unarmed damage to stun damage (and providing the +1 bonus to stun damage).
+
+Shockboxing gloves are two sizes smaller than their wearer (for example, a pair of shockboxing gloves designed for a Human are Tiny). The way shockboxing gloves are worn prevents the wearer from being disarmed or from dropping them.
+
+",S,M,600,1,1,0.5,Bludgeoning and energy,Restricted,,,,set to stun as swif; are 2 sizes smaller than wearer,Shockboxers
+GW,37,Shockboxing gloves (for Small chars.),"Shockboxing Gloves (GaW)
+Simple Weapon
+Shockboxing gloves are powered gauntlets worn during a shockboxing match. Shockboxing gloves protect the wearer's hands and also deal damage to any character hit by them. Shockboxing gloves are similar to stunning gauntlets (see page 202 of the Knights of the Old Republic Campaign Guide). However, unlike stunning gauntlets, shockboxing gloves have various settings, from lethal to a light shock (for sparring) as well as a stun setting.
+
+Shockboxing gloves provide a +1 bonus to damage with a successful unarmed attack. They can be set to stun as a swift action, converting the wearer's unarmed damage to stun damage (and providing the +1 bonus to stun damage).
+
+Shockboxing gloves are two sizes smaller than their wearer (for example, a pair of shockboxing gloves designed for a Human are Tiny). The way shockboxing gloves are worn prevents the wearer from being disarmed or from dropping them.
+
+",S,S,500,1,1,0.4,Bludgeoning and energy,Restricted,,,,set to stun as swif; are 2 sizes smaller than wearer,Shockboxers
+K,65,Shockstaff,"Shockstaff (KotORCG)
+Advanced Melee Weapon
+The Old Republic equivalent of the electrostaff, this weapon is laced with phrik alloy, so lightsabers do not ignore the shockstaffs damage reduction. The shockstaff does stun damage equal to its normal damage, and can be set to stun as a swift action.
+
+A shockstaff is a double weapon. You can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty (although certain feats and talents can reduce these penalties). A shockstaff requires two energy cells to operate.
+
+",AM,L,3500,2d6/2d6,2d6/2d6,3,Bludgeoning and energy,Restricted,,,,set to stun as swif,Old Republic
+K,65,Short sword,"Short Sword (KotORCG)
+Simple Weapon
+A weapon of ancient design, the short sword is a simple weapon used to deflect incoming melee attacks. Short swords are often used by warriors wielding two weapons.
+
+",S,S,40,1d6,,1.5,Slashing or piercing,,,,,,
+J,50,"Shoto, guard","Shoto, Guard (JATM)
+Lightsaber
+A rare variant of the short shoto style of lightsaber, the guard shoto (also referred to as the lightsaber tonfa) has a second handle that sticks out from the main hilt at a 90-degree angle. It is possible to hold a guard shoto by either the main hilt or the second handle. If it is held by the second handle, the lightsaber blade can be held parallel to the forearm, allowing it to easily be used for blocks.
+
+Because a guard shoto is designed primarily to block other lightsabers, it is most useful when its handle is laced with phrik (a lightsaber-resistant metallic compound), which can be an expensive process.
+
+A character proficient with the guard shoto gains a +2 equipment bonus on Use the Force checks to block melee attacks or deflect ranged attacks using the Block or Deflect talent. Additionally, lightsabers do not ignore the DR of a guard shoto with a phrik-laced handle. A guard shoto requires an energy cell to operate.
+
+",L,S,7000,2d4,,1,Energy and slashing,Rare,,,20,"+2 to Block or Deflect, J52 also",dark jedi Maris Brood
+F,96,"Shoto, guard","Shoto, Guard (TFUCG)
+Lightsaber
+A rare variant of the short shoto style of short lightsaber, the guard shoto (also referred to as the lightsaber tonfa) has a second handle that sticks out from the main hilt at a 90-degree angle. It is possible to hold a guard shoto by either the main hilt or the second handle. If it is held by the second handle, the lightsaber blade can be held parallel to the forearm, allowing it to easily be used for blocks. Because a guard shoto is designed primarily to block other lightsabers, it is most useful when its handle is laced with phrik (a lightsaber-resistant metallic compound), an expensive process. A character proficient with the guard shoto gains a +2 equipment bonus on Use the Force checks to block melee attacks or to deflect ranged attacks using the Block talent or the Deflect talent. Additionally, lightsabers do not ignore the DR of a guard shoto.
+
+",L,S,7000,2d4,,1,Energy and slashing,Rare,,,20,"+2 to Block or Deflect, J52 also",dark jedi Maris Brood
+K,65,Shyarn,"Shyarn (KotORCG)
+Exotic Weapon
+The shyarn is a rare weapon of Cerean design. Its blade is magnetically charged, which (in the hands of one trained in its use) can make the blade accelerate toward the weapons and armor of the enemy. A character wielding a shyarn takes no penalty to attack rolls when using the Rapid Strike feat.
+
+",E,T,40,3d4,,1,Slashing or piercing,Rare,,,,no penalty using Rapid Strike; Cerean weapon,Cerean
+T,159,Sith Sword,"Sith Sword (TotG)
+Simple Weapon
+The Sith sword is a weapon created during the days of the Sith Empire using arcane alchemical techniques. A Sith sword is physically identical to most archaic swords, though the alchemical treatment it receives makes it nearly as dangerous as a lightsaber. A lightsaber does not ignore a Sith sword's DR, and characters who are proficient with the Sith sword can treat it as a lightsaber for the purposes of using the Block, Deflect, and Redirect Shot talents (and any talents that have those Jedi talents as a prerequisite) .
+
+Additionally, a Sith sword becomes more powerful in the hands of a character who is steeped in the dark side of the Force. A character proficient in the Sith sword's use can spend a Force Point as a swift action to gain a bonus to damage rolls with the Sith sword equal to his or her Dark Side Score. This bonus to damage applies to the next attack made before the end of the encounter, and activating this ability increases the wielder's Dark Side Score by 1.
+
+",S,M,3000,1d8,,3,Slashing or piercing,"Illegal, Rare",,,,"treat as lightsaber, spend FP as swif = dam = Dark Side score",Sith
+K,147,Sith Tremor Sword,"Sith Tremor Sword (KotORCG)
+Advanced Melee Weapon
+A Sith tremor sword is a deadly throwback to the blades wielded by the ancient Sith Lords of Ziost. Sith tremor swords are dire vibroblades with the cortosis weave template.
+
+",AM,M,72,2d6,,2,Slashing or piercing,Licensed,,,,awarded to bladeborn master blades; comes with Cortosis Weave template,Sith
+K,147,Sith War Sword,"Sith War Sword (KotORCG)
+Simple Weapon
+The prized weapons of ancient Sith Lords, the Sith war sword is an incredibly sharp blade treated with ancient Sith alchemy to produce a deadly weapon. Sith war swords are war swords with the Sith alchemical weapon template.
+
+",S,M,2050,1d8,,2,Slashing or piercing,,,,,comes with Sith Alchemical Weapon template,Sith
+C,59,Snap Baton,"Snap Baton (CWCG)
+Simple Weapon
+The snap baton is a collapsible weapon that expands from its tiny handle to become a 1-meter-long rod. In its collapsed form, it is easily carried in a pocket or utility belt. Expanding or collapsing the weapon takes a swift action. Several models are available, including specially colored versions to appeal to a wide range of customers. Models that incorporate additional functions such as a panic alarm or a built-in glowrod sell for double the price. One model made by Merr-Sonn even includes an outer layer of sound dampening material that muffles the sound made when the baton hits its target. Snap batons are popular in urban areas, especially with thugs.
+
+",S,S,100,2d4,2d4,1,Bludgeoning,,,,,"Merr-Sonn model sound dampener, add glowrod etc for double cost",thugs
+CR,139,Sonic welder,,S,T,,1d8,,,Energy,,,,,normally a tool but can be used as makeshift weapon at -5 penalty (see Tool Kit); droid tool mounts avoid penalty,
+CR,124,Spear,"Spear
+Simple Weapon
+A common weapon used by hunters and warriors in primitive cultures, the spear is a long wooden pole with a sharp end fashioned from stone or metal. Members of more advanced cultures enjoy using spears for sport, though these weapons are usually constructed out of a durable metal alloy. Spears can be used as thrown weapons.
+
+",S,M,60,1d8,,1.5,Piercing,,T,,,can be thrown,primitive hunters and warriors
+C,186,Spiked flail,,S,M,,1d8,,,Bludgeoning and piercing?,,,,,,Durge
+GW,37,Static pike,"Static Pike (GaW)
+Advanced Melee Weapon
+Static pikes are reach weapons utilized by the Picadors on Geonosis. Primarily employed to herd reticent animals or to goad dangerous ones, the static pike is also an effective weapon. The tip of the weapon is incredibly sharp, but the main purpose of the weapon is to deliver an electric shock, which can be adjusted either to stun a creature or to give a potentially lethal jolt. The handle of the static pike is insulated to protect the wielder from accidental electrocution.
+
+Static pikes can be set to deliver either lethal or stun damage. A static pike is balanced, allowing the wielder to throw it like a spear. A static pike requires an energy cell to operate.
+
+From the table: This is a reach weapon.
+
+",AM,L,300,2d6,2d6,1.8,Energy and piercing,Restricted,"T,R",,,can be thrown like a spear; used by Geonosian arena guards (Picadors); this is a reach weapon,Picadors on Geonosis
+CR,124,Stun Baton,"Stun Baton
+Simple Weapon
+A short club with a power pack in the handle, the stun baton can be activated to produce a stunning charge when it strikes a target (see Stunning, page 162).
+
+A stun baton requires an energy cell to operate.
+
+",S,S,15,1d6,2d6,0.5,Bludgeoning,,,,,,"crowd-control weapon, security forces, slavers, brawlers "
+W,289,Stun Bayonet,"Stun Bayonet (W)
+Advanced Melee Weapon
+When mounted on a rifle, a stun bayonet allows you to use a rifle as a potent melee weapon. Even if you used the rifle to make a ranged attack on your last turn, you still threaten squares within your reach as long as your rifle has a mounted stun bayonet and you can use it to make attacks of opportunity. A stun bayonet requires two hands to use when mounted on a rifle.
+
+A stun bayonet cannot be used when mounted on a rifle with a folded stock. A stun bayonet detached from a rifle functions as a stun baton of the same size (medium); a mounted stun baton deals more damage than a stun baton because of the added leverage and bulk. Because of it's implementation into military and police organizations, characters with the Martial Arts I feat and that are proficient with rifles treat this as a simple weapon when mounted.
+
+A stun bayonet requires an energy cell to operate. (Its power does not drain energy from the rifle's power pack)
+
+",AM,S,500,1d6,2d8,2,Bludgeoning and energy,Restricted,,,,treat as simple weapon if you have Martial Arts I & WP rifles,
+K,202,Stunning Gauntlet,"Stunning Gauntlet (KotORCG)
+Simple Weapon
+An insulated glove with an embedded energy cell, the stunning gauntlet produces an electrifying charge when it strikes a target. A stunning gauntlet changes the wearer's unarmed melee attacks to stun damage, and they provide a + 1 bonus to stun damage on a successful unarmed attack.
+
+Stunning gauntlets are two sizes smaller than their wearer (for example, a pair of stunning gauntlets designed for a Human are Tiny). Because of how they are worn, stunning gauntlets can't be disarmed or dropped.
+
+",S,M,300,,1,0.5,Energy,Restricted,,,,changes unarmed melee attack to stun damage; can't be disarmed or dropped; also in CW60; are 2 sizes smaller than wearer,brawlers
+K,202,Stunning Gauntlet,"Stunning Gauntlet (KotORCG)
+Simple Weapon
+An insulated glove with an embedded energy cell, the stunning gauntlet produces an electrifying charge when it strikes a target. A stunning gauntlet changes the wearer's unarmed melee attacks to stun damage, and they provide a + 1 bonus to stun damage on a successful unarmed attack.
+
+Stunning gauntlets are two sizes smaller than their wearer (for example, a pair of stunning gauntlets designed for a Human are Tiny). Because of how they are worn, stunning gauntlets can't be disarmed or dropped.
+
+",S,S,200,,1,0.4,Energy,Restricted,,,,changes unarmed melee attack to stun damage; can't be disarmed or dropped; also in CW60; are 2 sizes smaller than wearer,brawlers
+UR,36,Survival knife,"Survival Knife (UR)
+Simple Weapon
+A small hand-held weapon with a sturdy blade, the survival knife can be used as both a tool and a weapon, making it popular with explorers and survivalists alike. It is frequently issued to pilots in military units in the event they are shot down and survive their vehicles' destruction. The handle is hollowed out to allow storage of very small items, typically rudimentary survival tools such as a fire rod (see page 40), a short length of binding wire, or an energy cell.
+
+A character who has a survival knife can always determine which way is north thanks to the built-in digital compass.
+
+",S,S,100,1d6,,1.4,Slashing,,T,,,"can be thrown, inaccurate, fire rod, binding wire, or energy cell, compass","explorers, miltary pilots"
+L,62,Tehk'la blade,"Tehk'la Blade (LECG)
+Exotic Weapon
+The tehk'la blade is a handheld weapon in common use throughout Nagai society. Similar in design to vibrodaggers, tehk'la blades are fashioned individually for, and often by, the owner of the weapon. The leading edge of a tehk'la blade is serrated, and vibration inducers cause it to oscillate at several thousand cycles per minute, enhancing its cutting power.
+
+The Nagai fighting style that employs tehk'la blades relies on wounding an enemy, whittling him down until his lack of effectiveness permits a killing blow. The blades are designed to tear and rend as they are withdrawn from stab wounds, making them particularly fearsome in the hands of a trained combatant. If the attack roll made by the wielder of a tehk'la blade equals or exceeds both the target's Reflex Defense and its Fortitude Defense, the target takes an additional 1d6 points of damage from bleeding at the start of its next turn.
+
+A tehk'la blade requires an energy cell to operate.
+
+",E,T,8500,2d6,,0.5,Piercing and slashing,Rare,,,,if attack exceeds Ref & Fort Def target takes 1d6 dam at start of its next turn; Nagai treat as simple,Nagai
+W,270,Trident,,S,M,,1d8,,,,Piercing,,,,,Quarren Isolationist
+GW,37,"Unarmed, Medium character",,U,M,,1d4,,,Bludgeoning,,,,,also CR 123,
+GW,37,"Unarmed, Small character",,U,S,,1d3,,,Bludgeoning,,,,,also CR 123,
+CR,124,Vibro-ax,"Vibro-Ax
+Advanced Melee Weapon
+This powerful vibro weapon features an energy cell that causes the blade to vibrate rapidly when activated. This gives the weapon far greater power than a standard axe, with minimal effort from the wielder.
+
+A vibro-ax requires two energy cells to operate.
+
+",AM,L,500,2d10,,6,Slashing,Restricted,,,,,Gamorrean bodyguards
+CR,124,Vibrobayonet,"Vibrobayonet
+Advanced Melee Weapon
+When mounted on a rifle, a vibrobayonet allows you to use a rifle as a potent melee weapon. Even if you used the rifle to make a ranged attack on your last turn, you still threaten squares within your reach as long as your rifle has a mounted vibrobayonet, and you can use it to make attacks of opportunity. A vibrobayonet requires two hands to use when mounted on a rifle.
+
+A vibrobayonet cannot be used when mounted on a rifle with a folded stock. A vibrobayonet detached from a rifle functions as a vibrodagger; a mounted vibrobayonet deals more damage than the vibrodagger because of the added leverage and bulk.
+
+A vibrobayonet requires an energy cell to operate. (Its power does not drain energy from the rifle's power pack.)
+
+",AM,M,350,2d6,,1,Piercing,Licensed,,,,,"commandos, Mandalorian Supercommandos"
+CR,124,Vibroblade,"Vibroblade
+Advanced Melee Weapon
+The vibroblade is a close-combat weapon favored by soldiers and mercenaries throughout the galaxy. It resembles a short sword with a high-tech look and feel. Vibroblades are illegal in most urban areas.
+
+A vibroblade requires an energy cell to operate.
+
+",AM,S,250,2d6,,1.8,Slashing or piercing,Licensed,,,,,soldiers and mercenaries
+K,65,"Vibroblade, dire","Dire Vibroblade (KotORCG)
+Advanced Melee Weapon
+A larger version of the vibroblade that first came into service during the Great Sith War, the dire vibroblade is merely a vibroblade with a larger hilt, making it easier to wield in two hands (and thus allowing Medium characters to gain double their Strength bonus to damage with the weapon). A dire vibroblade requires an energy cell to operate.
+
+",AM,M,60,2d6,,2,Slashing or piercing,Licensed,,,,"easier to wield with 2 hands, Med creatures double strength bonus",soldiers and mercenaries
+F,98,"Vibroblade, double","Vibroblade, Double (TFUCG)
+Advanced Melee Weapon
+The double vibroblade is essentially two curved vibroblades (designed exclusively for slashing attacks) attached to a central, twisted hilt. Though very difficult to control, when used properly it is a very effective close-combat weapon.
+
+A double vibroblade is a double weapon. You can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty (although certain feats and talents can reduce these penalties). A double vibroblade requires two energy cells to operate.
+
+",AM,L,550,2d6/2d6,,4,Slashing,Licensed,,,,also K 64,duelists
+CR,124,Vibrodagger,"Vibrodagger
+Advanced Melee Weapon
+Assassins and petty thugs favor the smallest of the vibro weapons, the vibrodagger. A number of civilians carry it for defense. It alone among vibro weapons is subject to very little regulation, since it is viewed as a common tool for crafters and explorers.
+
+A vibrodagger requires an energy cell to operate.
+
+",AM,T,200,2d4,,1,Slashing or piercing,,T,,,can be thrown,"Assassins,  petty thugs,  civilians, explorers"
+C,60,Vibroknucklers,"Vibroknucklers (CWCG)
+Advanced Melee Weapon
+Little more than a casing attached to a set of finger rings, vibroknucklers are a tiny weapon favored by thugs and petty thieves, mainly because the weapon can be easily concealed or stored away. The weapon's nasty surprise-a small microblade that extends slightly beyond the knuckles-is an added bonus.
+
+A character wearing vibroknucklers deals +3 points of damage on a successful unarmed attack.
+
+Like combat gloves, vibroknucklers are two sizes smaller than their wearer (for example, vibroknucklers designed for a Human are Tiny). Because of how they are worn, vibroknucklers can't be disarmed or dropped. Additionally, while wearing vibroknucklers, your unarmed attacks are considered to be both a normal unarmed attack (treated as a simple weapon) as well as an attack with an advanced melee weapon.
+
+Vibroknucklers require an energy cell to operate, which is stored within the casing.
+
+",AM,T,200,3,,0.5,Slashing,Restricted,,,,attack considered as unarmed attacks & adv.melee; cannot be disarmed or dropped,thugs and petty thieves
+GW,37,Vibrolance,"Vibrolance (GaW)
+Advanced Melee Weapon
+The vibrolance is a large, spearlike weapon commonly employed by guards and sentries. The weapon deals a massive amount of damage. Gamorreans particularly enjoy brandishing vibrolances, using them to prod slaves or spear prisoners.
+
+The large vibroblade on the end of the weapon can deal either piercing or slashing damage. A vibrolance is too large and unwieldy to be thrown effectively.
+
+A vibrolance requires an energy cell to operate.
+
+",AM,L,500,2d10,,2,Slashing or piercing,Licensed,,,,cannot be thrown; used by Gamorrean slavers,"guards, sentries, Gamorreans"
+C,60,Vibrorapier,"Vibrorapier (CWCG)
+Advanced Melee Weapon
+A vibrorapier is designed to have a longer, thinner blade than the standard vibroblade. It is well-balanced and completely silent due to a specialized design that diminishes the ultrasonic pitch that other vibro weapons normally create. Many professional fighters consider the vibrorapier an excellent weapon and prefer it over a blaster or other melee weapons when stealth is necessary.
+
+A vibrorapier requires two energy cells to operate.
+
+",AM,M,500,2d6,,1.4,Slashing,Restricted,,,,silent,professional fighters
+UR,36,Vibro-saw,"Vibro-Saw (UR)
+Exotic Weapon
+A large and cumbersome variation of the vibro-ax, a vibro-saw is typically used to cut down large vegetation such as trees and exceptionally thick vine clusters. However, its impressive cutting power has led the vibro-saw to be used to cut through bulkheads in boarding actions by military units and pirates alike. The vibro-saw also has the distinct advantage of being legal in areas where the possession of any other type of vibro weapon is a criminal offense.
+
+A vibro-saw ignores a target's Damage Reduction. A vibro-saw requires two energy cells to operate.
+
+",E,L,400,2d10,,10,Slashing,Licensed,,,,ignores DR,military units and pirates
+F,98,Vibrosword,"Vibrosword (TFUCG)
+Advanced Melee Weapon
+The vibrosword is essentially an oversized vibroblade designed to be used in both hands. The weapon resembles many larger swords used by primitive societies, though the signs of technological enhancements can be found in both the handle and the blade.
+
+A vibrosword requires an energy cell to operate.
+
+",AM,L,450,2d8,,3,Slashing or piercing,Licensed,,,,,soldiers and mercenaries
+J,54,Wan-shen,"Wan-Shen (JATM)
+Simple Weapon
+The wan-shen is a tall polearm wielded by the Matukai as their weapon of choice and their external focus for the Force. The weapon consists of a single-edged blade at the end of a long, metal shaft, both of which are made of a hard but lightweight metal. The blade is forged and sculpted with assistance from the Force, making it extraordinarily resilient. Although all wan-shen are constructed the same, each weapon is customized by the individual Matukai who uses it in the form of engraved symbols and artwork on the blade, usually symbolizing something meaningful to the wielder. Wan-shen are designed to break down into smaller parts to allow the weapon to be more easily stored and carried; a disassembled wan-shen breaks down into four Small objects. Assembling or disassembling a wan-shen is a full-round action.
+
+A wan-shen increases the wielder's reach by 1 square. The wan-shen is a double weapon. You can attack with both ends of a wan-shen as a full-round action, but both attack rolls take a -10 penalty; certain feats and talents can reduce these penalties.
+
+",S,L,1000,2d6/2d6,,2,Slashing and bludgeoning,Rare,R,,,"used by Matukai, can be broken down into 4 Small objects as full-round, reach +1 sq",Matukai
+K,66,War sword,"War Sword (KotORCG)
+Simple Weapon
+Also known as the longsword in most cultures, the war sword is a heavy, durable blade made of the finest metals. Before the advent of the lightsaber, war swords were the weapon of choice for both the Sith and the Jedi. Most Sith swords are war swords.
+
+",S,M,50,1d8,,2,Slashing or piercing,,,,,,"Sith, Jedi"
+L,66,Yuuzhan Vong Biotech,,,,x4,,,,,"Illegal, Rare",,,,"if deals energy, can convert to bludgeoning, piercing or slashing damage instead",
+K,66,Zhaboka,"Zhaboka (KotORCG)
+Exotic Weapon
+A ceremonial weapon of the Zabrak, the zhaboka is a long wooden pike with a sharpened blade on each end. The blades of a zhaboka are smaller and lighter than those on a double-bladed sword, allowing the wielder to swing the weapon with increased speed, generating more momentum for each attack. A character wielding a zhaboka takes no penalty to attack rolls when using the Rapid Strike feat.
+
+A zhaboka is a double weapon. You can attack with both ends of the weapon as a full-round action, but both attack rolls take a -10 penalty (although certain feats and talents can reduce these penalties).
+
+",E,L,165,2d6/2d6,,2,Slashing,Rare,,,,"no penalty using Rapid Strike, Zabrak weapon",Zabrak

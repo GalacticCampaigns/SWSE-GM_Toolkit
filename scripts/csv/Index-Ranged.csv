@@ -1,0 +1,152 @@
+BOOK,PAGE,WEAPON,Wpn Type,Size,Cost, Damage,Stun,Fire Rate,Weight,Dmg Type,Avail.,Area,Shots, Ammo Cost, Accuracy,COMMENTS,Used By
+GW,37,Ascension gun,P,M,1200,3d8,3d8,S,2,Energy,Military,,50,,I,"swif to switch modes, spd 12 sq up as vertical tether or zipline, lift 720 kg, in ascension mode range is 30sq, -5 Stealth to conceal, 2 uses of synthrope","Naboo Royal Security Forces, Jedi Knights of the Galactic Republic"
+K,67,Aurial blaster,E,M,2500,3d6,,S,1,Energy (sonic),Restricted,,50,,,"if atk beats Fort Def, target takes -5 on all Perception checks until end of attacker's turn; treat as pistol for range",crime lord Loppak Slusk
+K,195,Bendak Starkiller's Heavy Blaster Pistol,P,M,,3d8+1,3d8+1,S,1.3,Energy,Military,,50,,I,+1 bonus on attack rolls and targeting scope,Bendak Starkiller
+UR,37,Black-powder pistol,P,S,200,2d4,,S,1.4,Piercing,Rare,,50,5,I,"full-round to reload after each shot, no multiple shot feats, make own ammo 1 hr DC15 Mechanics (5 shots)",explorers & spacers
+F,198,"Blast Cannon, CR-1",E,L,2000,3d8,,S,6,Energy,Military,1-sq splash,5,,I,"treat as pistol for range, apply range penalties to damage instead of atk, +1d8 vs. adjacent, acts as a splash weapon against nonadjacent targets; also W 264",riot or crowd control
+C,61,"BlasTech 500 ""ESPO"" Riot Gun",R,M,1000,3d8,3d8,"S,A",4.5,Energy,Military,,50,,I,-2 atk in single shot mode,Corporate Sector ESPO troops (security police)
+R,50,BlasTech 500 Riot Gun,R,M,1200,3d8,3d8,"S,A",2.2,Energy,Military,,50,,,-1 atk in single shot mode; +2 atk in autofire mode,Corporate Sector ESPO troops (security police)
+C,61,BlasTech DH-23,P,S,500,3d6,3d6,S,1,Energy,Restricted,,100,,,"Str 17, Break DC 20, ""Outback""",
+C,62,BlasTech DLT-20A,R,L,1300,3d10,,"S,A",6.7,Energy,Military,,30,,A,"+1 equipment to Ref Defense when target of a disarm attack, ""Longbarrel""; comes with rangefinder & targeting scope","mounted troops, Republic recon patrols, Stormtroopers, bounty hunters"
+C,62,BlasTech DT-12,P,M,900,4d6,4d6,S,2,Energy,Military,,50,,I,,aliens with long fingers like Rodians
+CR,124,Blaster cannon,H,L,3000,3d12,,S,18,Energy,Military,1-sq splash,10,,I,,Rebel Alliance and New Republic troops
+L,182,"Blaster cannon, heavy",H,H,4200,4d12,,S,22,Energy,Military,1-sq splash,10,,I,braced with 2 swif and considered Large,"Joker Squad, anti-infantry troops and vehicles"
+GW,40,"Blaster cannon, rotary",H,L,5500,3d10,,A,16,Energy,Military,2x2 or 2x4,20,,,"if braced, can target 2x4 area, if not then additional -5 atk ","clone troops, ARC troopers, Kota's militia"
+CR,125,Blaster carbine,R,M,900,3d8,3d8,"S,A",2.2,Energy,Restricted,,50,,I,,"B1 battle droids, Tusken Raiders"
+L,63,"Blaster carbine, double-barreled",R,M,1200,3d8,3d8,S,1.9,Energy,Restricted,2x2,50,,I,"switch to double barrel as swif and you can attack 2x2 area, cannot use with anything than consumes more than 1 shot/round","fringers,  Cade Skywalker"
+L,63,"Blaster carbine, hunting",R,M,1000,3d8,3d8,S,2.1,Energy,Restricted,,50,,I,crit uses d10 for dam; has a retractable stock,Wookiee bounty hunter Chak
+K,67,"Blaster carbine, repeating",R,L,2000,3d10,3d10,A,6,Energy,Military,2x2,30,,I,,
+L,63,"Blaster carbine, sporting",R,M,1000,3d8,3d8,S,2.6,Energy,Restricted,,100,,I,not inaccurate if used with two hands,bounty hunter Jariah Syn 
+CR,270,Blaster gauntlet (Boba Fett's),E,T,,3d4,,S,,Energy,Illegal,,6,,,,"Boba Fett, bounty hunters"
+CR,125,Blaster pistol,P,S,500,3d6,3d6,S,1,Energy,Restricted,,100,,,,"urban police forces, traders"
+L,64,"Blaster pistol, bluebolt",P,M,850,3d8,3d8,S,1.6,Energy,Military,,50,,I,"can stun targets up to 8sq (instead of usual 6-sq), but consumes one additional shot with each stun attack","Deliah Blue, bounty hunters"
+CR,126,"Blaster pistol, heavy",P,M,750,3d8,3d8,S,1.3,Energy,Military,,50,,I,,soldiers and mercenaries
+CR,126,"Blaster pistol, hold-out",P,T,300,3d4,,S,0.5,Energy,Illegal,,6,,I,Stealth +5 to hide,"undercover agents, gamblers, scoundrels,  nobles, ISB agents, stormtrooper scouts "
+GW,38,"Blaster pistol, sidearm",P,S,400,3d6,3d6,S,1,Energy,Military,,250,,,must reset trigger as swif if use Rapid Shot (or feat that has it as prereq.),clone commandos (backup weapon)
+L,64,"Blaster pistol, snap shot",P,T,250,3d6,,S,1,Energy,Illegal,,1,,,+5 to Stealth to conceal,"intelligence agents, undercover law enforcements and criminals in need of concealed weapon"
+CR,127,"Blaster pistol, sporting",P,S,300,3d4,3d4,S,1,Energy,Licensed,,6 or 100,,A,,"nobles, game-hunters, duelists, Rebel Alliance members"
+CR,127,Blaster rifle,R,M,1000,3d8,3d8,"S,A",4.5,Energy,Restricted,,50,,,,"soldiers, infantry troops"
+L,182,"Blaster rifle, ARC-9965",R,M,1400,3d8,3d8,"S,A",5,Energy,Military,,40,,A,autofire consumes 10 shots,Lecacy Era stormtroopers (favored weapon)
+K,67,"Blaster rifle, assault",R,L,1750,3d8,3d8,"S,A",5,Energy,Military,,50,,A,used by Mandalorians,Mandalorians
+CR,128,"Blaster rifle, heavy",R,L,2000,3d10,3d10,"S,A",6,Energy,Military,,30,,I,,"clone troopers, stormtroopers, and other troops during battles on open terrain"
+L,65,"Blaster rifle, heavy assault",R,L,3000,3d10,,A,7,Energy,Military,2x2,50,,I,crit uses d12 for dam,Imperial Intelligence agent Morrigan Corde
+GW,38,"Blaster rifle, heavy variable",R,L,2250,3d6*,3d6*,S,6.5,Energy,Military,,500,,I,"3d8 dam x10 shots, 3d10 dam x 20 shots, swif to switch modes, spd 12 sq up as vertical tether or zipline, lift 720 kg, in ascension mode range is 30sq, -5 Stealth to conceal, 2 uses of synthrope","Clone troopers (favored weapon), Dark novatroopers"
+CR,128,"Blaster rifle, light repeating",R,L,1200,3d8,,A,6,Energy,Military,2x2,30,,,,"military personnel, stormtroopers, infantry troopers in various armies, including the Royal Naboo Security Forces. "
+R,50,"Blaster rifle, SG-4",R,M,400,3d8,2d8,"S,A",5,Energy,Military,,50,,,,"security and police, Rebel Alliance members"
+R,50,"Blaster rifle, SG-4 (miniature harpoons)",R,M,400,2d6,,S,5,Piercing,Military,,1,,,"fires underwater, no stun and no auto, harpoon must be reloaded as swif after each shot","security and police, Rebel Alliance members"
+SV,50,"Blaster rifle, sniper",R,L,2000,3d10,,S,8,Energy,Military,,10,,A,need to aim or -5 atk; cannot benefit from the rapid recycler upgrade,"assassins and military sharpshooters, Tusken Raiders"
+CR,128,"Blaster rifle, sporting",R,M,800,3d6,3d6,S,4,Energy,Licensed,,100,,A,often have a targeting scope ,"galactic elite & ""fringers"" living in isolated colonies"
+UR,39,"Blaster rifle, targeting",R,M,1000,3d6,3d6,S,4,Energy ,Restricted,,50,,A,"assemble or disassemble as full-rnd, if aim dam dice from d6 to d8",assassins
+GW,38,"Blaster rifle, variable",R,M,1300,3d4*,3d4*,"S,A",5,Energy,Military,,500,,,"adjust power as swif; 3d6 dam x5 shots, 3d8 dam x10 shots",Clone troopers
+CR,125,"Blaster, E-Web repeating",H,H,8000,3d12,,A,38,Energy,Military,2x2,?,,,"needs second crew to regulate power or -2 Atk, mounted on tripod is Large","clone commandos, stormtroopers "
+CR,125,"Blaster, heavy repeating",H,L,4000,3d10,,A,12,Energy,Military,2x2,20,,,cannot brace without a tripod,typically operated from a bunker emplacement or mounted on a combat vehicle
+SV,49,"Blaster, subrepeating",P,M,750,3d6,,A,2,Energy,Military,2x2,50,,,,pirates and bounty hunters 
+GI,64,"Blaster, Wrist",P,T,800,3d4,,S,0.5,Energy,Illegal,,1,,I,looks like jewelry; DC 25 Use Computer to detect with sensor scan,"assassins, diplomats"
+CR,128,Bow,S,M,300,1d6,,S,1.4,Piercing,,,10,20,,load as free action; add your STR modifier to damage,primitive races
+CR,128,Bowcaster,E,L,1500,3d10,,S,8,Energy & piercing,"Licensed, Rare",,10,50,A,"Wookiees treat bowcasters as rifles, not exotic weapons.",Wookiees
+F,98,Bryar Pistol,P,M,1350,3d4,,S,3,Energy,Licensed,,100,,A,"swif & make no attacks before start of next turn = +1 die damage (5 shots), cannot use with anything than consumes more than 1 shot/round",Kyle Katarn (mercenary)
+F,98,Bryar Rifle,R,M,1350,3d8,,S,3,Energy,Licensed,,50,,I,"swif & make no attacks before start of next turn = +1 die damage (5 shots), cannot use with anything than consumes more than 1 shot/round",
+K,69,Carbonite rifle,H,L,1200,,3d10,S,6,Energy,Licensed,,20,50,,"if moved down CT, also immobilized (can take move actions, but cannot move or make movement-related skill checks)",Pyn'gani slaves of Zann Consortium 
+L,98,Chewbacca's Bowcaster,E,M,,3d10,,S,8,Energy & piercing,,,10,,A,legendary icon (grants favorable circumstances on CHA-based skill checks),
+K,180,Commando special rifle,R,M,1250,3d10,,"S,A",3.3,Energy,Military,,25,,,,Republic commandos
+UR,37,Concussion rifle,R,L,1800,2d10,,S,2.1,Energy (sonic),"Restricted, Rare",,25,,,atk v. Fort Def to knock prone + damage,"Trandoshan mercenaries and slavers, bounty hunters, unconventional military units"
+UR,37,Crossbow,S,M,300,1d8,,S,1.8,Piercing,,,1,20,I,move to reload,"assassins, explorers, primitives"
+GW,39,"Crossbow, repeating",S,M,400,1d8,,S,1.2,Piercing,,,10,30,,automatic reload,hunters 
+C,62,Czerka Adjudicator,P,T,325,2d4,,S,0.5,Piercing,Licensed,,4,,,full-round to reload,"backup weapon, self-defense, Alliance Special Forces"
+C,62,Czerka Adventurer,R,M,360,2d10,,S,4,Piercing,Restricted,,50,,A,can be disassembled or reassembled as move,"bounty hunters, assassins"
+L,65,"Dart launcher, concealed",E,S,1900,,3d8,S,0.5,Piercing,Illegal,,6,,,"+5 to Stealth to conceal, can stun further than 6 sq, treat as pistol for range; dart can be filled with contact poisons","citizens who needed inconspicuous arms, Deliah Blue (bounty hunter)"
+GI,64,Darter,S,M,150,1,,S,3,Piercing,Licensed,,1,,,Weapon's maximum range is short; can deliver poison or a surveillance tagger (see GI page 67). ,"Poachers, game wardens, security personnel, assassins, and even medical personnel"
+D4,40,"DC-19 ""Stealth"" Carbine",R,M,3500,3d8,,S,5,Energy,Restricted,,10,,,silent and invisible,used almost exclusively by clone shadow troopers and Imperial shadow troopers
+SV,50,Deck sweeper,E,L,5000,,3d6,S,4.5,Energy,Restricted,6-sq cone,5,,,must spend swif on same turn to prime before making attack,police and security forces
+J,61,Discblade,E,S,2000,2d8,,S,1.25,Slashing,Rare,,,,,can be returned to you with the Force,Zeison Sha weapon
+F,99,DX-2 Disruptor pistol,P,M,3000,3d6,,S,3,Energy,Illegal,,10,,,"can only fire once every other round; cannot fire more than one shot per round; treats as if threshold is 5 less, if killed = disintegrated","highly illegal, used by some outlaws and criminal elements"
+F,99,DXR-6 Disruptor rifle,R,M,3500,3d8,,S,6,Energy,Illegal,,10,,,"can only fire once every other round; cannot fire more than one shot per round, treats as if threshold is 5 less, if killed = disintegrated","highly illegal, used by some outlaws and criminal elements"
+SV,50,Electronet,H,M,2000,,3d8,S,5,,Restricted,2x2,,,,"take stun damage & is grabbed as per net; take dmg every round in net, can only be fired from a grenade launcher",bounty hunters 
+CR,127,Energy ball,S,T,20,2d8,,S,0.25,Energy,"Licensed, Rare",,,,,for range treat as accurate simple weapon if hurled by cesta, Gungan Grand Army
+GW,39,Flame Cannon,H,H,3000,5d6,,S,15,Fire,Military,cone,20,600,,"cone 12sq long x 8sq wide, half dam on miss, full-round to reload, tanks weigh 20kg",usu. mounted on ground vehicles or tripods
+CR,128,Flamethrower,E,M,1000,3d6,,S,7,Fire,Military,cone,5,200,,cone 6sq long x 6sq wide at terminus,"bounty hunters, assassin droids, clone blaze troopers"
+T,19,Flamethrower gauntlet (Jango Fett's),E,S,,3d6,,S,,Fire,,6-sq cone,,,,,Jango Fett
+J,61,"Flash canister, R-9",S,T,100,,,S,0.5,Energy,Restricted,3-sq burst,,,,all targets have total concealment against affected creatures,combat training of Jedi apprentices
+F,199,Flechette Launcher,R,L,1100,3d8,,S,5,Piercing,Military,1-sq splash,4,50,I,cannot use with anything than consumes more than 1 shot/round,Clone Wars antipersonnel weapon
+R,49,Flechette Launcher,R,L,1100,3d8,,S,5,Piercing,Military,1-sq splash,4,50,I,cannot use with anything than consumes more than 1 shot/round,"EVO Trooper, Swamptrooper"
+C,62,Gee-Tech 12 Defender Microblaster,P,T,400,3d4,,S,0.25,Energy,Illegal,,2,400,I,"+5 Stealth to conceal, max range 3 sq, cannot be reloaded",
+CR,129,Grenade launcher,H,M,500,,,S,5,Varies,Military,,4,,I,cannot hurl thermal detonators; can be mounted on a rifle,military
+K,67,"Grenade, adhesive",S,T,200,,,S,0.5,Energy,Restricted,2-sq burst,,,,"grapple v. Atk roll, unable to move for 3 rounds",riot control
+R,48,"Grenade, concussion",S,T,400,8d6,,S,0.5,Bludgeoning,Military,2-sq burst,,,,,Spacetrooper
+K,69,"Grenade, CryoBan",S,T,500,3d6,,S,0.5,Energy,Restricted,2-sq burst,,,,"if Atk beats Fort Def, target's speed reduced to 2sq until end of its next turn",
+C,62,"Grenade, EMP",S,S,500,3d6 ion,,S,0.5,Energy (ion),Restricted,2-sq burst,,,,if would reduce to 0 hp moves -5 CT instead & disabled,"clone troops, clone commandos"
+CR,129,"Grenade, frag",S,T,200,4d6,,S,0.5,Slashing,Military,2-sq burst,,,,,"mercenaries, adventurers, and bounty hunters,  Stormtrooper commandos"
+R,49,"Grenade, gas",S,T,250,,4d6,S,0.5,,Military,4-sq burst,,,,"Atk v. Fort Def of all in radius, if hit move -2 CT, targets in blast have concealment; gas persists until the end of the attacker's next turn",
+CR,129,"Grenade, ion",S,T,250,4d6 ion,,S,0.5,Energy (ion),Restricted,2-sq burst,,,,,"mercenary units, military personnel, and local law enforcement"
+GW,39,"Grenade, radiation",S,T,500,3d8*,,S,0.5,Energy,Illegal,2-sq burst,,,,"atk v. Fort Def, half dam on miss & effects of Moderate exposure to radiation (CR 255-256); (1d20+2 vs. fort; if hit then 4d6 dmg and -1 persistent CT removed with Treat Injuty DC 20. If miss, no effect)",Confederacy of Independent Systems
+K,180,"Grenade, remote",S,T,300,4d6,,S,1,Energy,Military,?,,,,"100-credit detonator, cannot go off within 100m of transmitter",mining and industrial demolitions
+GW,39,"Grenade, smoke",S,T,100,,,S,0.5,,Restricted,2-sq burst,,,,provides concealment & creates a smoke hazard for 10 rounds (CR 256),"crowd control, special forces, military method to mark aerial attacks or call for evacuation"
+CR,129,"Grenade, stun",S,T,250,,4d6,S,0.5,Energy,Restricted,2-sq burst,,,,,"mercenary units, military personnel, and local law enforcement"
+L,98,Han Solo's Heavy Blaster Pistol,P,M,,3d8+2,3d8,S,1.3,Energy,Military,,50,,I,extra modification: +1 equipment bonus on attack rolls,
+F,99,Incinerator Rifle,R,M,3500,3d6,,S,5,Energy,Military,,20,,,if killed = disintegrated,Bothan spies of the Rebel Alliance
+GW,39,Interchangeable Weapon System,R,M,4500,3d8,3d8,"S,A",5,Energy,Military,,50,,,"switch weapon modes as stan; 3 modes: standard blaster rifle, sniper rifle, and anti-armor mode",unique to clone commandos
+GW,39,Interchangeable WS (Anti-armor mode),H,M,,4d6,,S,1,Slashing,,3-sq burst,1,400,,"grenade launcher, treat as Heavy weapon",unique to clone commandos
+GW,39,Interchangeable WS (Sniper rifle mode),R,M,,3d10,,S,,Energy,,,,,A,"includes targeting scope, -2 at unmodified point-blank",unique to clone commandos
+K,69,Ion carbine,R,M,800,3d8 ion,,"S,A",3,Energy (ion),Restricted,,30,,I,,"Galactic Republic soldiers, Jawas"
+CR,129,Ion pistol,P,S,250,3d6 ion,,S,1,Energy (ion),Licensed,,30,,,,"Galactic Republic soldiers, Jawas"
+CR,130,Ion rifle,R,M,800,3d8 ion,,S,3.1,Energy (ion),Restricted,,20,,,,"Galactic Republic soldiers, Jawas"
+K,69,"Lanvarok, Massassi",E,L,250,3d4,,S,9.8,Bludgeoning,Rare,,1,5,I,hurls discs; also can do 1d8 as a slashing weapon; Massassi & Kissai treat the Massassi lanvarok as an advanced melee instead of exotic,Massassi
+K,69,"Lanvarok, Sith",E,M,4000,3d4,,S,5.8,Bludgeoning,Rare,,5,5ea.,I,wrist-mounted weapon that fires small discs; treat as pistol for range; can be used in 2-weapon fighting,Sith
+T,134,Lt Concussion Missile Launcher,H,L,4000,4d10x2,,S,18,Slashing,Military,2-sq splash,1,800,,Atk -10 on targets smaller than Huge,"military units,  Separatist assault droids, Clone heavy troopers, Rebel vanguards, IG-100 MagnaGuards, Imperial shock troopers"
+UR,38,Magna caster,E,M,2000,3d8,,S,4,Piercing,Restricted,,10,50,A,+5 Stealth to snipe,game hunters 
+C,63,Merr-Sonn Model 434,P,M,650,3d8,3d8,S,1.2,Energy,Restricted,,50,,,"DR +2, ""Deathhammer""","Bounty hunters, mercenaries, and assassins"
+R,49,Merr-Sonn PLX-2M Portable Missile Launcher,H,L,2250,8d6,,S,48,Energy,Military,3-sq burst,6,350,,"heatseeking mode or gravity-activated mode (-2 Ref to all targets of a particular type: character, droid, vehicle, or artillery); does not count toward encumbrance if active & drawn, reload as full"," Clone Wars-era antipersonnel weapon, Republic commandos, Imperial ARC troopers, Imperial shock troopers."
+SV,50,Micro grenade launcher,R,M,2500,,,S,3,Varies,Illegal,,4,,I,"grenades deal -2 dice dam, reload as full",bounty hunters
+R,49,Miniature Proton Torpedo Launcher,H,L,1500,6d10,,S,8,Energy,Military,2-sq burst,4,,,"stan action to reset after firing, swif to set to single-target for 6d10x2 dam & -10 atk v. targets smaller than Huge; used by Zero-G Stormtroopers","stormtroopers, rebels"
+CR,130,Missile launcher,H,L,1500,6d6,,S,10,Slashing,Military,2-sq burst,4,,,,military
+F,198,"Missile Launcher, E-Web",H,H,9500,6d6,,S,42,Slashing,Military,2x2,1,75,,1 size smaller on tripod,military
+GW,40,Mortar launcher,H,L,2500,4d6,,S,20,Slashing,Military,2-sq burst,5,,,"Arc, cannot be used at PB, treat weapon as being 20sq in air for LOS & cover, shells identical to grenades","insurgents, partisans, and other underdog armies"
+K,69,Needler,P,S,650,2d4,,S,1,Piercing,Licensed,,10,20,I,,Imperial spy Tanya Madera
+CR,130,Net,S,L,25,,,S,4.5,,,,,,I,can make Grab or Grapple with Pin or Trip,primitive cultures and nonlethal crowd control
+SV,50,Neural inhibitor,E,M,4200,1d6,,S,1,Piercing,Illegal,,,,I,"dart atk d20+5 v. Fort Def, moves target -1 CT","bounty hunters, pirates"
+W,242,Onasi blaster pistol,P,S,,3d6+2,3d6+2,S,1,Energy,Restricted,,100,,,"Heirloom Item, +1 bonus to attack  (improved accuracy and improved damage)",
+W,328,"Projectile Launcher, HH-15",H,L,2000,6d6,,S,12,Energy,Military,1-sq splash,1,100,,penetration 10 (ignoring the first 10 points of the primary target's DR or SR),Rebel Alliance vanguards
+SV,50,Pulse rifle,E,M,5000,2d8,,S,2.5,Energy,Illegal,6-sq cone,5,,,,"smugglers, bounty hunters, and other outlaws"
+K,69,Pulse-wave pistol,P,S,200,2d6,,S,1,Energy,Licensed,,100,,I,PB = +4 dam; usually illegal,Sith Descendant
+K,69,Pulse-wave rifle,R,M,550,2d8,,"S,A",4,Energy,Restricted,,50,,I,PB = +5 dam,
+F,200,Rail detonator gun,R,L,1900,3d8,,S,5,Piercing,Military,1-sq splash,10,50,,,"specialized stormtrooper units, primarily Imperial Jumptroopers"
+L,65,Razor Bug,S,S,800,2d8,,S,0.5,Slashing,"Illegal, rare",,,,A,range for Simple weapon not Thrown,Yuuzhan Vong
+K,69,Ripper,P,S,750,2d4,,S,1,Slashing,Licensed,,10,20,I,if target is moved down CT add d4 dam,Mandalorian officers
+T,19,Rocket launcher (Jango Fett's),E,S,,2d6,,S,,Slashing,,,,,,,Jango Fett'
+W,300,S-5 heavy blaster pistol,P,M,900,3d8,,S,1.3,Energy,Restricted,,20,,,liquid cable (2 20m); also holds 10 microdarts (1d2 damage + paralytic poison),"Royal Naboo Security Forces, Security Officer Corps"
+T,19,Saberdart Launcher (Jango Fett's),E,S,,1d4,,S,,Piercing,,,1,,,"poison, atk +5 v. Fort Def, success -2 down CT, fail -1, if end at CT = dead. cure with DC25 Treat Injury",bounty hunter Jango Fett
+GW,40,Scatter gun,R,M,275,3d8/2d8,,S,4,Piercing,Licensed,,10,2,I,"3d8 dam PB, 2d8 Short, none @ Med or Long range, shells weigh 0.1kg","primarily used for hunting; backup for mercenaries, marines, and other soldiers "
+UR,129,Shrapnel pistol,P,S,250,2d6,,S,1.4,Piercing,Licensed,,10,20,,,backwater fringe worlds
+R,50,Siang Lance,E,M,2000,3d8,3d8,S,4,Energy,"Illegal, rare",,100,,A,"can be used to make Atk of Opp, has bayonet included in design; used by Kilian Rangers",Kilian Ranger
+CR,130,Sling,S,S,35,1d4,,S,0.3,Bludgeoning,,,1,,,,primitive
+CR,130,Slugthrower pistol,P,S,250,2d6,,S,1.4,Piercing,Licensed,,10,20,,,backwater fringe worlds
+UR,38,"Slugthrower pistol, heavy",P,M,400,2d8,,S,2.1,Piercing,Restricted,,8,15,,"Double Atk, Triple Atk & Rapid Shot = additional -1 atk",backwater fringe worlds
+CR,130,Slugthrower rifle,R,M,300,2d8,,"S,A",4,Piercing,Restricted,,20,40,,,"Rebel SpecForce units, Tusken Raiders, primitives"
+GI,64,Snare Pistol,P,M,600,,1d4,S,2,Bludgeoning,Licensed,,2,25,I,"escape with Acrobatics DC 15 or Str DC 20, Weapon may not fire at medium or long range, ammo 1kg",bounty hunter
+SV,51,Snare rifle,R,M,1200,,1d6,S,5,Bludgeoning,Licensed,,5,50,,escape with Acrobatics DC 15 or Str DC 20,bounty hunter
+K,70,Sonic disruptor,P,S,1000,2d6,,,1,Energy (sonic),Illegal,,10,,,"treats as if threshold is 5 less, if killed = disintegrated. Cannot be Deflected; can only fire once every other round; cannot fire more than one shot per round",illegal
+K,70,Sonic pistol,P,S,900,2d6,,S,1,Energy (sonic),Licensed,,100,,,Cannot be Deflected,civilian response to Jedi and Sith using lightsabers
+K,70,"Sonic pistol, heavy",P,M,1250,2d8,,S,1,Energy (sonic),Licensed,,50,,,,civilian response to Jedi and Sith using lightsabers
+K,70,Sonic rifle,R,M,900,2d8,,"S,A",5,Energy (sonic),Restricted,,50,,,Cannot be Deflected,
+T,146,Sonic Stunner,P,T,450,,3d6,S,1,Energy,Illegal,,?,,,"only the target of the attack hears any noise, making the weapon otherwise silent",bounty hunter IG-88
+C,63,SoroSuub Firelance,R,M,1200,3d8,4d6,"S,A",2.5,Energy,Restricted,,50,,,,"bounty hunters, freelance law enforcement"
+SV,52,Squib battering ram,S,L,3500,5d10,,S,10,Energy,Military,,,,,"2 crew to operate, only v. stationary targets",Squib salvagers
+UR,39,Squib tensor rifle,E,M,10000,3d8,,S,7.2,Energy ,"Restricted, Rare",,15,,,"atk v. Fort Def for -1 CT regardless of dam , treat as rifle for range",Squibs
+F,100,Stokhli Spray stick,R,M,14000,,3d8,S,4,Energy,Restricted,,80,100,I,functions as net,bounty hunters
+UR,39,Stun pistol,P,S,550,,3d6,S,1,Energy ,Licensed,,50,,,range up to 20sq,"bounty hunters, law enforcement"
+GW,42,Tactical tractor beam,H,L,8000,3d6*,,S,25,Energy,Military,,,,,"if on tripod treat as one size smaller, can only affect Huge or smaller, can move 10sq or hurl 10sq (target takes dam = size of hurled object CR 254), 2nd crewmember stan to regulate power or -2 atk",wealthy armies or extremely successful mercenary groups.
+GW,42,Targeting laser,S,T,50,special,,S,0.1,Energy,Licensed,,,,,"atk roll ignores target's armor bonus to Ref Def, allies gain +2 atk with missile or grenade launcher or vehicle weapon",
+CR,130,Thermal detonator,S,T,2000,8d6,,S,1,Energy,Illegal,4-sq burst,,,I,,"military, criminals, bounty hunters, and mercenaries"
+L,65,Thud Bug,S,S,800,2d8,2d8,S,0.5,Bludgeoning,"Illegal, rare",,,,,"range for Simple weapon not Thrown, stun can be used at point blank or short range",Yuuzhan Vong
+UR,39,Verpine shatter gun,E,M,15000,3d10,,S,1,Energy ,"Illegal, Rare",,50,1000,A,"crit = +d10 dam after crit, if weapon takes any dam considered disabled, Verpines treat as pistols",Verpines
+CR,271,Whipcord (Boba Fett's),E,S,,,,S,,,,,,,I,can make Grab or Grapple with Pin or Trip; also Jango Fett's T 19,"Boba Fett, bounty hunters"
+C,63,Wrist rocket antipersonnel,,,400,3d8,,S,0.25,Slashing,Military,,,,,as frag grenade but no area effect,
+C,63,Wrist rocket antivehicle,,,500,3d10,,S,0.25,Slashing,Military,,,,,,
+C,63,Wrist rocket flash,,,400,special,,S,0.25,Energy,Restricted,3-sq burst,,,,anyone within 3-sq burst over Ref Def is blinded 1d4 rounds,
+C,63,Wrist rocket hollow-tip (empty),,,200,2d6,,S,0.25,Piercing,Licensed,,,,,,
+C,63,Wrist rocket hollow-tip (nerve toxin),,,600,special,,S,0.25,Piercing,Illegal,,,,,secondary attack v. Fort Def & if successful -2 CT,
+C,63,Wrist rocket hollow-tip (stun gas),,,400,,3d6,S,0.25,Piercing,Restricted,,,,,sprays in air on impact creating a cloud that fills square,
+C,63,Wrist rocket ion blast,,,400,3d6 ion,,S,0.25,Energy (ion),Restricted,,,,,,
+C,63,Wrist rocket launcher,E,S,2500,varies,,S,1,Varies,Restricted,,1,,,,Bounty hunters
+GI,64,Xerrol NightStinger,R,M,1500,3d6,,S,4.5,Energy ,Illegal,,5,1000,,"Shots are invisible; used by assassins & imperial snipers, rifle","assassins, Imperial snipers"
+L,66,Yuuzhan Vong Biotech,,,x4,,,,,,Rare/Illegal,,,,,"if deals energy, then deals bludgeoning, piercing or slashing as chosen",

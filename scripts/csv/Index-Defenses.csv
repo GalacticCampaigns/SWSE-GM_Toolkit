@@ -1,0 +1,18 @@
+BOOK,PAGE,WEAPON,Cost,Damage,Type,Weight,Perception,Avail.,Splash,"Delay
+(rounds)",COMMENTS,
+GW,99,Bounding mine,250,6d6,Slashing,1,25,Military,3sq,,,
+GW,100,"Cannon, heavy",2000,10d10x2,Slashing,15,,Military,6sq,6,,Indirect Fire
+GW,100,"Cannon, light",1000,8d10x2,Slashing,8,,Military,4sq,4,,Indirect Fire
+GW,100,Field gun,500,4d10x2,Slashing,2,,Military,2sq,2,,Indirect Fire
+GW,98,Fragmentation wire,100/m,2d6,Slashing,2/m,,Military,1sq,,makes +10 atk for target in sq,
+GW,100,Howitzer,750,6d10x2,Slashing,4,,Military,3sq,3,,Indirect Fire
+GW,100,"Mortar, frag",300,4d6,Slashing,1.8,,Military,2sq,2,,Indirect Fire
+GW,100,"Mortar, ion",450,4d6,Energy,1.8,,Military,2sq,2,,Indirect Fire
+GW,100,"Mortar, stun",450,4d6,Energy (ion),1.8,,Military,2sq,2,,Indirect Fire
+GW,100,"Mortar, thermal",3000,8d6,Energy,1.8,,Military,4sq,2,,Indirect Fire
+GW,98,Razor wire,10/m,2d6,Slashing,2/m,,Restricted,,,"makes +10 atk for target in sq & if successful target can't move, difficult terrain",
+GW,99,Repulsorlift Inhibitor,,3d10x2,Slashing,,,,2sq,,makes +10 atk v. vehicle for 3d10x2 ion dam & half spd,
+GW,99,Smart mine,500,5d6,Slashing,1.5,20,Military,2sq,,,
+GW,99,Static mine,100,4d6,Slashing,1,25,Military,2sq,,,
+GW,101,"Turbolaser, orbital",n/a,5d10x5,Energy,n/a,,Military,10sq,10,-10 penalty to hit,Indirect Fire
+GW,99,Vehicular mine,500,4d10x2,Slashing,10,25,Military,3sq,,,

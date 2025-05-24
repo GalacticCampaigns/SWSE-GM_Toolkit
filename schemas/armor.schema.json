@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Armor",
+  "description": "Schema for Star Wars SAGA Edition armor entries.",
+  "type": "object",
+  "properties": {
+    "armor_data": {
+      "type": "object",
+      "description": "Container for the list of armor.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A general description of this data section."
+        },
+        "armor_list": {
+          "type": "array",
+          "description": "A list of all armor entries.",
+          "items": {
+            "$ref": "#/definitions/armorEntry"
+          }
+        }
+      },
+      "required": ["description", "armor_list"]
+    }
+  },
+  "required": ["armor_data"],
+  "definitions": {
+    "armorEntry": {
+      "type": "object",
+      "description": "Represents a single piece of armor.",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the armor." },
+        "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text from the 'Desc.' column." },
+        "armor_category": { "type": "string", "description": "Category of the armor (e.g., Light Armor, Medium Armor, Heavy Armor, Shield)." },
+        "armor_check_penalty": { "type": ["integer", "string", "null"], "description": "Armor Check Penalty (usually a negative number or 0, or original string if unparseable)." },
+        "cost_credits": { "type": ["integer", "string", "null"], "description": "Cost in credits (or original string if unparseable)." },
+        "reflex_defense_bonus": { "type": ["integer", "string", "null"], "description": "Bonus to Reflex Defense (or original string)." },
+        "fortitude_defense_bonus": { "type": ["integer", "string", "null"], "description": "Bonus to Fortitude Defense (or original string)." },
+        "max_dex_bonus": { "type": ["integer", "string", "null"], "description": "Maximum Dexterity bonus allowed by the armor (or original string)." },
+        "speed_penalty_text": { "type": ["string", "null"], "description": "Text describing speed reduction (e.g., '6sq Base: 4, 4sq Base: 3')." },
+        "weight_kg": { "type": ["number", "string", "null"], "description": "Weight in kilograms (or original string)." },
+        "availability": { "type": "string", "description": "Availability (e.g., Licensed, Military, Restricted, Rare)." },
+        "upgrade_slots_text": { "type": ["string", "null"], "description": "Number of upgrade slots as text (e.g., '2', 'None')." },
+        "has_helmet_package": { "type": "boolean", "description": "True if a helmet package is included." },
+        "special_properties_text": { "type": ["string", "null"], "description": "Raw text from the COMMENTS column describing special properties." },
+        "parsed_properties": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/itemPropertyEffect" },
+          "description": "Structured representation of special properties."
+        },
+        "skill_bonuses_text": { "type": ["string", "null"], "description": "Textual description of any skill bonuses." },
+        "ability_bonuses_text": { "type": ["string", "null"], "description": "Textual description of any ability bonuses." },
+        "used_by_text": { "type": ["string", "null"], "description": "Typical users of this armor." },
+        "source_book": { "type": "string", "description": "Sourcebook abbreviation." },
+        "page": { "type": "string", "description": "Page number in the sourcebook." }
+      },
+      "required": ["name", "armor_category", "source_book", "page"]
+    },
+    "itemPropertyEffect": {
+      "type": "object",
+      "description": "A structured representation of a game mechanical property or effect of an item.",
+      "properties": {
+        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
+        "description": { "type": "string" },
+        "value": { "type": ["integer", "null"] },
+        "target": { "type": ["string", "null"] }
+      },
+      "required": ["type", "description"]
+    }
+  }
+}

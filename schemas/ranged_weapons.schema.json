@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Ranged Weapons",
+  "description": "Schema for Star Wars SAGA Edition ranged weapons.",
+  "type": "object",
+  "properties": {
+    "ranged_weapons_data": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "ranged_weapons_list": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/rangedWeapon" }
+        }
+      },
+      "required": ["description", "ranged_weapons_list"]
+    }
+  },
+  "required": ["ranged_weapons_data"],
+  "definitions": {
+    "rangedWeapon": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "full_text_description": { "type": ["string", "null"] },
+        "weapon_category": { "type": "string", "description": "e.g., Pistols, Rifles, Heavy Weapons, Exotic Ranged Weapons." },
+        "size_category": { "type": "string" },
+        "cost_credits": { "type": ["integer", "string", "null"] },
+        "damage_text": { "type": ["string", "null"] },
+        "damage_structured": { "$ref": "#/definitions/damageStructure" },
+        "stun_damage_text": { "type": ["string", "null"] },
+        "stun_damage_structured": { "$ref": "#/definitions/damageStructure" },
+        "rate_of_fire_text": { "type": "string" },
+        "rate_of_fire_structured": { "type": "array", "items": {"type": "string", "enum": ["Single", "Autofire"]} },
+        "weight_kg": { "type": ["number", "string", "null"] },
+        "damage_types": { "type": "array", "items": { "type": "string" } },
+        "availability": { "type": "string" },
+        "area_effect_text": { "type": ["string", "null"] },
+        "ammunition_shots": { "type": ["integer", "string", "null"], "description": "Number of shots per clip/pack, or original text." },
+        "ammunition_cost_text": { "type": ["string", "null"] },
+        "accuracy_note": { "type": ["string", "null"] },
+        "special_properties_text": { "type": ["string", "null"] },
+        "parsed_properties": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
+        "classification_tags": { "type": "array", "items": {"type": "string"} },
+        "used_by_text": { "type": ["string", "null"] },
+        "source_book": { "type": "string" },
+        "page": { "type": "string" }
+      },
+      "required": ["name", "weapon_category", "damage_types", "source_book", "page"]
+    },
+    "damageStructure": {
+      "type": "object", "description": "Structured weapon damage.",
+      "properties": {
+        "dice_count": { "type": "integer" }, "die_type": { "type": "integer" },
+        "bonus": { "type": "integer" }, "text": { "type": "string" },
+        "notes": { "type": ["string", "null"] },
+        "primary": { "$ref": "#/definitions/damageStructure" },
+        "secondary": { "$ref": "#/definitions/damageStructure" }
+      }, "required": ["text"]
+    },
+    "itemPropertyEffect": {
+      "type": "object", "description": "A structured item property.",
+      "properties": {
+        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
+        "description": { "type": "string" },
+        "value": { "type": ["integer", "null"] },
+        "target": { "type": ["string", "null"] }
+      }, "required": ["type", "description"]
+    }
+  }
+}

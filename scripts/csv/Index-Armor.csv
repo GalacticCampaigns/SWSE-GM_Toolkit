@@ -1,0 +1,625 @@
+BOOK,PAGE,WEB,ITEM,Desc.,ACP,Cost,"Ref bonus","Fort bonus","Max Dex","Spd 6sq","Spd 4sq",Weight,Avail., U. Slots,Helmet P.,COMMENTS,Skill,Skillbonus,Ability,Abilitybonus,Used By
+CR,282,w,ARC Trooper armor,,-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Advanced Recon Commandos (Clone Trooper)
+CR,132,w,Armored spacesuit,"Armored Spacesuit
+Heavy Armor
+
+This bulky coverall contains a sealed life support system that provides everything the wearer needs to survive for 24 hours in the vacuum of space or any other hostile environment.
+",-10,12000,9,3,1,4/x3,3/x3,35,Restricted,,,survive 24 hours,,,,,
+D7,25,w,AT-AT pilot suit,,-2,,5,2,3,,,,"Military, Rare",,,10 hours life support likely,,,,,Radtrooper
+GW,44,w,Barabel microbe armor,"Barabel Microbe Armor (GaW)
+Light Armor
+
+Created by Creshaldyne Industries, this armor is a sleeveless vest of soft material. Pouches within the armor hold a saline solution containing specialized microorganisms, which absorb intense heat or radiation.
+
+Barabel microbe armor provides DR 2 against energy and fire damage. If you are using the Armor Upgrades option from Scum and Villainy, Barabel microbe armor has room for two upgrades.
+",-2,4000,2,0,3,,,6,Licensed,2,,DR 2 v. energy & fire dam,,,,,
+CR,132,w,Battle armor,"Battle Armor
+Medium Armor
+
+Battle armor combines protective metal or composite plates with a padded jumpsuit to form a layer of protection. While off-the-rack battle armor is available, most users cobble together their gear from various sources.
+",-5,7000,8,2,2,4,3,16,Military,,,,,,,,"heavy militias, soldiers, enforcers, guards, mercenaries, commandos"
+CR,132,w,"Battle armor, heavy","Battle Armor, Heavy
+Heavy Armor
+
+Similar to regular battle armor, heavy battle armor features more plating than padding, including various pieces molded to fit the user, such as breastplates and armor covering the arms and legs.
+",-10,15000,10,4,1,4/x3,3/x3,30,Military,,,,,,,,"heavy militias, soldiers, enforcers, guards, mercenaries, commandos"
+K,71,w,"Battle armor, heavy powered","Battle Armor, Heavy Powered (KotORCG)
+Heavy Armor
+
+Utilized by warriors who define their fighting style by the gear they carry, heavy powered battle armor resembles standard heavy battle armor but comes prewired for augmentation. Heavy powered battle armor comes with a helmet package preinstalled. If you are using the equipment modification rules from Scum and Villainy, heavy powered battle armor has 2 free upgrade slots (as does all powered armor).
+",-10,19000,9,4,1,4/x3,3/x3,32,Military,2,x,,,,,,"heavy militias, soldiers, enforcers, guards, mercenaries, commandos"
+K,70,w,"Battle armor, light","Battle Armor, Light (KotORCG)
+Light Armor
+
+Similar to denser suits of battle armor, this stripped-down battle armor is frequently used by soldiers who lack extensive armor training but need a slight edge in combat.
+",-2,3500,5,2,3,,,10,Military,,,,,,,,"heavy militias, soldiers, enforcers, guards, mercenaries, commandos"
+K,70,w,"Battle armor, light powered","Battle Armor, Light Powered (KotORCG)
+Light Armor
+
+Designed to be augmented with additional components and weapons, light powered body armor comes prewired with special connections to power auxiliary accessories. Light powered battle armor comes with a helmet package preinstalled. If you are using the equipment modification rules from Scum and Villainy, light powered armor has 2 free upgrade slots (as does all powered armor).
+",-2,6500,4,2,3,,,12,Military,2,,,,,,,"heavy militias, soldiers, enforcers, guards, mercenaries, commandos"
+K,71,w,"Battle armor, powered","Battle armor, Powered (KotORCG)
+Medium Armor
+
+The powered armor variant of standard battle armor, powered battle armor is frequently used by those warriors who see their armor as an extension of their combat prowess and not just their defenses. Powered battle armor comes with a helmet package preinstalled. If you are using the equipment modification rules from Scum and Villainy, powered battle armor has 2 free upgrade slots (as does all powered armor).
+",-5,11000,7,2,2,4,3,17,Military,2,x,,,,,,warriors
+SV,48,w,"Beskar'gam, heavy","Beskar'gam (SaV)
+Light, Medium, or Heavy Armor
+
+The beskar'gam is the traditional suit of Mandalorian Armor. Unlike the armor of the Neo-Crusaders (see page 201 of the Knights of the Old Republic Cam­paign Guide), most suits of beskar'gam are individually tailored to the wearer. They usually have various customizations, ranging from simple coloration changes to significant structural alterations. The beskar'gam is extremely rare outside of Mandalorian culture and costs 30,000 more than a traditional suit of Mandalorian armor. True beskar'gam is made of Mandalorian iron (beskar), which is strong enough to deflect blaster fire and even lightsabers, and when worn by a true Mandalorian warrior it can greatly reduce the amount of damage taken even from direct hits. Not all suits of Mandalorian armor are beskar'gam (for example, the armor worn by Neo-Crusaders during the Mandalorian Wars was not made of beskar), but a wearer of the beskar'gam is a fearsome sight indeed. A suit of beskar'gam grants favorable circum­stances on Persuasion checks to intimidate, and if the wearer has DR then the wearer can apply its benefit against attacks made by lightsabers. Though not powered armor, the armor has two free upgrade slots.
+
+Gamemasters can reduce the cost of beskar'gam by 30,000 credits for Mandalorian heroes.
+",-10,45000,10,4,1,4/x3,3/x3,32,"Restricted, Rare",2,,"favorable circumstances to intimidate, DR v. lightsabers",,,,,Mandalorians
+SV,48,w,"Beskar'gam, light","Beskar'gam (SaV)
+Light, Medium, or Heavy Armor
+
+The beskar'gam is the traditional suit of Mandalorian Armor. Unlike the armor of the Neo-Crusaders (see page 201 of the Knights of the Old Republic Cam­paign Guide), most suits of beskar'gam are individually tailored to the wearer. They usually have various customizations, ranging from simple coloration changes to significant structural alterations. The beskar'gam is extremely rare outside of Mandalorian culture and costs 30,000 more than a traditional suit of Mandalorian armor. True beskar'gam is made of Mandalorian iron (beskar), which is strong enough to deflect blaster fire and even lightsabers, and when worn by a true Mandalorian warrior it can greatly reduce the amount of damage taken even from direct hits. Not all suits of Mandalorian armor are beskar'gam (for example, the armor worn by Neo-Crusaders during the Mandalorian Wars was not made of beskar), but a wearer of the beskar'gam is a fearsome sight indeed. A suit of beskar'gam grants favorable circum­stances on Persuasion checks to intimidate, and if the wearer has DR then the wearer can apply its benefit against attacks made by lightsabers. Though not powered armor, the armor has two free upgrade slots.
+
+Gamemasters can reduce the cost of beskar'gam by 30,000 credits for Mandalorian heroes.
+",-2,33500,5,2,3,,,10,"Licensed, Rare",2,,"favorable circumstances to intimidate, DR v. lightsabers",,,,,Mandalorians
+SV,48,w,"Beskar'gam, medium","Beskar'gam (SaV)
+Light, Medium, or Heavy Armor
+
+The beskar'gam is the traditional suit of Mandalorian Armor. Unlike the armor of the Neo-Crusaders (see page 201 of the Knights of the Old Republic Cam­paign Guide), most suits of beskar'gam are individually tailored to the wearer. They usually have various customizations, ranging from simple coloration changes to significant structural alterations. The beskar'gam is extremely rare outside of Mandalorian culture and costs 30,000 more than a traditional suit of Mandalorian armor. True beskar'gam is made of Mandalorian iron (beskar), which is strong enough to deflect blaster fire and even lightsabers, and when worn by a true Mandalorian warrior it can greatly reduce the amount of damage taken even from direct hits. Not all suits of Mandalorian armor are beskar'gam (for example, the armor worn by Neo-Crusaders during the Mandalorian Wars was not made of beskar), but a wearer of the beskar'gam is a fearsome sight indeed. A suit of beskar'gam grants favorable circum­stances on Persuasion checks to intimidate, and if the wearer has DR then the wearer can apply its benefit against attacks made by lightsabers. Though not powered armor, the armor has two free upgrade slots.
+
+Gamemasters can reduce the cost of beskar'gam by 30,000 credits for Mandalorian heroes.
+",-5,37000,8,2,2,4,3,17,"Restricted, Rare",2,,"favorable circumstances to intimidate, DR v. lightsabers",,,,,Mandalorians
+GW,44,w,Biohazard suit,"Biohazard Suit (GaW)
+Medium Armor
+
+The biohazard suit is a common piece of equipment that protects the wearer from hazardous biological matter. The standard biohazard suit is bright yellow and features a domed, transparent helmet to allow for normal vision. A bio­hazard suit provides immunity to all atmospheric or inhaled poison hazards, as well as to any diseases spread by inhalation or contact. A biohazard suit provides 1 hour of breathable atmosphere before the filter and atmosphere canister must be replaced.
+",-5,4000,0,3,,4,3,9,Licensed,,,"immunity to all atmospheric or inhaled poisons and diseases, 1 hour breathable atmosphere",,,,,
+CR,132,w,Blast helmet and vest,"Blast Helmet and Vest
+Light Armor
+
+This armor consists of a lightweight helmet and a composite vest that, when worn together, offer limited protection against incoming attacks.
+",-2,500,2,0,5,,,3,,,,,,,,,"Imperial troopers, Rebel troopers"
+K,179,w,Blast jacket (Atton Rand's),,-2,,2,1,4,,,,Unique,,,similar version worn by Mira (K 214),,,,,Atton Rand
+L,98,w,Boba Fett's Mandalorian Armor,"Boba Fett's Mandalorian Armor (LECG)
+Medium Armor, Heirloom Item
+
+The famous bounty hunter Boba Fett wore a special suit of patchwork Mandalorian armor for decades. The Mandalorian armor is outfitted with dozens of special modifications, making it the ideal suit of armor for any bounty hunter or mercenary.
+
+Upon his death, Boba Fett's armor would have been split up into separate pieces to be worn by other members of his clan to honor him, as per the Mandalorian tradition. Reassembling Boba Fett's armor might be the subject of a personal quest undertaken by a hero in a legacy era campaign, or the reassembled suit could be worn by an enemy wishing to capitalize on the armor's legendary status.
+
+Boba Fett's Mandalorian Armor: Medium Mandalorian battle armor with an extra modification (+9 armor bonus to Reflex Defense, +2 equipment bonus to Fortitude Defense).
+",-5,,9,2,2,4,3,18,Rare,6,x,"10 hours life support, jet pack, and extra modification",,,,,Boba Fett or Fett clan
+D3,24,X,Bodyguard armor,"Flight Suit, Armored
+Light Armor
+
+A combat-ready flight suit that provides additional protection against vacuum for limited periods, this armor comes in various models, including the Corellian TX-3 (favored by various pirate gangs) and the Imperial TIE flight suit (worn by TIE fighter pilots throughout the Empire). An armored flight suit provides up to 10 hours of life support, allowing its wearer to survive in the vacuum of space or any other hostile environment.
+",-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,Bodyguard 
+C,64,w,Camo armor,"Camo Armor (CWCG)
+Medium Armor
+
+Camo armor protects the wearer from discovery as well as injury. In addition to of the usual hard metal plates woven on top of a fabric body suit, the armor is also embedded with miniature photoreactive fibers that allow the suit to absorb light and change its color to match the wearer's surroundings. When attempting to hide, the wearer gains a +10 equipment bonus to Stealth checks, regardless of the terrain.
+",-5,6000,5,0,3,4,3,6,Restricted,,,Stealth +10,Stealth,10,,,scouts?
+GW,44,w,Camo scout armor,"Camo Scout Armor (GaW)
+Medium Armor
+
+Creshaldyne Industries camo scout armor is worn by scouts, commandos, and other stealthy troops. It combines sound-dampening technology with the light-bending and light-absorption technology used in the camouflage poncho (see page 46). Camo scout armor provides a +5 equipment bonus on all Stealth checks made by the wearer.
+
+If you are using the Armor Upgrades option from Scum and Villainy, camo scout armor has the Shadowskin upgrade and room for one additional upgrade.
+",-5,6000,6,2,3,4,3,13,Licensed,1,,"+5 Stealth, Shadowskin upgrade included",Stealth,5,,,"scouts, commandos, and other stealthy troops"
+CR,132,w,Ceremonial armor,"Ceremonial Armor
+Medium Armor
+
+Ceremonial armor blends practicality with ornate design. Republic Guards and Imperial Royal Guards wear different styles of ceremonial armor. A typical suit of ceremonial armor consists of a helmet, durable breast guard, shoulder guards, and articulated greaves for the arms and legs.
+",-5,5000,7,0,2,4,3,13,Restricted,,,,,,,,Republic Guards and Imperial Royal Guards
+C,153,w,Clone scout trooper armor,,-2,5500,4,0,4,,,9,"Military, Rare",,x,,,,,,Clone scout troopers
+C,154,X,Clone spacetrooper armor,,-10,,7,2,1,4,3,,"Military, Rare",,x,Str +2,,,,,Galactic Marines
+CR,281,w,Clone Trooper armor,,-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Clone Trooper
+C,149,X,"Clone Trooper armor, fire-resistant",,-10,,9,3,0,4/x3,3/x3,,"Military, Rare",,x,provides DR 5 against fire damage,,,,,Clone Trooper
+CR,133,w,Combat jumpsuit,"Combat Jumpsuit
+Light Armor
+
+This heavily padded jumpsuit is designed to provide limited protection against physical and energy trauma without overly restricting the wearer's movement.
+",-2,1500,4,0,4,,,8,Licensed,,,,,,,,"police, soldiers, scouts"
+T,22,X,Commando armor,,-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,
+CR,133,w,Corellian powersuit,"Corellian Powersuit
+Medium Armor
+
+This suit of body armor contains an energized exoskeleton and a series of servomotors that boosts the wearer's physical strength. Used by professional soldiers, mercenaries, and bounty hunters, the powersuit requires skill and training to use effectively.
+
+The Corellian powersuit grants its wearer a +2 equipment bonus to Strength, but only if the wearer has the Armor Proficiency (medium) feat.
+",-5,10000,7,0,3,4,3,20,Restricted,,,Str +2 with AP medium,,,STR,2,"professional soldiers, mercenaries, and bounty hunters"
+L,183,w,Cortosis Gauntlet,"Cortosis Gauntlet (LECG)
+Medium Armor (see below)
+
+This gauntlet, made with cortosis weave, protects its wearer from lightsaber attacks. If the wearer readies an action to block a lightsaber attack, the wearer can make an opposed unarmed melee attack roll against the attack roll of the lightsaber attack. If the wearer of the cortosis gauntlet is successful, the lightsaber deactivates and may not be reactivated for 2 minutes (20 rounds). The attack still deals normal damage before the lightsaber is deactivated.
+
+If the wearer of a cortosis gauntlet is the target of the Severing Strike talent, the attacker can choose to sever the limb on which the cortosis gauntlet is worn without having his or her lightsaber deactivated.
+
+The wearer of a cortosis gauntlet must have the Armor Proficiency (medium) feat or take the normal penalties for wearing armor in which he or she is not proficient.
+",-5,1500,,,,4,3,1,Rare,,,can make unopposed unarmed atk v. lightsaber to deactivate for 20 rounds,,,,,Imperial Knight
+F,178,w,Coruscant Guard armor,,-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Coruscant Guard
+J,61,w,"Dark armor, heavy","Dark Armor (JATM)
+Light, Medium, and Heavy Armor
+
+Dark armor is the generic name given to various suits of armor possessed and worn by the Sith. Each suit of dark armor is unique, having been created for and often modified by an individual Sith Lord. These suits of armor may look like they originated as other stock models, but they are modified through various processes, including Sith alchemy.
+
+Dark armor is not just another piece of protective gear; to many Sith Lords, the armor is nearly as important as their lightsabers. A suit of dark armor defines a Sith Lord's appearance, and is frequently made to be as frightening as possible.
+
+A suit of dark armor automatically comes with a single enhancement from the Sith Alchemy Specialist talent, as defined on page 22.
+",-10,25000,8,5,1,4/x3,3/x3,30,Rare,,,automatically comes with a single enhancement from the Sith Alchemist talent (J22),,,,,Sith
+J,61,w,"Dark armor, light","Dark Armor (JATM)
+Light, Medium, and Heavy Armor
+
+Dark armor is the generic name given to various suits of armor possessed and worn by the Sith. Each suit of dark armor is unique, having been created for and often modified by an individual Sith Lord. These suits of armor may look like they originated as other stock models, but they are modified through various processes, including Sith alchemy.
+
+Dark armor is not just another piece of protective gear; to many Sith Lords, the armor is nearly as important as their lightsabers. A suit of dark armor defines a Sith Lord's appearance, and is frequently made to be as frightening as possible.
+
+A suit of dark armor automatically comes with a single enhancement from the Sith Alchemy Specialist talent, as defined on page 22.
+",-2,10000,4,3,3,,,10,Rare,,,automatically comes with a single enhancement from the Sith Alchemist talent (J22),,,,,Sith
+J,61,w,"Dark armor, medium","Dark Armor (JATM)
+Light, Medium, and Heavy Armor
+
+Dark armor is the generic name given to various suits of armor possessed and worn by the Sith. Each suit of dark armor is unique, having been created for and often modified by an individual Sith Lord. These suits of armor may look like they originated as other stock models, but they are modified through various processes, including Sith alchemy.
+
+Dark armor is not just another piece of protective gear; to many Sith Lords, the armor is nearly as important as their lightsabers. A suit of dark armor defines a Sith Lord's appearance, and is frequently made to be as frightening as possible.
+
+A suit of dark armor automatically comes with a single enhancement from the Sith Alchemy Specialist talent, as defined on page 22.
+",-5,15000,7,4,2,4,3,16,Rare,,,automatically comes with a single enhancement from the Sith Alchemist talent (J22),,,,,Sith
+K,157,w,Darth Bandon's fiber armor,,-2,,5,2,2,,,,Unique,,,,,,,,Darth Bandon
+K,156,w,Darth Malak's armor,,-2,,6,2,2,,,,Unique,,,,,,,,Darth Malak
+W,327,X,Darth Revan's armor,,-5,,7,2,0,4,3,5,Unique,,,,,,,,Darth Revan
+CR,262,w,Darth Vader's custom armor,,-2,10000,8,2,3,,,11,Unique,,x,10 hours life support,,,,,Darth Vader
+SGD,54,w,"Droid, Crystadurium Plating","Crystadurium Plating (SGtD): Early in the Clone Wars, Techno Union harvesters on Mustafar discover previously unidentified crystals in the planet's lava f lows. Originally discarded as worthless impurities, the crystals attract the attention of representatives of the Techno Union because of their ability to survive the extreme heat. The research and development team discovers that the crystals, dubbed crystadurium, not only withstand heat and high pressure, but they also resist blaster fire. Working with a design team from Baktoid Combat Automata, they create blaster-resistant armor plating by mixing crystal shards into the durasteel alloy used for the battle droids' armor. The war ends before the armor plating is implemented, and the plans are lost when the Techno Union is absorbed by the Empire. Years later the plans are rediscovered by an Imperial librarian, who sells the plans to several arms manufacturers. Although the armor created from these plans is inferior to the original prototypes, it is remarkably effective at stopping blaster fire. Crystadurium armor is heavier and more expensive than standard heavy armor, but it is sought by military organizations throughout the galaxy because of its ability to reduce damage from blaster attacks by 1 point per die of damage.
+
+",-10,50000x,10,0,2,6/x3,4/x3,30x,"Military, Rare",,,x Cost Factor; reduce damage from blaster attacks by 1 point per die of damage,,,,,
+CR,193,w,"Droid, Duranium battle armor",,-10,10000x,10,0,2,6/x3,4/x3,10x,Military,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Duranium plating",,-5,6400x,8,0,2,,,16x,Restricted,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Durasteel battle armor",,-5,9600x,8,0,3,,,8x,Restricted,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Durasteel plating",,-2,3600x,6,0,3,,,12x,Licensed,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Durasteel shell",,-2,1600x,4,0,4,,,8x,,,,x Cost Factor,,,,,
+SGD,54,w,"Droid, Duravlex Shell","Duravlex Shell (SGtD): When the droid manufacturing company Roche designed its smelting droid, one of the largest hurdles was enabling the unit to resist the high temperatures that it must endure while working inside blast furnaces. After many failed attempts, Roche's research team finally perfects a formula that combines high-grade durasteel and kevlex. Dubbed duravlex, the off-white alloy is as strong as durasteel and is highly resistant to heat. Duravlex becomes the droid's biggest selling point, and Roche profits greatly from selling a modified version of the formula to other companies. A droid equipped with a duravlex shell gains a + 10 equipment bonus to its Fortitude Defense to resist fire and extreme heat.
+
+",-2,1000x,4,0,3,,,10x,Licensed,,,x Cost Factor; +10 equipment to Fort to resist fire and extreme heat,,,,,
+SGD,54,w,"Droid, Laminanium Plating","Laminanium Plating (SGtD): Made from an exclusive laminanium alloy developed by Tendrando Arms, laminanium plating is primarily for use on its YVH-Series droids. The unique properties of the self-repairing Qellan metal enable it to spontaneously melt and reform to seal damaged areas, even at standard room temperature. The armor is more durable than other types of droid armor, and it is less vulnerable to corrosive acids and similar environmental hazard s. Laminanium's strict production standards and material costs limit its use, although it occasionally appears on other Tendrando Arms products. A droid equipped with laminanium plating gains a +2 equipment bonus to Fortitude Defense.
+
+",-2,3000x,4,2,3,,,15x,Military,,,x Cost Factor,,,,,
+SGD,54,w,"Droid, Laminanium Plating","Laminanium Plating (SGtD): Made from an exclusive laminanium alloy developed by Tendrando Arms, laminanium plating is primarily for use on its YVH-Series droids. The unique properties of the self-repairing Qellan metal enable it to spontaneously melt and reform to seal damaged areas, even at standard room temperature. The armor is more durable than other types of droid armor, and it is less vulnerable to corrosive acids and similar environmental hazard s. Laminanium's strict production standards and material costs limit its use, although it occasionally appears on other Tendrando Arms products. A droid equipped with laminanium plating gains a +2 equipment bonus to Fortitude Defense.
+
+",-10,20000x,12,2,2,6/x3,4/x3,15x,"Military, Rare",,,x Cost Factor,,,,,
+CR,193,w,"Droid, Mandalorian steel shell",,-10,8100x,9,0,3,6/x3,4/x3,9x,Military Rare,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Neutronium plating",,-10,12100x,11,0,1,6/x3,4/x3,20x,Military,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Plasteel shell",,-2,400x,2,0,5,,,2x,,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Quadanium battle armor",,-5,4900x,7,0,3,,,7x,Restricted,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Quadanium plating",,-2,2500x,5,0,3,,,10x,Licensed,,,x Cost Factor,,,,,
+CR,193,w,"Droid, Quadanium shell",,-2,900x,3,0,4,,,3x,,,,x Cost Factor,,,,,
+K,71,w,"Energy shields, heavy SR 25","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-10,12500,0,0,2,4/x3,3/x3,1,,1,,"5 charges, activate 1/encounter for length of encounter, only protects against energy dmg, works against lightsabers as per the KOTOR sidebar rules.",,,,,"Sith troopers, old Republic troopers"
+K,211,w,"Energy shields, heavy SR 25 (Calo Nord's Verpine Prototype)","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-10,,0,0,2,4/x3,3/x3,1,Unique,,,as heavy energy shields with Verpine (DR 10 vs. ion) and Prototype (+1 die dmg on crit),,,,,bounty hunter Calo Nord
+K,71,w,"Energy shields, heavy SR 30","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-10,18000,0,0,2,4/x3,3/x3,1,,1,,"5 charges, activate 1/encounter for length of encounter, only protects against energy dmg, works against lightsabers as per the KOTOR sidebar rules.",,,,,"Sith troopers, old Republic troopers"
+K,71,w,"Energy shields, light SR 10","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-2,2000,0,0,4,,,1,,1,,"5 charges, activate 1/encounter for length of encounter, only protects against energy dmg, works against lightsabers as per the KOTOR sidebar rules.",,,,,"Sith troopers, old Republic troopers"
+K,71,w,"Energy shields, light SR 5","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-2,500,0,0,4,,,1,,1,,"5 charges, activate 1/encounter for length of encounter, only protects against energy dmg, works against lightsabers as per the KOTOR sidebar rules.",,,,,"Sith troopers, old Republic troopers"
+K,71,w,"Energy shields, medium SR 15","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-5,4500,0,0,3,4,3,1,,1,,"5 charges, activate 1/encounter for length of encounter, only protects against energy dmg, works against lightsabers as per the KOTOR sidebar rules.",,,,,"Sith troopers, old Republic troopers"
+K,71,w,"Energy shields, medium SR 20","Energy Shields (KotORCG)
+Light, Medium, and Heavy Armor
+
+Rising to prominence in the days after the Great Sith War, personal energy shields project a thin layer of shielding over an individual character or creature. The popularity of energy shields sparks a revolution in combat tactics, including a surge in the popularity of melee weapons and non-energy projectile weapons. Just as the spread of energy shields is a response to the prominence of energy weapons, they in turn cause warriors to adjust their tactics to deal with personal energy shields.
+
+Energy shields give a character a Shield Rating, which functions exactly as vehicle and starship shields. An energy-shield generator is typically worn on the forearm or upper arm and must be activated as a swift action. Energy shields typically have 5 charges, and energy shields can only be activated once per encounter (the stress on the shield generator causes the device to overload otherwise, so the manufacturers build in fail-safes to prevent such an occurrence). Each activation consumes one charge and lasts through the end of the encounter. An energy shield only protects against weapons that deal energy damage; a weapon that deals any other type of damage bypasses the shield's SR entirely.
+
+Energy shields come in three varieties: light, medium, and heavy. Each energy shield type corresponds to an armor type. A character with an active personal shield without the relevant Armor Proficiency feat takes a -5 penalty to Reflex Defense, and the wearer is denied its Dexterity bonus to Reflex Defense, though he or she still gains the benefit of the shield. Regardless of whether or not the character is proficient in the personal shield, the character always takes the armor check penalty associated with the shield while it is activated. Additionally, each type of energy shield imposes its Maximum Dexterity Bonus restriction only when activated, not when worn and inert. An energy shield can be added to a suit of armor as an accessory. An energy shield can be modified by armor templates (see below) only if the template specifically states that it can be used on energy shields, and the shield confers that benefit only when it is activated.
+
+The SR provided by the energy shield determines the shield's price, as well as the type of Armor Proficiency feat required to operate the shields without penalty. SR 5 and SR 10 energy shields require Armor Proficiency (light); SR 15 and SR 20 energy shields require Armor Proficiency (medium); SR 25 and greater energy shields require Armor Proficiency (heavy). See Table 5-4 for prices of energy shields.
+",-5,8000,0,0,3,4,3,1,,1,,"5 charges, activate 1/encounter for length of encounter, only protects against energy dmg, works against lightsabers as per the KOTOR sidebar rules.",,,,,"Sith troopers, old Republic troopers"
+F,179,w,EVO Trooper armor,,-2,8000,6,2,3,,,10,"Military, Rare",,x,v. airborne poisons +10,,,,,EVO Trooper
+K,153,w,Exar Kun's light battle suit,,-2,,6,2,3,,,,Unique,,,,,,,,Exar Kun
+K,72,w,Fiber armor,"Fiber Armor (KotORCG)
+Light Armor
+
+Initially used on worlds where traditional armor plating was in short supply, fiber armor is specially designed to channel energy-weapon attacks away from the body. The various metal fibers woven into the exterior of this armor cause it to absorb and harmlessly disperse energy damage. However, fiber armor is far from perfect, and lucky shots manage to hit. Once per encounter, a character fighting defensively while wearing fiber armor can gain DR 10 against a single ranged energy attack as a reaction.
+",-2,3000,4,1,2,,,10,Licensed,,,1/encounter if fight defensively gain DR10 v. one ranged energy attack,,,,,worlds with no armor
+CR,137,w,Flight suit,"Flight Suit
+
+The flight suit is a one-piece coverall (plus a helmet) that provides life support, protects the wearer from hostile environments,. and prevents the wearer from succumbing to the adverse effects of high-velocity flying. A flight suit includes a matching helmet and gloves that seal around the wearer and provide up to 10 hours of life support.
+
+As long as you have life support remaining, you are immune to any hostile atmosphere or inhaled poison hazard. The suit also grants a + 1 equipment bonus to your Fortitude Defense.
+",S,1000,0,1,,,,3,,1,,10 hours life support,,,,,pilots
+CR,133,w,"Flight suit, armored","Flight Suit, Armored
+Light Armor
+
+A combat-ready flight suit that provides additional protection against vacuum for limited periods, this armor comes in various models, including the Corellian TX-3 (favored by various pirate gangs) and the Imperial TIE flight suit (worn by TIE fighter pilots throughout the Empire). An armored flight suit provides up to 10 hours of life support, allowing its wearer to survive in the vacuum of space or any other hostile environment.
+",-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,pilots
+CR,133,w,"Flight suit, padded","Flight Suit, Padded
+Light Armor
+
+Favored by starfighter pilots all over the galaxy, the one-piece padded flight suit protects against decompression, g-forces, and harmful environments. It provides limited protection against attacks as well. A padded flight suit comes with a matching helmet and gloves that seal around the wearer and provide up to 10 hours of life support, allowing him to survive in the vacuum of space or any other hostile environment.
+",-2,2000,3,1,4,,,5,,,,10 hours life support,,,,,pilots
+L,140,w,Galactic Alliance Armor,"Galactic Alliance Armor
+Light Armor
+
+For over 100 years, the Galactic Alliance has used variations of its own light armor design, usually in dark blue hues with black accents. In its most recent form, the armor combines a padded armor base with a reinforced breastplate and fully armored gauntlets. Some front-line troopers also use a fully enclosed helmet with helmet package, but this varies by unit. It is not uncommon to see officers and others opt to use Galactic Alliance uniform hats and caps instead.
+
+Some variations of the standard Galactic Alliance uniform incorporate a flexible blast vest and a tight-fitting, open -faced helmet into their designs. This type is especially prevalent among the fleet crews at battle stations. It provides the same bonuses as a regular blast helmet and vest (see page 132 of the Saga Edition core rulebook).
+",-2,6000,4,1,3,,,9,Military,,possible,,,,,,Galactic Alliance
+L,140,w,"Galactic Alliance Armor, fleet crew",,-2,500,2,0,5,,,3,,,,,,,,,Galactic Alliance
+C,182,w,Geonosian warrior tunic,,-2,1500,4,0,4,,,8,Licensed,,,also GW 209,,,,,Geonosian elite warriors
+SV,48,w,GTU AV-1C combat armor,"GTU AV-1C Combat Armor (SaV)
+Heavy Armor
+
+Originally designed for use by private security forces and paramilitary groups, the GTU AV-1C combat armor is a fully enclosed suit of armor made of interlocking hard plates that completely cover the wearer's body. The suit is vacuum sealed and incorporates a built-in helmet package. Additionally, the armor includes an advanced repulsorlift system that replicates a jet pack (following all the normal rules for the jet pack) but produces no noise, heat, or flames. The AV-1C combat armor is powered armor and has two free upgrade slots.
+",-10,25000,9,4,1,4/x3,3/x3,25,"Restricted, Rare",2,x,"like jetpack but produces no noise, flame or heat (move 6sq)",,,,,private security forces and paramilitary groups
+SV,48,w,GTU AV-1S scout armor,"GTU AV-1S Scout Armor (SaV)
+Medium Armor
+
+A scaled-down version of the AV-1C combat armor, the GTU AV-1S scout armor is lighter and allows for a greater degree of mobility, making it a favored suit for bounty hunters that rely on their speed and stealth to cap­ture a mark. The AV-1C is also vacuum sealed and includes a built-in helmet package, and a reduced-power repulsorlift system similar to the combat model. This repulsorlift functions as a repulsorlift except that it produces no noise, heat, or flames, but grants a fly speed of 4 squares instead of 6 squares. The armor is powered, giving it two free upgrade slots, and includes a built-in glowrod.
+",-5,15000,7,2,2,4,3,18,Military,2,x,"like jetpack but produces no noise, flame or heat (move 4sq), built in glowrod",,,,,bounty hunters
+SV,49,w,Half-vest,"Half-Vest (SaV)
+Light Armor
+
+The Koromondain Mark 45 protective vest is usually worn by smugglers who are expecting trouble but don't want to be seen wearing armor in public. Lightweight, flexible, and easily hidden under clothing (+5 equipment bonus to Stealth checks made to conceal the armor), a half-vest protects the wearer against surprise attacks from unscrupulous enemies and allies. Once per encounter as a free action, the wearer can negate the bonus damage on any attack made against him while he is denied his Dexterity bonus to Reflex Defense (such as when being targeted by an attacker with the Sneak Attack talent).
+",-2,250,1,0,5,,,2,Restricted,,,"Stealth +5 to conceal, 1/encounter negate bonus dam if denied Dex to Def",,,,,smugglers
+GW,179,w,Haz-chem coveralls,"Blast Helmet and Vest
+Light Armor
+
+This armor consists of a lightweight helmet and a composite vest that, when worn together, offer limited protection against incoming attacks.
+",-2,500,2,0,5,,,3,,,,,,,,,"Imperial troopers, Rebel troopers"
+F,183,w,Heavy dungeoneer armor,,-10,,10,2,1,4/x3,3/x3,31,,,x,"built in comlink, audio and video recorders",,,,,Imperial Dungeoneer
+L,183,w,Imperial Knight armor,"Imperial Knight Armor (LECG)
+Medium Armor
+
+The chosen armor of the Imperial Knights is modeled after the armor worn by Darth Vader during the Galactic Civil War. However, unlike Darth Vader's armor, the Imperial Knight armor is not designed to provide life support to the wearer. Additionally, the armor has small threads of phrik filaments throughout the armor, allowing the wearer to apply any personal DR against attacks made by lightsabers.
+",-5,7000,8,2,3,4,3,16,Rare,,,add personal DR v. lightsabers,,,,,Imperial Knight
+J,62,w,"Jedi battle armor, light","Jedi Battle Armor (JATM)
+Light and Medium Armor
+
+Designed to match the needs of the individual Jedi who wears it, a suit of Jedi battle armor is a rare sight in the galaxy. Mostly popularized during the days of the Great Sith War and the Jedi Civil War, Jedi battle armor protects vital areas while not hindering the movements of the wearer.
+
+Two variants of this armor exist, one light and one medium, giving Jedi who choose to wear battle armor some options in determining how much training they want to devote to wearing such armor.
+",-2,4000,3,3,4,,,6,Rare,,,optional rule: Jedi can wear without AP with no bonuses to Def,,,,,Jedi
+J,62,w,"Jedi battle armor, medium","Jedi Battle Armor (JATM)
+Light and Medium Armor
+
+Designed to match the needs of the individual Jedi who wears it, a suit of Jedi battle armor is a rare sight in the galaxy. Mostly popular­ized during the days of the Great Sith War and the Jedi Civil War, Jedi battle armor protects vital areas while not hindering the movements of the wearer.
+
+Two variants of this armor exist, one light and one medium, giving Jedi who choose to wear battle armor some options in determining how much training they want to devote to wearing such armor.
+",-5,6000,5,5,3,4,3,12,Rare,,,,,,,,Jedi
+F,180,w,Jumptrooper armor,,-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Jumptrooper 
+GW,44,w,Katarn-class commando armor,"Katarn-class Commando Armor (GaW)
+Medium Armor
+
+Issued several months after the Battle of Geonosis, Katarn-class commando armor is a superior, specialized armor, designed with input from clone commandos in the field. The armor is unusually thick, with a sealed system allowing the wearer to survive underwater or in vacuum for up to 24 hours. It also features a built-in, retractable, wrist-mounted vibroblade. This highly sought after armor is rarely found in the possession of civilians. Its black- market price can exceed a quarter-million credits. Clone commandos swear by the armor's effectiveness, even though they also grumble beneath their breath about its lack of comfort during long missions.
+
+Katarn-class commando armor grants a wearer with the Armor Proficiency (heavy) feat a +2 bonus on Perception checks, as well as low-light vision. The armor includes an integrated comlink in the helmet, allowing hands-free communication.
+
+As a full-round action, the wearer can use the bacta tanks built into the armor. The bacta and the suit's built-in diagnostic gear grant the wearer an effective Treat Injury +10 skill for self-treatment. The wearer ignores the —5 penalty for self-administration of this skill.
+
+Katarn-class commando armor is highly customizable. If you are using the Armor Upgrades option from Scum and Villainy, the Katarn-class com­mando armor has the Vacuum Seal upgrade and room for three additional upgrades.
+",-5,30000,9,4,1,4,3,20,Military,3,x,"24 hours in water/vacuum, built-in vibroblade, full round to use bacta +10 Treat Injury & no -5 for self, Vacuum Seal upgrade",,,,,clone commandos
+L,183,w,Knighthunter armor,"Knighthunter Armor (LECG)
+Medium Armor
+
+An upgrade of the standard stormtrooper armor, the solid-black armor of the Knighthunters combines many of the designs of Palpatine's Coruscant Guards and the storm Commandos, providing a durable suit of armor that also allows the wearer to remain hidden in poorly lit conditions. Knighthunter armor comes standard with a helmet package. Additionally, the helmet of a suit of Knighthunter armor is fitted with a small connector at the base of the neck that sends minute electrical impulses into the spine and the base of the brain of the wearer. These impulses disrupt any outside influence on the brain of the wearer, granting the wearer a +5 equipment bonus to Will Defense against Use the Force checks.
+",-5,6000,7,2,3,4,3,13,Military,,x,+5 Will Def v. Use the Force,,,,,Knighthunter 
+SV,49,w,Krail 210 personal armor,"Krail 210 Personal Armor (SaV)
+Medium Armor
+
+Created by Krail Armory ostensibly for private security forces, the Model 210 personal armor is a favorite of bounty hunters that provides several built-in amenities off the assembly line, reducing the amount of work it takes to transform the armor into a custom suit preferred by a bounty hunter. The Model 210 personal armor comes with a built-in helmet package, jet pack, liquid cable dispenser, and vacuum seals. Additionally, the armor grants a +2 equipment bonus to Strength checks made to lift, drag, or pull an object. Krail Model 210 personal armor is considered to be powered armor and has two free upgrade slots.
+",-5,16300,7,1,3,4,3,17,Military,2,x,"jet pack, liquid cable dispenser, vacuum seals, +2 Str to lift drag or pull; bounty hunters",,,,,"private security forces, bounty hunters"
+K,219,w,Krath armor,,-2,3500,5,2,3,,,10,Military,,,,,,,,Krath
+K,219,w,Krath battle armor,,-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,Krath
+F,217,w,Light combat armor,,-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,
+D2,21,X,Makeshift body armor,"Flight Suit, Armored
+Light Armor
+
+A combat-ready flight suit that provides additional protection against vacuum for limited periods, this armor comes in various models, including the Corellian TX-3 (favored by various pirate gangs) and the Imperial TIE flight suit (worn by TIE fighter pilots throughout the Empire). An armored flight suit provides up to 10 hours of life support, allowing its wearer to survive in the vacuum of space or any other hostile environment.
+",-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,thugs
+T,103,w,Mandalorian Armor,,,+30000,0,+1,0,,,,,,,apply personal DR vs. lightsabers; In some eras grants favorable circumstances intimidate,,,,,Mandalorian
+T,19,X,Mandalorian armor (Jango Fett's),,-5,,8,3,3,,,,Unique,,,4 weapon attachments,,,,,Jango Fett
+K,202,w,Mandalorian battle armor,"Mandalorian Battle Armor (KotORCG)
+Medium Armor
+
+A heavier version of the Mandalorian Combat Suit sometimes worn by veteran warriors, this armor includes a helmet, boots, and gauntlets. Any wearer who has the Armor Proficiency (medium) feat can use the helmet's internal comlink and helmet package. The suit provides its wearer with up to 10 hours of life support. This armor comes with a jet pack and six unused upgrade slots.
+",-5,,8,2,2,4,3,18,Rare,6,x,"10 hours life support, jet pack",,,,,Mandalorian
+K,201,w,Mandalorian combat suit,"Mandalorian Combat Suit (KotORCG)
+Light Armor
+
+Favored by the Mandalorians before the beginning of the Neo-Crusader movement, this vacuum-sealed suit has metal composite plates attached, providing protection in battle with a maximum range of movement. A helmet is included in this package, providing any wearer who has the Armor Proficiency (light) feat with an internal comlink and a helmet package. The suit can also provide its wearer with up to 10 hours of life support. This armor comes with a jet pack and has five unused upgrade slots.
+",-2,,4,1,5,,,8,Rare,5,x,"10 hours life support, jet pack",,,,,Mandalorian
+GW,45,w,Marine armor,"Marine Armor (GaW)
+Light Armor
+
+This light armor is employed by the Rebel Alliance during the Galactic Civil War. It provides decent protection forefront-line troops during ship-boarding actions and house-to-house fighting, and even in zero gee, in vacuum, or underwater. The armor's sealed life-support system allows the wearer to survive for up to 24 hours in the vacuum of space or other hostile environ­ments. The soles of the armor's boots are magnetic, enabling the wearer to walk on metal surfaces, such as a starship hull, without drifting off into space. The magnetic soles reduce the wearer's speed by 2 squares. A small propulsion system on the backpack allows the wearer to reroll any failed Swim checks, keeping the better result, and even when rushed or threatened, the wearer can take 10 on Swim checks and can maneuver without penalty in zero gravity.
+
+If you are using the Armor Upgrades option from Scum and Villainy, Marine armor has the Aquatic Adaptation and Vacuum Seal upgrades, plus room for one additional upgrade.
+",-2,5000,5,2,3,,,12,Restricted,1,,"24 hours in vacuum/water, magnetic soles (Spd 2), reroll & take 10 Swim mtr, no penalty to maneuver in zero g",Swim,rrmtr,,,Rebel Alliance
+K,72,w,Matrix armor,"Matrix Armor (KotORCG)
+Heavy Armor
+
+Though few military engineers would call matrix armor a pretty design, it is effective. Matrix armor takes armor plating from starships, bonding it to the outside of a suit of heavy armor. With the matrix armor plating in patterns similar to those used by fiber and mesh armor, the wearer of a suit of matrix armor can turn aside energy-weapon attacks that would otherwise be devastating. Once per encounter, a character fighting defensively while wearing matrix armor can gain DR 30 against a single ranged energy attack as a reaction.
+",-10,9000,9,3,1,4/x3,3/x3,25,Restricted,,,1/encounter if fight defensively gain DR30 v. one ranged energy attack,,,,,
+R,51,w,Merr-Sonn KZZ riot armor,"Merr-Sonn KZZ Riot Armor (RECG)
+Light Armor
+
+KZZ riot armor is manufactured by Merr-Sonn Munitions, Inc., for the Espos of the Corporate Sector. It consists of a reinforced blast helmet and vest and a small shield; the shield is strapped to the wearer's arm and does not interfere with her ability to use the associated hand. The vest and helmet are brown, giving rise to the Espos' nickname, ""Boys in Brown."" While more expensive than a combat jumpsuit, KZZ riot armor offers the maneuverability of a typical blast helmet and vest and is lighter than a jumpsuit.
+",-2,2500,2,2,5,,,6,Military,,,,,,,, Corporate Sector Espos (security poilice)
+K,72,w,Mesh armor,"Mesh Armor (KotORCG)
+Medium Armor
+
+A more advanced form of fiber armor produced by military contractors across the galaxy, mesh armor uses the engineering principles of fiber armor, enhancing them with high-quality materials and extensive research. Mesh armor is heavier and more cumbersome than fiber armor and confers many of the same benefits of fiber armor and traditional suits of armor. Once per encounter a character fighting defensively while wearing mesh armor can gain DR 20 against a single ranged energy attack as a reaction.
+",-5,6000,6,2,2,4,3,13,Restricted,,,1/encounter if fight defensively gain DR20 v. one ranged energy attack,,,,,
+D9,32,X,Miner’s suit,"Flight Suit, Padded
+Light Armor
+
+Favored by starfighter pilots all over the galaxy, the one-piece padded flight suit protects against decompression, g-forces, and harmful environments. It provides limited protection against attacks as well. A padded flight suit comes with a matching helmet and gloves that seal around the wearer and provide up to 10 hours of life support, allowing him to survive in the vacuum of space or any other hostile environment.
+",-2,2000,3,1,4,,,5,,,,10 hours life support,,,,,mine guards
+K,202,w,Neo-Crusader assault armor,"Neo-Crusader Assault Armor
+Heavy Armor
+
+The armor of the Neo-Crusader shock troops, this upgrade of the NeoCrusader light armor is covered with energy ablative plating and includes a helmet, boots and gauntlets. Any wearer who has the Armor Proficiency (heavy) feat can use the helmet's internal comlink and helmet package. The suit provides its wearer with up to 24 hours of life support. This armor includes a jet pack; however, due to the weight of the suit, the jet pack has a maximum fly speed of 4 squares per turn. The suit has six unused upgrade slots.
+",-10,,10,4,1,4/x3,3/x3,65,"Military, Rare",6,x,"24 hours life support, jet pack max fly speed 4sq",,,,,Mandalorian
+K,201,w,Neo-Crusader light armor,"Neo-Crusader Light Armor
+Light Armor
+
+The basic issue armor of the Mandalorian ground forces, Neo-Crusader light armor includes a helmet, boots, and gauntlets. The helmet provides any wearer who has the Armor Proficiency (light) feat with an internal comlink and a helmet package. The suit can also provide its wearer with up to 10 hours of life support, allowing the wearer to survive in the vacuum of space or in any other hostile environment. This armor comes with a jet pack and has four unused upgrade slots (if using the equipment modification system presented in Scum and Villainy).
+",-2,,6,2,3,,,42,"Military, Rare",4,x,"10 hours life support, jet pack",,,,,Mandalorian
+J,62,w,Orbalisk armor,"Orbalisk Armor (JATM)
+Heavy Armor
+
+Orbalisk armor is unique in that it can only be obtained by subjecting oneself to parasites known as orbalisks, native to Dxun. The orbalisks bond with the host and usually drain the host of energy; however, someone with sufficient strength in the dark side of the Force (that is, possessing a Dark Side Score equal to his or her Wisdom score) can prevent the orbalisks from killing him, instead forming a symbiotic relationship with the parasites.
+
+A character with orbalisk armor gains DR 10; unlike normal DR, a lightsaber does not ignore the DR of the orbalisk armor. Since orbalisk armor is bonded directly to the skin of the wearer, it cannot be removed except through complex medical proce­dures (requiring surgery, as per the Treat Injury skill). However, since orbalisk armor is not worn in the traditional sense, the wearer takes no armor check penalty on skill checks for not being proficient in heavy armor.
+",-10,,10,2,1,4/x3,3/x3,26,Rare,,,"DR 10, lightsabers do not ignore DR, does not take penalties for no Heavy AP; also T 85",,,,,Sith Lords Darth Bane and Freedon Nadd
+R,128,w,Phase II Dark Trooper armor,,-10,,10,0,1,4/x3,3/x3,,,,,"Str +3, Perception +2",,,STR,3,Dark Trooper 
+R,128,w,Phase III Dark Trooper armor,,-10,,12,0,0,4/x3,3/x3,,,,,"Str +4, Perception +2",,,STR,4,Dark Trooper 
+F,177,w,Phase Zero Dark Trooper armor,,-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Dark Trooper 
+F,180,w,Radtrooper armor,,-2,8000,6,4,3,,,10,"Military, Rare",,x,v. radiation +10 Fort Def,,,,,Radtrooper
+K,179,w,Republic combat armor,"Republic Combat Armor (KotORCG)
+Medium Armor
+
+Inferior in all respects but weight to Mandalorian Neo-Crusader armor, Republic combat armor nonetheless provides valuable protection to soldiers on the ground. It includes a helmet, boots and gauntlets. The helmet provides any wearer who has the Armor Proficiency (medium) feat with an internal comlink and low-light-vision capabilities. This armor can be upgraded with additional equipment to provide oxygen flow and protection against vacuum environments.
+",-5,,6,2,2,4,3,14,Military,,,"comlink, low-light",,,,,Republic troops
+K,179,w,Republic heavy armor,"Republic Heavy Armor (KotORCG)
+Heavy Armor
+
+As good as it gets for Republic troops, this full-body armor features energy ablating plating granting the wearer -2 damage against energy attacks. The helmet provides any wearer who has the Armor Proficiency (heavy) feat with an internal comlink and low-light-vision capabilities. The suit can also provide its wearer with up to 24 hours of life support in the vacuum of space or other hostile environments.
+",-10,,8,3,1,4/x3,3/x3,26,Military,,,"dam -2 v. energy atk, comlink, low-light; 24 hours of life support",,,,,Republic troops
+K,179,w,Republic light armor,"Republic Light Armor (KotORCG)
+Light Armor
+
+Standard-issue armor for Republic forces not expecting heavy combat, Republic light armor includes a helmet and boots. The helmet provides any wearer who has the Armor Proficiency (light) feat with an attached comlink.
+
+This simple armor is not upgradable.
+",-2,,4,1,3,,,7,Military,0,,comlink,,,,,Republic troops
+T,77,w,Riot Shield,"Riot Shield (TotG)
+
+
+Riot shields are common gear for law enforcement and planetary defense forces. Measuring about 1 meter long and half as wide, a riot shield is made of a metal frame that generates an energy shield that bends light so that its outer surface is opaque while its inner side is transparent, allowing you unobstructed vision but not extending the same benefit to your opponents. A riot shield has DR 5, 20 hit points, and a break DC of 25.
+
+When held, a riot shield grants you cover (+5 cover bonus to your Reflex Defense) against all ranged attacks on any turn during which you fight defensively. You can also wield a riot shield as a melee weapon. When used in this way, it has the same statistics as a stun baton (SE 123).
+",S,500,S,0,,,,6,Military,1,,shield is DR5 20hp break DC25; provides cover (+5 cover to Ref) against ranged attack when you fight defensively,,,,,law enforcement and planetary defense forces
+F,174,w,Royal Guard armor,,-5,9000,7,0,2,4,3,14,Restricted,,x,,,,,,Royal Guard 
+CR,133,w,Sandtrooper armor,,-2,18000,6,2,3,,,10,"Military, Rare",,x,immune to effects of extreme heat,,,,,Sandtrooper
+CR,280,w,Scout trooper armor,,-2,5500,4,0,4,,,9,"Military, Rare",,x,,,,,,Scout trooper
+R,127,w,Seatrooper Armor,"Seatrooper Armor
+Light Armor
+
+Developed specifically for engagements on Mon Calamari and Tibrin, the aquatic armor worn by Imperial seatroopers is pressure-sealed to a maximum of ten atmospheres (about 660 feet underwater) and incorporates a rebreather. In addition to the +2 equipment bonus provided by standard stormtrooper armor, seatrooper armor provides a +2 equipment bonus to Swim checks because of its underwater propulsion pack and swim flippers.
+",-2,6750,4,2,2,,,14,"Military, Rare",,,Swim +2 with rebreather,Swim,2,,,Seatrooper
+D2,18,X,Separatist commando armor,"Flight Suit, Armored
+Light Armor
+
+A combat-ready flight suit that provides additional protection against vacuum for limited periods, this armor comes in various models, including the Corellian TX-3 (favored by various pirate gangs) and the Imperial TIE flight suit (worn by TIE fighter pilots throughout the Empire). An armored flight suit provides up to 10 hours of life support, allowing its wearer to survive in the vacuum of space or any other hostile environment.
+",-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,Separatist mercenaries
+F,175,w,Shadow Guard armor,,-5,9000,7,0,2,4,3,14,Restricted,,x,,,,,,Shadow Guard
+D4,154,w,Shadow trooper armor,,-2,,6,2,3,,,,"Military, Rare",,x,"+2 Stealth, darkvision, immune to detection",,,,,Shadow troopers
+SV,49,w,Shadowsuit,"Shadowsuit (CWCG)
+Light Armor
+
+Used by assassins and burglars, the shadowsuit manufactured by Ayelixe/Krongbing textiles is little more than a black body stocking covering the wearer’s entire body. Shadowsuits are made from a tough but soft material known as shadowsilk that absorbs light and sound. The hands and feet of the shadowsuit have sound-dampening pads that reduce the noise made by the wearer. A shadowsuit grants a +5 equipment bonus to Stealth checks whenever the wearer has concealment from darkness or low-light conditions. If any armor or clothing is worn over the shadowsuit, this bonus is lost. 
+",-2,600,1,1,5,,,2,Military,,,+5 equipment to Stealth checks with concealment from darkness or low-light (also C64),,,,,assassins and burglars
+R,51,w,Shield gauntlet,"Shield Gauntlet (RECG)
+Light Armor
+
+While personal shield devices have fallen out of use in much of the galaxy, they can still be found among the nobility of Kilia IV. Kilian Rangers use a shield gauntlet to both provide defense and remind themselves and others of the other half of their oaths: to defend themselves and their families. A shield gauntlet can be worn even if you are wearing other armor, although you cannot wear any items that cover your hands (such as combat gloves, stun gauntlets, a cortosis gauntlet, or shockboxing gloves) with a shield gauntlet. A shield gauntlet provides no benefit to the untrained, but those with certain talents (see the Kilian Ranger talent tree on page XX) can use it to deflect ranged attacks.
+
+A character without the Armor Proficiency (light) feat suffers armor check penalties as usual when wearing a shield gauntlet. A shield gauntlet requires an energy cell to operate.
+",-2,1500,,,,,,1,Rare,,,cannot wear other items that cover hands at same time; used by Kilian Rangers,,,,,Kilian Rangers
+K,149,w,Sith Battle suit,,-5,,7,2,2,4,3,,,,,,,,,,Sith
+K,147,w,Sith Trooper Armor,"Sith Trooper Armor
+Light Armor
+
+Designed by the onboard computers of the Star Forge and replicated millions of times over, Sith trooper armor is silver multi-piece plating worn over a sealed black body glove, with a helmet incorporating a comlink, blast shield, and helmet package. Statistically, it is identical to stormtrooper armor (Sf 133)
+",-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Sith Trooper
+W,160,w,Skakoan heavy pressure suit,"Skakoan Pressure Suit
+
+In order to survive off planet, the Skakoans have created three types of pressure suits. The suits are as effective as certain types of armor, but they are bulkier due to the additional breathing equipment and pressurizers.
+",-10,12000,9,3,1,4/x3,3/x3,35,,,,survive 24 hours,,,,,Skakoan
+W,160,w,Skakoan light pressure suit,"Skakoan Pressure Suit
+
+
+In order to survive off planet, the Skakoans have created three types of pressure suits. The suits are as effective as certain types of armor, but they are bulkier due to the additional breathing equipment and pressurizers.
+",-2,4000,5,2,3,,,10,,,,10 hours life support,,,,,Skakoan
+W,160,w,Skakoan medium pressure suit,"Skakoan Pressure Suit
+
+
+In order to survive off planet, the Skakoans have created three types of pressure suits. The suits are as effective as certain types of armor, but they are bulkier due to the additional breathing equipment and pressurizers.
+",-5,7000,8,2,2,4,3,16,,,,,,,,,Skakoan
+CR,133,w,Snowtrooper armor,,-2,18000,6,2,3,,,10,"Military, Rare",,x,immune to effects of extreme cold,,,,,Snowtrooper
+CR,137,w,Space suit,"Space Suit
+
+This bulky coverall contains a sealed life support system that provides everything the wearer needs to survive for 24 hours in the vacuum of space or any other hostile environment.
+
+As long as you have life support remaining, you are immune to any atmosphere or inhaled poison hazard. The suit also grants a +2 equipment bonus to your Fortitude Defense.
+",S,2000,0,2,,,,15,,1,,24 hours life support,,,,,
+T,95,w,SpecForce armor,,-2,4000,5,2,3,,,10,Licensed,,,10 hours life support,,,,,SpecForce
+GW,45,w,Stalker armor,"Stalker Armor (GaW)
+Medium Armor
+
+The M1-10 stalker armor is created by the Salus Corporation on Rodia and marketed for the burgeoning bounty hunter market. Multiple designs are created to cater to the specific needs of various humanoid species, but the model for Rodians is easily the best seller. Stalker armor immediately identifies the wearer as a bounty hunter, working to the advantage of the wearer by intimidating targets.
+
+Stalker armor is designed for customization. If you are using the Armor Upgrades option from Scum and Villainy, stalker armor has room for three upgrades.
+",-5,7500,7,0,3,4,3,10,Licensed,3,,identifies wearer as bounty hunter,,,,,"bounty hunter, Rodians"
+R,123,w,Storm Commando armor,,-2,10500,4,0,4,,,9,"Military, Rare",0,x,+5 equipment to Stealth,Stealth,5,,,
+CR,133,w,Stormtrooper armor,"Stormtrooper Armor
+Light Armor
+
+Worn by the elite soldiers of the Galactic Empire, stormtrooper armor comes in a variety of models based around a standard white- and-black shell. Filled with electronics that assist and augment the stormtrooper in his duties, it includes rudimentary environmental protection, three - phase sonic filtering, and visual amplification.
+
+Variants of this armor also exist, including snowtrooper armor, sandtrooper armor, and clone trooper armor. Each has slightly different details, but all include the basic characteristics common to all stormtrooper armor. Though unavailable on the open market, these suits can occasionally be found on the black market (or sometimes much higher).
+
+Stormtrooper armor (including all variants) grants a wearer who has the Armor Proficiency (light) feat a +2 equipment bonus on Perception checks as well as low-light vision. Stormtrooper armor also includes an integrated comlink in the helmet, allowing hands-free communication.
+
+Wearing snowtrooper armor (18,000 credits) makes you immune to the effects of extreme cold (see Extreme Temperatures, page 254). Wearing sandtrooper armor (18,000 credits) makes you immune to the effects of extreme heat (see Extreme Temperatures, page 254).
+",-2,8000,6,2,3,,,10,"Military, Rare",,x,,,,,,Stormtrooper
+R,122,w,"Stormtrooper armor, reinforced",,-2,8000,7,2,3,,,10,"Military, Rare",,x,,,,,,Novatroopers
+R,121,w,"Stormtrooper, stygian-triprismatic",,-2,9600,7,2,3,,,10,"Military, Rare",,x,+2 equipment to stealth to avoid electronic sensors,,,,,Blackhole Stormtrooper
+GW,45,w,Stun cloak,"Stun Cloak (GaW)
+Light Armor
+
+This cloak is a weapon as much as it is a form of protection. Lined with micro­filaments attached to a power cell, the stun cloak can emit a powerful electric shock to any character who grapples or is grappled by the wearer. Officers and nobles wear stun cloaks to thwart kidnapping attempts, and commandos who expect to engage in close combat also wear them. The interior of the cloak is insulated to prevent accidental shocks to the wearer.
+
+If the wearer successfully makes a grapple attack or is successfully grappled by an enemy, the stun cloak deals 3d8 points of stun damage.
+
+By doubling the price, the stun cloak can be upgraded to include the same capabilities as an all-temperature cloak (see page 138 of the Saga Edition core rulebook) or the camouflage poncho (see page 46). Otherwise, the stun cloak cannot be upgraded with the Armor Upgrades option from Scum and Villainy.
+",-2,3500,1,0,5,,,2,Licensed,1,,"successful grapple or if grappled 3d8 stun dam, double price to be an all-temp cloak or camo poncho",,,,,"Officers, nobles, commandos "
+GW,45,w,"Stun cloak, all-temp. cloak upgrade","Stun Cloak (GaW)
+Light Armor
+
+This cloak is a weapon as much as it is a form of protection. Lined with micro­filaments attached to a power cell, the stun cloak can emit a powerful electric shock to any character who grapples or is grappled by the wearer. Officers and nobles wear stun cloaks to thwart kidnapping attempts, and commandos who expect to engage in close combat also wear them. The interior of the cloak is insulated to prevent accidental shocks to the wearer.
+
+If the wearer successfully makes a grapple attack or is successfully grappled by an enemy, the stun cloak deals 3d8 points of stun damage.
+
+By doubling the price, the stun cloak can be upgraded to include the same capabilities as an all-temperature cloak (see page 138 of the Saga Edition core rulebook) or the camouflage poncho (see page 46). Otherwise, the stun cloak cannot be upgraded with the Armor Upgrades option from Scum and Villainy.
+",-2,7000,1,,5,,,2,Licensed,1,,"successful grapple or if grappled 3d8 stun dam, Fort Def +5 against extreme heat or cold",,,,,"Officers, nobles, commandos "
+GW,45,w,"Stun cloak, camo. poncho upgrade","Stun Cloak (GaW)
+Light Armor
+
+This cloak is a weapon as much as it is a form of protection. Lined with micro­filaments attached to a power cell, the stun cloak can emit a powerful electric shock to any character who grapples or is grappled by the wearer. Officers and nobles wear stun cloaks to thwart kidnapping attempts, and commandos who expect to engage in close combat also wear them. The interior of the cloak is insulated to prevent accidental shocks to the wearer.
+
+If the wearer successfully makes a grapple attack or is successfully grappled by an enemy, the stun cloak deals 3d8 points of stun damage.
+
+By doubling the price, the stun cloak can be upgraded to include the same capabilities as an all-temperature cloak (see page 138 of the Saga Edition core rulebook) or the camouflage poncho (see page 46). Otherwise, the stun cloak cannot be upgraded with the Armor Upgrades option from Scum and Villainy.
+",-2,7000,1,,5,,,2,Licensed,1,,"successful grapple or if grappled 3d8 stun dam, +5 equipment to Stealth",,,,,"Officers, nobles, commandos "
+R,124,w,Swamptrooper armor,"Stormtrooper Armor
+Light Armor
+
+Worn by the elite soldiers of the Galactic Empire, stormtrooper armor comes in a variety of models based around a standard white- and-black shell. Filled with electronics that assist and augment the stormtrooper in his duties, it includes rudimentary environmental protection, three - phase sonic filtering, and visual amplification.
+
+Variants of this armor also exist, including snowtrooper armor, sandtrooper armor, and clone trooper armor. Each has slightly different details, but all include the basic characteristics common to all stormtrooper armor. Though unavailable on the open market, these suits can occasionally be found on the black market (or sometimes much higher).
+
+Stormtrooper armor (including all variants) grants a wearer who has the Armor Proficiency (light) feat a +2 equipment bonus on Perception checks as well as low-light vision. Stormtrooper armor also includes an integrated comlink in the helmet, allowing hands-free communication.
+
+Wearing snowtrooper armor (18,000 credits) makes you immune to the effects of extreme cold (see Extreme Temperatures, page 254). Wearing sandtrooper armor (18,000 credits) makes you immune to the effects of extreme heat (see Extreme Temperatures, page 254).
+",-2,,4,0,4,,,8,"Military, Rare",,x,+2 equipment bonus to Stealth checks to blend in with vegetation & rebreather (1h underwater),,,,,Swamptroopers
+D2,17,X,Swoop biker's garb,,-2,2000,3,1,4,,,5,,,,10 hours life support,,,,,Swoop Gang Member
+C,64,w,Thinsuit,"Thinsuit (CWCG)
+Light Armor
+
+Insulating against extreme pressure and temperature, a thinsuit is a skintight garment that covers the entire body except for the face, which is covered by a breath mask that provides 1 hour of breathable air. The thinsuit comes with an environmental system of minuscule heaters and coolers that allow the wearer to remain comfortable in extreme heat and cold. It provides the wearer with a +5 bonus to Fortitude Defense when resisting extreme temperatures. In addition, the suit further reduces damage taken in such circumstances. If an attack is successful, the character takes only half damage and does not move along the condition track, while a failed attack deals no damage. A thinsuit can be worn under other armors.
+",-2,900,0,0,6,,,1,,,,"1 hour breathable air, +5 Fort Def v. extreme temps & if dam = half or no, can wear under clothes & armor",,,,,"professional scouts, Alliance Special Forces"
+C,64,w,Tracker utility vest,"Tracker Utility Vest (CWCG)
+Light Armor
+
+The tracker utility vest is a simple garment that allows hunters and guides to carry a wide assortment of small equipment without discomforting the wearer. Although they can be constructed from an assortment of materials, tracker utility vests are commonly made from a tough, leathery hide treated to be watertight, stain-proof, and resistant to rips and tears.
+
+The vest features pockets, pouches, and straps capable of carrying up to twenty-four small objects weighing no more than 1 kilogram each. Because the items are stored so that their weight is distributed evenly around the wearer's torso, their cumulative weight is halved for purposes of calculating the wearer's total carried weight.
+",-2,300,1,0,5,,,0.5,,,,"carries 24 objects no more than 1kg each, cumulative weight is halved",,,,,hunters and guides
+SV,13,w,Ubese environmental suit,,-2,2000,4,2,4,,,8,Licensed,,,with breath mask & voice modulator (year long filter costs 200 or 50 on Ubese),,,,,Ubese
+C,64,w,Vacuum pod,"Vacuum Pod (CWCG)
+Heavy Armor
+
+The Extra-Vehicular Activity (EVA) pod, or vacuum pod, is a droid-assisted suit of powered armor specifically designed to allow a person to repair a starship while in space. Its systems are designed in so that a wearer not proficient with heavy armor can use it competently in nonstressful situations. The suit, once donned properly, provides full life support to its wearer and also includes external thrusters to allow movement in a zero-gravity environment (speed fly 6). It also features motorized limbs, a complete set of integrated repair tools, and an external compartment to allow the user to carry any extra materials needed to make repairs. The suit's functions are controlled by a dedicated, low-level droid brain that handles all the complex systems of the suit, such as the life support monitoring system and the regulation of the external thrusters.
+
+Vacuum pod users who have the Armor Proficiency (heavy) feat can use the following features and receive the bonuses listed. A wearer who does not have the feat can still use the suit but does not receive any of the equipment bonuses listed below, unless otherwise noted. Regardless, the wearer has any armor check penalties halved while in noncombat situations. Putting on the suit and bringing all the droid's systems online takes 15 minutes. Removing the suit takes only 3 rounds.
+
+Comlink: The suit's integrated comlink has a range of 100 kilometers and can send and receive encrypted messages.
+Life Support: The suit provides up to 2 hours of continuous life support with air supply and protection against extreme environments, including hard vacuum.
+Powerlamp: The armor comes with an integrated glowrod, which emits a 70-sguare cone of light.
+Repair Kit: The tools integrated in the suit's motorized arms give the user a +2 bonus on all Mechanics checks while the systems function.
+Strength Augmentation: The suit's power systems grant the wearer a +4 bonus to Strength while the suit is operational.
+",-10,15000,4,1,0,4/x3,3/x3,35,,2,,"fly 6, 100 km comlink, 2 hours life support, 70-sq powerlamp, repair kit +2 Mechanics, +4 Str, put on 10 min, remove 3 rnds",,,,,starship mechanic
+L,140,w,Venom assault armor,"Venom Assault Armor
+Heavy Armor
+
+Part powered armor, part armored spacesuit, Venom Assault armor provides ample protection from hostile attackers and environments. Additionally, the wearer can activate the armor's limited jump jets as a swift action to move at normal speed in zero-g. The jets are not powerful enough to lift an armored trooper in normal gravity. The suit also adds a +2 equipment bonus to the wearer's Strength. However, the wearer must have the Armor Proficiency (heavy) feat to use either the jets or gain the bonus to Strength.
+
+The wearer may survive up to 24 hours in the vacuum of space or other hostile environmental conditions. Much like other Galactic Alliance uniforms and armor sets, the Venom Assault armor has a dark blue and black color scheme and prominently features the Galactic Alliance logo on the shoulder pauldrons.
+",-10,17000,10,4,1,4/x3,3/x3,38,Military,,,"jump jets as swif to move normal in zero-g, +2 Str, but must have AP (heavy), 24 hours life support",,,,,Galactic Alliance
+CR,133,w,Vonduun crabshell,"Vonduun Crabshell Armor
+Light Armor
+
+Yuuzhan Vong warriors wear this bioengineered ""living armor"" into battle.
+
+The armor clings to its wearer's body like a parasite until its wearer dies or decides to remove it. It is not found anywhere except in the hands of the Yuuzhan Vong (see page 285).
+",-2,,5,5,4,,,5,Rare,,,,,,,,Yuuzhan Vong
+K,72,w,Weave armor,"Weave Armor (KotORCG)
+Medium Armor
+
+A civilian model of armor worn by military units throughout the era, weave armor is a relatively flexible and yet durable suit of armor that provides excellent protection to the wearer while restricting movement by only a small amount. Weave armor is favored by warriors whose combat style calls for fast and flexible movements, and is the armor of choice for duelists and gladiators.
+",-5,5000,6,2,3,4,3,15,Restricted,,,used by duelists and gladiators,,,,,military
+J,63,w,WJ-880 blinding helmet,"WJ-880 Blinding Helmet (JATM)
+Light Armor
+
+Typically used during Jedi training, the WJ-880 blinding helmet covers the wearer's eyes, requiring the wearer to rely on the Force for a sense of his or her surroundings. Though technically considered armor, few Jedi would wear the blinding helmet into combat, as doing so grants all targets total concealment from the wearer.
+",-2,200,0,0,,,,2,Rare,,,grants total concealment to all targets,,,,,Jedi training
+L,66,w,Yuuzhan Vong Biotech,,,x4,,,,,,x0.5,Rare/Illegal,,,repairing requires Treat Injury,,,,,Yuuzhan Vong
+R,127,w,Zero-G Stormtrooper Armor,"Zero-Gravity Stormtrooper Armor
+Heavy Armor
+
+Designed to enable the Emperor's elite spacetroopers to cut their way through the hull of an enemy vessel during starship combat, zero-gravity stormtrooper armor is essentially a small starfighter. Over two meters tall and twice as wide as a normal Human, zero-gravity armor has earned the spacetroopers the nickname ""walking tanks."" There have been several versions of the zero-gravity armor; the fist two iterations were large, bulky, and really more like small starfighters. The armor presented here is the light spacetrooper armor, which was developed after the Mark II version of the armor came into service.
+
+All zero-gravity stormtrooper armor incorporates shoulder- mounted grenade launchers (loaded with concussion, stun, and gas grenades), a blaster cannon, and a miniature proton - torpedo launcher. The gauntlets are fitted with either rotating blades or laser cutters, enabling spacetroopers to cut through the hulls of enemy craft. The armor is currently manufactured only for Medium characters, and increases the wearer's size to Large. Routine maneuvers in zero-g stormtrooper armor do not require a Pilot check, but the wearer must make a DC 15 Pilot check to perform any maneuver more complicated than simple movement.
+",-10,21000,9,3,0,4/x3,3/x3,38,"Military, Rare",,,"increases M size creature to L, DC 15 Pilot for more than simple movement, gauntlets have either rotating blades or laser cutters",,,,,Spacetrooper

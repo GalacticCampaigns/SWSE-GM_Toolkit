@@ -12,7 +12,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: make a single atk rolling twice & keeping the better, -5 dam\nDC20: make a single atk rolling twice & keeping the better, -2 dam\nDC25: make a single atk rolling twice & keeping the better, -1 dam\nDC30: make a single atk rolling twice & keeping the better\nLightsaber form (Juyo): if you miss with both this power remains in your suite\nspend a Force Point for three rolls, keeping the highest",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -89,7 +89,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "v. Ref Def for 3d8 dam & -2 attack, area attack\nspend Force Point for half dam on a miss",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -116,7 +116,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force replaces your Ref Def against non-area ranged attacks\nLightsaber form (Shien): can redirect one shot that misses you\nspend a Force Point for autofire attacks, half or no dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -149,7 +149,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: +1 next Atk made before end of next turn, gain +1d6 dam\nDC20: +1 next Atk made before end of next turn, gain +2d6 dam\nDC25: +1 next Atk made before end of next turn, gain +3d6 dam\nspend a Force Point for an additional +2d6 damage\nUnleashed: your next melee Atk moves target additional -2 CT whether over thresh or not",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -211,7 +211,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Ref Def, if over target flat-footed & all others have concealment until start of your next turn, spend Force Point to use as a free action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -239,7 +239,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: you & all adjacent allies +1 Ref Def\nDC25: you & all adjacent allies +2 Ref Def\nDC30: you & all adjacent allies +5 Ref Def\nLightsaber form (Soresu): add bonus to Deflect and Block\nspend a Force Point for Fort Def of adjacent allies",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -306,7 +306,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: have total concealment against all targets\nDC20:have total concealment against all targets, +2 Stealth\nDC25:have total concealment against all targets, +3 Stealth\nDC30:have total concealment against all targets, +5 Stealth\nspend a Force Point to increase Stealth +5",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -377,7 +377,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "v. Fort Def for 4d6 fire dam & catches on fire, half dam on miss, area atk, Use the Force = atk bonus of fire     \nspend Force Point to move -1 CT",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -405,7 +405,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: if attack of opportunity hits +1 die dam\nDC25: if attack of opportunity hits +2 die dam\nDC30: if attack of opportunity hits +3 die dam\nDC35: if attack of opportunity hits +4 die dam\nLightsaber form (Makashi): +2 atk on attacks of opportunity\nspend a Force Point for -2 sq move until the end of its next turn",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -483,7 +483,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: your unarmed melee attacks deal +1d6 fire dam, if damaged catches fire\nDC20: your unarmed melee attacks deal +2d6 fire dam, if damaged catches fire\nDC25: your unarmed melee attacks deal +3d6 fire dam, if damaged catches fire\nDC30: your unarmed melee attacks deal +4d6 fire dam, if damaged catches fire\nspend a Force Point for fire damage to any creature that strikes you unarmed",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -554,7 +554,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: Use the Force v. Fort Def, 2d6 dam & half next turn if exceed by 5 or more\nDC20: Use the Force v. Fort Def, 3d6 dam & half next turn if exceed by 5 or more\nDC25: Use the Force v. Fort Def, 4d6 dam & half next turn if exceed by 5 or more\nDC30: Use the Force v. Fort Def, 5d6 dam & half next turn if exceed by 5 or more\nspend a Force Point for all adjacent to target take half once if over their Fort Def\nUnleashed: when successfully damage target with Corruption, takes half damage next 5 rounds",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -625,7 +625,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: +5 threshold against damage from Force attack or power\nDC20: +10 threshold against damage from Force attack or power\nDC25: +15 threshold against damage from Force attack or power\nDC30: +20 threshold against damage from Force attack or power\nspend a Force Point for +5 threshold",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -696,7 +696,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: unattended object's DR reduced by 5, if mechanical or electronic moves -1 CT\nDC25: unattended object's DR reduced by 10, if mechanical or electronic moves -1 CT\nDC30: unattended object's DR reduced by 15, if mechanical or electronic moves -1 CT\nDC35: unattended object's DR reduced by 20, if mechanical or electronic moves -1 CT\nspend a Force Point to decrease DR by 5",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -771,7 +771,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: +2 melee Atk & dam until end of next turn\nDC20: +4 melee Atk & dam until end of next turn\nDC25: +6 melee Atk & dam until end of next turn\nspend a Force Point to extend rage until end of encounter\nUnleashed: +10 melee attack & damage rolls rest of encounter",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -832,7 +832,7 @@
         "range_squares": "touch",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: heals hp = your character level\nDC20: heals hp = 2 x your character level\nDC25: heals hp = 3 x your character level\nDC30: heals hp = 4 x your character level                                                                                                                 \nyou move -1 CT, must rest 8 hours to remove this condition & gain 1 DSP avoid moving CT by spending Force Point\nDestiny Point to revive dead creature w/in 1 round of death (DC25), creature unconscious & no hp healed",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -904,7 +904,7 @@
         "range_squares": "touch",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: heals hp = your character level\nDC20: heals hp = 2 x your character level\nDC25: heals hp = 3 x your character level\nDC30: heals hp = 4 x your character level                                                                                                                 \nyou move -1 CT, must rest 8 hours to remove this condition & gain 1 DSP avoid moving CT by spending Force Point",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -976,7 +976,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: Use the Force v. non-area ranged attack roll for half dam, make single melee atk v. one target in reach after dam \nDC20: Use the Force v. attack roll for half dam, make single melee atk v. one target in reach after dam +1 dam\nDC25: Use the Force v. attack roll for half dam, make single melee atk v. one target in reach after dam +3 dam\nDC30: Use the Force v. attack roll for half dam, make single melee atk v. one target in reach after dam +5 dam\nLightsaber form (Soresu): spend a Force Point to redirect incoming atk at target w/in 6 sq\nspend a Force Point for no damage from incoming atk",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1053,7 +1053,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: object takes 4d6 damage\nDC25: object takes 6d6 damage\nDC30: object takes 8d6 damage\nDC35: object takes 10d6 damage\nspend a Force Point to use increase damage by +2d6",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1124,7 +1124,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: if damage adjacent enemy can use Use the Force as a disarm attempt \nDC20: if dam adjacent enemy can use Use the Force as a disarm attempt with target getting only +5 to resist\nDC25: if dam adjacent enemy can use Use the Force as a disarm attempt with target getting only +2 to resist\nDC30: if dam adjacent enemy can use Use the Force as a disarm attempt with target getting +0 to resist\nLightsaber form (Shii-Cho): can use as a reac\nspend a Force Point to deal dam to weapon equal to target's dam if successful disarm",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1201,7 +1201,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: drain energy from Small or smaller weapon or powered object\nDC25: drain energy from Medium or smaller weapon or powered object\nDC30: drain energy from Large or smaller weapon or powered object\nDC35: drain energy from Huge or smaller weapon or powered object\nspend a Force Point to increase the size by one size category (up to Gargantuan)",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1272,7 +1272,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: pull Med creature that is not grabbed/grappled into nearest unoccupied space adjacent to you & atk\nDC20: pull Large creature that is not grabbed/grappled into nearest unoccupied space adjacent to you & atk\nDC25: pull Huge creature that is not grabbed/grappled into nearest unoccupied space adjacent to you & atk\nDC30: pull Gar creature that is not grabbed/grappled into nearest unoccupied space adjacent to you & atk\nLightsaber form (Niman): can target a creature 12 sq away\nspend a Force Point to pull target to any adjacent space",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1349,7 +1349,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: DR5 v. energy damage\nDC25: DR10 v. energy damage\nDC30: DR15 v. energy damage\nDC35: DR20 v. energy damage\nspend a Force Point to use as a swif action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1420,7 +1420,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "target may use your check instead of one attack, skill, or opposed check, or to replace a defense                    \nspend Force Point to prolong until end of your next turn, not the start",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -1447,7 +1447,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: against target in reach if not more than 1 size larger, if deal dam can push 1 sq & then move into \ntheir space which does not provoke atk of opp for either, not if grappled or grabbed\nDC20: can push 2 sq & move through spaces target passed \nDC25: can push 3 sq & move through spaces target passed\nDC30: can push 4 sq & move through spaces target passed\nLightsaber form (Djem So): gain one temporary Force Point to be used only for Djem So before end of enc\nspend a Force Point to knock opponent prone at the end of forced move",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1528,7 +1528,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. target's Will Def, cannot reuse for 24 hours, can get a sense of target\nspend a Force Point for a clear image w/in 6 squares of target's surroundings",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -1555,7 +1555,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: Use the Force v. Will Def, if equals target can take only 1 stan on next turn\nDC20: Use the Force v. Will Def, if equals target can take only 1 move on next turn\nDC25: Use the Force v. Will Def, if equals target can take only 1 swif on next turn\nDC30: Use the Force v. Will Def, if equals target can take no actions on next turn\nwhen successful, can spend FP to make all their Def -2 until your next turn",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1627,7 +1627,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. melee attack for half dam & move adjacent to attacker & make single atk, no Atk of Opp\nLightsaber form (Djem So): gain one temporary Force Point to be used only for Djem So before end of enc\nspend a Force Point to treat attacker as flat-footed",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -1661,7 +1661,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: move Medium up to 6 squares\nDC25: move Large up to 12 squares\nDC30: move Huge up to 18 squares\nDC35: move Gargantuan up to 24 squares\nDC40: move Colossal up to 30 squares\nspend a Force Point to increase size by up to two size categories (to Colossal [cruiser]) or distance x2",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1747,7 +1747,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: Use the Force v. Ref Def 2d6 dam\nDC20: Use the Force v. Ref Def 3d6 dam\nDC25: Use the Force v. Ref Def 4d6 dam\nDC30: Use the Force v. Ref Def 5d6 dam\nspend a Force Point to add half Heroic Level as dam bonus\nUnleashed: multiply damage by 2",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1818,7 +1818,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "replaces Atk to disarm, drop item or fly to your hand\nspend Force Point to destroy object, dam = check",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -1845,7 +1845,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: 2d6 dam, if check over target's Fort Def, target can only take 1 swif next turn or 1/2 dam & may act\nDC20: 4d6 dam, if check over target's Fort Def, target can only take 1 swif next turn or 1/2 dam & may act\nDC25: 6d6 dam, if check over target's Fort Def, target can only take 1 swif next turn or 1/2 dam & may act\nspend a Force Point to deal +2d6 damage\nUnleashed: maintain with no concentration for a number of rounds = Cha mod",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1906,7 +1906,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: until start of your next turn creature with Dark Side of 1+ takes 1d6 dam & -1 atk\nDC25: until start of your next turn creature with Dark Side of 1+ takes 2d6 dam & -1 atk\nDC30: until start of your next turn creature with Dark Side of 1+ takes 3d6 dam & -1 atk\nDC35: until start of your next turn creature with Dark Side of 1+ takes 4d6 dam & -1 atk\nspend a Force Point to deal +1d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -1977,7 +1977,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Ref Def, target takes 8d6 dam & -1 CT or half damage with save\nspend a Force Point to move target an additional step down CT\nUnleashed: target all in 6sq cone",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -2005,7 +2005,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: Use the Force v. Fort Def, 1d6 force dam & their thresh -5 until end of your next turn\nDC20: Use the Force v. Fort Def, 2d6 force dam & their thresh -5 until end of your next turn\nDC25: Use the Force v. Fort Def, 3d6 force dam & their thresh -5 until end of your next turn\nDC30: Use the Force v. Fort Def, 4d6 force dam & their thresh -5 until end of your next turn\nspend a Force Point to reduce thresh -10",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2076,7 +2076,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: SR5 until your next turn, cannot be recharged\nDC20: SR10 until your next turn, cannot be recharged\nDC25: SR15 until your next turn, cannot be recharged\nDC30: SR20 until your next turn, cannot be recharged\nspend a Force Point for +5 SR, maintain as standard action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2148,7 +2148,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: SR5 until your next turn, cannot be recharged\nDC20: SR10 until your next turn, cannot be recharged\nDC25: SR15 until your next turn, cannot be recharged\nDC30: SR20 until your next turn, cannot be recharged\nspend a Force Point for +5 SR, maintain as standard action",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2220,7 +2220,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Fort Def, 4d6 dam & prone or half damage with save\nspend a Force Point to deal +2d6 damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -2247,7 +2247,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: 3x3 sq area, 2d6 acid dam & concealment, -5 Perception to listen until end of your next turn\nDC25: 4x4 sq area, 2d6 acid dam & concealment, -5 Perception to listen until end of your next turn\nDC30: 5x5 sq area, 2d6 acid dam & concealment, -5 Perception to listen until end of your next turn\nDC35: 6x6 sq area, 2d6 acid dam & concealment, -5 Perception to listen until end of your next turn\nspend a Force Point for +2d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2318,7 +2318,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: for 2 rounds, 2d6 dam adjacent targets\nDC25: for 4 rounds, 2d6 dam adjacent targets\nDC30: for 6 rounds, 2d6 dam adjacent targets\nDC35: for 8 rounds, 2d6 dam adjacent targets\nspend a Force Point for +2d6 dam\nUnleashed: 8d6 dam to adjacent for duration of power",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2389,7 +2389,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Fort Def, target moves -1 CT, for every 5 points over add an additional step\nspend a Force Point to move target an additional step down CT",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -2417,7 +2417,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Str check + size mod, push back 1 square + 1 per 5 over check\nspend a Force Point to apply -5 to opponent's check, pushed into larger object = 2d6 dam\nUnleashed: opponents do not add size modifier, distance moved multiplied by2, damage 1d6 per square moved",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -2445,7 +2445,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: Track without Survival if within LOS of trail & target passed through within last minute\nDC20: Track without Survival if within LOS of trail & target passed through within last 10 minutes\nDC25: Track without Survival if within LOS of trail & target passed through within last hour\nDC30: Track without Survival if within LOS of trail & target passed through within last day\nspend a Force Point to track two targets",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2516,7 +2516,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: Use the Force v. Fort Def, skills & Atk -5, prone at end, 1d6 damage\nDC20: Use the Force v. Fort Def, skills & Atk -5, prone at end, 2d6 damage\nDC25: Use the Force v. Fort Def, skills & Atk -5, prone at end, 3d6 damage\nDC30: Use the Force v. Fort Def, skills & Atk -5, prone at end, 4d6 damage\nspend a Force Point to make skills & Atk -10",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2587,7 +2587,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: any creature that starts turn w/in 6 sq takes 1d6 dam & -1 atk\nDC20: any creature that starts turn w/in 6 sq takes 2d6 dam & -1 atk\nDC25: any creature that starts turn w/in 6 sq takes 3d6 dam & -1 atk\nDC30: any creature that starts turn w/in 6 sq takes 4d6 dam & -1 atk\nspend a Force Point for +1d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2658,7 +2658,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: you move 2 sq without provoking attacks of opportunity & make single melee atk\nDC20: you move 4 sq without provoking attacks of opportunity & make single melee atk\nDC25: you move 6 sq without provoking attacks of opportunity & make single melee atk\nDC30: you move 8 sq without provoking attacks of opportunity & make single melee atk\nLightsaber form (Ataru): can move 2 sq after your attack also\nspend a Force Point for +2 dice dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2739,7 +2739,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: if you are on a low object or difficult terrain any creature that moves adjacent provokes Atk of Opp\nDC20: on a low object or difficult terrain any creature that moves adjacent provokes Atk of Opp +1 atk\nDC25: on a low object or difficult terrain any creature that moves adjacent provokes Atk of Opp +2 atk\nDC30: on a low object or difficult terrain any creature that moves adjacent provokes Atk of Opp +5 atk\nLightsaber form (Sokan): deal +1 die dam on atk of opp\nspend a Force Point to move 1 sq each time you make an atk of opp, which does not provoke one",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2820,7 +2820,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: move half speed along a wall, fall to ground if do not end move on the ground\nDC20: move normal speed along a wall, fall to ground if do not end move on the ground\nDC25: move your speed +2 sq along a wall, fall to ground if do not end move on the ground\nDC30: move your speed +4 sq along a wall, fall to ground if do not end move on the ground\nspend a Force Point for +2 sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2895,7 +2895,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: all allies +2 Will Def against mind-affecting & fear effects until the end of your next turn\nDC25: all allies +5 Will Def against mind-affecting & fear effects until the end of your next turn\nDC30: all allies +10 Will Def against mind-affecting & fear effects until the end of your next turn\nDC35: all allies immune against mind-affecting & fear effects until the end of your next turn\nspend a Force Point for +2d6 hp when power is first activated",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -2966,7 +2966,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. ranged atk or Use the Force if move object\nspend a Force Point to intercept autofire, take half or no damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -2994,7 +2994,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: Use the Force v. Ref Def, 4d6 ion damage\nDC25: Use the Force v. Ref Def, 5d6 ion damage\nDC30: Use the Force v. Ref Def, 6d6 ion damage\nspend a Force Point +2d6 damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3055,7 +3055,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20 to attack with one-handed melee weapon, Atk use Cha mod not Str, threatens adjacent\nspend a Force Point for +1 Atk",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3082,7 +3082,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20 to attack with one-handed melee weapon, Atk use Cha mod not Str, threatens adjacent\nspend a Force Point for +1 Atk",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3109,7 +3109,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: fly 2, vertical only, can move 1 sq onto horizontal surface or fall\nDC20: fly 4, vertical only, can move 1 sq onto horizontal surface or fall\nDC25: fly 6, vertical only, can move 1 sq onto horizontal surface or fall\nspend Force Point as reac when falling to reduce falling by fly speed",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3173,7 +3173,7 @@
         "range_squares": "adjacent",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "v. Ref Def for 3d8 dam & -1 CT, half damage on miss                                                                                  \nspend a Force Point +2d6 damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3200,7 +3200,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. melee atk roll for half dam & make single atk against target after dam & deal half dam on miss\nLightsaber form (Makashi): until end of your next turn target provokes atk of opp if it attacks & in reach\nspend a Force Point for no dam from incoming atk",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3233,7 +3233,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Fort Def target moves -1 CT & -5 threshold\nspend Force Point to increase threshold penalty to -10",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -3261,7 +3261,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC20: 1 creature with Int 3+, Use the Force v. Will Def for 2d6 dam & loses swif on next turn\nDC25: 1 creature with Int 3+, Use the Force v. Will Def for 2d6 dam & loses move on next turn\nDC30: 1 creature with Int 3+, Use the Force v. Will Def for 2d6 dam & loses stan on next turn\nDC35: 1 creature with Int 3+, Use the Force v. Will Def for 2d6 dam & loses stan & swif on next turn\nspend a Force Point for +2d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3333,7 +3333,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: Use the Force v. Will Def for 2d8 dam & -1 CT & can't improve until end of your next turn\nDC20: Use the Force v. Will Def for 3d8 dam & -1 CT & can't improve until end of your next turn\nDC25: Use the Force v. Will Def for 4d8 dam & -1 CT & can't improve until end of your next turn\nDC30: Use the Force v. Will Def for 5d8 dam & -1 CT & can't improve until end of your next turn\nspend a Force Point for +2d8 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3404,7 +3404,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Will Def to either\n1. create an hallucination to use Stealth even if aware\n2. perform a feint so that target loses Ref to Def next attack \n3. make an unpalatable suggestion\n4. fill target with terror to flee at top speed 1 minute, stops fleeing if wounded, not if higher level\nspend a Force Point to improve attitude one step + one step per 5 over check",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3431,7 +3431,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "grab or grapple, Use the Force v. Fort Def target moves -1 CT, if at bottom kill or trance",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -3459,7 +3459,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Will if object resists, hurl or drop object v. target's Ref Def, both take damage\nDC15: Move up to medium object, 2d6 damage\nDC20: Move up to large object, 4d6 damage\nDC25: Move up to huge object, 6d6 damage\nDC30: Move up to gargantuan object, 8d6 damage\nDC35: Move up to colossal object, 10d6 damage\nmoving or hovering target opposes Use the Force with a grapple check\nspend a Force Point to increase max size of object one category and +2d6 dam (max 12d6)\nspend a Destiny Point to increase max size three categories and +6d6 dam (max 16d6)\nUnleashed: if you hurl an object into another object multiply damage by 2",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3545,7 +3545,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. damage, failure takes damage as normal, must be aware of attack\nspend a Force Point to regain hit points = to damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3572,7 +3572,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "v. Will Def for -5 atk, if target misses you can make them reroll against an adjacent creature also at -5              \nspend Force Point to apply -5 to all attacks they make until the start of its turn",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "reroll",
             "check_type": "a",
@@ -3600,7 +3600,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: make single atk, target is -2 to Block\nDC20: make single atk, target is -5 to Block\nDC25: make single atk, target is -10 to Block\nDC30: make single atk, target cannot Block\nLightsaber form (Trakata): ignore deflection bonus from Lightsaber Defense\nspend a Force Point for +2d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3677,7 +3677,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC25: phase speed 2 but not over own speed, must end move in unoccupied square\nDC30: phase speed 4 but not over own speed, must end move in unoccupied square\nDC35: phase speed 6 but not over own speed, must end move in unoccupied square\nDC40: phase speed 8 but not over own speed, must end move in unoccupied square\nspend a Force Point to increase speed 2 squares",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3752,7 +3752,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Fort Def for speed to 0 until end of your next turn or escape w/a stan grapple v. UtF\nspend a Force Point to impose -10 on grapple checks to escape, must have adjacent plants nearby",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "penalty",
             "action_verb": "impose",
@@ -3783,7 +3783,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: +1 all Def v. attacks from target & +1 atk v. target until the end of your next turn\nDC20: +2 all Def v. attacks from target & +1 atk v. target until the end of your next turn\nDC25: +3 all Def v. attacks from target & +1 atk v. target until the end of your next turn\nspend a Force Point to affect one additional enemy in LOS",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3844,7 +3844,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: dam & Use the Force v. Fort Def to push target 2 sq, no atk of opp & not if grabbed/grappled\nDC20: dam & Use the Force v. Fort Def to push target 3 sq, no atk of opp & not if grabbed/grappled\nDC25: dam & Use the Force v. Fort Def to push target 4 sq, no atk of opp & not if grabbed/grappled\nDC30: dam & Use the Force v. Fort Def to push target 5 sq, no atk of opp & not if grabbed/grappled\nLightsaber form (Niman): also compare to all adjacent enemies & push 1 sq\nspend a Force Point to knock prone the target of your lightsaber atk only at end of their forced move",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -3922,7 +3922,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. check of power & no effect, beat by 5 and redirect against creator\nif creator rebukes, both suffer, spend a Force Point for no effect on 2nd rebuke",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3949,7 +3949,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Ref Def or 3d6 dam, nat 20 is a crit, if reduce to 0 hp can rip in half\nspend a Force Point for +2d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -3976,7 +3976,7 @@
         "range_squares": "adjacent",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "targets make Str checks + BAB, if over push 1 sq + 1sq for every 5 over, into larger object 1d6 dam\nspend a Force Point to apply -5 to opponent's check, pushed into larger object = 2d6 dam\nUnleashed: opponents do not add size modifier, distance moved multiplied by2, damage 1d6 per square moved",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -4004,7 +4004,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: +1 one Def v. Force until your next turn\nDC20: +2 one Def v. Force until your next turn\nDC25: +5 one Def v. Force until your next turn\nspend a Force Point for two Def",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4065,7 +4065,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Must be wielding 2 lightsabers!\nDC15: make 2 attacks v. different opp & if they both hit you gain 10 hp\nDC20: make 2 attacks v. different opp & if they both hit you gain 15 hp\nDC25: make 2 attacks v. different opp & if they both hit you gain 20 hp\nDC30: make 2 attacks v. different opp & if they both hit you gain 25 hp\nLightsaber form (Jar'Kai): can move 2 sq between attacks & does not provoke atk of opp\nspend a Force Point for +1d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4137,7 +4137,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: make two lightsaber attacks v. single target at -5 each\nDC25: make two lightsaber attacks v. single target at -2 each\nDC30: make two lightsaber attacks v. single target at -1 each\nDC35: make two lightsaber attacks v. single target at no penalty\nLightsaber form (Ataru): opponent takes -5 to Block or Makashi riposte\nspend a Force Point to move 2 sq before or after you use the power, no atk of opp",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4223,7 +4223,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: single attack against primary target & deals normal dam & half dam to secondary target if atk hits\nDC20: single atk against primary target & deals normal dam & half dam +1d6 to secondary target if atk hits\nDC25: single atk against primary target & deals normal dam & half dam +2d6 to secondary target if atk hits\nDC30: single atk against primary target & deals normal dam & half dam +3d6 to secondary target if atk hits\nLightsaber form (Shii-Cho): can use at end of charge & gain Powerful Charge on initial attack\nspend a Force Point to affect 2 secondary targets if within reach & adjacent to primary target",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4300,7 +4300,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Will Def, no effect if Dark Side score is 0\nDC25: target cannot spend Force Points for hours = Dark Side score\nDC30: target cannot spend Force Points for hours = Dark Side score, -1 CT if uses Force powers\nDC35: target cannot spend Force Points for hours = Dark Side score, -2 CT if uses Force powers\nspend a Force Point to double duration, spend a Destiny Point to increase to days = Dark Side score",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4361,7 +4361,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC25: if next atk hits, target's threshold is 5 lower\nDC30: if next atk hits, target's threshold is 10 lower\nDC35: if next atk hits, target's threshold is 15 lower\nDC40: if next atk hits, target's threshold is 20 lower\nspend Force Point to ignore DR also",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4432,7 +4432,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: Use the Force v. non-area ranged attack for half dam & then move your speed & if in reach of target make single atk\nDC20: Use the Force v. attack for half dam & move your spd +2 sq & if in reach of target make single atk\nDC25: Use the Force v. attack for half dam & move your spd +4 sq & if in reach of target make single atk\nDC30: Use the Force v. attack for half dam & move your spd +6 sq & if in reach of target make single atk\nLightsaber form (Shien): take no cumulative penalties on Use the Force checks to Deflect\nspend a Force Point to take no damage",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4513,7 +4513,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: Use the Force v. Fort Def, spd -1sq, -10 Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, Swim\nDC20: Use the Force v. Fort Def, spd -2sq, -10 Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, Swim\nDC25: Use the Force v. Fort Def, spd -3sq, -10 Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, Swim\nDC30:Use the Force v. Fort Def, spd -4sq, -10 Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, Swim\nspend a Force Point for -5 Fort Def against this power",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4584,7 +4584,7 @@
         "range_squares": "adjacent",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "v. Fort Def for 2d6 force dam & pushed one square away from you                                                               \nspend Force Point to affect all enemies adjacent to you, move does not provoke Atk of Opp",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
@@ -4612,7 +4612,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC10: +10 Force Jump, speed increases 2 squares\nDC15: +20 Force Jump, speed increases 4 squares\nDC20: +30 Force Jump, speed increases 6 squares\nspend a Force Point to increase by +10 and 2 squares\nmay use any and all movement as part of a jump\nspend DP to increase 4 squares, no roll necessary",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4674,7 +4674,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: move half your speed w/out atk of opp & make single atk against adjacent target & if start & stop flank the target it's flanked\nDC25: move up to your speed\nDC30: move up to your speed +2 sq\nDC35: move up to your speed +4 sq\nLightsaber form (Vaapad): target is considered flat-footed \nspend a Force Point to increase your move by 2 sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4755,7 +4755,7 @@
         "range_squares": "touch",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "droid or electronic device: Use the Force v. Will Def for 1 piece of info as \nAccess Info of Use Computer, for every 5 over gain another piece of info, \ncan jam droid senses (can use Stealth), droid loses Dex to Ref Def v. you, or flees next 2 turns",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -4782,7 +4782,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC30: if beat target's Ref Def with single atk by 10 or more, treat as Crit\nDC35: if beat target's Ref Def with single atk by 5 or more, treat as Crit\nDC40: if beat target's Ref Def with single atk by 2 or more, treat as Crit\nLightsaber form (Vaapad): this power is not dark for you\nspend a Force Point to deal +2 dice dam after crit",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4849,7 +4849,7 @@
         "range_squares": "2",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. Will Def for 2d6 dam & lose swif next turn\nspend Force Point for +2d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -4876,7 +4876,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Must be wielding 2 lightsabers.\nDC15: make a single attack & if hits add base damage dice to the damage roll\nDC25: make a single attack & if hits add base damage dice to the damage roll & +1 atk\nDC30: make a single attack & if hits add base damage dice to the damage roll & +2 atk\nLightsaber form (Jar'Kai): triple your deflection bonus to Ref Def from Lightsaber Defense \nspend a Force Point for +1 die dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -4937,7 +4937,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "Use the Force v. attack roll for half dam & if Use the Force beats Will Def target is flat-footed \nLightsaber form (Trakata): +2 dice dam with first attack \nspend a Force Point to take no dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually in the description."
@@ -4970,7 +4970,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: move your speed toward an enemy ignoring difficult terrain & low objects & make single attack\nDC20: move your speed toward an enemy ignoring difficult terrain & low objects & make single attack +2 sq\nDC25: move your speed toward an enemy ignoring difficult terrain & low objects & make single attack +4 sq\nDC30: move your speed toward an enemy ignoring difficult terrain & low objects & make single attack +6 sq\nLightsaber form (Sokan): +5 Ref Def against attacks of opportunity made against you during this move\nspend a Force Point to move +2 sq",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -5051,7 +5051,7 @@
         "range_squares": "12",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "DC15: +1 Will Def v. mind-affecting & fear affects until start of your next turn\nDC20: +2 Will Def v. mind-affecting & fear affects until start of your next turn\nDC25: +5 Will Def v. mind-affecting & fear affects until start of your next turn\nDC30: +10 Will Def v. mind-affecting & fear affects until start of your next turn\nspend a Force Point to expand to all powers v. Will Def",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -5122,7 +5122,7 @@
         "range_squares": "touch",
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC15: heals hit points = 2 x target's level\nDC20: heals hit points = 3 x target's level\nDC25: heals hit points = 4 x target's level\ntake half damage you heal, spend Force Point to avoid damage, Destiny Point moves target +5 CT",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -5184,7 +5184,7 @@
         "range_squares": null,
         "line_of_sight_requirement_text": null,
         "effect_summary_dc_progression": "DC20: make a single attack +1 die dam\nDC25: make a single attack +2 die dam\nDC30: make a single attack +3 die dam\nDC35: make a single attack +4 die dam\nLightsaber form (Juyo): this power is not dark for you\nspend a Force Point to use at the end of a charge",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "dc_progression",
             "check_skill_or_ability": "Use the Force",
@@ -5261,7 +5261,7 @@
         "range_squares": "6",
         "line_of_sight_requirement_text": "Y",
         "effect_summary_dc_progression": "Use the Force v. Fort Def, 4d6 dam, if target moves down CT, persistent condition DC20 to remove\nspend a Force Point for +2d6 dam",
-        "effects_breakdown": [
+        "effects": [
           {
             "type": "special_action",
             "frequency": "at will (unless specified otherwise)",
