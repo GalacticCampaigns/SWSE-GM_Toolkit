@@ -1,0 +1,1275 @@
+{
+  "tech_specialist_upgrades_data": {
+    "description": "Compilation of Tech Specialist Upgrades for Star Wars SAGA Edition.",
+    "tech_specialist_upgrades_list": [
+      {
+        "name": "Additional Upgrade Slot",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "The device gain one additional upgrade slot",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 48
+      },
+      {
+        "name": "Agile Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the armor's maximum Dexterity bonus 1.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Enhanced Dexterity",
+        "target_item_type": "Droid",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the droid's Dexterity score by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Enhanced Dexterity",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the vehicle's Dexterity score by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Enhanced Intelligence",
+        "target_item_type": "Droid",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the droid's Intelligence score by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Enhanced Strength",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the device's Strength score by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Enhanced Strength",
+        "target_item_type": "Droid",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the droid's Strength score by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Fortifying Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the armor's equipment bonus to Fortitude Defense by 1.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Improved Accuracy",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "The weapon gains a +1 equipment bonus on attack rolls.",
+        "structured_effects": [
+          {
+            "type": "bonus",
+            "action_verb": "gains",
+            "value_description": "+1",
+            "numeric_value_approx": 1,
+            "bonus_or_penalty_type": "equipment",
+            "target_description": "attack"
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Improved Damage",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "The weapon deals +2 points of damage with a successful hit. If the weapon has a damage multiplier (for example 6d10x2) apply the extra damage before the multiplier.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Improved Durability",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "The device's damage reduction increases by 1, and it gains extra hit points equal to one-quarter of its maximum hit points.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Improved Shields",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the vehicle's shield rating by 5.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Improved Speed",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the vehicle's speed by one-quarter of its base speed (minimum 1 square).",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Ion Dispersal Coating",
+        "target_item_type": "Droid",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Droid",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Droid",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Droid"
+          }
+        ],
+        "effect_description": "Droid Gains DR 5 against ion damage.",
+        "structured_effects": [
+          {
+            "type": "damage_reduction",
+            "value": 5
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Mastercraft Device",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Skill checks made using the device gain a +1 equipment bonus, or the device's existing equipment bonus increase by 1.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Mobile Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Armor",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Armor",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Armor"
+          }
+        ],
+        "effect_description": "Increases speed by 1 square (medium and heavy armors only).",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 24
+      },
+      {
+        "name": "Protective Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "Increases the armor's armor bonus to Reflex Defense by 1.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Reinforced Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Armor",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Armor",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Armor"
+          }
+        ],
+        "effect_description": "Grants damage reduction 2.",
+        "structured_effects": [
+          {
+            "type": "damage_reduction",
+            "value": 2
+          }
+        ],
+        "source_book": "SV",
+        "page": 24
+      },
+      {
+        "name": "Reinforced Device",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Device",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Device",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Device"
+          }
+        ],
+        "effect_description": "The Device’s break DC increase by 5.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Selective Fire",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "10% or 1000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.1
+            },
+            {
+              "type": "text_description",
+              "description": "1000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Tech Specialist",
+        "prerequisites_structured": [
+          {
+            "text_description": "Tech Specialist",
+            "type": "feat_or_ability",
+            "name": "Tech Specialist"
+          }
+        ],
+        "effect_description": "An autofire-only ranged weapon can be set to fire single shots, or a single-shot ranged weapon can be made to have an autofire mode. (Not allowed for weapons that have a burst radius or splash radius.)",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "S",
+        "page": 21
+      },
+      {
+        "name": "Superior Ability",
+        "target_item_type": "Droid",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Droid",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Droid",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Droid"
+          }
+        ],
+        "effect_description": "Increases the droid's Dexterity, Intelligens or Strength score by 4.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Ability",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Vehicle",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Vehicle",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Vehicle"
+          }
+        ],
+        "effect_description": "Increases the vehicle's Dexterity score by 4 or its Strength by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Accuracy",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Weapon",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Weapon",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Weapon"
+          }
+        ],
+        "effect_description": "The weapon gains a +2 equipment bonus on attack rolls.",
+        "structured_effects": [
+          {
+            "type": "bonus",
+            "action_verb": "gains",
+            "value_description": "+2",
+            "numeric_value_approx": 2,
+            "bonus_or_penalty_type": "equipment",
+            "target_description": "attack"
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Agile Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Armor",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Armor",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Armor"
+          }
+        ],
+        "effect_description": "Increases the armor's maximum Dexterity bonus 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 24
+      },
+      {
+        "name": "Superior Capacity",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Weapon",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Weapon",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Weapon"
+          }
+        ],
+        "effect_description": "The weapons power pack provides double the number of shots.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Damage",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Weapon",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Weapon",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Weapon"
+          }
+        ],
+        "effect_description": "The weapon deals +5 points of damage with a successful hit. If the weapon has a damage multiplier apply the extra damage before applying the multiplier.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Durability",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Device",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Device",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Device"
+          }
+        ],
+        "effect_description": "The device's damage reduction increases by 2, and it gains extra hit points equal to one-half of its maximum hit points.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Fortifying Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Armor",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Armor",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Armor"
+          }
+        ],
+        "effect_description": "Increases the armor's equipment bonus to Fortitude Defense by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 24
+      },
+      {
+        "name": "Superior Helmet Package",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Armor",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Armor",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Armor"
+          }
+        ],
+        "effect_description": "Grants wearer a +5 equipment bonus on Perception shecks.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 24
+      },
+      {
+        "name": "Superior Mastercraft",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Device",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Device",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Device"
+          }
+        ],
+        "effect_description": "Skill checks made using the device gain a +2 equipment bonus, or the device's existing equipment bonus increase by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Protective Armor",
+        "target_item_type": "Armor",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Armor",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Armor",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Armor"
+          }
+        ],
+        "effect_description": "Increases the armor's armor bonus to Reflex Defense by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 24
+      },
+      {
+        "name": "Superior Range",
+        "target_item_type": "Weapon",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Weapon",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Weapon",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Weapon"
+          }
+        ],
+        "effect_description": "The weapon’s ranges all increase by 50%.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Sensors",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Vehicle",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Vehicle",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Vehicle"
+          }
+        ],
+        "effect_description": "Increase the vehicle’s Perception modifier by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Shields",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Vehicle",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Vehicle",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Vehicle"
+          }
+        ],
+        "effect_description": "Increases the vehicle's shield rating by 10.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Speed",
+        "target_item_type": "Vehicle",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Vehicle",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Vehicle",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Vehicle"
+          }
+        ],
+        "effect_description": "Increases the vehicle's speed by one-third of its base speed (minimum 1 square).",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      },
+      {
+        "name": "Superior Strength",
+        "target_item_type": "Device",
+        "cost": {
+          "text_original": "20% or 2000 credits, whichever is more.",
+          "options": [
+            {
+              "type": "set_to_percentage_of_base",
+              "value": 0.2
+            },
+            {
+              "type": "text_description",
+              "description": "2000 credits."
+            }
+          ],
+          "selection_logic": "whichever_is_more"
+        },
+        "prerequisites_text": "Superior Tech: Device",
+        "prerequisites_structured": [
+          {
+            "text_description": "Superior Tech: Device",
+            "type": "feat_or_ability",
+            "name": "Superior Tech: Device"
+          }
+        ],
+        "effect_description": "Increases the device's Strength score by 2.",
+        "structured_effects": [
+          {
+            "type": "narrative_only",
+            "summary": "Mechanics are described textually."
+          }
+        ],
+        "source_book": "SV",
+        "page": 25
+      }
+    ]
+  }
+}

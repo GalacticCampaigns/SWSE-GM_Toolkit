@@ -4,12 +4,21 @@
     "accessories_list": [
       {
         "name": "Aquatic adaptation",
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Aquatic Adaptation (SaV)\nArmor Upgrade\nThis upgrade seals your armor against the pressure of deep ocean travel, allows you to filter breathable air out of water indefinitely, and uses fins and small jets to allow swift and easy motion through liquids. When wearing this armor, you gain a swim speed equal to one-half your armored walking speed and can breathe in water. Additionally, you can reroll a failed Swim check (keeping the better result) and can take 10 on Swim checks even when rushed or threatened.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Gain Swim speed = 1/2 land speed, reroll Swim take better, take 10 on Swim",
@@ -20,16 +29,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "44"
+        "page": 44
       },
       {
         "name": "Armor reinforcement",
+        "cost": {
+          "text_original": "3,000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 3000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Armor Reinforcement (KotORCG)\nArmor Upgrade\nThe armor reinforcement accessory increases armor's ability to harmlessly deflect incoming attacks by coating the interior of the armor with tough materials, adding an extra layer of defense. Reinforced armor grants the wearer DR 2 against piercing damage.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 3000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "DR2 v. piercing",
@@ -40,16 +58,25 @@
           }
         ],
         "source_book": "K",
-        "page": "75"
+        "page": 75
       },
       {
         "name": "Armorplast",
+        "cost": {
+          "text_original": "900",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 900
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Armorplast (SaV)\nArmor Upgrade\nThis upgrades the standard durasteel or other defensive plates of armor with high-strength armorplast or a similar lightweight, high-cost material. This reduces the weight of the armor by 50%.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 900,
         "weight_text": "-50%",
         "weight_kg": null,
         "comments_and_effects_text": "Weight -50%",
@@ -60,31 +87,49 @@
           }
         ],
         "source_book": "SV",
-        "page": "45"
+        "page": 45
       },
       {
         "name": "Bayonet ring",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Bayonet Ring (SaV)\nWeapon Upgrade\nA bayonet ring is a simple upgrade added to a melee weapon of Small or lesser size. Once upgraded, the weapon can be mounted on a specific type of ranged weapon. The type of ranged weapon must be chosen at the time you install the upgrade; the weapon must be of at least Medium size, and it cannot require a tripod or other mount for any normal operation (such as a heavy repeating blaster). The most common combination is placing a vibrodagger on a blaster rifle, but other combinations are possible as well (such as a stun baton mounted onto a grenade launcher, a combination preferred for riot control).\nWhile the upgraded melee weapon is mounted on its ranged weapon, the combined weapon becomes Large size, and it must be wielded in two hands. In addition, the melee weapon's damage dice increase by one step: d2 to d3, d3 to d4, d4 to d6, d6 to d8, d8 to d10, d10 to d12. However, its damage type and weapon group stay the same despite these changes, and it is otherwise treated as a bayonet in all respects (see \"Gun Club\"\" and \"\"Bayonet\"\" on pages 52 and 121 of the Saga Edition core rulebook). Both the melee weapon with the bayonet ring upgrade and the ranged weapon can be used separately; mounting or removing the upgraded melee weapon requires a move action.",
         "accessory_type_code": null,
         "accessory_type_description": "Unknown",
         "upgrade_points_cost_text": null,
         "availability": null,
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "42"
+        "page": 42
       },
       {
         "name": "Beckon call",
-        "full_text_description": "Beckon Call (JATM)\nLightsaber Upgrade\nA beckon call is a small communications device that links up with the slave circuits on a starship. When activated, the beckon call transmits a signal to the starship it is linked to, activating its autopilot programming and sum\u00admoning the ship to the nearest safe spot close to the wielder. A beckon call functions only when connected to a starship with a slave circuit.",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Beckon Call (JATM)\nLightsaber Upgrade\nA beckon call is a small communications device that links up with the slave circuits on a starship. When activated, the beckon call transmits a signal to the starship it is linked to, activating its autopilot programming and sum­moning the ship to the nearest safe spot close to the wielder. A beckon call functions only when connected to a starship with a slave circuit.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "call ship with slave circuit",
@@ -95,16 +140,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Bipod",
+        "cost": {
+          "text_original": "100",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 100
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Bipod (SaV)\nWeapon Upgrade\nA bipod is an attached two-legged stand that steadies the barrel of a rifle or heavy weapon when aiming or using autofire. Preparing a bipod for use is a move action, and you cannot prepare a bipod unless you are either prone or adjacent to low objects (or other waist- to chest-high cover) that are between you and your target. If you move, you cannot use the bipod until you prepare it again.\nA bipod counts as a mount for any weapon that requires it (such as a heavy repeating blaster or E-web repeating blaster). For other weapons, a bipod makes aiming easier. If you have already aimed at or attacked a particular target, each subsequent aim action requires only a single swift action. (Under these circumstances, a character with the Sniping Master talent can aim as a free action once per round; see page 29.) This benefit is lost if you attack or aim at any other target. A bipod adds 20% to the weight of the weapon (minimum 1 kg).",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 100,
         "weight_text": "+20%,\nmin 1kg",
         "weight_kg": null,
         "comments_and_effects_text": "If weapon requires mount, counts as mounted; if not, aiming is only one swift [if you have already aimed at or attacked a particular target, each subsequent aim action requires only 1 swift action against that target only]",
@@ -119,16 +173,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Blade lock",
-        "full_text_description": "Blade Lock (JATM)\nLightsaber Upgrade\nThis simple modification is usually added only to lightsabers whose wielders frequently throw the lightsaber as a ranged weapon. As a swift action, the wielder can lock the blade in place; when doing so, this prevents the lightsa\u00adber from being accidentally deactivated when the weapon is jarred, such as during the impact of being thrown. A swift action unlocks the blade, meaning that it takes two swift actions to deactivate a locked lightsaber blade.",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Blade Lock (JATM)\nLightsaber Upgrade\nThis simple modification is usually added only to lightsabers whose wielders frequently throw the lightsaber as a ranged weapon. As a swift action, the wielder can lock the blade in place; when doing so, this prevents the lightsa­ber from being accidentally deactivated when the weapon is jarred, such as during the impact of being thrown. A swift action unlocks the blade, meaning that it takes two swift actions to deactivate a locked lightsaber blade.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "swif to lock blade so won't turn off, swif to unlock",
@@ -139,31 +202,53 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Cheater",
-        "full_text_description": "Cheater (SaV)\nUniversal Upgrade\nA cheater is a hand-held device designed to allow you to cheat at the popular gambling game of sabacc. Because they are illegal (and likely to get you killed to boot), cheaters are usually disguised and added to another piece of functional equipment.\nWhile you use a cheater, you gain a +2 equipment bonus on the Wisdom check made to determine the outcome of gambling games (see the \"Gam\u00adbling\"\" sidebar on page 47 of the Saga Edition core rulebook). You have to make a Stealth check opposed by any observers' Perception checks to conceal the use of a cheater",
+        "cost": {
+          "text_original": "if anyone ever beats your Wisdom check in a sabacc game by 6 or more",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "if anyone ever beats your Wisdom check in a sabacc game by 6"
+            },
+            {
+              "type": "text_description",
+              "description": "more"
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Cheater (SaV)\nUniversal Upgrade\nA cheater is a hand-held device designed to allow you to cheat at the popular gambling game of sabacc. Because they are illegal (and likely to get you killed to boot), cheaters are usually disguised and added to another piece of functional equipment.\nWhile you use a cheater, you gain a +2 equipment bonus on the Wisdom check made to determine the outcome of gambling games (see the \"Gam­bling\"\" sidebar on page 47 of the Saga Edition core rulebook). You have to make a Stealth check opposed by any observers' Perception checks to conceal the use of a cheater",
         "accessory_type_code": "but you gain a bonus on your check determined by the object's size. (Generally",
         "accessory_type_description": "Unknown Type (but you gain a bonus on your check determined by the object's size. (Generally)",
         "upgrade_points_cost_text": null,
         "availability": "granting a +10 size bonus on Stealth checks to conceal their use.) However",
-        "cost_credits": "if anyone ever beats your Wisdom check in a sabacc game by 6 or more",
-        "weight_text": "that person realizes you must be cheating some\u00adhow (though they won't know exactly how-often leading to a demand for a search of your possessions).",
+        "weight_text": "that person realizes you must be cheating some­how (though they won't know exactly how-often leading to a demand for a search of your possessions).",
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "40"
+        "page": 40
       },
       {
         "name": "Cloaked",
+        "cost": {
+          "text_original": "750",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 750
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Cloaked (SaV)\nUniversal Upgrade\nCloaked equipment has its energy signatures baffled, any noises it makes muffled, and its appearance camouflaged and slenderized, and it comes with a case that allows it to be placed in an inconspicuous location. When not in use, such equipment imposes a -5 penalty on any Perception or Use Computer check made to detect it. When in use, it imposes only a -2 penalty on such checks. Weapons are obvious when in use, even if cloaked. Cloaked armor does not help with Stealth checks made to sneak, but it applies when you make a Deception check to produce a deceptive appearance (such as making the armor appear as ordinary clothing).",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Licensed",
-        "cost_credits": 750,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "-5 to Perception or Use Computer to detect; -2 in use (-0 if weapon)",
@@ -178,16 +263,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "40"
+        "page": 40
       },
       {
         "name": "Componentization",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Componentization (GoI)\nUniversal Upgrade\nComponentization is a process where a single piece of equipment or weapon is composed of several different pieces, each of which is disguised to appear as another type of equipment, such as a comlink, a datapad, or even a vibroshaver. Componentization is a common upgrade for assassins, smugglers, and nobles who want to carry weapons or other equipment into a location secretly.\nThe basic componentization upgrade (one upgrade slot) breaks the item or weapon into two component parts, each one size category smaller than the original item. An item or weapon with the deluxe upgrade (two upgrade slots) breaks down into four items, each two size categories smaller than the original item. For example, a Medium sporting blaster rifle can break down into two Small objects with the basic upgrade or into four Tiny objects with the deluxe upgrade.\nA full round is required to assemble a componentized item from two parts. Two full rounds are required to assemble a componentized item from four parts. Identifying a component as part of this upgrade package requires a DC 30 Perception or DC 25 Knowledge (technology) check.",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Break item into 2/4 component pieces based on size, full rnd to assemble; used for smuggling a weapon or equipment",
@@ -202,16 +296,25 @@
           }
         ],
         "source_book": "GI",
-        "page": "68"
+        "page": 68
       },
       {
         "name": "Concealed compartment",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Concealed Compartment (JATM)\nLightsaber Upgrade\nThis lightsaber accessory is little more than a small storage compartment capable of holding a single object of Fine size. Typically, this compartment in the weapon's hilt is used to store a useful item such as a comlink, hand-held holoprojector, or code cylinder.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "single object of Fine size",
@@ -222,31 +325,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
-      },
-      {
-        "name": "Dexterity 15",
-        "full_text_description": "and speed 1 square. Since it is a walking datapad",
-        "accessory_type_code": "Deel programs it to use its unassigned feat for Skill Training in Use Computer (giving it Use Computer +3)",
-        "accessory_type_description": "Unknown Type (Deel programs it to use its unassigned feat for Skill Training in Use Computer (giving it Use Computer +3))",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "Example: Deel Surool owns a datapad he'd like to be able to call (like a pet). Since a datapad has only one upgrade slot",
-        "page": "he increases its size to Diminutive (due to its weight"
+        "page": 60
       },
       {
         "name": "Diagnostics system",
-        "full_text_description": "Diagnostics System (SaV)\nArmor Upgrade\nA diagnostics system is a series of sensors and simple computers that moni\u00adtor both the armor and its wearer. Anyone making a Mechanics check on the armor or a Treat Injury check on its wearer gains a +2 equipment bonus from the diagnostics system.",
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Diagnostics System (SaV)\nArmor Upgrade\nA diagnostics system is a series of sensors and simple computers that moni­tor both the armor and its wearer. Anyone making a Mechanics check on the armor or a Treat Injury check on its wearer gains a +2 equipment bonus from the diagnostics system.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "+2 equipment to Treat Injury to heal wearer, Mechanics to fix suit",
@@ -257,31 +354,49 @@
           }
         ],
         "source_book": "SV",
-        "page": "45"
+        "page": 45
       },
       {
         "name": "Double trigger",
+        "cost": {
+          "text_original": "he gains a +2 bonus on attacks if he aims with a weapon that has a double trigger (rather than the normal +1 bonus provided by the feat).",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "he gains a +2 bonus on attacks if he aims with a weapon that has a double trigger (rather than the normal +1 bonus provided by the feat)."
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Double Trigger (SaV)\nWeapon Upgrade\nA weapon with a double trigger treats one trigger as a \"safety",
         "accessory_type_code": "with the second trigger being a hair-trigger that fires when the slightest pressure is applied to it. Weapons of this type can be extremely accurate",
         "accessory_type_description": "Unknown Type (with the second trigger being a hair-trigger that fires when the slightest pressure is applied to it. Weapons of this type can be extremely accurate)",
         "upgrade_points_cost_text": null,
         "availability": "but this takes time and training. If a character has Careful Shot",
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Flash Suppressor/Silencer",
-        "full_text_description": "Flash Suppressor/Silencer (GoI)\nThe Merr-Sonn Nonsonic is a typical example of a flash suppressor/silencer. Fitting over the muzzle of any Small or larger slugthrower, this device reduces both the sound and the muzzle flash when the weapon is fired. A flash sup\u00adpressor/silencer imposes a -10 penalty to Perception checks to discern the sound or spot the flash of an equipped slugthrower. It reduces the maximum range of the weapon by two range increments.",
+        "cost": {
+          "text_original": "400",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 400
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Flash Suppressor/Silencer (GoI)\nThe Merr-Sonn Nonsonic is a typical example of a flash suppressor/silencer. Fitting over the muzzle of any Small or larger slugthrower, this device reduces both the sound and the muzzle flash when the weapon is fired. A flash sup­pressor/silencer imposes a -10 penalty to Perception checks to discern the sound or spot the flash of an equipped slugthrower. It reduces the maximum range of the weapon by two range increments.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 400,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "-10 Perception checks to spot the shooter, max range reduced 2 increments",
@@ -292,16 +407,25 @@
           }
         ],
         "source_book": "GI",
-        "page": "66"
+        "page": 66
       },
       {
         "name": "Force-Activated",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Force-Activated (JATM)\nLightsaber Upgrade\nThis rare lightsaber modification removes the activation button from the lightsaber's exterior. To activate the lightsaber, the wielder must make a DC 5 Use the Force check as a swift action (this can be done as a part of drawing the lightsaber, as with normal lightsaber activation). If this check fails, the lightsaber does not activate. Typically this modification is used to ensure that untrained Force-users and those who have no sensitivity to the Force cannot effectively use the lightsaber.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "DC 5 Use the Force to activate as swif",
@@ -312,16 +436,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Gyro",
+        "cost": {
+          "text_original": "250",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 250
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Gyro (SaV)\nArmor Upgrade\nA gyro helps keep armor upright and stable. While wearing armor with this upgrade, you gain a +5 stability bonus on checks and all defenses to resist attempts to knock you prone.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 250,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "+5 stability bonus",
@@ -332,16 +465,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Hair trigger",
+        "cost": {
+          "text_original": "1200",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1200
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Hair Trigger (KotORCG)\nWeapon Upgrade\nA modification made only to pistols, rifles, heavy weapons, and exotic ranged weapons that use a trigger mechanism to fire, the hair trigger accessory makes it easier to fire several shots in quick succession by reducing the amount of pressure that must be placed on the trigger. Once per encounter, the wielder of a weapon with a hair trigger that uses the Rapid Shot feat to modify an attack roll may reroll the damage from the attack, keeping the better result.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 1200,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "ranged wpns with trigger; 1/encounter when using Rapid Shot, reroll dam and keep better",
@@ -356,16 +498,25 @@
           }
         ],
         "source_book": "K",
-        "page": "75"
+        "page": 75
       },
       {
         "name": "Helmet package",
+        "cost": {
+          "text_original": "4000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 4000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Helmet Package (SaV)\nArmor Upgrade\nWhen installed in the helmet of a suit of armor, this electronic package allows the armor to grant the wearer a +2 equipment bonus on Perception checks as well as low-light vision. In addition, it includes an integrated hands-free com link. Stormtrooper armor and its variants include such a system (MFTAS, or Multi-Frequency Target Acquisition System), already included in its statistics. Installing a helmet package takes 1 hour and a DC 20 Mechanics check.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 4000,
         "weight_text": "1",
         "weight_kg": 1,
         "comments_and_effects_text": "Perception +2, low-light vision, hands-free comlink",
@@ -376,16 +527,25 @@
           }
         ],
         "source_book": "CR",
-        "page": "140"
+        "page": 140
       },
       {
         "name": "Holoshroud",
-        "full_text_description": "Holoshroud (SaV)\nArmor Upgrade\nA holoshroud upgrade places small holographic projectors as key points around the armor. These projectors are linked together and designed to place a holographic image over the armor (and its wearer). The image moves as the armor moves, making the illusion of a different appearance difficult to penetrate.\nThe holoshroud can store only a single image, which must be of the same basic size and shape as the armor (generally humanoid). The image can be changed with an hour of work and a DC 20 Use Computer check.\nThe holoshroud provides a +10 equipment bonus on Stealth checks to con\u00adceal items (underneath the image) as well as any Deception checks made to create a deceptive appearance matching the image. However, the holoshroud doesn't withstand scrutiny, so any observer who uses a full-round action to search the wearer gains a +10 circumstance bonus on the opposed Percep\u00adtion check. Furthermore, the holoshroud doesn't have any tactile, auditory, or olfactory component, so observers with the scent species trait or using a sensor pack gain a +10 circumstance bonus on their Perception checks.\nThe holoshroud draws power from a standard energy cell, which gives enough power for twenty rounds of use (drawn in any increment). Such armors are often upgraded with the Extra Power Source or Internal Generator modification to extend this operating time. You can turn a holoshroud on or off as a swift action.",
+        "cost": {
+          "text_original": "5000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 5000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Holoshroud (SaV)\nArmor Upgrade\nA holoshroud upgrade places small holographic projectors as key points around the armor. These projectors are linked together and designed to place a holographic image over the armor (and its wearer). The image moves as the armor moves, making the illusion of a different appearance difficult to penetrate.\nThe holoshroud can store only a single image, which must be of the same basic size and shape as the armor (generally humanoid). The image can be changed with an hour of work and a DC 20 Use Computer check.\nThe holoshroud provides a +10 equipment bonus on Stealth checks to con­ceal items (underneath the image) as well as any Deception checks made to create a deceptive appearance matching the image. However, the holoshroud doesn't withstand scrutiny, so any observer who uses a full-round action to search the wearer gains a +10 circumstance bonus on the opposed Percep­tion check. Furthermore, the holoshroud doesn't have any tactile, auditory, or olfactory component, so observers with the scent species trait or using a sensor pack gain a +10 circumstance bonus on their Perception checks.\nThe holoshroud draws power from a standard energy cell, which gives enough power for twenty rounds of use (drawn in any increment). Such armors are often upgraded with the Extra Power Source or Internal Generator modification to extend this operating time. You can turn a holoshroud on or off as a swift action.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Restricted, Rare",
-        "cost_credits": 5000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "+10 equipment to conceal items, Deception to disguise; situational bonuses against; energy for 20 rounds",
@@ -404,16 +564,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Improved energy cell",
-        "full_text_description": "Improved Energy Cell (KotORCG)\nWeapon Upgrade\nA modification made only to pistols, rifles, heavy weapons, and exotic ranged weapons that require a power pack, the improved energy cell acces\u00adsory increases the efficiency of the energy flow between a power pack and the weapon's firing mechanism. A weapon with the improved energy cell modification doubles the number of shots it can fire on a single power pack. Additionally, if the weapon has the increased weapon damage modification from the Tech Specialist feat (see page 21 of Starships of the Galaxy), the equipment bonus to damage increases to +3.",
+        "cost": {
+          "text_original": "4000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 4000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Improved Energy Cell (KotORCG)\nWeapon Upgrade\nA modification made only to pistols, rifles, heavy weapons, and exotic ranged weapons that require a power pack, the improved energy cell acces­sory increases the efficiency of the energy flow between a power pack and the weapon's firing mechanism. A weapon with the improved energy cell modification doubles the number of shots it can fire on a single power pack. Additionally, if the weapon has the increased weapon damage modification from the Tech Specialist feat (see page 21 of Starships of the Galaxy), the equipment bonus to damage increases to +3.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 4000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "ranged wpns with power pack; doubles number of shots, if Tech Spec dam mod then dam is +3",
@@ -428,16 +597,25 @@
           }
         ],
         "source_book": "K",
-        "page": "75"
+        "page": 75
       },
       {
         "name": "Integrated equipment, 1",
+        "cost": {
+          "text_original": "200",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 200
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Integrated Equipment (SaV)\nArmor Upgrade\nAn integrated equipment upgrade attaches one piece of equipment to the armor. The equipment must be three or more sizes smaller than the armor itself. For example, armor for a Medium character is Medium size, so it can mount a piece of equipment up to Diminutive size (such as electrobinoculars, a glow rod, or a medpac) or a weapon up to Small size (such as a blaster pistol or vibroblade). This equipment is constantly ready for use and need not be drawn or prepared before being used. Once a suit of armor is rigged for integrated equipment, it becomes increasingly easy to add new pieces of equipment as built-in modules. As a result, prices and upgrade slot costs are given for 1, 2, 5, or 10 slots of integrated equipment.\nIt is easy to swap out the equipment attached to armor with this upgrade. A single piece of integrated equipment can be swapped out for a different piece of gear in 10 minutes with a DC 10 Mechanics check. The price of any equipment attached to the armor is separate from the integrated equipment upgrade cost.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 200,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "DC 10 Mechanics check to integrate one device three sizes smaller",
@@ -448,16 +626,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Integrated equipment, 10",
+        "cost": {
+          "text_original": "2000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 2000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Integrated Equipment (SaV)\nArmor Upgrade\nAn integrated equipment upgrade attaches one piece of equipment to the armor. The equipment must be three or more sizes smaller than the armor itself. For example, armor for a Medium character is Medium size, so it can mount a piece of equipment up to Diminutive size (such as electrobinoculars, a glow rod, or a medpac) or a weapon up to Small size (such as a blaster pistol or vibroblade). This equipment is constantly ready for use and need not be drawn or prepared before being used. Once a suit of armor is rigged for integrated equipment, it becomes increasingly easy to add new pieces of equipment as built-in modules. As a result, prices and upgrade slot costs are given for 1, 2, 5, or 10 slots of integrated equipment.\nIt is easy to swap out the equipment attached to armor with this upgrade. A single piece of integrated equipment can be swapped out for a different piece of gear in 10 minutes with a DC 10 Mechanics check. The price of any equipment attached to the armor is separate from the integrated equipment upgrade cost.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 2000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As above, but ten devices",
@@ -468,16 +655,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Integrated equipment, 2",
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Integrated Equipment (SaV)\nArmor Upgrade\nAn integrated equipment upgrade attaches one piece of equipment to the armor. The equipment must be three or more sizes smaller than the armor itself. For example, armor for a Medium character is Medium size, so it can mount a piece of equipment up to Diminutive size (such as electrobinoculars, a glow rod, or a medpac) or a weapon up to Small size (such as a blaster pistol or vibroblade). This equipment is constantly ready for use and need not be drawn or prepared before being used. Once a suit of armor is rigged for integrated equipment, it becomes increasingly easy to add new pieces of equipment as built-in modules. As a result, prices and upgrade slot costs are given for 1, 2, 5, or 10 slots of integrated equipment.\nIt is easy to swap out the equipment attached to armor with this upgrade. A single piece of integrated equipment can be swapped out for a different piece of gear in 10 minutes with a DC 10 Mechanics check. The price of any equipment attached to the armor is separate from the integrated equipment upgrade cost.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As above, but two devices",
@@ -488,16 +684,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Integrated equipment, 5",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Integrated Equipment (SaV)\nArmor Upgrade\nAn integrated equipment upgrade attaches one piece of equipment to the armor. The equipment must be three or more sizes smaller than the armor itself. For example, armor for a Medium character is Medium size, so it can mount a piece of equipment up to Diminutive size (such as electrobinoculars, a glow rod, or a medpac) or a weapon up to Small size (such as a blaster pistol or vibroblade). This equipment is constantly ready for use and need not be drawn or prepared before being used. Once a suit of armor is rigged for integrated equipment, it becomes increasingly easy to add new pieces of equipment as built-in modules. As a result, prices and upgrade slot costs are given for 1, 2, 5, or 10 slots of integrated equipment.\nIt is easy to swap out the equipment attached to armor with this upgrade. A single piece of integrated equipment can be swapped out for a different piece of gear in 10 minutes with a DC 10 Mechanics check. The price of any equipment attached to the armor is separate from the integrated equipment upgrade cost.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 1000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As above, but five devices",
@@ -508,16 +713,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Interlocking hilt",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Interlocking Hilt (JATM)\nLightsaber Upgrade\nThis accessory is usually applied to pairs of lightsabers and intended for users who prefer to wield two lightsabers simultaneously. The creator of the lightsaber grafts a small, interlocking mechanism to the base of each lightsaber. As a swift action, the hilts of the two lightsabers can be locked together, turning the weapon into a double weapon (considered to be one size category larger than the largest of the two weapons).",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "swif to lock two lightsabers together",
@@ -528,16 +742,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Internal generator",
-        "full_text_description": "Internal Generator (SaV)\nArmor Upgrade\nA miniaturized version of a portable fusion generator (see page 138 of the Saga Edition core rulebook), an internal generator can provide continuous power for different upgrades on a suit of armor, including any integrated equipment. The generator can be activated or deactivated as a swift action. As long as it's active, an internal generator can simultaneously power up to ten different devices that have negligible power requirements (anything without a listed duration).\nFor devices with specific power requirements, an internal generator can store four units of energy (each the equivalent of an energy cell, power pack, or 20 rounds of power from a portable fusion generator), and it automatically recharges one such unit every hour. A suit of armor can receive this upgrade multiple times if more energy capacity is needed, but each internal generator adds 10 kg to the weight of the armor.\nThe biggest drawback to a generator is its energy signature. If the gen\u00aderator powers anything but devices with negligible power requirements, any character attempting to detect the wearer with a sensor pack or vehicle sensors gains a +5 circumstance bonus on the Perception or Use Computer check.",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Internal Generator (SaV)\nArmor Upgrade\nA miniaturized version of a portable fusion generator (see page 138 of the Saga Edition core rulebook), an internal generator can provide continuous power for different upgrades on a suit of armor, including any integrated equipment. The generator can be activated or deactivated as a swift action. As long as it's active, an internal generator can simultaneously power up to ten different devices that have negligible power requirements (anything without a listed duration).\nFor devices with specific power requirements, an internal generator can store four units of energy (each the equivalent of an energy cell, power pack, or 20 rounds of power from a portable fusion generator), and it automatically recharges one such unit every hour. A suit of armor can receive this upgrade multiple times if more energy capacity is needed, but each internal generator adds 10 kg to the weight of the armor.\nThe biggest drawback to a generator is its energy signature. If the gen­erator powers anything but devices with negligible power requirements, any character attempting to detect the wearer with a sensor pack or vehicle sensors gains a +5 circumstance bonus on the Perception or Use Computer check.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 1000,
         "weight_text": "10",
         "weight_kg": 10,
         "comments_and_effects_text": "Swift to activate; can power 10 devices with no duration forever; can power one device with duration for 4x duration, recharge 1 duration/hour; +10 kgs, +5 to detect wearer with scanner",
@@ -562,31 +785,49 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Ion charger",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Ion Charger (SaV)\nWeapon Upgrade\nAn ion charger encases a melee weapon in a light ion field that flares to full strength anytime the weapon strikes something. This causes the melee weapon to deal 2d6 ion damage in addition to its normal melee damage. Feats and maneuvers that add to a weapon's damage (such as Rapid Strike) have no effect on the ion damage dealt by a weapon with an ion charger (though the increase the weapon's base damage normally).\nIon chargers are common on vibroblades, and are often referred to as an \"ionite edge.\"\"",
         "accessory_type_code": null,
         "accessory_type_description": "Unknown",
         "upgrade_points_cost_text": null,
         "availability": null,
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Memory upgrade",
-        "full_text_description": "Memory Upgrade (SaV)\nUniversal Upgrade\nAny device that has an Intelligence score (such as a computer) can have its memory upgraded, improving its performance and storage capacity. The basic memory upgrade increases the device's Intelligence by +2 and doubles the device's storage capacity. Unless otherwise specified, an unmodified computer holds a number of memory units equal to 5 x the square of the computer's Intelligence bonus. (A single memory unit holds the same amount of data as a recording rod, and 10 memory units are enough to hold coordi\u00adnates for a single hyperspace jump.)\nAn advanced memory upgrade is also available, which increases Intel\u00adligence by +4 and multiplies the device's storage capacity by 5. (This replaces the benefit of the standard memory upgrade.)\nMemory upgrades cannot be installed on droids (including droidified equipment).",
+        "cost": {
+          "text_original": "4000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 4000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Memory Upgrade (SaV)\nUniversal Upgrade\nAny device that has an Intelligence score (such as a computer) can have its memory upgraded, improving its performance and storage capacity. The basic memory upgrade increases the device's Intelligence by +2 and doubles the device's storage capacity. Unless otherwise specified, an unmodified computer holds a number of memory units equal to 5 x the square of the computer's Intelligence bonus. (A single memory unit holds the same amount of data as a recording rod, and 10 memory units are enough to hold coordi­nates for a single hyperspace jump.)\nAn advanced memory upgrade is also available, which increases Intel­ligence by +4 and multiplies the device's storage capacity by 5. (This replaces the benefit of the standard memory upgrade.)\nMemory upgrades cannot be installed on droids (including droidified equipment).",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 4000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "+2 to Int to any non-droid device",
@@ -597,16 +838,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "41"
+        "page": 41
       },
       {
         "name": "Memory upgrade, advanced",
-        "full_text_description": "Memory Upgrade (SaV)\nUniversal Upgrade\nAny device that has an Intelligence score (such as a computer) can have its memory upgraded, improving its performance and storage capacity. The basic memory upgrade increases the device's Intelligence by +2 and doubles the device's storage capacity. Unless otherwise specified, an unmodified computer holds a number of memory units equal to 5 x the square of the computer's Intelligence bonus. (A single memory unit holds the same amount of data as a recording rod, and 10 memory units are enough to hold coordi\u00adnates for a single hyperspace jump.)\nAn advanced memory upgrade is also available, which increases Intel\u00adligence by +4 and multiplies the device's storage capacity by 5. (This replaces the benefit of the standard memory upgrade.)\nMemory upgrades cannot be installed on droids (including droidified equipment).",
+        "cost": {
+          "text_original": "16000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 16000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Memory Upgrade (SaV)\nUniversal Upgrade\nAny device that has an Intelligence score (such as a computer) can have its memory upgraded, improving its performance and storage capacity. The basic memory upgrade increases the device's Intelligence by +2 and doubles the device's storage capacity. Unless otherwise specified, an unmodified computer holds a number of memory units equal to 5 x the square of the computer's Intelligence bonus. (A single memory unit holds the same amount of data as a recording rod, and 10 memory units are enough to hold coordi­nates for a single hyperspace jump.)\nAn advanced memory upgrade is also available, which increases Intel­ligence by +4 and multiplies the device's storage capacity by 5. (This replaces the benefit of the standard memory upgrade.)\nMemory upgrades cannot be installed on droids (including droidified equipment).",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 16000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As above, but +4",
@@ -617,16 +867,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "41"
+        "page": 41
       },
       {
         "name": "Mesh underlay",
-        "full_text_description": "Mesh Underlay (KotORCG)\nArmor Upgrade\nDesigned with the same principles as mesh armor, the mesh underlay acces\u00adsory helps channel certain types of energy away from the wearer's body, reducing the effectiveness of a potentially devastating blow. A character wearing a suit of armor with the mesh underlay accessory gains a +5 equip\u00adment bonus to his damage threshold against stun damage.",
+        "cost": {
+          "text_original": "2500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 2500
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Mesh Underlay (KotORCG)\nArmor Upgrade\nDesigned with the same principles as mesh armor, the mesh underlay acces­sory helps channel certain types of energy away from the wearer's body, reducing the effectiveness of a potentially devastating blow. A character wearing a suit of armor with the mesh underlay accessory gains a +5 equip­ment bonus to his damage threshold against stun damage.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 2500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "threshold v. stun +5",
@@ -637,31 +896,49 @@
           }
         ],
         "source_book": "K",
-        "page": "76"
+        "page": 76
       },
       {
         "name": "Miniaturized",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Miniaturized (SaV)\nUniversal Upgrade\nEquipment with the miniaturized upgrade weighs half as much, and is one size smaller (see \"Equipment Sizes\"\" on page 38). A melee weapon that is miniaturized has its damage dice reduced by one step (d6s become d4s",
         "accessory_type_code": "d4s become d3s",
         "accessory_type_description": "Unknown Type (d4s become d3s)",
         "upgrade_points_cost_text": null,
         "availability": null,
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "41"
+        "page": 41
       },
       {
         "name": "Missile load",
-        "full_text_description": "Missile Load (SaV)\nWeapon Upgrade\nA grenade's charge can be converted into a missile warhead. Once turned into a missile, the device cannot be thrown as a grenade. The primary advan\u00adtages of missile loads are their greater effect and range when fired from a missile launcher. (The standard missile is essentially a missile load for a frag grenade, so only energy balls, ion grenades, and stun grenades can be fitted as missile loads.) Increase the damage dice of the original grenade by 50% when converted to a missile load. For example, an energy missile deals 3d8 damage, and a stun missile deals 6d6 stun damage.",
+        "cost": {
+          "text_original": "250",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 250
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Missile Load (SaV)\nWeapon Upgrade\nA grenade's charge can be converted into a missile warhead. Once turned into a missile, the device cannot be thrown as a grenade. The primary advan­tages of missile loads are their greater effect and range when fired from a missile launcher. (The standard missile is essentially a missile load for a frag grenade, so only energy balls, ion grenades, and stun grenades can be fitted as missile loads.) Increase the damage dice of the original grenade by 50% when converted to a missile load. For example, an energy missile deals 3d8 damage, and a stun missile deals 6d6 stun damage.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 250,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "energy balls, ion grenades, & stun grenades only; convert grenade into missile to fire from missile launcher; increase damage dice by 50%",
@@ -680,16 +957,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Neutronium reinforcement",
+        "cost": {
+          "text_original": "3000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 3000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Neutronium Reinforcement (SaV)\nWeapon Upgrade\nNeutronium is a heavy, neutron-rich metallic alloy used to make armor and reinforce starships. It can also be used to harden and sharpen the striking or cutting surface of a melee weapon other than a lightsaber. Any equipment given neutronium reinforcement gains +5 DR (maximum 15), 10 hit points, and +100% weight. A slashing or piercing melee weapon given neutronium reinforcement scores a critical hit on a natural roll of 19 or 20. (Only a natural 20 is an automatic hit, however.)",
         "accessory_type_code": "M",
         "accessory_type_description": "Weapon Upgrade (Melee)",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 3000,
         "weight_text": "1",
         "weight_kg": 1,
         "comments_and_effects_text": "any equipment; +5 DR, +10 HP, +100% weight; if pierce or slash, 19-20 threat range",
@@ -708,31 +994,49 @@
           }
         ],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Overload switch",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Overload Switch (SaV)\nWeapon Upgrade\nAn overload switch allows any energy weapon to build a feedback loop that causes it to explode. When activated as a swift action, the weapon becomes an improvised thrown weapon (-5 penalty on your ranged attack roll) with a 2-square burst. (See \"Area Attacks",
         "accessory_type_code": "page 155 of the Saga Edition core rulebook). A weapon whose size is two or more steps greater than yours (such as a Human using an E-web) cannot be thrown",
         "accessory_type_description": "Unknown Type (page 155 of the Saga Edition core rulebook). A weapon whose size is two or more steps greater than yours (such as a Human using an E-web) cannot be thrown)",
         "upgrade_points_cost_text": null,
         "availability": null,
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Powered exoskeleton",
+        "cost": {
+          "text_original": "4000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 4000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Powered Exoskeleton (SaV)\nArmor Upgrade\nMuch like the Corellian powersuit, other armor can be upgraded to include a powered exoskeleton that enhances the physical strength of the wearer. Because of the weight and energy required, only medium and heavy armor can have the powered exoskeleton upgrade.\nA powered exoskeleton operates for 20 rounds on a standard energy cell. (Suits of armor with a powered exoskeleton commonly have the internal generator upgrade; see above.) Turning an exoskeleton on or off is a swift action. When active, the exoskeleton gives the wearer a +2 equipment bonus to Strength. A powered exoskeleton adds 5 kg to the weight of the armor.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Licensed",
-        "cost_credits": 4000,
         "weight_text": "5",
         "weight_kg": 5,
         "comments_and_effects_text": "Swift to activate; +2 equipment to Str, energy cell 20 rounds, +5 kg",
@@ -747,16 +1051,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Pressure grip",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Pressure Grip (JATM)\nLightsaber Upgrade\nOne of the most popular lightsaber accessories, the pressure grip is a staple of most Jedi who prefer simple, straightforward lightsaber construction. The pressure grip senses when the wielder's hand no longer grips it, deactivating the lightsaber immediately when it is dropped or disarmed.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "lightsaber deactivates if no longer held",
@@ -767,16 +1080,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Pulse charger",
+        "cost": {
+          "text_original": "2000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 2000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Pulse Charger (SaV)\nWeapon Upgrade\nAny blaster weapon can be fitted with a pulse charger. A pulse charger forces more power into the blast chamber, producing more powerful shots at the expense of lost accuracy. This upgrade causes a -1 penalty on all attack rolls with the weapon, but the weapon deals +1 point of damage per die. Thus, a sporting blaster pistol with a pulse charger imposes a -1 penalty on attack rolls and deals 3d4+3 damage on a hit. A blaster with a pulse charger has only one-half the normal number of shots from a power pack.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 2000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "any blaster wpn; -1 attack, +1 damage/die; has only half shots from power pack",
@@ -795,16 +1117,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Radiation shielding",
-        "full_text_description": "Radiation Shielding (SaV)\nArmor Upgrade\nRadiation shielding is necessarily heavy and bulky. Only medium and heavy armor can be modified with radiation shielding, and it increases the armor's weight by 10 kg. The shielding grants a +10 equipment bonus to your Forti\u00adtude Defense against radiation attacks, and it reduces any damage dealt by a successful radiation attack by 5 points. In addition, any time you would move -1 persistent step down the condition track as a result of radiation damage while wearing this armor, you can make a DC 20 Endurance check to negate the persistent condition. You can make this check only the first time you move down the condition track due to a particular radiation hazard; if you fail, you must have the persistent condition cured normally.",
+        "cost": {
+          "text_original": "400",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 400
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Radiation Shielding (SaV)\nArmor Upgrade\nRadiation shielding is necessarily heavy and bulky. Only medium and heavy armor can be modified with radiation shielding, and it increases the armor's weight by 10 kg. The shielding grants a +10 equipment bonus to your Forti­tude Defense against radiation attacks, and it reduces any damage dealt by a successful radiation attack by 5 points. In addition, any time you would move -1 persistent step down the condition track as a result of radiation damage while wearing this armor, you can make a DC 20 Endurance check to negate the persistent condition. You can make this check only the first time you move down the condition track due to a particular radiation hazard; if you fail, you must have the persistent condition cured normally.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 400,
         "weight_text": "10",
         "weight_kg": 10,
         "comments_and_effects_text": "+10 kg; +10 equipment to Fort v. radiation attacks, -5 damage Radiation attacks; can make Endurance check against radiation condition",
@@ -823,16 +1154,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "46"
+        "page": 46
       },
       {
         "name": "Rangefinder",
+        "cost": {
+          "text_original": "200",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 200
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Rangefinder (SaV)\nWeapon Upgrade\nAny ranged weapon can have a rangefinder built into it. Such a weapon takes no penalty when used to attack a target at short range. Thus, a blaster pistol with a rangefinder upgrade takes no range penalty on attacks against targets up to 40 squares away.\nThis is essentially an improved version of a targeting scope, and thus its benefits do not stack with those of targeting scopes. (However, a weapon can have both a rangefinder and a targeting scope, using the latter only when aiming at targets at medium or long range.)",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Licensed",
-        "cost_credits": 200,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "any ranged wpn; no penalty to attack at short range; does not stack with scope",
@@ -851,16 +1191,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "43"
+        "page": 43
       },
       {
         "name": "Rangefinder, armor",
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Rangefinder, armor (SaV)\nArmor Upgrade\nA range finder built into a suit of armor works like a weapon rangefinder (see above), but it applies only to ranged attacks made by weapons built into the armor on a weapon mount (see below). Its benefits apply to other ranged weapons only if you aim immediately before making the attack.\nAny attack using a rangefinder takes no penalty when used against a target at short range. Thus, if your suit of armor had a rangefinder and a blaster pistol built into a weapon mount, you would take no range penalty on attacks against targets up to 40 squares away.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Licensed",
-        "cost_credits": 500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As rangefinder, but for weapon mounts",
@@ -871,16 +1220,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Rapid Recycler",
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Rapid Recycler (SaV)\nWeapon Upgrade\nA rapid recycler allows a blaster weapon that normally fires only in single shot mode to act in autofire mode. (This upgrade is not available for weapons that have a burst radius or splash radius, or weapons that specifically prohibit it.) Switching between the two modes is a swift action.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "any blaster that only has single shot (no burst or slash wpns); can add autofire mode;",
@@ -895,16 +1253,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "44"
+        "page": 44
       },
       {
         "name": "Ready harness",
-        "full_text_description": "Ready Harness (SaV)\nArmor Upgrade\nA ready harness is a series of hooks, straps, and clips distributed around the armor, designed to make equipment easily accessible and to settle its weight more comfortably on the wearer's frame. A ready harness can hold two Small pieces of equipment (Large weapon size), five Tiny pieces of equip\u00adment (Medium weapon size), or ten pieces of equipment up to Diminutive size (Small weapon size).\nWeight of equipment in the ready harness is halved for purposed of deter\u00admining your encumbrance (see page 140 of the Saga Edition core rulebook), and such equipment can be retrieved or replaced as a move action.",
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Ready Harness (SaV)\nArmor Upgrade\nA ready harness is a series of hooks, straps, and clips distributed around the armor, designed to make equipment easily accessible and to settle its weight more comfortably on the wearer's frame. A ready harness can hold two Small pieces of equipment (Large weapon size), five Tiny pieces of equip­ment (Medium weapon size), or ten pieces of equipment up to Diminutive size (Small weapon size).\nWeight of equipment in the ready harness is halved for purposed of deter­mining your encumbrance (see page 140 of the Saga Edition core rulebook), and such equipment can be retrieved or replaced as a move action.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Retrieve equipment as move; halve weight for encumbrance",
@@ -919,16 +1286,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Recognition system",
-        "full_text_description": "Recognition System (SaV)\nUniversal Upgrade\nEquipment with a recognition system can identify its owner and won't function for anyone else. Fooling a recognition system takes 1 minute and a DC 30 Use Computer check. The owner of gear with this upgrade can deac\u00adtivate it as a free action (before passing a weapon to an unarmed ally, for example); optionally, the recognition system can have a code phrase that allows anyone to deactivate it.",
+        "cost": {
+          "text_original": "200",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 200
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Recognition System (SaV)\nUniversal Upgrade\nEquipment with a recognition system can identify its owner and won't function for anyone else. Fooling a recognition system takes 1 minute and a DC 30 Use Computer check. The owner of gear with this upgrade can deac­tivate it as a free action (before passing a weapon to an unarmed ally, for example); optionally, the recognition system can have a code phrase that allows anyone to deactivate it.",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 200,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Device doesn't work for anyone but owner; owner can disable",
@@ -943,16 +1319,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "41"
+        "page": 41
       },
       {
         "name": "Remote activation",
+        "cost": {
+          "text_original": "100",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 100
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Remote Activation (SaV)\nUniversal Upgrade\nThis upgrade allows a piece of equipment to be activated with a signal from a comlink or similar communications device. Although typically associated with explosives or security systems, remote activation can be used to set a droid to activate, a fusion lantern to flare to life, a computer to start running a program, or a holoprojector to begin a recorded projection. Activating a remote is a swift action, which includes entering the special command code (allowing a single comlink to activate multiple pieces of remote gear, one swift action per item activated).\nThe range of remote activation is determined by the comlink or other communication device used. Any comlink can be used to activate the gear, sending a signal with a specific code along a specific frequency. A character aware of a piece of remotely activated gear can find the necessary frequency and activation code with a DC 30 Use Computer check.",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 100,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Can activate with comlink as swift",
@@ -963,16 +1348,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "41"
+        "page": 41
       },
       {
         "name": "Repulsorlift",
-        "full_text_description": "Repulsorlift (SaV)\nArmor Upgrade\nThis upgrade takes the same kind of hover repulsorlifts used by droids and modifies them to allow the armor to float up to 1 meter off the ground. The wearer can activate or deactivate the repulsorlift as a swift action. While the repulsorlift is operating, the wearer ignores the effects of difficult ter\u00adrain and takes half damage from falls. A repulsorlift operates for 10 rounds on a single energy cell.",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Repulsorlift (SaV)\nArmor Upgrade\nThis upgrade takes the same kind of hover repulsorlifts used by droids and modifies them to allow the armor to float up to 1 meter off the ground. The wearer can activate or deactivate the repulsorlift as a swift action. While the repulsorlift is operating, the wearer ignores the effects of difficult ter­rain and takes half damage from falls. A repulsorlift operates for 10 rounds on a single energy cell.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 1000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Activate as swift; hover 1m off ground; ignore difficult terrain; halve falling damage; energy cell 10 rounds",
@@ -999,16 +1393,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Retractable stock",
+        "cost": {
+          "text_original": "100",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 100
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Retractable Stock (SaV)\nWeapon Upgrade\nAny rifle or pistol (as well as rifle- or pistol-like exotic weapons) can have a retractable stock added. This upgrade requires 1 upgrade point for a pistol, but 0 upgrade points for a rifle. (A rifle already has a stock, which can be replaced with the retractable stock.) The rules for using a retractable stock are detailed on page 125 of the Saga Edition core rulebook.\nCertain weapons come with a retractable stock as a standard feature, as detailed in their descriptions. No upgrade points are spent in this case.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 100,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "any pistol/rifle or pistol-like or rifle-like exotic wpn; See rules on SAGA 125; 0 slots for rifles, 1 for pistols",
@@ -1027,31 +1430,49 @@
           }
         ],
         "source_book": "SV",
-        "page": "44"
+        "page": 44
       },
       {
         "name": "Secret compartment",
-        "full_text_description": "Secret Compartment (SaV)\nUniversal Upgrade\nLike storage capacity (see below), this upgrade allows gear to carry smaller gear within it. However, the gear carried in a secret compartment is con\u00adcealed. It takes a DC 30 Perception check to notice the compartment when it is used, and a DC 25 Perception check to find it with a close, hands-on examination. Equipment with a secret compartment upgrade can hold a single item one size smaller than the equipment itself. (This is actual size, not weapon size; see \"Equipment Sizes\"\" on page 38.) Thus",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Secret Compartment (SaV)\nUniversal Upgrade\nLike storage capacity (see below), this upgrade allows gear to carry smaller gear within it. However, the gear carried in a secret compartment is con­cealed. It takes a DC 30 Perception check to notice the compartment when it is used, and a DC 25 Perception check to find it with a close, hands-on examination. Equipment with a secret compartment upgrade can hold a single item one size smaller than the equipment itself. (This is actual size, not weapon size; see \"Equipment Sizes\"\" on page 38.) Thus",
         "accessory_type_code": "a blaster pistol (Small weapon",
         "accessory_type_description": "Unknown Type (a blaster pistol (Small weapon)",
         "upgrade_points_cost_text": null,
         "availability": null,
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "41"
+        "page": 41
       },
       {
         "name": "Shadowskin",
+        "cost": {
+          "text_original": "5000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 5000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Shadowskin (SaV)\nArmor Upgrade\nA matte black finish of light- and sensor-absorbing material, a shadowskin turns any armor coated with it into a stealth suit. Normally coupled with a sound dampener (included in this modification cost), it is difficult to see, hear or detect the armor with sensors. Armor with shadowskin grants a +5 equipment bonus on all Stealth checks made by the wearer.\nA more advanced version of shadowskin uses the material reflec, which was developed by the Grand Army of the Republic and later used by various Imperial special forces units. Reflec is more effective but also more expensive than normal shadowskin. A suit of armor with reflec shadowskin adds a +10 equipment bonus on its wearer's Stealth checks.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Restricted",
-        "cost_credits": 5000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "+5 equipment to Stealth",
@@ -1064,16 +1485,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Shadowskin, reflec",
+        "cost": {
+          "text_original": "20000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 20000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Shadowskin (SaV)\nArmor Upgrade\nA matte black finish of light- and sensor-absorbing material, a shadowskin turns any armor coated with it into a stealth suit. Normally coupled with a sound dampener (included in this modification cost), it is difficult to see, hear or detect the armor with sensors. Armor with shadowskin grants a +5 equipment bonus on all Stealth checks made by the wearer.\nA more advanced version of shadowskin uses the material reflec, which was developed by the Grand Army of the Republic and later used by various Imperial special forces units. Reflec is more effective but also more expensive than normal shadowskin. A suit of armor with reflec shadowskin adds a +10 equipment bonus on its wearer's Stealth checks.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 20000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "+10 equipment to Stealth",
@@ -1086,16 +1516,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Shield generator, SR 10",
+        "cost": {
+          "text_original": "10000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 10000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Shield Generator (SaV)\nArmor Upgrade\nA deflector shield generator can be built into a suit of medium or heavy armor, giving it the same kind of protection starships and some battle droids enjoy. Due to their bulk and power requirements, it is not possible to install anything but the smallest of generators into a suit of armor; in fact, only heavy armor of at least Medium size can carry a shield generator with SR 10.\nShield generators operate for 10 rounds on a standard energy cell. (Suits of armor with shield generators commonly have the Internal Generator upgrade; see above.) Turning a shield generator on or off is a swift action. When active, reduce the damage you take by the armor's shield rating. If the damage is equal to or greater than the armor's shield rating, the shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the wearer can make a DC 20 Mechanics check to restore lost shield power. If the check succeeds, the armor's shield rating increases by 5 points (up to its maximum shield rating).",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 10000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As SR 5, but SR 10",
@@ -1106,16 +1545,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Shield generator, SR 5",
+        "cost": {
+          "text_original": "5000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 5000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Shield Generator (SaV)\nArmor Upgrade\nA deflector shield generator can be built into a suit of medium or heavy armor, giving it the same kind of protection starships and some battle droids enjoy. Due to their bulk and power requirements, it is not possible to install anything but the smallest of generators into a suit of armor; in fact, only heavy armor of at least Medium size can carry a shield generator with SR 10.\nShield generators operate for 10 rounds on a standard energy cell. (Suits of armor with shield generators commonly have the Internal Generator upgrade; see above.) Turning a shield generator on or off is a swift action. When active, reduce the damage you take by the armor's shield rating. If the damage is equal to or greater than the armor's shield rating, the shield rating is reduced by 5. By spending three swift actions on the same or consecutive rounds, the wearer can make a DC 20 Mechanics check to restore lost shield power. If the check succeeds, the armor's shield rating increases by 5 points (up to its maximum shield rating).",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Restricted",
-        "cost_credits": 5000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Swift to activate; gain SR 5; DC 20 Mechanics and three swifts to restore 5 SR; energy cell 10 rounds",
@@ -1138,16 +1586,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Shockweb",
-        "full_text_description": "Shockweb (SaV)\nArmor Upgrade\nA shockweb is a powerful electrified stun field that can encase the entire surface of the armor. It runs off an energy cell, which can power it for 20 minutes. Turning the shockweb on or off is a swift action. While the shock\u00adweb is active, any time you are the target of a successful melee attack, grab attack, or grapple attack, the attacker takes 1d6 electrical damage and 2d6 electrical stun damage. Each time an attacker is damaged in this way, the shockweb discharges 1 minute of duration off its energy cell.",
+        "cost": {
+          "text_original": "6000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 6000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Shockweb (SaV)\nArmor Upgrade\nA shockweb is a powerful electrified stun field that can encase the entire surface of the armor. It runs off an energy cell, which can power it for 20 minutes. Turning the shockweb on or off is a swift action. While the shock­web is active, any time you are the target of a successful melee attack, grab attack, or grapple attack, the attacker takes 1d6 electrical damage and 2d6 electrical stun damage. Each time an attacker is damaged in this way, the shockweb discharges 1 minute of duration off its energy cell.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Military",
-        "cost_credits": 6000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "When hit with melee, grab, or grapple, attacker takes 1d6 electrical and 2d6 electrical stun; energy cell 20 minutes; discharge takes 1 minute off duration",
@@ -1166,16 +1623,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Silverplate",
+        "cost": {
+          "text_original": "2500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 2500
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Silverplate (SaV)\nUniversal Upgrade\nSilverplate is a special chroming process that adds a layer of tough composite material (often dallorian alloy) across the surface of any piece of gear. In addition to looking stylish, this gives the gear +2 DR (maximum 20). Armor with silverplate does not grant its DR to its wearer, but does gain it against attacks directed specifically at the armor. If you have the Quick Draw feat, you may draw the item as a free action once per turn.",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 2500,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Item gets +2 DR for itself",
@@ -1186,16 +1652,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "42"
+        "page": 42
       },
       {
         "name": "Slinker",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Slinker (SaV)\nWeapon Upgrade\nOnly slugthrowers and missile weapons can be upgraded as slinkers. Once a weapon is made a slinker, it can no longer fire normal ammunition (and slinker ammunition costs twice the normal price). Slinkers are equipped with simple sensors and battle computers, and programmed to fly around obstacles or even around corners to strike a target.\nIf a slinker is fired at a target with cover (but not total cover), the target does not gain the normal +5 cover bonus to its Reflex Defense. If an attacker wants to fire a slinker at a target with total cover (where the attacker cannot see, such as around a corner), the attacker selects a specific target square outside his line of sight and makes an attack with a +0 bonus against anything in that square. (This tactic is effective with area attacks, which can strike close enough to do damage even when poorly aimed). The path from the attacker to the target square cannot have more than a single turn (maximum 90 degrees).",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Licensed",
-        "cost_credits": 1000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Slugthrowers and missile weapons only; Ignores cover; can fire at total cover at +0 mod",
@@ -1214,31 +1689,49 @@
           }
         ],
         "source_book": "SV",
-        "page": "44"
+        "page": 44
       },
       {
         "name": "Sniper switch",
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Sniper Switch (SaV)\nWeapon Upgrade\nA sniper switch allows a weapon that can normally be fired only in autofire mode (such as an E-Web repeating blaster) to be used in single-fire mode. However, the weapon no longer has reduced autofire penalties when braced because it is no longer an autofire-only weapon (see \"Autofire\"\" on page 156 of the Saga Edition core rulebook). Switching between the two firing modes is a swift action.",
         "accessory_type_code": null,
         "accessory_type_description": "Unknown",
         "upgrade_points_cost_text": null,
         "availability": null,
-        "cost_credits": null,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "SV",
-        "page": "44"
+        "page": 44
       },
       {
         "name": "Storage capacity",
-        "full_text_description": "Storage Capacity (SaV)\nUniversal Upgrade\nThis upgrade allows gear to carry smaller gear within or on it, in an obvi\u00adous compartment. Equipment with the storage capacity upgrade can hold multiple items at least one size smaller than the equipment itself, as long as their total weight is less than the equipment with storage capacity. Thus, a blaster rifle (Medium weapon, Tiny object, 4.5 kg) with storage capacity might hold eight frag grenades (Fine object, 0.5 kg) and five power packs (Fine object, 0.1 kg) securely in external straps and pouches.",
+        "cost": {
+          "text_original": "100",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 100
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Storage Capacity (SaV)\nUniversal Upgrade\nThis upgrade allows gear to carry smaller gear within or on it, in an obvi­ous compartment. Equipment with the storage capacity upgrade can hold multiple items at least one size smaller than the equipment itself, as long as their total weight is less than the equipment with storage capacity. Thus, a blaster rifle (Medium weapon, Tiny object, 4.5 kg) with storage capacity might hold eight frag grenades (Fine object, 0.5 kg) and five power packs (Fine object, 0.1 kg) securely in external straps and pouches.",
         "accessory_type_code": "Any",
         "accessory_type_description": "Universal Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 100,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "Can hold any number of items smaller than gear size up to gear's weight",
@@ -1249,16 +1742,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "42"
+        "page": 42
       },
       {
         "name": "Targeting scope",
+        "cost": {
+          "text_original": "100",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 100
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Targeting Scope (SaV)\nWeapon Upgrade\nA targeting scope is a sighting device that makes it easier to hit distant targets. However, it affords a very limited field of view, making it difficult to use. Installing a targeting scope on a rifle or pistol requires 10 minutes and a DC 10 Mechanics check.\nStandard: A standard targeting scope reduces the range by one category (for example, from medium to short range). However, you must aim at your target to gain this benefit, and you lose the benefit if you change targets or lose line of sight to your target (see Aim, page 154). \nEnhanced Low-Light: A low-light targeting scope functions the same as a standard targeting scope in normal light. However, after aiming at a target, it allows the wielder to ignore concealment (but not total concealment) from darkness when attacking that target.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 100,
         "weight_text": "0.2",
         "weight_kg": 0.2,
         "comments_and_effects_text": "Reduces range by one category, must aim. Does not add Point Blank Shot feat bonuses beyond point blank",
@@ -1269,16 +1771,25 @@
           }
         ],
         "source_book": "CR",
-        "page": "140"
+        "page": 140
       },
       {
         "name": "Targeting scope, low-light",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Targeting Scope (SaV)\nWeapon Upgrade\nA targeting scope is a sighting device that makes it easier to hit distant targets. However, it affords a very limited field of view, making it difficult to use. Installing a targeting scope on a rifle or pistol requires 10 minutes and a DC 10 Mechanics check.\nStandard: A standard targeting scope reduces the range by one category (for example, from medium to short range). However, you must aim at your target to gain this benefit, and you lose the benefit if you change targets or lose line of sight to your target (see Aim, page 154). \nEnhanced Low-Light: A low-light targeting scope functions the same as a standard targeting scope in normal light. However, after aiming at a target, it allows the wielder to ignore concealment (but not total concealment) from darkness when attacking that target.",
         "accessory_type_code": "R",
         "accessory_type_description": "Weapon Upgrade (Ranged)",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 1000,
         "weight_text": "1.2",
         "weight_kg": 1.2,
         "comments_and_effects_text": "Low-light ignores concealment, reduces range by one category, must aim. Does not add Point Blank Shot feat bonuses beyond point blank",
@@ -1289,16 +1800,25 @@
           }
         ],
         "source_book": "CR",
-        "page": "140"
+        "page": 140
       },
       {
         "name": "Trapped grip",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Trapped Grip (JATM)\nLightsaber Upgrade\nA trapped grip requires the wielder to perform some free action (usually pressing down on a hidden sensor, twisting a nondescript knob, or some other mundane task) before activating the lightsaber safely. If the wielder does not perform this task at the time the weapon activates, the wielder takes 1d6 points of energy damage, and again at the start of his or her turn until the trap is deactivated. Deactivating the trap is a free action that is performed as a part of activating the weapon, and a DC 20 Perception check can reveal the trap mechanism and the disarming action.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "action needed to activate or 1d6 energy dam, DC 20 Perception to reveal trap",
@@ -1309,16 +1829,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Tremor cell",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Tremor Cell (KotORCG)\nWeapon Upgrade\nAn advanced melee weapon or a melee exotic weapon that requires a power pack can be augmented by a tremor cell accessory, allowing the wielder to subdue rather than kill an opponent by dazing it. A weapon with a tremor cell can be set to stun as a swift action, and does stun damage equal to its normal damage. Weapons larger than Medium cannot be fitted with this accessory.",
         "accessory_type_code": "M",
         "accessory_type_description": "Weapon Upgrade (Melee)",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 1000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "advanced melee or melee exotic wpns that require power pack; wpn size medium or smaller; can set stun as swif & does stun dam = to normal dam",
@@ -1337,16 +1866,25 @@
           }
         ],
         "source_book": "K",
-        "page": "76"
+        "page": 76
       },
       {
         "name": "Vacuum seals",
+        "cost": {
+          "text_original": "2000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 2000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Vacuum Seals (SaV)\nArmor Upgrade\nAny armor can be upgraded with vacuum seals, which include airtight gaskets around all joints and simple life support equipment that adds 2 kg of weight. This allows the armor's wearer to survive for 10 hours in the vacuum of space or any other hostile environment. Medium and heavy armor can have improved life support that lasts up to 24 hours, adding 10 kg of weight.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 2000,
         "weight_text": "2",
         "weight_kg": 2,
         "comments_and_effects_text": "+2 kg; 10 hours life support",
@@ -1361,16 +1899,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Vacuum seals, advanced",
+        "cost": {
+          "text_original": "5000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 5000
+            }
+          ],
+          "selection_logic": null
+        },
         "full_text_description": "Vacuum Seals (SaV)\nArmor Upgrade\nAny armor can be upgraded with vacuum seals, which include airtight gaskets around all joints and simple life support equipment that adds 2 kg of weight. This allows the armor's wearer to survive for 10 hours in the vacuum of space or any other hostile environment. Medium and heavy armor can have improved life support that lasts up to 24 hours, adding 10 kg of weight.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Common",
-        "cost_credits": 5000,
         "weight_text": "10",
         "weight_kg": 10,
         "comments_and_effects_text": "+10 kg; 24 hours life support",
@@ -1385,16 +1932,25 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
+        "page": 47
       },
       {
         "name": "Waterproof casing",
-        "full_text_description": "Waterproof Casing (JATM)\nLightsaber Upgrade\nFavored by aquatic lightsaber-users , waterproof casing allows a light\u00adsaber to function normally underwater. Without this modification, a lightsaber submerged in water shorts out and must be repaired (taking 1 minute of work) before it will activate.",
+        "cost": {
+          "text_original": "0",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 0
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Waterproof Casing (JATM)\nLightsaber Upgrade\nFavored by aquatic lightsaber-users , waterproof casing allows a light­saber to function normally underwater. Without this modification, a lightsaber submerged in water shorts out and must be repaired (taking 1 minute of work) before it will activate.",
         "accessory_type_code": "L",
         "accessory_type_description": "Lightsaber Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "",
-        "cost_credits": 0,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "functions underwater or must be repaired for 1 minute",
@@ -1405,16 +1961,25 @@
           }
         ],
         "source_book": "J",
-        "page": "60"
+        "page": 60
       },
       {
         "name": "Weapon mount",
-        "full_text_description": "Weapon Mounts (SaV)\nArmor Upgrade\nArmor can add any equipment using the Integrated Equipment upgrade (see above), but dedicated weapon mounts allow weapons to be added more efficiently. The number of weapon mounts gained for each upgrade slot spent is a function of the class of armor upgraded: Light armor gains 2 weapon mounts, medium armor gains 3 mounts, and heavy armor gains 4 mounts.\nA two-handed weapon requires 2 mounts, a one-handed weapon requires 1 mount, and a light weapon requires only half of a mount. You must be proficient with both the weapon and the armor on which is it mounted to be considered proficient with a mounted weapon. (Any weapon described as gloves or gauntlets, such as combat gloves, can be worn with armor without a weapon mount, but only one such weapon can be worn at a time.)\nThis upgrade does not include the cost of the weapons to be mounted. Such weapons are designed only for mount use, and can't be fired as hand-held weapons. It takes 10 minutes and a DC 10 Mechanics check to change weapons in a mount. A mounted weapon can't be disarmed, and it need not be drawn to be used. Weapons in mounts are obvious unless the weapon mount is con\u00adcealed (multiply upgrade cost by 3), in which case it takes a DC 25 Perception check to notice the weapon when it is not in use. A mounted weapon does not gain any benefit from the armor if the weapon takes damage.\nIf an autonomous weapon (see above) is mounted to a suit of armor, it is automatically considered seated (and thus can make attacks while the armor's wearer takes other actions). However, autonomous weapons can distract and unbalance the wearer due to their recoil, though heavier armors are better at absorbing this shock. For every autonomous mounted weapon that has made an attack within the last round (that is, since wearer's last turn), the wearer must spend a swift action to regain balance; furthermore, the wearer takes a penalty on all attack rolls and Dexterity- or Strength-based skill checks determined by the class of armor worn: light -10, medium -5, heavy -2.",
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
+        "full_text_description": "Weapon Mounts (SaV)\nArmor Upgrade\nArmor can add any equipment using the Integrated Equipment upgrade (see above), but dedicated weapon mounts allow weapons to be added more efficiently. The number of weapon mounts gained for each upgrade slot spent is a function of the class of armor upgraded: Light armor gains 2 weapon mounts, medium armor gains 3 mounts, and heavy armor gains 4 mounts.\nA two-handed weapon requires 2 mounts, a one-handed weapon requires 1 mount, and a light weapon requires only half of a mount. You must be proficient with both the weapon and the armor on which is it mounted to be considered proficient with a mounted weapon. (Any weapon described as gloves or gauntlets, such as combat gloves, can be worn with armor without a weapon mount, but only one such weapon can be worn at a time.)\nThis upgrade does not include the cost of the weapons to be mounted. Such weapons are designed only for mount use, and can't be fired as hand-held weapons. It takes 10 minutes and a DC 10 Mechanics check to change weapons in a mount. A mounted weapon can't be disarmed, and it need not be drawn to be used. Weapons in mounts are obvious unless the weapon mount is con­cealed (multiply upgrade cost by 3), in which case it takes a DC 25 Perception check to notice the weapon when it is not in use. A mounted weapon does not gain any benefit from the armor if the weapon takes damage.\nIf an autonomous weapon (see above) is mounted to a suit of armor, it is automatically considered seated (and thus can make attacks while the armor's wearer takes other actions). However, autonomous weapons can distract and unbalance the wearer due to their recoil, though heavier armors are better at absorbing this shock. For every autonomous mounted weapon that has made an attack within the last round (that is, since wearer's last turn), the wearer must spend a swift action to regain balance; furthermore, the wearer takes a penalty on all attack rolls and Dexterity- or Strength-based skill checks determined by the class of armor worn: light -10, medium -5, heavy -2.",
         "accessory_type_code": "A",
         "accessory_type_description": "Armor Upgrade",
         "upgrade_points_cost_text": null,
         "availability": "Restricted",
-        "cost_credits": 1000,
         "weight_text": null,
         "weight_kg": null,
         "comments_and_effects_text": "As integrated equipment, but for weapons; light gains 2 slots, medium 3, heavy 4 two-handed weapon is 2 slots, one-handed 1, light 1/2",
@@ -1429,112 +1994,7 @@
           }
         ],
         "source_book": "SV",
-        "page": "47"
-      },
-      {
-        "name": "and each is replaced at the normal cost.",
-        "full_text_description": null,
-        "accessory_type_code": null,
-        "accessory_type_description": "Unknown",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "Any equipment that runs on energy cells or power packs can be modified to have two such power sources",
-        "page": "doubling the duration the device will function (or the number of shots a weapon can make before being recharged). It's pos\u00adsible to make this modification more than once"
-      },
-      {
-        "name": "and exotic ranged weapons that deal energy damage",
-        "full_text_description": "the beam splitter accessory makes it easier to fire a powerful energy bolt by increasing the size of the bolt fired. Once per encounter",
-        "accessory_type_code": "the wielder of a weapon with a beam splitter that uses the Power Blast feat to modify an attack roll deals 2 points of damage for every 1 point subtracted from the attack bonus.",
-        "accessory_type_description": "Unknown Type (the wielder of a weapon with a beam splitter that uses the Power Blast feat to modify an attack roll deals 2 points of damage for every 1 point subtracted from the attack bonus.)",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "A modification made only to pistols",
-        "page": "rifles"
-      },
-      {
-        "name": "as the user desires. Normally",
-        "full_text_description": "such equipment can't act as both pieces of equipment at once. You must pay the full price for the piece of equipment being added to the primary object as dual gear.",
-        "accessory_type_code": null,
-        "accessory_type_description": "Unknown",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "One piece of equipment can be built into another as an upgrade",
-        "page": "but it is impossible to place a larger piece of gear into a smaller piece-you can't cram a blaster cannon into a lightsaber. Dual gear can act as either piece of component gear without penalty. For example"
-      },
-      {
-        "name": "but no score can be reduced to less than 1. (This is actual size",
-        "full_text_description": "not weapon size; see \"\"Equipment Sizes\"\" on page 38). Apply all modifiers to the statistics for the object's size as normal. The droid is automatically considered to have (and be proficient with) the equipment it is built out of",
-        "accessory_type_code": "and although it does not automatically gain any skills needed to use itself as equipment",
-        "accessory_type_description": "Unknown Type (and although it does not automatically gain any skills needed to use itself as equipment)",
-        "upgrade_points_cost_text": null,
-        "availability": "armor",
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "The droidified equipment uses the statistics of an ASP labor droid with the following modifications determined by the equipment's size: -3 Strength",
-        "page": "+1 Dexterity"
-      },
-      {
-        "name": "claw attack as beast of your size\"",
-        "full_text_description": null,
-        "accessory_type_code": null,
-        "accessory_type_description": "Unknown",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": ",A,1,Common,200,,Gain Climb speed = 1/2 land speed",
-        "page": "reroll Climb take better"
-      },
-      {
-        "name": "grenades",
-        "full_text_description": "thermal detonators",
-        "accessory_type_code": "or other normally explosive devices.",
-        "accessory_type_description": "Unknown Type (or other normally explosive devices.)",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "The overloaded weapon deals energy damage equal to double its normal damage dice; for example",
-        "page": "an overloaded blaster pistol deals 6d6 damage. Once the override switch is used"
-      },
-      {
-        "name": "you are proficient with any climbing claws installed on it.",
-        "full_text_description": null,
-        "accessory_type_code": null,
-        "accessory_type_description": "Unknown",
-        "upgrade_points_cost_text": null,
-        "availability": null,
-        "cost_credits": null,
-        "weight_text": null,
-        "weight_kg": null,
-        "comments_and_effects_text": null,
-        "parsed_effects": [],
-        "source_book": "The wearer can use climbing claws to attack foes in melee. They count as being weapons two sizes smaller than the wearer",
-        "page": "and they deal slashing damage equal to the base claw damage for a beast of that size (see page 274 of the Saga Edition core rulebook). For example"
+        "page": 47
       }
     ]
   }

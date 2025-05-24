@@ -1,0 +1,199 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Tech Specialist Upgrades",
+  "description": "Schema for Tech Specialist Upgrade items in the Star Wars SAGA Edition dataset.",
+  "type": "object",
+  "properties": {
+    "tech_specialist_upgrades_data": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Description of this data compilation."
+        },
+        "tech_specialist_upgrades_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/tech_upgrade_item"
+          }
+        }
+      },
+      "required": ["description", "tech_specialist_upgrades_list"]
+    }
+  },
+  "required": ["tech_specialist_upgrades_data"],
+  "definitions": {
+    "cost_option": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The type of cost component.",
+          "enum": [
+            "fixed_amount",
+            "percentage_of_item_value",
+            "set_to_percentage_of_base",
+            "base_item_multiplier",
+            "additive_amount",
+            "subtractive_amount",
+            "percentage_delta",
+            "set_to_used_price",
+            "text_description"
+          ]
+        },
+        "value": {
+          "type": ["number", "null"],
+          "description": "The numeric value associated with the cost component."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Textual description if the component is purely text."
+        }
+      },
+      "required": ["type"]
+    },
+    "cost_object": {
+      "type": "object",
+      "description": "Structured cost information for the item.",
+      "properties": {
+        "text_original": {
+          "type": ["string", "null"],
+          "description": "The original cost string from the CSV."
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of parsed cost components or options.",
+          "items": { "$ref": "#/definitions/cost_option" }
+        },
+        "selection_logic": {
+          "type": ["string", "null"],
+          "description": "Logic for choosing among options if multiple exist.",
+          "enum": [null, "whichever_is_more", "whichever_is_less", "player_choice"]
+        }
+      },
+      "required": ["text_original", "options"]
+    },
+    "prerequisite_entry": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type of prerequisite (e.g., feat, skill_rank, ability_score, other).",
+          "enum": [
+            "ability_score",
+            "base_attack_bonus",
+            "skill_trained",
+            "skill_rank",
+            "talent_prerequisite",
+            "class_level",
+            "character_level",
+            "restriction_feat",
+            "feat_or_ability",
+            "other"
+          ]
+        },
+        "text_description": {
+          "type": "string",
+          "description": "The original text segment for this prerequisite."
+        },
+        "ability": { "type": ["string", "null"] },
+        "value": { "type": ["integer", "string", "null"] },
+        "skill_name": { "type": ["string", "null"] },
+        "ranks": { "type": ["integer", "null"] },
+        "name": { "type": ["string", "null"], "description": "Name of the feat, talent, etc." },
+        "talent_name": { "type": ["string", "null"] },
+        "required_class": { "type": ["string", "null"] },
+        "required_talent_tree": { "type": ["string", "null"] },
+        "class_name": { "type": ["string", "null"] },
+        "level": { "type": ["integer", "null"] },
+        "restriction": { "type": ["string", "null"], "enum": [null, "cannot_have"] }
+      },
+      "required": ["type", "text_description"]
+    },
+    "effect_tier": {
+      "type": "object",
+      "properties": {
+        "dc": { "type": "integer" },
+        "description": { "type": "string" },
+        "structured_effects": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/effect_entry" }
+        }
+      },
+      "required": ["dc", "description", "structured_effects"]
+    },
+    "effect_entry": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type of game effect.",
+          "enum": [
+            "generic_modifier",
+            "bonus",
+            "penalty",
+            "damage_modifier",
+            "speed_modifier",
+            "condition_track_change",
+            "hit_points_modifier",
+            "feat_grant",
+            "damage_reduction",
+            "natural_weapon",
+            "reroll",
+            "class_skill_grant",
+            "special_action_activation",
+            "immunity",
+            "dc_progression",
+            "narrative_only"
+          ]
+        },
+        "summary": { "type": ["string", "null"], "description": "Summary for narrative_only effects." },
+        "action_verb": { "type": ["string", "null"] },
+        "value_description": { "type": ["string", "null"] },
+        "numeric_value_approx": { "type": ["number", "null"] },
+        "bonus_or_penalty_type": { "type": ["string", "null"] },
+        "target_description": { "type": ["string", "null"] },
+        "feat_name": { "type": ["string", "null"] },
+        "value": { "type": ["integer", "string", "null"] },
+        "weapon_name": { "type": ["string", "null"] },
+        "damage_dice": { "type": ["string", "null"] },
+        "damage_type": { "type": ["string", "null"] },
+        "check_type": { "type": ["string", "null"] },
+        "condition_text": { "type": ["string", "null"] },
+        "condition_logic": { "type": ["string", "null"] },
+        "skill_name": { "type": ["string", "null"] },
+        "frequency": { "type": ["string", "null"] },
+        "action_cost": { "type": ["string", "null"] },
+        "immune_to": { "type": ["string", "null"] },
+        "check_skill_or_ability": { "type": ["string", "null"] },
+        "progression_rule": { "type": ["string", "null"] },
+        "tiers": { "type": "array", "items": { "$ref": "#/definitions/effect_tier" } },
+        "full_progression_text": { "type": ["string", "null"] }
+      },
+      "required": ["type"]
+    },
+    "tech_upgrade_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the Tech Specialist Upgrade (from TRAIT column)." },
+        "target_item_type": { "type": ["string", "null"], "description": "Type of item this upgrade applies to (e.g., Armor, Device)." },
+        "cost": { "$ref": "#/definitions/cost_object" },
+        "prerequisites_text": { "type": ["string", "null"], "description": "Raw prerequisite text from the 'Feat' column." },
+        "prerequisites_structured": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/prerequisite_entry" },
+          "description": "Structured list of prerequisites."
+        },
+        "effect_description": { "type": ["string", "null"], "description": "Full effect description from the 'COMMENTS' column." },
+        "structured_effects": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/effect_entry" },
+          "description": "Structured list of game effects from the 'COMMENTS' column."
+        },
+        "source_book": { "type": "string" },
+        "page": { "type": "integer" }
+      },
+      "required": ["name", "cost", "effect_description", "source_book", "page"]
+    }
+  }
+}

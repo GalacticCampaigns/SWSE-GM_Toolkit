@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Templates",
+  "description": "Schema for templates that modify base items or characters in Star Wars SAGA Edition.",
+  "type": "object",
+  "properties": {
+    "templates_data": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Description of this data compilation."
+        },
+        "templates_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/template_item"
+          }
+        }
+      },
+      "required": ["description", "templates_list"]
+    }
+  },
+  "required": ["templates_data"],
+  "definitions": {
+    "cost_option": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The type of cost component.",
+          "enum": [
+            "fixed_amount",
+            "percentage_of_item_value",
+            "set_to_percentage_of_base",
+            "base_item_multiplier",
+            "additive_amount",
+            "subtractive_amount",
+            "percentage_delta",
+            "set_to_used_price",
+            "text_description"
+          ]
+        },
+        "value": {
+          "type": ["number", "null"],
+          "description": "The numeric value associated with the cost component."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Textual description if the component is purely text."
+        }
+      },
+      "required": ["type"]
+    },
+    "cost_modification_object": {
+      "type": "object",
+      "description": "Structured cost modification information for the template.",
+      "properties": {
+        "text_original": {
+          "type": ["string", "null"],
+          "description": "The original price/cost modification string from the CSV."
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of parsed cost modification components or options.",
+          "items": { "$ref": "#/definitions/cost_option" }
+        },
+        "selection_logic": {
+          "type": ["string", "null"],
+          "description": "Logic for choosing among options if multiple exist.",
+          "enum": [null, "whichever_is_more", "whichever_is_less", "player_choice"]
+        }
+      },
+      "required": ["text_original", "options"]
+    },
+    "availability_modification": {
+        "type": "object",
+        "properties": {
+            "text_original": {"type": ["string", "null"]},
+            "set_to": {"type": ["string", "null"], "description": "If the template sets a specific availability."},
+            "adds_trait": {"type": ["string", "null"], "description": "If the template adds an availability trait (e.g., Rare)."}
+        },
+        "required": ["text_original"]
+    },
+    "structured_modification_entry": {
+        "type": "object",
+        "description": "A single structured modification provided by the template.",
+        "properties": {
+            "target_stat": {"type": "string", "description": "The game statistic being modified (e.g., CL, Hit Points, SR, Dexterity, Weapon Damage, Repairs DC)."},
+            "change_type": {
+                "type": "string",
+                "enum": [
+                    "set_to_percentage_of_base",
+                    "increase_by_percentage",
+                    "decrease_by_percentage",
+                    "increase_by_fixed",
+                    "decrease_by_fixed",
+                    "set_to_fixed",
+                    "increase_dice_count",
+                    "increase_by_size_scale",
+                    "modify_dc",
+                    "text_rule" 
+                ]
+            },
+            "value": {"type": ["number", "string", "null"], "description": "The value of the modification (e.g., 1.25, 0.25, 4, 1, 5)."},
+            "value_scale": {
+                "type": "object",
+                "description": "For size-based scaling modifications, mapping size to value.",
+                "additionalProperties": {"type": "number"}
+            },
+            "condition": {"type": ["string", "null"], "description": "Any conditions under which this modification applies."},
+            "notes": {"type": ["string", "null"], "description": "Additional notes like 'round up'."},
+            "skill": {"type": ["string", "null"], "description": "Skill related to a DC modification."}
+        },
+        "required": ["target_stat", "change_type"]
+    },
+    "template_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the template." },
+        "applies_to_type": { "type": ["string", "null"], "description": "Type of entity the template applies to (e.g., Vehicle, Weapon, Droid)." },
+        "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text of the template from the 'Desc.' column." },
+        "modifications_summary_text": { "type": ["string", "null"], "description": "Concise summary of effects from the 'EFFECT' column." },
+        "cost_modification": { "$ref": "#/definitions/cost_modification_object" },
+        "availability_modification": { "$ref": "#/definitions/availability_modification" },
+        "structured_modifications": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/structured_modification_entry" },
+          "description": "Parsed mechanical changes from the 'EFFECT' summary or 'Desc.' column."
+        },
+        "source_book": { "type": "string" },
+        "page": { "type": "integer" }
+      },
+      "required": ["name", "full_text_description", "source_book", "page"]
+    }
+  }
+}

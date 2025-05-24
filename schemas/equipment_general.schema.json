@@ -1,16 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "SAGA Edition General Equipment",
-  "description": "Schema for Star Wars SAGA Edition general equipment items.",
+  "description": "Schema for general equipment items in the Star Wars SAGA Edition dataset.",
   "type": "object",
   "properties": {
     "general_equipment_data": {
       "type": "object",
       "properties": {
-        "description": { "type": "string" },
+        "description": {
+          "type": "string",
+          "description": "Description of this data compilation."
+        },
         "general_equipment_list": {
           "type": "array",
-          "items": { "$ref": "#/definitions/equipmentItem" }
+          "items": {
+            "$ref": "#/definitions/equipment_item"
+          }
         }
       },
       "required": ["description", "general_equipment_list"]
@@ -18,32 +23,100 @@
   },
   "required": ["general_equipment_data"],
   "definitions": {
-    "equipmentItem": {
+    "cost_option": {
       "type": "object",
       "properties": {
-        "name": { "type": "string" },
-        "full_text_description": { "type": ["string", "null"] },
-        "equipment_category_code": { "type": "string", "description": "Raw code from 'TYPE' column." },
-        "equipment_category_description": { "type": "string", "description": "Parsed description of the equipment type." },
-        "cost_credits": { "type": ["integer", "string", "null"] },
-        "weight_kg": { "type": ["number", "string", "null"] },
-        "uses_text": { "type": ["string", "null"] },
-        "use_cost_text": { "type": ["string", "null"] },
-        "comments_and_effects_text": { "type": ["string", "null"] },
-        "parsed_effects": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
-        "source_book": { "type": "string" },
-        "page": { "type": "string" }
+        "type": {
+          "type": "string",
+          "description": "The type of cost component.",
+          "enum": [
+            "fixed_amount",
+            "percentage_of_item_value",
+            "set_to_percentage_of_base",
+            "base_item_multiplier",
+            "additive_amount",
+            "subtractive_amount",
+            "percentage_delta",
+            "set_to_used_price",
+            "text_description"
+          ]
+        },
+        "value": {
+          "type": ["number", "null"],
+          "description": "The numeric value associated with the cost component."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Textual description if the component is purely text."
+        }
       },
-      "required": ["name", "equipment_category_description", "source_book", "page"]
+      "required": ["type"]
     },
-    "itemPropertyEffect": {
-      "type": "object", "description": "A structured item property.",
+    "cost_object": {
+      "type": "object",
+      "description": "Structured cost information for the item.",
       "properties": {
-        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
-        "description": { "type": "string" },
-        "value": { "type": ["integer", "null"] },
-        "target": { "type": ["string", "null"] }
-      }, "required": ["type", "description"]
+        "text_original": {
+          "type": ["string", "null"],
+          "description": "The original cost string from the CSV."
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of parsed cost components or options.",
+          "items": { "$ref": "#/definitions/cost_option" }
+        },
+        "selection_logic": {
+          "type": ["string", "null"],
+          "description": "Logic for choosing among options if multiple exist.",
+          "enum": [null, "whichever_is_more", "whichever_is_less", "player_choice"]
+        }
+      },
+      "required": ["text_original", "options"]
+    },
+    "parsed_effect_item": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["bonus", "narrative_property"], 
+          "description": "Type of parsed effect."
+        },
+        "value": {
+          "type": ["integer", "string", "null"],
+          "description": "Value of the bonus, if applicable."
+        },
+        "target": {
+          "type": ["string", "null"],
+          "description": "Target of the bonus, if applicable."
+        },
+        "description": {
+          "type": "string",
+          "description": "The textual description of the effect."
+        }
+      },
+      "required": ["type", "description"]
+    },
+    "equipment_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the equipment." },
+        "cost": { "$ref": "#/definitions/cost_object" },
+        "full_text_description": { "type": ["string", "null"] },
+        "equipment_category_code": { "type": ["string", "null"], "description": "Raw category code from CSV (e.g., 'TOOL', 'MED')." },
+        "equipment_category_description": { "type": "string", "description": "Parsed description of the equipment category (e.g., Tools, Medical Gear)." },
+        "weight_kg": { "type": ["number", "null"], "description": "Weight in kilograms." },
+        "uses_text": { "type": ["string", "null"], "description": "Information on number of uses, if applicable (e.g., '10', 'Disposable')." },
+        "use_cost_text": { "type": ["string", "null"], "description": "Cost per use, if applicable." },
+        "comments_and_effects_text": { "type": ["string", "null"], "description": "Raw comments or special effects text." },
+        "parsed_effects": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/parsed_effect_item" },
+          "description": "Array of parsed effects from comments."
+        },
+        "source_book": { "type": "string" },
+        "page": { "type": "string", "description": "Page number in the source book (can be a range like '101-102')." }
+      },
+      "required": ["name", "cost", "equipment_category_description", "source_book", "page"]
     }
   }
 }

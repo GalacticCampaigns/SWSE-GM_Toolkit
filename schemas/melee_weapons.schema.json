@@ -1,16 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "SAGA Edition Melee Weapons",
-  "description": "Schema for Star Wars SAGA Edition melee weapons.",
+  "description": "Schema for melee weapon items in the Star Wars SAGA Edition dataset.",
   "type": "object",
   "properties": {
     "melee_weapons_data": {
       "type": "object",
       "properties": {
-        "description": { "type": "string" },
+        "description": {
+          "type": "string",
+          "description": "Description of this data compilation."
+        },
         "melee_weapons_list": {
           "type": "array",
-          "items": { "$ref": "#/definitions/meleeWeapon" }
+          "items": {
+            "$ref": "#/definitions/melee_weapon_item"
+          }
         }
       },
       "required": ["description", "melee_weapons_list"]
@@ -18,54 +23,169 @@
   },
   "required": ["melee_weapons_data"],
   "definitions": {
-    "meleeWeapon": {
+    "cost_option": {
       "type": "object",
       "properties": {
-        "name": { "type": "string" },
-        "full_text_description": { "type": ["string", "null"] },
-        "weapon_category": { "type": "string", "description": "e.g., Simple Melee Weapons, Advanced Melee Weapons, Lightsabers, Exotic Melee Weapons." },
-        "size_category": { "type": "string", "description": "Size of the weapon (e.g., Tiny, Small, Medium, Large)." },
-        "cost_credits": { "type": ["integer", "string", "null"] },
-        "damage_text": { "type": ["string", "null"] },
-        "damage_structured": { "$ref": "#/definitions/damageStructure" },
-        "stun_damage_text": { "type": ["string", "null"] },
-        "stun_damage_structured": { "$ref": "#/definitions/damageStructure" },
-        "weight_kg": { "type": ["number", "string", "null"] },
+        "type": {
+          "type": "string",
+          "description": "The type of cost component.",
+          "enum": [
+            "fixed_amount",
+            "percentage_of_item_value",
+            "set_to_percentage_of_base",
+            "base_item_multiplier",
+            "additive_amount",
+            "subtractive_amount",
+            "percentage_delta",
+            "set_to_used_price",
+            "text_description"
+          ]
+        },
+        "value": {
+          "type": ["number", "null"],
+          "description": "The numeric value associated with the cost component."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Textual description if the component is purely text."
+        }
+      },
+      "required": ["type"]
+    },
+    "cost_object": {
+      "type": "object",
+      "description": "Structured cost information for the item.",
+      "properties": {
+        "text_original": {
+          "type": ["string", "null"],
+          "description": "The original cost string from the CSV."
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of parsed cost components or options.",
+          "items": { "$ref": "#/definitions/cost_option" }
+        },
+        "selection_logic": {
+          "type": ["string", "null"],
+          "description": "Logic for choosing among options if multiple exist.",
+          "enum": [null, "whichever_is_more", "whichever_is_less", "player_choice"]
+        }
+      },
+      "required": ["text_original", "options"]
+    },
+    "damage_component": {
+      "type": "object",
+      "description": "Structured representation of a single damage expression (e.g., 2d8+2).",
+      "properties": {
+        "text_original": {
+          "type": "string",
+          "description": "The original damage string component."
+        },
+        "dice_count": {
+          "type": "integer",
+          "description": "Number of dice."
+        },
+        "die_type": {
+          "type": "integer",
+          "description": "Type of die (e.g., 6 for d6)."
+        },
+        "bonus_modifier": {
+          "type": "integer",
+          "description": "Fixed bonus or penalty to the damage roll."
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Notes if parsing was incomplete."
+        }
+      },
+      "required": ["text_original", "dice_count", "die_type", "bonus_modifier"]
+    },
+    "damage_structured": {
+      "type": "object",
+      "description": "Structured representation of weapon damage, potentially with primary/secondary values.",
+      "properties": {
+        "primary_damage": {
+          "$ref": "#/definitions/damage_component"
+        },
+        "secondary_damage": {
+          "$ref": "#/definitions/damage_component"
+        },
+        "text_original": {
+          "type": "string",
+          "description": "The full original damage string from the CSV (e.g. '2d8' or '1d6/1d8')."
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Notes if parsing was incomplete or complex."
+        }
+      },
+      "anyOf": [
+        { "required": ["primary_damage", "text_original"] },
+        { "required": ["text_original", "notes"] }
+      ]
+    },
+    "parsed_property_item": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["bonus", "narrative_property"],
+          "description": "Type of parsed property."
+        },
+        "value": {
+          "type": ["integer", "string", "null"],
+          "description": "Value of the bonus, if applicable."
+        },
+        "target": {
+          "type": ["string", "null"],
+          "description": "Target of the bonus, if applicable."
+        },
+        "description": {
+          "type": "string",
+          "description": "The textual description of the property or effect."
+        }
+      },
+      "required": ["type", "description"]
+    },
+    "melee_weapon_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the melee weapon." },
+        "cost": { "$ref": "#/definitions/cost_object" },
+        "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text from the source." },
+        "weapon_category": { "type": "string", "description": "Category of the weapon (e.g., Simple Melee Weapons, Lightsabers)." },
+        "size_category": { "type": "string", "description": "Size of the weapon (e.g., Small, Medium, Large)." },
+        "damage_text": { "type": ["string", "null"], "description": "Raw damage string from the CSV." },
+        "damage_structured": { "$ref": "#/definitions/damage_structured" },
+        "stun_damage_text": { "type": ["string", "null"], "description": "Raw stun damage string, if applicable." },
+        "stun_damage_structured": { 
+          "oneOf": [
+            { "$ref": "#/definitions/damage_structured" },
+            { "type": "null" }
+          ],
+          "description": "Structured stun damage, if applicable."
+        },
+        "weight_kg": { "type": ["number", "null"], "description": "Weight of the weapon in kilograms." },
         "damage_types": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "List of damage types (e.g., ['Slashing', 'Energy'])."
+          "description": "List of damage types (e.g., Slashing, Bludgeoning, Energy)."
         },
-        "availability": { "type": "string" },
-        "reach_or_thrown_info": { "type": ["string", "null"] },
-        "extra_cost_note": { "type": ["string", "null"] },
-        "build_dc_note": { "type": ["string", "null"] },
-        "special_properties_text": { "type": ["string", "null"] },
-        "parsed_properties": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
-        "used_by_text": { "type": ["string", "null"] },
-        "source_book": { "type": "string" },
-        "page": { "type": "string" }
+        "availability": { "type": ["string", "null"], "description": "Availability (e.g., Licensed, Military, Rare)." },
+        "reach_or_thrown_info": { "type": ["string", "null"], "description": "Information about reach or thrown properties." },
+        "extra_cost_note": { "type": ["string", "null"], "description": "Notes on extra costs." },
+        "build_dc_note": { "type": ["string", "null"], "description": "Notes on Build DC for crafting." },
+        "special_properties_text": { "type": ["string", "null"], "description": "Raw text of special properties or comments." },
+        "parsed_properties": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/parsed_property_item" },
+          "description": "Array of parsed special properties."
+        },
+        "used_by_text": { "type": ["string", "null"], "description": "Text describing typical users." },
+        "source_book": { "type": "string", "description": "Abbreviation of the source book." },
+        "page": { "type": "integer", "description": "Page number in the source book." }
       },
-      "required": ["name", "weapon_category", "damage_types", "source_book", "page"]
-    },
-    "damageStructure": {
-      "type": "object", "description": "Structured weapon damage.",
-      "properties": {
-        "dice_count": { "type": "integer" }, "die_type": { "type": "integer" },
-        "bonus": { "type": "integer" }, "text": { "type": "string" },
-        "notes": { "type": ["string", "null"] },
-        "primary": { "$ref": "#/definitions/damageStructure" },
-        "secondary": { "$ref": "#/definitions/damageStructure" }
-      }, "required": ["text"]
-    },
-    "itemPropertyEffect": {
-      "type": "object", "description": "A structured item property.",
-      "properties": {
-        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
-        "description": { "type": "string" },
-        "value": { "type": ["integer", "null"] },
-        "target": { "type": ["string", "null"] }
-      }, "required": ["type", "description"]
+      "required": ["name", "cost", "weapon_category", "damage_types", "source_book", "page"]
     }
   }
 }

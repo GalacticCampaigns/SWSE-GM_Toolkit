@@ -1,22 +1,20 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "SAGA Edition Armor",
-  "description": "Schema for Star Wars SAGA Edition armor entries.",
+  "description": "Schema for armor items in the Star Wars SAGA Edition dataset.",
   "type": "object",
   "properties": {
     "armor_data": {
       "type": "object",
-      "description": "Container for the list of armor.",
       "properties": {
         "description": {
           "type": "string",
-          "description": "A general description of this data section."
+          "description": "Description of this data compilation."
         },
         "armor_list": {
           "type": "array",
-          "description": "A list of all armor entries.",
           "items": {
-            "$ref": "#/definitions/armorEntry"
+            "$ref": "#/definitions/armor_item"
           }
         }
       },
@@ -25,47 +23,172 @@
   },
   "required": ["armor_data"],
   "definitions": {
-    "armorEntry": {
+    "cost_option": {
       "type": "object",
-      "description": "Represents a single piece of armor.",
       "properties": {
-        "name": { "type": "string", "description": "The name of the armor." },
-        "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text from the 'Desc.' column." },
-        "armor_category": { "type": "string", "description": "Category of the armor (e.g., Light Armor, Medium Armor, Heavy Armor, Shield)." },
-        "armor_check_penalty": { "type": ["integer", "string", "null"], "description": "Armor Check Penalty (usually a negative number or 0, or original string if unparseable)." },
-        "cost_credits": { "type": ["integer", "string", "null"], "description": "Cost in credits (or original string if unparseable)." },
-        "reflex_defense_bonus": { "type": ["integer", "string", "null"], "description": "Bonus to Reflex Defense (or original string)." },
-        "fortitude_defense_bonus": { "type": ["integer", "string", "null"], "description": "Bonus to Fortitude Defense (or original string)." },
-        "max_dex_bonus": { "type": ["integer", "string", "null"], "description": "Maximum Dexterity bonus allowed by the armor (or original string)." },
-        "speed_penalty_text": { "type": ["string", "null"], "description": "Text describing speed reduction (e.g., '6sq Base: 4, 4sq Base: 3')." },
-        "weight_kg": { "type": ["number", "string", "null"], "description": "Weight in kilograms (or original string)." },
-        "availability": { "type": "string", "description": "Availability (e.g., Licensed, Military, Restricted, Rare)." },
-        "upgrade_slots_text": { "type": ["string", "null"], "description": "Number of upgrade slots as text (e.g., '2', 'None')." },
-        "has_helmet_package": { "type": "boolean", "description": "True if a helmet package is included." },
-        "special_properties_text": { "type": ["string", "null"], "description": "Raw text from the COMMENTS column describing special properties." },
-        "parsed_properties": {
-          "type": "array",
-          "items": { "$ref": "#/definitions/itemPropertyEffect" },
-          "description": "Structured representation of special properties."
+        "type": {
+          "type": "string",
+          "description": "The type of cost component.",
+          "enum": [
+            "fixed_amount",
+            "percentage_of_item_value",
+            "set_to_percentage_of_base",
+            "base_item_multiplier",
+            "additive_amount",
+            "subtractive_amount",
+            "percentage_delta",
+            "set_to_used_price",
+            "text_description"
+          ]
         },
-        "skill_bonuses_text": { "type": ["string", "null"], "description": "Textual description of any skill bonuses." },
-        "ability_bonuses_text": { "type": ["string", "null"], "description": "Textual description of any ability bonuses." },
-        "used_by_text": { "type": ["string", "null"], "description": "Typical users of this armor." },
-        "source_book": { "type": "string", "description": "Sourcebook abbreviation." },
-        "page": { "type": "string", "description": "Page number in the sourcebook." }
+        "value": {
+          "type": ["number", "null"],
+          "description": "The numeric value associated with the cost component."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Textual description if the component is purely text."
+        }
       },
-      "required": ["name", "armor_category", "source_book", "page"]
+      "required": ["type"]
     },
-    "itemPropertyEffect": {
+    "cost_object": {
       "type": "object",
-      "description": "A structured representation of a game mechanical property or effect of an item.",
+      "description": "Structured cost information for the item.",
       "properties": {
-        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
-        "description": { "type": "string" },
-        "value": { "type": ["integer", "null"] },
-        "target": { "type": ["string", "null"] }
+        "text_original": {
+          "type": ["string", "null"],
+          "description": "The original cost string from the CSV."
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of parsed cost components or options.",
+          "items": { "$ref": "#/definitions/cost_option" }
+        },
+        "selection_logic": {
+          "type": ["string", "null"],
+          "description": "Logic for choosing among options if multiple exist.",
+          "enum": [null, "whichever_is_more", "whichever_is_less", "player_choice"]
+        }
+      },
+      "required": ["text_original", "options"]
+    },
+    "parsed_property_item": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["bonus", "narrative_property"],
+          "description": "Type of parsed property."
+        },
+        "value": {
+          "type": ["integer", "string", "null"],
+          "description": "Value of the bonus, if applicable."
+        },
+        "target": {
+          "type": ["string", "null"],
+          "description": "Target of the bonus, if applicable."
+        },
+        "description": {
+          "type": "string",
+          "description": "The textual description of the property or effect."
+        }
       },
       "required": ["type", "description"]
+    },
+    "armor_item": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the armor."
+        },
+        "cost": {
+          "$ref": "#/definitions/cost_object"
+        },
+        "full_text_description": {
+          "type": ["string", "null"],
+          "description": "Full descriptive text from the source."
+        },
+        "armor_category": {
+          "type": "string",
+          "description": "Category of the armor (e.g., Light Armor, Heavy Armor, Shield)."
+        },
+        "armor_check_penalty": {
+          "type": ["integer", "null"],
+          "description": "Armor Check Penalty."
+        },
+        "reflex_defense_bonus": {
+          "type": ["integer", "null"],
+          "description": "Bonus to Reflex Defense provided by the armor."
+        },
+        "fortitude_defense_bonus": {
+          "type": ["integer", "null"],
+          "description": "Bonus to Fortitude Defense provided by the armor (equipment bonus)."
+        },
+        "max_dex_bonus": {
+          "type": ["integer", "null"],
+          "description": "Maximum Dexterity bonus allowed by the armor."
+        },
+        "speed_penalty_text": {
+          "type": ["string", "null"],
+          "description": "Text describing speed penalties (e.g., 6sq Base: 4, 4sq Base: 3)."
+        },
+        "weight_kg": {
+          "type": ["number", "null"],
+          "description": "Weight of the armor in kilograms."
+        },
+        "availability": {
+          "type": ["string", "null"],
+          "description": "Availability of the armor (e.g., Licensed, Military, Rare)."
+        },
+        "upgrade_slots_text": {
+          "type": ["string", "null"],
+          "description": "Number and type of upgrade slots (e.g., '2 (body)', '1')."
+        },
+        "has_helmet_package": {
+          "type": "boolean",
+          "description": "Indicates if the armor includes a helmet package by default."
+        },
+        "special_properties_text": {
+          "type": ["string", "null"],
+          "description": "Raw text of special properties or comments from the CSV."
+        },
+        "parsed_properties": {
+          "type": "array",
+          "description": "Array of parsed special properties or effects.",
+          "items": {
+            "$ref": "#/definitions/parsed_property_item"
+          }
+        },
+        "skill_bonuses_text": {
+          "type": ["string", "null"],
+          "description": "Text describing any skill bonuses."
+        },
+        "ability_bonuses_text": {
+          "type": ["string", "null"],
+          "description": "Text describing any ability score bonuses."
+        },
+        "used_by_text": {
+          "type": ["string", "null"],
+          "description": "Text describing typical users."
+        },
+        "source_book": {
+          "type": "string",
+          "description": "Abbreviation of the source book."
+        },
+        "page": {
+          "type": "integer",
+          "description": "Page number in the source book."
+        }
+      },
+      "required": [
+        "name",
+        "cost",
+        "armor_category",
+        "source_book",
+        "page"
+      ]
     }
   }
 }

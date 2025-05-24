@@ -1,16 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "SAGA Edition Ranged Weapons",
-  "description": "Schema for Star Wars SAGA Edition ranged weapons.",
+  "description": "Schema for ranged weapon items in the Star Wars SAGA Edition dataset.",
   "type": "object",
   "properties": {
     "ranged_weapons_data": {
       "type": "object",
       "properties": {
-        "description": { "type": "string" },
+        "description": {
+          "type": "string",
+          "description": "Description of this data compilation."
+        },
         "ranged_weapons_list": {
           "type": "array",
-          "items": { "$ref": "#/definitions/rangedWeapon" }
+          "items": {
+            "$ref": "#/definitions/ranged_weapon_item"
+          }
         }
       },
       "required": ["description", "ranged_weapons_list"]
@@ -18,54 +23,129 @@
   },
   "required": ["ranged_weapons_data"],
   "definitions": {
-    "rangedWeapon": {
+    "cost_option": {
       "type": "object",
       "properties": {
-        "name": { "type": "string" },
-        "full_text_description": { "type": ["string", "null"] },
-        "weapon_category": { "type": "string", "description": "e.g., Pistols, Rifles, Heavy Weapons, Exotic Ranged Weapons." },
-        "size_category": { "type": "string" },
-        "cost_credits": { "type": ["integer", "string", "null"] },
-        "damage_text": { "type": ["string", "null"] },
-        "damage_structured": { "$ref": "#/definitions/damageStructure" },
+        "type": {
+          "type": "string",
+          "description": "The type of cost component.",
+          "enum": [
+            "fixed_amount",
+            "percentage_of_item_value",
+            "set_to_percentage_of_base",
+            "base_item_multiplier",
+            "additive_amount",
+            "subtractive_amount",
+            "percentage_delta",
+            "set_to_used_price",
+            "text_description"
+          ]
+        },
+        "value": {
+          "type": ["number", "null"],
+          "description": "The numeric value associated with the cost component."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Textual description if the component is purely text."
+        }
+      },
+      "required": ["type"]
+    },
+    "cost_object": {
+      "type": "object",
+      "description": "Structured cost information for the item.",
+      "properties": {
+        "text_original": {
+          "type": ["string", "null"],
+          "description": "The original cost string from the CSV."
+        },
+        "options": {
+          "type": "array",
+          "description": "An array of parsed cost components or options.",
+          "items": { "$ref": "#/definitions/cost_option" }
+        },
+        "selection_logic": {
+          "type": ["string", "null"],
+          "description": "Logic for choosing among options if multiple exist.",
+          "enum": [null, "whichever_is_more", "whichever_is_less", "player_choice"]
+        }
+      },
+      "required": ["text_original", "options"]
+    },
+    "damage_component": {
+      "type": "object",
+      "description": "Structured representation of a single damage expression (e.g., 2d8+2).",
+      "properties": {
+        "text_original": { "type": "string" },
+        "dice_count": { "type": "integer" },
+        "die_type": { "type": "integer" },
+        "bonus_modifier": { "type": "integer" },
+        "notes": { "type": ["string", "null"] }
+      },
+      "required": ["text_original", "dice_count", "die_type", "bonus_modifier"]
+    },
+    "damage_structured": {
+      "type": "object",
+      "description": "Structured representation of weapon damage.",
+      "properties": {
+        "primary_damage": { "$ref": "#/definitions/damage_component" },
+        "secondary_damage": { "$ref": "#/definitions/damage_component" },
+        "text_original": { "type": "string" },
+        "notes": { "type": ["string", "null"] }
+      },
+      "anyOf": [
+        { "required": ["primary_damage", "text_original"] },
+        { "required": ["text_original", "notes"] }
+      ]
+    },
+    "parsed_property_item": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["bonus", "narrative_property"] },
+        "value": { "type": ["integer", "string", "null"] },
+        "target": { "type": ["string", "null"] },
+        "description": { "type": "string" }
+      },
+      "required": ["type", "description"]
+    },
+    "ranged_weapon_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the ranged weapon." },
+        "cost": { "$ref": "#/definitions/cost_object" },
+        "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text." },
+        "weapon_category": { "type": "string", "description": "Category (e.g., Pistols, Rifles)." },
+        "size_category": { "type": "string", "description": "Size (e.g., Small, Medium)." },
+        "damage_text": { "type": ["string", "null"], "description": "Raw damage string." },
+        "damage_structured": { "$ref": "#/definitions/damage_structured" },
         "stun_damage_text": { "type": ["string", "null"] },
-        "stun_damage_structured": { "$ref": "#/definitions/damageStructure" },
-        "rate_of_fire_text": { "type": "string" },
-        "rate_of_fire_structured": { "type": "array", "items": {"type": "string", "enum": ["Single", "Autofire"]} },
-        "weight_kg": { "type": ["number", "string", "null"] },
-        "damage_types": { "type": "array", "items": { "type": "string" } },
-        "availability": { "type": "string" },
-        "area_effect_text": { "type": ["string", "null"] },
-        "ammunition_shots": { "type": ["integer", "string", "null"], "description": "Number of shots per clip/pack, or original text." },
-        "ammunition_cost_text": { "type": ["string", "null"] },
-        "accuracy_note": { "type": ["string", "null"] },
-        "special_properties_text": { "type": ["string", "null"] },
-        "parsed_properties": { "type": "array", "items": { "$ref": "#/definitions/itemPropertyEffect" } },
-        "classification_tags": { "type": "array", "items": {"type": "string"} },
+        "stun_damage_structured": { "oneOf": [{ "$ref": "#/definitions/damage_structured" }, { "type": "null" }] },
+        "rate_of_fire_text": { "type": ["string", "null"], "description": "Raw rate of fire string." },
+        "rate_of_fire_structured": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of ROF modes (e.g., ['Single Shot', 'Autofire'])."
+        },
+        "weight_kg": { "type": ["number", "null"], "description": "Weight in kilograms." },
+        "damage_types": { "type": "array", "items": { "type": "string" }, "description": "List of damage types." },
+        "availability": { "type": ["string", "null"] },
+        "area_effect_text": { "type": ["string", "null"], "description": "Area of effect (e.g., '2-sq burst')." },
+        "ammunition_shots": { "type": ["integer", "null"], "description": "Number of shots per ammo unit." },
+        "ammunition_cost_text": { "type": ["string", "null"], "description": "Cost of ammunition." },
+        "accuracy_note": { "type": ["string", "null"], "description": "Notes on weapon accuracy." },
+        "special_properties_text": { "type": ["string", "null"], "description": "Raw comments/special properties." },
+        "parsed_properties": { "type": "array", "items": { "$ref": "#/definitions/parsed_property_item" } },
+        "classification_tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Tags like Pistol, Rifle, Heavy Weapon, Exotic, Simple, Accurate, Inaccurate."
+        },
         "used_by_text": { "type": ["string", "null"] },
         "source_book": { "type": "string" },
-        "page": { "type": "string" }
+        "page": { "type": "integer" }
       },
-      "required": ["name", "weapon_category", "damage_types", "source_book", "page"]
-    },
-    "damageStructure": {
-      "type": "object", "description": "Structured weapon damage.",
-      "properties": {
-        "dice_count": { "type": "integer" }, "die_type": { "type": "integer" },
-        "bonus": { "type": "integer" }, "text": { "type": "string" },
-        "notes": { "type": ["string", "null"] },
-        "primary": { "$ref": "#/definitions/damageStructure" },
-        "secondary": { "$ref": "#/definitions/damageStructure" }
-      }, "required": ["text"]
-    },
-    "itemPropertyEffect": {
-      "type": "object", "description": "A structured item property.",
-      "properties": {
-        "type": { "type": "string", "enum": ["narrative_property", "bonus", "other"] },
-        "description": { "type": "string" },
-        "value": { "type": ["integer", "null"] },
-        "target": { "type": ["string", "null"] }
-      }, "required": ["type", "description"]
+      "required": ["name", "cost", "weapon_category", "damage_types", "source_book", "page"]
     }
   }
 }

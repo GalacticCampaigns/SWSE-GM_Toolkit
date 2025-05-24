@@ -1,27 +1,27 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "SAGA Edition Defensive Items",
-  "description": "Schema for defensive items (mines, emplacements, etc.) in the Star Wars SAGA Edition dataset.",
+  "title": "SAGA Edition Explosives",
+  "description": "Schema for explosive items (grenades, mines, charges) in the Star Wars SAGA Edition dataset.",
   "type": "object",
   "properties": {
-    "defensive_items_data": {
+    "explosives_data": {
       "type": "object",
       "properties": {
         "description": {
           "type": "string",
           "description": "Description of this data compilation."
         },
-        "defensive_items_list": {
+        "explosives_list": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/defensive_item"
+            "$ref": "#/definitions/explosive_item"
           }
         }
       },
-      "required": ["description", "defensive_items_list"]
+      "required": ["description", "explosives_list"]
     }
   },
-  "required": ["defensive_items_data"],
+  "required": ["explosives_data"],
   "definitions": {
     "cost_option": {
       "type": "object",
@@ -97,34 +97,68 @@
         { "required": ["text_original", "notes"] }
       ]
     },
-    "parsed_effect_item": {
-      "type": "object",
-      "properties": {
-        "type": { "type": "string", "enum": ["bonus", "narrative_property"] },
-        "value": { "type": ["integer", "string", "null"] },
-        "target": { "type": ["string", "null"] },
-        "description": { "type": "string" }
-      },
-      "required": ["type", "description"]
+    "area_of_effect": {
+        "type": "object",
+        "properties": {
+            "text_original": {"type": ["string", "null"]},
+            "shape": {"type": ["string", "null"], "enum": [null, "cone", "burst", "radius", "line"]},
+            "value_squares": {"type": ["integer", "null"]},
+            "unit": {"type": "string", "default": "squares"}
+        },
+        "required": ["text_original"]
     },
-    "defensive_item": {
+    "effect_tier": {
       "type": "object",
       "properties": {
-        "name": { "type": "string", "description": "Name of the defensive item (e.g., mine name)." },
+        "dc": { "type": "integer" },
+        "description": { "type": "string" },
+        "structured_effects": { "type": "array", "items": { "$ref": "#/definitions/effect_entry" } }
+      },
+      "required": ["dc", "description", "structured_effects"]
+    },
+    "effect_entry": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": [ /* Populate with types from parse_effects_structured */
+            "generic_modifier", "bonus", "penalty", "damage_modifier", "speed_modifier", 
+            "condition_track_change", "hit_points_modifier", "feat_grant", "damage_reduction", 
+            "natural_weapon", "reroll", "class_skill_grant", "special_action_activation", 
+            "immunity", "dc_progression", "narrative_only" ]},
+        "summary": { "type": ["string", "null"] }, "action_verb": { "type": ["string", "null"] },
+        "value_description": { "type": ["string", "null"] }, "numeric_value_approx": { "type": ["number", "null"] },
+        "bonus_or_penalty_type": { "type": ["string", "null"] }, "target_description": { "type": ["string", "null"] },
+        "feat_name": { "type": ["string", "null"] }, "value": { "type": ["integer", "string", "null"] },
+        "weapon_name": { "type": ["string", "null"] }, "damage_dice": { "type": ["string", "null"] },
+        "damage_type": { "type": ["string", "null"] }, "check_type": { "type": ["string", "null"] },
+        "condition_text": { "type": ["string", "null"] }, "condition_logic": { "type": ["string", "null"] },
+        "skill_name": { "type": ["string", "null"] }, "frequency": { "type": ["string", "null"] },
+        "action_cost": { "type": ["string", "null"] }, "immune_to": { "type": ["string", "null"] },
+        "check_skill_or_ability": { "type": ["string", "null"] }, "progression_rule": { "type": ["string", "null"] },
+        "tiers": { "type": "array", "items": { "$ref": "#/definitions/effect_tier" } },
+        "full_progression_text": { "type": ["string", "null"] }
+      },
+      "required": ["type"]
+    },
+    "explosive_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the explosive." },
+        "web_marker": { "type": ["string", "null"], "description": "Marker from the 'WEB' column (e.g., 'w', 'X')." },
+        "full_text_description": { "type": ["string", "null"] },
         "cost": { "$ref": "#/definitions/cost_object" },
         "damage_text": { "type": ["string", "null"] },
         "damage_structured": { "$ref": "#/definitions/damage_structured" },
         "damage_types": { "type": "array", "items": { "type": "string" } },
         "weight_kg": { "type": ["number", "null"] },
+        "size_category": { "type": "string", "description": "Size (e.g., Tiny, Small)." },
         "perception_dc_to_detect": { "type": ["integer", "null"] },
         "availability": { "type": ["string", "null"] },
-        "splash_radius_text": { "type": ["string", "null"], "description": "Text describing splash or burst radius (e.g., '2sq', '6sq cone')." },
-        "delay_rounds_text": { "type": ["string", "null"], "description": "Delay in rounds before detonation, if applicable." },
-        "comments_and_effects_text": { "type": ["string", "null"], "description": "Raw comments or special rules." },
-        "parsed_effects": {
+        "area_of_effect": { "$ref": "#/definitions/area_of_effect" },
+        "special_properties_text": { "type": ["string", "null"], "description": "Raw comments or special rules from 'COMMENTS' column." },
+        "structured_effects": {
           "type": "array",
-          "items": { "$ref": "#/definitions/parsed_effect_item" },
-          "description": "Array of parsed effects or properties."
+          "items": { "$ref": "#/definitions/effect_entry" },
+          "description": "Parsed effects from the 'COMMENTS' column."
         },
         "source_book": { "type": "string" },
         "page": { "type": "integer" }

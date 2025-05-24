@@ -4,13 +4,22 @@
     "defensive_items_list": [
       {
         "name": "Bounding mine",
-        "cost_credits": 250,
+        "cost": {
+          "text_original": "250",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 250
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "6d6",
         "damage_structured": {
-          "text": "6d6",
+          "text_original": "6d6",
           "dice_count": 6,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Slashing"
@@ -23,14 +32,23 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "99"
+        "page": 99
       },
       {
         "name": "Cannon, heavy",
-        "cost_credits": 2000,
+        "cost": {
+          "text_original": "2000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 2000
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "10d10x2",
         "damage_structured": {
-          "text": "10d10x2",
+          "text_original": "10d10x2",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -44,14 +62,23 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Cannon, light",
-        "cost_credits": 1000,
+        "cost": {
+          "text_original": "1000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 1000
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "8d10x2",
         "damage_structured": {
-          "text": "8d10x2",
+          "text_original": "8d10x2",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -65,14 +92,23 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Field gun",
-        "cost_credits": 500,
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "4d10x2",
         "damage_structured": {
-          "text": "4d10x2",
+          "text_original": "4d10x2",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -86,17 +122,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Fragmentation wire",
-        "cost_credits": "100/m",
+        "cost": {
+          "text_original": "100/m",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "100/m"
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "2d6",
         "damage_structured": {
-          "text": "2d6",
+          "text_original": "2d6",
           "dice_count": 2,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Slashing"
@@ -114,14 +159,23 @@
           }
         ],
         "source_book": "GW",
-        "page": "98"
+        "page": 98
       },
       {
         "name": "Howitzer",
-        "cost_credits": 750,
+        "cost": {
+          "text_original": "750",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 750
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "6d10x2",
         "damage_structured": {
-          "text": "6d10x2",
+          "text_original": "6d10x2",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -135,17 +189,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Mortar, frag",
-        "cost_credits": 300,
+        "cost": {
+          "text_original": "300",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 300
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "4d6",
         "damage_structured": {
-          "text": "4d6",
+          "text_original": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Slashing"
@@ -158,17 +221,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Mortar, ion",
-        "cost_credits": 450,
+        "cost": {
+          "text_original": "450",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 450
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "4d6",
         "damage_structured": {
-          "text": "4d6",
+          "text_original": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Energy"
@@ -181,17 +253,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Mortar, stun",
-        "cost_credits": 450,
+        "cost": {
+          "text_original": "450",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 450
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "4d6",
         "damage_structured": {
-          "text": "4d6",
+          "text_original": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Energy (Ion)"
@@ -204,17 +285,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Mortar, thermal",
-        "cost_credits": 3000,
+        "cost": {
+          "text_original": "3000",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 3000
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "8d6",
         "damage_structured": {
-          "text": "8d6",
+          "text_original": "8d6",
           "dice_count": 8,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Energy"
@@ -227,17 +317,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "100"
+        "page": 100
       },
       {
         "name": "Razor wire",
-        "cost_credits": "10/m",
+        "cost": {
+          "text_original": "10/m",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "10/m"
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "2d6",
         "damage_structured": {
-          "text": "2d6",
+          "text_original": "2d6",
           "dice_count": 2,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Slashing"
@@ -255,14 +354,23 @@
           }
         ],
         "source_book": "GW",
-        "page": "98"
+        "page": 98
       },
       {
         "name": "Repulsorlift Inhibitor",
-        "cost_credits": null,
+        "cost": {
+          "text_original": "",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "None Specified"
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "3d10x2",
         "damage_structured": {
-          "text": "3d10x2",
+          "text_original": "3d10x2",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -281,17 +389,26 @@
           }
         ],
         "source_book": "GW",
-        "page": "99"
+        "page": 99
       },
       {
         "name": "Smart mine",
-        "cost_credits": 500,
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "5d6",
         "damage_structured": {
-          "text": "5d6",
+          "text_original": "5d6",
           "dice_count": 5,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Slashing"
@@ -304,17 +421,26 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "99"
+        "page": 99
       },
       {
         "name": "Static mine",
-        "cost_credits": 100,
+        "cost": {
+          "text_original": "100",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 100
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "4d6",
         "damage_structured": {
-          "text": "4d6",
+          "text_original": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus": 0
+          "bonus_modifier": 0
         },
         "damage_types": [
           "Slashing"
@@ -327,14 +453,23 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "99"
+        "page": 99
       },
       {
         "name": "Turbolaser, orbital",
-        "cost_credits": null,
+        "cost": {
+          "text_original": "n/a",
+          "options": [
+            {
+              "type": "text_description",
+              "description": "N/a"
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "5d10x5",
         "damage_structured": {
-          "text": "5d10x5",
+          "text_original": "5d10x5",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -353,14 +488,23 @@
           }
         ],
         "source_book": "GW",
-        "page": "101"
+        "page": 101
       },
       {
         "name": "Vehicular mine",
-        "cost_credits": 500,
+        "cost": {
+          "text_original": "500",
+          "options": [
+            {
+              "type": "fixed_amount",
+              "value": 500
+            }
+          ],
+          "selection_logic": null
+        },
         "damage_text": "4d10x2",
         "damage_structured": {
-          "text": "4d10x2",
+          "text_original": "4d10x2",
           "notes": "Could not fully parse damage string."
         },
         "damage_types": [
@@ -374,7 +518,7 @@
         "comments_and_effects_text": null,
         "parsed_effects": [],
         "source_book": "GW",
-        "page": "99"
+        "page": 99
       }
     ]
   }
