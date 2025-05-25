@@ -1,58 +1,68 @@
 {
-  "file_description": "General rules for Heroic Classes, Nonheroic Class, and Beast Class, including progression, multiclassing, and level-dependent benefits in Star Wars Saga Edition.",
-  "source_book_reference": "CR",
-  "page_reference_general": "35-37, 54-55",
-  "choosing_a_heroic_class": {
-    "description": "At 1st level, a character must choose a heroic class. The five heroic classes are Jedi, Noble, Scoundrel, Scout, and Soldier. Characters with levels in heroic classes are called heroic characters or heroes, possessing special abilities that make them extraordinary.",
-    "source_page_reference": "CR 36"
-  },
-  "class_and_level_bonuses": {
-    "base_attack_bonus": {
-      "description": "A character's base attack bonus (BAB) applies to all attack rolls (Errata: does not apply to damage rolls). It's determined by class and level. For multiclass characters, add the BAB from each class.",
+  "class_rules_data": {
+    "file_description": "General rules for Heroic Classes, Nonheroic Class, and Beast Class, including progression, multiclassing, and level-dependent benefits in Star Wars Saga Edition.",
+    "source_book_reference": "CR",
+    "page_reference_general": "35-37, 54-55",
+    "choosing_a_heroic_class": {
+      "description": "At 1st level, a character must choose a heroic class. The five heroic classes are Jedi, Noble, Scoundrel, Scout, and Soldier. Characters with levels in heroic classes are called heroic characters or heroes, possessing special abilities that make them extraordinary.",
+      "source_page_reference": "CR 36"
+    },
+    "class_and_level_bonuses": {
+      "base_attack_bonus": {
+        "description": "A character's base attack bonus (BAB) applies to all attack rolls (Errata: does not apply to damage rolls). It's determined by class and level. For multiclass characters, add the BAB from each class.",
+        "source_page_reference": "CR 37"
+      },
+      "damage_bonus_heroic_level": {
+        "description": "Heroic characters deal extra damage on melee and ranged attacks equal to one-half their character level, rounded down. (e.g., 1st-level: +0; 4th-level: +2).",
+        "formula": "floor(character_level / 2)",
+        "source_page_reference": "CR 37"
+      },
+      "defense_bonuses_from_class": {
+        "description": "When taking the first level in a heroic class, a character gains class bonuses to two or more defenses. These class bonuses do not stack if multiclassing; only apply the best bonus from all classes to each defense score.",
+        "source_page_reference": "CR 37"
+      },
+      "heroic_level_definition_for_defenses": "Heroic level for defense calculations is the sum of all levels in heroic classes and prestige classes, excluding nonheroic or beast class levels.",
       "source_page_reference": "CR 37"
     },
-    "damage_bonus_heroic_level": {
-      "description": "Heroic characters deal extra damage on melee and ranged attacks equal to one-half their character level, rounded down. (e.g., 1st-level: +0; 4th-level: +2).",
-      "formula": "floor(character_level / 2)",
-      "source_page_reference": "CR 37"
+    "level_dependent_benefits_heroic": {
+      "description": "Summarizes additional benefits gained as heroic characters advance in level. Some benefits are based on total Character Level, while others (like talents from heroic classes) are based on individual Class Level.",
+      "table_reference_crb": "Table 3-1: Experience and Level-Dependent Benefits (CRB p.37)",
+      "experience_points_xp": "XP determines overall character level.",
+      "feats_progression_by_character_level": {
+        "description": "Heroic characters gain a general feat at 1st total character level, and again at 3rd, 6th, 9th, 12th, 15th, and 18th total character level. This is in addition to any bonus feats from class or species.",
+        "source_page_reference": "CR 37, 79"
+      },
+      "talents_progression_by_heroic_class_level": {
+        "description": "Heroic characters typically select a talent from their class's available talent trees at 1st level in that class, and again at every odd-numbered class level gained in that specific heroic class (e.g., 3rd, 5th, 7th class level). This is separate from prestige class talent progression. See 'talents_rules.json' for more general talent rules.",
+        "source_page_reference": "CR 36, 37 (Table 3-1 implies this for 'Class Feature')"
+      },
+      "ability_score_increases_by_character_level": {
+        "levels": [4, 8, 12, 16, 20],
+        "benefit": "Increase two different ability scores by +1 each.",
+        "retroactivity": "Ability score increases are retroactive (e.g., an INT increase affects trained skills and known languages).",
+        "multiclass_note": "Gained according to overall character level.",
+        "source_page_reference": "CR 20, 37"
+      },
+      "source_page_reference": "CR 37-38"
     },
-    "defense_bonuses_from_class": {
-      "description": "When taking the first level in a heroic class, a character gains class bonuses to two or more defenses. These class bonuses do not stack if multiclassing; only apply the best bonus from all classes to each defense score.",
-      "source_page_reference": "CR 37"
-    },
-    "heroic_level_definition_for_defenses": "Heroic level for defense calculations is the sum of all levels in heroic classes and prestige classes, excluding nonheroic or beast class levels.",
-    "source_page_reference": "CR 37"
-  },
-  "level_dependent_benefits_heroic": {
-    "description": "Summarizes additional benefits gained as heroic characters advance in level, based on total character level.",
-    "table_reference_crb": "Table 3-1: Experience and Level-Dependent Benefits (CRB p.37)",
-    "experience_points_xp": "XP determines overall character level, not individual class levels for multiclass characters.",
-    "feats_progression": "Heroic characters gain a new feat at 1st level, and again at 3rd, 6th, 9th, 12th, 15th, and 18th character level. This is in addition to bonus feats from class or species.",
-    "ability_score_increases": {
-      "levels": [4, 8, 12, 16, 20],
-      "benefit": "Increase two different ability scores by +1 each.",
-      "retroactivity": "Ability score increases are retroactive (e.g., an INT increase grants an additional trained skill and language; a WIS increase can grant more Force Powers if Force Training feat is possessed).",
-      "multiclass_note": "Gained according to overall character level, not class level."
-    },
-    "source_page_reference": "CR 37-38"
-  },
-  "multiclass_characters": {
-    "description": "Characters may add new classes as they progress, improving versatility at the expense of focus.",
-    "level_definition": "'Character level' is total levels. 'Class level' is level in a particular class.",
-    "hit_points": "Roll HP die for the new class level gained, add CON modifier. (e.g., Scout 1 / Soldier 1 gains 1d10+CON for the Soldier level).",
-    "base_attack_bonus": "Sum of BAB from each class.",
-    "defenses": "Adjust for character level increase. Gain class bonus from new class if it's better than existing class bonuses (they don't stack).",
-    "skills": "List of class skills expands to include those of the new class. No new trained skills are gained automatically (Skill Training feat needed).",
-    "starting_feats_new_class": "Select only ONE feat from the new class's list of starting feats.",
-    "talents": "If a talent is gained, it must be selected from talent trees associated with the class in which the level was gained.",
-    "bonus_feats_from_class": "If a class bonus feat is gained, it must be selected from the list available to that specific class.",
-    "adding_a_second_class": "When gaining a level, can increase current class or pick a new class at 1st level. GM may require in-game reasons or training.",
-    "benefits_not_gained_when_multiclassing_into_new_class": [
-      "Full suite of starting feats (only select one).",
-      "Maximum/tripled hit points from the first HD of the new class.",
-      "Starting credits associated with the new class."
-    ],
-    "advancing_a_level_multiclass": "Either increase an existing class level or pick up a new class at 1st level. Gains standard benefits for the level gained in the chosen class. Can also take any starting feat for that class as a bonus feat when advancing a level in it.",
-    "source_page_reference": "CR 54-55"
+    "multiclass_characters": {
+      "description": "Characters may add new classes as they progress, improving versatility at the expense of focus.",
+      "level_definition": "'Character level' is total levels. 'Class level' is level in a particular class.",
+      "hit_points": "Roll HP die for the new class level gained, add CON modifier. (e.g., Scout 1 / Soldier 1 gains 1d10+CON for the Soldier level).",
+      "base_attack_bonus": "Sum of BAB from each class.",
+      "defenses": "Adjust for character level increase. Gain class bonus from new class if it's better than existing class bonuses (they don't stack).",
+      "skills": "List of class skills expands to include those of the new class. No new trained skills are gained automatically (Skill Training feat needed).",
+      "starting_feats_new_class": "Select only ONE feat from the new class's list of starting feats.",
+      "talents": "If a talent is gained, it must be selected from talent trees associated with the class in which the level was gained.",
+      "bonus_feats_from_class": "If a class bonus feat is gained, it must be selected from the list available to that specific class.",
+      "adding_a_second_class": "When gaining a level, can increase current class or pick a new class at 1st level. GM may require in-game reasons or training.",
+      "benefits_not_gained_when_multiclassing_into_new_class": [
+        "Full suite of starting feats (only select one).",
+        "Maximum/tripled hit points from the first HD of the new class.",
+        "Starting credits associated with the new class."
+      ],
+      "advancing_a_level_multiclass": "Either increase an existing class level or pick up a new class at 1st level. Gains standard benefits for the level gained in the chosen class. Can also take any starting feat for that class as a bonus feat when advancing a level in it.",
+      "source_page_reference": "CR 54-55"
+    }
   }
 }

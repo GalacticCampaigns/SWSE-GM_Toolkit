@@ -1,0 +1,120 @@
+{
+  "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks.",
+  "source_book_reference_general": "CR",
+  "primary_page_reference_crb": "143-163",
+  "general_notes_on_extensibility": "Rules herein are from the Core Rulebook (CR) unless otherwise noted. Future updates may add rules variants or expansions from other sourcebooks, which will be appropriately sourced.",
+  "the_combat_round": {
+    "description": "Combat is played in rounds, with each round representing approximately 6 seconds of game time. During a round, each combatant gets a turn to act, in order of initiative. A new round begins when everyone eligible to act has taken a turn.",
+    "duration_seconds": 6,
+    "sequence_of_events": [
+      "Determine if anyone is surprised.",
+      "Combatants who are not surprised act in initiative order (highest to lowest). This is the surprise round if applicable.",
+      "After the surprise round (if any), all combatants act in initiative order for the first regular round.",
+      "Continue with subsequent rounds until combat ends."
+    ],
+    "surprise_round": {
+      "description": "If some but not all combatants are aware of opponents at the start of battle, a surprise round occurs before regular rounds. Combatants who are aware of opponents can act; those who are unaware cannot.",
+      "actions_allowed_if_not_surprised": "One standard action OR one move action OR one swift action.",
+      "actions_if_surprised": "No actions, flat-footed until first regular turn.",
+      "source_page_reference": "CR 143"
+    },
+    "source_page_reference": "CR 143-144"
+  },
+  "initiative": {
+    "description": "An Initiative check determines the order of combat when a battle starts. It's a Dexterity check.",
+    "check_formula": "d20 + Dexterity modifier + one-half character level (rounded down) + other modifiers (feats, talents, vehicle size).",
+    "when_to_roll": "At the start of a battle, before any actions are taken, as a reaction.",
+    "initiative_count": "The result of the Initiative check is the character's initiative count, determining their place in the combat order for that encounter.",
+    "tie_breaking_rule": "If two or more combatants have the same Initiative check result, the combatant with the higher Dexterity modifier acts first. If Dexterity modifiers are also tied, the tied combatants roll a d20, and whoever rolls higher acts first.",
+    "delaying_action": {
+      "description": "You can choose to take your turn later in the round (or a subsequent round) than your initiative count would normally allow. You choose a lower initiative count to act on. Your initiative count becomes this new, lower number for the rest of the combat.",
+      "action_cost": "Free action, declared on your turn."
+    },
+    "readying_an_action": {
+      "description": "You can ready an action to take place outside of your turn when a specific trigger event occurs. Readying is a standard action.",
+      "trigger_specification": "You must specify the action you will take and the circumstances under which you will take it.",
+      "acting_when_triggered": "When the trigger occurs, you can take your readied action or choose not to. Taking the readied action uses your reaction for the round and drops your initiative count to just before the combatant whose action triggered your readied action.",
+      "action_cost": "Standard action to ready."
+    },
+    "source_page_reference": "CR 144"
+  },
+  "actions_in_combat": {
+    "description": "On a character's turn, they can perform various types of actions. The number and type of actions are limited.",
+    "action_summary_per_turn": "Typically, a character can take one standard action and one move action (in any order), or one full-round action. Additionally, a character can take one swift action and any number of free actions (GM permitting). A character can also use one reaction per round (unless an ability allows more).",
+    "action_types": [
+      {
+        "type_name": "Standard Action",
+        "description": "Usually involves attacking, using a skill, activating a Force power, or performing a similar significant task.",
+        "usage_per_turn": "One (can be exchanged for a move action).",
+        "examples": [
+          "Making a single attack.",
+          "Using a skill that requires a standard action.",
+          "Activating a Force power with a standard action casting time.",
+          "Using the aid another action.",
+          "Readying an action."
+        ],
+        "source_page_reference": "CR 144-145"
+      },
+      {
+        "type_name": "Move Action",
+        "description": "Typically used to move a character's speed or perform an action that takes a similar amount of effort.",
+        "usage_per_turn": "One (can take a second move action by giving up standard action).",
+        "examples": [
+          "Moving up to character's speed.",
+          "Climbing one-fourth of speed.",
+          "Drawing or holstering a weapon (Errata: Holstering is a move action, drawing can be swift with Quick Draw feat).",
+          "Standing up from prone.",
+          "Opening or closing a door."
+        ],
+        "source_page_reference": "CR 145",
+        "errata_applied_notes": "CRB Errata p.297 clarifies drawing a weapon is a move action, holstering is a move action. Quick Draw feat makes drawing a swift action."
+      },
+      {
+        "type_name": "Full-Round Action",
+        "description": "Consumes an entire turn's worth of effort. Cannot take other standard, move, or swift actions in the same turn, but can still take free actions.",
+        "usage_per_turn": "One (replaces standard and move actions).",
+        "examples": [
+          "Making a full attack.",
+          "Charging.",
+          "Running.",
+          "Using a skill that requires a full-round action."
+        ],
+        "source_page_reference": "CR 145"
+      },
+      {
+        "type_name": "Swift Action",
+        "description": "Consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action.",
+        "usage_per_turn": "One.",
+        "examples": [
+          "Activating some talents or Force powers.",
+          "Quick Draw feat to draw a weapon.",
+          "Catching a second wind (requires three swift actions normally)."
+        ],
+        "source_page_reference": "CR 145"
+      },
+      {
+        "type_name": "Free Action",
+        "description": "Consumes a negligible amount of time and effort.",
+        "usage_per_turn": "Multiple, but GM may limit to prevent abuse.",
+        "examples": [
+          "Dropping an item.",
+          "Speaking.",
+          "Ending concentration on a Force power."
+        ],
+        "source_page_reference": "CR 145-146"
+      },
+      {
+        "type_name": "Reaction",
+        "description": "An action taken in response to an event or another creature's action, occurring outside of the character's normal turn.",
+        "usage_per_turn": "One (unless an ability like Combat Reflexes feat allows more for attacks of opportunity).",
+        "examples": [
+          "Making an attack of opportunity.",
+          "Activating a readied action.",
+          "Using certain talents or Force powers that specify 'reaction' as their activation time."
+        ],
+        "source_page_reference": "CR 146"
+      }
+    ],
+    "source_page_reference": "CR 144-146"
+  }
+}

@@ -1,66 +1,612 @@
 [
-{"target_file_key":"feats","action":"update","identifier":{"name":"Acrobatic Strike","source_book":"CR"},"payload":{"id":"acrobatic_strike_cr_82","name":"Acrobatic Strike","type_tags":["Combat"],"prerequisites_text":"Trained in Acrobatics","prerequisites_structured":[{"type":"skill_trained","skill_id":"acrobatics"}],"benefit_summary":"If you succeed in tumbling past a foe to avoid an AoO, gain +2 competence bonus on next attack against that foe this turn. (Errata applied)","benefit_text_long":"If you succeed in tumbling to avoid an attack of opportunity (see the Acrobatics skill, page 62), you gain a +5 bonus on the next attack that you make against that foe as long as the attack occurs before the end of your current turn. [Text from CRB p.83, cite: 553-554]","effects":[{"type":"conditional_bonus","condition":"succeed_in_tumbling_to_avoid_aoo","bonus_type":"competence","target_stat":"next_attack_roll_against_that_foe","value":2,"duration":"before_end_of_current_turn"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi"],"source_book":"CR","page":"82","errata_applied":"CRB Errata p.290: Bonus reduced from +5 to +2 competence bonus. [cite: 2001]"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Armor Proficiency (heavy)","source_book":"CR"},"payload":{"id":"armor_proficiency_heavy_cr_82","name":"Armor Proficiency (heavy)","type_tags":["General","Proficiency"],"prerequisites_text":"Armor Proficiency (light), Armor Proficiency (medium)","prerequisites_structured":[{"type":"feat","feat_id":"armor_proficiency_light"},{"type":"feat","feat_id":"armor_proficiency_medium"}],"benefit_summary":"No attack or armor check penalties when wearing heavy, medium, or light armor. Gain armor's special equipment bonuses.","benefit_text_long":"When you wear heavy armor, you take no armor check penalty on attack rolls or skill checks. Additionally, you benefit from all of the armor's special equipment bonuses (if any). [Text from CRB p.83, cite: 554-555]","effects":[{"type":"proficiency","proficiency_type":"armor","armor_category":"heavy","benefit":"negates_attack_penalty_and_armor_check_penalty_allows_equipment_bonuses"}],"normal_text":"A character who wears heavy armor with which she is not proficient takes a -10 armor check penalty on attack rolls as well as skill checks made using the following skills: Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim. Additionally, the character gains none of the armor's special equipment bonuses.","special_text":null,"bonus_feat_for_classes":["Scout","Soldier"],"source_book":"CR","page":"82"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Armor Proficiency (light)","source_book":"CR"},"payload":{"id":"armor_proficiency_light_cr_82","name":"Armor Proficiency (light)","type_tags":["General","Proficiency"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"No attack or armor check penalties when wearing light armor. Gain armor's special equipment bonuses.","benefit_text_long":"When you wear light armor, you take no armor check penalty on attack rolls or skill checks. Additionally, you benefit from all of the armor's special equipment bonuses (if any). [Text from CRB p.83]","effects":[{"type":"proficiency","proficiency_type":"armor","armor_category":"light","benefit":"negates_attack_penalty_and_armor_check_penalty_allows_equipment_bonuses"}],"normal_text":"A character who wears heavy armor [sic - CRB text error, should be light armor] with which she is not proficient takes a -2 armor check penalty on attack rolls as well as skill checks made using the following skills: Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim. Additionally, the character gains none of the armor's special equipment bonuses.","special_text":null,"bonus_feat_for_classes":["Noble","Scout"],"source_book":"CR","page":"82","notes_for_processing":"CRB text for 'Normal' section incorrectly states 'heavy armor'; it should refer to 'light armor' for this feat."}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Armor Proficiency (medium)","source_book":"CR"},"payload":{"id":"armor_proficiency_medium_cr_82","name":"Armor Proficiency (medium)","type_tags":["General","Proficiency"],"prerequisites_text":"Armor Proficiency (light)","prerequisites_structured":[{"type":"feat","feat_id":"armor_proficiency_light"}],"benefit_summary":"No attack or armor check penalties when wearing light or medium armor. Gain armor's special equipment bonuses.","benefit_text_long":"When you wear medium armor, you take no armor check penalty on attack rolls or skill checks. Additionally, you benefit from all of the armor's special equipment bonuses (if any). [Text from CRB p.83]","effects":[{"type":"proficiency","proficiency_type":"armor","armor_category":"medium","benefit":"negates_attack_penalty_and_armor_check_penalty_allows_equipment_bonuses"}],"normal_text":"A character who wears medium armor with which she is not proficient takes a -5 armor check penalty on attack rolls as well as skill checks made using the following skills: Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, and Swim. Additionally, the character gains none of the armor's special equipment bonuses.","special_text":null,"bonus_feat_for_classes":["Scout"],"source_book":"CR","page":"82"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Bantha Rush","source_book":"CR"},"payload":{"id":"bantha_rush_cr_82","name":"Bantha Rush","type_tags":["Combat"],"prerequisites_text":"Str 13, base attack bonus +1","prerequisites_structured":[{"type":"ability_score","ability":"STR","value":13},{"type":"base_attack_bonus","value":1}],"benefit_summary":"After successful melee attack vs opponent up to one size larger, can move that opponent 1 square as free action.","benefit_text_long":"After making a successful melee attack against an opponent up to one size category larger than you, you can choose to move that opponent 1 square in any direction as a free action. You can’t bantha rush an opponent that's being grabbed or grappled, and you can't bantha rush your opponent into a solid object or another creature's fighting space. [Text from CRB p.83, cite: 558-559]","effects":[{"type":"special_action","action_name":"Bantha Rush Push","trigger_condition":"successful_melee_attack_vs_opponent_max_one_size_larger","action_cost":"free","effect_description":"move_opponent_1_square_any_direction","restrictions":["cannot_target_grabbed_or_grappled_opponent","cannot_push_opponent_into_solid_object_or_occupied_square"]}],"normal_text":null,"special_text":"Unleashed: When you use the Bantha Rush feat, you can spend a Destiny Point to automatically increase the distance you move your target by 5 squares and knock your target prone. (This 'Unleashed' text is often associated with this feat, e.g. Force Unleashed Campaign Guide, though not in the CRB p.83 description itself).","bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"82"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Burst Fire","source_book":"CR"},"payload":{"id":"burst_fire_cr_82","name":"Burst Fire","type_tags":["Combat","Ranged"],"prerequisites_text":"Proficient with heavy weapons, proficient with weapon","prerequisites_structured":[{"type":"feat","feat_id":"weapon_proficiency_heavy_weapons"},{"type":"proficiency_with_specific_weapon"}],"benefit_summary":"When using autofire weapon in autofire mode, can fire short burst (-5 attack, +2 dice damage) at single target. Expends 5 shots. (Errata applied)","benefit_text_long":"When using a ranged weapon with autofire capability in autofire mode, you may fire a short burst as a single attack against a single target. You take a -5 penalty on the attack roll but deal +2 dice of damage. For example, a weapon that deals 3d10 points of damage deals 5d10 points of damage instead. The effects of this feat do not stack with the extra damage provided by the Deadeye or Rapid Shot feat. [CRB p.83, cite: 559-560]","effects":[{"type":"attack_modification","attack_type":"ranged_autofire_burst","attack_penalty":-5,"damage_bonus_dice":"2d","notes":"Targets a single target. Does not stack with Deadeye or Rapid Shot."}],"normal_text":"Autofire uses ten shots, targets a 2-square-by-2-square area, and can't be aimed at a specific target. Without this feat, if you attempt an autofire attack at a specific target, it simply counts as a normal attack and all the extra shots are wasted. [CRB p.83, cite: 561]","special_text":"Firing a burst expends five shots and can only be done if the weapon has at least five shots remaining. If you do not have a Strength of 13 or higher, increase the penalty on attacks to –10 when using this feat with non-vehicle weapons. (Errata p.290)","bonus_feat_for_classes":[],"source_book":"CR","page":"82","errata_applied":"Prerequisites changed from 'Str 13, Weapon Proficiency (heavy weapons), proficient with weapon' to 'Proficient with heavy weapons, proficient with weapon'. Special text added regarding STR 13."}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Careful Shot","source_book":"CR"},"payload":{"id":"careful_shot_cr_82","name":"Careful Shot","type_tags":["Combat","Ranged"],"prerequisites_text":"Point Blank Shot, base attack bonus +2","prerequisites_structured":[{"type":"feat","feat_id":"point_blank_shot"},{"type":"base_attack_bonus","value":2}],"benefit_summary":"If you aim before making a ranged attack, gain +1 bonus on the attack roll.","benefit_text_long":"If you aim before making a ranged attack (see Aim on page 154), you gain a +1 bonus on your attack roll. [CRB p.83, cite: 561-562]","effects":[{"type":"conditional_bonus","condition":"aim_before_ranged_attack","bonus_type":"untyped","target_stat":"ranged_attack_roll","value":1}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Scout","Soldier"],"source_book":"CR","page":"82"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Charging Fire","source_book":"CR"},"payload":{"id":"charging_fire_cr_82","name":"Charging Fire","type_tags":["Combat","Ranged","Mobility"],"prerequisites_text":"Base attack bonus +4","prerequisites_structured":[{"type":"base_attack_bonus","value":4}],"benefit_summary":"When charging, may make a ranged attack (no attack bonus) instead of melee. Still take -2 to Reflex Defense.","benefit_text_long":"When you charge, you may make a ranged attack instead of a melee attack at the end of your movement. Unlike a normal charge, your momentum does not help overcome your target, so you gain no bonus on attack roll. As with a normal charge, you still take a -2 penalty to your Reflex Defense until the start of your next turn. [CRB p.83-84, cite: 562-563]","effects":[{"type":"action_modification","modified_action":"charge","new_option":"can_make_ranged_attack_at_end_of_charge_movement","attack_bonus_change":"no_charge_attack_bonus","reflex_defense_penalty":-2,"duration_of_penalty":"until_start_of_next_turn"}],"normal_text":"You can make a single melee attack with a +2 bonus on your attack roll at the end of a charge. [CRB p.84, cite: 563]","special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"82"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Cleave","source_book":"CR"},"payload":{"id":"cleave_cr_83","name":"Cleave","type_tags":["Combat","Melee"],"prerequisites_text":"Strength 13, Power Attack","prerequisites_structured":[{"type":"ability_score","ability":"STR","value":13},{"type":"feat","feat_id":"power_attack"}],"benefit_summary":"If you drop an opponent with a melee attack, get an immediate extra melee attack against another opponent within reach (once per round). (Errata applied)","benefit_text_long":"If you deal an opponent enough damage to reduce its hit points to 0, you get an immediate extra melee attack against another opponent within your reach. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous opponent. You can use this ability once per round. [CRB p.84, cite: 563-564]","effects":[{"type":"bonus_attack","trigger_condition":"reduce_opponent_to_0_hp_with_melee_attack","attack_type":"melee","target_restriction":"another_opponent_within_reach","frequency":"once_per_round","attack_bonus_note":"same_as_triggering_attack"}],"normal_text":null,"special_text":"Unleashed: When you deal enough damage to an opponent to reduce its hit points to 0, you can spend a Destiny Point to get an immediate extra melee attack against all opponents within your reach. This feat works in all other ways as the Cleave feat. (This 'Unleashed' text is from Force Unleashed Campaign Guide, not CRB.)","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"83","errata_applied":"CRB Errata p.299: Removed sentence 'You cannot adjust 1 square before making this extra attack.' [cite: 2018]"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Combat Reflexes","source_book":"CR"},"payload":{"id":"combat_reflexes_cr_83","name":"Combat Reflexes","type_tags":["Combat","Defensive"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Gain additional attacks of opportunity equal to DEX modifier per round, and can make AoOs while flat-footed.","benefit_text_long":"When opponents leave themselves open, you may make a number of additional attacks of opportunity equal to your Dexterity modifier. For example, a character with a Dexterity of 15 can make a total of three attacks of opportunity in a round: the one attack of opportunity every character is entitled to, plus two more attacks because of his +2 Dexterity bonus. You still only make one attack of opportunity on a single opponent for a single provoking action. With this feat, you may also make attacks of opportunity while flat-footed. [CRB p.84, cite: 564-565]","effects":[{"type":"attacks_of_opportunity_enhancement","additional_aoo_per_round_formula":"DEX_modifier"},{"type":"attacks_of_opportunity_enhancement","benefit":"can_make_aoo_while_flat_footed"}],"normal_text":"A character without the Combat Reflexes feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed. (See Attacks of Opportunity, page 155, for more information.) [CRB p.84, cite: 565]","special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"83"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Coordinated Attack","source_book":"CR"},"payload":{"id":"coordinated_attack_cr_83","name":"Coordinated Attack","type_tags":["Combat","Support"],"prerequisites_text":"Base attack bonus +2","prerequisites_structured":[{"type":"base_attack_bonus","value":2}],"benefit_summary":"Automatically succeed with Aid Another action for ally's attack or to suppress enemy if target is adjacent or point blank.","benefit_text_long":"You are automatically successful when using the aid another action to aid an ally's attack or suppress an enemy as long as the target is adjacent to you or within point blank range. [CRB p.84, cite: 566]","effects":[{"type":"skill_advantage","skill_id":"aid_another_action","condition":"target_is_adjacent_or_within_point_blank_range","advantage":"automatic_success"}],"normal_text":"You must make an attack roll against a Reflex Defense of 10 to gain the benefits of the aid another action. [CRB p.84, cite: 566]","special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"83"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Crush","source_book":"CR"},"payload":{"id":"crush_cr_83","name":"Crush","type_tags":["Combat","Melee","Grapple"],"prerequisites_text":"Pin, base attack bonus +1","prerequisites_structured":[{"type":"feat","feat_id":"pin"},{"type":"base_attack_bonus","value":1}],"benefit_summary":"If you successfully pin an opponent with a grapple attack, can immediately deal unarmed/claw damage.","benefit_text_long":"If you successfully pin an opponent with a grapple attack (see the Pin feat, page 87), you can immediately deal bludgeoning damage to it equal to your unarmed damage or claw damage, whichever is greater. [CRB p.84, cite: 567]","effects":[{"type":"conditional_action","trigger_condition":"successfully_pin_opponent_with_grapple_attack","action_cost":"free (implied as part of Crush)","effect_description":"deal_unarmed_or_claw_damage_to_pinned_opponent"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"83"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Cybernetic Surgery","source_book":"CR"},"payload":{"id":"cybernetic_surgery_cr_83","name":"Cybernetic Surgery","type_tags":["Skill"],"prerequisites_text":"Trained in Treat Injury","prerequisites_structured":[{"type":"skill_trained","skill_id":"treat_injury"}],"benefit_summary":"Can install cybernetic prosthesis on living being (DC 20 Treat Injury, 1 hour).","benefit_text_long":"You can install a cybernetic prosthesis (see page 137) on a living being. The surgical procedure takes 1 hour of uninterrupted work, after which you must make on a DC 20 Treat Injury check. If the check succeeds, the prosthesis is installed correctly. If the check fails, the prosthesis is not properly installed; however, you can try again after another uninterrupted hour of surgery. [CRB p.84, cite: 567-568]","effects":[{"type":"skill_application_enablement","skill_id":"treat_injury","application":"install_cybernetic_prosthesis","details":"DC 20 Treat Injury check, takes 1 hour. Failure allows retry."}],"normal_text":null,"special_text":"You can install a cybernetic prosthesis on yourself, but you take a -5 penalty on the Treat Injury skill check. If you have the Surgical Expertise feat (see page 88), you can install a cybernetic prosthesis in 10 minutes instead of 1 hour. [CRB p.85, cite: 568-569]","bonus_feat_for_classes":["Noble"],"source_book":"CR","page":"83"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Deadeye","source_book":"CR"},"payload":{"id":"deadeye_cr_84","name":"Deadeye","type_tags":["Combat","Ranged"],"prerequisites_text":"Point Blank Shot, Precise Shot, base attack bonus +4","prerequisites_structured":[{"type":"feat","feat_id":"point_blank_shot"},{"type":"feat","feat_id":"precise_shot"},{"type":"base_attack_bonus","value":4}],"benefit_summary":"If you aim before a ranged attack and hit, increase damage by one additional weapon die.","benefit_text_long":"If you aim before making a ranged attack (see Aim, page 154) and the attack hits, increase the damage you deal by an additional weapon die. For example, if you score a hit with a blaster pistol using the Deadeye feat, the blaster shot deals 4d6 points of damage (instead of the normal 3d6 points). The effects of this feat do not stack with the extra damage provided by the Burst Fire or Rapid Shot feat. [CRB p.85, cite: 569-570]","effects":[{"type":"conditional_damage_bonus","trigger_condition":"aim_before_ranged_attack_and_hit","damage_bonus_dice":"1d","notes":"Dice type matches weapon. Does not stack with Burst Fire or Rapid Shot damage bonus."}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Scoundrel","Scout","Soldier"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Dodge","source_book":"CR"},"payload":{"id":"dodge_cr_84","name":"Dodge","type_tags":["Combat","Defensive"],"prerequisites_text":"Dexterity 13","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":13}],"benefit_summary":"Designate an opponent to receive a +1 dodge bonus to Reflex Defense against their attacks.","benefit_text_long":"During your turn, you designate an opponent and receive a +1 dodge bonus to your Reflex Defense against attacks from that opponent. You can select a new opponent on any action. A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.85, cite: 570-571]","effects":[{"type":"bonus","bonus_type":"dodge","target_stat":"reflex_defense","value":1,"condition":"against_attacks_from_designated_opponent","notes":"Can select new opponent on any action. Lost if DEX bonus to Reflex Defense is lost. Dodge bonuses stack."}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi","Scoundrel","Scout"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Double Attack","source_book":"CR"},"payload":{"id":"double_attack_cr_84","name":"Double Attack","type_tags":["Combat","Melee","Ranged"],"prerequisites_text":"Base attack bonus +6, proficient with chosen weapon","prerequisites_structured":[{"type":"base_attack_bonus","value":6},{"type":"proficiency_with_chosen_weapon_group_or_exotic"}],"benefit_summary":"Choose a weapon group/exotic weapon. When using full attack with it, make one additional attack, but take -5 on all attacks this turn.","benefit_text_long":"Choose a single exotic weapon or one of the following weapon groups: advanced melee weapons, heavy weapons, lightsabers, pistols, rifles, simple weapons. When you use the full attack action, you may make one additional attack when wielding such a weapon. However, you take a -5 penalty on all attack rolls until your next turn because you're trading precision for speed. [CRB p.85, cite: 571-572]","effects":[{"type":"bonus_attack","trigger_condition":"full_attack_action_with_chosen_weapon_type","number_of_attacks":1,"attack_penalty":-5,"penalty_duration":"until_start_of_next_turn"}],"normal_text":"Making a single attack is a standard action. [CRB p.85, cite: 572]","special_text":"You may select this feat multiple times. Each time you select this feat, it applies to a different exotic weapon or weapon group. [CRB p.85, cite: 572]","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Dreadful Rage","source_book":"CR"},"payload":{"id":"dreadful_rage_cr_84","name":"Dreadful Rage","type_tags":["Combat","Melee"],"prerequisites_text":"Rage species trait, base attack bonus +1","prerequisites_structured":[{"type":"species_trait_required","trait_name":"Rage"},{"type":"base_attack_bonus","value":1}],"benefit_summary":"While raging, your rage bonus on melee attack and damage rolls increases to +5.","benefit_text_long":"While raging, your rage bonus on melee attack rolls and melee damage rolls increases to +5. [CRB p.85, cite: 572-573]","effects":[{"type":"rage_enhancement","new_attack_bonus":5,"new_damage_bonus":5}],"normal_text":"A character with the rage species trait gains a +2 rage bonus on melee attack rolls and melee damage rolls while raging. [CRB p.85, cite: 573]","special_text":null,"bonus_feat_for_classes":[],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Dual Weapon Mastery I","source_book":"CR"},"payload":{"id":"dual_weapon_mastery_i_cr_84","name":"Dual Weapon Mastery I","type_tags":["Combat","Melee","Ranged"],"prerequisites_text":"Dexterity 13, base attack bonus +1","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":13},{"type":"base_attack_bonus","value":1}],"benefit_summary":"When attacking with two weapons or a double weapon (full attack), take -5 penalty on all attacks instead of -10.","benefit_text_long":"When you attack with two weapons or with both ends of a double weapon as a part of a full attack action, you take a -5 penalty (instead of a -10 penalty) on all attack rolls until the start of your next turn. You only gain this reduced penalty if you are wielding a weapon with which you are proficient. [CRB p.85, cite: 573]","effects":[{"type":"penalty_reduction","context":"full_attack_with_two_weapons_or_double_weapon","original_penalty":-10,"new_penalty":-5,"condition":"proficient_with_weapon_used"}],"normal_text":"If you use a full attack action to make more than one attack on your turn (see Full Attack, page 154), you take a -10 penalty on all attack rolls for the round. [CRB p.85, cite: 574]","special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Dual Weapon Mastery II","source_book":"CR"},"payload":{"id":"dual_weapon_mastery_ii_cr_84","name":"Dual Weapon Mastery II","type_tags":["Combat","Melee","Ranged"],"prerequisites_text":"Dexterity 15, base attack bonus +6, Dual Weapon Mastery I","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":15},{"type":"base_attack_bonus","value":6},{"type":"feat","feat_id":"dual_weapon_mastery_i"}],"benefit_summary":"When attacking with two weapons or a double weapon (full attack), take -2 penalty on all attacks instead of -10.","benefit_text_long":"When you attack with two weapons or both ends of a double weapon as a part of a full attack action, you take a -2 penalty (instead of a -10 penalty) on all attack rolls until the start of your next turn. You only gain this reduced penalty if you are wielding a weapon with which you are proficient. [CRB p.85, cite: 574-575]","effects":[{"type":"penalty_reduction","context":"full_attack_with_two_weapons_or_double_weapon","original_penalty":-10,"new_penalty":-2,"condition":"proficient_with_weapon_used"}],"normal_text":"If you use a full attack action to make more than one attack on your turn (see Full Attack, page 154), you take a -10 penalty on all attack rolls for the round. [CRB p.85, cite: 575]","special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Dual Weapon Mastery III","source_book":"CR"},"payload":{"id":"dual_weapon_mastery_iii_cr_84","name":"Dual Weapon Mastery III","type_tags":["Combat","Melee","Ranged"],"prerequisites_text":"Dexterity 17, base attack bonus +11, Dual Weapon Mastery I, Dual Weapon Mastery II","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":17},{"type":"base_attack_bonus","value":11},{"type":"feat","feat_id":"dual_weapon_mastery_i"},{"type":"feat","feat_id":"dual_weapon_mastery_ii"}],"benefit_summary":"When attacking with two weapons or a double weapon (full attack), take no penalty on attack rolls.","benefit_text_long":"When you wield two weapons or attack with both ends of a double weapon as a part of a full attack action, you take no penalty on your attack rolls. You only gain this benefit if you are wielding a weapon with which you are proficient. [CRB p.85, cite: 576-577]","effects":[{"type":"penalty_negation","context":"full_attack_with_two_weapons_or_double_weapon","original_penalty":-10,"condition":"proficient_with_weapon_used"}],"normal_text":"If you use a full attack action to make more than one attack on your turn (see Full Attack, page 154), you take a -10 penalty on all attack rolls for the round. [CRB p.85, cite: 577]","special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Exotic Weapon Proficiency","source_book":"CR"},"payload":{"id":"exotic_weapon_proficiency_cr_84","name":"Exotic Weapon Proficiency","type_tags":["General","Proficiency","Combat"],"prerequisites_text":"Base attack bonus +1","prerequisites_structured":[{"type":"base_attack_bonus","value":1}],"benefit_summary":"Choose one exotic weapon (e.g., bowcaster, amphistaff). You can use that weapon without penalty.","benefit_text_long":"Choose an exotic weapon, such as bowcaster or atlatl (see Exotic Weapons, page 119). You understand how to use that type of exotic weapon in combat. You make attack rolls with the weapon normally. [CRB p.85, cite: 577-578]","effects":[{"type":"proficiency","proficiency_type":"exotic_weapon","weapon_name_choice":true,"notes":"Benefit applies to one chosen exotic weapon."}],"normal_text":"A character who uses a weapon without being proficient with it takes a -5 penalty on attack rolls. [CRB p.85, cite: 578]","special_text":"You can gain this feat multiple times. Each time you take the feat, it applies to a different weapon. [CRB p.85, cite: 578]","bonus_feat_for_classes":["Noble","Soldier"],"source_book":"CR","page":"84"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Extra Rage","source_book":"CR"},"payload":{"id":"extra_rage_cr_85","name":"Extra Rage","type_tags":["General"],"prerequisites_text":"Rage species trait","prerequisites_structured":[{"type":"species_trait_required","trait_name":"Rage"}],"benefit_summary":"Can rage one additional time per day.","benefit_text_long":"You can fly into a rage more often. You can rage one additional time per day. [CRB p.86, cite: 578-579]","effects":[{"type":"ability_usage_increase","ability_name":"Rage","increase_amount_per_day":1}],"normal_text":null,"special_text":"You can take this feat multiple times; each time you take the feat, you can rage one additional time per day. [CRB p.86, cite: 579]","bonus_feat_for_classes":[],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Extra Second Wind","source_book":"CR"},"payload":{"id":"extra_second_wind_cr_85","name":"Extra Second Wind","type_tags":["General"],"prerequisites_text":"Trained in Endurance","prerequisites_structured":[{"type":"skill_trained","skill_id":"endurance"}],"benefit_summary":"Can catch second wind one additional time per day (still only once per encounter).","benefit_text_long":"You tend to come back from the edge of oblivion more often. You can catch your second wind one additional time per day, but you can still only catch a second wind once per encounter (see Second Wind, page 146). [CRB p.86, cite: 579]","effects":[{"type":"ability_usage_increase","ability_name":"Second Wind","increase_amount_per_day":1,"restriction":"still_only_once_per_encounter"}],"normal_text":"A hero can catch his or her second wind once per day. [CRB p.86, cite: 579]","special_text":"A nonheroic character that takes this feat for the first time can catch a second wind once per day. You can take this feat multiple times; each time you take this feat, you can catch a second wind one additional time per day. [CRB p.86, cite: 580]","bonus_feat_for_classes":[],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Far Shot","source_book":"CR"},"payload":{"id":"far_shot_cr_85","name":"Far Shot","type_tags":["Combat","Ranged"],"prerequisites_text":"Point Blank Shot","prerequisites_structured":[{"type":"feat","feat_id":"point_blank_shot"}],"benefit_summary":"Range categories for ranged attacks are considered one less (e.g., short range has no penalty, medium is -2, long is -5).","benefit_text_long":"You are better at shooting distant foes. When you use a ranged weapon against targets at short, medium, or long range, the range category is considered one less. In other words, you take no penalty on ranged attack rolls against targets at short range, a -2 penalty on ranged attack rolls made against targets at medium range, and a -5 penalty on a ranged attack rolls made against targets at long range. [CRB p.86, cite: 580-581]","effects":[{"type":"range_penalty_modification","modification_type":"reduce_range_category_by_one_step","new_penalties":{"short_range":0,"medium_range":-2,"long_range":-5}}],"normal_text":"When making a ranged attack roll, a character takes a -2 penalty against targets at short range, a -5 penalty against targets at medium range, and a -10 penalty against targets at long range. [CRB p.86, cite: 581]","special_text":null,"bonus_feat_for_classes":["Scout","Soldier"],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Force Boon","source_book":"CR"},"payload":{"id":"force_boon_cr_85","name":"Force Boon","type_tags":["Force"],"prerequisites_text":"Force Sensitivity","prerequisites_structured":[{"type":"feat","feat_id":"force_sensitivity"}],"benefit_summary":"Gain three additional Force Points at each level.","benefit_text_long":"You are able to draw upon the Force more often than less skilled users. You gain three additional Force Points at each level. [CRB p.86, cite: 581-582]","effects":[{"type":"resource_increase","resource_name":"Force Points","increase_amount_per_level":3}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":[],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Force Sensitivity","source_book":"CR"},"payload":{"id":"force_sensitivity_cr_85","name":"Force Sensitivity","type_tags":["Force"],"prerequisites_text":"Cannot be a droid","prerequisites_structured":[{"type":"not_droid"}],"benefit_summary":"Can make Use the Force checks; Use the Force is a class skill. Can select Force Talents.","benefit_text_long":"You are Force-sensitive, allowing you to call on the Force and learn to draw on its power. You can make Use the Force checks, and Use the Force is considered a class skill for you. In addition, whenever you gain a new talent, you have the option of selecting a Force talent instead. You must meet the prerequisites of the Force talent to select it (see Force Talents, page 100). [CRB p.86, cite: 582-583]","effects":[{"type":"skill_access_and_usage","skill_id":"use_the_force","benefit":"can_make_checks_skill_becomes_class_skill"},{"type":"talent_selection_expansion","can_select_force_talents":true}],"normal_text":"You can't make Use the Force checks (page 77) or select Force talents unless you have the Force Sensitivity feat. [CRB p.86, cite: 583]","special_text":null,"bonus_feat_for_classes":[],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Force Training","source_book":"CR"},"payload":{"id":"force_training_cr_85","name":"Force Training","type_tags":["Force"],"prerequisites_text":"Force Sensitivity, trained in the Use the Force skill","prerequisites_structured":[{"type":"feat","feat_id":"force_sensitivity"},{"type":"skill_trained","skill_id":"use_the_force"}],"benefit_summary":"Learn Force powers equal to 1 + WIS modifier (min 1). Can select the same power multiple times.","benefit_text_long":"You learn one or more Force powers (see Force Powers, page 95). You add to your Force power suite a number of Force powers equal to 1 + your Wisdom modifier (minimum 1). You can add the same power more than once. [CRB p.86, cite: 583]","effects":[{"type":"learn_force_powers","number_learned_formula":"1 + WIS_modifier","minimum_learned":1,"can_learn_same_power_multiple_times":true}],"normal_text":null,"special_text":"You can take this feat more than once. Each time you take this feat, you add to your Force suite a number of new Force powers equal to 1 + your Wisdom modifier. If your Wisdom modifier permanently increases, you immediately gain a number of Force powers equal to the number of Force Training feats you have taken. (Errata p.290 clarifies the number of powers gained on taking the feat again is 1 + WIS mod). [CRB p.86, cite: 584]","bonus_feat_for_classes":[],"source_book":"CR","page":"85","errata_applied":"CRB Errata p.290: Benefit for taking feat multiple times clarified to '1 + your Wisdom modifier' new powers."}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Great Cleave","source_book":"CR"},"payload":{"id":"great_cleave_cr_85","name":"Great Cleave","type_tags":["Combat","Melee"],"prerequisites_text":"Str 13, Power Attack, Cleave, base attack bonus +4","prerequisites_structured":[{"type":"ability_score","ability":"STR","value":13},{"type":"feat","feat_id":"power_attack"},{"type":"feat","feat_id":"cleave"},{"type":"base_attack_bonus","value":4}],"benefit_summary":"As Cleave feat, but no limit to the number of times you can use it per round.","benefit_text_long":"You can wield a melee weapon with such power that you can strike multiple times when you drop your opponents. As the Cleave feat (page 83), except that you have no limit to the number of times you can use it per round. [CRB p.86, cite: 584-585]","effects":[{"type":"feat_enhancement","enhanced_feat_id":"cleave","enhancement_description":"no_limit_to_uses_per_round"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Improved Charge","source_book":"CR"},"payload":{"id":"improved_charge_cr_85","name":"Improved Charge","type_tags":["Combat","Mobility"],"prerequisites_text":"Dexterity 13, Dodge, Mobility","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":13},{"type":"feat","feat_id":"dodge"},{"type":"feat","feat_id":"mobility"}],"benefit_summary":"Can charge without moving in a straight line and can alter direction to avoid obstacles.","benefit_text_long":"You can charge around obstacles. You can make a charge (see page 152) without having to move in a straight line, and you can alter your direction when making a charge to avoid obstacles. All other charge rules apply. [CRB p.86, cite: 585]","effects":[{"type":"action_modification","modified_action":"charge","benefit":"can_move_non_linearly_and_alter_direction_to_avoid_obstacles"}],"normal_text":"A character must charge in an unobstructed straight line. [CRB p.86, cite: 585]","special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Improved Damage Threshold","source_book":"CR"},"payload":{"id":"improved_damage_threshold_cr_86","name":"Improved Damage Threshold","type_tags":["Combat","Defensive"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Increase your damage threshold by 5.","benefit_text_long":"You are harder to take down in a fight. You increase your damage threshold by 5 (see Damage Threshold, page 146). [CRB p.87, cite: 587]","effects":[{"type":"stat_increase","stat_name":"damage_threshold","value":5}],"normal_text":"A creature without this feat has a damage threshold equal to its Fortitude Defense plus its size modifier (+5 for Large, +10 for Huge, +20 for Gargantuan, or +50 for Colossal). [CRB p.87, cite: 587]","special_text":"You can take this feat more than once. Its effects stack. Each time you take this feat, increase your damage threshold by 5. [CRB p.87, cite: 587-588]","bonus_feat_for_classes":[],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Improved Defenses","source_book":"CR"},"payload":{"id":"improved_defenses_cr_85","name":"Improved Defenses","type_tags":["Combat","Defensive"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Gain +1 bonus to Reflex, Fortitude, and Will Defense.","benefit_text_long":"You are skilled at fending off attacks of many forms. You gain a +1 bonus to your Reflex Defense, Fortitude Defense, and Will Defense. [CRB p.86, cite: 585]","effects":[{"type":"bonus","bonus_or_penalty_type":"untyped","target_stat":"reflex_defense","value":1},{"type":"bonus","bonus_or_penalty_type":"untyped","target_stat":"fortitude_defense","value":1},{"type":"bonus","bonus_or_penalty_type":"untyped","target_stat":"will_defense","value":1}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":[],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Improved Disarm","source_book":"CR"},"payload":{"id":"improved_disarm_cr_85","name":"Improved Disarm","type_tags":["Combat","Melee"],"prerequisites_text":"Intelligence 13, Melee Defense","prerequisites_structured":[{"type":"ability_score","ability":"INT","value":13},{"type":"feat","feat_id":"melee_defense"}],"benefit_summary":"Gain +5 bonus on melee attack rolls to disarm. If you fail, opponent doesn't get a free attack.","benefit_text_long":"You are skilled at disarming opponents in melee combat. You gain a +5 bonus on any melee attack roll made to disarm an opponent. In addition, if you fail to disarm your opponent, he doesn't get to make a free attack against you. [CRB p.86, cite: 586]","effects":[{"type":"bonus","bonus_or_penalty_type":"untyped","target_action":"melee_attack_roll_to_disarm","value":5},{"type":"negate_opponent_action","action_negated":"free_attack_on_failed_disarm_attempt"}],"normal_text":"See the normal disarm rules on page 152. [CRB p.86, cite: 586]","special_text":null,"bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"85"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Linguist","source_book":"CR"},"payload":{"id":"linguist_cr_86","name":"Linguist","type_tags":["General","Skill"],"prerequisites_text":"Intelligence 13","prerequisites_structured":[{"type":"ability_score","ability":"INT","value":13}],"benefit_summary":"Gain bonus languages equal to 1 + INT modifier (min 1).","benefit_text_long":"You pick up languages quickly and easily. You gain a number of bonus languages equal to 1 plus your Intelligence bonus (minimum of 1). See the sidebar on page 22 for a list of common languages. [CRB p.87, cite: 588]","effects":[{"type":"language_grant","number_of_languages_formula":"1 + INT_modifier","minimum_languages_granted":1}],"normal_text":null,"special_text":"You can take this feat more than once. Each time you take this feat, you gain a number of additional languages equal to 1 plus your Intelligence bonus (minimum of 1). [CRB p.87, cite: 588]","bonus_feat_for_classes":["Noble","Scout"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Martial Arts I","source_book":"CR"},"payload":{"id":"martial_arts_i_cr_86","name":"Martial Arts I","type_tags":["Combat","Melee","Unarmed"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Unarmed attack damage increases by one die step (e.g., 1d4 to 1d6). Gain +1 dodge bonus to Reflex Defense.","benefit_text_long":"You are adept at fighting unarmed. Damage dealt by your unarmed attacks increases by one die step: 1d3 becomes 1d4, 1d4 becomes 1d6, and 1d6 becomes 1d8. In addition, you gain a +1 dodge bonus to your Reflex Defense. [CRB p.87, cite: 588-589]","effects":[{"type":"unarmed_damage_increase","die_step_increase":1,"examples":{"1d3_becomes":"1d4","1d4_becomes":"1d6","1d6_becomes":"1d8"}},{"type":"bonus","bonus_type":"dodge","target_stat":"reflex_defense","value":1}],"normal_text":"The amount of damage you deal with a successful unarmed attack is based on your size: Small, 1d3; Medium, 1d4; Large, 1d6. [CRB p.87, cite: 589]","special_text":"A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.87, cite: 589-590]","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Martial Arts II","source_book":"CR"},"payload":{"id":"martial_arts_ii_cr_86","name":"Martial Arts II","type_tags":["Combat","Melee","Unarmed"],"prerequisites_text":"Martial Arts I, base attack bonus +3","prerequisites_structured":[{"type":"feat","feat_id":"martial_arts_i"},{"type":"base_attack_bonus","value":3}],"benefit_summary":"Unarmed attack damage increases by another die step (e.g., 1d6 to 1d8). Gain additional +1 dodge bonus to Reflex Defense.","benefit_text_long":"You are a master at fighting unarmed. Damage dealt by your unarmed attacks increases by one die step: 1d4 becomes 1d6, 1d6 becomes 1d8, and 1d8 becomes 1d10. In addition, you gain a +1 dodge bonus to your Reflex Defense (which stacks with the dodge bonus granted by the Martial Arts I feat). [CRB p.87, cite: 590-591]","effects":[{"type":"unarmed_damage_increase","die_step_increase":1,"examples":{"1d4_becomes":"1d6","1d6_becomes":"1d8","1d8_becomes":"1d10"}},{"type":"bonus","bonus_type":"dodge","target_stat":"reflex_defense","value":1,"stacking_note":"stacks with Martial Arts I bonus"}],"normal_text":"The amount of damage you deal with a successful unarmed attack is based on your size: Small, 1d3; Medium, 1d4; Large, 1d6. [CRB p.87, cite: 591]","special_text":"A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.87, cite: 591]","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Martial Arts III","source_book":"CR"},"payload":{"id":"martial_arts_iii_cr_86","name":"Martial Arts III","type_tags":["Combat","Melee","Unarmed"],"prerequisites_text":"Martial Arts I, Martial Arts II, base attack bonus +6","prerequisites_structured":[{"type":"feat","feat_id":"martial_arts_i"},{"type":"feat","feat_id":"martial_arts_ii"},{"type":"base_attack_bonus","value":6}],"benefit_summary":"Unarmed attack damage increases by a final die step (e.g., 1d8 to 1d10). Gain additional +1 dodge bonus to Reflex Defense.","benefit_text_long":"Your martial arts prowess is second to none. Damage dealt by your unarmed attacks increases by one die step: 1d6 becomes 1d8, 1d8 becomes 1d10, and 1d10 becomes 1d12. In addition, you gain a +1 dodge bonus to your Reflex Defense (which stacks with the dodge bonus granted by the Martial Arts I and Martial Arts II feats). [CRB p.87, cite: 591-592]","effects":[{"type":"unarmed_damage_increase","die_step_increase":1,"examples":{"1d6_becomes":"1d8","1d8_becomes":"1d10","1d10_becomes":"1d12"}},{"type":"bonus","bonus_type":"dodge","target_stat":"reflex_defense","value":1,"stacking_note":"stacks with Martial Arts I & II bonuses"}],"normal_text":"The amount of damage you deal with a successful unarmed attack is based on your size: Small, 1d3; Medium, 1d4; Large, 1d6. [CRB p.87, cite: 592]","special_text":"A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.87, cite: 592-593]","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Melee Defense","source_book":"CR"},"payload":{"id":"melee_defense_cr_86","name":"Melee Defense","type_tags":["Combat","Defensive","Melee"],"prerequisites_text":"Intelligence 13","prerequisites_structured":[{"type":"ability_score","ability":"INT","value":13}],"benefit_summary":"When making a melee attack (standard action), can take penalty up to -5 on attack and add same as dodge bonus to Reflex Defense (up to BAB). Lasts until start of next turn.","benefit_text_long":"You are trained at using your combat ability for defense as well as offense. When you use a standard action to make a melee attack, you can take a penalty of up to -5 on your attack roll and add the same number (up to +5) as a dodge bonus to your Reflex Defense. This number may not exceed your base attack bonus. The changes to attack rolls and Reflex Defense last until the start of your next turn. [CRB p.87, cite: 593-594]","effects":[{"type":"combat_trade_off","action_trigger":"standard_action_melee_attack","max_trade_value":5,"trade_penalty_stat":"melee_attack_roll","trade_bonus_stat":"reflex_defense_dodge","trade_bonus_cap":"base_attack_bonus","duration":"until_start_of_next_turn"}],"normal_text":"A character without the Melee Defense feat can fight defensively while using the attack action to take a -5 penalty on his attack roll and gain a +2 dodge bonus to his Reflex Defense. [CRB p.87, cite: 594]","special_text":null,"bonus_feat_for_classes":["Jedi","Noble","Scoundrel","Soldier"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Mighty Swing","source_book":"CR"},"payload":{"id":"mighty_swing_cr_86","name":"Mighty Swing","type_tags":["Combat","Melee"],"prerequisites_text":"Strength 13","prerequisites_structured":[{"type":"ability_score","ability":"STR","value":13}],"benefit_summary":"Spend two swift actions in same round to deal +1 die of damage on next melee attack in same round.","benefit_text_long":"You are capable of delivering jarring melee attacks. You can spend two swift actions in the same round to deal +1 die of damage on your next melee attack in the same round. The effects of this feat do not stack with the extra damage provided by the Rapid Strike feat. [CRB p.87, cite: 595]","effects":[{"type":"damage_bonus","action_cost":"2_swift_actions_same_round","damage_bonus_dice":"1d","target_attack":"next_melee_attack_same_round","stacking_restriction":"does_not_stack_with_rapid_strike_damage_bonus"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Mobility","source_book":"CR"},"payload":{"id":"mobility_cr_86","name":"Mobility","type_tags":["Combat","Defensive"],"prerequisites_text":"Dexterity 13, Dodge","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":13},{"type":"feat","feat_id":"dodge"}],"benefit_summary":"Gain +5 dodge bonus to Reflex Defense against attacks of opportunity caused when moving out of or into a threatened area.","benefit_text_long":"You are skilled at moving past opponents and avoiding opportunistic attacks. You get a +5 dodge bonus to Reflex Defense against attacks of opportunity caused when you move out of or into a threatened area (see Attacks of Opportunity, page 155). A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Dodge bonuses stack with each other, unlike most types of bonuses. [CRB p.87, cite: 595-596]","effects":[{"type":"bonus","bonus_type":"dodge","target_stat":"reflex_defense","value":5,"condition":"against_attacks_of_opportunity_caused_by_movement_into_or_out_of_threatened_area"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi","Scoundrel","Scout"],"source_book":"CR","page":"86"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Pin","source_book":"CR"},"payload":{"id":"pin_cr_87","name":"Pin","type_tags":["Combat","Grapple","Melee"],"prerequisites_text":"Base attack bonus +1","prerequisites_structured":[{"type":"base_attack_bonus","value":1}],"benefit_summary":"If successful grapple attack and opponent fails opposed grapple check, opponent is pinned until start of your next turn.","benefit_text_long":"You are skilled at immobilizing grappled foes. If you succeed on a grappling attack and your opponent fails the opposed grapple check, your opponent is automatically pinned until the start of your next turn. A pinned creature can't move or take any actions while pinned, and it loses its Dexterity bonus (if any) to Reflex Defense. [CRB p.88, cite: 596-597]","effects":[{"type":"grapple_effect_enhancement","trigger_condition":"succeed_on_grappling_attack_and_win_opposed_grapple_check","effect_on_target":"pinned_until_start_of_your_next_turn","pinned_effects":["cannot_move","cannot_take_actions","loses_DEX_bonus_to_reflex_defense"]}],"normal_text":null,"special_text":"You cannot use the Pin and Trip feats during the same round. You can use the Pin and Crush feat in the same round, however. [CRB p.88, cite: 597]","bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"87"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Point Blank Shot","source_book":"CR"},"payload":{"id":"point_blank_shot_cr_87","name":"Point Blank Shot","type_tags":["Combat","Ranged"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Gain +1 bonus on attack and damage rolls with ranged weapons against opponents within point blank range.","benefit_text_long":"You are skilled at making well-placed shots with ranged weapons at point blank range. You get a +1 bonus on attack and damage rolls with ranged weapons against opponents within point blank range (see Table 8-5: Weapon Ranges, page 129). [CRB p.88, cite: 597-598]","effects":[{"type":"bonus","bonus_type":"untyped","target_stat":"ranged_attack_roll","value":1,"condition":"target_within_point_blank_range"},{"type":"bonus","bonus_type":"untyped","target_stat":"ranged_damage_roll","value":1,"condition":"target_within_point_blank_range"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Scoundrel","Scout","Soldier"],"source_book":"CR","page":"87"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Power Attack","source_book":"CR"},"payload":{"id":"power_attack_cr_87","name":"Power Attack","type_tags":["Combat","Melee"],"prerequisites_text":"Str 13","prerequisites_structured":[{"type":"ability_score","ability":"STR","value":13}],"benefit_summary":"Subtract from melee attack rolls to add same number to melee damage rolls (up to BAB). Bonus doubled for two-handed wielding.","benefit_text_long":"On your action, before making an attack roll, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus. The penalty on attacks and bonus on damage applies until the start of your next turn.","effects":[{"type":"combat_trade_off","trade_penalty_stat":"melee_attack_roll","trade_bonus_stat":"melee_damage_roll","max_trade_value_formula":"base_attack_bonus","duration":"until_start_of_next_turn"}],"normal_text":null,"special_text":"If you attack with a two-handed weapon, or with a one-handed weapon wielded in two hands, instead add twice the number subtracted from your attack rolls. You can't add the bonus from Power Attack to the damage dealt against an object or vehicle.","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"87"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Powerful Charge","source_book":"CR"},"payload":{"id":"powerful_charge_cr_87","name":"Powerful Charge","type_tags":["Combat","Melee","Charge"],"prerequisites_text":"Medium or larger size, base attack bonus +1","prerequisites_structured":[{"type":"size_requirement","min_size":"Medium"},{"type":"base_attack_bonus","value":1}],"benefit_summary":"When you charge, gain an additional +2 to melee attack roll and deal extra damage equal to 1/2 your level.","benefit_text_long":"You can charge with extra force. When you charge, you gain an additional +2 bonus to your melee attack roll. If your melee attack hits, you deal additional damage equal to one-half your level.","effects":[{"type":"charge_enhancement","attack_roll_bonus":2,"damage_bonus_formula":"half_character_level"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi"],"source_book":"CR","page":"87"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Precise Shot","source_book":"CR"},"payload":{"id":"precise_shot_cr_87","name":"Precise Shot","type_tags":["Combat","Ranged"],"prerequisites_text":"Point Blank Shot","prerequisites_structured":[{"type":"feat","feat_id":"point_blank_shot"}],"benefit_summary":"No -5 penalty for shooting or throwing a ranged weapon at an opponent engaged in melee with an ally.","benefit_text_long":"You are skilled at timing your ranged attacks so that you don't hit your allies by mistake. You can shoot or throw a ranged weapon at an opponent engaged in melee combat with one or more of your allies without taking the standard -5 penalty (see Shooting or Throwing into a Melee, page 161).","effects":[{"type":"penalty_negation","negated_penalty_value":-5,"condition":"shooting_or_throwing_ranged_weapon_at_opponent_in_melee_with_ally"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Scoundrel","Scout","Soldier"],"source_book":"CR","page":"87"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Quick Draw","source_book":"CR"},"payload":{"id":"quick_draw_cr_87","name":"Quick Draw","type_tags":["Combat","General"],"prerequisites_text":"Base attack bonus +1","prerequisites_structured":[{"type":"base_attack_bonus","value":1}],"benefit_summary":"Draw or holster a weapon as a swift action instead of a move action.","benefit_text_long":"You can draw and holster weapons with startling quickness. You can draw or holster a weapon as a swift action instead of as a move action.","effects":[{"type":"action_cost_reduction","action_name":"draw_or_holster_weapon","original_action_cost":"move","new_action_cost":"swift"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi","Scoundrel","Soldier"],"source_book":"CR","page":"87"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Rapid Shot","source_book":"CR"},"payload":{"id":"rapid_shot_cr_88","name":"Rapid Shot","type_tags":["Combat","Ranged"],"prerequisites_text":"Base attack bonus +1, proficient with weapon","prerequisites_structured":[{"type":"base_attack_bonus","value":1},{"type":"proficiency_with_specific_weapon"}],"benefit_summary":"With a ranged weapon, fire two shots as a single attack (-2 attack penalty, +1 die damage). Expends 2 shots. (Errata applied)","benefit_text_long":"You can make two quick shots with a ranged weapon as a single attack. When using a ranged weapon, you may fire two shots as a single attack against a single target. You take a -2 penalty on your attack roll, but you deal +1 die of damage with a successful attack.","effects":[{"type":"attack_modification","attack_type":"ranged","number_of_shots":2,"attack_penalty":-2,"damage_bonus_dice":"1d"}],"normal_text":null,"special_text":"Using this feat fires two shots and can only be done if the weapon has sufficient ammunition remaining. The effects of this feat do not stack with the extra damage provided by the Burst Fire feat (page 82) or Deadeye feat (page 84). If you do not have a Strength of 13 or higher, increase the penalty to attacks to –5 when using this feat with non-vehicle weapons. (Errata p.290 [cite: 2003])","bonus_feat_for_classes":["Scoundrel","Scout","Soldier"],"source_book":"CR","page":"88","errata_applied":"Strength prerequisite removed. Special text added regarding STR 13 for penalty with non-vehicle weapons."}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Rapid Strike","source_book":"CR"},"payload":{"id":"rapid_strike_cr_88","name":"Rapid Strike","type_tags":["Combat","Melee"],"prerequisites_text":"Base attack bonus +1, proficient with weapon","prerequisites_structured":[{"type":"base_attack_bonus","value":1},{"type":"proficiency_with_specific_weapon"}],"benefit_summary":"With a melee weapon, make two strikes as a single attack (-2 attack penalty, +1 die damage). (Errata applied)","benefit_text_long":"You can make two quick strikes with a melee weapon as a single attack. When using a melee weapon, you may make two strikes as a single attack against a single target. You take a -2 penalty on your attack roll, but you deal +1 die of damage with a successful attack. The effects of this feat do not stack with the extra damage provided by the Mighty Swing feat.","effects":[{"type":"attack_modification","attack_type":"melee","number_of_strikes":2,"attack_penalty":-2,"damage_bonus_dice":"1d","stacking_restriction":"does_not_stack_with_mighty_swing_damage_bonus"}],"normal_text":null,"special_text":"If you do not have a Dexterity of 13 or higher, increase the penalty to attacks to –5 when using this feat with non-light weapons. (Errata p.290)","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"88","errata_applied":"Dexterity prerequisite removed. Special text added regarding DEX 13 for penalty with non-light weapons."}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Running Attack","source_book":"CR"},"payload":{"id":"running_attack_cr_88","name":"Running Attack","type_tags":["Combat","Mobility"],"prerequisites_text":"Dexterity 13","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":13}],"benefit_summary":"When making a melee or ranged attack, can move both before and after the attack (total distance not greater than speed).","benefit_text_long":"You can move as you attack. When making an attack with a melee or ranged weapon, you can move both before and after the attack, provided that your total distance moved is not greater than your speed.","effects":[{"type":"movement_flexibility","context":"when_making_melee_or_ranged_attack","benefit":"can_move_before_and_after_attack","restriction":"total_distance_moved_not_greater_than_speed"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi","Scoundrel","Scout","Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Shake It Off","source_book":"CR"},"payload":{"id":"shake_it_off_cr_88","name":"Shake It Off","type_tags":["General"],"prerequisites_text":"Constitution 13, trained in Endurance","prerequisites_structured":[{"type":"ability_score","ability":"CON","value":13},{"type":"skill_trained","skill_id":"endurance"}],"benefit_summary":"Spend two swift actions (instead of three) to move +1 step along the condition track.","benefit_text_long":"You have learned to shake off debilitating conditions. You can spend two swift actions instead of three swift actions to move +1 step along the condition track (see Conditions, page 148).","effects":[{"type":"action_cost_reduction","action_name":"recover_on_condition_track","original_action_cost":"3_swift_actions","new_action_cost":"2_swift_actions","benefit":"move_plus_1_step_on_condition_track"}],"normal_text":"It takes three swift actions to move +1 step along the condition track.","special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Skill Focus","source_book":"CR"},"payload":{"id":"skill_focus_cr_88","name":"Skill Focus","type_tags":["General","Skill"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Gain +5 competence bonus on skill checks with one chosen trained skill.","benefit_text_long":"One of your skills is particularly well honed. You gain a +5 competence bonus on skill checks made with one trained skill of your choice.","effects":[{"type":"bonus","bonus_type":"competence","target_skill_choice":true,"value":5,"condition":"skill_must_be_trained"}],"normal_text":null,"special_text":"This feat may be selected multiple times. Its effects do not stack. Each time you take this feat, it applies to a different trained skill.","bonus_feat_for_classes":["Jedi","Noble","Scoundrel","Scout","Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Skill Training","source_book":"CR"},"payload":{"id":"skill_training_cr_88","name":"Skill Training","type_tags":["General","Skill"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Choose one untrained skill from your list of class skills; you become trained in it.","benefit_text_long":"You are considered trained in a new skill. Choose one untrained skill from your list of class skills. You become trained in that skill.","effects":[{"type":"skill_training_grant","skill_choice_from_class_skills":true}],"normal_text":null,"special_text":"This feat may be selected multiple times. Each time you take this feat, it applies to a different class skill.","bonus_feat_for_classes":["Jedi","Noble","Scoundrel","Scout","Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Sniper","source_book":"CR"},"payload":{"id":"sniper_cr_88","name":"Sniper","type_tags":["Combat","Ranged"],"prerequisites_text":"Point Blank Shot, Precise Shot, base attack bonus +4","prerequisites_structured":[{"type":"feat","feat_id":"point_blank_shot"},{"type":"feat","feat_id":"precise_shot"},{"type":"base_attack_bonus","value":4}],"benefit_summary":"Always ignore soft cover when making a ranged attack.","benefit_text_long":"You are particularly adept at hitting the right target in a crowd. You always ignore soft cover (that is, cover provided by a character, creature, or droid) when you make a ranged attack.","effects":[{"type":"ignore_cover_type","cover_type":"soft_cover","condition":"when_making_ranged_attack"}],"normal_text":"You can only ignore cover if you aim (see page 154) before making a ranged attack.","special_text":null,"bonus_feat_for_classes":["Scout","Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Strong in the Force","source_book":"CR"},"payload":{"id":"strong_in_the_force_cr_88","name":"Strong in the Force","type_tags":["Force"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"When spending a Force Point to adjust attack, skill, or ability check results, roll d8s instead of d6s.","benefit_text_long":"You have a particularly strong connection to the Force. When you spend a Force Point to adjust the result of an attack roll, skill check, or ability check, you roll d8s rather than d6s.","effects":[{"type":"force_point_effect_enhancement","context":"adjust_attack_skill_or_ability_check_result","new_die_type":"d8","original_die_type":"d6"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Surgical Expertise","source_book":"CR"},"payload":{"id":"surgical_expertise_cr_88","name":"Surgical Expertise","type_tags":["Skill"],"prerequisites_text":"Trained in Treat Injury","prerequisites_structured":[{"type":"skill_trained","skill_id":"treat_injury"}],"benefit_summary":"Can perform surgery in 10 minutes instead of 1 hour.","benefit_text_long":"You can perform skillful surgical procedures quickly. You can perform surgery in 10 minutes.","effects":[{"type":"skill_time_reduction","skill_id":"treat_injury","application":"perform_surgery","new_time":"10_minutes","original_time":"1_hour"}],"normal_text":"Performing surgery typically takes 1 hour (see the Treat Injury skill, page 74).","special_text":null,"bonus_feat_for_classes":["Noble"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Throw","source_book":"CR"},"payload":{"id":"throw_cr_88","name":"Throw","type_tags":["Combat","Grapple","Melee"],"prerequisites_text":"Trip, base attack bonus +1","prerequisites_structured":[{"type":"feat","feat_id":"trip"},{"type":"base_attack_bonus","value":1}],"benefit_summary":"If you successfully trip an opponent with a grapple attack, can throw them prone up to 1 square beyond reach, dealing unarmed damage.","benefit_text_long":"You can throw a creature that you've grappled. If you successfully trip an opponent with a grapple attack, the opponent falls prone in any unoccupied space you desire up to 1 square beyond your reach and takes bludgeoning damage equal to your unarmed attack damage. A thrown opponent is no longer considered grappled.","effects":[{"type":"grapple_effect_enhancement","trigger_condition":"successfully_trip_opponent_with_grapple_attack","effect_description":"target_falls_prone_in_desired_unoccupied_space_up_to_1_square_beyond_reach_and_takes_unarmed_damage","result_condition":"target_no_longer_grappled"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Toughness","source_book":"CR"},"payload":{"id":"toughness_cr_88","name":"Toughness","type_tags":["General","Defensive"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Gain +1 hit point per character level.","benefit_text_long":"You are tougher than normal. You gain +1 hit point per character level.","effects":[{"type":"hit_point_increase","hp_increase_per_level":1}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Trip","source_book":"CR"},"payload":{"id":"trip_cr_88","name":"Trip","type_tags":["Combat","Grapple","Melee"],"prerequisites_text":"Base attack bonus +1","prerequisites_structured":[{"type":"base_attack_bonus","value":1}],"benefit_summary":"If successful grapple attack and opponent fails opposed grapple check, opponent falls prone and is no longer grappled.","benefit_text_long":"You are skilled at tripping grappled foes. If you succeed on a grappling attack (see page 153) and your opponent fails the opposed grapple check, it falls prone in its space and is no longer considered grappled. A prone opponent takes a -5 penalty on melee attack rolls. Melee attacks made against a prone target gain a +5 bonus, while ranged attacks made against a prone target take a -5 penalty.","effects":[{"type":"grapple_effect_enhancement","trigger_condition":"succeed_on_grappling_attack_and_win_opposed_grapple_check","effect_on_target":"falls_prone_in_its_space_no_longer_grappled"}],"normal_text":null,"special_text":"You cannot use the Pin and Trip feats during the same round.","bonus_feat_for_classes":["Soldier"],"source_book":"CR","page":"88"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Triple Attack","source_book":"CR"},"payload":{"id":"triple_attack_cr_89","name":"Triple Attack","type_tags":["Combat","Melee","Ranged"],"prerequisites_text":"Base attack bonus +11, Double Attack (chosen weapon), proficient with chosen weapon","prerequisites_structured":[{"type":"base_attack_bonus","value":11},{"type":"feat_with_chosen_weapon","feat_id":"double_attack"},{"type":"proficiency_with_chosen_weapon_group_or_exotic"}],"benefit_summary":"Choose a weapon group/exotic weapon (same as Double Attack). With full attack, make a second additional attack (-5 penalty on all attacks, stacks with Double Attack penalty).","benefit_text_long":"You can make an additional attack during a round of combat. Choose a single exotic weapon or one of the following weapon groups: advanced melee weapons, heavy weapons, lightsabers, pistols, rifles, simple weapons. When you use the full attack action, you may make one additional attack when wielding such a weapon. However, you take a -5 penalty on all attack rolls until your next turn because you're trading precision for speed. The extra attack and penalty stack with those of Double Attack.","effects":[{"type":"bonus_attack","trigger_condition":"full_attack_action_with_chosen_weapon_type_from_double_attack","number_of_attacks":1,"attack_penalty":-5,"penalty_duration":"until_start_of_next_turn","notes":"This is an additional attack on top of Double Attack. Total penalty when using both is -10."}],"normal_text":"Making a single attack is a standard action.","special_text":"You may select this feat multiple times. Each time you select this feat, it applies to a different exotic weapon or weapon group.","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"89"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Triple Crit","source_book":"CR"},"payload":{"id":"triple_crit_cr_89","name":"Triple Crit","type_tags":["Combat","Damage"],"prerequisites_text":"Proficient with weapon, base attack bonus +8","prerequisites_structured":[{"type":"proficiency_with_specific_weapon"},{"type":"base_attack_bonus","value":8}],"benefit_summary":"Choose one weapon type (e.g., blaster pistol, lightsaber, unarmed). Deal triple damage on a critical hit with that weapon.","benefit_text_long":"Choose one type of weapon, such as a blaster pistol, vibrodagger, or lightsaber. You deal more damage on a critical hit with that weapon. When you score a critical hit with the selected weapon, you deal triple damage. You may select “unarmed attack” as a weapon for purposes of this feat.","effects":[{"type":"critical_hit_damage_enhancement","weapon_choice":true,"new_damage_multiplier":3}],"normal_text":"A critical hit normally deals double damage to the target.","special_text":"You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different weapon.","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"89"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Vehicular Combat","source_book":"CR"},"payload":{"id":"vehicular_combat_cr_89","name":"Vehicular Combat","type_tags":["Combat","Vehicle","Defensive"],"prerequisites_text":"Trained in Pilot","prerequisites_structured":[{"type":"skill_trained","skill_id":"pilot"}],"benefit_summary":"Once per round as reaction when piloting, negate a weapon hit on vehicle with successful Pilot check (DC = attack roll). Proficient with pilot-operated vehicle weapons.","benefit_text_long":"You can avoid attacks made against your vehicle. Once per round (as a reaction), when you are piloting a vehicle or starship, you may negate a weapon hit by making a successful Pilot check. The DC of the skill check is equal to the result of the attack roll you wish to negate. In addition, while you are piloting a vehicle, you are considered proficient with pilot-operated vehicle weapons. (The vehicle descriptions in Chapter 10 indicate which weapons are operated by the pilot.)","effects":[{"type":"special_action","action_name":"Negate Vehicle Hit","frequency":"once_per_round","action_cost":"reaction","trigger_condition":"vehicle_you_are_piloting_is_hit_by_weapon_attack","check_type":"pilot","dc_formula":"attack_roll_result","on_success_effect":"negate_weapon_hit"},{"type":"proficiency","proficiency_type":"weapon","weapon_category":"pilot_operated_vehicle_weapons"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Scoundrel","Scout","Soldier"],"source_book":"CR","page":"89"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Weapon Finesse","source_book":"CR"},"payload":{"id":"weapon_finesse_cr_89","name":"Weapon Finesse","type_tags":["Combat","Melee"],"prerequisites_text":"Base attack bonus +1","prerequisites_structured":[{"type":"base_attack_bonus","value":1}],"benefit_summary":"Use DEX modifier instead of STR modifier on attack rolls with light melee weapons and lightsabers.","benefit_text_long":"You are especially skilled at using weapons one that can benefit as much from Dexterity as from Strength. When using a light melee weapon or a lightsaber, you may use your Dexterity modifier instead of your Strength modifier on attack rolls.","effects":[{"type":"ability_substitution","target_roll":"melee_attack_rolls","condition":"using_light_melee_weapon_or_lightsaber","original_ability":"STR","substitute_ability":"DEX"}],"normal_text":null,"special_text":null,"bonus_feat_for_classes":["Jedi","Noble"],"source_book":"CR","page":"89"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Weapon Focus","source_book":"CR"},"payload":{"id":"weapon_focus_cr_89","name":"Weapon Focus","type_tags":["Combat"],"prerequisites_text":"Proficient with chosen weapon","prerequisites_structured":[{"type":"proficiency_with_chosen_weapon_group_or_exotic"}],"benefit_summary":"Choose a single exotic weapon or weapon group (unarmed/grapple possible). Gain +1 bonus on attack rolls with it.","benefit_text_long":"Choose a single exotic weapon or weapon group. You are especially good at using these weapons. You can choose unarmed strike or grapple for your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected exotic weapon or weapon group.","effects":[{"type":"bonus","bonus_type":"untyped","target_stat":"attack_rolls_with_chosen_weapon_type","value":1,"weapon_choice":true,"weapon_choice_options":["exotic_weapon","weapon_group","unarmed_strike","grapple"]}],"normal_text":null,"special_text":"You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new exotic weapon or weapon group. (Errata p.299 removed 'Delete the third sentence under the Weapon Focus header.' - this sentence isn't present in CRB p.89 text).","bonus_feat_for_classes":["Jedi","Soldier"],"source_book":"CR","page":"89","errata_applied":"Prerequisite changed from 'Proficiency with weapon' to 'Proficient with chosen weapon'."}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Weapon Proficiency","source_book":"CR"},"payload":{"id":"weapon_proficiency_cr_89","name":"Weapon Proficiency","type_tags":["General","Proficiency","Combat"],"prerequisites_text":null,"prerequisites_structured":[],"benefit_summary":"Choose a weapon group (advanced melee, heavy, lightsabers, pistols, rifles, simple). Proficient with all weapons in that group.","benefit_text_long":"You are proficient with a particular kind of weaponry. Choose one of the following weapon groups: advanced melee weapons, heavy weapons (which includes vehicular weapons and starship weapons), lightsabers, pistols, rifles, and simple weapons. You are proficient with all weapons of the selected group. For more information on weapon groups, see page 119.","effects":[{"type":"proficiency","proficiency_type":"weapon_group_choice","weapon_group_options":["advanced_melee_weapons","heavy_weapons","lightsabers","pistols","rifles","simple_weapons"]}],"normal_text":"If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls.","special_text":"You can gain this feat multiple times. Each time you take the feat, it applies to a different weapon group. You cannot take exotic weapons as a weapon group; instead, you must select the Exotic Weapon Proficiency feat (see page 84) to gain proficiency with a specific exotic weapon (such as the bowcaster or flamethrower).","bonus_feat_for_classes":["Noble","Scoundrel","Scout","Soldier"],"source_book":"CR","page":"89"}},
-{"target_file_key":"feats","action":"update","identifier":{"name":"Whirlwind Attack","source_book":"CR"},"payload":{"id":"whirlwind_attack_cr_89","name":"Whirlwind Attack","type_tags":["Combat","Melee"],"prerequisites_text":"Dex 13, Int 13, Melee Defense, base attack bonus +4","prerequisites_structured":[{"type":"ability_score","ability":"DEX","value":13},{"type":"ability_score","ability":"INT","value":13},{"type":"feat","feat_id":"melee_defense"},{"type":"base_attack_bonus","value":4}],"benefit_summary":"As a full-round action, make an area attack with melee weapon, striking every target within reach (one attack roll applied to all). (Errata applied)","benefit_text_long":"You can strike nearby opponents in an amazing, spinning melee attack. As a full-round action, you can make an area attack with your melee weapon, striking every opponent within your reach. This whirlwind attack uses the area attack rules (see Area Attacks, page 155); you make one attack roll and apply the result to every target in range.","effects":[{"type":"special_attack","action_name":"Whirlwind Attack","action_cost":"full_round","attack_type":"melee_area_attack","target_scope":"every_target_within_reach","notes":"Uses area attack rules (CRB p.155)."}],"normal_text":null,"special_text":"Unleashed: When you use the Whirlwind Attack feat, you can spend a Destiny Point to gain a +5 bonus on your attack roll and knock prone any targets you damage. (This 'Unleashed' text is from Force Unleashed Campaign Guide, not CRB.)","bonus_feat_for_classes":[],"source_book":"CR","page":"89","errata_applied":"CRB Errata p.290: Changed 'opponent' to 'target' in benefit description."}}
+{"target_file_key":"class_rules","action":"update","identifier":{"name":"Class System Core Rules","source_book":"CR"},"payload":{"level_dependent_benefits_heroic":{"description":"Summarizes additional benefits gained as heroic characters advance in level. Some benefits are based on total Character Level, while others (like talents from heroic classes) are based on individual Class Level.","table_reference_crb":"Table 3-1: Experience and Level-Dependent Benefits (CRB p.37)","experience_points_xp":"XP determines overall character level.","feats_progression_by_character_level":{"description":"Heroic characters gain a general feat at 1st total character level, and again at 3rd, 6th, 9th, 12th, 15th, and 18th total character level. This is in addition to any bonus feats from class or species.","source_page_reference":"CR 37, 79"},"talents_progression_by_heroic_class_level":{"description":"Heroic characters typically select a talent from their class's available talent trees at 1st level in that class, and again at every odd-numbered class level gained in that specific heroic class (e.g., 3rd, 5th, 7th class level). This is separate from prestige class talent progression. See 'talents_rules.json' for more general talent rules.","source_page_reference":"CR 36, 37 (Table 3-1 implies this for 'Class Feature')"},"ability_score_increases_by_character_level":{"levels":[4,8,12,16,20],"benefit":"Increase two different ability scores by +1 each.","retroactivity":"Ability score increases are retroactive (e.g., an INT increase affects trained skills and known languages).","multiclass_note":"Gained according to overall character level.","source_page_reference":"CR 20, 37"},"source_page_reference":"CR 37-38"}}},
+  {
+    "target_file_key": "force_rules",
+    "action": "update",
+    "identifier": {
+      "name": "Force System Core Rules",
+      "source_book": "CR"
+    },
+    "payload": {
+      "the_dark_side": {
+        "description": "The dark side offers a quicker, easier path to power, but it corrupts and ultimately consumes those who embrace it.",
+        "dark_side_score_dss": {
+          "tracking": "Characters track their Dark Side Score (DSS), which starts at 0.",
+          "gaining_dark_side_points": [
+            "Knowingly performing an evil act that causes harm to another (e.g., murder, torture, betrayal for personal gain).",
+            "Using a Force power with the [dark side] descriptor.",
+            "Using a talent, technique, or secret that explicitly states it increases the Dark Side Score."
+          ],
+          "immediate_effect_of_gaining_dss_point": "Regain all spent Force Points and move +1 step up the condition track."
+        },
+        "consequences_of_dark_side_score": [
+          {
+            "condition": "DSS equals Wisdom score",
+            "effect": "Character becomes an agent of the dark side, treating NPCs as hostile and PCs as unfriendly by default. Must make a DC 20 Will save to perform any action aiding another if it doesn't directly benefit self or the dark side. This also occurs if the character’s Wisdom score is reduced to be equal to or less than their current Dark Side Score.",
+            "errata_applied": "Clarification on Wisdom score reduction triggering agent of the dark side status from CRB Errata p.291."
+          },
+          {
+            "condition": "DSS equals Constitution score",
+            "effect": "Character becomes wholly consumed by the dark side and is lost as a playable character (becomes an NPC under GM control)."
+          }
+        ],
+        "atoning_for_dark_side_points": {
+          "process": "Character must consciously choose to turn from the dark side and perform acts of good or self-sacrifice over a period of time. At the end of an adventure where such acts occur, can spend a Force Point to reduce DSS by 1. GM determines when atonement is complete.",
+          "source_page_reference": "CR 94"
+        },
+        "dramatic_heroism": {
+          "description": "Performing an act of dramatic heroism (risking self for others or a noble cause without expectation of reward) can sometimes allow a character to avoid gaining a Dark Side Point for an otherwise dark act necessary to achieve the heroic goal, at GM discretion.",
+          "source_page_reference": "CR 94"
+        },
+        "source_page_reference": "CR 93-94"
+      }
+    }
+  },
+  {
+    "target_file_key": "combat_rules",
+    "action": "update",
+    "identifier": { 
+      "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks."
+    },
+    "payload": {
+      "attack_rolls": {
+        "description": "An attack roll represents your attempt to strike your opponent, usually made against the target's Reflex Defense.",
+        "formula_string": "d20 + Base Attack Bonus + Ability Modifier + Size Modifier (for vehicles/starships) + Miscellaneous Modifiers",
+        "components": [
+          {"name": "d20_roll", "description": "A roll of a 20-sided die."},
+          {"name": "base_attack_bonus_bab", "description": "Derived from class and level."},
+          {"name": "ability_modifier", "options": [
+            {"type": "melee_attacks", "ability": "Strength"},
+            {"type": "ranged_attacks", "ability": "Dexterity"}
+          ]},
+          {"name": "size_modifier", "description": "Applies only to vehicles and starships, not usually to characters."},
+          {"name": "miscellaneous_modifiers", "description": "Includes bonuses or penalties from feats, talents, range penalties, cover, concealment, fighting defensively, aiming, etc."}
+        ],
+        "automatic_miss": "A natural 1 (the d20 comes up 1) on an attack roll is always an automatic miss, regardless of modifiers.",
+        "automatic_hit_and_critical_threat": "A natural 20 (the d20 comes up 20) on an attack roll is always an automatic hit. It also 'threatens' a critical hit.",
+        "critical_hits": {
+          "description": "An attack that threatens a critical hit might deal more damage than normal.",
+          "confirming_a_critical_hit": "To confirm a critical hit, reroll the attack. If the second attack roll is also a success (i.e., it would also hit the target's Reflex Defense), the critical hit is confirmed. All modifiers to the attack roll, except for bonuses from spending a Force Point or Destiny Point on the initial roll, apply to this confirmation roll.",
+          "damage_if_confirmed": "If confirmed, a critical hit deals double damage. Roll your damage dice (including any modifiers such as Strength bonus or heroic level damage bonus) twice and total the results. Some weapons, feats, or talents may modify critical hit effects.",
+          "damage_if_not_confirmed": "If the confirmation roll is a miss, the original attack is still a hit, but it deals only normal damage."
+        },
+        "targeting_an_object": "Attacks against objects use a DC based on the object's size (see Chapter 8: Equipment).",
+        "targeting_a_square": "Attacks can target a specific square, typically against Reflex Defense 10. Success means the attack hits that square and deals damage as normal. This is common for area attacks.",
+        "source_page_reference": "CR 146-147"
+      },
+      "damage_rules": {
+        "description": "Rules for determining and applying damage from successful attacks.",
+        "rolling_damage": "If an attack succeeds, roll the appropriate damage dice for the weapon or effect used. This roll typically includes modifiers.",
+        "minimum_damage": "If penalties to damage reduce the damage to 0 or less, a hit still deals 1 point of damage.",
+        "ability_modifier_to_damage": {
+          "melee_weapons": "Add Strength modifier to melee weapon damage rolls.",
+          "thrown_weapons": "Add Strength modifier to damage rolls for thrown weapons.",
+          "exceptions": "Grenades do not have their damage modified by Strength."
+        },
+        "multiplying_damage": "When damage is multiplied (e.g., from a critical hit), roll the damage (with all modifiers) multiple times as indicated and total the results. Extra dice from other sources (like Sneak Attack) are not multiplied on a critical hit unless specified otherwise.",
+        "hit_points": {
+          "definition": "Hit points (HP) represent how much punishment a character can take before becoming seriously impaired or dying.",
+          "losing_hit_points": "Damage from attacks, traps, Force powers, or other hazards reduces a character's current hit points.",
+          "effects_of_hp_damage": [
+            {"condition": "Hit points drop to 0","effect": "Character is disabled and can take only a single move action or swift action each turn. If damage moves the character to exactly 0 HP, they also move -1 step on the condition track."},
+            {"condition": "Hit points drop below 0 (negative HP)","effect": "Character is unconscious and dying. If hit points drop to a negative amount equal to or greater than the character's Constitution score, the character dies."}
+          ],
+          "stabilizing_at_0_hp_or_negative_hp": "A dying character (negative HP but not yet at negative CON score) loses 1 HP per round until stabilized. A character at 0 HP is disabled and in danger of dying if they take further damage. On their next turn after reaching 0 HP, if they take no action, they become stable (but still at 0 HP and disabled). A successful DC 15 Treat Injury check (First Aid) can also stabilize a dying character or a character at 0 HP.",
+          "regaining_hit_points_summary": "Methods include natural healing (CON modifier per day for 8 hours rest), the Treat Injury skill, and some Force powers."
+        },
+        "source_page_reference": "CR 147-148"
+      },
+      "defense_scores": {
+        "description": "A target's Defense scores represent its ability to avoid being hit (Reflex Defense), shrug off physical hardship (Fortitude Defense), or resist mental influence (Will Defense).",
+        "reflex_defense": {
+          "formula_string": "10 + Heroic Level (or Armor Bonus) + Dexterity modifier + Class Bonus + Natural Armor Bonus (if any) + Size Modifier + miscellaneous modifiers",
+          "components_note": "The higher of Heroic Level or Armor Bonus (from worn armor, if proficient) is used.",
+          "flat_footed": "A character who is flat-footed loses their Dexterity bonus (if any) to Reflex Defense. This typically occurs before a character has acted in the first round of combat or when surprised.",
+          "denied_dexterity_bonus_other_situations": "Other situations where Dexterity bonus to Reflex Defense is lost include climbing, balancing, squeezing through tight spaces, or when helpless, stunned, or pinned.",
+          "source_page_reference": "CR 148"
+        },
+        "fortitude_defense": {
+          "formula_string": "10 + Heroic Level + Constitution modifier + Class Bonus + miscellaneous modifiers (including equipment bonuses from armor)",
+          "source_page_reference": "CR 148"
+        },
+        "will_defense": {
+          "formula_string": "10 + Heroic Level + Wisdom modifier + Class Bonus + miscellaneous modifiers",
+          "source_page_reference": "CR 148"
+        },
+        "damage_threshold": {
+          "description": "If an attack deals damage that meets or exceeds a target's Damage Threshold, the target moves -1 step along the condition track in addition to taking damage.",
+          "formula_string": "Fortitude Defense + Size Modifier (for Large or larger targets)",
+          "size_modifiers_to_threshold": [
+            {"size": "Large", "modifier": "+5"},
+            {"size": "Huge", "modifier": "+10"},
+            {"size": "Gargantuan", "modifier": "+20"},
+            {"size": "Colossal (and larger)", "modifier": "+50"}
+          ],
+          "source_page_reference": "CR 148"
+        }
+      }
+    }
+  },
+  {
+    "target_file_key": "combat_rules",
+    "action": "update",
+    "identifier": {
+      "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks."
+    },
+    "payload": {
+      "condition_track": {
+        "description": "The condition track measures a character's current well-being and combat effectiveness, with five steps imposing cumulative penalties. Moving to the bottom of the track renders a character helpless or unconscious.",
+        "source_page_reference": "CR 148-149",
+        "steps_and_penalties": [
+          {"step_value": 0, "condition_name": "Normal", "penalty_description": "No penalties."},
+          {"step_value": -1, "condition_name": "Persistent Condition -1", "penalty_description": "-1 penalty on attack rolls and skill checks."},
+          {"step_value": -2, "condition_name": "Persistent Condition -2", "penalty_description": "-2 penalty on attack rolls and skill checks."},
+          {"step_value": -5, "condition_name": "Persistent Condition -5", "penalty_description": "-5 penalty on attack rolls and skill checks."},
+          {"step_value": -10, "condition_name": "Persistent Condition -10", "penalty_description": "-10 penalty on attack rolls and skill checks."},
+          {"step_value": "Bottom_of_Track", "condition_name": "Helpless/Unconscious", "penalty_description": "Character is helpless. If moved to the bottom of the track as a result of damage, the character falls unconscious."}
+        ],
+        "moving_on_the_track": {
+          "damage_threshold_interaction": "If an attack deals damage that meets or exceeds a target's Damage Threshold, the target moves -1 step down the condition track in addition to taking damage.",
+          "other_effects": "Talents, Force powers, critical hits, poisons, diseases, and other special circumstances can also cause a character to move along the condition track.",
+          "cumulative_effects": "Effects that move a character on the condition track are cumulative. However, a character cannot be moved more than one step down the track from a single attack unless a specific ability (like a critical hit effect or certain talents) states otherwise."
+        },
+        "recovering_on_the_track": {
+          "second_wind": {
+            "description": "Once per day, a heroic character can catch a second wind by spending three swift actions (which can be spread over multiple rounds). This moves the character +1 step up the condition track and allows them to regain hit points equal to one-quarter of their maximum hit points (rounded down).",
+            "action_cost": "Three swift actions.",
+            "frequency": "Once per day (heroic characters only).",
+            "benefit": "Move +1 step up the condition track; regain HP = floor(max_HP / 4).",
+            "errata_note": "Errata (CRB p.297) notes Second Wind can only be used once per encounter."
+          },
+          "other_recovery_methods": "Some talents, Force powers, or the Treat Injury skill can allow a character to move up the condition track.",
+          "end_of_encounter": "Normally, unless specified as a persistent condition, a character returns to the top of the condition track (Normal) at the end of an encounter."
+        },
+        "persistent_conditions": {
+          "description": "Some effects cause a persistent condition. A persistent condition is noted on the condition track and does not go away at the end of an encounter.",
+          "removal": "Removing a persistent condition typically requires specific actions such as an extended period of rest (usually 8 hours), successful use of the Treat Injury skill, or specific Force powers. The duration or removal method is specified by the effect that caused it."
+        }
+      },
+      "movement_and_position": {
+        "description": "Rules governing character and vehicle movement, positioning, and interaction with terrain and other entities on the battlefield.",
+        "source_page_reference": "CR 149-151",
+        "speed": {
+          "definition": "A character's speed determines how far they can move in a round using a move action.",
+          "types": ["Land", "Swim", "Fly", "Burrow"],
+          "moving_as_move_action": "Move up to speed.",
+          "moving_as_standard_action_trade_off": "Can take an additional move action by giving up standard action (total 2x speed).",
+          "running_as_full_round_action": "Move up to 4x speed in a straight line (3x in heavy armor or with heavy load); lose Dexterity bonus to Reflex Defense. Endurance check may be required for sustained running."
+        },
+        "moving_through_a_square": {
+          "unoccupied": "No special rules.",
+          "occupied_by_ally": "Can move through an ally's square freely.",
+          "occupied_by_enemy": {
+            "general_rule": "Cannot normally move through an enemy's square.",
+            "exceptions": [
+              "If enemy is helpless or unaware of your presence.",
+              "Using Acrobatics skill (Tumble application, DC 15) to move through a threatened or occupied square (counts as 2 squares of movement).",
+              "Making an Overrun special attack (see Special Attacks)."
+            ]
+          },
+          "very_small_creatures": "Diminutive or Fine creatures can often move through squares occupied by larger creatures without penalty."
+        },
+        "difficult_terrain": {
+          "definition": "Terrain that slows movement, such as dense undergrowth, deep sand, rubble, or steep stairs.",
+          "cost_to_enter": "Costs 2 squares of movement to enter a square of difficult terrain (e.g., moving 1 square into difficult terrain costs 2 squares of speed).",
+          "diagonal_movement": "Moving diagonally into a difficult terrain square costs 3 squares of movement."
+        },
+        "obstacles": {
+          "low_obstacles": "Obstacles less than 1 meter high (e.g., crates, low walls) cost 2 squares of movement to cross.",
+          "hampering_terrain": "Walls, fences, or very narrow surfaces may require Climb or Acrobatics checks to navigate."
+        },
+        "flanking": {
+          "description": "If you and an ally are on opposite sides of an opponent and both are threatening that opponent, you are flanking.",
+          "benefit": "You and your flanking ally each gain a +2 bonus on melee attack rolls against the flanked opponent.",
+          "requirements": ["Must be on opposite sides (a line drawn between you and your ally must pass through opposite sides of the opponent's fighting space).", "Both must be threatening the opponent."]
+        },
+        "prone_condition": {
+          "description": "Lying on the ground.",
+          "effects_on_character": [
+            "-5 penalty on melee attack rolls.",
+            "Cannot make ranged attacks unless using a weapon that can be fired while prone (e.g., some pistols or specially designed rifles) or has a specific feat/talent.",
+            "Opponents gain a +5 bonus on melee attack rolls against the prone character.",
+            "Opponents take a -5 penalty on ranged attack rolls against the prone character."
+          ],
+          "actions": {
+            "standing_up": "Move action that provokes an Attack of Opportunity. (Acrobatics DC 15, Trained Only, allows standing as a swift action).",
+            "dropping_prone": "Swift action that does not provoke an Attack of Opportunity. (Acrobatics DC 15, Trained Only, allows dropping prone as a free action)."
+          }
+        },
+        "squeezing": {
+          "description": "Moving through a space at least half as wide as your normal fighting space, but smaller than it.",
+          "movement_cost": "Costs 2 squares of movement to enter a square you are squeezing into.",
+          "penalties_while_squeezing": "-5 penalty on all attack rolls and -5 penalty to Reflex Defense."
+        }
+      },
+      "attacks_of_opportunity": {
+        "description": "Attacks of opportunity (AoOs) are free melee attacks a character can make against a target that lets its guard down in combat within the character's threatened area.",
+        "source_page_reference": "CR 151-152",
+        "reach_and_threatened_area": "Typically all squares adjacent to the character. Reach weapons extend this area.",
+        "provoking_an_aoo": [
+          {"action": "Moving out of a threatened square","notes": "Only the first square of movement provokes. Withdrawing is a specific action to avoid this."},
+          {"action": "Making a ranged attack while threatened","notes": "If an enemy is adjacent to you."},
+          {"action": "Using certain skills while threatened","skills_examples": ["Concentration (usually for Force powers)","Mechanics","Treat Injury","Use Computer","Use the Force (for powers)"],"notes": "GM discretion for other distracting skills."},
+          {"action": "Other specific actions","notes": "As specified by certain maneuvers or at GM discretion (e.g., standing up from prone)."}
+        ],
+        "making_an_aoo": {
+          "type": "Free melee attack.",
+          "attack_bonus": "Normal melee attack bonus.",
+          "reaction_cost": "Uses the character's reaction for the round.",
+          "flat_footed_restriction": "Cannot make AoOs while flat-footed or otherwise unable to react."
+        },
+        "limit_per_round": "Normally, a character can make only one Attack of Opportunity per round, regardless of how many actions provoke one.",
+        "combat_reflexes_feat_interaction": "The Combat Reflexes feat allows a character to make additional AoOs per round, up to their Dexterity bonus, and allows AoOs while flat-footed.",
+        "multiple_aoos_from_one_action": "Only one AoO can be taken for any single provoking action by an opponent, even if multiple characters threaten that opponent or if one character has multiple AoOs available."
+      },
+      "aid_another_in_combat": {
+        "description": "As a standard action, a character can attempt to aid an ally's attack or hinder an opponent's attack. This is a specific application of the Aid Another general rule.",
+        "source_page_reference": "CR 151 (also see general Aid Another p.61-62)",
+        "to_aid_an_allys_attack": {
+          "action_cost": "Standard Action.",
+          "requirement": "Must be in a position to attack the opponent the ally is targeting.",
+          "mechanic": "Make an attack roll against Reflex Defense 10.",
+          "success_outcome": "Ally gains a +2 circumstance bonus on their next attack roll against that specific opponent, provided the attack occurs before the start of your next turn.",
+          "failure_outcome": "Ally gains no bonus."
+        },
+        "to_suppress_an_enemy": {
+          "action_cost": "Standard Action.",
+          "requirement": "Designate one opponent.",
+          "mechanic": "Make an attack roll against Reflex Defense 10.",
+          "success_outcome": "The designated opponent takes a -2 circumstance penalty on their next attack roll, provided the attack occurs before the start of your next turn.",
+          "failure_outcome": "Opponent takes no penalty."
+        }
+      },
+      "cover_and_concealment": {
+        "description": "Rules governing how obstacles and visibility affect combat.",
+        "source_page_reference": "CR 155-156",
+        "cover": {
+          "definition": "Anything that physically blocks attacks, such as a wall, a large crate, or another character.",
+          "granting_cover": "Cover is granted if a line from the attacker to any part of the target's square passes through an obstacle or another creature.",
+          "reflex_defense_bonus": {
+            "standard_cover": "+5 cover bonus to Reflex Defense.",
+            "improved_cover": "+10 cover bonus to Reflex Defense (e.g., target is prone behind a low wall, or only their head is exposed).",
+            "total_cover": "Target cannot be targeted directly by attacks or Force powers that require line of sight."
+          },
+          "soft_cover": "Cover provided by another character, creature, or droid grants a +5 cover bonus to Reflex Defense."
+        },
+        "concealment": {
+          "definition": "Anything that makes it harder to see a target, such as darkness, shadows, fog, smoke, or invisibility.",
+          "miss_chance": {
+            "standard_concealment": "Attacks against a target with concealment suffer a 20% miss chance. If the attack hits, the attacker must roll d100; a result of 1-20 means the attack misses due to concealment.",
+            "total_concealment": "Attacks against a target with total concealment suffer a 50% miss chance. Attacker must typically guess the target's square. A successful guess still requires rolling for the miss chance."
+          },
+          "ignoring_concealment": "Darkvision negates concealment from darkness (but not total concealment from darkness). Some species traits, talents, feats, or Force powers may allow ignoring concealment.",
+          "natural_20_vs_concealment": "A natural 20 on an attack roll ignores the miss chance from concealment (but not total concealment). (CRB Errata p.298)"
+        }
+      }
+    }
+  },
+  {
+    "target_file_key": "combat_rules",
+    "action": "update",
+    "identifier": {
+      "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks."
+    },
+    "payload": {
+      "special_attacks": {
+        "description": "Details on various special attack maneuvers available to characters.",
+        "source_page_reference": "CR 152-155",
+        "maneuvers": [
+          {
+            "action_name": "Aim",
+            "action_cost": "Standard Action (CRB p.154, listed under Full-Round Actions but is a Standard Action to setup an attack)",
+            "description": "Carefully aim a ranged weapon or starship weapon before making an attack.",
+            "effects_summary": [
+              "Gain a +2 circumstance bonus on your next attack roll made before the end of your turn.",
+              "Alternatively, you can ignore any cover the target has (but not improved cover).",
+              "Alternatively, you can ignore any concealment the target has (but not total concealment)."
+            ],
+            "target_requirements": "A single target.",
+            "notes": "You must choose which benefit to apply before making the attack roll. You cannot aim if you are using autofire.",
+            "errata_applied_notes": "CRB Errata p.298: Clarifies 'ignore cover' means the target gains no cover bonus to Reflex Defense from that source of cover."
+          },
+          {
+            "action_name": "Autofire",
+            "action_cost": "Standard Action (to make an autofire attack)",
+            "description": "Spray a 2x2 square area with fire from an autofire-capable weapon.",
+            "effects_summary": [
+              "Targets a 2-square-by-2-square area.",
+              "Make a single attack roll against Reflex Defense 10 (plus range increment penalties).",
+              "If the attack hits, all creatures, droids, and objects in the target area take full weapon damage.",
+              "If the attack misses, shots go wild and deal no damage.",
+              "Uses 10 shots from the weapon's power pack or ammunition supply."
+            ],
+            "notes": "Cannot be aimed at a specific target (unless using Burst Fire feat). Cannot make critical hits with autofire. Area attacks ignore cover unless target has total cover. Area attacks ignore concealment unless target has total concealment (in which case, normal 50% miss chance applies).",
+            "special_qualities_interaction": "Some talents or feats (like Burst Fire) modify autofire."
+          },
+          {
+            "action_name": "Charge",
+            "action_cost": "Full-Round Action",
+            "description": "Move up to twice your speed in a straight line and make a single melee attack at the end of your movement.",
+            "effects_summary": [
+              "Movement must be up to twice your speed in a generally straight line towards the target.",
+              "Can move through allies, but not enemies unless they are helpless or you successfully Tumble/Overrun.",
+              "Difficult terrain hampers charge movement normally.",
+              "Gain a +2 bonus on the melee attack roll.",
+              "Take a -2 penalty to Reflex Defense until the start of your next turn."
+            ],
+            "restrictions": [
+              "Must have a clear path to the opponent.",
+              "Cannot charge if movement is hampered (e.g., difficult terrain reducing you to less than 1 square of movement).",
+              "Must move at least 2 squares to charge."
+            ]
+          },
+          {
+            "action_name": "Disarm",
+            "action_cost": "Standard Action",
+            "description": "Attempt to knock a weapon or held item from an opponent's grasp using a melee attack.",
+            "effects_summary": [
+              "Make a melee attack roll opposed by the target's Reflex Defense or an opposed grapple check (defender's choice).",
+              "If you succeed, the target is disarmed, and the item typically falls into their square (or an adjacent square if target is Large+).",
+              "If you fail by 10 or more, you drop your own weapon.",
+              "If you are unarmed, you take a -5 penalty on the attack roll.",
+              "Target gains +5 bonus to Reflex Defense/grapple check if holding weapon two-handed.",
+              "Target gains +10 bonus to Reflex Defense/grapple check if weapon is secured (e.g., locked gauntlet)."
+            ],
+            "aoo_provocation": "Attempting to disarm an opponent provokes an Attack of Opportunity from that opponent, unless you have a feat or talent that negates this (e.g., Improved Disarm).",
+            "errata_applied_notes": "CRB Errata p.297: Clarifies a character making a ranged disarm attack does not provoke an AoO (this usually applies via the Ranged Disarm talent)."
+          },
+          {
+            "action_name": "Fight Defensively",
+            "action_cost": "Can be part of a Standard Action (when using the Attack action) or a Full-Round Action (when using the Full Attack action). (CRB p.154 and Errata p.297)",
+            "description": "Focus on defense while still being able to attack.",
+            "effects_summary": [
+              "Take a -5 penalty on all attack rolls made during your turn.",
+              "Gain a +2 dodge bonus to your Reflex Defense.",
+              "This bonus lasts until the start of your next turn."
+            ],
+            "errata_applied_notes": "CRB Errata p.297 clarifies it can be used with Attack, Charge, or Full Attack actions."
+          },
+          {
+            "action_name": "Full Attack",
+            "action_cost": "Full-Round Action",
+            "description": "Make all possible attacks available to you in a round (based on BAB, feats like Double Attack, or wielding multiple weapons).",
+            "effects_summary": [
+              "If Base Attack Bonus allows multiple attacks (e.g., +6 BAB grants a second attack at -5), you can make them all.",
+              "When making more than one attack, all attacks for the round (including AoOs) take a -10 penalty unless using a talent or feat that reduces this (e.g., Dual Weapon Mastery).",
+              "Can take a 1-square step before, after, or between attacks in a full attack."
+            ],
+            "restrictions": "If you move more than a single 1-square step during your turn, you cannot use the Full Attack action.",
+            "errata_applied_notes": "CRB Errata p.298 clarifies BAB for iterative attacks: Second attack at BAB-5, third at BAB-10, fourth at BAB-15. The -10 penalty for making more than one attack is a general rule if no specific multi-attack feat/talent is used to mitigate it when, for instance, two-weapon fighting without the feats."
+          },
+          {
+            "action_name": "Grab",
+            "action_cost": "Standard Action",
+            "description": "Initiate a grapple with an opponent.",
+            "effects_summary": [
+              "Make a melee attack roll against the target.",
+              "If successful, make an opposed grapple check (your grapple modifier vs. target's grapple modifier).",
+              "If you win the opposed check, you grab the target. Both you and the target are now considered grappled.",
+              "You take a -5 penalty on the initial attack roll to start a grab unless you have a feat or talent that negates this."
+            ],
+            "aoo_provocation": "Attempting to grab an opponent provokes an Attack of Opportunity from that opponent.",
+            "grapple_modifier_formula": "Base Attack Bonus + Strength modifier + Size Modifier (Large +5, Huge +10, etc.)"
+          },
+          {
+            "action_name": "Grapple (Actions while Grappling)",
+            "action_cost": "Standard Action",
+            "description": "Once grappled, you can take further actions against your grappled opponent.",
+            "options_on_your_turn_if_grappling": [
+              {"action": "Damage Opponent","details": "Make opposed grapple check. Success: deal unarmed damage to opponent."},
+              {"action": "Draw or Holster Weapon","details": "Make opposed grapple check. Success: draw or holster a light weapon."},
+              {"action": "Escape from Grapple","details": "Make opposed grapple check OR Acrobatics check (DC = opponent's grapple check result). Success: no longer grappled, can move 1 square away."},
+              {"action": "Move","details": "Make opposed grapple check. Success: move yourself and opponent up to half your speed. Opponent moved with you."},
+              {"action": "Pin Opponent","details": "Make opposed grapple check. Success: opponent is pinned (see Pin feat or special attack)."}
+            ],
+            "conditions_while_grappled": [
+              "Cannot move unless you win an opposed grapple check to move.",
+              "Lose Dexterity bonus to Reflex Defense against opponents not in the grapple.",
+              "Take a -5 penalty on attack rolls against opponents not in the grapple."
+            ]
+          },
+          {
+            "action_name": "Pin",
+            "action_cost": "Standard Action (as part of Grapple action)",
+            "description": "Immobilize a grappled opponent. Often requires the Pin feat for full effect.",
+            "effects_summary": [
+              "Requires a successful opposed grapple check while already grappling.",
+              "A pinned creature cannot move or take any actions and loses its Dexterity bonus to Reflex Defense."
+            ],
+            "notes": "The Pin feat allows pinning as part of a successful grapple that initiates the pin."
+          },
+          {
+            "action_name": "Suppress (as Aid Another)",
+            "action_cost": "Standard Action",
+            "description": "Use Aid Another to hinder an opponent's attack (see Aid Another in Combat section).",
+            "effects_summary": [
+              "Designate one opponent.",
+              "Make an attack roll against Reflex Defense 10.",
+              "Success: Designated opponent takes a -2 circumstance penalty on their next attack roll made before the start of your next turn."
+            ]
+          },
+          {
+            "action_name": "Trip",
+            "action_cost": "Standard Action",
+            "description": "Attempt to knock an opponent prone using a melee attack.",
+            "effects_summary": [
+              "Make a melee attack roll opposed by the target's Dexterity check or Strength check (defender's choice).",
+              "If you succeed, the target is knocked prone.",
+              "If you fail by 10 or more, you are knocked prone instead.",
+              "If you are unarmed, you take a -5 penalty on your attack roll."
+            ],
+            "aoo_provocation": "Attempting to trip an opponent provokes an Attack of Opportunity from that opponent, unless you have a feat or talent that negates this (e.g., Improved Trip from some sources, though Trip feat itself in CRB makes it so you are not knocked prone on a fail by 10+)."
+          },
+          {
+            "action_name": "Withdraw",
+            "action_cost": "Full-Round Action",
+            "description": "Carefully move away from an opponent to avoid provoking an Attack of Opportunity from them for movement.",
+            "effects_summary": [
+              "Move up to twice your speed.",
+              "The first square you move out of does not provoke an Attack of Opportunity from any opponents that threaten that square.",
+              "Any other movement during the withdraw may still provoke AoOs from other opponents or if you move through other threatened squares."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "target_file_key": "combat_rules",
+    "action": "update",
+    "identifier": {
+      "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks."
+    },
+    "payload": {
+      "mounted_combat": {
+        "description": "Rules for engaging in combat while riding a creature or vehicle.",
+        "source_page_reference": "CR 156-157",
+        "general_rules": {
+          "mount_initiative": "A mount acts on its rider's Initiative count, as directed by the rider.",
+          "rider_actions": "The rider moves at the mount's speed and can perform actions as normal while the mount moves.",
+          "directing_mount": "Directing a mount is typically a move action if it's not trained for combat or riding. Warbeasts or animals trained for riding typically do not require an action to guide in normal circumstances."
+        },
+        "combat_while_mounted": [
+          {
+            "situation": "Mount as Cover",
+            "rule": "You can drop down and hang alongside your mount, using it as cover (+5 bonus to Reflex Defense). You cannot attack or cast Force powers while using your mount as cover. This typically requires a Ride check (DC 15 as per Ride skill, CR p.73)."
+          },
+          {
+            "situation": "Attacks by Rider",
+            "rule": "You can make melee or ranged attacks as normal. A charging mount allows you to make a charge attack. If the mount is also attacking, it remains in its space while you attack."
+          },
+          {
+            "situation": "Casting Force Powers",
+            "rule": "Casting a Force power while mounted requires a Ride check (DC = 10 + the level of the Force power). Failure means the power fails, but the use of the power is still expended."
+          },
+          {
+            "situation": "If Your Mount is Hit in Combat",
+            "rule": "If your mount takes damage equal to or exceeding its damage threshold, you must make a Ride check (DC = damage dealt) to stay mounted. Failure means you are knocked prone in a square adjacent to your mount."
+          },
+          {
+            "situation": "If Your Mount Falls",
+            "rule": "If your mount falls (e.g., is knocked prone or killed), you must make a DC 15 Ride check to land safely. Failure means you take 1d6 points of falling damage and fall prone."
+          }
+        ],
+        "special_mount_actions_ride_skill_interaction": "The Ride skill (CR p.73) details specific actions such as 'Fight with War-Trained Mount,' 'Overrun with Mount,' 'Soft Fall from Mount,' and 'Leap with Mount'."
+      },
+      "aquatic_combat": {
+        "description": "Rules for combat occurring in water.",
+        "source_page_reference": "CR 157",
+        "movement_in_water": {
+          "swimming": "Characters without a swim speed move at half their land speed (making a Swim check each round to move one-quarter speed as a move action, or half speed as a full-round action). Creatures with a natural swim speed use that speed.",
+          "difficult_conditions": "The Swim skill is used to navigate rough water or perform other difficult maneuvers."
+        },
+        "melee_attacks_underwater": [
+          {"weapon_type": "Unarmed, Slashing, or Bludgeoning","penalty": "-2 penalty on attack rolls, damage is halved."},
+          {"weapon_type": "Piercing","penalty": "No penalty."}
+        ],
+        "ranged_attacks_underwater": [
+          {"weapon_type": "Thrown weapons (not specifically designed for underwater use)","rule": "Cannot be used effectively."},
+          {"weapon_type": "Projectile weapons (bows, slugthrowers, not specifically designed)","rule": "Cannot be used effectively."},
+          {"weapon_type": "Blasters and other energy weapons","rule": "Function normally, but all range increments are halved. (CRB Errata p.298)"}
+        ],
+        "other_considerations": [
+          "Suffocation: Nonamphibious creatures or those without special equipment risk drowning.",
+          "Visibility: Often reduced underwater."
+        ]
+      },
+      "zero_gravity_environments": {
+        "description": "Rules for combat and movement in zero-gravity (Zero-G).",
+        "source_page_reference": "CR 157-158",
+        "moving_in_zero_g": [
+          {"method": "Pushing Off Surfaces","rule": "Move up to half speed in a straight line. Cannot change direction without another surface to push off from."},
+          {"method": "Using Handholds / Magnetic Boots","rule": "Move up to half speed. Requires Climb check (DC 10) for difficult surfaces or maintaining grip under stress."},
+          {"method": "Thruster Packs / Jetpacks","rule": "Allow normal movement as per the device's capabilities."},
+          {"method": "Zero-G Training (Feat)","rule": "Allows moving normal speed using handholds/surfaces and negates penalties for certain actions in Zero-G."}
+        ],
+        "attacking_in_zero_g": {
+          "melee_attacks": "Suffer a -2 penalty on attack rolls unless trained in Zero-G combat (e.g., via Zero-G Training feat) or using magnetic boots/grappling line to brace.",
+          "ranged_attacks": "Generally no penalty, unless using a weapon with significant recoil without being braced, in which case a penalty might apply (GM discretion)."
+        },
+        "other_zero_g_effects": {
+          "space_sickness": "Characters unaccustomed to Zero-G may suffer space sickness (Fortitude DC 15 check after 1 hour, failure results in -1 persistent step on the condition track).",
+          "no_down_direction": "Concepts of 'up' and 'down' are relative. Prone condition may not apply conventionally.",
+          "object_inertia": "Unsecured objects continue moving in a straight line until acted upon by another force."
+        }
+      },
+      "other_combat_modifiers": {
+        "description": "Additional modifiers and rules affecting combat calculations.",
+        "source_page_reference": "CR 158-159",
+        "attacking_an_object": {
+          "general_notes": "Objects are usually immune to critical hits unless specified otherwise. They are automatically hit if immobile, or use a DC based on size if thrown/moving (see Table 9-4).",
+          "breaking_objects": "Requires dealing damage that exceeds the object's Hardness and then reduces its Hit Points to 0.",
+          "object_hardness": "Subtract from damage dealt. See Table 9-2: Object Hardness and Hit Points & Table 9-3: Substance Hardness and Hit Points for examples.",
+          "object_hit_points": "Determined by size and material. See Table 9-2.",
+          "energy_damage_vs_objects": "Typically ignores the Hardness of most objects (except those specifically resistant, like starship hulls).",
+          "ineffective_weapons": "Some weapons may be ineffective against certain objects (e.g., a vibroblade against a stone wall).",
+          "immunities": "Objects are immune to nonlethal damage, ability damage, mind-affecting effects, poison, and disease unless specifically noted.",
+          "damaging_vehicles_and_starships": "Use Damage Reduction (DR) and Shield Rating (SR) instead of Hardness (see Chapter 11).",
+          "table_9_2_object_hardness_and_hit_points_examples": [
+            {"object": "Simple Wooden Door", "hardness": 5, "hit_points": 30, "break_dc": 20},
+            {"object": "Strong Wooden Door", "hardness": 5, "hit_points": 60, "break_dc": 25},
+            {"object": "Datapad", "hardness": 2, "hit_points": 5, "break_dc": 15, "errata_note": "CRB Errata p.298 changes Datapad HP from 1 to 5."},
+            {"object": "Blaster Pistol", "hardness": 10, "hit_points": 15, "break_dc": 20},
+            {"object": "Light Repeating Blaster", "hardness": 10, "hit_points": 30, "break_dc": 25}
+          ],
+          "table_9_3_substance_hardness_and_hit_points_examples": [
+            {"substance": "Glass", "hardness": 1, "hp_per_2_5_cm_thickness": 1},
+            {"substance": "Ice", "hardness": 0, "hp_per_2_5_cm_thickness": 3},
+            {"substance": "Wood", "hardness": 5, "hp_per_2_5_cm_thickness": 10},
+            {"substance": "Stone", "hardness": 8, "hp_per_2_5_cm_thickness": 15},
+            {"substance": "Iron or Steel", "hardness": 10, "hp_per_2_5_cm_thickness": 30},
+            {"substance": "Reinforced Concrete", "hardness": 8, "hp_per_30_cm_thickness": 180},
+            {"substance": "Starship Hull (Durasteel)", "hardness": 15, "hp_per_2_5_cm_thickness": 30}
+          ],
+          "table_9_4_dcs_to_break_or_burst_items_examples": [
+            {"action": "Break down simple door", "strength_check_dc": 20},
+            {"action": "Break down strong door", "strength_check_dc": 25},
+            {"action": "Burst Ropes", "strength_check_dc": 23},
+            {"action": "Bend Iron Bars", "strength_check_dc": 24}
+          ]
+        },
+        "damage_reduction_dr": {
+          "description": "DR subtracts a specific amount from damage dealt by most attacks. Damage cannot be reduced below 0.",
+          "stacking_note": "DR from multiple sources generally does not stack unless the sources are of different types (a rare occurrence)."
+        },
+        "shield_rating_sr": {
+          "description": "Shields absorb damage. Damage is applied to SR first. Once SR is depleted, any remaining damage applies to HP. SR typically regenerates over time.",
+          "regeneration": "Personal shields regenerate 5 points of SR at the start of the wielder's turn, up to their maximum SR. Vehicle/starship shields also regenerate (see Chapter 11)."
+        },
+        "improvised_weapons": {
+          "attack_penalty": "-5 penalty on attack rolls.",
+          "damage": "Determined by GM based on size and nature (e.g., Small club 1d4, Medium club 1d6).",
+          "range_increment": "2 squares if thrown.",
+          "critical_hit": "Threaten on natural 20, deal x2 damage.",
+          "notes": "Not considered armed when using an improvised weapon for purposes of provoking AoOs unless it's similar to an actual weapon."
+        },
+        "size_modifiers_table_9_1": {
+          "description": "Modifiers for size to Reflex Defense and attack rolls.",
+          "applies_to_attack_rolls": "Only for Colossal (station) and Colossal (cruiser) against smaller targets.",
+          "categories": [
+            {"size_category": "Fine", "reflex_defense_modifier": 10, "attack_modifier_against_smaller": null, "notes":"Example: Remote"},
+            {"size_category": "Diminutive", "reflex_defense_modifier": 5, "attack_modifier_against_smaller": null, "notes":"Example: Mouse Droid"},
+            {"size_category": "Tiny", "reflex_defense_modifier": 2, "attack_modifier_against_smaller": null, "notes":"Example: Training Remote"},
+            {"size_category": "Small", "reflex_defense_modifier": 1, "attack_modifier_against_smaller": null, "notes":"Example: Ewok, Jawa"},
+            {"size_category": "Medium", "reflex_defense_modifier": 0, "attack_modifier_against_smaller": null, "notes":"Example: Human"},
+            {"size_category": "Large", "reflex_defense_modifier": -1, "attack_modifier_against_smaller": null, "notes":"Example: Dewback"},
+            {"size_category": "Huge", "reflex_defense_modifier": -2, "attack_modifier_against_smaller": null, "notes":"Example: Rancor"},
+            {"size_category": "Gargantuan", "reflex_defense_modifier": -5, "attack_modifier_against_smaller": null, "notes":"Example: Krayt Dragon"},
+            {"size_category": "Colossal", "reflex_defense_modifier": -10, "attack_modifier_against_smaller": null, "notes":"Example: AT-AT Walker"},
+            {"size_category": "Colossal (frigate)", "reflex_defense_modifier": -10, "attack_modifier_against_smaller": null},
+            {"size_category": "Colossal (cruiser)", "reflex_defense_modifier": -10, "attack_modifier_against_smaller": 5},
+            {"size_category": "Colossal (station)", "reflex_defense_modifier": -10, "attack_modifier_against_smaller": 10}
+          ],
+          "errata_note": "CRB Errata p.298 for Table 9-1: For Colossal (droid), the Attack Modifier is +0 (not listed in base table, but is a size for some droids)."
+        },
+        "starvation_and_thirst": {
+          "description": "Prolonged lack of food or water can lead to penalties and eventually death. Resisted with Endurance checks.",
+          "reference": "Detailed rules in Survival skill (Chapter 4) and Endurance skill (Chapter 4)."
+        }
+      }
+    }
+  }
 ]

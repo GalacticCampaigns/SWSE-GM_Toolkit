@@ -4,9 +4,8 @@
     "force_techniques_list": [
       {
         "name": "Advanced Vital Transfer",
-        "force_power_association": "Vital Transfer",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "spend Destiny to fully heal and remove all conditions",
         "effects": [
           {
@@ -15,15 +14,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "When you use the vital transfer power, you can spend a Destiny Point to fully heal the target of all damage and remove all of the target's debilitating conditions."
+        "force_power_association": "Vital Transfer",
+        "full_text_additional_desc": "When you use the vital transfer power, you can spend a Destiny Point to fully heal the target of all damage and remove all of the target's debilitating conditions.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Cure Disease",
-        "force_power_association": "Vital Transfer",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "spend Force Point to cure disease if you equal or exceed the DC",
         "effects": [
           {
@@ -31,15 +30,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "When you use the vital transfer power, if your Use the Force check equals or exceeds the Treat Injury DC of a disease currently ailing the target, you can spend a Force Point to cure that disease."
+        "force_power_association": "Vital Transfer",
+        "full_text_additional_desc": "When you use the vital transfer power, if your Use the Force check equals or exceeds the Treat Injury DC of a disease currently ailing the target, you can spend a Force Point to cure that disease.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Detoxify Poison",
-        "force_power_association": "Vital Transfer",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "55",
         "effect_description": "use vital transfer to detoxify poison, compare Use the Force to poison's DC as Treat Injury",
         "effects": [
           {
@@ -47,15 +46,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "55",
-        "full_text_additional_desc": "You can use the vital transfer power to treat a poison affecting the target. Instead of the normal effect of the vital transfer power, you can compare the result of your Use the Force check to the poison's DC (see page 255 of the Saga Edition core rulebook). If you equal or exceed the poison's DC, you detoxify the poison as per the use of the Treat Injury skill."
+        "force_power_association": "Vital Transfer",
+        "full_text_additional_desc": "You can use the vital transfer power to treat a poison affecting the target. Instead of the normal effect of the vital transfer power, you can compare the result of your Use the Force check to the poison's DC (see page 255 of the Saga Edition core rulebook). If you equal or exceed the poison's DC, you detoxify the poison as per the use of the Treat Injury skill.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Dominate Mind",
-        "force_power_association": "Mind Trick",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "53",
         "effect_description": "with mind trick if over Will Def by 10, you choose what target does with stan action",
         "effects": [
           {
@@ -63,15 +62,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "53",
-        "full_text_additional_desc": "When using mind trick, if you exceed your target's Will Defense by 10 or more points, your can choose what your target does with its standard action on its next turn."
+        "force_power_association": "Mind Trick",
+        "full_text_additional_desc": "When using mind trick, if you exceed your target's Will Defense by 10 or more points, your can choose what your target does with its standard action on its next turn.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Extended Blind",
-        "force_power_association": "Blind",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "base range increases to 18 squares",
         "effects": [
           {
@@ -79,15 +78,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "The base range for your blind power increases to 18 squares (instead of 12 squares)."
+        "force_power_association": "Blind",
+        "full_text_additional_desc": "The base range for your blind power increases to 18 squares (instead of 12 squares).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Extended Force Disarm",
-        "force_power_association": "Force Disarm",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "base range increases to 18 squares",
         "effects": [
           {
@@ -95,15 +94,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "The base range for your Force disarm power increases to 18 squares (instead of 12 squares)."
+        "force_power_association": "Force Disarm",
+        "full_text_additional_desc": "The base range for your Force disarm power increases to 18 squares (instead of 12 squares).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Extended Force Grip",
-        "force_power_association": "Force Grip",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "base range increases to 18 squares",
         "effects": [
           {
@@ -111,15 +110,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "The base range for your Force grip power increases to 18 squares (instead of 12 squares)."
+        "force_power_association": "Force Grip",
+        "full_text_additional_desc": "The base range for your Force grip power increases to 18 squares (instead of 12 squares).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Extended Force Thrust",
-        "force_power_association": "Force Thrust",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "base range increases to 18 squares",
         "effects": [
           {
@@ -127,15 +126,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "The base range for your Force thrust power increases to 18 squares (instead of 12 squares)."
+        "force_power_association": "Force Thrust",
+        "full_text_additional_desc": "The base range for your Force thrust power increases to 18 squares (instead of 12 squares).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Extended Move Object",
-        "force_power_association": "Move Object",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "base range increases to 18 squares",
         "effects": [
           {
@@ -143,55 +142,60 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "The base range for your move object power increases to 18 squares (instead of 12 squares)."
+        "force_power_association": "Move Object",
+        "full_text_additional_desc": "The base range for your move object power increases to 18 squares (instead of 12 squares).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
+        "id": "force_point_recovery_cr_102",
         "name": "Force Point Recovery",
-        "force_power_association": null,
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "102",
+        "benefit_summary": "At the end of an encounter, automatically recover 1 Force Point spent during that encounter. Cannot recover temporary FPs or FPs spent for Atonement. (Errata applied)",
+        "benefit_text_long": "At the end of an encounter, you automatically recover 1 Force Point spent during the encounter.",
         "effect_description": "at end of encounter, regain one Force Point spent in encounter",
         "effects": [
           {
-            "type": "bonus",
-            "action_verb": "gain",
-            "value_description": "one",
-            "numeric_value_approx": 1,
-            "bonus_or_penalty_type": "untyped",
-            "target_description": "ce point spent in encounter"
+            "type": "resource_recovery",
+            "resource_name": "Force Point",
+            "amount_recovered": 1,
+            "timing": "end_of_encounter",
+            "condition": "must_have_been_spent_during_that_encounter"
           }
         ],
-        "source_book": "CR",
-        "page": "102",
-        "full_text_additional_desc": "At the end of an encounter, you automatically recover 1 Force Point spent during the encounter. [cannot use to recover temporary FP's -JC 110; cannot recover FP\u2019s spent to Atone \u2013JC 111]"
+        "errata_applied": "CRB Errata p.292: Cannot be used to recover temporary Force Points or Force Points spent to Atone for Dark Side Points.",
+        "force_power_association": null,
+        "full_text_additional_desc": "At the end of an encounter, you automatically recover 1 Force Point spent during the encounter. [cannot use to recover temporary FP's -JC 110; cannot recover FP’s spent to Atone –JC 111]",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
+        "id": "force_power_mastery_cr_102",
         "name": "Force Power Mastery",
-        "force_power_association": null,
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "102",
+        "benefit_summary": "Choose one Force power. May take 10 on Use the Force checks to activate this chosen power, even when distracted or threatened. Can select multiple times for different powers.",
+        "benefit_text_long": "Choose a single Force power. You may take 10 on Use the Force checks to activate this Force power even when distracted or threatened.",
         "effect_description": "take 10 on a selected Force Power even if distracted",
         "effects": [
           {
-            "type": "bonus",
-            "action_verb": "take",
-            "value_description": "10",
-            "numeric_value_approx": 10,
-            "bonus_or_penalty_type": "untyped",
-            "target_description": "a selected force power even if distracted"
+            "type": "skill_advantage",
+            "skill_id": "use_the_force",
+            "application_specific_to_chosen_force_power": true,
+            "advantage": "can_take_10_even_when_distracted_or_threatened"
           }
         ],
-        "source_book": "CR",
-        "page": "102",
-        "full_text_additional_desc": "Choose a single Force power. You may take 10 on Use the Force checks to activate this Force power even when distracted or threatened. You may select this Force technique multiple times; each time you select this Force technique, it applies to a different Force power."
+        "force_power_association": null,
+        "full_text_additional_desc": "Choose a single Force power. You may take 10 on Use the Force checks to activate this Force power even when distracted or threatened. You may select this Force technique multiple times; each time you select this Force technique, it applies to a different Force power.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None",
+        "special_text": "You may select this Force technique multiple times; each time you select this Force technique, it applies to a different Force power."
       },
       {
         "name": "Improved Ballistakinesis",
-        "force_power_association": "Ballistakinesis",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "55",
         "effect_description": "spend a Force Point to target 3x3 area",
         "effects": [
           {
@@ -199,15 +203,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "55",
-        "full_text_additional_desc": "When you use ballistakinesis, you may spend a Force Point to target a 3x3 area instead of a 2x2 area."
+        "force_power_association": "Ballistakinesis",
+        "full_text_additional_desc": "When you use ballistakinesis, you may spend a Force Point to target a 3x3 area instead of a 2x2 area.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Battle Strike",
-        "force_power_association": "Battle Strike",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "can apply bonus to attack & damage rolls for all attacks during full attack",
         "effects": [
           {
@@ -215,15 +219,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "When you use the battlestrike power, you can apply the bonus to attack rolls and damage rolls for all attacks made during a full attack action."
+        "force_power_association": "Battle Strike",
+        "full_text_additional_desc": "When you use the battlestrike power, you can apply the bonus to attack rolls and damage rolls for all attacks made during a full attack action.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Cloak",
-        "force_power_association": "Cloak",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "maintain Cloak as move not stan",
         "effects": [
           {
@@ -232,15 +236,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "You can maintain your cloak power as a move action instead of a standard action."
+        "force_power_association": "Cloak",
+        "full_text_additional_desc": "You can maintain your cloak power as a move action instead of a standard action.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Convection",
-        "force_power_association": "Convection",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "36",
         "effect_description": "when target takes fire damage, the fire attacks the target's Fort Def with your BAB not the normal +5",
         "effects": [
           {
@@ -248,15 +252,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "36",
-        "full_text_additional_desc": "When your target takes fire damage from convection, the fire attacks the target's Fortitude Defense using your base attack bonus instead of the normal +5 bonus (see page 255 of the Saga Edition core rulebook for more information on fire damage)."
+        "force_power_association": "Convection",
+        "full_text_additional_desc": "When your target takes fire damage from convection, the fire attacks the target's Fortitude Defense using your base attack bonus instead of the normal +5 bonus (see page 255 of the Saga Edition core rulebook for more information on fire damage).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Crucitorn",
-        "force_power_association": "Crucitorn",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "with crucitorn, if more damage is dealt than your threshold you do not expend this use of the power",
         "effects": [
           {
@@ -264,15 +268,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "If you use crucitorn and the attack or Force power still deals more damage than your damage threshold, you do not expend this use of the power, and it remains in your Force suite."
+        "force_power_association": "Crucitorn",
+        "full_text_additional_desc": "If you use crucitorn and the attack or Force power still deals more damage than your damage threshold, you do not expend this use of the power, and it remains in your Force suite.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Cryokinesis",
-        "force_power_association": "Cryokinesis",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "can use cyrokinesis on vehicles w/in range but the vehicle only moves down CT if exceeds Fort Def",
         "effects": [
           {
@@ -281,15 +285,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "You can use cryokinesis on occupied vehicles within range; however, the vehicle only moves down the condition track if your Use the Force check also exceeds the vehicle's Fortitude Defense."
+        "force_power_association": "Cryokinesis",
+        "full_text_additional_desc": "You can use cryokinesis on occupied vehicles within range; however, the vehicle only moves down the condition track if your Use the Force check also exceeds the vehicle's Fortitude Defense.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Dark Rage",
-        "force_power_association": "Dark Rage",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "can perform skills that require patience, can activate in surprise round",
         "effects": [
           {
@@ -297,15 +301,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "When you use the dark rage power, you ignore the restriction that prevents you from using skills or performing tasks that require patience and concentration. Additionally, you can always activate this power in the surprise round, even if you are considered surprised."
+        "force_power_association": "Dark Rage",
+        "full_text_additional_desc": "When you use the dark rage power, you ignore the restriction that prevents you from using skills or performing tasks that require patience and concentration. Additionally, you can always activate this power in the surprise round, even if you are considered surprised.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Dark Transfer",
-        "force_power_association": "Dark Transfer",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "55",
         "effect_description": "spend a Force Point to revive a creature that died since the end of your last turn, DC25, unconscious not healed",
         "effects": [
           {
@@ -313,15 +317,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "55",
-        "full_text_additional_desc": "When you use dark transfer, you may spend a Force Point to revive a creature that died since the end of your last turn. You must succeed on a DC 25 Use the Force check. If the check succeeds, the target creature is unconscious instead of dead and does not heal any hit points from the use of dark transfer."
+        "force_power_association": "Dark Transfer",
+        "full_text_additional_desc": "When you use dark transfer, you may spend a Force Point to revive a creature that died since the end of your last turn. You must succeed on a DC 25 Use the Force check. If the check succeeds, the target creature is unconscious instead of dead and does not heal any hit points from the use of dark transfer.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Detonate",
-        "force_power_association": "Detonate",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "56",
         "effect_description": "compare Use the Force v. all enemies within 2sq of the object, enemy takes half dam done to object, area atk",
         "effects": [
           {
@@ -329,15 +333,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "56",
-        "full_text_additional_desc": "When you use the detonate power, you also damage enemies near the targeted object. Compare the result of your Use the Force check to the Reflex Defense of all enemies within 2 squares of the object. If your check equals or exceeds the enemy's Reflex Defense, the enemy takes slashing damage equal to one-half the damage sustained by the object. This is an area attack."
+        "force_power_association": "Detonate",
+        "full_text_additional_desc": "When you use the detonate power, you also damage enemies near the targeted object. Compare the result of your Use the Force check to the Reflex Defense of all enemies within 2 squares of the object. If your check equals or exceeds the enemy's Reflex Defense, the enemy takes slashing damage equal to one-half the damage sustained by the object. This is an area attack.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Energy Resistance",
-        "force_power_association": "Energy Resistance",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "53",
         "effect_description": "can affect ally within 6sq",
         "effects": [
           {
@@ -345,15 +349,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "53",
-        "full_text_additional_desc": "When you activate energy resistance, you can choose to have it affect one of your allies within 6 squares instead of you."
+        "force_power_association": "Energy Resistance",
+        "full_text_additional_desc": "When you activate energy resistance, you can choose to have it affect one of your allies within 6 squares instead of you.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Enlighten",
-        "force_power_association": "Enlighten",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "56",
         "effect_description": "spend a Force Point to affect one additional ally",
         "effects": [
           {
@@ -361,15 +365,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "56",
-        "full_text_additional_desc": "When you use the enlighten power, you may spend a Force Point to affect one additional ally."
+        "force_power_association": "Enlighten",
+        "full_text_additional_desc": "When you use the enlighten power, you may spend a Force Point to affect one additional ally.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Fold Space",
-        "force_power_association": "Fold Space",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "spend a Force Point to move the object anywhere in LOS, spend DP for anywhere in system",
         "effects": [
           {
@@ -378,15 +382,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "Whenever you use fold space, you can spend a Force Point to move the object anywhere within line of sight. Alternately, you can spend a Destiny Point to move the object anywhere within the same star system."
+        "force_power_association": "Fold Space",
+        "full_text_additional_desc": "Whenever you use fold space, you can spend a Force Point to move the object anywhere within line of sight. Alternately, you can spend a Destiny Point to move the object anywhere within the same star system.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Disarm",
-        "force_power_association": "Force Disarm",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "can change activation to full to remove Ref Def bonus of opponent with disarming",
         "effects": [
           {
@@ -395,15 +399,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "When you use the Force disarm power, you can change the time it takes to activate it to a full-round action; if you do so, your opponent does not gain the normal +10 bonus to Reflex Defense normally associated with disarming."
+        "force_power_association": "Force Disarm",
+        "full_text_additional_desc": "When you use the Force disarm power, you can change the time it takes to activate it to a full-round action; if you do so, your opponent does not gain the normal +10 bonus to Reflex Defense normally associated with disarming.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Grip",
-        "force_power_association": "Force Grip",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "can spend a Force Point to maintain 1 additional round without concentrating, may not resume after",
         "effects": [
           {
@@ -411,15 +415,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "When you use the Force grip power, you can spend a Force Point as a free action to maintain the Force grip for 1 additional round without the need to concentrate. However, after this additional round you may not resume concentrating on the power."
+        "force_power_association": "Force Grip",
+        "full_text_additional_desc": "When you use the Force grip power, you can spend a Force Point as a free action to maintain the Force grip for 1 additional round without the need to concentrate. However, after this additional round you may not resume concentrating on the power.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Light",
-        "force_power_association": "Force Light",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "can spend a Force Point to blind who it harms granting concealment to all other targets, Destiny Point for total",
         "effects": [
           {
@@ -427,15 +431,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "You can spend a Force Point to cause your Force light to blind those it harms; any creature that takes damage from Force light grants concealment to all other targets until the end of its next turn. You can spend a Destiny Point to change this to total concealment instead."
+        "force_power_association": "Force Light",
+        "full_text_additional_desc": "You can spend a Force Point to cause your Force light to blind those it harms; any creature that takes damage from Force light grants concealment to all other targets until the end of its next turn. You can spend a Destiny Point to change this to total concealment instead.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Lightning",
-        "force_power_association": "Force Lightning",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "can change activation to full, v. Str to push back 1sq + 1sq for every 5 over, if into larger 1d6 dam",
         "effects": [
           {
@@ -443,15 +447,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "When you use the Force lightning power and change the time it takes to activate to a full-round action, your target must make a Strength check. If your Use the Force check result beats the target's Strength check, you push it back 1 square plus 1 additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. The target adds its base attack bonus and size modifier to its Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable."
+        "force_power_association": "Force Lightning",
+        "full_text_additional_desc": "When you use the Force lightning power and change the time it takes to activate to a full-round action, your target must make a Strength check. If your Use the Force check result beats the target's Strength check, you push it back 1 square plus 1 additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. The target adds its base attack bonus and size modifier to its Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Shield",
-        "force_power_association": "Force Shield",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "56",
         "effect_description": "spend a Force Point to protect adjacent allies, spend a Destiny Point to protect any size vehicle",
         "effects": [
           {
@@ -459,15 +463,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "56",
-        "full_text_additional_desc": "When you use the Force shield power, you can spend a Force Point to expand the radius of the Force shield so that it protects you and all allies adjacent to you. Alternatively, you can spend a Destiny Point to have the Force shield protect a vehicle you occupy, regardless of the vehicle's size. If the vehicle already has a Shield Rating, the SR of the vehicle and the SR granted by this power do not stack."
+        "force_power_association": "Force Shield",
+        "full_text_additional_desc": "When you use the Force shield power, you can spend a Force Point to expand the radius of the Force shield so that it protects you and all allies adjacent to you. Alternatively, you can spend a Destiny Point to have the Force shield protect a vehicle you occupy, regardless of the vehicle's size. If the vehicle already has a Shield Rating, the SR of the vehicle and the SR granted by this power do not stack.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Slam",
-        "force_power_association": "Force Slam",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "can change activation to full to affect all targets within 2sq radius, spend Force Point for 4sq",
         "effects": [
           {
@@ -475,15 +479,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "When you use the Force slam power, you can change the time it takes to activate to a full-round action in order to target all targets within a 2-square radius originating in your square. You can spend a Force Point to increase the area to a 4-square-radius burst that originates from your square."
+        "force_power_association": "Force Slam",
+        "full_text_additional_desc": "When you use the Force slam power, you can change the time it takes to activate to a full-round action in order to target all targets within a 2-square radius originating in your square. You can spend a Force Point to increase the area to a 4-square-radius burst that originates from your square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Storm",
-        "force_power_association": "Force Storm",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "can spend a Force Point to fill storm with force lightning, Use the Force v. Ref Def 3d6 dam or Destiny Point  for 6d6",
         "effects": [
           {
@@ -491,15 +495,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "As a swift action, you can end the duration of the Force storm power to deal 4d6 points of damage to all targets within 2 squares of you."
+        "force_power_association": "Force Storm",
+        "full_text_additional_desc": "As a swift action, you can end the duration of the Force storm power to deal 4d6 points of damage to all targets within 2 squares of you.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Storm (telekinetic)",
-        "force_power_association": "Force Storm (telekinetic)",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "as a swif action, end duration of storm to deal 4d6 dam to all targets within 2sq of you",
         "effects": [
           {
@@ -507,15 +511,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "You can spend a Force Point when you activate Force storm to fill the storm with Force lightning. When you activate the power, and again whenever you spend a standard action to maintain the power, compare the results of your Use the Force check to the Reflex Defense of one target within the storm's area. If the skill check result equals or exceeds the target's Reflex Defense, the target takes 3d6 points of Force damage. You can spend a Destiny Point to increase the damage to 6d6 points."
+        "force_power_association": "Force Storm (telekinetic)",
+        "full_text_additional_desc": "You can spend a Force Point when you activate Force storm to fill the storm with Force lightning. When you activate the power, and again whenever you spend a standard action to maintain the power, compare the results of your Use the Force check to the Reflex Defense of one target within the storm's area. If the skill check result equals or exceeds the target's Reflex Defense, the target takes 3d6 points of Force damage. You can spend a Destiny Point to increase the damage to 6d6 points.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Stun",
-        "force_power_association": "Force Stun",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "target temporarily immobilized one round",
         "effects": [
           {
@@ -523,15 +527,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "Your successful Force stun also temporarily immobilizes the target for one round."
+        "force_power_association": "Force Stun",
+        "full_text_additional_desc": "Your successful Force stun also temporarily immobilizes the target for one round.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Force Thrust",
-        "force_power_association": "Force Thrust",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "88",
         "effect_description": "can change activation to full to affect all targets in 6sq cone",
         "effects": [
           {
@@ -539,31 +543,42 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "88",
-        "full_text_additional_desc": "When you use the Force thrust power, you can change the time it takes to activate it to a full-round action and spend a Force Point in order to target all creatures in a 6-square cone that originates from your square."
+        "force_power_association": "Force Thrust",
+        "full_text_additional_desc": "When you use the Force thrust power, you can change the time it takes to activate it to a full-round action and spend a Force Point in order to target all creatures in a 6-square cone that originates from your square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
+        "id": "improved_force_trance_cr_102",
         "name": "Improved Force Trance",
-        "force_power_association": "Force Trance",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "102",
+        "benefit_summary": "Each hour in a Force Trance, regain HP equal to 2x character level (instead of 1x).",
+        "benefit_text_long": "Each hour you remain in a Force trance (see the Use the Force skill) you regain a number of hit points equal to 2 x your character level.",
         "effect_description": "each hour in a Force Trance, regain hp = 2 x character level",
         "effects": [
           {
-            "type": "narrative_only",
-            "summary": "Mechanics are described textually in the description."
+            "type": "healing_enhancement",
+            "context": "while_in_force_trance",
+            "healing_rate_per_hour_formula": "2 * character_level",
+            "original_healing_rate_per_hour_formula": "character_level"
           }
         ],
-        "source_book": "CR",
-        "page": "102",
-        "full_text_additional_desc": "Each hour you remain in a Force trance (see the Use the Force skill) you regain a number of hit points equal to 2 x your character level."
+        "force_power_association": "Force Trance (Use the Force skill application)",
+        "full_text_additional_desc": "Each hour you remain in a Force trance (see the Use the Force skill) you regain a number of hit points equal to 2 x your character level.",
+        "prerequisites_structured": [
+          {
+            "type": "skill_application_known",
+            "skill_id": "use_the_force",
+            "application_name": "Force Trance"
+          }
+        ],
+        "prerequisites_text": "Force Trance (Use the Force skill application)"
       },
       {
         "name": "Improved Ionize",
-        "force_power_association": "Ionize",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "spend a Force Point to have target take full ion dam",
         "effects": [
           {
@@ -571,15 +586,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "When you use the ionize power, you can spend a Force point to have the target take full ion damage (instead of halving the ion damage after comparing it to the target's damage threshold, as normal)."
+        "force_power_association": "Ionize",
+        "full_text_additional_desc": "When you use the ionize power, you can spend a Force point to have the target take full ion damage (instead of halving the ion damage after comparing it to the target's damage threshold, as normal).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Kinetic Combat",
-        "force_power_association": "Kinetic Combat",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "can wield three weapons",
         "effects": [
           {
@@ -587,15 +602,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "You can wield up to three weapons simultaneously using the kinetic combat power, though moving and attacking with one of the weapons is still a standard action."
+        "force_power_association": "Kinetic Combat",
+        "full_text_additional_desc": "You can wield up to three weapons simultaneously using the kinetic combat power, though moving and attacking with one of the weapons is still a standard action.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Levitate",
-        "force_power_association": "Levitate",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "if moved off elevated surface involuntarily can activate power as reac and end move on last square",
         "effects": [
           {
@@ -604,15 +619,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "If you are moved into a pit or off another elevated surface involuntarily, such as by being the target of a force thrust or Bantha Rush, you can spent a Force Point to activate this power as a reaction. If you do so, you end your forced movement in the last square before the edge of the precipice."
+        "force_power_association": "Levitate",
+        "full_text_additional_desc": "If you are moved into a pit or off another elevated surface involuntarily, such as by being the target of a force thrust or Bantha Rush, you can spent a Force Point to activate this power as a reaction. If you do so, you end your forced movement in the last square before the edge of the precipice.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Lightning Burst",
-        "force_power_association": "Lightning Burst",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "56",
         "effect_description": "compare Use the Force to Fort Def, if over both Fort & Ref Def, push target 1 sq & target knocked prone",
         "effects": [
           {
@@ -620,15 +635,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "56",
-        "full_text_additional_desc": "When you use the lightning burst power, also compare the result of your Use the Force check to each target's Fortitude Defense. If your check result equals or exceeds both a target's Reflex Defense and its Fortitude Defense, you push the target 1 square away from you and knock the target prone. This movement does not provoke attacks of opportunity."
+        "force_power_association": "Lightning Burst",
+        "full_text_additional_desc": "When you use the lightning burst power, also compare the result of your Use the Force check to each target's Fortitude Defense. If your check result equals or exceeds both a target's Reflex Defense and its Fortitude Defense, you push the target 1 square away from you and knock the target prone. This movement does not provoke attacks of opportunity.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Malacia",
-        "force_power_association": "Malacia",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "maintain threshold penalty as swif",
         "effects": [
           {
@@ -636,15 +651,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "You can maintain the damage threshold penalty of the malacia power as a swift action."
+        "force_power_association": "Malacia",
+        "full_text_additional_desc": "You can maintain the damage threshold penalty of the malacia power as a swift action.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Mind Trick",
-        "force_power_association": "Mind Trick",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "89",
         "effect_description": "can change activation to full to target all within 6sq cone, spend Force Point for 12sq",
         "effects": [
           {
@@ -652,32 +667,50 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "89",
-        "full_text_additional_desc": "When you use the mind trick power, you can change the time it takes to activate it to a full-round action in order to target all creatures in a 6-square cone that originates from your square. You can spend a Force Point to increase the area to a 12-square cone that originates from your square."
+        "force_power_association": "Mind Trick",
+        "full_text_additional_desc": "When you use the mind trick power, you can change the time it takes to activate it to a full-round action in order to target all creatures in a 6-square cone that originates from your square. You can spend a Force Point to increase the area to a 12-square cone that originates from your square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
+        "id": "improved_move_light_object_cr_103",
         "name": "Improved Move Light Object",
-        "force_power_association": "Move Light Object",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "103",
+        "benefit_summary": "Can make Use the Force check to move a light object as a swift action (instead of move). Using it as a projectile requires a move action (instead of standard).",
+        "benefit_text_long": "You may make a Use the Force check to move a light object as a swift action instead of a move action. Using the light object as a projectile weapon requires a move action (instead of a standard action).",
         "effect_description": "move object as swift not move, use as a weapon requires move not standard",
         "effects": [
           {
-            "type": "special_action",
-            "frequency": "at will (unless specified otherwise)",
-            "action_cost": "move"
+            "type": "action_cost_reduction",
+            "skill_id": "use_the_force",
+            "application_name": "Move Light Object (to move an object)",
+            "original_action_cost": "move",
+            "new_action_cost": "swift"
+          },
+          {
+            "type": "action_cost_reduction",
+            "skill_id": "use_the_force",
+            "application_name": "Move Light Object (to use as projectile)",
+            "original_action_cost": "standard",
+            "new_action_cost": "move"
           }
         ],
-        "source_book": "CR",
-        "page": "103",
-        "full_text_additional_desc": "You may make aUse the Force check to move a light object as a swift action instead of a move action. Using the light object as a projectile weapon requires a move action (instead of a standard action)."
+        "force_power_association": "Move Light Object (Use the Force skill application)",
+        "full_text_additional_desc": "You may make aUse the Force check to move a light object as a swift action instead of a move action. Using the light object as a projectile weapon requires a move action (instead of a standard action).",
+        "prerequisites_structured": [
+          {
+            "type": "skill_application_known",
+            "skill_id": "use_the_force",
+            "application_name": "Move Light Object"
+          }
+        ],
+        "prerequisites_text": "Move Light Object (Use the Force skill application)"
       },
       {
         "name": "Improved Obscure",
-        "force_power_association": "Obscure",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "56",
         "effect_description": "spend a Force Point to gain +5 on Use the Force",
         "effects": [
           {
@@ -689,15 +722,15 @@
             "target_description": "use the force"
           }
         ],
-        "source_book": "L",
-        "page": "56",
-        "full_text_additional_desc": "When you use the obscure power, you may spend a Force Point to gain a +5 Force bonus on your Use the Force check."
+        "force_power_association": "Obscure",
+        "full_text_additional_desc": "When you use the obscure power, you may spend a Force Point to gain a +5 Force bonus on your Use the Force check.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Phase",
-        "force_power_association": "Phase",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "can end move in occupied space but must be legal unoccupied square",
         "effects": [
           {
@@ -706,15 +739,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "When you use the phase power, you can end a single move action inside an occupied space, but you must still end your turn in a legal, unoccupied square."
+        "force_power_association": "Phase",
+        "full_text_additional_desc": "When you use the phase power, you can end a single move action inside an occupied space, but you must still end your turn in a legal, unoccupied square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Plant Surge",
-        "force_power_association": "Plant Surge",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "can spend a Force Point to target all in 5x5 area at least one square in range, Destiny Point for 10x10 area",
         "effects": [
           {
@@ -722,15 +755,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "You can spend a Force Point to have plant surge target all enemies in a 5x5 square area; at least one square must be within the power's range. Alternately, you can spend a Destiny Point to target all enemies in a 10x10 square."
+        "force_power_association": "Plant Surge",
+        "full_text_additional_desc": "You can spend a Force Point to have plant surge target all enemies in a 5x5 square area; at least one square must be within the power's range. Alternately, you can spend a Destiny Point to target all enemies in a 10x10 square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Rebuke",
-        "force_power_association": "Rebuke",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "89",
         "effect_description": "can rebuke for an ally within 12sq & LOS",
         "effects": [
           {
@@ -738,15 +771,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "89",
-        "full_text_additional_desc": "When an ally within 12 squares and within line of sight of you is the target of a Force power, you can use the rebuke power as though you were the target of that Force power instead."
+        "force_power_association": "Rebuke",
+        "full_text_additional_desc": "When an ally within 12 squares and within line of sight of you is the target of a Force power, you can use the rebuke power as though you were the target of that Force power instead.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Rend",
-        "force_power_association": "Rend",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "range = 12 sq, ignore DR",
         "effects": [
           {
@@ -754,15 +787,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "The range of your rend power increases to 12 squares. When using this power on an object or character or creature, you can ignore the object's or creature's damage reduction."
+        "force_power_association": "Rend",
+        "full_text_additional_desc": "The range of your rend power increases to 12 squares. When using this power on an object or character or creature, you can ignore the object's or creature's damage reduction.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Repulse",
-        "force_power_association": "Repulse",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "F",
+        "page": "89",
         "effect_description": "can change activation to full to target all within 2sq radius, spend Force Point for 4sq",
         "effects": [
           {
@@ -770,15 +803,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "F",
-        "page": "89",
-        "full_text_additional_desc": "When you use the repulse power, you can change the time it takes to activate it to a full-round action in order to target all creatures in a 2-square-radius burst that originates from your square. You can spend a Force Point to increase the area to a 4-square-radius burst that originates from your square."
+        "force_power_association": "Repulse",
+        "full_text_additional_desc": "When you use the repulse power, you can change the time it takes to activate it to a full-round action in order to target all creatures in a 2-square-radius burst that originates from your square. You can spend a Force Point to increase the area to a 4-square-radius burst that originates from your square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Resist Force",
-        "force_power_association": "Resist Force",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "can affect ally within 6sq",
         "effects": [
           {
@@ -786,49 +819,71 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "When you activate resist force, you can choose to have it affect one of your allies within 6 squares instead of you."
+        "force_power_association": "Resist Force",
+        "full_text_additional_desc": "When you activate resist force, you can choose to have it affect one of your allies within 6 squares instead of you.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
+        "id": "improved_sense_force_cr_103",
         "name": "Improved Sense Force",
-        "force_power_association": "Sense Force",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "103",
+        "benefit_summary": "May use the Sense Force application of Use the Force as a move action (instead of full-round).",
+        "benefit_text_long": "You may use the sense Force ability of the Use the Force skill as a move action rather than a full-round action.",
         "effect_description": "Sense Force as a move action not full-round action",
         "effects": [
           {
-            "type": "special_action",
-            "frequency": "at will (unless specified otherwise)",
-            "action_cost": "move"
+            "type": "action_cost_reduction",
+            "skill_id": "use_the_force",
+            "application_name": "Sense Force",
+            "original_action_cost": "full_round",
+            "new_action_cost": "move"
           }
         ],
-        "source_book": "CR",
-        "page": "103",
-        "full_text_additional_desc": "You may use the sense Force ability of the Use the Force skill as a move action rather than a full-round action."
+        "force_power_association": "Sense Force (Use the Force skill application)",
+        "full_text_additional_desc": "You may use the sense Force ability of the Use the Force skill as a move action rather than a full-round action.",
+        "prerequisites_structured": [
+          {
+            "type": "skill_application_known",
+            "skill_id": "use_the_force",
+            "application_name": "Sense Force"
+          }
+        ],
+        "prerequisites_text": "Sense Force (Use the Force skill application)"
       },
       {
+        "id": "improved_sense_surroundings_cr_103",
         "name": "Improved Sense Surroundings",
-        "force_power_association": "Sense Surroundings",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "103",
+        "benefit_summary": "May use the Sense Surroundings application of Use the Force as a free action (instead of swift).",
+        "benefit_text_long": "You may use the sense surroundings ability of the Use the Force skill as a free action rather than a swift action.",
         "effect_description": "use as a free action not a swift action",
         "effects": [
           {
-            "type": "special_action",
-            "frequency": "at will (unless specified otherwise)",
-            "action_cost": "free"
+            "type": "action_cost_reduction",
+            "skill_id": "use_the_force",
+            "application_name": "Sense Surroundings",
+            "original_action_cost": "swift",
+            "new_action_cost": "free"
           }
         ],
-        "source_book": "CR",
-        "page": "103",
-        "full_text_additional_desc": "You may use the sense surroundings ability of the Use the Force skill as a free action rather than a swift action."
+        "force_power_association": "Sense Surroundings (Use the Force skill application)",
+        "full_text_additional_desc": "You may use the sense surroundings ability of the Use the Force skill as a free action rather than a swift action.",
+        "prerequisites_structured": [
+          {
+            "type": "skill_application_known",
+            "skill_id": "use_the_force",
+            "application_name": "Sense Surroundings"
+          }
+        ],
+        "prerequisites_text": "Sense Surroundings (Use the Force skill application)"
       },
       {
         "name": "Improved Shatterpoint",
-        "force_power_association": "Shatterpoint",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "if move target down CT can spend Force Point to make condition persistent (surgery or repairs)",
         "effects": [
           {
@@ -837,15 +892,15 @@
             "action_cost": "move"
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "When you move a target down the condition track with an attack benefitting from the shatterpoint power, you can spend a Force Point to make the target's condition persistent. This persistent condition can only be removed if the target receives surgery (for living beings) or repairs (for droids, objects, and vehicles)."
+        "force_power_association": "Shatterpoint",
+        "full_text_additional_desc": "When you move a target down the condition track with an attack benefitting from the shatterpoint power, you can spend a Force Point to make the target's condition persistent. This persistent condition can only be removed if the target receives surgery (for living beings) or repairs (for droids, objects, and vehicles).",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Stagger",
-        "force_power_association": "Stagger",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "L",
+        "page": "56",
         "effect_description": "spend a Force Point to push target 2 squares",
         "effects": [
           {
@@ -853,15 +908,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "L",
-        "page": "56",
-        "full_text_additional_desc": "When you use the stagger power, you may spend a Force Point to push your target 2 squares away from you, instead of just 1 square."
+        "force_power_association": "Stagger",
+        "full_text_additional_desc": "When you use the stagger power, you may spend a Force Point to push your target 2 squares away from you, instead of just 1 square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Technometry",
-        "force_power_association": "Technometry",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "C",
+        "page": "54",
         "effect_description": "can change time to full in order to target all droids in 6-square cone from your square",
         "effects": [
           {
@@ -869,32 +924,42 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "C",
-        "page": "54",
-        "full_text_additional_desc": "When you use the technometry power, you can change the time it takes to activate to a full-round action and target all droids in a 6-square cone that originates from your square."
+        "force_power_association": "Technometry",
+        "full_text_additional_desc": "When you use the technometry power, you can change the time it takes to activate to a full-round action and target all droids in a 6-square cone that originates from your square.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
+        "id": "improved_telepathy_cr_103",
         "name": "Improved Telepathy",
-        "force_power_association": "Telepathy",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "CR",
+        "page": "103",
+        "benefit_summary": "When using Telepathy application of Use the Force, may reroll Use the Force check and keep better result.",
+        "benefit_text_long": "Whenever you use the telepathy ability of the Use the Force skill, you ran reroll your Use the Force check and keep the better result.",
         "effect_description": "may reroll Use the Force for Telepathy and keep the better result",
         "effects": [
           {
             "type": "reroll",
-            "check_type": "u",
-            "condition": "unspecified"
+            "check_type": "use_the_force",
+            "condition": "when_using_telepathy_application",
+            "keep_better_result": true
           }
         ],
-        "source_book": "CR",
-        "page": "103",
-        "full_text_additional_desc": "Whenever you use the telepathy ability of the Use the Force skill, you ran reroll your Use the Force check and keep the better result."
+        "force_power_association": "Telepathy (Use the Force skill application)",
+        "full_text_additional_desc": "Whenever you use the telepathy ability of the Use the Force skill, you ran reroll your Use the Force check and keep the better result.",
+        "prerequisites_structured": [
+          {
+            "type": "skill_application_known",
+            "skill_id": "use_the_force",
+            "application_name": "Telepathy"
+          }
+        ],
+        "prerequisites_text": "Telepathy (Use the Force skill application)"
       },
       {
         "name": "Improved Thought Bomb",
-        "force_power_association": "Thought Bomb",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "J",
+        "page": "37",
         "effect_description": "can spend a Force Point to target all enemies within 5 squares, spend a Destiny Point for all in LOS",
         "effects": [
           {
@@ -902,15 +967,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "J",
-        "page": "37",
-        "full_text_additional_desc": "You can spend a Force Point to have thought bomb target all enemies within 5 squares of you. Alternately, you can spend a Destiny Point to target all enemies within your line of sight."
+        "force_power_association": "Thought Bomb",
+        "full_text_additional_desc": "You can spend a Force Point to have thought bomb target all enemies within 5 squares of you. Alternately, you can spend a Destiny Point to target all enemies within your line of sight.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Valor",
-        "force_power_association": "Valor",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "you gain benefits as well",
         "effects": [
           {
@@ -918,15 +983,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "When you activate valor, you gain the benefits of this power as well."
+        "force_power_association": "Valor",
+        "full_text_additional_desc": "When you activate valor, you gain the benefits of this power as well.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Improved Vital Transfer",
-        "force_power_association": "Vital Transfer",
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "can affect ally within 6sq & LOS",
         "effects": [
           {
@@ -934,15 +999,15 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "You can use the vital transfer power against a target within 6 squares and line of sight."
+        "force_power_association": "Vital Transfer",
+        "full_text_additional_desc": "You can use the vital transfer power against a target within 6 squares and line of sight.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       },
       {
         "name": "Language Absorption",
-        "force_power_association": null,
-        "prerequisites_text": "None",
-        "prerequisites_structured": [],
+        "source_book": "K",
+        "page": "54",
         "effect_description": "if unwilling, Use the Force v. Will Def, retain ability to speak & understand 24 hours",
         "effects": [
           {
@@ -950,9 +1015,10 @@
             "summary": "Mechanics are described textually in the description."
           }
         ],
-        "source_book": "K",
-        "page": "54",
-        "full_text_additional_desc": "You can use telepathy to forcibly learn a language from another creature. If the target is unwilling, you must succeed on a Use the Force check against the target's Will Defense, as with the telepathy aspect of the Use the Force skill. You retain the ability to speak and understand this language for 24 hours."
+        "force_power_association": null,
+        "full_text_additional_desc": "You can use telepathy to forcibly learn a language from another creature. If the target is unwilling, you must succeed on a Use the Force check against the target's Will Defense, as with the telepathy aspect of the Use the Force skill. You retain the ability to speak and understand this language for 24 hours.",
+        "prerequisites_structured": [],
+        "prerequisites_text": "None"
       }
     ]
   }
