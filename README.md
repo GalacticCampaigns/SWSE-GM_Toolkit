@@ -1,160 +1,97 @@
-# Star Wars SAGA Edition - Structured JSON Data Repository
+# SWSE AI Gamemaster Toolkit
 
-## Project Goal
+This repository is a comprehensive toolkit and structured data resource for powering an AI Gamemaster (AI GM) for the Star Wars Saga Edition roleplaying game. It aims to provide a detailed, machine-readable, and community-vetted representation of game rules, lore, and entities from the Core Rulebook and various supplements.
 
-The primary goal of this project is to convert comprehensive SAGA Edition resources, including the "SAGA Character Index version 4.0" and various item/equipment lists, from their original CSV-like formats into a structured, machine-readable JSON database. This database is intended to serve as a knowledge base for applications, particularly a Game Master AI, to reference and utilize Star Wars SAGA Edition RPG rules and content.
+Beyond a simple index, this project includes:
+* **Structured Game Data:** JSON files detailing abilities, skills, species, feats, Force powers, talents, heroic classes, prestige classes, combat mechanics, equipment, vehicles, droids, and more. These are designed for easy parsing and use by AI systems.
+* **Core Rule Definitions:** Centralized JSON files for fundamental game mechanics, system rules, and glossaries.
+* **Lore Archives:** Organized lore information, such as era descriptions, Force traditions, etc., to enrich AI storytelling.
+* **Schemas & Validation:** JSON schemas to ensure data integrity and consistency.
+* **Tools & Utilities:** Scripts and instructions for maintaining and utilizing the dataset, such as the `json_updater.py` for applying batch edits.
+* **Guidance Documents:** Instructions for contributing, formatting data (like NPC profiles), and understanding the project's current state.
 
-## Data Source
+The goal is to create a robust foundation that can be used to develop intelligent GM tools, AI-driven narratives, and other applications for enhancing the Star Wars Saga Edition experience.
 
-The initial and primary data sources for this repository are:
-1.  The **SAGA Character Index version 4.0**, originally compiled by Shane A. Thelen (ewokontoast) and Staffan Bengtsson (JemyM).
-2.  Various SAGA Edition index files covering equipment, weapons, armor, and other game elements.
+## Project Overview
 
-Future additions may incorporate data from other SAGA Edition sourcebooks.
+The SWSE AI Gamemaster Toolkit is an open-source initiative to systematically digitize the rules and content of the Star Wars Saga Edition RPG. By converting the game's elements into a structured, machine-readable format (primarily JSON), we aim to:
+* Enable the development of sophisticated AI Gamemaster applications.
+* Provide a comprehensive and easily searchable database for players and GMs.
+* Facilitate the creation of third-party tools and utilities for the Saga Edition system.
+* Preserve and make accessible the rich content of this beloved game.
 
-All content is derived from the official Star Wars SAGA Edition rulebooks published by Wizards of the Coast. This repository is a fan-made project and is not affiliated with or endorsed by Wizards of the Coast or Lucasfilm Ltd.
+This project emphasizes accuracy, with data derived directly from official sourcebooks and errata, and clarity, through well-defined JSON schemas and consistent data structures.
 
-## Current Status
+## Features
 
-*Work in Progress*
-
-Conversion and structuring efforts are ongoing. Two main Python scripts are in development:
-* One for processing **character-related elements** (Species, Skills, Feats, Talents, Force Powers, Prestige Classes, etc.).
-* One for processing **item and index-related elements** (Armor, Weapons, Equipment, Tech Upgrades, Templates, Explosives, Vehicles, Starships, etc.).
-
-Several categories for both character and item elements have been successfully processed, and JSON schemas are being created and refined for each.
+* **Comprehensive Data Sets:** Covering a wide array of game elements:
+    * Character Elements: Abilities, Skills, Species, Feats, Talents, Heroic Classes, Prestige Classes.
+    * Force Elements: Force Powers, Force Talents, Force Techniques, Force Secrets, Force Traditions.
+    * Index Elements: Equipment, Weapons, Armor, Vehicles, Droids, etc.
+    * Combat Mechanics and detailed game rules.
+* **Structured Core Rules:** General game mechanics, system definitions, and glossaries stored in dedicated JSON files within `data/core_rules/` and `data/meta_info/`.
+* **Rich Lore Information:** Contextual lore for eras, Force traditions, and other aspects of the Star Wars universe, located in the `data/lore/` directory.
+* **JSON Schemas:** Validation schemas in the `schemas/` directory to ensure data consistency and integrity across all JSON files.
+* **Automated Update Tool:** A Python script (`tools/json_updater.py`) designed to apply batch edits to the JSON data files, ensuring accurate and efficient maintenance.
+* **Detailed Documentation:**
+    * This README file.
+    * Instructions for using the `json_updater.py` script.
+    * Guidelines for data formatting (e.g., NPC Profile JSON structure).
+    * Summaries of the project's current processing state.
 
 ## Repository Structure
 
 The repository is organized as follows:
-```
-SagaIndex/
-├── README.md                     # This file: Project overview and guidelines
-├── schemas/                      # JSON Schema files for data validation
-│   ├── species.schema.json
-│   ├── skills.schema.json
-│   ├── feats.schema.json
-│   ├── talents.schema.json
-│   ├── force_techniques.schema.json
-│   ├── force_secrets.schema.json
-│   ├── training_regimens.schema.json
-│   ├── force_powers.schema.json
-│   ├── prestige_classes.schema.json
-│   ├── armor.schema.json
-│   ├── melee_weapons.schema.json
-│   ├── ranged_weapons.schema.json
-│   ├── accessories.schema.json
-│   ├── defensive_items.schema.json
-│   ├── equipment_general.schema.json
-│   ├── tech_specialist_upgrades.schema.json
-│   ├── templates.schema.json         # Planned
-│   ├── explosives.schema.json        # Planned
-│   └── ... (more schemas to be added for vehicles, starships, etc.)
-├── data/
-│   ├── meta_info/
-│   │   └── source_books.json         # Abbreviations and full names of sourcebooks
-│   │   └── (game_definitions.json - planned for common terms)
-│   ├── character_elements/           # Data for character creation and progression
-│   │   ├── species.json
-│   │   ├── skills.json
-│   │   ├── feats.json
-│   │   ├── talents.json
-│   │   ├── force_techniques.json
-│   │   ├── force_secrets.json
-│   │   ├── training_regimens.json
-│   │   ├── force_powers.json
-│   │   └── prestige_classes.json
-│   │   └── (classes.json - planned for base classes)
-│   └── index_elements/               # Data for items, equipment, vehicles, etc.
-│       ├── starship_maneuvers.json
-│       ├── armor.json
-│       ├── melee_weapons.json
-│       ├── ranged_weapons.json
-│       ├── accessories.json
-│       ├── defensive_items.json
-│       ├── equipment_general.json
-│       ├── tech_specialist_upgrades.json
-│       ├── templates.json            # Planned
-│       ├── explosives.json           # Planned
-│       └── ... (more item/vehicle/starship JSONs to be added)
-└── scripts/
-├── csv/                          # Source CSV files are expected here
-│   ├── Character-Species.csv
-│   ├── Character-Traits.csv
-│   ├── Character-Skills.csv
-│   ├── Character-Skill uses 1.8.csv
-│   ├── Character-Use.csv
-│   ├── Character-Feats.csv
-│   ├── Character-Talents.csv
-│   ├── Character-Techniques.csv
-│   ├── Character-Secrets.csv
-│   ├── Character-Regimens.csv
-│   ├── Character-Starship Maneuvers.csv
-│   ├── Character-ForcePowers.csv
-│   ├── Character-Prestige.csv
-│   ├── Index-Armor.csv
-│   ├── Index-Melee.csv
-│   ├── Index-Ranged.csv
-│   ├── Index-Accessories.csv
-│   ├── Index-Defenses.csv
-│   ├── Index-Equipment.csv
-│   ├── Index-TechSpec.csv
-│   ├── Index-Templates.csv
-│   ├── Index-Explosives.csv
-│   └── ... (more CSVs for vehicles, starships, etc.)
-├── saga_multi_csv_converter_v4.py    # Conversion script for character elements
-├── saga_index_elements_converter_v1.py # Conversion script for item/index elements
-└── (char_creation_csv_to_json.py - For the Character Creation PDF/CSV, if pursued)
-```
-## Data Format
 
-All data is stored in JSON format. Key considerations include:
+* **`data/`**: Contains all the structured JSON data.
+    * `character_elements/`: Core data for player/character building blocks (abilities, skills, species, feats, talents, classes, prestige classes).
+    * `index_elements/`: Data for game items like equipment, weapons, armor, vehicles, droids.
+    * `core_rules/`: JSON files for general system rules (e.g., `ability_system_rules.json`, `skill_rules.json`, `combat_rules.json`).
+    * `meta_info/`: Supporting metadata files like `source_books.json`, `game_definitions.json`, `abbreviations_glossary.json`.
+    * `lore/`: Files containing narrative and contextual information, such as `eras_overview.json` and `force_traditions_lore.json`.
+* **`schemas/`**: Contains JSON schemas used for validating the data files.
+* **`tools/`**: Includes utility scripts, primarily `json_updater.py`, for dataset maintenance.
+* **`docs/`** (or **`instructions/`**): Will contain detailed instructions for JSON updating, data entry guidelines (e.g., NPC profile format), and current state summaries.
 
-* **Naming Convention:** All JSON keys use `snake_case`.
-* **Structured Data:** Information is broken down into logical components.
-* **Source Information:** Each significant data entry includes `source_book` (abbreviation) and `page` number.
-* **Structured Effects:** For elements like species traits, feats, talents, powers, and item special properties, an `effects` (or `structured_effects`) array aims to provide a structured representation of game mechanics alongside the full textual description. This includes parsing for DC progressions where applicable.
-* **Structured Prerequisites:** Prerequisites are parsed into a structured list (e.g., `prerequisites_structured`) where possible, in addition to preserving the original text.
-* **Unified Cost Object:** For all items with a cost, a `cost` object provides a consistent structure. This object includes the `text_original` from the CSV and an `options` array detailing parsed cost components (e.g., `fixed_amount`, `percentage_of_item_value`, `base_item_multiplier`, `additive_amount`, `percentage_delta`, `set_to_percentage_of_base`, `text_description`) and any `selection_logic` (e.g., `whichever_is_more`).
+## Getting Started / How to Use
 
-## How to Use the Data
+1.  **Clone the Repository:**
+    ```bash
+    git clone [URL_to_your_repository]
+    ```
+2.  **Explore the Data:** Navigate the `data/` directory to find the JSON files relevant to your needs.
+3.  **Using the `json_updater.py` Script:**
+    * This script is located in the `tools/` directory.
+    * It processes edit request files (formatted as JSON arrays of update/add/delete actions) to modify the data files.
+    * Refer to `docs/json_update_instructions.md` (or a similar path once created) for detailed instructions on formatting edit requests and running the script.
 
-This data can be used for:
-* Game Master AI Development
-* Digital Character Builders and Sheets
-* Online SAGA Edition Compendiums
-* Custom Game Aids and Tools
+## Data Format & Schemas
 
-Applications will typically parse the relevant JSON files. The `schemas/` directory provides formal JSON Schema definitions which can be used for validation and understanding the data structure.
+* All game data is structured in JSON format.
+* Field names within the JSON objects consistently use `snake_case`.
+* Data types strictly adhere to the JSON schemas defined in the `schemas/` directory for their respective data categories. Please refer to these schemas when contributing or interpreting data.
+* Updates to the data should be made using the JSON edit request format detailed in `docs/json_update_instructions.md`.
 
-## Scripts
+## Rule on Multiple Sources
 
-The `scripts/` directory contains Python scripts used for data conversion.
+This dataset aims to be comprehensive. When adding or updating information:
+* Data from the **Star Wars Saga Edition Core Rulebook (CR)** serves as the primary baseline.
+* Content from other **official SAGA Edition sourcebooks** will be incorporated to expand upon, provide alternatives to, or offer errata for existing entries.
+* All additions or modifications must clearly cite their `source_book` (using the abbreviations defined in `data/meta_info/source_books.json`) and `page` number.
+* The `json_updater.py` tool is designed to facilitate these updates while maintaining data integrity.
 
-* **Source CSVs:** Place all source CSV files into the `scripts/csv/` subdirectory.
-* **Main Conversion Scripts:**
-    * `saga_multi_csv_converter_v4.py`: Processes character-related elements (species, feats, talents, etc.).
-    * `saga_index_elements_converter_v1.py`: Processes item and index-related elements (armor, weapons, equipment, tech upgrades, etc.).
-* **Configuration:** Both scripts contain a `PROCESS_CONFIG` dictionary at the top, allowing selective processing of different CSV files by setting their respective flags to `True` or `False`.
-* **Path Configuration:** Ensure the `LOCAL_ROOT_PATH` variable at the top of each script correctly points to the root of your `SagaIndex` repository.
+## Contribution Guidelines
 
-## Schemas
+*(This section can be expanded later if you plan to open the project for public contributions. For now, it might include internal team guidelines.)*
 
-The `schemas/` directory houses JSON Schema files. These files formally define the expected structure, data types, and constraints for each generated JSON data file, aiding in validation and data integrity.
+* **Reporting Issues:** Use the GitHub Issues tracker for the repository.
+* **Proposing Changes:** Discuss proposed changes or new data structures via Issues or designated communication channels. Edits should ideally be formatted according to the JSON edit request structure.
+* **Data Entry Conventions:** Adhere to the established JSON schemas and naming conventions (`snake_case` for keys, consistent ID generation, structured `effects` arrays, etc.).
 
-## Contributing (Placeholder)
+## License
 
-*(This section can be expanded if the project aims to accept contributions from others, detailing guidelines for CSV formatting, script updates, schema creation, and pull requests.)*
-
-## Disclaimer
-
-This project is a fan-created resource intended for personal use and to facilitate playing Star Wars SAGA Edition. Star Wars, SAGA Edition, and all associated properties are trademarks of Lucasfilm Ltd. and/or Wizards of the Coast (a subsidiary of Hasbro). This project is not affiliated with, endorsed, sponsored, or approved by Lucasfilm Ltd., Wizards of the Coast, or Hasbro. Please support official Star Wars SAGA Edition releases.
-
-## Acknowledgements
-
-* **Shane A. Thelen (ewokontoast) and Staffan Bengtsson (JemyM)** for their monumental work on the SAGA Character Index v4.0, which forms a significant basis for the character elements in this project.
-* The wider Star Wars SAGA Edition community for their continued passion and creation of resources for the game.
+*(You'll need to choose and specify a license if you plan to share this repository, e.g., MIT, GPL, Creative Commons for data, etc.)*
 
 ---
 
-*This README is a living document and will be updated as the project progresses and new data categories are integrated.*
+This draft provides a solid framework. You can expand on each section as the project evolves. Key next steps for documentation would be to create the detailed instructions for `json_updater.py` and any specific data entry guidelines (like for NPC profiles) in the `docs/` folder.

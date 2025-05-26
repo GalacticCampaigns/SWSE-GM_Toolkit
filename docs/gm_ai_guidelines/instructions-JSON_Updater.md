@@ -1,5 +1,6 @@
 ## Instructions for Generating JSON Edits for SAGA Index Data & Character Profiles
-(version 4 - 2025/5/24)
+
+Version 4.2 (2025-05-24)
 
 This document outlines the format for providing JSON-based edits to update structured data files. The json_updater.py script will process these edits.
 
@@ -10,40 +11,34 @@ The edit file itself must be a JSON array, where each element in the array is an
 
 [
 
-  {"target_file_key":"string","action":"string","identifier":{},"payload":{}},
+  {"target_file_key":"string","action":"string","is_single_object":false,"identifier":{},"payload":{}},
 
-  {"target_file_key":"string","action":"string","identifier":{},"payload":{}}
+  {"target_file_key":"string","action":"string","is_single_object":true,"identifier":{"keys_to_delete":["some_key"]},"payload":{}}
 
 ]
 
 
+
+* is_single_object** (boolean, optional):** Set to true if the target_file_key refers to a JSON file that is a single object at its root (e.g., class_rules.json) where edits apply to top-level keys. If omitted or false, the script assumes the target file contains a list of records or a multi-collection structure (like NPC Profiles).
+
+
 ### II. target_file_key
 
-This string specifies which main data category (and thus which JSON file) the edit applies to. **The **target_file_key** should be the name of the JSON file (without the **.json** extension) located in any subdirectory under the main **data/** directory of the GitHub repository (e.g., **data/character_elements/**, **data/index_elements/**, **data/new_category/**, etc.), excluding the **data/meta_info/** directory.**
-
-**How to determine the **target_file_key**:**
+This string specifies the target data.
 
 
 
-1. Identify the target JSON data file within the repository structure (e.g., SagaIndex/data/character_elements/species.json or SagaIndex/data/index_elements/armor.json).
-2. The target_file_key is the filename without the .json extension.
+* **For SAGA Index files (e.g., armor, feats) or other files containing a list of records:** The target_file_key is the filename without the .json extension (e.g., "armor", "feats"). Do **not** set is_single_object: true for these.
+* **For files that are a single JSON object at their root (e.g., **class_rules.json**):** The target_file_key is the filename without the .json extension (e.g., "class_rules"). **Crucially, also include **"is_single_object": true** in the edit request object (see Section I).**
+* **For multi-collection files (e.g., an NPC Profile file containing PCs, NPCs, Factions):** Use a composite key: filename_base#collection_name.
+    * Example for a file named npc_profiles.json:
+        * To edit Player Characters: "target_file_key": "npc_profiles#pcs"
+        * To edit Non-Player Characters: "target_file_key": "npc_profiles#npcs"
+        * To edit Factions: "target_file_key": "npc_profiles#factions"
+        * To edit NPC Stat Blocks: "target_file_key": "npc_profiles#npc_stat_blocks"
+    * Do **not** use "is_single_object": true for these multi-collection targets, as the script handles their internal list/map structures via specific configurations.
 
-**Examples:**
-
-
-
-* If editing SagaIndex/data/character_elements/species.json, the target_file_key is "species".
-* If editing SagaIndex/data/index_elements/armor.json, the target_file_key is "armor".
-* If editing SagaIndex/data/vehicles/airspeeders.json (a hypothetical new file), the target_file_key would be "airspeeders".
-
-The json_updater.py script uses this key to:
-
-
-
-1. Construct the full path to the target JSON file by scanning subdirectories under data/.
-2. Determine the name of the list within that JSON file that holds the records (e.g., for a target_file_key of "armor", the script expects a list named armor_list inside a top-level object like armor_data). This mapping is derived by convention ({key}_list, {key}_data) with specific exceptions handled in the script (like for equipment_general).
-
-**Ensure the **target_file_key** you provide corresponds to an actual JSON file that the **json_updater.py** script can discover and for which it can determine the internal structure based on its naming conventions.** The script dynamically builds its internal configuration (TARGET_FILES_CONFIG) at runtime.
+The json_updater.py script uses target_file_key and the is_single_object flag to locate the correct file and apply edits appropriately.
 
 
 ### III. action
@@ -52,76 +47,84 @@ Defines the operation:
 
 
 
-* "update": Modifies an existing record. Requires identifier and payload. Use this to change existing fields or add new fields to a record.
-* "add": Adds a new, entirely separate record. Requires payload.
-    * For lists (most collections): The identifier is ignored; uniqueness is checked based on the record's inherent ID fields (e.g., name & source_book, or pc_id/npc_id).
-    * For object maps (like factions): The identifier **must** contain the key for the new entry (e.g., {"faction_id": "NEW_FACTION_ID"}).
-* "delete": Removes an existing record. Requires identifier.
+* "update": Modifies an existing record or top-level keys in a single-object file. Requires payload. Requires identifier for list/map-based files; identifier is optional for single-object files (payload keys dictate targets).
+* "add": Adds a new record to a list, a new key-value pair to an object map, or new top-level keys to a single-object file. Requires payload. For object maps, identifier must specify the new key.
+* "delete": Removes an existing record from a list, a key-value pair from an object map, or top-level keys from a single-object file. Requires identifier.
 
 
 ### IV. identifier (for "update" and "delete", and "add" to object maps)
 
-Uniquely locates the record.
+Uniquely locates the record or target keys.
 
 
 
-* **For SAGA Index files (e.g., **target_file_key: "armor"**):**
-    * "name" (string, required): Primary name.
-    * "source_book" (string, recommended): Source book abbreviation.
+* **For SAGA Index files (list-based):**
+    * "name" (string, required)
+    * "source_book" (string, recommended)
     * Example: {"name":"Combat Jumpsuit","source_book":"CR"}
-* **For NPC Profile collections (e.g., **target_file_key: "npc_profiles#pcs"**):**
+* **For NPC Profile collections (list-based or object map):**
     * If targeting ...#pcs: {"pc_id": "PC001"}
     * If targeting ...#npcs: {"npc_id": "NPC001"}
-    * If targeting ...#factions: {"faction_id": "FACTION_ID_001"} (also used as the key for "add")
+    * If targeting ...#factions (object map): {"faction_id": "FACTION_ID_001"} (also used as the key for "add")
     * If targeting ...#npc_stat_blocks: {"npc_id_ref": "NPC001"}
+* **For 'Single Object' files (when **is_single_object: true**):**
+    * For action: "update" or action: "add": identifier is not strictly needed by the script for the operation itself (payload keys are targets). Can be {}, or include contextual info like {"file_scope": "class_rules_document"} for logging.
+    * For action: "delete": identifier **must** contain {"keys_to_delete": ["key1_to_remove", "key2_to_remove"]}.
 
 
 ### V. payload (for "update" and "add")
 
 
 
-* **For **"add"** action:**
-    * The payload is a **complete JSON object** for the new record, conforming to the target's schema.
-    * For lists, ensure inherent ID fields (e.g., name & source_book for items; pc_id/npc_id for characters) are in the payload.
-    * Attempting to "add" a record that effectively duplicates an existing one (based on its identifying fields) will be skipped by the updater script.
-* **For **"update"** action:**
-    * Use this action to modify an existing identified record. The payload **must only contain the specific fields you intend to change or add** to the existing record, along with their new values. **Do NOT include fields from the original record if their values are not changing.**
-    * **This includes:**
-        * **Modifying the value of an existing field:** Provide the field name and its new value (e.g., {"availability": "Rare"}).
-        * **Adding a completely new field and its value to an existing record:** Provide the new field name and its value (e.g., {"designer_note": "Limited edition"}). The script will add this field to the identified record. If the field already exists, its value will be updated.
-        * **Replacing the entire content of an existing complex field** (like an object or an array, e.g., cost, special_qualities, structured_effects): Provide the field name and its *complete new object or array* in the payload. The existing object/array for that field will be entirely replaced by what's in the payload. *Partial updates of nested structures (e.g., changing only one element in an array or one sub-key in an object without resending the whole array/object) are not supported by this mechanism; you must provide the full new state for the entire complex field if any part of it needs to change.*
-    * **To remove an optional field** from a record (e.g., special_note on a feat that was previously filled): Include that field in the payload with its value set to null.
-    * **Common Mistake to Avoid:** Do not use the "update" action to resend the entire existing record with just a few changes. Only send the specific fields that are being added or whose values are changing. If the AI sends the entire record as the payload, it will simply overwrite all fields in the target record with all fields from the payload. This is inefficient and can lead to errors if the AI's copy of the record is not perfectly synchronized with the latest version in the JSON file (potentially reverting other recent changes). The script is designed to merge in *only* the fields provided in the payload for an update.
-
-**Field Naming and Data Types:**
-
-
-
-* All field names in payload must use snake_case.
-* Data types for all fields must strictly adhere to the JSON schemas established for the respective target_file_key. Refer to the files in the schemas/ directory.
+* **For list-based files or collections:**
+    * "add": payload is the **complete new record object**.
+    * "update": payload contains **only fields to change/add**. Do NOT resend the whole record.
+* **For object maps (e.g., **...#factions**):**
+    * "add": payload is the **complete new value object** for the key specified in identifier.
+    * "update": payload contains **only fields to change/add** within the existing object value.
+* **For 'Single Object' files (when **is_single_object: true**):**
+    * "add" or "update": payload is an object where keys are top-level keys in the target JSON file. Values in the payload will replace or add these top-level keys and their entire content.
+        * Example: {"level_dependent_benefits_heroic": { ...new content... }, "new_top_level_rule": "details"}
+* **General Rules for **payload**:**
+    * Replacing complex fields (objects/arrays like cost or effects): Provide the complete new object/array in the payload for that field.
+    * To remove an optional field: Set its value to null in the payload.
+    * Field names: snake_case. Data types: Adhere to schemas.
 
 
 ### VI. Examples
 
-**1. Update an Armor's Cost and Availability (SAGA Index file):**
+**1. Update Armor Cost (SAGA Index file - list-based):**
 
 {"target_file_key":"armor","action":"update","identifier":{"name":"Combat Jumpsuit","source_book":"CR"},"payload":{"cost":{"text_original":"1250 credits","options":[{"type":"fixed_amount","value":1250}],"selection_logic":null},"availability":"Common"}}
 
-**2. Add New Field (**designer_note**) and Update **page** on an Existing Feat:**
+**2. Update a Top-Level Section in **class_rules.json** (Single Object file):**
 
-{"target_file_key":"feats","action":"update","identifier":{"name":"Point-Blank Shot","source_book":"CR"},"payload":{"designer_note":"Essential for ranged combatants.","page":86}}
+{"target_file_key":"class_rules","action":"update","is_single_object":true,"identifier":{"scope":"class_rules_document"},"payload":{"level_dependent_benefits_heroic":{"description":"Updated description.","new_detail":"Added this."}}}
 
-**3. Add an Entirely New Feat:**
+**3. Add a New PC (NPC Profile file - list-based):**
 
-{"target_file_key":"feats","action":"add","payload":{"name":"Advanced Targeting Array","type":["General","Starship"],"prerequisites_text":"Int 13, Point-Blank Shot","prerequisites_structured":[{"type":"ability_score","ability":"Intelligence","value":13,"text_description":"Int 13"},{"type":"feat_or_ability","name":"Point-Blank Shot","text_description":"Point-Blank Shot"}],"benefit_summary":"Reduce cover bonus of target by 1 step.","effects":[{"type":"narrative_only","summary":"When making a ranged attack with a starship weapon, you can reduce the target's cover bonus to its Reflex Defense by one step (from cover to improved cover, or from improved cover to no cover bonus from that source)."}],"bonus_feat_for_classes":[],"source_book":"SoG","page":25,"special_note":null}}
+{"target_file_key":"npc_profiles#pcs","action":"add","payload":{"pc_id":"PC002","name":"Zara Krell","is_active":true,"species":"Zabrak"}}
 
-**4. Add a New Faction (NPC Profile file - object map):**
+**4. Delete Top-Level Keys from **class_rules.json** (Single Object file):**
 
-{"target_file_key":"npc_profiles#factions","action":"add","identifier":{"faction_id":"CRIMSON_DAWN_REMNANT"},"payload":{"faction_id":"CRIMSON_DAWN_REMNANT","faction_name":"Crimson Dawn Remnant Cell","faction_type":"Criminal Syndicate","allegiance_primary":"Self-interest (Crimson Dawn Ideals)","description":"A small, secretive cell of Crimson Dawn loyalists operating in the Outer Rim.","quick_status_summary_for_gm":{"current_primary_goal_active":"Acquire lost Sith artifact.","overall_disposition_towards_pcs_or_player_faction":"Neutral, wary.","immediate_concerns_threats":["Imperial patrols","Rival gangs"]},"npc_members":[],"pc_members":[],"goals_objectives":[{"goal_description":"Re-establish contact with other cells.","status":"Active","priority":"High"}],"creation_timestamp":"2025-05-24T12:00:00Z","last_modified_timestamp":"2025-05-24T12:00:00Z","information_log":[]}}
-
-**5. Delete a SAGA Index Feat:**
-
-{"target_file_key":"feats","action":"delete","identifier":{"name":"Obsolete Feat","source_book":"OLD"}}
+{"target_file_key":"class_rules","action":"delete","is_single_object":true,"identifier":{"keys_to_delete":["old_rule_section", "obsolete_config"]}}
 
 
+## Version Log
 
+
+
+* **Version 4.2 (2025-05-24):**
+    * Added optional is_single_object: true flag to the edit request structure (Section I).
+    * Updated Section II (target_file_key) to explain how is_single_object interacts with file targeting.
+    * Updated Section IV (identifier) with specific instructions for "single object" files, especially for the "delete" action.
+    * Updated Section V (payload) with specific instructions for "single object" files for "update" and "add" actions.
+    * Added new examples (2 and 4) to illustrate operations on "single object" files.
+* **Version 4.1 (2025-05-24):**
+    * Added versioning information and this version log to the document.
+    * Compacted JSON example in Section I ("Overall Structure of the Edit File") for improved readability based on user feedback.
+    * Further clarified instructions in Section V ("payload" for "update" action) to explicitly state that the payload must *only* contain changed or new fields, and *not* entire records if only partial updates are intended. Added a "Common Mistake to Avoid" note.
+* **Version 4.0 (Implied - circa 2025-05-24):**
+    * Updated Section II (target_file_key) to explain derivation from filenames in any data/ subdirectory (excluding meta_info/) and the use of a composite key like npc_profiles#pcs for multi-collection files.
+    * Updated Section IV (identifier) with explicit ID fields (pc_id, npc_id, faction_id, npc_id_ref) for NPC profile collections.
+    * Updated Section V (payload) to clarify "add" action for object maps (like factions).

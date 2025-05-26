@@ -1,0 +1,35 @@
+{
+  "file_description": "General rules and mechanics for Prestige Classes in Star Wars Saga Edition.",
+  "source_book_reference": "CR",
+  "page_reference_general": "205-206",
+  "prestige_class_overview": {
+    "description": "Prestige classes offer characters a way to become truly exceptional, reflecting specialized training, unique talents, or a focused path. They build upon the foundation of heroic classes and allow for further character customization and power.",
+    "entry_requirements": "To take a level in a prestige class, a character must first meet all of its prerequisites, including a minimum character level (usually 7th), specific trained skills, feats, talents, or other special conditions.",
+    "advancement": "Levels in prestige classes are taken instead of levels in heroic classes. A character can have levels in multiple prestige classes, provided they meet the prerequisites for each."
+  },
+  "prestige_class_game_rules": {
+    "hit_points": "A prestige class grants Hit Points per level as specified in its description (e.g., 1d8, 1d10, 1d12) + Constitution modifier.",
+    "force_points": "A prestige class grants Force Points equal to 6 + one-half character level (rounded down) each time a new level in the prestige class is gained.",
+    "defense_bonuses": "A prestige class grants class defense bonuses as shown on its specific advancement table. These bonuses stack with class defense bonuses granted by heroic classes.",
+    "base_attack_bonus_bab": "A prestige class's BAB progression is listed in its advancement table and adds to the character's total BAB from all classes.",
+    "talents": "Prestige classes grant new talent choices at specific levels, drawn from unique talent trees associated with that class or sometimes from existing heroic class talent trees.",
+    "special_abilities": "Prestige classes often grant unique special abilities as the character advances in that class."
+  },
+  "table_12_1_prestige_class_level_progression_summary": {
+    "description": "General level progression benefits for prestige classes (specific BAB, Defense Bonuses, and Class Features are detailed in individual prestige class tables).",
+    "source_page_reference": "CR 206",
+    "benefits_by_level": [
+      {"prestige_class_level": 1, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 2, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 3, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 4, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 5, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 6, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 7, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 8, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 9, "force_points_gained_formula": "6 + floor(character_level / 2)"},
+      {"prestige_class_level": 10, "force_points_gained_formula": "6 + floor(character_level / 2)"}
+    ],
+    "general_notes": "BAB, Defense Bonuses, Talents, and Special Abilities are specific to each prestige class and detailed in their individual entries."
+  }
+}

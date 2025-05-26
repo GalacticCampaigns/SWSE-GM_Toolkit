@@ -3,37 +3,10 @@
     "description": "Compilation of Prestige Classes for Star Wars SAGA Edition.",
     "prestige_classes_list": [
       {
+        "id": "ace_pilot_cr_206",
         "name": "Ace Pilot",
         "source_book": "CR",
         "page": "206",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "+2",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Pilot",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Vehicular Combat",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Pilot",
-            "type": "feat_or_ability",
-            "name": "Pilot"
-          },
-          {
-            "text_description": "Vehicular Combat",
-            "type": "feat_or_ability",
-            "name": "Vehicular Combat"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Blockade Runner",
@@ -60,6 +33,15 @@
             "source_description": "Scoundrel"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "description_general": "The Ace Pilot is a master of vehicle combat, treating their starship or airspeeder as an extension of themselves. They are veterans of countless engagements, known for their daring maneuvers, exceptional skill in the cockpit, and ability to push vehicles to their absolute limits, often defining themselves by the craft they fly. [Sourced from CRB p.206]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -131,47 +113,32 @@
             "class_feature": "Vehicle Dodge +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Pilot",
+            "type": "feat_or_ability",
+            "name": "Pilot"
+          },
+          {
+            "text_description": "Vehicular Combat",
+            "type": "feat_or_ability",
+            "name": "Vehicular Combat"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Pilot",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Vehicular Combat",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Assassin",
         "source_book": "SV",
         "page": "28",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "+2",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Stealth",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Sniper",
-          "TALENT PREREQUISITE": "Dastardly Strike (Scoundrel-Misfortune)",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Stealth",
-            "type": "feat_or_ability",
-            "name": "Stealth"
-          },
-          {
-            "text_description": "Sniper",
-            "type": "feat_or_ability",
-            "name": "Sniper"
-          },
-          {
-            "text_description": "Dastardly Strike (Scoundrel-Misfortune)",
-            "type": "talent_prerequisite",
-            "talent_name": "Dastardly Strike",
-            "required_class": "Scoundrel",
-            "required_talent_tree": "Misfortune"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Assassin",
@@ -190,6 +157,14 @@
             "source_description": "Scoundrel"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -261,39 +236,40 @@
             "class_feature": "Mark +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "Sniper",
+            "type": "feat_or_ability",
+            "name": "Sniper"
+          },
+          {
+            "text_description": "Dastardly Strike (Scoundrel-Misfortune)",
+            "type": "talent_prerequisite",
+            "talent_name": "Dastardly Strike",
+            "required_class": "Scoundrel",
+            "required_talent_tree": "Misfortune"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Stealth",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Sniper",
+          "TALENT PREREQUISITE": "Dastardly Strike (Scoundrel-Misfortune)",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
+        "id": "bounty_hunter_cr_207",
         "name": "Bounty Hunter",
         "source_book": "CR",
         "page": "207",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "+2",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Survival",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "2 from Awareness (Scout)",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Survival",
-            "type": "feat_or_ability",
-            "name": "Survival"
-          },
-          {
-            "text_description": "2 from Awareness (Scout)",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Bounty Hunter",
@@ -316,6 +292,15 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "description_general": "The Bounty Hunter is a relentless tracker and formidable combatant, specializing in the pursuit and capture of targets across the galaxy. They are often shrouded in mystery, utilizing keen survival skills, specialized equipment, and a network of contacts to bring in their quarry, dead or alive, for a price. [Sourced from CRB p.207-208]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -387,49 +372,31 @@
             "class_feature": "Familiar foe +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Survival",
+            "type": "feat_or_ability",
+            "name": "Survival"
+          },
+          {
+            "text_description": "2 from Awareness (Scout)",
+            "type": "other"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Survival",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 from Awareness (Scout)",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Charlatan",
         "source_book": "SV",
         "page": "30",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "1 Disgrace, Influence or Lineage (Noble)",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Deception",
-            "type": "feat_or_ability",
-            "name": "Deception"
-          },
-          {
-            "text_description": "Persuasion",
-            "type": "feat_or_ability",
-            "name": "Persuasion"
-          },
-          {
-            "text_description": "1 Disgrace",
-            "type": "other"
-          },
-          {
-            "text_description": "Influence or Lineage (Noble)",
-            "type": "feat_or_ability",
-            "name": "Influence or Lineage"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Trickery",
@@ -448,6 +415,14 @@
             "source_description": "Noble"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -519,49 +494,41 @@
             "class_feature": "Swindle +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Persuasion",
+            "type": "feat_or_ability",
+            "name": "Persuasion"
+          },
+          {
+            "text_description": "1 Disgrace",
+            "type": "other"
+          },
+          {
+            "text_description": "Influence or Lineage (Noble)",
+            "type": "feat_or_ability",
+            "name": "Influence or Lineage"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 Disgrace, Influence or Lineage (Noble)",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Corporate Agent",
         "source_book": "K",
         "page": "41",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Gather Info,\nKnowledge (bureaucracy)",
-          "SKILL FOCUS PREREQ.": "Knowledge \n(bureaucracy)",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "work for \ninterstellar corporation"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Gather Info",
-            "type": "feat_or_ability",
-            "name": "Gather Info"
-          },
-          {
-            "text_description": "Knowledge (bureaucracy)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
-          },
-          {
-            "text_description": "Knowledge \n(bureaucracy)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
-          },
-          {
-            "text_description": "work for \ninterstellar corporation",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Corporate Power",
@@ -576,6 +543,14 @@
             "source_description": "Noble"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -647,55 +622,42 @@
             "class_feature": "Executive Leadership/5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Gather Info",
+            "type": "feat_or_ability",
+            "name": "Gather Info"
+          },
+          {
+            "text_description": "Knowledge (bureaucracy)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Knowledge \n(bureaucracy)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "work for \ninterstellar corporation",
+            "type": "other"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Gather Info,\nKnowledge (bureaucracy)",
+          "SKILL FOCUS PREREQ.": "Knowledge \n(bureaucracy)",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "work for \ninterstellar corporation"
+        }
       },
       {
+        "id": "crime_lord_cr_209",
         "name": "Crime Lord",
         "source_book": "CR",
         "page": "209",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "one from Fortune, Misfortune (scoundrel), or Lineage (Noble)",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Deception",
-            "type": "feat_or_ability",
-            "name": "Deception"
-          },
-          {
-            "text_description": "Persuasion",
-            "type": "feat_or_ability",
-            "name": "Persuasion"
-          },
-          {
-            "text_description": "one from Fortune",
-            "type": "feat_or_ability",
-            "name": "one from Fortune"
-          },
-          {
-            "text_description": "Misfortune (scoundrel)",
-            "type": "feat_or_ability",
-            "name": "Misfortune"
-          },
-          {
-            "text_description": "or Lineage (Noble)",
-            "type": "feat_or_ability",
-            "name": "or Lineage"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Infamy",
@@ -710,6 +672,15 @@
             "source_description": "Noble"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "description_general": "The Crime Lord is a mastermind of illegal enterprises, wielding influence and power within the galactic underworld. They are adept at manipulation, persuasion, and organizing networks of operatives, often building vast criminal empires through cunning, ruthlessness, and a keen understanding of illicit markets. [Sourced from CRB p.209]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -781,49 +752,47 @@
             "class_feature": "Command cover",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Persuasion",
+            "type": "feat_or_ability",
+            "name": "Persuasion"
+          },
+          {
+            "text_description": "one from Fortune",
+            "type": "feat_or_ability",
+            "name": "one from Fortune"
+          },
+          {
+            "text_description": "Misfortune (scoundrel)",
+            "type": "feat_or_ability",
+            "name": "Misfortune"
+          },
+          {
+            "text_description": "or Lineage (Noble)",
+            "type": "feat_or_ability",
+            "name": "or Lineage"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "one from Fortune, Misfortune (scoundrel), or Lineage (Noble)",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Droid Commander",
         "source_book": "C",
         "page": "42",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+2",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics), Use Comp",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "1 Leadership (Noble)\nor Commando (Soldier)",
-          "OTHER PREREQUISITE": "Droids only"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Knowledge (tactics)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
-          },
-          {
-            "text_description": "Use Comp",
-            "type": "feat_or_ability",
-            "name": "Use Comp"
-          },
-          {
-            "text_description": "1 Leadership (Noble)\nor Commando (Soldier)",
-            "type": "other"
-          },
-          {
-            "text_description": "Droids only",
-            "type": "feat_or_ability",
-            "name": "Droids only"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Droid Commander",
@@ -846,6 +815,14 @@
             "source_description": "Droid"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -917,64 +894,42 @@
             "class_feature": "Networked mind (5 droid allies)",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Elite Trooper",
-        "source_book": "CR",
-        "page": "211",
-        "hit_points_die": "d12",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+4",
-          "will": "0"
-        },
+        ],
         "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "AP light & medium, \nMartial Arts I, & \nPB Shot OR Flurry",
-          "TALENT PREREQUISITE": "1 Armor Spec, Commando, Weapon Spec or Mercenary (Soldier)",
-          "OTHER PREREQUISITE": "BAB +7"
-        },
         "prerequisites_structured": [
           {
-            "text_description": "AP light & medium",
+            "text_description": "Knowledge (tactics)",
             "type": "feat_or_ability",
-            "name": "AP light & medium"
+            "name": "Knowledge"
           },
           {
-            "text_description": "Martial Arts I",
+            "text_description": "Use Comp",
             "type": "feat_or_ability",
-            "name": "Martial Arts I"
+            "name": "Use Comp"
           },
           {
-            "text_description": "& \nPB Shot OR Flurry",
-            "type": "feat_or_ability",
-            "name": "& \nPB Shot OR Flurry"
-          },
-          {
-            "text_description": "1 Armor Spec",
+            "text_description": "1 Leadership (Noble)\nor Commando (Soldier)",
             "type": "other"
           },
           {
-            "text_description": "Commando",
+            "text_description": "Droids only",
             "type": "feat_or_ability",
-            "name": "Commando"
-          },
-          {
-            "text_description": "Weapon Spec or Mercenary (Soldier)",
-            "type": "feat_or_ability",
-            "name": "Weapon Spec or Mercenary"
-          },
-          {
-            "text_description": "BAB +7",
-            "type": "base_attack_bonus",
-            "value": 7
+            "name": "Droids only"
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics), Use Comp",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 Leadership (Noble)\nor Commando (Soldier)",
+          "OTHER PREREQUISITE": "Droids only"
+        }
+      },
+      {
+        "id": "elite_trooper_cr_211",
+        "name": "Elite Trooper",
+        "source_book": "CR",
+        "page": "211",
         "available_talent_trees": [
           {
             "tree_name": "Critical Master",
@@ -1017,6 +972,15 @@
             "source_description": "Soldier"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "description_general": "The Elite Trooper represents the pinnacle of soldiery, having honed their combat skills through rigorous training and extensive battlefield experience. They are masters of weaponry and armor, demonstrating exceptional endurance, tactical awareness, and the ability to perform incredible feats of martial prowess, often serving as special forces or shock troops. [Sourced from CRB p.211]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d12",
         "level_progression": [
           {
             "level": 1,
@@ -1088,48 +1052,56 @@
             "class_feature": "Damage Reduction 5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "AP light & medium",
+            "type": "feat_or_ability",
+            "name": "AP light & medium"
+          },
+          {
+            "text_description": "Martial Arts I",
+            "type": "feat_or_ability",
+            "name": "Martial Arts I"
+          },
+          {
+            "text_description": "& \nPB Shot OR Flurry",
+            "type": "feat_or_ability",
+            "name": "& \nPB Shot OR Flurry"
+          },
+          {
+            "text_description": "1 Armor Spec",
+            "type": "other"
+          },
+          {
+            "text_description": "Commando",
+            "type": "feat_or_ability",
+            "name": "Commando"
+          },
+          {
+            "text_description": "Weapon Spec or Mercenary (Soldier)",
+            "type": "feat_or_ability",
+            "name": "Weapon Spec or Mercenary"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "AP light & medium, \nMartial Arts I, & \nPB Shot OR Flurry",
+          "TALENT PREREQUISITE": "1 Armor Spec, Commando, Weapon Spec or Mercenary (Soldier)",
+          "OTHER PREREQUISITE": "BAB +7"
+        }
       },
       {
         "name": "Enforcer",
         "source_book": "F",
         "page": "43",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "0",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Gather Info, Perception",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "1 from Survivor (Scout)",
-          "OTHER PREREQUISITE": "work for law enforcement \nor security organization"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Gather Info",
-            "type": "feat_or_ability",
-            "name": "Gather Info"
-          },
-          {
-            "text_description": "Perception",
-            "type": "feat_or_ability",
-            "name": "Perception"
-          },
-          {
-            "text_description": "1 from Survivor (Scout)",
-            "type": "other"
-          },
-          {
-            "text_description": "work for law enforcement \nor security organization",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Enforcement",
@@ -1140,6 +1112,14 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -1211,45 +1191,41 @@
             "class_feature": "Targeted Suspect +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Gather Info",
+            "type": "feat_or_ability",
+            "name": "Gather Info"
+          },
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "1 from Survivor (Scout)",
+            "type": "other"
+          },
+          {
+            "text_description": "work for law enforcement \nor security organization",
+            "type": "other"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Gather Info, Perception",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 from Survivor (Scout)",
+          "OTHER PREREQUISITE": "work for law enforcement \nor security organization"
+        }
       },
       {
+        "id": "force_adept_cr_212",
         "name": "Force Adept",
         "source_book": "CR",
         "page": "212",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+2",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity",
-          "TALENT PREREQUISITE": "any three Force. Force Tradition talents are also Force talents",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
-          },
-          {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
-          },
-          {
-            "text_description": "any three Force. Force Tradition talents are also Force talents",
-            "type": "feat_or_ability",
-            "name": "any three Force. Force Tradition talents are also Force talents"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Beastwarden",
@@ -1300,6 +1276,15 @@
             "source_description": "Force"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+4"
+        },
+        "description_general": "The Force Adept is an individual who, often without formal Jedi or Sith training, has learned to touch and manipulate the Force through intuition, personal experience, or obscure traditions. They walk a unique path, their abilities shaped by their innate connection to the Force, often excelling in less common applications of its power and developing a deep, personal understanding of its workings. [Sourced from CRB p.212-213]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -1371,27 +1356,8 @@
             "class_feature": "Force technique",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Force Disciple",
-        "source_book": "CR",
-        "page": "215",
-        "hit_points_die": "d8",
-        "force_points_per_level": "7",
-        "defense_bonuses": {
-          "reflex": "+3",
-          "fortitude": "+3",
-          "will": "+6"
-        },
-        "minimum_character_level_text": "12th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity",
-          "TALENT PREREQUISITE": "any two from Dark Side \nDevotee, Force Adept, or Force Item (Force Adept)",
-          "OTHER PREREQUISITE": "Farseeing,\n1 Force Technique"
-        },
+        ],
+        "minimum_character_level_text": "7th",
         "prerequisites_structured": [
           {
             "text_description": "Use the Force",
@@ -1404,31 +1370,23 @@
             "name": "Force Sensitivity"
           },
           {
-            "text_description": "any two from Dark Side \nDevotee",
-            "type": "other"
-          },
-          {
-            "text_description": "Force Adept",
+            "text_description": "any three Force. Force Tradition talents are also Force talents",
             "type": "feat_or_ability",
-            "name": "Force Adept"
-          },
-          {
-            "text_description": "or Force Item (Force Adept)",
-            "type": "feat_or_ability",
-            "name": "or Force Item"
-          },
-          {
-            "text_description": "Farseeing",
-            "type": "feat_or_ability",
-            "name": "Farseeing"
-          },
-          {
-            "text_description": "1 Force Technique",
-            "type": "feat_or_ability",
-            "name": "1 Force Technique"
+            "name": "any three Force. Force Tradition talents are also Force talents"
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity",
+          "TALENT PREREQUISITE": "any three Force. Force Tradition talents are also Force talents",
+          "OTHER PREREQUISITE": ""
+        }
+      },
+      {
+        "name": "Force Disciple",
+        "source_book": "CR",
+        "page": "215",
         "available_talent_trees": [
           {
             "tree_name": "Force Adept",
@@ -1439,6 +1397,14 @@
             "source_description": ""
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+3",
+          "fortitude": "+3",
+          "will": "+6"
+        },
+        "force_points_per_level": "7",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -1475,45 +1441,56 @@
             "class_feature": "Force secret",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "12th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "any two from Dark Side \nDevotee",
+            "type": "other"
+          },
+          {
+            "text_description": "Force Adept",
+            "type": "feat_or_ability",
+            "name": "Force Adept"
+          },
+          {
+            "text_description": "or Force Item (Force Adept)",
+            "type": "feat_or_ability",
+            "name": "or Force Item"
+          },
+          {
+            "text_description": "Farseeing",
+            "type": "feat_or_ability",
+            "name": "Farseeing"
+          },
+          {
+            "text_description": "1 Force Technique",
+            "type": "feat_or_ability",
+            "name": "1 Force Technique"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity",
+          "TALENT PREREQUISITE": "any two from Dark Side \nDevotee, Force Adept, or Force Item (Force Adept)",
+          "OTHER PREREQUISITE": "Farseeing,\n1 Force Technique"
+        }
       },
       {
         "name": "Gladiator",
         "source_book": "K",
         "page": "43",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "+2",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Imp Dam Thresh, WP advanced",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "BAB +7"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Imp Dam Thresh",
-            "type": "feat_or_ability",
-            "name": "Imp Dam Thresh"
-          },
-          {
-            "text_description": "WP advanced",
-            "type": "feat_or_ability",
-            "name": "WP advanced"
-          },
-          {
-            "text_description": "BAB +7",
-            "type": "base_attack_bonus",
-            "value": 7
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Gladiatorial Combat",
@@ -1528,6 +1505,14 @@
             "source_description": "Soldier"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -1599,50 +1584,38 @@
             "class_feature": "Unflinching/5",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Gunslinger",
-        "source_book": "CR",
-        "page": "216",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "0",
-          "will": "+2"
-        },
+        ],
         "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Imp Dam Thresh",
+            "type": "feat_or_ability",
+            "name": "Imp Dam Thresh"
+          },
+          {
+            "text_description": "WP advanced",
+            "type": "feat_or_ability",
+            "name": "WP advanced"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
         "prerequisites_summary": {
           "TRAINED SKILL PREREQUISITE": "",
           "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "PB Shot, Precise Shot, \nQuick Draw, WP(pistols)",
+          "FEAT PREREQUISITE": "Imp Dam Thresh, WP advanced",
           "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "PB Shot",
-            "type": "feat_or_ability",
-            "name": "PB Shot"
-          },
-          {
-            "text_description": "Precise Shot",
-            "type": "feat_or_ability",
-            "name": "Precise Shot"
-          },
-          {
-            "text_description": "Quick Draw",
-            "type": "feat_or_ability",
-            "name": "Quick Draw"
-          },
-          {
-            "text_description": "WP(pistols)",
-            "type": "feat_or_ability",
-            "name": "WP"
-          }
-        ],
-        "group_heading": "Y",
+          "OTHER PREREQUISITE": "BAB +7"
+        }
+      },
+      {
+        "id": "gunslinger_cr_216",
+        "name": "Gunslinger",
+        "source_book": "CR",
+        "page": "216",
         "available_talent_trees": [
           {
             "tree_name": "Carbineer",
@@ -1669,6 +1642,15 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "description_general": "The Gunslinger is a master of ranged combat, particularly with pistols and other sidearms, capable of incredible feats of speed and accuracy. They are deadly shots, relying on quick reflexes, uncanny aim, and often a bit of style to overcome foes in fast-paced shootouts. [Sourced from CRB p.216]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -1740,55 +1722,42 @@
             "class_feature": "Trusty Sidearm +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "PB Shot",
+            "type": "feat_or_ability",
+            "name": "PB Shot"
+          },
+          {
+            "text_description": "Precise Shot",
+            "type": "feat_or_ability",
+            "name": "Precise Shot"
+          },
+          {
+            "text_description": "Quick Draw",
+            "type": "feat_or_ability",
+            "name": "Quick Draw"
+          },
+          {
+            "text_description": "WP(pistols)",
+            "type": "feat_or_ability",
+            "name": "WP"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "PB Shot, Precise Shot, \nQuick Draw, WP(pistols)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Imperial Knight",
         "source_book": "L",
         "page": "43",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+2",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "AP(medium),\nWP(lightsabers)",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "BAB +7, \nDefender of Roan Fel"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
-          },
-          {
-            "text_description": "AP(medium)",
-            "type": "feat_or_ability",
-            "name": "AP"
-          },
-          {
-            "text_description": "WP(lightsabers)",
-            "type": "feat_or_ability",
-            "name": "WP"
-          },
-          {
-            "text_description": "BAB +7",
-            "type": "base_attack_bonus",
-            "value": 7
-          },
-          {
-            "text_description": "Defender of Roan Fel",
-            "type": "feat_or_ability",
-            "name": "Defender of Roan Fel"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Knight's Armor",
@@ -1831,6 +1800,14 @@
             "source_description": "Force"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -1902,45 +1879,47 @@
             "class_feature": "Force technique",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "AP(medium)",
+            "type": "feat_or_ability",
+            "name": "AP"
+          },
+          {
+            "text_description": "WP(lightsabers)",
+            "type": "feat_or_ability",
+            "name": "WP"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "text_description": "Defender of Roan Fel",
+            "type": "feat_or_ability",
+            "name": "Defender of Roan Fel"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "AP(medium),\nWP(lightsabers)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7, \nDefender of Roan Fel"
+        }
       },
       {
         "name": "Improviser",
         "source_book": "R",
         "page": "41",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Mechanics, Use Computer",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Skill Focus (Mechanics)",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Mechanics",
-            "type": "feat_or_ability",
-            "name": "Mechanics"
-          },
-          {
-            "text_description": "Use Computer",
-            "type": "feat_or_ability",
-            "name": "Use Computer"
-          },
-          {
-            "text_description": "Skill Focus (Mechanics)",
-            "type": "feat_or_ability",
-            "name": "Skill Focus"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Procurement",
@@ -1959,6 +1938,14 @@
             "source_description": "Scoundrel"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -2030,45 +2017,37 @@
             "class_feature": "Contraband (10,000 credits)",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Independent Droid",
-        "source_book": "F",
-        "page": "46",
-        "hit_points_die": "d12",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "3rd",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use Computer",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "Heuristic Processor, \nDroids only"
-        },
+        ],
+        "minimum_character_level_text": "7th",
         "prerequisites_structured": [
+          {
+            "text_description": "Mechanics",
+            "type": "feat_or_ability",
+            "name": "Mechanics"
+          },
           {
             "text_description": "Use Computer",
             "type": "feat_or_ability",
             "name": "Use Computer"
           },
           {
-            "text_description": "Heuristic Processor",
+            "text_description": "Skill Focus (Mechanics)",
             "type": "feat_or_ability",
-            "name": "Heuristic Processor"
-          },
-          {
-            "text_description": "Droids only",
-            "type": "feat_or_ability",
-            "name": "Droids only"
+            "name": "Skill Focus"
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Mechanics, Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Skill Focus (Mechanics)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        }
+      },
+      {
+        "name": "Independent Droid",
+        "source_book": "F",
+        "page": "46",
         "available_talent_trees": [
           {
             "tree_name": "Autonomy",
@@ -2083,6 +2062,14 @@
             "source_description": "Independent Droid"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d12",
         "level_progression": [
           {
             "level": 1,
@@ -2154,49 +2141,37 @@
             "class_feature": "Independent spirit +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "3rd",
+        "prerequisites_structured": [
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          },
+          {
+            "text_description": "Heuristic Processor",
+            "type": "feat_or_ability",
+            "name": "Heuristic Processor"
+          },
+          {
+            "text_description": "Droids only",
+            "type": "feat_or_ability",
+            "name": "Droids only"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "Heuristic Processor, \nDroids only"
+        }
       },
       {
         "name": "Infiltrator",
         "source_book": "F",
         "page": "48",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "0",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Perception, Stealth",
-          "SKILL FOCUS PREREQ.": "Stealth",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "2 from Camouflage or Spy (Scout)",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Perception",
-            "type": "feat_or_ability",
-            "name": "Perception"
-          },
-          {
-            "text_description": "Stealth",
-            "type": "feat_or_ability",
-            "name": "Stealth"
-          },
-          {
-            "text_description": "Stealth",
-            "type": "feat_or_ability",
-            "name": "Stealth"
-          },
-          {
-            "text_description": "2 from Camouflage or Spy (Scout)",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Bothan SpyNet",
@@ -2215,6 +2190,14 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -2286,59 +2269,42 @@
             "class_feature": "Unarmed stun +3 dice",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "2 from Camouflage or Spy (Scout)",
+            "type": "other"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Perception, Stealth",
+          "SKILL FOCUS PREREQ.": "Stealth",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 from Camouflage or Spy (Scout)",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
+        "id": "jedi_knight_cr_217",
         "name": "Jedi Knight",
         "source_book": "CR",
         "page": "217",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+2",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "BAB +7, self-built lightsaber, \nJedi tradition"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
-          },
-          {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
-          },
-          {
-            "text_description": "WP lightsabers",
-            "type": "feat_or_ability",
-            "name": "WP lightsabers"
-          },
-          {
-            "text_description": "BAB +7",
-            "type": "base_attack_bonus",
-            "value": 7
-          },
-          {
-            "text_description": "self-built lightsaber",
-            "type": "other"
-          },
-          {
-            "text_description": "Jedi tradition",
-            "type": "feat_or_ability",
-            "name": "Jedi tradition"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Duelist",
@@ -2417,6 +2383,15 @@
             "source_description": "Force"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "description_general": "The Jedi Knight is a guardian of peace and justice in the galaxy, having completed their Jedi training to become a full member of the Jedi Order. Skilled in the ways of the Force and the art of lightsaber combat, they follow the Jedi Code, striving to protect the innocent, uphold the ideals of the Republic (or the light), and confront the darkness. [Sourced from CRB p.217]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -2488,27 +2463,8 @@
             "class_feature": "Force technique",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Jedi Master",
-        "source_book": "CR",
-        "page": "219",
-        "hit_points_die": "d10",
-        "force_points_per_level": "7",
-        "defense_bonuses": {
-          "reflex": "+3",
-          "fortitude": "+3",
-          "will": "+3"
-        },
-        "minimum_character_level_text": "12th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "1 Force Technique, \nJedi tradition"
-        },
+        ],
+        "minimum_character_level_text": "7th",
         "prerequisites_structured": [
           {
             "text_description": "Use the Force",
@@ -2526,9 +2482,13 @@
             "name": "WP lightsabers"
           },
           {
-            "text_description": "1 Force Technique",
-            "type": "feat_or_ability",
-            "name": "1 Force Technique"
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "text_description": "self-built lightsaber",
+            "type": "other"
           },
           {
             "text_description": "Jedi tradition",
@@ -2536,7 +2496,19 @@
             "name": "Jedi tradition"
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7, self-built lightsaber, \nJedi tradition"
+        }
+      },
+      {
+        "id": "jedi_master_cr_219",
+        "name": "Jedi Master",
+        "source_book": "CR",
+        "page": "219",
         "available_talent_trees": [
           {
             "tree_name": "Duelist",
@@ -2547,6 +2519,15 @@
             "source_description": ""
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+3",
+          "fortitude": "+3",
+          "will": "+3"
+        },
+        "description_general": "A Jedi Master represents a pinnacle of achievement within the Jedi Order, possessing profound wisdom, exceptional skill in the Force, and a deep understanding of its mysteries. They often serve as leaders, teachers to new generations of Jedi, and powerful champions of the light side, having faced many trials and demonstrated exemplary dedication to the Jedi Code. [Sourced from CRB p.219-220]",
+        "force_points_per_level": "7",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -2583,53 +2564,47 @@
             "class_feature": "Force secret",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "12th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "WP lightsabers",
+            "type": "feat_or_ability",
+            "name": "WP lightsabers"
+          },
+          {
+            "text_description": "1 Force Technique",
+            "type": "feat_or_ability",
+            "name": "1 Force Technique"
+          },
+          {
+            "text_description": "Jedi tradition",
+            "type": "feat_or_ability",
+            "name": "Jedi tradition"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "1 Force Technique, \nJedi tradition"
+        }
       },
       {
         "name": "Martial Arts Master",
         "source_book": "GW",
         "page": "32",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+4",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Martial Arts I&II, Melee Defense, 1 Martial Arts Training",
-          "TALENT PREREQUISITE": "1 either Brawler (Soldier) or Survivor (Scout)",
-          "OTHER PREREQUISITE": "BAB +7"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Martial Arts I&II",
-            "type": "feat_or_ability",
-            "name": "Martial Arts I&II"
-          },
-          {
-            "text_description": "Melee Defense",
-            "type": "feat_or_ability",
-            "name": "Melee Defense"
-          },
-          {
-            "text_description": "1 Martial Arts Training",
-            "type": "other"
-          },
-          {
-            "text_description": "1 either Brawler (Soldier) or Survivor (Scout)",
-            "type": "other"
-          },
-          {
-            "text_description": "BAB +7",
-            "type": "base_attack_bonus",
-            "value": 7
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Martial Arts Forms",
@@ -2648,6 +2623,14 @@
             "source_description": "Elite Trooper"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -2719,64 +2702,45 @@
             "class_feature": "Tough as Durasteel +10",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Martial Arts I&II",
+            "type": "feat_or_ability",
+            "name": "Martial Arts I&II"
+          },
+          {
+            "text_description": "Melee Defense",
+            "type": "feat_or_ability",
+            "name": "Melee Defense"
+          },
+          {
+            "text_description": "1 Martial Arts Training",
+            "type": "other"
+          },
+          {
+            "text_description": "1 either Brawler (Soldier) or Survivor (Scout)",
+            "type": "other"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Martial Arts I&II, Melee Defense, 1 Martial Arts Training",
+          "TALENT PREREQUISITE": "1 either Brawler (Soldier) or Survivor (Scout)",
+          "OTHER PREREQUISITE": "BAB +7"
+        }
       },
       {
         "name": "Master Privateer",
         "source_book": "SV",
         "page": "32",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Deception, Pilot",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Vehicular Combat",
-          "TALENT PREREQUISITE": "2 from Misfortune, Smuggling,\nor Spacer (all Scoundrel)",
-          "OTHER PREREQUISITE": "expanded on F51"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Deception",
-            "type": "feat_or_ability",
-            "name": "Deception"
-          },
-          {
-            "text_description": "Pilot",
-            "type": "feat_or_ability",
-            "name": "Pilot"
-          },
-          {
-            "text_description": "Vehicular Combat",
-            "type": "feat_or_ability",
-            "name": "Vehicular Combat"
-          },
-          {
-            "text_description": "2 from Misfortune",
-            "type": "other"
-          },
-          {
-            "text_description": "Smuggling",
-            "type": "feat_or_ability",
-            "name": "Smuggling"
-          },
-          {
-            "text_description": "or Spacer (all Scoundrel)",
-            "type": "feat_or_ability",
-            "name": "or Spacer"
-          },
-          {
-            "text_description": "expanded on F51",
-            "type": "feat_or_ability",
-            "name": "expanded on F51"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Piracy",
@@ -2795,6 +2759,14 @@
             "source_description": "Scoundrel"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -2866,45 +2838,56 @@
             "class_feature": "Veteran Privateer/5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Pilot",
+            "type": "feat_or_ability",
+            "name": "Pilot"
+          },
+          {
+            "text_description": "Vehicular Combat",
+            "type": "feat_or_ability",
+            "name": "Vehicular Combat"
+          },
+          {
+            "text_description": "2 from Misfortune",
+            "type": "other"
+          },
+          {
+            "text_description": "Smuggling",
+            "type": "feat_or_ability",
+            "name": "Smuggling"
+          },
+          {
+            "text_description": "or Spacer (all Scoundrel)",
+            "type": "feat_or_ability",
+            "name": "or Spacer"
+          },
+          {
+            "text_description": "expanded on F51",
+            "type": "feat_or_ability",
+            "name": "expanded on F51"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Pilot",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Vehicular Combat",
+          "TALENT PREREQUISITE": "2 from Misfortune, Smuggling,\nor Spacer (all Scoundrel)",
+          "OTHER PREREQUISITE": "expanded on F51"
+        }
       },
       {
         "name": "Medic",
         "source_book": "F",
         "page": "52",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "0",
-          "fortitude": "+4",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Knowledge (life sciences), \nTreat Injury",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Surgical Expertise",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Knowledge (life sciences)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
-          },
-          {
-            "text_description": "Treat Injury",
-            "type": "feat_or_ability",
-            "name": "Treat Injury"
-          },
-          {
-            "text_description": "Surgical Expertise",
-            "type": "feat_or_ability",
-            "name": "Surgical Expertise"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Advanced Medicine",
@@ -2915,6 +2898,14 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "0",
+          "fortitude": "+4",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -2986,50 +2977,37 @@
             "class_feature": "Medical Secret",
             "special_abilities": "revivify as stan not full"
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (life sciences)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Treat Injury",
+            "type": "feat_or_ability",
+            "name": "Treat Injury"
+          },
+          {
+            "text_description": "Surgical Expertise",
+            "type": "feat_or_ability",
+            "name": "Surgical Expertise"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (life sciences), \nTreat Injury",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Surgical Expertise",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Melee Duelist",
         "source_book": "K",
         "page": "46",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "0",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Melee Def, Rapid Strike,\nWeapon Focus (any melee)",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "BAB +7"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Melee Def",
-            "type": "feat_or_ability",
-            "name": "Melee Def"
-          },
-          {
-            "text_description": "Rapid Strike",
-            "type": "feat_or_ability",
-            "name": "Rapid Strike"
-          },
-          {
-            "text_description": "Weapon Focus (any melee)",
-            "type": "feat_or_ability",
-            "name": "Weapon Focus"
-          },
-          {
-            "text_description": "BAB +7",
-            "type": "base_attack_bonus",
-            "value": 7
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Melee Duelist",
@@ -3044,6 +3022,14 @@
             "source_description": "Soldier"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "0",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -3115,37 +3101,23 @@
             "class_feature": "Master of Movement/5",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Military Engineer",
-        "source_book": "C",
-        "page": "44",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+2",
-          "will": "+2"
-        },
+        ],
         "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Mechanics, Use Computer",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "BAB +7"
-        },
         "prerequisites_structured": [
           {
-            "text_description": "Mechanics",
+            "text_description": "Melee Def",
             "type": "feat_or_ability",
-            "name": "Mechanics"
+            "name": "Melee Def"
           },
           {
-            "text_description": "Use Computer",
+            "text_description": "Rapid Strike",
             "type": "feat_or_ability",
-            "name": "Use Computer"
+            "name": "Rapid Strike"
+          },
+          {
+            "text_description": "Weapon Focus (any melee)",
+            "type": "feat_or_ability",
+            "name": "Weapon Focus"
           },
           {
             "text_description": "BAB +7",
@@ -3153,7 +3125,18 @@
             "value": 7
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Melee Def, Rapid Strike,\nWeapon Focus (any melee)",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7"
+        }
+      },
+      {
+        "name": "Military Engineer",
+        "source_book": "C",
+        "page": "44",
         "available_talent_trees": [
           {
             "tree_name": "Military Engineer",
@@ -3164,6 +3147,14 @@
             "source_description": "Scoundrel"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -3235,43 +3226,38 @@
             "class_feature": "Field-created weapon +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Mechanics",
+            "type": "feat_or_ability",
+            "name": "Mechanics"
+          },
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          },
+          {
+            "text_description": "BAB +7",
+            "type": "base_attack_bonus",
+            "value": 7
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Mechanics, Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "BAB +7"
+        }
       },
       {
+        "id": "officer_cr_220",
         "name": "Officer",
         "source_book": "CR",
         "page": "220",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics)",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
-          "OTHER PREREQUISITE": "military membership"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Knowledge (tactics)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
-          },
-          {
-            "text_description": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
-            "type": "other"
-          },
-          {
-            "text_description": "military membership",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Fugitive Commander",
@@ -3298,6 +3284,15 @@
             "source_description": "Soldier"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "description_general": "The Officer is a leader of military forces, skilled in tactics, command, and inspiring troops on the battlefield or aboard starships. They are responsible for strategy, unit cohesion, and achieving objectives, whether serving planetary militias, sector forces, or the grand armies and navies of major galactic powers. [Sourced from CRB p.220-221]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -3369,48 +3364,35 @@
             "class_feature": "Command cover, Share talent",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (tactics)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
+            "type": "other"
+          },
+          {
+            "text_description": "military membership",
+            "type": "other"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics)",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
+          "OTHER PREREQUISITE": "military membership"
+        }
       },
       {
         "name": "Outlaw",
         "source_book": "SV",
         "page": "34",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+4",
-          "fortitude": "+2",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Stealth, Survival",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
-          "OTHER PREREQUISITE": "Must be wanted by the authorities in at least one system"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Stealth",
-            "type": "feat_or_ability",
-            "name": "Stealth"
-          },
-          {
-            "text_description": "Survival",
-            "type": "feat_or_ability",
-            "name": "Survival"
-          },
-          {
-            "text_description": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
-            "type": "other"
-          },
-          {
-            "text_description": "Must be wanted by the authorities in at least one system",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Outlaw",
@@ -3429,6 +3411,14 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+4",
+          "fortitude": "+2",
+          "will": "0"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -3500,32 +3490,13 @@
             "class_feature": "Fugitive +1",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Pathfinder",
-        "source_book": "R",
-        "page": "43",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+4",
-          "will": "0"
-        },
+        ],
         "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Perception, Survival",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "2 Awareness, Camouflage\nor Survivor (Scout)",
-          "OTHER PREREQUISITE": ""
-        },
         "prerequisites_structured": [
           {
-            "text_description": "Perception",
+            "text_description": "Stealth",
             "type": "feat_or_ability",
-            "name": "Perception"
+            "name": "Stealth"
           },
           {
             "text_description": "Survival",
@@ -3533,16 +3504,26 @@
             "name": "Survival"
           },
           {
-            "text_description": "2 Awareness",
+            "text_description": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
             "type": "other"
           },
           {
-            "text_description": "Camouflage\nor Survivor (Scout)",
-            "type": "feat_or_ability",
-            "name": "Camouflage\nor Survivor"
+            "text_description": "Must be wanted by the authorities in at least one system",
+            "type": "other"
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Stealth, Survival",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
+          "OTHER PREREQUISITE": "Must be wanted by the authorities in at least one system"
+        }
+      },
+      {
+        "name": "Pathfinder",
+        "source_book": "R",
+        "page": "43",
         "available_talent_trees": [
           {
             "tree_name": "Pathfinder",
@@ -3557,6 +3538,14 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -3628,45 +3617,41 @@
             "class_feature": "Create Cover (5 squares)",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "Survival",
+            "type": "feat_or_ability",
+            "name": "Survival"
+          },
+          {
+            "text_description": "2 Awareness",
+            "type": "other"
+          },
+          {
+            "text_description": "Camouflage\nor Survivor (Scout)",
+            "type": "feat_or_ability",
+            "name": "Camouflage\nor Survivor"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Perception, Survival",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 Awareness, Camouflage\nor Survivor (Scout)",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Saboteur",
         "source_book": "F",
         "page": "54",
-        "hit_points_die": "d8",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "0",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Deception, Mechanics, Use Computer",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Deception",
-            "type": "feat_or_ability",
-            "name": "Deception"
-          },
-          {
-            "text_description": "Mechanics",
-            "type": "feat_or_ability",
-            "name": "Mechanics"
-          },
-          {
-            "text_description": "Use Computer",
-            "type": "feat_or_ability",
-            "name": "Use Computer"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Sabotage",
@@ -3685,6 +3670,14 @@
             "source_description": "Scoundrel"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "0",
+          "will": "+4"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -3756,50 +3749,37 @@
             "class_feature": "Master saboteur",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Deception",
+            "type": "feat_or_ability",
+            "name": "Deception"
+          },
+          {
+            "text_description": "Mechanics",
+            "type": "feat_or_ability",
+            "name": "Mechanics"
+          },
+          {
+            "text_description": "Use Computer",
+            "type": "feat_or_ability",
+            "name": "Use Computer"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Deception, Mechanics, Use Computer",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": ""
+        }
       },
       {
         "name": "Shaper",
         "source_book": "L",
         "page": "46",
-        "hit_points_die": "d8",
-        "force_points_per_level": "0",
-        "defense_bonuses": {
-          "reflex": "0",
-          "fortitude": "+2",
-          "will": "+4"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Knowledge (life science), \nTreat Injury",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Biotech Specialist",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "Yuuzhan Vong"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Knowledge (life science)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
-          },
-          {
-            "text_description": "Treat Injury",
-            "type": "feat_or_ability",
-            "name": "Treat Injury"
-          },
-          {
-            "text_description": "Biotech Specialist",
-            "type": "feat_or_ability",
-            "name": "Biotech Specialist"
-          },
-          {
-            "text_description": "Yuuzhan Vong",
-            "type": "feat_or_ability",
-            "name": "Yuuzhan Vong"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Implant",
@@ -3814,6 +3794,14 @@
             "source_description": "Medic"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "0",
+          "fortitude": "+2",
+          "will": "+4"
+        },
+        "force_points_per_level": "0",
+        "group_heading": "Y",
+        "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
@@ -3885,55 +3873,43 @@
             "class_feature": "Shaper Lore +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Knowledge (life science)",
+            "type": "feat_or_ability",
+            "name": "Knowledge"
+          },
+          {
+            "text_description": "Treat Injury",
+            "type": "feat_or_ability",
+            "name": "Treat Injury"
+          },
+          {
+            "text_description": "Biotech Specialist",
+            "type": "feat_or_ability",
+            "name": "Biotech Specialist"
+          },
+          {
+            "text_description": "Yuuzhan Vong",
+            "type": "feat_or_ability",
+            "name": "Yuuzhan Vong"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Knowledge (life science), \nTreat Injury",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Biotech Specialist",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "Yuuzhan Vong"
+        }
       },
       {
+        "id": "sith_apprentice_cr_223",
         "name": "Sith Apprentice",
         "source_book": "CR",
         "page": "223",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+2",
-          "will": "+2"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "Dark Side score = Wis, \nSith tradition"
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
-          },
-          {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
-          },
-          {
-            "text_description": "WP lightsabers",
-            "type": "feat_or_ability",
-            "name": "WP lightsabers"
-          },
-          {
-            "text_description": "Dark Side score = Wis",
-            "type": "feat_or_ability",
-            "name": "Dark Side score = Wis"
-          },
-          {
-            "text_description": "Sith tradition",
-            "type": "feat_or_ability",
-            "name": "Sith tradition"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Sith",
@@ -3976,6 +3952,15 @@
             "source_description": "Force"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+2",
+          "will": "+2"
+        },
+        "description_general": "The Sith Apprentice walks the path of darkness under the tutelage of a Sith Master, learning the forbidden secrets of the Sith Order and cultivating their power in the dark side of the Force. Driven by ambition, hatred, or a desire for ultimate control, they embrace the Sith Code and seek to master their passions to achieve strength. [Sourced from CRB p.223]",
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -4047,27 +4032,8 @@
             "class_feature": "Force technique",
             "special_abilities": null
           }
-        ]
-      },
-      {
-        "name": "Sith Lord",
-        "source_book": "CR",
-        "page": "224",
-        "hit_points_die": "d10",
-        "force_points_per_level": "7",
-        "defense_bonuses": {
-          "reflex": "+3",
-          "fortitude": "+3",
-          "will": "+3"
-        },
-        "minimum_character_level_text": "12th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "1 Force Technique, \nDark Side score = Wis, \nSith tradition"
-        },
+        ],
+        "minimum_character_level_text": "7th",
         "prerequisites_structured": [
           {
             "text_description": "Use the Force",
@@ -4085,11 +4051,6 @@
             "name": "WP lightsabers"
           },
           {
-            "text_description": "1 Force Technique",
-            "type": "feat_or_ability",
-            "name": "1 Force Technique"
-          },
-          {
             "text_description": "Dark Side score = Wis",
             "type": "feat_or_ability",
             "name": "Dark Side score = Wis"
@@ -4100,7 +4061,19 @@
             "name": "Sith tradition"
           }
         ],
-        "group_heading": "Y",
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "Dark Side score = Wis, \nSith tradition"
+        }
+      },
+      {
+        "id": "sith_lord_cr_224",
+        "name": "Sith Lord",
+        "source_book": "CR",
+        "page": "224",
         "available_talent_trees": [
           {
             "tree_name": "Sith",
@@ -4111,6 +4084,15 @@
             "source_description": ""
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+3",
+          "fortitude": "+3",
+          "will": "+3"
+        },
+        "description_general": "A Sith Lord has achieved a significant degree of mastery over the dark side of the Force and typically commands considerable power and influence within the Sith Order or their own dark domain. They are figures of immense personal power, cunning, and cruelty, fully dedicated to the Sith philosophy of strength through passion and the pursuit of galactic domination or personal apotheosis through the dark side. [Sourced from CRB p.224]",
+        "force_points_per_level": "7",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -4147,44 +4129,52 @@
             "class_feature": "Force secret",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "12th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Use the Force",
+            "type": "feat_or_ability",
+            "name": "Use the Force"
+          },
+          {
+            "text_description": "Force Sensitivity",
+            "type": "feat_or_ability",
+            "name": "Force Sensitivity"
+          },
+          {
+            "text_description": "WP lightsabers",
+            "type": "feat_or_ability",
+            "name": "WP lightsabers"
+          },
+          {
+            "text_description": "1 Force Technique",
+            "type": "feat_or_ability",
+            "name": "1 Force Technique"
+          },
+          {
+            "text_description": "Dark Side score = Wis",
+            "type": "feat_or_ability",
+            "name": "Dark Side score = Wis"
+          },
+          {
+            "text_description": "Sith tradition",
+            "type": "feat_or_ability",
+            "name": "Sith tradition"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Use the Force",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
+          "TALENT PREREQUISITE": "",
+          "OTHER PREREQUISITE": "1 Force Technique, \nDark Side score = Wis, \nSith tradition"
+        }
       },
       {
         "name": "Vanguard",
         "source_book": "C",
         "page": "47",
-        "hit_points_die": "d10",
-        "force_points_per_level": "6",
-        "defense_bonuses": {
-          "reflex": "+2",
-          "fortitude": "+4",
-          "will": "0"
-        },
-        "minimum_character_level_text": "7th",
-        "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Perception, Stealth",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "2 Camouflage (Scout) or Commando (Soldier)",
-          "OTHER PREREQUISITE": ""
-        },
-        "prerequisites_structured": [
-          {
-            "text_description": "Perception",
-            "type": "feat_or_ability",
-            "name": "Perception"
-          },
-          {
-            "text_description": "Stealth",
-            "type": "feat_or_ability",
-            "name": "Stealth"
-          },
-          {
-            "text_description": "2 Camouflage (Scout) or Commando (Soldier)",
-            "type": "other"
-          }
-        ],
-        "group_heading": "Y",
         "available_talent_trees": [
           {
             "tree_name": "Vanguard",
@@ -4199,6 +4189,14 @@
             "source_description": "Scout"
           }
         ],
+        "defense_bonuses": {
+          "reflex": "+2",
+          "fortitude": "+4",
+          "will": "0"
+        },
+        "force_points_per_level": "6",
+        "group_heading": "Y",
+        "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
@@ -4270,7 +4268,31 @@
             "class_feature": "Surprise Attack +5",
             "special_abilities": null
           }
-        ]
+        ],
+        "minimum_character_level_text": "7th",
+        "prerequisites_structured": [
+          {
+            "text_description": "Perception",
+            "type": "feat_or_ability",
+            "name": "Perception"
+          },
+          {
+            "text_description": "Stealth",
+            "type": "feat_or_ability",
+            "name": "Stealth"
+          },
+          {
+            "text_description": "2 Camouflage (Scout) or Commando (Soldier)",
+            "type": "other"
+          }
+        ],
+        "prerequisites_summary": {
+          "TRAINED SKILL PREREQUISITE": "Perception, Stealth",
+          "SKILL FOCUS PREREQ.": "",
+          "FEAT PREREQUISITE": "",
+          "TALENT PREREQUISITE": "2 Camouflage (Scout) or Commando (Soldier)",
+          "OTHER PREREQUISITE": ""
+        }
       }
     ]
   }

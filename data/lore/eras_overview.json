@@ -1,0 +1,148 @@
+{
+  "file_description": "A generalized overview of major Star Wars eras, designed to be extensible with information from multiple sourcebooks. Provides lore context for campaigns and character backgrounds.",
+  "default_source_book_for_core_eras": "CR",
+  "eras": [
+    {
+      "era_id": "rise_of_the_empire",
+      "name": "The Rise of the Empire Era",
+      "timeframe_approximate": "Circa 32 BBY to 19 BBY (Corresponds to Star Wars Episodes I-III)",
+      "primary_summary": {
+        "source_book": "CR",
+        "page_reference": "9, 259-260",
+        "text": "This era depicts the decline and corruption of the Old Republic, the insidious rise to power of Chancellor Palpatine (Darth Sidious), and the galaxy-spanning Clone Wars. The Jedi Order, initially at its peak with around ten thousand Knights, serves as guardians of peace and justice but is progressively undermined and ultimately decimated by the Sith's machinations. The Separatist Crisis, led by Count Dooku (Darth Tyranus), sees thousands of star systems secede from the Republic, leading to widespread conflict. The era culminates with Palpatine declaring himself Emperor, the transformation of Anakin Skywalker into Darth Vader, and the near-annihilation of the Jedi Order."
+      },
+      "lore_details": [
+        {
+          "aspect": "Political Climate",
+          "detail": "The Galactic Republic's power is waning, marked by political unrest, corruption, and bureaucratic inefficiency.",
+          "source_book": "CR",
+          "page_reference": "9, 259"
+        },
+        {
+          "aspect": "Jedi Order",
+          "detail": "The Jedi Council holds significant sway, and around ten thousand Jedi Knights are active and visible, acting as guardians of peace and justice.",
+          "source_book": "CR",
+          "page_reference": "9, 259"
+        },
+        {
+          "aspect": "Sith Presence",
+          "detail": "The Sith, operating under Darth Bane's 'Rule of Two,' secretly manipulate galactic events to orchestrate their return to power.",
+          "source_book": "CR",
+          "page_reference": "259"
+        },
+        {
+          "aspect": "Major Conflict",
+          "detail": "The Clone Wars erupt between the Republic (utilizing a clone army) and the Confederacy of Independent Systems (employing a vast droid army).",
+          "source_book": "CR",
+          "page_reference": "9, 259"
+        },
+        {
+          "aspect": "Species Societal Role",
+          "detail": "Most species participate in a cosmopolitan galactic society. Species restrictions mainly apply to those not yet 'discovered' by the wider galaxy (e.g., Ewoks are generally not available as player characters in this era).",
+          "source_book": "CR",
+          "page_reference": "24"
+        },
+        {
+          "aspect": "Adventure Themes",
+          "detail": "Opportunities for adventure include missions for the Republic or Separatists, investigating corruption, exploring new worlds, and dealing with crime, corporate greed, and dark side cults. Later heroes might be Jedi on the run or early members of movements that will eventually form the Rebel Alliance.",
+          "source_book": "CR",
+          "page_reference": "260"
+        }
+      ],
+      "additional_source_references": [
+        {"source_book": "CR", "page_reference": "9, 24, 259-261"}
+      ]
+    },
+    {
+      "era_id": "rebellion_era",
+      "name": "The Rebellion Era",
+      "timeframe_approximate": "Circa 0 BBY/ABY to 5 ABY (Corresponds to Star Wars Episodes IV-VI)",
+      "primary_summary": {
+        "source_book": "CR",
+        "page_reference": "9, 260-261",
+        "text": "The Galactic Empire, under the iron will of Emperor Palpatine and his enforcer Darth Vader, rules the galaxy. The Jedi Order is virtually extinct, with survivors in hiding. The Imperial Senate has been disbanded, and the HoloNet is restricted. The Empire's military might, including Star Destroyers and the Death Star battle stations, maintains control through fear and oppression. The Rebel Alliance, a coalition of freedom fighters, wages a desperate war against Imperial tyranny."
+      },
+      "lore_details": [
+        {
+          "aspect": "Imperial Rule",
+          "detail": "The Emperor rules with an iron will, supported by figures like Darth Vader and regional Moffs. The Imperial Security Bureau (ISB) scours the galaxy for dissidents.",
+          "source_book": "CR",
+          "page_reference": "260"
+        },
+        {
+          "aspect": "State of the Jedi",
+          "detail": "The Jedi Order has been eliminated; Force-users are extremely rare and hunted by the Empire.",
+          "source_book": "CR",
+          "page_reference": "9, 260"
+        },
+        {
+          "aspect": "Societal Impact",
+          "detail": "The Empire exhibits strong anti-alien sentiments; many non-Human species are enslaved, subjugated, or treated as second-class citizens, particularly in Core regions. Many aliens join the Rebel Alliance.",
+          "source_book": "CR",
+          "page_reference": "24"
+        },
+        {
+          "aspect": "Rebel Alliance",
+          "detail": "Heroes typically work for the Rebel Alliance as pilots, soldiers, spies, or support personnel, or are independent beings drawn into the conflict.",
+          "source_book": "CR",
+          "page_reference": "260"
+        },
+        {
+          "aspect": "Species Availability Notes",
+          "detail": "Ewoks appear late in this era during the Battle of Endor. Free Wookiees are rare due to their enslavement by the Empire. Non-Human species regain prominence with the birth of the New Republic towards the end of this period.",
+          "source_book": "CR",
+          "page_reference": "24"
+        }
+      ],
+      "additional_source_references": [
+        {"source_book": "CR", "page_reference": "9, 24, 260-261"}
+      ]
+    },
+    {
+      "era_id": "new_jedi_order_era",
+      "name": "The New Jedi Order Era",
+      "timeframe_approximate": "Circa 25 ABY onwards (Based on the Del Rey novel series)",
+      "primary_summary": {
+        "source_book": "CR",
+        "page_reference": "9, 261",
+        "text": "The New Republic is established, though an Imperial remnant still controls parts of the galaxy. Luke Skywalker is rebuilding the Jedi Order, which numbers around a hundred Knights, but faces internal debate about its role and growing distrust from some New Republic officials and the populace. This era is defined by the devastating invasion of the Yuuzhan Vong, an extragalactic species immune to direct Force manipulation and utilizing organic biotechnology."
+      },
+      "lore_details": [
+        {
+          "aspect": "Primary Threat",
+          "detail": "The Yuuzhan Vong, an extragalactic species that hates mechanical technology and uses bioengineered organisms, invade the galaxy. They cannot be sensed directly through the Force.",
+          "source_book": "CR",
+          "page_reference": "261"
+        },
+        {
+          "aspect": "Galactic Impact",
+          "detail": "Coruscant itself falls to the Yuuzhan Vong. The conflict leads to the formation of the Galactic Federation of Free Alliances (Galactic Alliance). [cite: 1818]",
+          "source_book": "CR",
+          "page_reference": "261"
+        },
+        {
+          "aspect": "Resolution of Conflict",
+          "detail": "The war ends with the Yuuzhan Vong being allowed to surrender and take the living planet Zonama Sekot as their new homeworld, which then departs for the Unknown Regions.",
+          "source_book": "CR",
+          "page_reference": "261"
+        },
+        {
+          "aspect": "State of the Jedi",
+          "detail": "Luke Skywalker's New Jedi Order is growing but faces challenges, including public distrust and internal debates.",
+          "source_book": "CR",
+          "page_reference": "261"
+        },
+        {
+          "aspect": "Species Societal Role",
+          "detail": "All alien species are generally available without restriction in this era, though the galaxy is recovering from a major war. [cite: 130]",
+          "source_book": "CR",
+          "page_reference": "24"
+        }
+      ],
+      "additional_source_references": [
+        {"source_book": "CR", "page_reference": "9, 24, 261"}
+      ]
+    }
+    // Future eras from other sourcebooks can be added here as new objects.
+  ]
+}

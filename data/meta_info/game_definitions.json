@@ -1,0 +1,137 @@
+{
+  "file_description": "Core definitions, constants, and general game mechanics for Star Wars Saga Edition, primarily sourced from the Core Rulebook. This file provides baseline understanding for terms and systems used throughout the game.",
+  "source_book_reference_default": "CR",
+  "core_game_mechanic": {
+    "description": "The fundamental rule for resolving actions: Roll a d20, add any relevant modifiers, and compare the result to a target number. Success occurs if the result equals or exceeds the target number.",
+    "page_reference": "CRB p. 10"
+  },
+  "dice_notation": {
+    "explanation": "Standard tabletop roleplaying game dice notation is used. For example, '4d6+2' means roll four six-sided dice, sum the results, and add 2 to the total.",
+    "common_dice_types": ["d4", "d6", "d8", "d10", "d12", "d20"],
+    "page_reference": "CRB p. 9"
+  },
+  "eras_of_play_overview": {
+    "description": "The Star Wars Roleplaying Game (Saga Edition) explicitly supports adventures and campaigns set in several key eras, with rules adaptable to other periods as well. The Core Rulebook provides detailed context for the following:",
+    "supported_eras_detailed_in_crb": [
+      {
+        "name": "Rise of the Empire Era",
+        "timeframe_approximate": "32 BBY - 19 BBY (Corresponds to Episodes I-III)",
+        "summary": "Characterized by the decline of the Old Republic, the political machinations leading to the Empire's formation, and the Clone Wars. The Jedi Order is prominent but facing its twilight. The Sith operate in secrecy, engineering galactic conflict.",
+        "page_reference": "CRB p. 9, 259-261"
+      },
+      {
+        "name": "Rebellion Era",
+        "timeframe_approximate": "0 BBY/ABY - 5 ABY (Corresponds to Episodes IV-VI)",
+        "summary": "The Galactic Empire holds supreme power, and the Jedi are all but extinct, hunted by Imperial forces. The Rebel Alliance wages a desperate war for freedom against the oppressive regime.",
+        "page_reference": "CRB p. 9, 260-261"
+      },
+      {
+        "name": "The New Jedi Order Era",
+        "timeframe_approximate": "25 ABY onwards",
+        "summary": "The New Republic is established, and Luke Skywalker works to rebuild the Jedi Order. This era is significantly marked by the galaxy-wide invasion of the Yuuzhan Vong.",
+        "page_reference": "CRB p. 9, 261"
+      }
+    ],
+    "other_eras_mention": "The Core Rulebook notes that its rules can also be used as a basis for play in other eras, such as the Old Republic (Knights of the Old Republic period) and the Legacy era. Further sourcebooks may provide more detailed rules or settings for these and other timeframes.",
+    "general_page_reference": "CRB p. 9, 258-261"
+  },
+  "action_types_overview": {
+    "description": "Fundamental action types available to characters during their turn in a structured round, particularly in combat.",
+    "types": [
+      {"name": "Standard Action", "summary": "Typically the main action of a turn, often involving an attack or a significant skill use. One per turn."},
+      {"name": "Move Action", "summary": "Represents physical movement or actions like drawing a weapon or opening a door. One per turn (or two if a standard action is forgone). [cite: 1010]"},
+      {"name": "Swift Action", "summary": "Very quick actions, often enabling or modifying other actions (e.g., switching weapon mode, dropping an item). One per turn (or more if standard/move actions are forgone)."},
+      {"name": "Full-Round Action", "summary": "Consumes all of a character's effort for the round, replacing their standard, move, and swift actions. Used for complex or time-consuming tasks."},
+      {"name": "Free Action", "summary": "Consumes almost no time or effort (e.g., speaking briefly). Multiple can be taken, even out of turn, if not flat-footed, within GM's reasonable limits. [cite: 1013]"},
+      {"name": "Reaction", "summary": "An instantaneous response to another character's action or an event, usable even when it's not your turn."}
+    ],
+    "page_reference": "CRB p. 145"
+  },
+  "condition_track_overview": {
+    "description": "A system for tracking the cumulative negative effects of damage, debilitating attacks, and hazards on a character or vehicle.",
+    "progression_note": "Each debilitating effect moves the target one or more steps down the track. Penalties are cumulative.",
+    "steps_summary": [
+      {"name": "Normal State", "effect_summary": "No penalties."},
+      {"name": "-1 Step", "effect_summary": "-1 penalty to all defenses, attack rolls, ability checks, and skill checks."},
+      {"name": "-2 Steps", "effect_summary": "-2 penalty to all defenses, attack rolls, ability checks, and skill checks."},
+      {"name": "-5 Steps", "effect_summary": "-5 penalty to all defenses, attack rolls, ability checks, and skill checks."},
+      {"name": "-10 Steps / Bottom of Track (Organic)", "effect_summary": "Falls unconscious."},
+      {"name": "Bottom of Track (Droid/Object/Vehicle)", "effect_summary": "Disabled."}
+    ],
+    "persistent_condition_note": "Persistent conditions prevent removal of steps via the recover action or normal rest until specific requirements are met.",
+    "recovering_steps": "Normally, spend three swift actions (recover action) to move +1 step up the track. Resting for 8 hours usually removes all debilitating conditions.",
+    "page_reference": "CRB p. 148-150"
+  },
+  "force_points_overview": {
+    "description": "Represent a character's innate connection to the Force, manifesting as luck for non-Force-sensitives or as a resource for conscious manipulation by Force-sensitive characters.",
+    "gaining_force_points": "Characters typically gain 5 Force Points at 1st level. When a character gains a new level, any unspent Force Points from the previous level are lost, and a new pool is gained equal to 5 + one-half the new character level (rounded down). Some prestige classes may grant more.",
+    "general_uses": [
+      {"use": "Augment Roll", "details": "Spend 1 Force Point as a free action (once per round) to roll 1d6 (1st-7th level), 2d6 (8th-14th level, take best die), or 3d6 (15th+ level, take best die) and add the result to a single attack roll, skill check, or ability check."},
+      {"use": "Activate Abilities", "details": "Spend Force Points to activate specific talents, Force techniques, Force secrets, or Force powers as per their descriptions."},
+      {"use": "Regain Spent Force Power", "details": "Force-users may spend 1 Force Point as a reaction (CRB Errata p.291) to return a single spent Force power to their active suite."},
+      {"use": "Avoid Death", "details": "If reduced to 0 HP and would be killed (damage equals/exceeds damage threshold), spend 1 Force Point as a reaction to avoid death and fall unconscious at 0 HP and -5 steps on condition track instead."},
+      {"use": "Lower Dark Side Score", "details": "Spend 1 Force Point as a swift action to lower personal Dark Side Score by 1."}
+    ],
+    "spending_limit_per_round": "Unless noted otherwise, only one Force Point can be spent per round. (Using a Force Point to avoid death is a notable exception as a reaction).",
+    "page_reference": "CRB p. 92-94"
+  },
+  "destiny_points_overview": {
+    "optional_rule_note": "These rules are optional and used at the Gamemaster's discretion. [cite: 788]",
+    "description": "Represent a heroic character's significant role in the fate of the galaxy, allowing them to perform nearly impossible tasks or survive against overwhelming odds. [cite: 793]",
+    "gaining_destiny_points": "A 1st-level character with a destiny begins with 1 Destiny Point and gains another at each new character level. A character may accumulate Destiny Points up to their character level. [cite: 793]",
+    "spending_action": "Spending a Destiny Point does not take an action. [cite: 794]",
+    "general_uses": [
+      {"use": "Automatic Critical Hit", "details": "Score a critical hit automatically (no attack roll needed)."},
+      {"use": "Cause Attack to Miss", "details": "Automatically cause an attack made against you to miss (even after the attack is resolved)."},
+      {"use": "Act Out of Turn", "details": "Change your position in the initiative order for the current encounter (once per encounter - CRB Errata p.292)."},
+      {"use": "Take Damage for Ally", "details": "Take damage that would otherwise harm another character within your reach."},
+      {"use": "Enhance Force Powers", "details": "Increase the effect of some Force powers, as noted in their descriptions."},
+      {"use": "Activate Force Secrets", "details": "Use some applications of Force secrets, as noted in their descriptions."},
+      {"use": "Gain Force Points", "details": "Immediately gain 3 Force Points."}
+    ],
+    "page_reference": "CRB p. 113-114"
+  },
+  "dark_side_score_overview": {
+    "description": "Measures the extent to which a character has been corrupted by the dark side of the Force.",
+    "starting_value": 0,
+    "maximum_value_formula": "Character's Wisdom score.",
+    "increasing_score": "Increases by 1 for committing an evil act. The GM determines if an act qualifies as a Major, Moderate, or Minor transgression.",
+    "falling_to_the_dark_side": "A character whose Dark Side Score equals their Wisdom score has fully embraced the dark side and is wholly evil. Such a character typically becomes a GM character. [cite: 638]",
+    "atoning": "A character tainted (Dark Side Score > 0 but < Wisdom score) can reduce their Dark Side Score by 1 by spending 1 Force Point (representing meditation, reflection, absolution) or by performing an act of dramatic heroism without calling on the dark side. A character fully on the dark side can only be redeemed by an act of dramatic heroism.",
+    "page_reference": "CRB p. 93-96"
+  },
+  "general_skill_dc_benchmarks": {
+    "description": "General guidelines for Difficulty Classes (DCs) for skill checks when not specified by a particular rule. These are from Table 5-1: Difficulty Class Examples in the Core Rulebook.",
+    "benchmarks": [
+      {"dc_value": 5, "difficulty_description": "Very Easy"},
+      {"dc_value": 10, "difficulty_description": "Easy"},
+      {"dc_value": 15, "difficulty_description": "Average"},
+      {"dc_value": 20, "difficulty_description": "Tough"},
+      {"dc_value": 25, "difficulty_description": "Challenging"},
+      {"dc_value": 30, "difficulty_description": "Formidable"},
+      {"dc_value": 35, "difficulty_description": "Heroic"},
+      {"dc_value": 40, "difficulty_description": "Nearly Impossible (Legendary)"}
+    ],
+    "page_reference": "CRB p. 58 (Table 5-1 is referenced, actual table content typically on p.58 of standard CRB)"
+  },
+  "common_languages_list_examples": {
+    "description": "A list of common languages found in the Star Wars galaxy, as per the sidebar in the Core Rulebook. This is not exhaustive.",
+    "languages": ["Basic", "Binary", "Bocce", "Bothese", "Cerean", "Dosh", "Durese", "Ewokese*", "Gamorrean*", "Gunganese*", "High Galactic"],
+    "footnote": "* Local language not widely spoken except on its planet of origin.",
+    "page_reference": "CRB p. 23"
+  },
+  "general_game_terms_definitions": {
+    "character_level": {
+      "definition": "A character's total number of levels from all classes. It is determined by overall Experience Points (XP) earned and is used to determine when feats and ability score boosts are gained. [cite: 339]",
+      "page_reference": "CRB p. 37"
+    },
+    "class_level": {
+      "definition": "A character's level in a particular class (e.g., Jedi 5, Scoundrel 3). [cite: 339]",
+      "page_reference": "CRB p. 37"
+    },
+    "heroic_level": {
+      "definition": "The sum of all levels a character has in heroic classes (Jedi, noble, scoundrel, scout, soldier) and prestige classes. It does not include levels in the nonheroic character class or beast class. Used in calculating defenses.",
+      "page_reference": "CRB p. 36, 146"
+    }
+  }
+}
