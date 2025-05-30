@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Vehicles",
+  "description": "Schema for vehicles (ground, air, walkers, etc.) in Star Wars SAGA Edition, mimicking NPC profile structure.",
+  "type": "object",
+  "properties": {
+    "vehicles_data": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Description of this data compilation (e.g., 'Core Rulebook Vehicles')."
+        },
+        "vehicle_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/vehicle_item"
+          }
+        }
+      },
+      "required": ["description", "vehicle_list"]
+    }
+  },
+  "required": ["vehicles_data"],
+  "definitions": {
+    "cost_option": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["fixed_amount", "text_description", "base_item_multiplier", "per_unit_value"]
+        },
+        "value": {"type": ["number", "string", "null"]},
+        "description": {"type": ["string", "null"]},
+        "unit_type": {"type": ["string", "null"], "description": "e.g., 'credit', 'per kg'"}
+      },
+      "required": ["type"]
+    },
+    "cost_object": {
+      "type": "object",
+      "properties": {
+        "text_original": {"type": ["string", "null"]},
+        "options": {"type": "array", "items": {"$ref": "#/definitions/cost_option"}},
+        "selection_logic": {"type": ["string", "null"], "enum": [null, "player_choice", "gm_discretion"]},
+        "notes": {"type": ["string", "null"]}
+      },
+      "required": ["options"]
+    },
+    "damage_part": {
+      "type": "object",
+      "properties": {
+        "text_original": {"type": "string"},
+        "dice_count": {"type": "integer"},
+        "die_type": {"type": "integer"},
+        "bonus_modifier": {"type": "integer", "default": 0},
+        "damage_multiplier": {"type": ["number", "null"], "default": null, "description": "e.g., x2, x5 for vehicle scale weapons"}
+      },
+      "required": ["text_original", "dice_count", "die_type"]
+    },
+    "damage_structured_object": {
+      "type": "object",
+      "properties": {
+        "text_original": {"type": ["string", "null"]},
+        "primary_damage": {"$ref": "#/definitions/damage_part", "nullable": true},
+        "secondary_damage": {"$ref": "#/definitions/damage_part", "nullable": true},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "armament_item": {
+      "type": "object",
+      "description": "Details for a single weapon system on a vehicle.",
+      "properties": {
+        "weapon_name_or_type": {"type": "string"},
+        "weapon_id_ref": {"type": ["string", "null"], "description": "Optional reference to a unique ID in a weapons data file."},
+        "mount_location_arc": {"type": ["string", "null"], "description": "e.g., 'Forward-mounted', 'Dorsal Turret (360-degree arc)', 'Fire-linked (pair)'"},
+        "crew_operator": {"type": ["string", "null"], "description": "e.g., 'Pilot', 'Gunner 1', 'Co-pilot/Gunner'"},
+        "attack_bonus_with_crew_text": {"type": ["string", "null"], "description": "Typical attack bonus with standard crew, e.g., '+7 (skilled crew)'."},
+        "damage_text": {"type": "string"},
+        "damage_structured": {"$ref": "#/definitions/damage_structured_object", "nullable": true},
+        "damage_types": {"type": "array", "items": {"type": "string"}},
+        "rate_of_fire_text": {"type": ["string", "null"]},
+        "range_category_text_vehicle_scale": {"type": ["string", "null"], "description": "Descriptive range (e.g., 'Short', 'Medium', 'Long') or specific range if unique."},
+        "ammunition_payload_text": {"type": ["string", "null"]},
+        "special_notes": {"type": ["string", "null"]}
+      },
+      "required": ["weapon_name_or_type", "damage_text", "damage_types"]
+    },
+    "special_quality_item": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "source_citation_detail": {"type": ["string", "null"]}
+      },
+      "required": ["name", "description"]
+    },
+    "vehicle_item": {
+      "type": "object",
+      "properties": {
+        "id": {"type": "string", "description": "Unique identifier for the vehicle (e.g., 'x34_landspeeder_cr')."},
+        "name": {"type": "string", "description": "Common name of the vehicle."},
+        "source_book": {"type": "string"},
+        "page": {"type": "integer", "description": "Book page number."},
+        "full_text_description": {"type": ["string", "null"], "description": "Full descriptive text from the sourcebook."},
+        "cl": {"type": "integer", "description": "Challenge Level."},
+        "vehicle_classification": {
+          "type": "object",
+          "properties": {
+            "type_primary": {"type": "string", "description": "e.g., 'Ground Vehicle', 'Air Vehicle', 'Starfighter', 'Space Transport', 'Capital Ship'"},
+            "type_secondary": {"type": ["string", "null"], "description": "e.g., 'Speeder', 'Walker', 'Wheeled', 'Tracked'"},
+            "class_name_model": {"type": ["string", "null"], "description": "Specific model name, e.g., 'X-34', 'T-65B X-wing'."},
+            "manufacturer": {"type": ["string", "null"]}
+          },
+          "required": ["type_primary"]
+        },
+        "physical_characteristics": {
+          "type": "object",
+          "properties": {
+            "size_category_text": {"type": "string", "description": "e.g., 'Large (speeder)', 'Colossal (frigate)', 'Gargantuan'. From CRB Table 10-1."},
+            "size_modifier_applies_to_reflex_initiative_pilot": {"type": ["integer", "null"], "description": "Modifier from Table 10-1."},
+            "length_m": {"type": ["number", "null"]},
+            "width_m": {"type": ["number", "null"]},
+            "height_m": {"type": ["number", "null"]},
+            "visual_description_brief": {"type": ["string", "null"]}
+          },
+          "required": ["size_category_text"]
+        },
+        "performance_characteristics": {
+          "type": "object",
+          "properties": {
+            "initiative_vehicle_modifier_total": {"type": "integer", "description": "Vehicle's base Initiative modifier (to which pilot's skill/Dex and vehicle size mod are added)."},
+            "senses_perception_vehicle_modifier": {"type": "integer", "description": "Vehicle's own sensor contribution to Perception checks."},
+            "speed_details": {
+              "type": "object",
+              "properties": {
+                "character_scale_max_squares_per_move": {"type": "integer"},
+                "starship_scale_max_squares_per_move": {"type": ["integer", "null"]},
+                "max_velocity_kph": {"type": ["number", "null"]},
+                "operational_altitude_text": {"type": ["string", "null"]}
+              },
+              "required": ["character_scale_max_squares_per_move"]
+            },
+            "hyperdrive_system": {
+              "type": ["object", "null"],
+              "properties": {
+                "primary_class_rating_text": {"type": "string", "description": "e.g., 'x1', 'x2'"},
+                "backup_class_rating_text": {"type": ["string", "null"]},
+                "nav_computer_notes": {"type": ["string", "null"], "description": "e.g., 'Standard', 'Limited 10-jump memory (astromech)', 'None'"}
+              },
+              "required": ["primary_class_rating_text"]
+            }
+          }
+        },
+        "core_combat_stats": {
+          "type": "object",
+          "properties": {
+            "strength_score": {"type": "integer"},
+            "dexterity_score": {"type": "integer"},
+            "intelligence_score": {"type": ["integer", "string", "null"], "description": "Usually an integer or '-' if no droid brain."},
+            "hit_points_total": {"type": "integer"},
+            "damage_threshold_base": {"type": "integer", "description": "Vehicle's Fortitude Defense + size bonus to DT (e.g., Large +5, Huge +10, etc.)."},
+            "defenses": {
+              "type": "object",
+              "properties": {
+                "reflex_defense_total": {"type": "integer"},
+                "reflex_defense_flat_footed": {"type": "integer"},
+                "fortitude_defense_total": {"type": "integer"},
+                "armor_dr_value": {"type": "integer"},
+                "shield_rating_sr_total": {"type": ["integer", "null"]}
+              },
+              "required": ["reflex_defense_total", "fortitude_defense_total", "armor_dr_value"]
+            },
+            "base_attack_bonus_vehicle": {"type": ["integer", "null"], "description": "For ramming."},
+            "grapple_modifier_vehicle": {"type": ["integer", "null"]}
+          },
+          "required": ["strength_score", "dexterity_score", "hit_points_total", "damage_threshold_base", "defenses"]
+        },
+        "operational_crew_and_capacity": {
+          "type": "object",
+          "properties": {
+            "crew_complement_text": {"type": "string", "description": "e.g., '1 pilot', '1 pilot (skilled), 1 gunner (expert)'"},
+            "passengers_capacity_text": {"type": ["string", "null"]},
+            "cargo_capacity_kg": {"type": ["number", "string", "null"], "description": "Number for kg, or text like '100 tons'"},
+            "consumables_duration_text": {"type": ["string", "null"]},
+            "carried_craft_description": {"type": ["string", "null"]}
+          },
+          "required": ["crew_complement_text"]
+        },
+        "armament_systems": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/armament_item"}
+        },
+        "availability_cost": {
+          "type": "object",
+          "properties": {
+            "restriction_text": {"type": ["string", "null"], "description": "e.g., 'Licensed', 'Military', 'Restricted', 'Illegal'"},
+            "cost_credits_object": {"$ref": "#/definitions/cost_object"}
+          }
+        },
+        "special_qualities_systems": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/special_quality_item"}
+        },
+        "vehicle_skill_modifiers_provided": {
+          "type": ["object", "null"],
+          "description": "Bonuses the vehicle might grant to crew skills (e.g., pilot_check_bonus). Keyed by skill name.",
+          "additionalProperties": {"type": "integer"}
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "source_book",
+        "page",
+        "cl",
+        "vehicle_classification",
+        "physical_characteristics",
+        "performance_characteristics",
+        "core_combat_stats",
+        "operational_crew_and_capacity"
+      ]
+    }
+  }
+}

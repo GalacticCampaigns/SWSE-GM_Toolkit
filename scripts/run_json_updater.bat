@@ -3,7 +3,7 @@ REM Batch file to run the JSON Updater Python script
 REM Created on: May 23, 2025
 
 REM Script path - ensure this is correct
-SET PYTHON_SCRIPT_PATH="D:\OneDrive\Documents\GitHub\SagaIndex\scripts\json_updater.py"
+SET PYTHON_SCRIPT_PATH="D:\OneDrive\Documents\GitHub\SagaIndex\scripts\apps\json_updater.py"
 
 REM Ensure Python is in your PATH or the 'py' launcher is available.
 echo Running Python script: %PYTHON_SCRIPT_PATH%

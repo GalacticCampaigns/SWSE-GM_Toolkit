@@ -1,13 +1,280 @@
 [
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Ace Pilot","source_book":"CR"},"payload":{"id":"ace_pilot_cr_206","description_general":"The Ace Pilot is a master of vehicle combat, treating their starship or airspeeder as an extension of themselves. They are veterans of countless engagements, known for their daring maneuvers, exceptional skill in the cockpit, and ability to push vehicles to their absolute limits, often defining themselves by the craft they fly. [Sourced from CRB p.206]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Bounty Hunter","source_book":"CR"},"payload":{"id":"bounty_hunter_cr_207","description_general":"The Bounty Hunter is a relentless tracker and formidable combatant, specializing in the pursuit and capture of targets across the galaxy. They are often shrouded in mystery, utilizing keen survival skills, specialized equipment, and a network of contacts to bring in their quarry, dead or alive, for a price. [Sourced from CRB p.207-208]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Crime Lord","source_book":"CR"},"payload":{"id":"crime_lord_cr_209","description_general":"The Crime Lord is a mastermind of illegal enterprises, wielding influence and power within the galactic underworld. They are adept at manipulation, persuasion, and organizing networks of operatives, often building vast criminal empires through cunning, ruthlessness, and a keen understanding of illicit markets. [Sourced from CRB p.209]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Elite Trooper","source_book":"CR"},"payload":{"id":"elite_trooper_cr_211","description_general":"The Elite Trooper represents the pinnacle of soldiery, having honed their combat skills through rigorous training and extensive battlefield experience. They are masters of weaponry and armor, demonstrating exceptional endurance, tactical awareness, and the ability to perform incredible feats of martial prowess, often serving as special forces or shock troops. [Sourced from CRB p.211]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Force Adept","source_book":"CR"},"payload":{"id":"force_adept_cr_212","description_general":"The Force Adept is an individual who, often without formal Jedi or Sith training, has learned to touch and manipulate the Force through intuition, personal experience, or obscure traditions. They walk a unique path, their abilities shaped by their innate connection to the Force, often excelling in less common applications of its power and developing a deep, personal understanding of its workings. [Sourced from CRB p.212-213]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Gunslinger","source_book":"CR"},"payload":{"id":"gunslinger_cr_216","name":"Gunslinger","description_general":"The Gunslinger is a master of ranged combat, particularly with pistols and other sidearms, capable of incredible feats of speed and accuracy. They are deadly shots, relying on quick reflexes, uncanny aim, and often a bit of style to overcome foes in fast-paced shootouts. [Sourced from CRB p.216]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Jedi Knight","source_book":"CR"},"payload":{"id":"jedi_knight_cr_217","name":"Jedi Knight","description_general":"The Jedi Knight is a guardian of peace and justice in the galaxy, having completed their Jedi training to become a full member of the Jedi Order. Skilled in the ways of the Force and the art of lightsaber combat, they follow the Jedi Code, striving to protect the innocent, uphold the ideals of the Republic (or the light), and confront the darkness. [Sourced from CRB p.217]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Jedi Master","source_book":"CR"},"payload":{"id":"jedi_master_cr_219","name":"Jedi Master","description_general":"A Jedi Master represents a pinnacle of achievement within the Jedi Order, possessing profound wisdom, exceptional skill in the Force, and a deep understanding of its mysteries. They often serve as leaders, teachers to new generations of Jedi, and powerful champions of the light side, having faced many trials and demonstrated exemplary dedication to the Jedi Code. [Sourced from CRB p.219-220]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Officer","source_book":"CR"},"payload":{"id":"officer_cr_220","name":"Officer","description_general":"The Officer is a leader of military forces, skilled in tactics, command, and inspiring troops on the battlefield or aboard starships. They are responsible for strategy, unit cohesion, and achieving objectives, whether serving planetary militias, sector forces, or the grand armies and navies of major galactic powers. [Sourced from CRB p.220-221]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Sith Apprentice","source_book":"CR"},"payload":{"id":"sith_apprentice_cr_223","name":"Sith Apprentice","description_general":"The Sith Apprentice walks the path of darkness under the tutelage of a Sith Master, learning the forbidden secrets of the Sith Order and cultivating their power in the dark side of the Force. Driven by ambition, hatred, or a desire for ultimate control, they embrace the Sith Code and seek to master their passions to achieve strength. [Sourced from CRB p.223]"}},
-{"target_file_key":"prestige_classes","action":"update","identifier":{"name":"Sith Lord","source_book":"CR"},"payload":{"id":"sith_lord_cr_224","name":"Sith Lord","description_general":"A Sith Lord has achieved a significant degree of mastery over the dark side of the Force and typically commands considerable power and influence within the Sith Order or their own dark domain. They are figures of immense personal power, cunning, and cruelty, fully dedicated to the Sith philosophy of strength through passion and the pursuit of galactic domination or personal apotheosis through the dark side. [Sourced from CRB p.224]"}}
+  {
+    "target_file_key": "vehicles",
+    "action": "add",
+    "payload": {
+      "id": "laati_gunship_cr",
+      "name": "LAAT/i Gunship (Low Altitude Assault Transport/Infantry)",
+      "source_book": "CR",
+      "page": 176,
+      "full_text_description": "The LAAT/i attack gunship, first deployed at the Battle of Geonosis, is an example of a combat space transport designed to carry combat troops directly into the heat of battle. Its weapons are used to clear a landing zone and lay down suppressing fire. It is heavily armored for its size and shielded, but its low maneuverability makes it a vulnerable target without escort. [CRB p.177, text p.178]",
+      "cl": 9,
+      "vehicle_classification": {
+        "type_primary": "Air Vehicle",
+        "type_secondary": "Gunship/Transport (Airspeeder rules)",
+        "class_name_model": "LAAT/i (Low Altitude Assault Transport/infantry)",
+        "manufacturer": "Rothana Heavy Engineering"
+      },
+      "physical_characteristics": {
+        "size_category_text": "Colossal (airspeeder)",
+        "size_modifier_applies_to_reflex_initiative_pilot": -10
+      },
+      "performance_characteristics": {
+        "initiative_vehicle_modifier_total": 0,
+        "senses_perception_vehicle_modifier": 8,
+        "speed_details": {
+          "character_scale_max_squares_per_move": 12,
+          "starship_scale_max_squares_per_move": 3,
+          "max_velocity_kph": 620,
+          "operational_altitude_text": "Standard atmosphere"
+        },
+        "hyperdrive_system": null
+      },
+      "core_combat_stats": {
+        "strength_score": 42,
+        "dexterity_score": 14,
+        "intelligence_score": 14,
+        "hit_points_total": 150,
+        "damage_threshold_base": 76,
+        "defenses": {
+          "reflex_defense_total": 15,
+          "reflex_defense_flat_footed": 13,
+          "fortitude_defense_total": 26,
+          "armor_dr_value": 15,
+          "shield_rating_sr_total": 15
+        },
+        "base_attack_bonus_vehicle": 5,
+        "grapple_modifier_vehicle": 38
+      },
+      "operational_crew_and_capacity": {
+        "crew_complement_text": "4 (1 pilot, 1 copilot/gunner, 2 gunners - expert quality)",
+        "passengers_capacity_text": "30 troops",
+        "cargo_capacity_kg": 2000,
+        "consumables_duration_text": "2 days",
+        "carried_craft_description": null
+      },
+      "armament_systems": [
+        {
+          "weapon_name_or_type": "Mass Driver Missile Launchers",
+          "mount_location_arc": "Dorsal, Forward Turrets",
+          "crew_operator": "Pilot",
+          "attack_bonus_with_crew_text": "+7 (expert crew)",
+          "damage_text": "6d10x2",
+          "damage_types": ["Slashing"],
+          "ammunition_payload_text": "24 missiles",
+          "special_notes": "2-square splash"
+        },
+        {
+          "weapon_name_or_type": "Anti-personnel Laser Cannons (pair, wing-mounted)",
+          "mount_location_arc": "Forward",
+          "crew_operator": "Copilot/Gunner",
+          "attack_bonus_with_crew_text": "+7 (+2 autofire) (expert crew)",
+          "damage_text": "4d10",
+          "damage_types": ["Energy"],
+          "rate_of_fire_text": "S, A"
+        },
+        {
+          "weapon_name_or_type": "Composite-beam Pinpoint Lasers (4, ball turrets)",
+          "mount_location_arc": "2 Forward, 2 Rear (turreted)",
+          "crew_operator": "Gunners (2)",
+          "attack_bonus_with_crew_text": "+7 (expert crew)",
+          "damage_text": "3d10",
+          "damage_types": ["Energy"],
+          "special_notes": "Penetration 10"
+        },
+        {
+          "weapon_name_or_type": "Rocket Launcher",
+          "mount_location_arc": "Ventral",
+          "crew_operator": "Pilot",
+          "attack_bonus_with_crew_text": "+7 (expert crew)",
+          "damage_text": "5d10x2",
+          "damage_types": ["Slashing"],
+          "ammunition_payload_text": "6 rockets",
+          "special_notes": "2-square burst"
+        }
+      ],
+      "availability_cost": {
+        "restriction_text": "Military",
+        "cost_credits_object": {"text_original": "65,000 (new), 40,000 (used)", "options": [{"type": "fixed_amount", "value": 65000, "description": "New"}, {"type": "fixed_amount", "value": 40000, "description": "Used"}]}
+      },
+      "special_qualities_systems": [
+        {"name": "Penetration 10", "description": "The gunship's composite-beam lasers ignore the first 10 points of an enemy's damage reduction."}
+      ],
+      "skills_modifiers": {
+        "Initiative": 0, "Mechanics": 8, "Perception": 8, "Pilot": 0
+      }
+    }
+  },
+  {
+    "target_file_key": "vehicles",
+    "action": "add",
+    "payload": {
+      "id": "t-47_airspeeder_modified_cr",
+      "name": "T-47 Airspeeder (mod)",
+      "source_book": "CR",
+      "page": 176,
+      "full_text_description": "Originally built for civilian use, the T-47 airspeeder has been modified by the Rebel Alliance for patrol and combat duty, most notably during the Battle of Hoth. These airspeeders are usually modified by adding armor plating and heavy laser cannons. T-47s have two sets of controls and can be piloted from either seat. [CRB p.177, text p.178]",
+      "cl": 6,
+      "vehicle_classification": {
+        "type_primary": "Air Vehicle",
+        "type_secondary": "Airspeeder",
+        "class_name_model": "T-47 (modified)",
+        "manufacturer": "Incom Corporation"
+      },
+      "physical_characteristics": {
+        "size_category_text": "Huge (airspeeder)",
+        "size_modifier_applies_to_reflex_initiative_pilot": -2
+      },
+      "performance_characteristics": {
+        "initiative_vehicle_modifier_total": 10,
+        "senses_perception_vehicle_modifier": 7,
+        "speed_details": {
+          "character_scale_max_squares_per_move": 16,
+          "starship_scale_max_squares_per_move": 4,
+          "max_velocity_kph": 1100,
+          "operational_altitude_text": "Up to 175m"
+        },
+        "hyperdrive_system": null
+      },
+      "core_combat_stats": {
+        "strength_score": 22,
+        "dexterity_score": 22,
+        "intelligence_score": 14,
+        "hit_points_total": 60,
+        "damage_threshold_base": 26,
+        "defenses": {
+          "reflex_defense_total": 16,
+          "reflex_defense_flat_footed": 10,
+          "fortitude_defense_total": 16,
+          "armor_dr_value": 10,
+          "shield_rating_sr_total": null
+        },
+        "base_attack_bonus_vehicle": 2,
+        "grapple_modifier_vehicle": 18
+      },
+      "operational_crew_and_capacity": {
+        "crew_complement_text": "2 (skilled: 1 pilot, 1 gunner/copilot)",
+        "passengers_capacity_text": "None",
+        "cargo_capacity_kg": 50,
+        "consumables_duration_text": "1 day",
+        "carried_craft_description": null
+      },
+      "armament_systems": [
+        {
+          "weapon_name_or_type": "Double Laser Cannon (fire-linked)",
+          "mount_location_arc": "Forward",
+          "crew_operator": "Pilot",
+          "attack_bonus_with_crew_text": "+4 (-1 autofire) (skilled crew)",
+          "damage_text": "5d10",
+          "damage_types": ["Energy"],
+          "rate_of_fire_text": "S, A"
+        },
+        {
+          "weapon_name_or_type": "Harpoon Gun and Tow Cable",
+          "mount_location_arc": "Rear",
+          "crew_operator": "Gunner/Copilot",
+          "attack_bonus_with_crew_text": "+4 (skilled crew)",
+          "damage_text": "Special (grapple +27)",
+          "damage_types": [],
+          "special_notes": "Range 12 squares. Can entangle. Target walker makes opposed Pilot check vs. harpoon's grapple check (DC equals gunner's attack roll if successful); if harpoon wins, walker cannot move without Pilot check (DC = harpoon gun's grapple check result). Failed Pilot check by walker = automatic collision with double damage."
+        }
+      ],
+      "availability_cost": {
+        "restriction_text": "Military",
+        "cost_credits_object": {"text_original": "50,000 (used)", "options": [{"type": "fixed_amount", "value": 50000, "description": "Used"}]}
+      },
+      "special_qualities_systems": [],
+      "skills_modifiers": {
+        "Initiative": 10, "Mechanics": 6, "Perception": 7, "Pilot": 10
+      }
+    }
+  },
+  {
+    "target_file_key": "vehicles",
+    "action": "add",
+    "payload": {
+      "id": "vulture-class_droid_starfighter_cr",
+      "name": "Vulture-class Droid Starfighter",
+      "source_book": "CR",
+      "page": 180,
+      "full_text_description": "The Vulture-class droid starfighter can operate autonomously, controlled by its droid brain, or be remotely controlled. It can transform into a walker configuration for ground patrols. [CRB p.181, text p.182]",
+      "cl": 7,
+      "vehicle_classification": {
+        "type_primary": "Starfighter / Ground Vehicle",
+        "type_secondary": "Droid Starfighter / Walker (transforming)",
+        "class_name_model": "Vulture-class",
+        "manufacturer": "Baktoid Armor Workshop / Haor Chall Engineering"
+      },
+      "physical_characteristics": {
+        "size_category_text": "Huge (starfighter/walker)",
+        "size_modifier_applies_to_reflex_initiative_pilot": -2
+      },
+      "performance_characteristics": {
+        "initiative_vehicle_modifier_total": 9,
+        "senses_perception_vehicle_modifier": 8,
+        "speed_details": {
+          "character_scale_max_squares_per_move": 6,
+          "starship_scale_max_squares_per_move": 4,
+          "max_velocity_kph": 1180,
+          "operational_altitude_text": "Flight mode only"
+        },
+        "hyperdrive_system": null
+      },
+      "core_combat_stats": {
+        "strength_score": 34,
+        "dexterity_score": 16,
+        "intelligence_score": 14,
+        "hit_points_total": 60,
+        "damage_threshold_base": 32,
+        "defenses": {
+          "reflex_defense_total": 14,
+          "reflex_defense_flat_footed": 11,
+          "fortitude_defense_total": 22,
+          "armor_dr_value": 10,
+          "shield_rating_sr_total": null
+        },
+        "base_attack_bonus_vehicle": 5,
+        "grapple_modifier_vehicle": 27
+      },
+      "operational_crew_and_capacity": {
+        "crew_complement_text": "0 (Droid Brain - expert quality)",
+        "passengers_capacity_text": "None",
+        "cargo_capacity_kg": null,
+        "consumables_duration_text": "2 days",
+        "carried_craft_description": null
+      },
+      "armament_systems": [
+        {
+          "weapon_name_or_type": "Laser Cannons (4)",
+          "mount_location_arc": "Wing-mounted",
+          "crew_operator": "Droid Brain",
+          "attack_bonus_with_crew_text": "+7 (+2 autofire) (expert droid brain)",
+          "damage_text": "4d10x2",
+          "damage_types": ["Energy"],
+          "rate_of_fire_text": "S, A"
+        },
+        {
+          "weapon_name_or_type": "Concussion Missile Launchers (2)",
+          "mount_location_arc": "Wing-mounted",
+          "crew_operator": "Droid Brain",
+          "attack_bonus_with_crew_text": "+7 (expert droid brain)",
+          "damage_text": "8d10x2",
+          "damage_types": ["Slashing"],
+          "ammunition_payload_text": "6 concussion missiles total",
+          "special_notes": "4-square splash"
+        }
+      ],
+      "availability_cost": {
+        "restriction_text": "Restricted",
+        "cost_credits_object": {"text_original": "19,000 (new)", "options": [{"type": "fixed_amount", "value": 19000, "description": "New"}]}
+      },
+      "special_qualities_systems": [
+        {"name": "Droid Traits", "description": "Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death effects, fatigue, exhaustion. Not subject to critical hits unless specific rules apply. Takes full damage from ion weapons."},
+        {"name": "Transformation", "description": "Can transform between flight mode (starfighter) and walk mode (walker) as a standard action. Walker form has speed 6 squares (walking) but loses starship scale speed and flight capability."}
+      ],
+      "skills_modifiers":{
+        "Initiative":9, "Mechanics":7, "Perception":8, "Pilot":9, "Use Computer":8
+      }
+    }
+  }
 ]

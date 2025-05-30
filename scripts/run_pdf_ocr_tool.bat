@@ -1,9 +1,9 @@
 @echo off
-REM Batch file to run the SAGA Species CSV to JSON Python script
+REM Batch file to run the SWSE PDF OCR Reader to Text Python script
 REM Created on: May 23, 2025
 
 REM Script path - ensure this is correct
-SET PYTHON_SCRIPT_PATH="D:\OneDrive\Documents\GitHub\SagaIndex\scripts\pdf_ocr_tool.py"
+SET PYTHON_SCRIPT_PATH="D:\OneDrive\Documents\GitHub\SagaIndex\scripts\apps\pdf_ocr_tool.py"
 
 REM Ensure Python is in your PATH or the 'py' launcher is available.
 echo Running Python script: %PYTHON_SCRIPT_PATH%

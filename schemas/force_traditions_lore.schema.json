@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Force Traditions Lore",
+  "description": "Schema for lore and background information on Force-Using Traditions in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "force_traditions_lore_data": {
+      "type": "object",
+      "properties": {
+        "file_description": {
+          "type": "string",
+          "description": "Description of the file's purpose."
+        },
+        "notes_on_structure": {
+          "type": "string",
+          "description": "Notes regarding the structure of the tradition entries."
+        },
+        "traditions_list": {
+          "type": "array",
+          "description": "A list of Force-Using Traditions.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tradition_id": {
+                "type": "string",
+                "description": "A unique identifier for the Force tradition (e.g., 'jedi_order_cr')."
+              },
+              "name": {
+                "type": "string",
+                "description": "The common name of the Force tradition (e.g., 'The Jedi Order')."
+              },
+              "source_book": {
+                "type": "string",
+                "description": "Primary source book abbreviation for this tradition's core information."
+              },
+              "page_reference": {
+                "type": "string",
+                "description": "Page reference in the primary source book."
+              },
+              "general_description": {
+                "type": "string",
+                "description": "A general overview of the Force tradition."
+              },
+              "philosophy_and_beliefs": {
+                "type": "string",
+                "description": "The core philosophy, beliefs, and tenets of the tradition."
+              },
+              "history_and_origins_summary": {
+                "type": "string",
+                "description": "A summary of the tradition's history and origins."
+              },
+              "organization_and_structure": {
+                "type": "string",
+                "description": "How the tradition is typically organized, including ranks or leadership."
+              },
+              "typical_members_and_roles": {
+                "type": "string",
+                "description": "Description of typical members and their roles within the tradition."
+              },
+              "relationship_with_the_force": {
+                "type": "string",
+                "description": "How the tradition views and interacts with the Force (e.g., light side, dark side, balance)."
+              },
+              "notable_practices_or_rituals": {
+                "type": "string",
+                "description": "Key practices, rituals, or unique abilities associated with the tradition."
+              }
+            },
+            "required": [
+              "tradition_id",
+              "name",
+              "source_book",
+              "page_reference",
+              "general_description",
+              "philosophy_and_beliefs",
+              "history_and_origins_summary",
+              "organization_and_structure",
+              "typical_members_and_roles",
+              "relationship_with_the_force",
+              "notable_practices_or_rituals"
+            ]
+          }
+        }
+      },
+      "required": [
+        "file_description",
+        "notes_on_structure",
+        "traditions_list"
+      ]
+    }
+  },
+  "required": [
+    "force_traditions_lore_data"
+  ]
+}

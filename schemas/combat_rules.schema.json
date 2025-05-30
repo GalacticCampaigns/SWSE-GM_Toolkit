@@ -1,0 +1,568 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Combat Rules",
+  "description": "Schema for core combat rules in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "combat_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string"
+		},
+		"actions_in_combat": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"action_summary_per_turn": {
+			  "type": "string"
+			},
+			"action_types": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "type_name": {
+					"type": "string"
+				  },
+				  "description": {
+					"type": "string"
+				  },
+				  "usage_per_turn": {
+					"type": "string"
+				  },
+				  "examples": {
+					"type": "array",
+					"items": {
+					  "type": "string"
+					}
+				  },
+				  "source_page_reference": {
+					"type": "string"
+				  },
+				  "errata_applied_notes": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "type_name",
+				  "description",
+				  "usage_per_turn",
+				  "examples",
+				  "source_page_reference"
+				]
+			  }
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"action_summary_per_turn",
+			"action_types",
+			"source_page_reference"
+		  ]
+		},
+		"aquatic_combat": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			},
+			"movement_in_water": {
+			  "type": "object",
+			  "properties": {
+				"swimming": {
+				  "type": "string"
+				},
+				"difficult_conditions": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"swimming",
+				"difficult_conditions"
+			  ]
+			},
+			"melee_attacks_underwater": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "weapon_type": {
+					"type": "string"
+				  },
+				  "penalty": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "weapon_type",
+				  "penalty"
+				]
+			  }
+			},
+			"ranged_attacks_underwater": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "weapon_type": {
+					"type": "string"
+				  },
+				  "rule": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "weapon_type",
+				  "rule"
+				]
+			  }
+			},
+			"other_considerations": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			}
+		  },
+		  "required": [
+			"description",
+			"source_page_reference",
+			"movement_in_water",
+			"melee_attacks_underwater",
+			"ranged_attacks_underwater",
+			"other_considerations"
+		  ]
+		},
+		"general_notes_on_extensibility": {
+		  "type": "string"
+		},
+		"initiative": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"check_formula": {
+			  "type": "string"
+			},
+			"when_to_roll": {
+			  "type": "string"
+			},
+			"initiative_count": {
+			  "type": "string"
+			},
+			"tie_breaking_rule": {
+			  "type": "string"
+			},
+			"delaying_action": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string"
+				},
+				"action_cost": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"description",
+				"action_cost"
+			  ]
+			},
+			"readying_an_action": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string"
+				},
+				"trigger_specification": {
+				  "type": "string"
+				},
+				"acting_when_triggered": {
+				  "type": "string"
+				},
+				"action_cost": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"description",
+				"trigger_specification",
+				"acting_when_triggered",
+				"action_cost"
+			  ]
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"check_formula",
+			"when_to_roll",
+			"initiative_count",
+			"tie_breaking_rule",
+			"delaying_action",
+			"readying_an_action",
+			"source_page_reference"
+		  ]
+		},
+		"mounted_combat": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			},
+			"general_rules": {
+			  "type": "object",
+			  "properties": {
+				"mount_initiative": {
+				  "type": "string"
+				},
+				"rider_actions": {
+				  "type": "string"
+				},
+				"directing_mount": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"mount_initiative",
+				"rider_actions",
+				"directing_mount"
+			  ]
+			},
+			"combat_while_mounted": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "situation": {
+					"type": "string"
+				  },
+				  "rule": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "situation",
+				  "rule"
+				]
+			  }
+			},
+			"special_mount_actions_ride_skill_interaction": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"source_page_reference",
+			"general_rules",
+			"combat_while_mounted",
+			"special_mount_actions_ride_skill_interaction"
+		  ]
+		},
+		"other_combat_modifiers": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			},
+			"attacking_an_object": {
+			  "type": "object",
+			  "properties": {
+				"general_notes": {
+				  "type": "string"
+				},
+				"breaking_objects": {
+				  "type": "string"
+				},
+				"object_hardness": {
+				  "type": "string"
+				},
+				"object_hit_points": {
+				  "type": "string"
+				},
+				"energy_damage_vs_objects": {
+				  "type": "string"
+				},
+				"ineffective_weapons": {
+				  "type": "string"
+				},
+				"immunities": {
+				  "type": "string"
+				},
+				"damaging_vehicles_and_starships": {
+				  "type": "string"
+				},
+				"table_9_2_object_hardness_and_hit_points_examples": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "object": {"type": "string"},
+					  "hardness": {"type": "integer"},
+					  "hit_points": {"type": "integer"},
+					  "break_dc": {"type": "integer"},
+					  "errata_note": {"type": "string"}
+					},
+					"required": ["object", "hardness", "hit_points", "break_dc"]
+				  }
+				},
+				"table_9_3_substance_hardness_and_hit_points_examples": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "substance": {"type": "string"},
+					  "hardness": {"type": "integer"},
+					  "hp_per_2_5_cm_thickness": {"type": "integer"}
+					},
+					"required": ["substance", "hardness", "hp_per_2_5_cm_thickness"]
+				  }
+				},
+				"table_9_4_dcs_to_break_or_burst_items_examples": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "action": {"type": "string"},
+					  "strength_check_dc": {"type": "integer"}
+					},
+					"required": ["action", "strength_check_dc"]
+				  }
+				}
+			  }
+			},
+			"damage_reduction_dr": {
+			  "type": "object",
+			  "properties": {
+				"description": {"type": "string"},
+				"stacking_note": {"type": "string"}
+			  },
+			  "required": ["description", "stacking_note"]
+			},
+			"shield_rating_sr": {
+			  "type": "object",
+			  "properties": {
+				"description": {"type": "string"},
+				"regeneration": {"type": "string"}
+			  },
+			  "required": ["description", "regeneration"]
+			},
+			"improvised_weapons": {
+			  "type": "object",
+			  "properties": {
+				"attack_penalty": {"type": "string"},
+				"damage": {"type": "string"},
+				"range_increment": {"type": "string"},
+				"critical_hit": {"type": "string"},
+				"notes": {"type": "string"}
+			  },
+			  "required": ["attack_penalty", "damage", "range_increment", "critical_hit", "notes"]
+			},
+			"size_modifiers_table_9_1": {
+			  "type": "object",
+			  "properties": {
+				"description": {"type": "string"},
+				"applies_to_attack_rolls": {"type": "string"},
+				"categories": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "size_category": {"type": "string"},
+					  "reflex_defense_modifier": {"type": "integer"},
+					  "attack_modifier_against_smaller": {
+						"type": ["integer", "null"]
+					  },
+					  "notes": {"type": "string"}
+					},
+					"required": ["size_category", "reflex_defense_modifier"]
+				  }
+				},
+				"errata_note": {"type": "string"}
+			  },
+			  "required": ["description", "applies_to_attack_rolls", "categories", "errata_note"]
+			},
+			"starvation_and_thirst": {
+			  "type": "object",
+			  "properties": {
+				"description": {"type": "string"},
+				"reference": {"type": "string"}
+			  },
+			  "required": ["description", "reference"]
+			}
+		  },
+		  "required": [
+			"description",
+			"source_page_reference",
+			"attacking_an_object",
+			"damage_reduction_dr",
+			"shield_rating_sr",
+			"improvised_weapons",
+			"size_modifiers_table_9_1",
+			"starvation_and_thirst"
+		  ]
+		},
+		"primary_page_reference_crb": {
+		  "type": "string"
+		},
+		"source_book_reference_general": {
+		  "type": "string"
+		},
+		"the_combat_round": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"duration_seconds": {
+			  "type": "integer"
+			},
+			"sequence_of_events": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			},
+			"surprise_round": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string"
+				},
+				"actions_allowed_if_not_surprised": {
+				  "type": "string"
+				},
+				"actions_if_surprised": {
+				  "type": "string"
+				},
+				"source_page_reference": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"description",
+				"actions_allowed_if_not_surprised",
+				"actions_if_surprised",
+				"source_page_reference"
+			  ]
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"duration_seconds",
+			"sequence_of_events",
+			"surprise_round",
+			"source_page_reference"
+		  ]
+		},
+		"zero_gravity_environments": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			},
+			"moving_in_zero_g": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "method": {
+					"type": "string"
+				  },
+				  "rule": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "method",
+				  "rule"
+				]
+			  }
+			},
+			"attacking_in_zero_g": {
+			  "type": "object",
+			  "properties": {
+				"melee_attacks": {
+				  "type": "string"
+				},
+				"ranged_attacks": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"melee_attacks",
+				"ranged_attacks"
+			  ]
+			},
+			"other_zero_g_effects": {
+			  "type": "object",
+			  "properties": {
+				"space_sickness": {
+				  "type": "string"
+				},
+				"no_down_direction": {
+				  "type": "string"
+				},
+				"object_inertia": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"space_sickness",
+				"no_down_direction",
+				"object_inertia"
+			  ]
+			}
+		  },
+		  "required": [
+			"description",
+			"source_page_reference",
+			"moving_in_zero_g",
+			"attacking_in_zero_g",
+			"other_zero_g_effects"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"actions_in_combat",
+		"aquatic_combat",
+		"general_notes_on_extensibility",
+		"initiative",
+		"mounted_combat",
+		"other_combat_modifiers",
+		"primary_page_reference_crb",
+		"source_book_reference_general",
+		"the_combat_round",
+		"zero_gravity_environments"
+	  ]
+	}
+  },
+  "required": [
+    "combat_rules_data"
+  ]
+}

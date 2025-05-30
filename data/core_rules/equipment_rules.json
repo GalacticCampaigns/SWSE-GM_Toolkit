@@ -1,0 +1,317 @@
+{
+  "equipment_rules_data": {
+	  "file_description": "Core rules related to equipment, including money, restricted items, weapon and armor qualities, and encumbrance from the Saga Edition Core Rulebook. Page numbers aligned to physical book (-1 from TXT source). Designed for extensibility.",
+	  "source_book_abbreviation": "CR",
+	  "equipment_rules": {
+		"money": {
+		  "category_name": "Money",
+		  "page_references": [
+			116,
+			117
+		  ],
+		  "currency_overview": {
+			"title": "Currency Overview",
+			"details": [
+			  {
+				"text": "The galactic economy uses credits as its basic unit. Republic credits (dataries) lost value outside Core Worlds during the Rise of the Empire era, with local currencies and hard currency becoming popular. Imperial credits were standard during the Rebellion era. The New Republic minted its own credits, which became standard by The New Jedi Order era, though individual planets/sectors also had their own currencies.",
+				"source_book": "CR",
+				"page": 116
+			  }
+			]
+		  },
+		  "carrying_credits": {
+			"title": "Carrying Credits",
+			"details": [
+			  {
+				"text": "Credits are commonly tracked using credit chips or cred sticks, which securely monitor and transact available funds.",
+				"source_book": "CR",
+				"page": 116
+			  }
+			]
+		  },
+		  "wealth_beyond_credits": {
+			"title": "Wealth Beyond Credits",
+			"details": [
+			  {
+				"text": "Characters may deal in commodities. Guilds and governments regulate trade. Independent traders are generally given freedom. Prices for trade goods can vary by region and supply/demand.",
+				"source_book": "CR",
+				"page": 116
+			  }
+			],
+			"trade_goods_table_summary": "Table 8-1: Trade Goods lists baseline prices for various commodities like animals, art, bacta, food, fuel, gems, metals, ore, spice, textiles, and water.",
+			"trade_goods_note": "Specific trade good data should be in a separate, dedicated file if needed, or this section expanded with the full table.",
+			"source_book_for_table_summary": "CR",
+			"page_for_table_summary": 117
+		  },
+		  "selling_items": {
+			"title": "Selling Items",
+			"details": [
+			  {
+				"text": "Used equipment (not commodities) is generally bought by merchants at half its listed price.",
+				"source_book": "CR",
+				"page": 117
+			  }
+			]
+		  }
+		},
+		"restricted_items": {
+		  "category_name": "Restricted Items",
+		  "page_references": [
+			117,
+			118
+		  ],
+		  "general_info_details": [
+			{
+			  "text": "Some items require licenses or are restricted to qualified entities. A license fee is paid in addition to the object's cost.",
+			  "source_book": "CR",
+			  "page": 117
+			}
+		  ],
+		  "restriction_ratings": [
+			{
+			  "rating": "Licensed",
+			  "description": "Owner must obtain a license. Generally not expensive with few additional legal requirements.",
+			  "source_book": "CR",
+			  "page": 117
+			},
+			{
+			  "rating": "Restricted",
+			  "description": "Only specifically qualified individuals/organizations technically allowed. Obstacles are time and money; licenses can eventually be acquired.",
+			  "source_book": "CR",
+			  "page": 117
+			},
+			{
+			  "rating": "Military",
+			  "description": "Sold primarily to legitimate police/military. Similar to Restricted, but dealers are under tight scrutiny and wary of selling to private individuals.",
+			  "source_book": "CR",
+			  "page": 117
+			},
+			{
+			  "rating": "Illegal",
+			  "description": "Illegal except in specific, highly regulated circumstances.",
+			  "source_book": "CR",
+			  "page": 117
+			}
+		  ],
+		  "getting_a_license": {
+			"title": "Getting a License",
+			"process_summary_details": [
+			  {
+				"text": "Pay fee (percentage of object's cost). Make a Knowledge (bureaucracy) check against DC (see Table 8-2). Success means license approved in specified time. Failure means fee and time lost. Request is publicly recorded; background checks are more in-depth for more restricted items.",
+				"source_book": "CR",
+				"page": 117
+			  }
+			],
+			"illicit_means_details": [
+			  {
+				"text": "Bribing an official (Persuasion check) or fabricating/stealing identity (Deception check) can be attempted instead of Knowledge (bureaucracy). Failure by 5+ alerts authorities.",
+				"source_book": "CR",
+				"page": 117
+			  }
+			]
+		  },
+		  "black_market": {
+			"title": "The Black Market",
+			"process_summary_details": [
+			  {
+				"text": "Locate merchant via Gather Information check (DC from Table 8-2, GM may modify). Success finds merchant. Failure by 5+ alerts authorities. Item costs 2-5 times normal price and requires waiting time (see Table 8-2).",
+				"source_book": "CR",
+				"page": 118
+			  }
+			]
+		  },
+		  "table_8_2_restricted_objects_summary": {
+			"title": "Table 8-2: Restricted Objects (Summary)",
+			"note": "This summarizes the structure. Actual data for specific restriction ratings (Licensed, Restricted, Military, Illegal) including License Fee %, Black Market Cost Multiplier, Skill DC, and Time Required would be listed here.",
+			"columns": [
+			  "Restriction Rating",
+			  "License Fee (% of base cost)",
+			  "Black Market Cost (Multiplier)",
+			  "Skill DC (Knowledge Bureaucracy or Gather Information)",
+			  "Time Required (Days)"
+			],
+			"example_values_note": "For 'Restricted': Fee 10%, Cost x3, DC 15, Time 2 days. For 'Illegal': Fee 50%, Cost x5, DC 25, Time 10 days.",
+			"source_book": "CR",
+			"page": 118
+		  }
+		},
+		"weapon_rules": {
+		  "category_name": "Weapon Rules",
+		  "page_references": [
+			118,
+			119,
+			120
+		  ],
+		  "general_info_details": [
+			{
+			  "text": "Most people have access to weapons. Legality depends on location. Weapon Proficiency feat needed for groups, Exotic Weapon Proficiency for specific exotic weapons.",
+			  "source_book": "CR",
+			  "page": 118
+			}
+		  ],
+		  "weapon_groups": [
+			{"group_name": "Advanced Melee Weapons", "description": "Commonly bladed vibro weapons (e.g., electrostaff, force pike, vibrodagger, vibroblade, vibrobayonet, vibro-ax).", "source_book": "CR", "page": 118},
+			{"group_name": "Exotic Weapons", "description": "Unique form/function, requires specific Exotic Weapon Proficiency feat for each (e.g., amphistaff, atlatl, bowcaster, cesta, flamethrower).", "source_book": "CR", "page": 118},
+			{"group_name": "Heavy Weapons", "description": "Large, powerful, often braced/tripod (e.g., blaster cannon, grenade launcher, heavy repeating blaster, missile launcher, E-Web repeating blaster). Includes vehicle/starship weapons.", "source_book": "CR", "page": 118},
+			{"group_name": "Lightsabers", "description": "Standard lightsaber and variants (e.g., double-bladed). Ignore DR unless noted. Shield rating reduces damage normally.", "source_book": "CR", "page": 118},
+			{"group_name": "Pistols", "description": "Fired one-handed (e.g., blaster pistol, heavy blaster pistol, hold-out blaster, sporting blaster, ion pistol, slugthrower pistol).", "source_book": "CR", "page": 118},
+			{"group_name": "Rifles", "description": "More damage/range than pistols. -5 penalty if wielded one-handed (e.g., blaster carbine, blaster rifle, heavy blaster rifle, sporting blaster rifle, light repeating blaster, ion rifle, slugthrower rifle).", "source_book": "CR", "page": 119},
+			{"group_name": "Simple Weapons", "description": "Require no special training (e.g., club, combat gloves, knife, mace, quarterstaff, stun baton, grenades, thermal detonator, spear, net, sling, bow).", "source_book": "CR", "page": 119}
+		  ],
+		  "weapon_sizes": {
+			"title": "Weapon Sizes",
+			"description_details": [
+			  {
+				"text": "Determined by weapon's size compared to wielder's size.",
+				"source_book": "CR",
+				"page": 119
+			  }
+			],
+			"categories": [
+			  {"size_category": "Light", "rule": "Weapon size smaller than wielder. Can be used while grappling. Light melee usable with Weapon Finesse feat.", "source_book": "CR", "page": 119},
+			  {"size_category": "One-Handed", "rule": "Weapon size same as wielder.", "source_book": "CR", "page": 119},
+			  {"size_category": "Two-Handed", "rule": "Weapon size one step larger than wielder. Requires two hands (sometimes mount).", "source_book": "CR", "page": 119},
+			  {"size_category": "Too Large to Use", "rule": "Weapon size two+ steps larger than wielder. Exceptions for vehicle/starship mounted weapons.", "source_book": "CR", "page": 119}
+			]
+		  },
+		  "weapon_qualities_explanation": {
+			"title": "Weapon Qualities Explanation",
+			"qualities": [
+			  {"quality_name": "Weapon Group", "explanation": "Indicates which Weapon Proficiency feat is needed. -5 penalty on attacks if not proficient.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Size", "explanation": "Weapon's size category (see Weapon Sizes above).", "source_book": "CR", "page": 119},
+			  {"quality_name": "Cost", "explanation": "Cost in credits.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Damage", "explanation": "Damage dealt on hit. Melee weapons add Str mod (or 2x Str mod if two-handed). Double weapons list damage for each end.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Stun Damage", "explanation": "Damage if weapon has stun setting. Ranged stun max range 6 squares unless noted.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Rate of Fire", "explanation": "Single-shot (S) or autofire (A). Some have both (swift action to switch). Autofire requires multiple shots.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Weight", "explanation": "Weight in kilograms.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Damage Type", "explanation": "Type of damage (bludgeoning, slashing, piercing, energy, ion, etc.). 'And' means both types; 'Or' means choose one. Double weapons may list different types per end.", "source_book": "CR", "page": 119},
+			  {"quality_name": "Availability", "explanation": "Restriction level (Licensed, Restricted, Military, Illegal) or Rare (double cost if not on planet of origin/from manufacturer).", "source_book": "CR", "page": 120}
+			]
+		  }
+		},
+		"armor_rules": {
+		  "category_name": "Armor Rules",
+		  "page_references": [
+			130,
+			131,
+			132
+		  ],
+		  "armor_overview": {
+			"title": "Armor Overview",
+			"details": [
+			  {
+				"text": "Lightest types see widespread use. Heavier armor less common unless it serves additional functions. Many forms restricted. Wearing armor often signifies expectation of trouble.",
+				"source_book": "CR",
+				"page": 130
+			  }
+			]
+		  },
+		  "armor_qualities_explanation": {
+			"title": "Armor Qualities Explanation",
+			"qualities": [
+			  {"quality_name": "Cost", "explanation": "Cost of armor. Small size costs half, Large size costs double.", "source_book": "CR", "page": 130},
+			  {"quality_name": "Armor Bonus to Reflex Defense", "explanation": "Added to Reflex Defense instead of heroic level.", "source_book": "CR", "page": 130},
+			  {"quality_name": "Equipment Bonus to Fortitude Defense", "explanation": "Added to Fortitude Defense. Some armors do not provide this.", "source_book": "CR", "page": 130},
+			  {"quality_name": "Maximum Dex Bonus", "explanation": "Maximum Dexterity bonus applicable to Reflex Defense while wearing this armor.", "source_book": "CR", "page": 130},
+			  {"quality_name": "Speed", "explanation": "Medium and heavy armor reduces speed to 3/4 normal. Heavy armor reduces run speed to 3x (instead of 4x).", "source_book": "CR", "page": 130},
+			  {"quality_name": "Weight", "explanation": "Weight of armor. Small size weighs half, Large size weighs double.", "source_book": "CR", "page": 130},
+			  {"quality_name": "Availability", "explanation": "Restriction level (Rare, Licensed, Restricted, Military, Illegal).", "source_book": "CR", "page": 131}
+			]
+		  },
+		  "armor_check_penalty": {
+			"title": "Armor Check Penalty",
+			"details": [
+			  {
+				"text": "If not proficient with worn armor, take penalty on attack rolls and skill checks (Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, Swim). Light: -2; Medium: -5; Heavy: -10. No equipment bonuses gained if not proficient.",
+				"source_book": "CR",
+				"page": 131
+			  }
+			]
+		  },
+		  "wearing_armor_considerations": {
+			"title": "To Wear Armor or Not (Sidebar Summary)",
+			"details": [
+			  {
+				"text": "Armor bonus to Reflex Defense replaces heroic level. Armor check penalty applies if not proficient. Armor becomes less enticing as character level increases, unless it offers other benefits or character has talents like Armored Defense. Higher Fortitude Defense and damage threshold can be crucial.",
+				"source_book": "CR",
+				"page": 132
+			  }
+			]
+		  }
+		},
+		"encumbrance_rules": {
+		  "category_name": "Encumbrance Rules",
+		  "page_references": [
+			139,
+			140
+		  ],
+		  "encumbrance_by_armor": {
+			"title": "Encumbrance by Armor",
+			"details": [
+			  {
+				"text": "Armor defines max Dexterity bonus to Reflex Defense, armor check penalty, speed, and run speed. Extra gear usually doesn't slow down more than armor already does, unless carrying a heavy load.",
+				"source_book": "CR",
+				"page": 139
+			  }
+			]
+		  },
+		  "encumbrance_by_weight": {
+			"title": "Encumbrance by Weight",
+			"details": [
+			  {
+				"text": "Calculate if gear is heavy enough to slow down further. Add weight of all armor, weapons, and gear.",
+				"source_book": "CR",
+				"page": 139
+			  }
+			],
+			"heavy_load_calculation": "Total weight >= (0.5 * Strength score)^2 kg.",
+			"heavy_load_calculation_source_book": "CR",
+			"heavy_load_calculation_page": 139,
+			"example": "Str 12: heavy load if >= 36 kg.",
+			"heavy_load_penalties_details": [
+			  {
+				"text": "-10 penalty on Acrobatics, Climb, Endurance, Initiative, Jump, Stealth, Swim checks. Speed reduced to 3/4 normal. Run speed reduced to 3x normal.",
+				"source_book": "CR",
+				"page": 140
+			  }
+			]
+		  },
+		  "carrying_capacity": {
+			"title": "Carrying Capacity",
+			"lift_calculation_kg_details": [
+			  {
+				"text": "Lift capacity in kg = (Strength score)^2 * 0.5.",
+				"source_book": "CR",
+				"page": 140
+			  }
+			],
+			"example_lift": "Str 15 can lift 112.5 kg.",
+			"strain_to_lift_kg_details": [
+			  {
+				"text": "Strain to lift capacity in kg = (Strength score)^2. While overloaded: lose Dex bonus to Reflex Defense, move 1 square/round (full-round action).",
+				"source_book": "CR",
+				"page": 140
+			  }
+			],
+			"dragging_rules_details": [
+			  {
+				"text": "Dragged object effective weight reduced by surface: normal ground (1/2), smooth surface/wheels (1/5), frictionless (1/10). Rough ground: no reduction.",
+				"source_book": "CR",
+				"page": 140
+			  }
+			],
+			"bigger_and_smaller_creatures_modifiers": [
+			  {"size": "Large", "multiplier": "x2", "source_book": "CR", "page": 140},
+			  {"size": "Huge", "multiplier": "x5", "source_book": "CR", "page": 140},
+			  {"size": "Gargantuan", "multiplier": "x10", "source_book": "CR", "page": 140},
+			  {"size": "Colossal", "multiplier": "x20", "source_book": "CR", "page": 140},
+			  {"size": "Small", "multiplier": "x0.75", "source_book": "CR", "page": 140},
+			  {"size": "Tiny", "multiplier": "x0.5", "source_book": "CR", "page": 140},
+			  {"size": "Diminutive", "multiplier": "x0.25", "source_book": "CR", "page": 140},
+			  {"size": "Fine", "multiplier": "x0.01", "source_book": "CR", "page": 140}
+			]
+		  }
+		}
+	  }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Skill Rules",
+  "description": "Schema for general rules and mechanics governing skills in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "skill_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string"
+		},
+		"source_book_reference_general": {
+		  "type": "string"
+		},
+		"page_reference_general": {
+		  "type": "string"
+		},
+		"skill_check_formula": {
+		  "type": "object",
+		  "properties": {
+			"formula_string": {
+			  "type": "string"
+			},
+			"components": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "name": {
+					"type": "string"
+				  },
+				  "description": {
+					"type": "string"
+				  },
+				  "value": {
+					"type": "integer"
+				  },
+				  "condition": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "name",
+				  "description"
+				]
+			  }
+			},
+			"target": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"formula_string",
+			"components",
+			"target",
+			"source_page_reference"
+		  ]
+		},
+		"trained_skills_general_rules": {
+		  "type": "object",
+		  "properties": {
+			"bonus_for_training": {
+			  "type": "object",
+			  "properties": {
+				"value": {
+				  "type": "integer"
+				},
+				"description": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"value",
+				"description"
+			  ]
+			},
+			"access_to_specialized_uses": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"bonus_for_training",
+			"access_to_specialized_uses",
+			"source_page_reference"
+		  ]
+		},
+		"untrained_skill_usage": {
+		  "type": "object",
+		  "properties": {
+			"general_rule": {
+			  "type": "string"
+			},
+			"exceptions": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"general_rule",
+			"exceptions",
+			"source_page_reference"
+		  ]
+		},
+		"taking_10": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"conditions_for_use": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			},
+			"restrictions": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"conditions_for_use",
+			"restrictions",
+			"source_page_reference"
+		  ]
+		},
+		"taking_20": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"conditions_for_use": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			},
+			"time_cost": {
+			  "type": "string"
+			},
+			"restrictions": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"conditions_for_use",
+			"time_cost",
+			"restrictions",
+			"source_page_reference"
+		  ]
+		},
+		"aid_another_skill_checks": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"mechanic": {
+			  "type": "string"
+			},
+			"success_outcome": {
+			  "type": "string"
+			},
+			"failure_outcome": {
+			  "type": "string"
+			},
+			"limitations": {
+			  "type": "string"
+			},
+			"variant_aid": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"mechanic",
+			"success_outcome",
+			"failure_outcome",
+			"limitations",
+			"variant_aid",
+			"source_page_reference"
+		  ]
+		},
+		"opposed_skill_checks": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"mechanic": {
+			  "type": "string"
+			},
+			"tie_resolution": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"mechanic",
+			"tie_resolution",
+			"source_page_reference"
+		  ]
+		},
+		"trying_again_general_rules": {
+		  "type": "object",
+		  "properties": {
+			"general_rule": {
+			  "type": "string"
+			},
+			"consequences_of_failure": {
+			  "type": "string"
+			},
+			"restrictions_on_retry": {
+			  "type": "string"
+			},
+			"no_penalty_for_failure": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"general_rule",
+			"consequences_of_failure",
+			"restrictions_on_retry",
+			"no_penalty_for_failure",
+			"source_page_reference"
+		  ]
+		},
+		"rerolling_general_rules": {
+		  "type": "object",
+		  "properties": {
+			"declaration_timing": {
+			  "type": "string"
+			},
+			"accepting_result": {
+			  "type": "string"
+			},
+			"keeping_better_result": {
+			  "type": "string"
+			},
+			"multiple_reroll_sources": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"declaration_timing",
+			"accepting_result",
+			"keeping_better_result",
+			"multiple_reroll_sources",
+			"source_page_reference"
+		  ]
+		},
+		"checks_without_rolls": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"gm_discretion_note": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"gm_discretion_note",
+			"source_page_reference"
+		  ]
+		},
+		"circumstance_modifiers": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"typical_bonus_favorable": {
+			  "type": "string"
+			},
+			"typical_penalty_unfavorable": {
+			  "type": "string"
+			},
+			"modifier_vs_dc_change": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"typical_bonus_favorable",
+			"typical_penalty_unfavorable",
+			"modifier_vs_dc_change",
+			"source_page_reference"
+		  ]
+		},
+		"skill_focus_feat_interaction": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"interaction_with_training": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"interaction_with_training",
+			"source_page_reference"
+		  ]
+		},
+		"ability_checks_general_rules": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"formula": {
+			  "type": "string"
+			},
+			"dc_or_opposed_check": {
+			  "type": "string"
+			},
+			"contests_without_luck": {
+			  "type": "string"
+			},
+			"example_ability_checks": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "task": {
+					"type": "string"
+				  },
+				  "key_ability": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "task",
+				  "key_ability"
+				]
+			  }
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"formula",
+			"dc_or_opposed_check",
+			"contests_without_luck",
+			"example_ability_checks",
+			"source_page_reference"
+		  ]
+		},
+		"advancing_skills":{
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"source_page_reference"
+		  ]
+		},
+		"time_and_skill_checks_general":{
+		  "type": "object",
+		  "properties": {
+			"action_type_variance": {
+			  "type": "string"
+			},
+			"provoking_attack_of_opportunity": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"action_type_variance",
+			"provoking_attack_of_opportunity",
+			"source_page_reference"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference_general",
+		"page_reference_general",
+		"skill_check_formula",
+		"trained_skills_general_rules",
+		"untrained_skill_usage",
+		"taking_10",
+		"taking_20",
+		"aid_another_skill_checks",
+		"opposed_skill_checks",
+		"trying_again_general_rules",
+		"rerolling_general_rules",
+		"checks_without_rolls",
+		"circumstance_modifiers",
+		"skill_focus_feat_interaction",
+		"ability_checks_general_rules",
+		"advancing_skills",
+		"time_and_skill_checks_general"
+	  ]
+	},
+  "required": [
+    "skill_rules_data"
+  ]
+}

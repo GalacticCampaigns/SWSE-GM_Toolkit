@@ -1,0 +1,222 @@
+{
+  "vehicle_combat_rules_data": {
+    "description": "Rules for vehicle combat from the Star Wars Saga Edition Core Rulebook, covering starting battles, combat actions, attacking vehicles, and special combat rules.",
+    "rules_sections": [
+      {
+        "rule_id": "starting_the_battle",
+        "title": "Starting the Battle (Vehicle Combat)",
+        "source_book": "CR",
+        "page": 169,
+        "details": [
+          {
+            "sub_rule_id": "vehicle_initiative",
+            "title": "Initiative in Vehicle Combat",
+            "text": "There are two options for determining initiative: 1) Each character makes a separate Initiative check (best if most characters are on the same vehicle). 2) Make an Initiative check for each vehicle, using the pilot's Initiative check modifier (best if characters are in separate vehicles, allowing simultaneous action for crew on the same vehicle). A character trained in the Pilot skill can choose to make a Pilot check instead of an Initiative check. The vehicle's size modifier applies to the check."
+          },
+          {
+            "sub_rule_id": "vehicle_surprise_round",
+            "title": "Surprise Round in Vehicle Combat",
+            "text": "If some but not all combatants are aware of their opponents, a surprise round occurs. Aware combatants act in initiative order, taking a single standard, move, or swift action. Unaware combatants are flat-footed and do not act in the surprise round. (This generally follows standard surprise rules, page 149)."
+          }
+        ]
+      },
+      {
+        "rule_id": "vehicle_combat_actions",
+        "title": "Vehicle Combat Actions",
+        "source_book": "CR",
+        "page_references": [170, 171, 172],
+        "details": [
+          {
+            "sub_rule_id": "vca_standard_actions",
+            "title": "Standard Actions (Vehicle Combat)",
+            "action_list": [
+              {
+                "action_name": "Aid Another (Vehicle Combat)",
+                "crew_roles": ["Copilot", "Gunner", "Commander", "System Operator"],
+                "description": "Assist an ally's skill check, ability check, or attack roll. Copilot can assist Pilot checks. Gunner can aid another gunner's attack (+2 bonus on next attack vs. target if gunner hits Ref 10). System Operator can aid attacks via Use Computer (DC 10). Commander can aid attacks via Knowledge (tactics) (DC 10).",
+                "source_page": 170
+              },
+              {
+                "action_name": "Attack with Vehicle Weapon",
+                "crew_roles": ["Gunner", "Pilot (if pilot-operated)"],
+                "description": "Fire a vehicle-mounted weapon. Attack roll: 1d20 + gunner's BAB + vehicle's Int modifier + range modifier. Capital ship weapons take a -20 penalty against targets smaller than Colossal size (unless point-defense). Pilots trained in Pilot skill get +2 on attacks with pilot-operated weapons.",
+                "source_page": 170
+              },
+              {
+                "action_name": "Attack Run",
+                "crew_roles": ["Pilot"],
+                "description": "Move up to vehicle's speed in a straight line toward target, then make one attack with a vehicle weapon. Gain +2 bonus on attack roll, take -2 penalty to vehicle's Reflex Defense until start of next turn. Cannot move through enemy-occupied squares in starship scale.",
+                "source_page": 171
+              },
+              {
+                "action_name": "Dogfight (Initiate/Continue)",
+                "crew_roles": ["Pilot (Airspeeder/Starfighter only)"],
+                "description": "Standard action to initiate or continue a dogfight. To initiate: Opposed Pilot check (-5 penalty for attacker) vs. enemy airspeeder/starfighter in adjacent square (starship scale). Success engages dogfight. To continue: Opposed Pilot check; if won, make one vehicle weapon attack as a swift action. If lost, cannot attack, and vehicle's gunners take -5 penalty to attacks.",
+                "source_page": 171
+              },
+              {
+                "action_name": "Fight Defensively (Vehicle)",
+                "crew_roles": ["Pilot"],
+                "description": "Pilot and all gunners take -5 penalty on attack rolls; vehicle gains +2 dodge bonus to Reflex Defense. If no attacks are made, vehicle gains +5 dodge bonus, gunners take -10 penalty. Trained pilots increase these dodge bonuses to +5 and +10 respectively.",
+                "source_page": 171
+              }
+            ]
+          },
+          {
+            "sub_rule_id": "vca_move_actions",
+            "title": "Move Actions (Vehicle Combat)",
+            "action_list": [
+              {
+                "action_name": "Move (Vehicle)",
+                "crew_roles": ["Pilot"],
+                "description": "Move vehicle up to its speed. Cannot re-enter a square just left.",
+                "source_page": 171
+              },
+              {
+                "action_name": "Disengage from Dogfight",
+                "crew_roles": ["Pilot"],
+                "description": "Move action. Opposed Pilot check. Success allows disengagement and movement up to speed. Failure means remaining in dogfight, gunners take -5 attack penalty.",
+                "source_page": 171
+              }
+            ]
+          },
+          {
+            "sub_rule_id": "vca_swift_actions",
+            "title": "Swift Actions (Vehicle Combat)",
+            "action_list": [
+              {
+                "action_name": "Aim (Vehicle Weapon)",
+                "crew_roles": ["Gunner", "Pilot (if pilot-operated)"],
+                "description": "Two consecutive swift actions to aim. Ignores cover bonuses on next attack.",
+                "source_page": 171
+              },
+              {
+                "action_name": "Full Stop",
+                "crew_roles": ["Pilot"],
+                "description": "Bring vehicle to a full stop if no movement action taken this turn. Cannot be used if vehicle used all-out movement last turn.",
+                "source_page": 171
+              },
+              {
+                "action_name": "Increase Vehicle Speed",
+                "crew_roles": ["Pilot (trained in Pilot skill only)"],
+                "description": "DC 20 Pilot check. Success: speed +1 square until start of next turn (+1 additional square per 5 points over DC). Failure: vehicle moves -1 step on condition track, no speed increase. Can be attempted once per round as free action during all-out movement.",
+                "source_page": 172
+              },
+              {
+                "action_name": "Raise or Lower Shields",
+                "crew_roles": ["System Operator"],
+                "description": "Activate or deactivate vehicle shields.",
+                "source_page": 172
+              },
+              {
+                "action_name": "Recharge Shields",
+                "crew_roles": ["System Operator"],
+                "description": "Three swift actions (same or consecutive turns). DC 20 Mechanics check. Success: restore 5 SR (up to max).",
+                "source_page": 172
+              },
+              {
+                "action_name": "Reroute Power",
+                "crew_roles": ["Engineer"],
+                "description": "Three swift actions (same or consecutive turns). DC 20 Mechanics check. Success: vehicle moves +1 step on condition track.",
+                "source_page": 172
+              }
+            ]
+          },
+          {
+            "sub_rule_id": "vca_full_round_actions",
+            "title": "Full-Round Actions (Vehicle Combat)",
+            "action_list": [
+              {
+                "action_name": "All-Out Movement",
+                "crew_roles": ["Pilot"],
+                "description": "Move up to four times vehicle's speed in a straight line. Vehicle loses Dex bonus to Reflex Defense. Gunners cannot attack. Cannot be used unless vehicle moved last turn. Can achieve Maximum Velocity on subsequent turn.",
+                "source_page": 172
+              },
+              {
+                "action_name": "Full Attack (Vehicle Weapon)",
+                "crew_roles": ["Gunner", "Pilot (if pilot-operated)"],
+                "description": "Used if capable of multiple attacks (e.g., Double Attack feat). Pilot cannot make full attack if vehicle moved, unless at full stop.",
+                "source_page": 172
+              },
+              {
+                "action_name": "Ram",
+                "crew_roles": ["Pilot"],
+                "description": "Move vehicle into target's space. Pilot check (-10 penalty) vs. target's Reflex Defense. Success: vehicle, target, and all passengers take collision damage (Table 10-3, CRB p.173). Ramming vehicle may continue movement if able. Failure: half damage, ramming vehicle pushed back. Double damage if ramming vehicle was moving all-out or at max velocity.",
+                "source_page": 172
+              }
+            ]
+          },
+          {
+            "sub_rule_id": "vca_reactions",
+            "title": "Reactions (Vehicle Combat)",
+            "action_list": [
+              {
+                "action_name": "Avoid Collision",
+                "crew_roles": ["Pilot"],
+                "description": "DC 15 Pilot check as reaction to vehicle collision. Success: all targets take half damage. Starship Scale: success means no collision occurs. Cannot be used if intentionally ramming.",
+                "source_page": 173
+              },
+              {
+                "action_name": "Attack of Opportunity (Dogfight)",
+                "crew_roles": ["Pilot (Airspeeder/Starfighter only)"],
+                "description": "If enemy starfighter moves through pilot's square or adjacent square (starship scale), pilot may attempt to initiate a dogfight as an attack of opportunity. Success stops enemy movement.",
+                "source_page": 171
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule_id": "special_vehicle_combat_rules",
+        "title": "Special Vehicle Combat Rules",
+        "source_book": "CR",
+        "page_references": [173, 174],
+        "details": [
+          {
+            "sub_rule_id": "svcr_area_attacks",
+            "title": "Area Attacks (Vehicle Combat)",
+            "text": "Works as standard area attacks. Starship Scale: Area attacks (autofire, burst, splash) resolve as single-target attacks unless weapon specifically notes starship-scale area effect.",
+            "source_page": 173
+          },
+          {
+            "sub_rule_id": "svcr_autofire",
+            "title": "Autofire (Vehicle Combat)",
+            "text": "Vehicle weapon on autofire targets 2x2 square area (character scale) at -5 attack penalty. Hits deal full damage, misses half. Consumes 10 shots. Strafe Attack (Airspeeders/Starfighters): Attack Run action can target a 1-square wide, 5-10 square long line; attack penalty equals number of squares in line. Not usable in starship scale.",
+            "source_page": 173
+          },
+          {
+            "sub_rule_id": "svcr_collisions",
+            "title": "Collisions",
+            "text": "Occurs when vehicle enters occupied space. Ramming Vehicle: Pilot check vs. target Reflex. Success: full collision damage (Table 10-3) to all involved. Failure: half damage. Mobile Hazard (Large+): Hazard makes attack roll (1d20 + size mod) vs. target Reflex. Hit: full collision damage. Miss: half damage. Damage to passengers/crew in collision reduced by vehicle's DR unless vehicle provides no cover.",
+            "table_10_3_summary_note": "Table 10-3 Collision Damage: Huge vehicle 4d6+Str, Colossal 8d6+Str, Col (frigate) 10d6+Str, Col (cruiser) 15d6+Str, Col (station) 20d6+Str. Double if ramming vehicle at all-out/max velocity.",
+            "source_page": 173
+          },
+          {
+            "sub_rule_id": "svcr_crew_cover",
+            "title": "Crew Cover",
+            "text": "Vehicles provide cover to occupants against attacks targeting them directly (None, +5 Normal, +10 Improved, or Total). See vehicle description.",
+            "source_page": 169 
+          },
+          {
+            "sub_rule_id": "svcr_damage_to_vehicles",
+            "title": "Damage to Vehicles",
+            "text": "Attacks target vehicle's Reflex Defense. Damage reduces HP. Damage exceeding Damage Threshold moves vehicle -1 step on condition track. Vehicle at 0 HP is disabled. Vehicle at 0 HP and damage exceeded DT is destroyed. Occupants of destroyed vehicle take half damage from the destroying attack.",
+            "source_page": 168 
+          },
+          {
+            "sub_rule_id": "svcr_missiles_torpedoes",
+            "title": "Missiles and Torpedoes",
+            "text": "Guided projectiles. If aimed before firing, and initial attack misses, missile/torpedo attacks again on firer's next turn (-5 penalty). If misses second time, self-destructs. Can be shot down (Reflex 30, 10 HP, occupies target's square for range).",
+            "source_page": 173
+          },
+          {
+            "sub_rule_id": "svcr_tractor_beams",
+            "title": "Tractor Beams",
+            "text": "Attack vs. target Reflex. Hit: opposed grapple check (vehicle Str + size vs. target Str + size). Win: target grabbed. Grabbed target (own size or smaller): cannot move, loses Dex to Reflex. Each round, opposed grapple check to pull target 10 squares (1 in starship scale) or hold. Lose check: target breaks free. Grabbed target (larger than attacker): target moves freely, attacker can pull self 10/1 squares closer. If target moves beyond range, hold broken. Can use docking clamps once target is in same square.",
+            "source_page": 174
+          }
+        ]
+      }
+    ]
+  }
+}

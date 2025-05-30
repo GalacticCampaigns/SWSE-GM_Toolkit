@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Abilities",
+  "description": "Schema for defining character abilities in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "abilities_data": {
+      "type": "object",
+      "properties": {
+		"source_book": {
+		  "type": "string",
+		  "description": "Abbreviation for the source book."
+		},
+		"page_reference_general": {
+		  "type": "string",
+		  "description": "General page reference in the source book."
+		},
+		"modifier_calculation_formula": {
+		  "type": "string",
+		  "description": "Formula used to calculate ability modifiers."
+		},
+		"general_description": {
+		  "type": "string",
+		  "description": "A general overview of what abilities are in the game system."
+		},
+		"abilities": {
+		  "type": "array",
+		  "description": "A list of the fundamental abilities.",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "string",
+				"description": "A unique identifier for the ability (e.g., 'str')."
+			  },
+			  "full_name": {
+				"type": "string",
+				"description": "The full name of the ability (e.g., 'Strength')."
+			  },
+			  "abbreviation": {
+				"type": "string",
+				"description": "The common abbreviation for the ability (e.g., 'STR')."
+			  },
+			  "description_summary": {
+				"type": "string",
+				"description": "A summary of what the ability measures and its importance."
+			  },
+			  "page_specific": {
+				"type": "integer",
+				"description": "Specific page number in the source book for this ability."
+			  },
+			  "typical_uses_summary": {
+				"type": "array",
+				"description": "A list of typical game mechanics this ability is used for.",
+				"items": {
+				  "type": "string"
+				}
+			  },
+			  "notes_for_ai_gm": {
+				"type": "string",
+				"description": "Specific notes for an AI Game Master regarding this ability's mechanics."
+			  }
+			},
+			"required": [
+			  "id",
+			  "full_name",
+			  "abbreviation",
+			  "description_summary",
+			  "page_specific",
+			  "typical_uses_summary",
+			  "notes_for_ai_gm"
+			]
+		  }
+		},
+		"character_creation_notes": {
+		  "type": "object",
+		  "description": "Notes related to ability scores during character creation.",
+		  "properties": {
+			"score_generation_methods_summary": {
+			  "type": "string",
+			  "description": "Summary of methods for generating ability scores."
+			},
+			"typical_score_range_start_pc_before_species_mods": {
+			  "type": "string",
+			  "description": "Typical starting score range for player characters before species modifiers."
+			},
+			"ability_score_increases_on_level_up": {
+			  "type": "object",
+			  "description": "Rules for increasing ability scores when a character levels up.",
+			  "properties": {
+				"description": {
+				  "type": "string"
+				},
+				"levels": {
+				  "type": "array",
+				  "items": {
+					"type": "integer"
+				  }
+				},
+				"number_of_scores_increased": {
+				  "type": "integer"
+				},
+				"increase_amount_per_score": {
+				  "type": "integer"
+				},
+				"restriction": {
+				  "type": "string"
+				},
+				"source_page_reference": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"description",
+				"levels",
+				"number_of_scores_increased",
+				"increase_amount_per_score",
+				"restriction",
+				"source_page_reference"
+			  ]
+			}
+		  },
+		  "required": [
+			"score_generation_methods_summary",
+			"typical_score_range_start_pc_before_species_mods",
+			"ability_score_increases_on_level_up"
+		  ]
+		}
+	  },
+	  "required": [
+		"source_book",
+		"page_reference_general",
+		"modifier_calculation_formula",
+		"general_description",
+		"abilities",
+		"character_creation_notes"
+	  ]
+	}
+  },
+  "required": [
+    "abilities_data"
+  ]
+}

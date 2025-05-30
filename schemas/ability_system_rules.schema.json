@@ -1,0 +1,279 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Ability System Rules",
+  "description": "Schema for defining the rules of the ability system in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "ability_system_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"source_book_reference": {
+		  "type": "string",
+		  "description": "Abbreviation for the primary source book."
+		},
+		"page_reference_general": {
+		  "type": "string",
+		  "description": "General page reference in the source book."
+		},
+		"score_generation_methods": {
+		  "type": "object",
+		  "description": "Methods for generating ability scores.",
+		  "properties": {
+			"dice_rolling": {
+			  "type": "object",
+			  "properties": {
+				"method_description": {
+				  "type": "string"
+				},
+				"reroll_condition": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"method_description",
+				"reroll_condition"
+			  ]
+			},
+			"planned_generation": {
+			  "type": "object",
+			  "properties": {
+				"method_description": {
+				  "type": "string"
+				},
+				"starting_score": {
+				  "type": "integer"
+				},
+				"points_to_spend": {
+				  "type": "integer"
+				},
+				"cost_table": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "score": {
+						"type": "integer"
+					  },
+					  "cost_to_reach_from_8": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "score",
+					  "cost_to_reach_from_8"
+					]
+				  }
+				},
+				"source_page_reference": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"method_description",
+				"starting_score",
+				"points_to_spend",
+				"cost_table",
+				"source_page_reference"
+			  ]
+			},
+			"standard_score_package": {
+			  "type": "object",
+			  "properties": {
+				"method_description": {
+				  "type": "string"
+				},
+				"scores_array": {
+				  "type": "array",
+				  "items": {
+					"type": "integer"
+				  }
+				},
+				"source_page_reference": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"method_description",
+				"scores_array",
+				"source_page_reference"
+			  ]
+			}
+		  },
+		  "required": [
+			"dice_rolling",
+			"planned_generation",
+			"standard_score_package"
+		  ]
+		},
+		"ability_modifier_table": {
+		  "type": "object",
+		  "description": "Table for determining ability modifiers from scores.",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"formula_note": {
+			  "type": "string"
+			},
+			"modifiers": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "score_range": {
+					"type": "string"
+				  },
+				  "modifier": {
+					"type": "integer"
+				  }
+				},
+				"required": [
+				  "score_range",
+				  "modifier"
+				]
+			  }
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"formula_note",
+			"modifiers",
+			"source_page_reference"
+		  ]
+		},
+		"changing_ability_scores": {
+		  "type": "object",
+		  "description": "Rules concerning changes to ability scores.",
+		  "properties": {
+			"level_progression_increase": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string"
+				},
+				"levels": {
+				  "type": "array",
+				  "items": {
+					"type": "integer"
+				  }
+				},
+				"number_of_scores_increased": {
+				  "type": "integer"
+				},
+				"increase_amount_per_score": {
+				  "type": "integer"
+				},
+				"restriction": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"description",
+				"levels",
+				"number_of_scores_increased",
+				"increase_amount_per_score",
+				"restriction"
+			  ]
+			},
+			"aging_effects_note": {
+			  "type": "string"
+			},
+			"retroactivity_principle": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"level_progression_increase",
+			"aging_effects_note",
+			"retroactivity_principle",
+			"source_page_reference"
+		  ]
+		},
+		"roleplaying_guidance_int_wis_cha": {
+		  "type": "object",
+		  "description": "Roleplaying guidance based on Intelligence, Wisdom, and Charisma scores.",
+		  "properties": {
+			"source_page_reference": {
+			  "type": "string"
+			},
+			"intelligence": {
+			  "type": "object",
+			  "properties": {
+				"high_score_traits": {"type": "string"},
+				"high_int_low_wis": {"type": "string"},
+				"high_int_low_cha": {"type": "string"},
+				"high_int_low_wis_low_cha": {"type": "string"},
+				"low_score_traits": {"type": "string"}
+			  },
+			  "required": [
+				"high_score_traits",
+				"high_int_low_wis",
+				"high_int_low_cha",
+				"high_int_low_wis_low_cha",
+				"low_score_traits"
+			  ]
+			},
+			"wisdom": {
+			  "type": "object",
+			  "properties": {
+				"high_score_traits": {"type": "string"},
+				"high_wis_low_int": {"type": "string"},
+				"high_wis_low_cha": {"type": "string"},
+				"low_score_traits": {"type": "string"}
+			  },
+			  "required": [
+				"high_score_traits",
+				"high_wis_low_int",
+				"high_wis_low_cha",
+				"low_score_traits"
+			  ]
+			},
+			"charisma": {
+			  "type": "object",
+			  "properties": {
+				"high_score_traits": {"type": "string"},
+				"high_cha_low_int": {"type": "string"},
+				"high_cha_low_wis": {"type": "string"},
+				"low_score_traits": {"type": "string"}
+			  },
+			  "required": [
+				"high_score_traits",
+				"high_cha_low_int",
+				"high_cha_low_wis",
+				"low_score_traits"
+			  ]
+			}
+		  },
+		  "required": [
+			"source_page_reference",
+			"intelligence",
+			"wisdom",
+			"charisma"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference",
+		"page_reference_general",
+		"score_generation_methods",
+		"ability_modifier_table",
+		"changing_ability_scores",
+		"roleplaying_guidance_int_wis_cha"
+	  ]
+	}
+  },
+  "required": [
+    "ability_system_rules_data"
+  ]
+}

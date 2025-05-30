@@ -1,31 +1,33 @@
 {
-  "file_description": "General rules for acquiring and using Talents in Star Wars Saga Edition.",
-  "source_book_reference": "CR",
-  "page_reference_general": "36, 79, 91, 100",
-  "acquiring_talents": {
-    "heroic_class_progression": {
-      "description": "Heroic characters typically select a talent at 1st level in their chosen heroic class. Thereafter, they select an additional talent from one of their class's talent trees at every odd-numbered class level gained in that specific heroic class (e.g., 3rd, 5th, 7th Jedi level). Refer to individual class descriptions for specific talent progression.",
-      "example_levels_per_class": "1st, 3rd, 5th, 7th, 9th, 11th, 13th, 15th, 17th, 19th class level.",
-      "source_page_reference_example_jedi": "CR 39"
-    },
-    "prestige_class_progression": {
-      "description": "Prestige classes grant talents at levels specified in their individual class descriptions and tables. These are based on levels gained in that specific prestige class.",
-      "source_page_reference_example": "CR Chapter 12 onwards"
-    },
-    "force_sensitivity_interaction": {
-      "description": "Any character possessing the Force Sensitivity feat gains the option to select a Force Talent in place of a regular class talent whenever their heroic class or prestige class grants them a talent. These Force Talents can be chosen from any talent tree that designates 'Force Sensitive' or a specific Force-using tradition as its associated class (for example, the general Force talent trees like Alter, Control, Dark Side, Sense, or talent trees from specific Force-Using Traditions the character might join). All prerequisites for the chosen Force Talent must still be met.",
-      "source_page_reference_force_sensitivity_feat": "CR 86"
-    }
-  },
-  "prerequisites": {
-    "general_rule": "A character must meet all listed prerequisites (such as ability scores, other talents, feats, skill ranks, specific class levels, Base Attack Bonus, or belonging to a specific species or tradition) to select a talent.",
-    "timing_of_acquisition": "A character can gain a talent at the same level at which they meet its prerequisite(s).",
-    "source_page_reference": "CR 79"
-  },
-  "talent_trees": {
-    "general_concept": "Talents are organized into thematic groups called talent trees. Characters select talents from trees available to their specific heroic class, prestige class, or Force-using tradition.",
-    "force_talent_accessibility_note": "Talent trees associated with 'Force Sensitive' or specific Force-Using Traditions become accessible to characters with the Force Sensitivity feat, allowing them to choose talents from these trees in place of class talents, provided prerequisites are met.",
-    "prerequisite_within_tree_note": "Some talents may require other specific talents from the same tree as prerequisites."
-  },
-  "multiclassing_note": "When a talent is gained as a benefit of advancing a class level, it must be selected from a talent tree associated with that specific class in which the level was gained. (This rule is also detailed in class_rules.json)."
+  "talents_rules_data": {
+	  "file_description": "General rules for acquiring and using Talents in Star Wars Saga Edition.",
+	  "source_book_reference": "CR",
+	  "page_reference_general": "36, 79, 91, 100",
+	  "acquiring_talents": {
+		"heroic_class_progression": {
+		  "description": "Heroic characters typically select a talent at 1st level in their chosen heroic class. Thereafter, they select an additional talent from one of their class's talent trees at every odd-numbered class level gained in that specific heroic class (e.g., 3rd, 5th, 7th Jedi level). Refer to individual class descriptions for specific talent progression.",
+		  "example_levels_per_class": "1st, 3rd, 5th, 7th, 9th, 11th, 13th, 15th, 17th, 19th class level.",
+		  "source_page_reference_example_jedi": "CR 39"
+		},
+		"prestige_class_progression": {
+		  "description": "Prestige classes grant talents at levels specified in their individual class descriptions and tables. These are based on levels gained in that specific prestige class.",
+		  "source_page_reference_example": "CR Chapter 12 onwards"
+		},
+		"force_sensitivity_interaction": {
+		  "description": "Any character possessing the Force Sensitivity feat gains the option to select a Force Talent in place of a regular class talent whenever their heroic class or prestige class grants them a talent. These Force Talents can be chosen from any talent tree that designates 'Force Sensitive' or a specific Force-using tradition as its associated class (for example, the general Force talent trees like Alter, Control, Dark Side, Sense, or talent trees from specific Force-Using Traditions the character might join). All prerequisites for the chosen Force Talent must still be met.",
+		  "source_page_reference_force_sensitivity_feat": "CR 86"
+		}
+	  },
+	  "prerequisites": {
+		"general_rule": "A character must meet all listed prerequisites (such as ability scores, other talents, feats, skill ranks, specific class levels, Base Attack Bonus, or belonging to a specific species or tradition) to select a talent.",
+		"timing_of_acquisition": "A character can gain a talent at the same level at which they meet its prerequisite(s).",
+		"source_page_reference": "CR 79"
+	  },
+	  "talent_trees": {
+		"general_concept": "Talents are organized into thematic groups called talent trees. Characters select talents from trees available to their specific heroic class, prestige class, or Force-using tradition.",
+		"force_talent_accessibility_note": "Talent trees associated with 'Force Sensitive' or specific Force-Using Traditions become accessible to characters with the Force Sensitivity feat, allowing them to choose talents from these trees in place of class talents, provided prerequisites are met.",
+		"prerequisite_within_tree_note": "Some talents may require other specific talents from the same tree as prerequisites."
+	  },
+	  "multiclassing_note": "When a talent is gained as a benefit of advancing a class level, it must be selected from a talent tree associated with that specific class in which the level was gained. (This rule is also detailed in class_rules.json)."
+	}
 }

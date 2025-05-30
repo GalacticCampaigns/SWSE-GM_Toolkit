@@ -3,9 +3,17 @@
     "description": "Compilation of Explosives for Star Wars SAGA Edition.",
     "explosives_list": [
       {
+        "id": "antipersonnel_mine_gw",
         "name": "Antipersonnel Mine",
-        "web_marker": "w",
-        "full_text_description": "Antipersonnel Mine (GaW)\nAn antipersonnel mine is a shaped explosive that discharges shrapnel in a cone, rather than exploding over an area. Retractable magnetic spikes on the bottom of the mine allow it be securely placed in the ground or attached to a metallic object, such as a vehicle or building. It can be detonated using a timer, a manual trigger (see page 101 of The Force Unleashed Campaign Guide), or a tripwire. Setting up a tripwire requires a DC 10 Mechanics check. Any character, creature, droid, or vehicle moving into a wired square detonates the mine. Multiple antipersonnel mines can be linked together with an additional DC 10 Mechanics check per mine. When one mine is activated, all the linked mines detonate, each dealing separate damage to all targets within the area of effect.\nAn antipersonnel mine damages everything in a 6-square cone in a direction that is determined when the mine is placed and activated.",
+        "source_book": "GW",
+        "page": 42,
+        "area_of_effect": {
+          "text_original": "6sq cone",
+          "shape": "cone",
+          "value_squares": 6,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "500",
           "options": [
@@ -16,26 +24,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "6d6",
         "damage_structured": {
           "text_original": "6d6",
           "dice_count": 6,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "6d6",
         "damage_types": [
           "Piercing"
         ],
-        "weight_kg": 1,
-        "size_category": "Tiny",
+        "full_text_description": "Antipersonnel Mine (GaW)\nAn antipersonnel mine is a shaped explosive that discharges shrapnel in a cone, rather than exploding over an area. Retractable magnetic spikes on the bottom of the mine allow it be securely placed in the ground or attached to a metallic object, such as a vehicle or building. It can be detonated using a timer, a manual trigger (see page 101 of The Force Unleashed Campaign Guide), or a tripwire. Setting up a tripwire requires a DC 10 Mechanics check. Any character, creature, droid, or vehicle moving into a wired square detonates the mine. Multiple antipersonnel mines can be linked together with an additional DC 10 Mechanics check per mine. When one mine is activated, all the linked mines detonate, each dealing separate damage to all targets within the area of effect.\nAn antipersonnel mine damages everything in a 6-square cone in a direction that is determined when the mine is placed and activated.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "6sq cone",
-          "shape": "cone",
-          "value_squares": 6,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "magnetic, set tripwire DC 10 Mechanics, link together DC 10 Mechanics",
         "structured_effects": [
           {
@@ -43,13 +44,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "GW",
-        "page": 42
+        "web_marker": null,
+        "weight_kg": 1
       },
       {
+        "id": "antipersonnel_mine_hx2_w",
         "name": "Antipersonnel Mine, HX2",
-        "web_marker": "w",
-        "full_text_description": "Antipersonnel Mine, HX2 (W)\nThe Conner Ship Systems HX2 antipersonnel mine was popular with ARC troopers during the Clone Wars, and it is still in widespread use during the Galactic Civil War a generation later. It has a powerful adhesive disc that allows it to be attached easily to walls, underneath vehicles, and so forth.\nThere are two ways to deploy the HX2 mine: Carefully emplaced using the Mechanics skill, or dropped or thrown a short distance.",
+        "source_book": "W",
+        "page": 328,
+        "area_of_effect": {
+          "text_original": "4sq",
+          "shape": "burst",
+          "value_squares": 4,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "750",
           "options": [
@@ -60,26 +69,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "6d6",
         "damage_structured": {
           "text_original": "6d6",
           "dice_count": 6,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "6d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 1,
-        "size_category": "Small",
+        "full_text_description": "Antipersonnel Mine, HX2 (W)\nThe Conner Ship Systems HX2 antipersonnel mine was popular with ARC troopers during the Clone Wars, and it is still in widespread use during the Galactic Civil War a generation later. It has a powerful adhesive disc that allows it to be attached easily to walls, underneath vehicles, and so forth.\nThere are two ways to deploy the HX2 mine: Carefully emplaced using the Mechanics skill, or dropped or thrown a short distance.",
         "perception_dc_to_detect": 10,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "4sq",
-          "shape": "burst",
-          "value_squares": 4,
-          "unit": "squares"
-        },
+        "size_category": "Small",
         "special_properties_text": "Atk 1d20+10",
         "structured_effects": [
           {
@@ -87,13 +89,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "W",
-        "page": 328
+        "web_marker": null,
+        "weight_kg": 1
       },
       {
+        "id": "antivehicle_proton_mine_w",
         "name": "Antivehicle Proton Mine",
-        "web_marker": "w",
-        "full_text_description": "Antivehicle Proton Mine (W)\nThe Rebel Alliance created antivehicle proton mines out of proton torpedo warheads, adding a simple proximity fuse to allow detonation at the approach of a large target, but other arms manufacturers created similar devices via less unorthodox (and much safer) means. When carefully emplaced (a full-round action; see \"Handle Explosives\" under the Mechanics skill description), the mine can also be hidden (Stealth check, adding +15 size modifier of the mine) to reduce the likelihood that it is detected by enemy infantry or vehicles. When emplacing the mine, the mine can be set to detonate only upon detecting a target of a minimum size and/or a target using repulsorlift engines.\nThe mine arms itself 6 seconds later, at the end of your next turn. The mine will detonate if it detects an eligible target within 2 squares (Perception +10). Make an attack roll (1d20+10) against the Reflex Defense of every creature and object in the blast radius. (Any creature or object to which the mine is attached is hit automatically.) If the attack succeeds, the creature or object takes full damage. If the attack misses, the creature or object takes half damage.",
+        "source_book": "W",
+        "page": 335,
+        "area_of_effect": {
+          "text_original": "4sq",
+          "shape": "burst",
+          "value_squares": 4,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "2000",
           "options": [
@@ -104,26 +114,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "8d6",
         "damage_structured": {
           "text_original": "8d6",
           "dice_count": 8,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "8d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 1.5,
-        "size_category": "Small",
+        "full_text_description": "Antivehicle Proton Mine (W)\nThe Rebel Alliance created antivehicle proton mines out of proton torpedo warheads, adding a simple proximity fuse to allow detonation at the approach of a large target, but other arms manufacturers created similar devices via less unorthodox (and much safer) means. When carefully emplaced (a full-round action; see \"Handle Explosives\" under the Mechanics skill description), the mine can also be hidden (Stealth check, adding +15 size modifier of the mine) to reduce the likelihood that it is detected by enemy infantry or vehicles. When emplacing the mine, the mine can be set to detonate only upon detecting a target of a minimum size and/or a target using repulsorlift engines.\nThe mine arms itself 6 seconds later, at the end of your next turn. The mine will detonate if it detects an eligible target within 2 squares (Perception +10). Make an attack roll (1d20+10) against the Reflex Defense of every creature and object in the blast radius. (Any creature or object to which the mine is attached is hit automatically.) If the attack succeeds, the creature or object takes full damage. If the attack misses, the creature or object takes half damage.",
         "perception_dc_to_detect": 10,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "4sq",
-          "shape": "burst",
-          "value_squares": 4,
-          "unit": "squares"
-        },
+        "size_category": "Small",
         "special_properties_text": "Atk 1d20+10",
         "structured_effects": [
           {
@@ -131,13 +134,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "W",
-        "page": 335
+        "web_marker": null,
+        "weight_kg": 1.5
       },
       {
+        "id": "antivehicle_mine_f",
         "name": "Antivehicle mine",
-        "web_marker": "w",
-        "full_text_description": "Antivehicle Mine (TFUCG)\nThe antivehicle mine was designed specifically to damage many types of vehicles. An antivehicle mine is placed in or on the ground (in any square adjacent to you) and is triggered when any ground vehicle enters the square in which it is placed. An antivehicle mine cannot be triggered by anything other than a vehicle moving through its square, ensuring that it is not accidentally triggered by a trooper and maximizing the damage to enemy vehicles. An antivehicle mine damages everything in a 2-square burst radius.\nThe Rebel Alliance created antivehicle proton mines out of proton torpedo warheads, adding a simple proximity fuse to allow detonation at the approach of a large target, but other arms manufacturers created similar devices via less unorthodox (and much safer) means. When carefully emplaced (a full-round action; see \"Handle Explosives\" under the Mechanics skill description), the mine can also be hidden (Stealth check, adding +15 size modifier of the mine) to reduce the likelihood that it is detected by enemy infantry or vehicles. When emplacing the mine, the mine can be set to detonate only upon detecting a target of a minimum size and/or a target using repulsorlift engines.",
+        "source_book": "F",
+        "page": 100,
+        "area_of_effect": {
+          "text_original": "2sq",
+          "shape": "burst",
+          "value_squares": 2,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "1500",
           "options": [
@@ -148,26 +159,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "10d6",
         "damage_structured": {
           "text_original": "10d6",
           "dice_count": 10,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "10d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Diminutive",
+        "full_text_description": "Antivehicle Mine (TFUCG)\nThe antivehicle mine was designed specifically to damage many types of vehicles. An antivehicle mine is placed in or on the ground (in any square adjacent to you) and is triggered when any ground vehicle enters the square in which it is placed. An antivehicle mine cannot be triggered by anything other than a vehicle moving through its square, ensuring that it is not accidentally triggered by a trooper and maximizing the damage to enemy vehicles. An antivehicle mine damages everything in a 2-square burst radius.\nThe Rebel Alliance created antivehicle proton mines out of proton torpedo warheads, adding a simple proximity fuse to allow detonation at the approach of a large target, but other arms manufacturers created similar devices via less unorthodox (and much safer) means. When carefully emplaced (a full-round action; see \"Handle Explosives\" under the Mechanics skill description), the mine can also be hidden (Stealth check, adding +15 size modifier of the mine) to reduce the likelihood that it is detected by enemy infantry or vehicles. When emplacing the mine, the mine can be set to detonate only upon detecting a target of a minimum size and/or a target using repulsorlift engines.",
         "perception_dc_to_detect": 20,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "2sq",
-          "shape": "burst",
-          "value_squares": 2,
-          "unit": "squares"
-        },
+        "size_category": "Diminutive",
         "special_properties_text": "triggered only when ground vehicle enters the square",
         "structured_effects": [
           {
@@ -175,13 +179,22 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "F",
-        "page": 100
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "detonite_cr",
         "name": "Detonite",
-        "web_marker": "w",
-        "full_text_description": "Detonite\nDetonite is a contact explosive that comes in tiny claylike blocks. It can be shaped or molded around a target and crammed into small cracks. Detonite is very stable in its normal forms and requires a timer to be set off.\nDetonite cord-a long, thin cable of explosive detonite-is used mainly for mining and commercial demolition. Military sappers also commonly employ it in the field for specialized uses. Like regular detonite, detonite cord is very stable and requires a timer or manual trigger for detonation.",
+        "source_book": "CR",
+        "page": 131,
+        "area_of_effect": {
+          "text_original": null,
+          "shape": null,
+          "value_squares": null,
+          "unit": "squares"
+        },
+        "availability": "Restricted",
+        "blast_radius_text": "1sq",
         "cost": {
           "text_original": "500",
           "options": [
@@ -189,43 +202,46 @@
               "type": "fixed_amount",
               "value": 500
             }
-          ],
-          "selection_logic": null
+          ]
         },
-        "damage_text": "5d6",
         "damage_structured": {
           "text_original": "5d6",
-          "dice_count": 5,
-          "die_type": 6,
-          "bonus_modifier": 0
+          "primary_damage": {
+            "text_original": "5d6",
+            "dice_count": 5,
+            "die_type": 6,
+            "bonus_modifier": 0
+          }
         },
+        "damage_text": "5d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.1,
-        "size_category": "Fine",
+        "full_text_description": "Detonite\nDetonite is a contact explosive that comes in tiny claylike blocks. It can be shaped or molded around a target and crammed into small cracks. Detonite is very stable in its normal forms and requires a timer to be set off.\nDetonite cord-a long, thin cable of explosive detonite-is used mainly for mining and commercial demolition. Military sappers also commonly employ it in the field for specialized uses. Like regular detonite, detonite cord is very stable and requires a timer or manual trigger for detonation.",
         "perception_dc_to_detect": 25,
-        "availability": "Restricted",
-        "area_of_effect": {
-          "text_original": null,
-          "shape": null,
-          "value_squares": null,
-          "unit": "squares"
-        },
-        "special_properties_text": "requires timer",
+        "size_category": "Fine",
+        "special_properties_text": "Stable contact explosive. Can be shaped or molded. Requires a timer.",
         "structured_effects": [
           {
             "type": "narrative_only",
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "CR",
-        "page": 131
+        "web_marker": null,
+        "weight_kg": 0.1
       },
       {
+        "id": "detonite_cord_gw",
         "name": "Detonite cord",
-        "web_marker": "X",
-        "full_text_description": "Detonite Cord (GaW)\nDetonite cord-a long, thin cable of explosive detonite-is used mainly for mining and commercial demolition. Military sappers also commonly employ it in the field for specialized uses. Like regular detonite, detonite cord is very stable and requires a timer or manual trigger for detonation.\nDetonite cord is sold in reels, each with enough explosive to extend 6 squares. Multiple reels of detonite cord can be spliced together for larger explosions. Designed for precise explosions, detonite causes negligible damage beyond its 1-square burst radius. Detonite cord gives a +5 equip­ment bonus to a Mechanics check to determine if the explosion ignores the DR of an object the detonite is attached to.",
+        "source_book": "GW",
+        "page": 43,
+        "area_of_effect": {
+          "text_original": "1sq",
+          "shape": "burst",
+          "value_squares": 1,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "1000",
           "options": [
@@ -236,24 +252,17 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "4d6*",
         "damage_structured": {
           "text_original": "4d6*",
           "notes": "Could not fully parse damage string."
         },
+        "damage_text": "4d6*",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 1,
-        "size_category": "Tiny",
+        "full_text_description": "Detonite Cord (GaW)\nDetonite cord-a long, thin cable of explosive detonite-is used mainly for mining and commercial demolition. Military sappers also commonly employ it in the field for specialized uses. Like regular detonite, detonite cord is very stable and requires a timer or manual trigger for detonation.\nDetonite cord is sold in reels, each with enough explosive to extend 6 squares. Multiple reels of detonite cord can be spliced together for larger explosions. Designed for precise explosions, detonite causes negligible damage beyond its 1-square burst radius. Detonite cord gives a +5 equip­ment bonus to a Mechanics check to determine if the explosion ignores the DR of an object the detonite is attached to.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "1sq",
-          "shape": "burst",
-          "value_squares": 1,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "6sq reel, +5 Mechanics check to ignore DR",
         "structured_effects": [
           {
@@ -261,13 +270,22 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "GW",
-        "page": 43
+        "web_marker": null,
+        "weight_kg": 1
       },
       {
+        "id": "explosive_charge_cr",
         "name": "Explosive charge",
-        "web_marker": "w",
-        "full_text_description": "Explosive charge\nExplosive charges are highly restricted, usually only available to military or law enforcement specialists or specialized construction units. Han Solo and his strike team used explosive charges to take out the shield generator on Endor in Episode VI: Return of the Jedi.\nAn explosive charge delivers a lot of destructive energy to a specific point, making it perfect for demolishing structures or clearing rubble. It causes negligible damage beyond its 1-square burst radius. Of course, collateral damage and subsequent explosions usually accompany the use of an explosive charge.",
+        "source_book": "CR",
+        "page": 131,
+        "area_of_effect": {
+          "text_original": "1sq",
+          "shape": "burst",
+          "value_squares": 1,
+          "unit": "squares"
+        },
+        "availability": "Restricted",
+        "blast_radius_text": "1sq",
         "cost": {
           "text_original": "1500",
           "options": [
@@ -275,43 +293,46 @@
               "type": "fixed_amount",
               "value": 1500
             }
-          ],
-          "selection_logic": null
+          ]
         },
-        "damage_text": "10d6",
         "damage_structured": {
           "text_original": "10d6",
-          "dice_count": 10,
-          "die_type": 6,
-          "bonus_modifier": 0
+          "primary_damage": {
+            "text_original": "10d6",
+            "dice_count": 10,
+            "die_type": 6,
+            "bonus_modifier": 0
+          }
         },
+        "damage_text": "10d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Diminutive",
+        "full_text_description": "Explosive charge\nExplosive charges are highly restricted, usually only available to military or law enforcement specialists or specialized construction units. Han Solo and his strike team used explosive charges to take out the shield generator on Endor in Episode VI: Return of the Jedi.\nAn explosive charge delivers a lot of destructive energy to a specific point, making it perfect for demolishing structures or clearing rubble. It causes negligible damage beyond its 1-square burst radius. Of course, collateral damage and subsequent explosions usually accompany the use of an explosive charge.",
         "perception_dc_to_detect": 20,
-        "availability": "Restricted",
-        "area_of_effect": {
-          "text_original": "1sq",
-          "shape": "burst",
-          "value_squares": 1,
-          "unit": "squares"
-        },
-        "special_properties_text": null,
+        "size_category": "Diminutive",
+        "special_properties_text": "Highly restricted. Delivers destructive energy to a specific point. Mechanics check ignores DR of attached objects; good check result increases damage.",
         "structured_effects": [
           {
             "type": "narrative_only",
             "summary": "No description provided."
           }
         ],
-        "source_book": "CR",
-        "page": 131
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "flechette_mine_f",
         "name": "Flechette mine",
-        "web_marker": "w",
-        "full_text_description": "Flechette Mine (TFUCG)\nA flechette mine can cause grievous harm to anyone it damages. It contains thousands of tiny shards of metal that, when the mine is triggered, fly into the air and bury themselves deeply into any targets within the blast radius. A flechette mine is placed in or on the ground (in any square adjacent to you) and is triggered when any character, creature, droid, or vehicle enters the square in which it is placed.\nA flechette mine damages everything in a 2-square burst radius.",
+        "source_book": "F",
+        "page": 100,
+        "area_of_effect": {
+          "text_original": "2sq",
+          "shape": "burst",
+          "value_squares": 2,
+          "unit": "squares"
+        },
+        "availability": "Illegal",
         "cost": {
           "text_original": "1200",
           "options": [
@@ -322,26 +343,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "8d6",
         "damage_structured": {
           "text_original": "8d6",
           "dice_count": 8,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "8d6",
         "damage_types": [
           "Piercing"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Tiny",
+        "full_text_description": "Flechette Mine (TFUCG)\nA flechette mine can cause grievous harm to anyone it damages. It contains thousands of tiny shards of metal that, when the mine is triggered, fly into the air and bury themselves deeply into any targets within the blast radius. A flechette mine is placed in or on the ground (in any square adjacent to you) and is triggered when any character, creature, droid, or vehicle enters the square in which it is placed.\nA flechette mine damages everything in a 2-square burst radius.",
         "perception_dc_to_detect": 15,
-        "availability": "Illegal",
-        "area_of_effect": {
-          "text_original": "2sq",
-          "shape": "burst",
-          "value_squares": 2,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "triggered when any character, creature, droid, or vehicle enters the sq",
         "structured_effects": [
           {
@@ -349,13 +363,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "F",
-        "page": 100
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "ion_mine_gw",
         "name": "Ion mine",
-        "web_marker": "w",
-        "full_text_description": "Ion Mine (GaW)\nIon mines can disable droids and vehicles without causing lasting harm, allowing them to be captured or salvaged later on. An ion mine is placed in or on the ground (in any square adjacent to you) and is triggered when any droid or ground vehicle enters the mine's square.\nAn ion mine deals ion damage to everything in a 2-square burst radius.",
+        "source_book": "GW",
+        "page": 43,
+        "area_of_effect": {
+          "text_original": "2sq",
+          "shape": "burst",
+          "value_squares": 2,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "800",
           "options": [
@@ -366,26 +388,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "8d6",
         "damage_structured": {
           "text_original": "8d6",
           "dice_count": 8,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "8d6",
         "damage_types": [
           "Energy (Ion)"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Tiny",
+        "full_text_description": "Ion Mine (GaW)\nIon mines can disable droids and vehicles without causing lasting harm, allowing them to be captured or salvaged later on. An ion mine is placed in or on the ground (in any square adjacent to you) and is triggered when any droid or ground vehicle enters the mine's square.\nAn ion mine deals ion damage to everything in a 2-square burst radius.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "2sq",
-          "shape": "burst",
-          "value_squares": 2,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "triggered when any droid or ground vehicle enters the mine's square",
         "structured_effects": [
           {
@@ -393,13 +408,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "GW",
-        "page": 43
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "land_mine_f",
         "name": "Land mine",
-        "web_marker": "w",
-        "full_text_description": "Land Mine (TFUCG)\nThe standard land mine is an antipersonnel device that uses pressure sensors to determine when a target moves over it. A land mine is placed in or on the ground (in any square adjacent to you) and is triggered when any character, creature, droid, or vehicle enters the square in which it is placed. A land mine damages everything in a 1-square burst radius.",
+        "source_book": "F",
+        "page": 100,
+        "area_of_effect": {
+          "text_original": "1sq",
+          "shape": "burst",
+          "value_squares": 1,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "500",
           "options": [
@@ -410,26 +433,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "8d6",
         "damage_structured": {
           "text_original": "8d6",
           "dice_count": 8,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "8d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Tiny",
+        "full_text_description": "Land Mine (TFUCG)\nThe standard land mine is an antipersonnel device that uses pressure sensors to determine when a target moves over it. A land mine is placed in or on the ground (in any square adjacent to you) and is triggered when any character, creature, droid, or vehicle enters the square in which it is placed. A land mine damages everything in a 1-square burst radius.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "1sq",
-          "shape": "burst",
-          "value_squares": 1,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "triggered when any character, creature, droid, or vehicle enters the sq",
         "structured_effects": [
           {
@@ -437,13 +453,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "F",
-        "page": 100
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "laser_trip_mine_f",
         "name": "Laser trip mine",
-        "web_marker": "w",
-        "full_text_description": "Laser Trip mine (TFUCG)\nOften used in high-security areas or in places where security is more important than the preservation of the structure, laser trip mines use a nearly invisible laser beam that acts as a tripwire to detonate the mine. A laser trip mine is placed on the ground (in any square adjacent to you) or against any other solid surface; you then designate a single solid surface within 6 squares as the laser's terminus. The mine is triggered when any character, creature, droid, or vehicle enters a square that is part of the line between the square where the mine is placed and the square that is the laser's terminus. A laser trip mine damages everything in a 2-square burst radius.\nDesigned to take out tanks and other vehicles, limpet mines are flat and about the size of a dinner plate. One side of the mine has a handle for easy gripping, and the other side is covered with microbeads of adhesive that break on hard contact with a flat surface (such as the side of a tank), ensur­ing solid adhesion. The shaped charge of the limpet mine causes negligible damage beyond its 1-square burst radius and ignores the DR of the object or vehicle it is attached to.",
+        "source_book": "F",
+        "page": 100,
+        "area_of_effect": {
+          "text_original": "2sq",
+          "shape": "burst",
+          "value_squares": 2,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "700",
           "options": [
@@ -454,26 +478,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "6d6",
         "damage_structured": {
           "text_original": "6d6",
           "dice_count": 6,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "6d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Tiny",
+        "full_text_description": "Laser Trip mine (TFUCG)\nOften used in high-security areas or in places where security is more important than the preservation of the structure, laser trip mines use a nearly invisible laser beam that acts as a tripwire to detonate the mine. A laser trip mine is placed on the ground (in any square adjacent to you) or against any other solid surface; you then designate a single solid surface within 6 squares as the laser's terminus. The mine is triggered when any character, creature, droid, or vehicle enters a square that is part of the line between the square where the mine is placed and the square that is the laser's terminus. A laser trip mine damages everything in a 2-square burst radius.\nDesigned to take out tanks and other vehicles, limpet mines are flat and about the size of a dinner plate. One side of the mine has a handle for easy gripping, and the other side is covered with microbeads of adhesive that break on hard contact with a flat surface (such as the side of a tank), ensur­ing solid adhesion. The shaped charge of the limpet mine causes negligible damage beyond its 1-square burst radius and ignores the DR of the object or vehicle it is attached to.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "2sq",
-          "shape": "burst",
-          "value_squares": 2,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "activated on line in 6 squares",
         "structured_effects": [
           {
@@ -481,13 +498,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "F",
-        "page": 100
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "limpet_mine_gw",
         "name": "Limpet mine",
-        "web_marker": "X",
-        "full_text_description": "Limpet Mine (GaW)\nDesigned to take out tanks and other vehicles, limpet mines are flat and about the size of a dinner plate. One side of the mine has a handle for easy gripping, and the other side is covered with microbeads of adhesive that break on hard contact with a flat surface (such as the side of a tank), ensur­ing solid adhesion. The shaped charge of the limpet mine causes negligible damage beyond its 1-square burst radius and ignores the DR of the object or vehicle it is attached to.\nActivating a limpet mine is a standard action. The detonation is delayed for one round, providing opportunity to move away before the limpet mine explodes. Vehicles and droids that are Large or larger offer sufficient surface area for attaching a limpet mine, but the mines cannot be used on characters or smaller droids.",
+        "source_book": "GW",
+        "page": 43,
+        "area_of_effect": {
+          "text_original": "1sq",
+          "shape": "burst",
+          "value_squares": 1,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "300",
           "options": [
@@ -498,26 +523,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "6d6",
         "damage_structured": {
           "text_original": "6d6",
           "dice_count": 6,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "6d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Tiny",
+        "full_text_description": "Limpet Mine (GaW)\nDesigned to take out tanks and other vehicles, limpet mines are flat and about the size of a dinner plate. One side of the mine has a handle for easy gripping, and the other side is covered with microbeads of adhesive that break on hard contact with a flat surface (such as the side of a tank), ensur­ing solid adhesion. The shaped charge of the limpet mine causes negligible damage beyond its 1-square burst radius and ignores the DR of the object or vehicle it is attached to.\nActivating a limpet mine is a standard action. The detonation is delayed for one round, providing opportunity to move away before the limpet mine explodes. Vehicles and droids that are Large or larger offer sufficient surface area for attaching a limpet mine, but the mines cannot be used on characters or smaller droids.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "1sq",
-          "shape": "burst",
-          "value_squares": 1,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "adhesive, ignores DR of object attached to, activate as stan & detonation delayed 1 rnd, vehicle must be Large or larger",
         "structured_effects": [
           {
@@ -525,13 +543,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "GW",
-        "page": 43
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "manual_trigger_f",
         "name": "Manual trigger",
-        "web_marker": "X",
-        "full_text_description": "Manual Trigger (TFUCG)\nManual triggers can be added to any explosive, including mines. As with a timer, the manual trigger must be set with a Mechanics check. If the check is successful, you can detonate the explosive using the trigger as a swift action from anywhere within 30 squares of the explosive.\nA proximity mine has a wide explosive radius and uses sensors capable of detecting shifts in air pressure to detonate the mine when anyone enters its blast radius. A proximity mine is placed in or on the ground (in any square adjacent to you) or against any solid surface and is triggered when any character, creature, droid, or vehicle enters any square within a 3-square radius of the mine (after setting the mine, you have 1 round to move away before the proximity sensors become active).",
+        "source_book": "F",
+        "page": 100,
+        "area_of_effect": {
+          "text_original": null,
+          "shape": null,
+          "value_squares": null,
+          "unit": "squares"
+        },
+        "availability": "Licensed",
         "cost": {
           "text_original": "100",
           "options": [
@@ -542,21 +568,14 @@
           ],
           "selection_logic": null
         },
-        "damage_text": null,
         "damage_structured": null,
+        "damage_text": null,
         "damage_types": [
           "Untyped"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Fine",
+        "full_text_description": "Manual Trigger (TFUCG)\nManual triggers can be added to any explosive, including mines. As with a timer, the manual trigger must be set with a Mechanics check. If the check is successful, you can detonate the explosive using the trigger as a swift action from anywhere within 30 squares of the explosive.\nA proximity mine has a wide explosive radius and uses sensors capable of detecting shifts in air pressure to detonate the mine when anyone enters its blast radius. A proximity mine is placed in or on the ground (in any square adjacent to you) or against any solid surface and is triggered when any character, creature, droid, or vehicle enters any square within a 3-square radius of the mine (after setting the mine, you have 1 round to move away before the proximity sensors become active).",
         "perception_dc_to_detect": null,
-        "availability": "Licensed",
-        "area_of_effect": {
-          "text_original": null,
-          "shape": null,
-          "value_squares": null,
-          "unit": "squares"
-        },
+        "size_category": "Fine",
         "special_properties_text": "swif to activate a mine within 30sq",
         "structured_effects": [
           {
@@ -564,13 +583,21 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "F",
-        "page": 100
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "proximity_mine_f",
         "name": "Proximity mine",
-        "web_marker": "w",
-        "full_text_description": "Proximity Mine (TFUCG)\nA proximity mine has a wide explosive radius and uses sensors capable of detecting shifts in air pressure to detonate the mine when anyone enters its blast radius. A proximity mine is placed in or on the ground (in any square adjacent to you) or against any solid surface and is triggered when any character, creature, droid, or vehicle enters any square within a 3-square radius of the mine (after setting the mine, you have 1 round to move away before the proximity sensors become active).\nA proximity mine damages everything in a 3-square burst radius.",
+        "source_book": "F",
+        "page": 100,
+        "area_of_effect": {
+          "text_original": "3sq",
+          "shape": "burst",
+          "value_squares": 3,
+          "unit": "squares"
+        },
+        "availability": "Military",
         "cost": {
           "text_original": "1500",
           "options": [
@@ -581,26 +608,19 @@
           ],
           "selection_logic": null
         },
-        "damage_text": "6d6",
         "damage_structured": {
           "text_original": "6d6",
           "dice_count": 6,
           "die_type": 6,
           "bonus_modifier": 0
         },
+        "damage_text": "6d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 0.5,
-        "size_category": "Tiny",
+        "full_text_description": "Proximity Mine (TFUCG)\nA proximity mine has a wide explosive radius and uses sensors capable of detecting shifts in air pressure to detonate the mine when anyone enters its blast radius. A proximity mine is placed in or on the ground (in any square adjacent to you) or against any solid surface and is triggered when any character, creature, droid, or vehicle enters any square within a 3-square radius of the mine (after setting the mine, you have 1 round to move away before the proximity sensors become active).\nA proximity mine damages everything in a 3-square burst radius.",
         "perception_dc_to_detect": 15,
-        "availability": "Military",
-        "area_of_effect": {
-          "text_original": "3sq",
-          "shape": "burst",
-          "value_squares": 3,
-          "unit": "squares"
-        },
+        "size_category": "Tiny",
         "special_properties_text": "set off when within 3sq",
         "structured_effects": [
           {
@@ -608,13 +628,22 @@
             "summary": "Mechanics are described textually."
           }
         ],
-        "source_book": "F",
-        "page": 100
+        "web_marker": null,
+        "weight_kg": 0.5
       },
       {
+        "id": "timer_cr",
         "name": "Timer",
-        "web_marker": "w",
-        "full_text_description": null,
+        "source_book": "CR",
+        "page": 131,
+        "area_of_effect": {
+          "text_original": "-",
+          "shape": null,
+          "value_squares": null,
+          "unit": "squares"
+        },
+        "availability": "Licensed",
+        "blast_radius_text": null,
         "cost": {
           "text_original": "250",
           "options": [
@@ -622,36 +651,24 @@
               "type": "fixed_amount",
               "value": 250
             }
-          ],
-          "selection_logic": null
+          ]
         },
-        "damage_text": "-",
-        "damage_structured": {
-          "text_original": "-",
-          "notes": "Could not fully parse damage string."
-        },
-        "damage_types": [
-          "-"
-        ],
-        "weight_kg": 0.1,
-        "size_category": "Fine",
+        "damage_structured": null,
+        "damage_text": null,
+        "damage_types": [],
+        "delay_rounds_text": "Up to 1 hour",
+        "full_text_description": null,
         "perception_dc_to_detect": null,
-        "availability": "Licensed",
-        "area_of_effect": {
-          "text_original": "-",
-          "shape": null,
-          "value_squares": null,
-          "unit": "squares"
-        },
-        "special_properties_text": null,
+        "size_category": "Fine",
+        "special_properties_text": "Used to set delay for explosives. Standard timers can be set with up to an hour delay. Longer delays require specialized timers.",
         "structured_effects": [
           {
             "type": "narrative_only",
             "summary": "No description provided."
           }
         ],
-        "source_book": "CR",
-        "page": 132
+        "web_marker": null,
+        "weight_kg": 0.1
       }
     ]
   }

@@ -4,14 +4,14 @@
   "description": "Schema for general equipment items in the Star Wars SAGA Edition dataset.",
   "type": "object",
   "properties": {
-    "general_equipment_data": {
+    "equipment_general_data": {
       "type": "object",
       "properties": {
         "description": {
           "type": "string",
           "description": "Description of this data compilation."
         },
-        "general_equipment_list": {
+        "equipment_general_list": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/equipment_item"

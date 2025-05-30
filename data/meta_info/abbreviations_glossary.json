@@ -1,47 +1,49 @@
 {
-  "file_description": "A glossary of common abbreviations, shorthand, and acronyms used throughout the Star Wars SAGA Edition indexed data files. This serves as a central reference for interpreting abbreviated terms.",
-  "last_updated": "2025-05-25",
-  "categories": [
-    {
-      "category_name": "General Game Mechanics & Terms",
-      "terms": [
-        {"abbr": "AoO", "full_name": "Attack of Opportunity", "description": "A single, immediate melee attack an armed character can make against an opponent who lets their guard down in a threatened square. [cite: 1107, 1116]"},
-        {"abbr": "BAB", "full_name": "Base Attack Bonus", "description": "A character's core proficiency in making attacks, derived from class and level, added to attack rolls."},
-        {"abbr": "CL", "full_name": "Challenge Level", "description": "A rating indicating the relative difficulty of an opponent, hazard, or encounter, used for awarding Experience Points. [cite: 1236, 1702]"},
-        {"abbr": "CRB", "full_name": "Core Rulebook", "description": "The primary sourcebook for the Star Wars Saga Edition Roleplaying Game."},
-        {"abbr": "CT", "full_name": "Condition Track", "description": "A system for tracking the cumulative negative effects of damage and debilitating conditions on a character or vehicle."},
-        {"abbr": "DC", "full_name": "Difficulty Class", "description": "The target number a character must meet or exceed on a die roll (usually a d20) to succeed at a task or skill check. [cite: 367, 395]"},
-        {"abbr": "DP", "full_name": "Destiny Point", "description": "An optional resource for heroic characters, allowing them to perform extraordinary actions or alter fate, typically gained at each level. [cite: 86, 788, 793]"},
-        {"abbr": "DR", "full_name": "Damage Reduction", "description": "A value that reduces incoming damage from most attacks by a set amount. [cite: 858, 1031, 1132]"},
-        {"abbr": "FP", "full_name": "Force Point", "description": "A resource characters can spend to influence die rolls, activate certain abilities, or represent luck or the Force's intervention."},
-        {"abbr": "Fort", "full_name": "Fortitude Defense", "description": "A character's or vehicle's ability to resist poison, disease, radiation, and other physical threats. [cite: 82, 1025]"},
-        {"abbr": "GM", "full_name": "Gamemaster", "description": "The player who narrates the story, controls Non-Player Characters, and referees the rules. [cite: 26, 43]"},
-        {"abbr": "HP", "full_name": "Hit Points", "description": "A measure of a character's or vehicle's ability to withstand damage before being disabled, destroyed, or falling unconscious. [cite: 80, 1029]"},
-        {"abbr": "LOS", "full_name": "Line of Sight", "description": "A clear, unblocked path allowing a character to see a target, necessary for most attacks and many abilities."},
-        {"abbr": "LoS", "full_name": "Line of Sight", "description": "Alternative capitalization for Line of Sight."},
-        {"abbr": "NPC", "full_name": "Non-Player Character", "description": "A character controlled by the Gamemaster."},
-        {"abbr": "PC", "full_name": "Player Character", "description": "A character controlled by a player."},
-        {"abbr": "Ref", "full_name": "Reflex Defense", "description": "A character's or vehicle's ability to avoid attacks that require quick reaction, dodging, or a glancing blow. [cite: 82, 1021]"},
-        {"abbr": "SR", "full_name": "Shield Rating", "description": "A value representing the damage absorption capability of shields on vehicles or droids before hit points are affected. [cite: 1150]"},
-        {"abbr": "Will", "full_name": "Will Defense", "description": "A character's ability to resist mental influence, certain Force powers, and other attacks against willpower."},
-        {"abbr": "XP", "full_name": "Experience Points", "description": "Awarded for overcoming challenges, allowing characters to advance in level. [cite: 45, 1712]"}
-      ]
-    },
-    {
-      "category_name": "Ability Scores",
-      "terms": [
-        {"abbr": "STR", "full_name": "Strength", "description": "Measures physical power and brawn."},
-        {"abbr": "DEX", "full_name": "Dexterity", "description": "Measures agility, reflexes, and hand-eye coordination."},
-        {"abbr": "CON", "full_name": "Constitution", "description": "Measures health, stamina, and resilience. (Not applicable to Droids)."},
-        {"abbr": "INT", "full_name": "Intelligence", "description": "Measures learning ability, reasoning, and knowledge."},
-        {"abbr": "WIS", "full_name": "Wisdom", "description": "Measures willpower, common sense, perception, and intuition."},
-        {"abbr": "CHA", "full_name": "Charisma", "description": "Measures force of personality, persuasiveness, and leadership ability."}
-      ],
-      "source_note": "Primary definitions and mechanics are detailed in abilities.json and ability_system_rules.json, based on CRB Chapter 1."
-    },
-    {
-      "category_name": "Source Book Abbreviations",
-      "reference_note": "The authoritative list of source book abbreviations and their full names is maintained in 'SagaIndex/data/meta_info/source_books.json'."
-    }
-  ]
+  "abbreviations_glossary_data": {
+	  "file_description": "A glossary of common abbreviations, shorthand, and acronyms used throughout the Star Wars SAGA Edition indexed data files. This serves as a central reference for interpreting abbreviated terms.",
+	  "last_updated": "2025-05-25",
+	  "categories": [
+		{
+		  "category_name": "General Game Mechanics & Terms",
+		  "terms": [
+			{"abbr": "AoO", "full_name": "Attack of Opportunity", "description": "A single, immediate melee attack an armed character can make against an opponent who lets their guard down in a threatened square. [cite: 1107, 1116]"},
+			{"abbr": "BAB", "full_name": "Base Attack Bonus", "description": "A character's core proficiency in making attacks, derived from class and level, added to attack rolls."},
+			{"abbr": "CL", "full_name": "Challenge Level", "description": "A rating indicating the relative difficulty of an opponent, hazard, or encounter, used for awarding Experience Points. [cite: 1236, 1702]"},
+			{"abbr": "CRB", "full_name": "Core Rulebook", "description": "The primary sourcebook for the Star Wars Saga Edition Roleplaying Game."},
+			{"abbr": "CT", "full_name": "Condition Track", "description": "A system for tracking the cumulative negative effects of damage and debilitating conditions on a character or vehicle."},
+			{"abbr": "DC", "full_name": "Difficulty Class", "description": "The target number a character must meet or exceed on a die roll (usually a d20) to succeed at a task or skill check. [cite: 367, 395]"},
+			{"abbr": "DP", "full_name": "Destiny Point", "description": "An optional resource for heroic characters, allowing them to perform extraordinary actions or alter fate, typically gained at each level. [cite: 86, 788, 793]"},
+			{"abbr": "DR", "full_name": "Damage Reduction", "description": "A value that reduces incoming damage from most attacks by a set amount. [cite: 858, 1031, 1132]"},
+			{"abbr": "FP", "full_name": "Force Point", "description": "A resource characters can spend to influence die rolls, activate certain abilities, or represent luck or the Force's intervention."},
+			{"abbr": "Fort", "full_name": "Fortitude Defense", "description": "A character's or vehicle's ability to resist poison, disease, radiation, and other physical threats. [cite: 82, 1025]"},
+			{"abbr": "GM", "full_name": "Gamemaster", "description": "The player who narrates the story, controls Non-Player Characters, and referees the rules. [cite: 26, 43]"},
+			{"abbr": "HP", "full_name": "Hit Points", "description": "A measure of a character's or vehicle's ability to withstand damage before being disabled, destroyed, or falling unconscious. [cite: 80, 1029]"},
+			{"abbr": "LOS", "full_name": "Line of Sight", "description": "A clear, unblocked path allowing a character to see a target, necessary for most attacks and many abilities."},
+			{"abbr": "LoS", "full_name": "Line of Sight", "description": "Alternative capitalization for Line of Sight."},
+			{"abbr": "NPC", "full_name": "Non-Player Character", "description": "A character controlled by the Gamemaster."},
+			{"abbr": "PC", "full_name": "Player Character", "description": "A character controlled by a player."},
+			{"abbr": "Ref", "full_name": "Reflex Defense", "description": "A character's or vehicle's ability to avoid attacks that require quick reaction, dodging, or a glancing blow. [cite: 82, 1021]"},
+			{"abbr": "SR", "full_name": "Shield Rating", "description": "A value representing the damage absorption capability of shields on vehicles or droids before hit points are affected. [cite: 1150]"},
+			{"abbr": "Will", "full_name": "Will Defense", "description": "A character's ability to resist mental influence, certain Force powers, and other attacks against willpower."},
+			{"abbr": "XP", "full_name": "Experience Points", "description": "Awarded for overcoming challenges, allowing characters to advance in level. [cite: 45, 1712]"}
+		  ]
+		},
+		{
+		  "category_name": "Ability Scores",
+		  "terms": [
+			{"abbr": "STR", "full_name": "Strength", "description": "Measures physical power and brawn."},
+			{"abbr": "DEX", "full_name": "Dexterity", "description": "Measures agility, reflexes, and hand-eye coordination."},
+			{"abbr": "CON", "full_name": "Constitution", "description": "Measures health, stamina, and resilience. (Not applicable to Droids)."},
+			{"abbr": "INT", "full_name": "Intelligence", "description": "Measures learning ability, reasoning, and knowledge."},
+			{"abbr": "WIS", "full_name": "Wisdom", "description": "Measures willpower, common sense, perception, and intuition."},
+			{"abbr": "CHA", "full_name": "Charisma", "description": "Measures force of personality, persuasiveness, and leadership ability."}
+		  ],
+		  "source_note": "Primary definitions and mechanics are detailed in abilities.json and ability_system_rules.json, based on CRB Chapter 1."
+		},
+		{
+		  "category_name": "Source Book Abbreviations",
+		  "reference_note": "The authoritative list of source book abbreviations and their full names is maintained in 'SagaIndex/data/meta_info/source_books.json'."
+		}
+	  ]
+  }
 }

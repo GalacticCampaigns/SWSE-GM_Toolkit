@@ -1,0 +1,254 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Game Definitions Document",
+  "description": "Schema for the structured game definitions document, primarily from the Core Rulebook.",
+  "type": "object",
+  "properties": {
+    "game_definitions_data": {
+      "type": "object",
+      "description": "Wrapper for the game definitions data.",
+      "properties": {
+        "file_description": {
+          "type": "string",
+          "description": "Overall description of the content of this file."
+        },
+        "source_book_reference_default": {
+          "type": "string",
+          "description": "Default source book abbreviation if not specified per section (e.g., 'CR')."
+        },
+        "core_game_mechanic": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "page_reference"]
+        },
+        "dice_notation": {
+          "type": "object",
+          "properties": {
+            "explanation": {"type": "string"},
+            "common_dice_types": {"type": "array", "items": {"type": "string"}},
+            "page_reference": {"type": "string"}
+          },
+          "required": ["explanation", "common_dice_types", "page_reference"]
+        },
+        "eras_of_play_overview": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "supported_eras_detailed_in_crb": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string", "description": "Optional unique ID for the era entry."},
+                  "name": {"type": "string"},
+                  "timeframe_approximate": {"type": "string"},
+                  "summary": {"type": "string"},
+                  "page_reference": {"type": "string"}
+                },
+                "required": ["name", "timeframe_approximate", "summary", "page_reference"]
+              }
+            },
+            "other_eras_mention": {"type": "string"},
+            "general_page_reference": {"type": "string"}
+          },
+          "required": ["description", "supported_eras_detailed_in_crb", "general_page_reference"]
+        },
+        "action_types_overview": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "types": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string", "description": "Optional unique ID for the action type entry."},
+                  "name": {"type": "string"},
+                  "summary": {"type": "string"}
+                },
+                "required": ["name", "summary"]
+              }
+            },
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "types", "page_reference"]
+        },
+        "condition_track_overview": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "progression_note": {"type": "string"},
+            "steps_summary": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string", "description": "Optional unique ID for the condition step entry."},
+                  "name": {"type": "string"},
+                  "effect_summary": {"type": "string"}
+                },
+                "required": ["name", "effect_summary"]
+              }
+            },
+            "persistent_condition_note": {"type": "string"},
+            "recovering_steps": {"type": "string"},
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "steps_summary", "recovering_steps", "page_reference"]
+        },
+        "force_points_overview": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "gaining_force_points": {"type": "string"},
+            "general_uses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string", "description": "Optional unique ID for the Force Point use entry."},
+                  "use": {"type": "string"},
+                  "details": {"type": "string"}
+                },
+                "required": ["use", "details"]
+              }
+            },
+            "spending_limit_per_round": {"type": "string"},
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "gaining_force_points", "general_uses", "page_reference"]
+        },
+        "destiny_points_overview": {
+          "type": "object",
+          "properties": {
+            "optional_rule_note": {"type": "string"},
+            "description": {"type": "string"},
+            "gaining_destiny_points": {"type": "string"},
+            "spending_action": {"type": "string"},
+            "general_uses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string", "description": "Optional unique ID for the Destiny Point use entry."},
+                  "use": {"type": "string"},
+                  "details": {"type": "string"}
+                },
+                "required": ["use", "details"]
+              }
+            },
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "gaining_destiny_points", "general_uses", "page_reference"]
+        },
+        "dark_side_score_overview": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "starting_value": {"type": "integer"},
+            "maximum_value_formula": {"type": "string"},
+            "increasing_score": {"type": "string"},
+            "falling_to_the_dark_side": {"type": "string"},
+            "atoning": {"type": "string"},
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "starting_value", "falling_to_the_dark_side", "page_reference"]
+        },
+        "general_skill_dc_benchmarks": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "benchmarks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string", "description": "Optional unique ID for the DC benchmark entry."},
+                  "dc_value": {"type": "integer"},
+                  "difficulty_description": {"type": "string"}
+                },
+                "required": ["dc_value", "difficulty_description"]
+              }
+            },
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "benchmarks", "page_reference"]
+        },
+        "common_languages_list_examples": {
+          "type": "object",
+          "properties": {
+            "description": {"type": "string"},
+            "languages": {"type": "array", "items": {"type": "string"}},
+            "footnote": {"type": "string"},
+            "page_reference": {"type": "string"}
+          },
+          "required": ["description", "languages", "page_reference"]
+        },
+        "general_game_terms_definitions": {
+          "type": "object",
+          "description": "Specific key game term definitions.",
+          "properties": {
+            "character_level": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "string", "default": "character_level_cr", "description": "Unique ID for this term."},
+                "definition": {"type": "string"},
+                "page_reference": {"type": "string"}
+              },
+              "required": ["definition", "page_reference"]
+            },
+            "class_level": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "string", "default": "class_level_cr", "description": "Unique ID for this term."},
+                "definition": {"type": "string"},
+                "page_reference": {"type": "string"}
+              },
+              "required": ["definition", "page_reference"]
+            },
+            "heroic_level": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "string", "default": "heroic_level_cr", "description": "Unique ID for this term."},
+                "definition": {"type": "string"},
+                "page_reference": {"type": "string"}
+              },
+              "required": ["definition", "page_reference"]
+            }
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string", "description": "Unique ID for this term."},
+                "definition": {"type": "string"},
+                "page_reference": {"type": "string"},
+                "category": {"type": ["string", "null"]},
+                "related_terms": {"type": ["array", "null"], "items": {"type": "string"}}
+              },
+              "required": ["id", "definition", "page_reference"]
+          }
+        }
+      },
+      "required": [
+        "file_description",
+        "core_game_mechanic",
+        "dice_notation",
+        "eras_of_play_overview",
+        "action_types_overview",
+        "condition_track_overview",
+        "force_points_overview",
+        "destiny_points_overview",
+        "dark_side_score_overview",
+        "general_skill_dc_benchmarks",
+        "common_languages_list_examples",
+        "general_game_terms_definitions"
+      ]
+    },
+      "required": [
+        "game_definitions_data"
+      ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Talent Rules",
+  "description": "Schema for the general rules of acquiring and using Talents in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "talent_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"source_book_reference": {
+		  "type": "string",
+		  "description": "Abbreviation for the primary source book."
+		},
+		"page_reference_general": {
+		  "type": "string",
+		  "description": "General page references in the source book for talent rules."
+		},
+		"acquiring_talents": {
+		  "type": "object",
+		  "description": "Rules on how characters acquire talents.",
+		  "properties": {
+			"heroic_class_progression": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string",
+				  "description": "How heroic classes grant talents."
+				},
+				"example_levels_per_class": {
+				  "type": "string",
+				  "description": "Typical class levels at which talents are gained."
+				},
+				"source_page_reference_example_jedi": {
+				  "type": "string",
+				  "description": "Example page reference for Jedi talent progression."
+				}
+			  },
+			  "required": [
+				"description",
+				"example_levels_per_class",
+				"source_page_reference_example_jedi"
+			  ]
+			},
+			"prestige_class_progression": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string",
+				  "description": "How prestige classes grant talents."
+				},
+				"source_page_reference_example": {
+				  "type": "string",
+				  "description": "Example page reference for prestige class talents."
+				}
+			  },
+			  "required": [
+				"description",
+				"source_page_reference_example"
+			  ]
+			},
+			"force_sensitivity_interaction": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string",
+				  "description": "How Force Sensitivity feat interacts with talent selection."
+				},
+				"source_page_reference_force_sensitivity_feat": {
+				  "type": "string",
+				  "description": "Page reference for the Force Sensitivity feat."
+				}
+			  },
+			  "required": [
+				"description",
+				"source_page_reference_force_sensitivity_feat"
+			  ]
+			}
+		  },
+		  "required": [
+			"heroic_class_progression",
+			"prestige_class_progression",
+			"force_sensitivity_interaction"
+		  ]
+		},
+		"prerequisites": {
+		  "type": "object",
+		  "description": "Rules concerning talent prerequisites.",
+		  "properties": {
+			"general_rule": {
+			  "type": "string",
+			  "description": "The basic rule for meeting talent prerequisites."
+			},
+			"timing_of_acquisition": {
+			  "type": "string",
+			  "description": "Rule about gaining talents and prerequisites at the same level."
+			},
+			"source_page_reference": {
+			  "type": "string",
+			  "description": "Page reference for prerequisite rules."
+			}
+		  },
+		  "required": [
+			"general_rule",
+			"timing_of_acquisition",
+			"source_page_reference"
+		  ]
+		},
+		"talent_trees": {
+		  "type": "object",
+		  "description": "Information about talent trees.",
+		  "properties": {
+			"general_concept": {
+			  "type": "string",
+			  "description": "Explanation of what talent trees are."
+			},
+			"force_talent_accessibility_note": {
+			  "type": "string",
+			  "description": "Note on accessing Force talent trees."
+			},
+			"prerequisite_within_tree_note": {
+			  "type": "string",
+			  "description": "Note on prerequisites within the same talent tree."
+			}
+		  },
+		  "required": [
+			"general_concept",
+			"force_talent_accessibility_note",
+			"prerequisite_within_tree_note"
+		  ]
+		},
+		"multiclassing_note": {
+		  "type": "string",
+		  "description": "How multiclassing affects talent selection."
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference",
+		"page_reference_general",
+		"acquiring_talents",
+		"prerequisites",
+		"talent_trees",
+		"multiclassing_note"
+	  ]
+	},
+  "required": [
+    "talents_rules_data"
+  ]
+}

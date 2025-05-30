@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Eras Overview",
+  "description": "Schema for defining major Star Wars eras for lore and campaign context in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "eras_overview_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"default_source_book_for_core_eras": {
+		  "type": "string",
+		  "description": "Default source book abbreviation for core era information."
+		},
+		"eras": {
+		  "type": "array",
+		  "description": "A list of major Star Wars eras.",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "era_id": {
+				"type": "string",
+				"description": "A unique identifier for the era (e.g., 'rise_of_the_empire')."
+			  },
+			  "name": {
+				"type": "string",
+				"description": "The common name of the era (e.g., 'The Rise of the Empire Era')."
+			  },
+			  "timeframe_approximate": {
+				"type": "string",
+				"description": "Approximate timeframe of the era, including BBY/ABY notation."
+			  },
+			  "primary_summary": {
+				"type": "object",
+				"properties": {
+				  "source_book": {
+					"type": "string",
+					"description": "Source book for this summary."
+				  },
+				  "page_reference": {
+					"type": "string",
+					"description": "Page reference in the source book."
+				  },
+				  "text": {
+					"type": "string",
+					"description": "The main summary text for the era."
+				  }
+				},
+				"required": [
+				  "source_book",
+				  "page_reference",
+				  "text"
+				]
+			  },
+			  "lore_details": {
+				"type": "array",
+				"description": "Specific lore details about the era.",
+				"items": {
+				  "type": "object",
+				  "properties": {
+					"aspect": {
+					  "type": "string",
+					  "description": "The aspect of lore being described (e.g., 'Political Climate', 'Jedi Order')."
+					},
+					"detail": {
+					  "type": "string",
+					  "description": "The detailed information about this aspect."
+					},
+					"source_book": {
+					  "type": "string",
+					  "description": "Source book for this detail."
+					},
+					"page_reference": {
+					  "type": "string",
+					  "description": "Page reference for this detail."
+					}
+				  },
+				  "required": [
+					"aspect",
+					"detail",
+					"source_book",
+					"page_reference"
+				  ]
+				}
+			  },
+			  "additional_source_references": {
+				"type": "array",
+				"description": "Other source book references for this era.",
+				"items": {
+				  "type": "object",
+				  "properties": {
+					"source_book": {
+					  "type": "string"
+					},
+					"page_reference": {
+					  "type": "string"
+					}
+				  },
+				  "required": [
+					"source_book",
+					"page_reference"
+				  ]
+				}
+			  }
+			},
+			"required": [
+			  "era_id",
+			  "name",
+			  "timeframe_approximate",
+			  "primary_summary",
+			  "lore_details"
+			]
+		  }
+		}
+	  },
+	  "required": [
+		"file_description",
+		"default_source_book_for_core_eras",
+		"eras"
+	  ]
+	}
+  },
+  "required": [
+    "eras_overview_data"
+  ]
+}

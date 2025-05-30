@@ -1,0 +1,2823 @@
+[
+  {
+    "target_file_key": "melee_weapons",
+    "action": "delete",
+    "identifier": {"name": "Coufee", "source_book": "CR"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Cesta", "source_book": "CR"},
+    "payload": {
+      "weapon_id": "cesta_cr",
+      "reach_or_thrown_info": "T",
+      "special_properties_text": "Gungans treat as simple weapon instead of exotic. Can be used to hurl energy balls (see Ranged Weapons section for energy ball statistics).",
+      "parsed_properties": [
+        {"type": "narrative_property", "description": "Gungans treat as simple weapon instead of exotic."},
+        {"type": "narrative_property", "description": "Can be used to hurl energy balls (see Ranged Weapons section for energy ball statistics)."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "add",
+    "payload": {
+      "weapon_id": "force_pike_cr",
+      "name": "Force Pike",
+      "cost": {"text_original": "500", "options": [{"type": "fixed_amount", "value": 500}], "selection_logic": null},
+      "full_text_description": "Force pikes are 1-meter-long poles topped with power tips. A two-setting power dial located near the bottom of the pike allows the user to set the weapon to “lethal” or “stun.” Although primarily a vibro weapon, the force pike also delivers an electrical shock through its tip, dealing both piercing and energy damage. A force pike requires two energy cells to operate.",
+      "weapon_category": "Advanced Melee Weapons",
+      "size_category": "Medium",
+      "damage_text": "2d8",
+      "damage_structured": {"text_original": "2d8", "primary_damage": {"text_original": "2d8", "dice_count": 2, "die_type": 8, "bonus_modifier": 0}, "secondary_damage": null, "notes": null},
+      "stun_damage_text": "2d8",
+      "stun_damage_structured": {"text_original": "2d8", "primary_damage": {"text_original": "2d8", "dice_count": 2, "die_type": 8, "bonus_modifier": 0}, "secondary_damage": null, "notes": null},
+      "weight_kg": 2,
+      "damage_types": ["Piercing", "Energy"],
+      "availability": "Restricted",
+      "reach_or_thrown_info": null,
+      "extra_cost_note": null,
+      "build_dc_note": null,
+      "special_properties_text": null,
+      "parsed_properties": [],
+      "used_by_text": null,
+      "source_book": "CR",
+      "page": 122
+    }
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Amphistaff, Spear form", "source_book": "CR"},
+    "payload": {"weapon_id": "amphistaff_spear_form_cr", "availability": "Rare"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Amphistaff, Whip form", "source_book": "CR"},
+    "payload": {"weapon_id": "amphistaff_whip_form_cr", "availability": "Rare"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Amphistaff, Quarterstaff form", "source_book": "CR"},
+    "payload": {"weapon_id": "amphistaff_quarterstaff_form_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Anakin Solo's Lightsaber", "source_book": "L"},
+    "payload": {"weapon_id": "anakin_solos_lightsaber_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Arg'garok", "source_book": "K"},
+    "payload": {"weapon_id": "arggarok_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Atlatl", "source_book": "CR"},
+    "payload": {"weapon_id": "atlatl_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Axe", "source_book": "R"},
+    "payload": {"weapon_id": "axe_r"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Axe, small", "source_book": "W"},
+    "payload": {"weapon_id": "axe_small_w"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Bayonet", "source_book": "CR"},
+    "payload": {"weapon_id": "bayonet_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Blastsword", "source_book": "UR"},
+    "payload": {"weapon_id": "blastsword_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Ceremonial gloves, medium", "source_book": "UR"},
+    "payload": {"weapon_id": "ceremonial_gloves_medium_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Ceremonial gloves, small", "source_book": "UR"},
+    "payload": {"weapon_id": "ceremonial_gloves_small_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Club, large", "source_book": "D7"},
+    "payload": {"weapon_id": "club_large_d7"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Club/baton", "source_book": "CR"},
+    "payload": {"weapon_id": "club_baton_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Combat gloves, medium", "source_book": "CR"},
+    "payload": {"weapon_id": "combat_gloves_medium_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Combat gloves, small", "source_book": "CR"},
+    "payload": {"weapon_id": "combat_gloves_small_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Contact stunner", "source_book": "UR"},
+    "payload": {"weapon_id": "contact_stunner_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Darkstick", "source_book": "GW"},
+    "payload": {"weapon_id": "darkstick_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Datadagger", "source_book": "T"},
+    "payload": {"weapon_id": "datadagger_t"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Dire sword", "source_book": "K"},
+    "payload": {"weapon_id": "dire_sword_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Double-bladed sword", "source_book": "K"},
+    "payload": {"weapon_id": "double-bladed_sword_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Electropole", "source_book": "UR"},
+    "payload": {"weapon_id": "electropole_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Electroshock probe", "source_book": "CR"},
+    "payload": {"weapon_id": "electroshock_probe_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Electrostaff", "source_book": "CR"},
+    "payload": {"weapon_id": "electrostaff_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Emperor Palpatine's Lightsaber", "source_book": "L"},
+    "payload": {"weapon_id": "emperor_palpatines_lightsaber_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Energy Lance", "source_book": "R"},
+    "payload": {"weapon_id": "energy_lance_r"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Energy Lance", "source_book": "C", "page": 193},
+    "payload": {"weapon_id": "energy_lance_c_193"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Fira sword", "source_book": "W"},
+    "payload": {"weapon_id": "fira_sword_w"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Fire blade", "source_book": "GW"},
+    "payload": {"weapon_id": "fire_blade_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Freedon Nadd's Short Lightsaber", "source_book": "W"},
+    "payload": {"weapon_id": "freedon_nadds_short_lightsaber_w"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Fusion cutter", "source_book": "CR"},
+    "payload": {"weapon_id": "fusion_cutter_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Gaderffii", "source_book": "R"},
+    "payload": {"weapon_id": "gaderffii_r"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Gamorrean warmace", "source_book": "D2"},
+    "payload": {"weapon_id": "gamorrean_warmace_d2"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Garrote", "source_book": "C"},
+    "payload": {"weapon_id": "garrote_c"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Knife", "source_book": "CR"},
+    "payload": {"weapon_id": "knife_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Laser welder", "source_book": "CR"},
+    "payload": {"weapon_id": "laser_welder_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightfoil", "source_book": "K"},
+    "payload": {"weapon_id": "lightfoil_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightfoil, archaic", "source_book": "J"},
+    "payload": {"weapon_id": "lightfoil_archaic_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightfoil, modern", "source_book": "J"},
+    "payload": {"weapon_id": "lightfoil_modern_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber", "source_book": "CR"},
+    "payload": {"weapon_id": "lightsaber_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber pike", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_pike_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber pike", "source_book": "F"},
+    "payload": {"weapon_id": "lightsaber_pike_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, archaic", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_archaic_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, crossguard", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_crossguard_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, double", "source_book": "CR"},
+    "payload": {"weapon_id": "lightsaber_double_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, dual-phase", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_dual-phase_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, dueling", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_dueling_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, great", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_great_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, long-handle", "source_book": "L"},
+    "payload": {"weapon_id": "lightsaber_long-handle_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, long-handle", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_long-handle_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, retrosaber", "source_book": "J"},
+    "payload": {"weapon_id": "lightsaber_retrosaber_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightsaber, short", "source_book": "CR"},
+    "payload": {"weapon_id": "lightsaber_short_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightwhip", "source_book": "J"},
+    "payload": {"weapon_id": "lightwhip_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Lightwhip", "source_book": "T"},
+    "payload": {"weapon_id": "lightwhip_t"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Ludo Kressh's War Sword", "source_book": "W"},
+    "payload": {"weapon_id": "ludo_kresshs_war_sword_w"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Luke Skywalker's Lightsaber", "source_book": "L"},
+    "payload": {"weapon_id": "luke_skywalkers_lightsaber_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Mace", "source_book": "CR"},
+    "payload": {"weapon_id": "mace_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Machete", "source_book": "GI"},
+    "payload": {"weapon_id": "machete_gi"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Mythosaur Axe", "source_book": "K"},
+    "payload": {"weapon_id": "mythosaur_axe_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Mythosaur Axe (modernized)", "source_book": "K"},
+    "payload": {"weapon_id": "mythosaur_axe_modernized_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Natural weapon bio-implant", "source_book": "L"},
+    "payload": {"weapon_id": "natural_weapon_bio-implant_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Neuronic whip", "source_book": "F"},
+    "payload": {"weapon_id": "neuronic_whip_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Power Lance", "source_book": "R"},
+    "payload": {"weapon_id": "power_lance_r"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Power hammer", "source_book": "F"},
+    "payload": {"weapon_id": "power_hammer_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Power prybar", "source_book": "CR"},
+    "payload": {"weapon_id": "power_prybar_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Quarterstaff", "source_book": "CR"},
+    "payload": {"weapon_id": "quarterstaff_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Rapier", "source_book": "SGD"},
+    "payload": {"weapon_id": "rapier_sgd"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Riot Shield", "source_book": "T"},
+    "payload": {"weapon_id": "riot_shield_t"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Ryyk blade", "source_book": "F"},
+    "payload": {"weapon_id": "ryyk_blade_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "San-ni staff", "source_book": "J"},
+    "payload": {"weapon_id": "san-ni_staff_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shock stick", "source_book": "GW"},
+    "payload": {"weapon_id": "shock_stick_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shock whip", "source_book": "L"},
+    "payload": {"weapon_id": "shock_whip_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shockboxing gloves (for Med. chars.)", "source_book": "GW"},
+    "payload": {"weapon_id": "shockboxing_gloves_for_med_chars_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shockboxing gloves (for Small chars.)", "source_book": "GW"},
+    "payload": {"weapon_id": "shockboxing_gloves_for_small_chars_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shockstaff", "source_book": "K"},
+    "payload": {"weapon_id": "shockstaff_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Short sword", "source_book": "K"},
+    "payload": {"weapon_id": "short_sword_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shoto, guard", "source_book": "J"},
+    "payload": {"weapon_id": "shoto_guard_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shoto, guard", "source_book": "F"},
+    "payload": {"weapon_id": "shoto_guard_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Shyarn", "source_book": "K"},
+    "payload": {"weapon_id": "shyarn_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Sith Sword", "source_book": "T"},
+    "payload": {"weapon_id": "sith_sword_t"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Sith Tremor Sword", "source_book": "K"},
+    "payload": {"weapon_id": "sith_tremor_sword_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Sith War Sword", "source_book": "K"},
+    "payload": {"weapon_id": "sith_war_sword_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Snap Baton", "source_book": "C"},
+    "payload": {"weapon_id": "snap_baton_c"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Sonic welder", "source_book": "CR"},
+    "payload": {"weapon_id": "sonic_welder_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Spear", "source_book": "CR"},
+    "payload": {"weapon_id": "spear_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Spiked flail", "source_book": "C"},
+    "payload": {"weapon_id": "spiked_flail_c"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Static pike", "source_book": "GW"},
+    "payload": {"weapon_id": "static_pike_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Stun Baton", "source_book": "CR"},
+    "payload": {"weapon_id": "stun_baton_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Stun Bayonet", "source_book": "W"},
+    "payload": {"weapon_id": "stun_bayonet_w"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Stunning Gauntlet", "source_book": "K", "size_category": "Medium"},
+    "payload": {"weapon_id": "stunning_gauntlet_medium_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Stunning Gauntlet", "source_book": "K", "size_category": "Small"},
+    "payload": {"weapon_id": "stunning_gauntlet_small_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Survival knife", "source_book": "UR"},
+    "payload": {"weapon_id": "survival_knife_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Tehk'la blade", "source_book": "L"},
+    "payload": {"weapon_id": "tehkla_blade_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Trident", "source_book": "W"},
+    "payload": {"weapon_id": "trident_w"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Unarmed, Medium character", "source_book": "GW"},
+    "payload": {"weapon_id": "unarmed_medium_character_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Unarmed, Small character", "source_book": "GW"},
+    "payload": {"weapon_id": "unarmed_small_character_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibro-ax", "source_book": "CR"},
+    "payload": {"weapon_id": "vibro-ax_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibro-saw", "source_book": "UR"},
+    "payload": {"weapon_id": "vibro-saw_ur"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibrobayonet", "source_book": "CR"},
+    "payload": {"weapon_id": "vibrobayonet_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibroblade", "source_book": "CR"},
+    "payload": {"weapon_id": "vibroblade_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibroblade, dire", "source_book": "K"},
+    "payload": {"weapon_id": "vibroblade_dire_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibroblade, double", "source_book": "F"},
+    "payload": {"weapon_id": "vibroblade_double_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibrodagger", "source_book": "CR"},
+    "payload": {"weapon_id": "vibrodagger_cr"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibroknucklers", "source_book": "C"},
+    "payload": {"weapon_id": "vibroknucklers_c"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibrolance", "source_book": "GW"},
+    "payload": {"weapon_id": "vibrolance_gw"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibrorapier", "source_book": "C"},
+    "payload": {"weapon_id": "vibrorapier_c"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Vibrosword", "source_book": "F"},
+    "payload": {"weapon_id": "vibrosword_f"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Wan-shen", "source_book": "J"},
+    "payload": {"weapon_id": "wan-shen_j"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "War sword", "source_book": "K"},
+    "payload": {"weapon_id": "war_sword_k"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Yuuzhan Vong Biotech", "source_book": "L"},
+    "payload": {"weapon_id": "yuuzhan_vong_biotech_l"}
+  },
+  {
+    "target_file_key": "melee_weapons",
+    "action": "update",
+    "identifier": {"name": "Zhaboka", "source_book": "K"},
+    "payload": {"weapon_id": "zhaboka_k"}
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Bowcaster", "source_book": "CR"},
+    "payload": {
+      "id": "bowcaster_cr",
+      "page": 127,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 60,
+      "range_medium_squares": 150,
+      "range_long_squares": 300,
+      "accuracy_note": "A",
+      "special_properties_text": "Wookiees treat bowcasters as rifles instead of exotic weapons. Accurate: This weapon takes no penalty when firing at targets at short range.",
+      "parsed_properties": [
+        {"type": "narrative_property", "description": "Wookiees treat bowcasters as rifles instead of exotic weapons."},
+        {"type": "narrative_property", "description": "Accurate: This weapon takes no penalty when firing at targets at short range."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Energy ball", "source_book": "CR"},
+    "payload": {
+      "id": "energy_ball_cr",
+      "page": 126,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 40,
+      "range_medium_squares": 60,
+      "range_long_squares": 80
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Flamethrower", "source_book": "CR"},
+    "payload": {
+      "id": "flamethrower_cr",
+      "page": 127,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": null,
+      "range_medium_squares": null,
+      "range_long_squares": null,
+      "area_effect_text": "6-sq cone",
+      "weapon_category": "Exotic Ranged Weapons"
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Grenade launcher", "source_book": "CR"},
+    "payload": {
+      "id": "grenade_launcher_cr",
+      "page": 128,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": null,
+      "accuracy_note": "I",
+      "special_properties_text": "Cannot hurl thermal detonators. Can be mounted on a rifle. Inaccurate: This weapon cannot fire at targets at long range.",
+      "parsed_properties": [
+        {"type": "narrative_property", "description": "Cannot hurl thermal detonators."},
+        {"type": "narrative_property", "description": "Can be mounted on a rifle."},
+        {"type": "narrative_property", "description": "Inaccurate: This weapon cannot fire at targets at long range."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Grenade, frag", "source_book": "CR"},
+    "payload": {
+      "id": "grenade_frag_cr",
+      "page": 128,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": 12
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Grenade, ion", "source_book": "CR"},
+    "payload": {
+      "id": "grenade_ion_cr",
+      "page": 128,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": 12
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Grenade, stun", "source_book": "CR"},
+    "payload": {
+      "id": "grenade_stun_cr",
+      "page": 128,
+      "damage_text": null,
+      "damage_structured": null,
+      "stun_damage_text": "4d6",
+      "stun_damage_structured": {"text_original": "4d6", "primary_damage": {"text_original":"4d6", "dice_count":4, "die_type":6, "bonus_modifier":0}},
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": 12
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Ion pistol", "source_book": "CR"},
+    "payload": {
+      "id": "ion_pistol_cr",
+      "page": 128,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 40,
+      "range_medium_squares": 60,
+      "range_long_squares": 80
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Ion rifle", "source_book": "CR"},
+    "payload": {
+      "id": "ion_rifle_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 60,
+      "range_medium_squares": 150,
+      "range_long_squares": 300
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Missile launcher", "source_book": "CR"},
+    "payload": {
+      "id": "missile_launcher_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 100,
+      "range_medium_squares": 250,
+      "range_long_squares": 500
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Net", "source_book": "CR"},
+    "payload": {
+      "id": "net_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": null,
+      "accuracy_note": "I",
+      "special_properties_text": "Allows grab or grapple attack at range. Inaccurate: This weapon cannot fire at targets at long range.",
+      "parsed_properties": [
+        {"type": "narrative_property", "description": "Allows grab or grapple attack at range."},
+        {"type": "narrative_property", "description": "Inaccurate: This weapon cannot fire at targets at long range."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Sling", "source_book": "CR"},
+    "payload": {
+      "id": "sling_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 40,
+      "range_medium_squares": 60,
+      "range_long_squares": 80
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Slugthrower pistol", "source_book": "CR"},
+    "payload": {
+      "id": "slugthrower_pistol_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 40,
+      "range_medium_squares": 60,
+      "range_long_squares": 80
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Slugthrower rifle", "source_book": "CR"},
+    "payload": {
+      "id": "slugthrower_rifle_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 60,
+      "range_medium_squares": 150,
+      "range_long_squares": 300
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Thermal detonator", "source_book": "CR"},
+    "payload": {
+      "id": "thermal_detonator_cr",
+      "page": 129,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": null,
+      "accuracy_note": "I",
+      "special_properties_text": "Timer can be set from 6 seconds (1 round) to 18 seconds (3 rounds). Inaccurate: This weapon cannot fire at targets at long range.",
+      "parsed_properties": [
+        {"type": "narrative_property", "description": "Timer can be set from 6 seconds (1 round) to 18 seconds (3 rounds)."},
+        {"type": "narrative_property", "description": "Inaccurate: This weapon cannot fire at targets at long range."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "ranged_weapons",
+    "action": "update",
+    "identifier": {"name": "Whipcord (Boba Fett's)", "source_book": "CR"},
+    "payload": {
+      "id": "whipcord_boba_fetts_cr",
+      "page": 270,
+      "stun_damage_text": null,
+      "stun_damage_structured": null,
+      "range_short_squares": 8,
+      "range_medium_squares": 10,
+      "range_long_squares": 12,
+      "special_properties_text": "Allows grab or grapple attack at range. From Boba Fett's stat block (CRB p.271, text file p.272)",
+      "parsed_properties": [
+        {"type": "narrative_property", "description": "Allows grab or grapple attack at range."},
+        {"type": "narrative_property", "description": "From Boba Fett's stat block (CRB p.271, text file p.272)"}
+      ]
+    }
+  },
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Ascension gun","source_book":"GW"},"payload":{"id":"ascension_gun_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Aurial blaster","source_book":"K"},"payload":{"id":"aurial_blaster_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Bendak Starkiller's Heavy Blaster Pistol","source_book":"K"},"payload":{"id":"bendak_starkillers_heavy_blaster_pistol_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Black-powder pistol","source_book":"UR"},"payload":{"id":"black-powder_pistol_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"BlasTech 500 \"ESPO\" Riot Gun","source_book":"C"},"payload":{"id":"blastech_500_espo_riot_gun_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"BlasTech 500 Riot Gun","source_book":"R"},"payload":{"id":"blastech_500_riot_gun_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"BlasTech DH-23","source_book":"C"},"payload":{"id":"blastech_dh-23_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"BlasTech DLT-20A","source_book":"C"},"payload":{"id":"blastech_dlt-20a_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"BlasTech DT-12","source_book":"C"},"payload":{"id":"blastech_dt-12_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blast Cannon, CR-1","source_book":"F"},"payload":{"id":"blast_cannon_cr-1_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster cannon, heavy","source_book":"L"},"payload":{"id":"blaster_cannon_heavy_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster cannon, rotary","source_book":"GW"},"payload":{"id":"blaster_cannon_rotary_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster carbine, double-barreled","source_book":"L"},"payload":{"id":"blaster_carbine_double-barreled_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster carbine, hunting","source_book":"L"},"payload":{"id":"blaster_carbine_hunting_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster carbine, repeating","source_book":"K"},"payload":{"id":"blaster_carbine_repeating_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster carbine, sporting","source_book":"L"},"payload":{"id":"blaster_carbine_sporting_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster pistol, bluebolt","source_book":"L"},"payload":{"id":"blaster_pistol_bluebolt_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster pistol, sidearm","source_book":"GW"},"payload":{"id":"blaster_pistol_sidearm_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster pistol, snap shot","source_book":"L"},"payload":{"id":"blaster_pistol_snap_shot_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, ARC-9965","source_book":"L"},"payload":{"id":"blaster_rifle_arc-9965_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, SG-4","source_book":"R"},"payload":{"id":"blaster_rifle_sg-4_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, SG-4 (miniature harpoons)","source_book":"R"},"payload":{"id":"blaster_rifle_sg-4_miniature_harpoons_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, assault","source_book":"K"},"payload":{"id":"blaster_rifle_assault_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, heavy assault","source_book":"L"},"payload":{"id":"blaster_rifle_heavy_assault_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, heavy variable","source_book":"GW"},"payload":{"id":"blaster_rifle_heavy_variable_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, sniper","source_book":"SV"},"payload":{"id":"blaster_rifle_sniper_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, targeting","source_book":"UR"},"payload":{"id":"blaster_rifle_targeting_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster rifle, variable","source_book":"GW"},"payload":{"id":"blaster_rifle_variable_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster, Wrist","source_book":"GI"},"payload":{"id":"blaster_wrist_gi"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Blaster, subrepeating","source_book":"SV"},"payload":{"id":"blaster_subrepeating_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Bryar Pistol","source_book":"F"},"payload":{"id":"bryar_pistol_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Bryar Rifle","source_book":"F"},"payload":{"id":"bryar_rifle_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Carbonite rifle","source_book":"K"},"payload":{"id":"carbonite_rifle_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Chewbacca's Bowcaster","source_book":"L"},"payload":{"id":"chewbaccas_bowcaster_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Commando special rifle","source_book":"K"},"payload":{"id":"commando_special_rifle_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Concussion rifle","source_book":"UR"},"payload":{"id":"concussion_rifle_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Crossbow","source_book":"UR"},"payload":{"id":"crossbow_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Crossbow, repeating","source_book":"GW"},"payload":{"id":"crossbow_repeating_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Czerka Adjudicator","source_book":"C"},"payload":{"id":"czerka_adjudicator_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Czerka Adventurer","source_book":"C"},"payload":{"id":"czerka_adventurer_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"DC-19 \"Stealth\" Carbine","source_book":"D4"},"payload":{"id":"dc-19_stealth_carbine_d4"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"DX-2 Disruptor pistol","source_book":"F"},"payload":{"id":"dx-2_disruptor_pistol_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"DXR-6 Disruptor rifle","source_book":"F"},"payload":{"id":"dxr-6_disruptor_rifle_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Dart launcher, concealed","source_book":"L"},"payload":{"id":"dart_launcher_concealed_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Darter","source_book":"GI"},"payload":{"id":"darter_gi"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Deck sweeper","source_book":"SV"},"payload":{"id":"deck_sweeper_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Discblade","source_book":"J"},"payload":{"id":"discblade_j"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Electronet","source_book":"SV"},"payload":{"id":"electronet_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Flame Cannon","source_book":"GW"},"payload":{"id":"flame_cannon_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Flamethrower gauntlet (Jango Fett's)","source_book":"T"},"payload":{"id":"flamethrower_gauntlet_jango_fetts_t"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Flash canister, R-9","source_book":"J"},"payload":{"id":"flash_canister_r-9_j"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Flechette Launcher","source_book":"F"},"payload":{"id":"flechette_launcher_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Flechette Launcher","source_book":"R"},"payload":{"id":"flechette_launcher_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Gee-Tech 12 Defender Microblaster","source_book":"C"},"payload":{"id":"gee-tech_12_defender_microblaster_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, CryoBan","source_book":"K"},"payload":{"id":"grenade_cryoban_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, EMP","source_book":"C"},"payload":{"id":"grenade_emp_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, adhesive","source_book":"K"},"payload":{"id":"grenade_adhesive_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, concussion","source_book":"R"},"payload":{"id":"grenade_concussion_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, gas","source_book":"R"},"payload":{"id":"grenade_gas_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, radiation","source_book":"GW"},"payload":{"id":"grenade_radiation_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, remote","source_book":"K"},"payload":{"id":"grenade_remote_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Grenade, smoke","source_book":"GW"},"payload":{"id":"grenade_smoke_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Han Solo's Heavy Blaster Pistol","source_book":"L"},"payload":{"id":"han_solos_heavy_blaster_pistol_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Incinerator Rifle","source_book":"F"},"payload":{"id":"incinerator_rifle_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Interchangeable WS (Anti-armor mode)","source_book":"GW"},"payload":{"id":"interchangeable_ws_anti-armor_mode_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Interchangeable WS (Sniper rifle mode)","source_book":"GW"},"payload":{"id":"interchangeable_ws_sniper_rifle_mode_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Interchangeable Weapon System","source_book":"GW"},"payload":{"id":"interchangeable_weapon_system_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Ion carbine","source_book":"K"},"payload":{"id":"ion_carbine_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Lanvarok, Massassi","source_book":"K"},"payload":{"id":"lanvarok_massassi_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Lanvarok, Sith","source_book":"K"},"payload":{"id":"lanvarok_sith_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Lt Concussion Missile Launcher","source_book":"T"},"payload":{"id":"lt_concussion_missile_launcher_t"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Magna caster","source_book":"UR"},"payload":{"id":"magna_caster_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Merr-Sonn Model 434","source_book":"C"},"payload":{"id":"merr-sonn_model_434_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Merr-Sonn PLX-2M Portable Missile Launcher","source_book":"R"},"payload":{"id":"merr-sonn_plx-2m_portable_missile_launcher_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Micro grenade launcher","source_book":"SV"},"payload":{"id":"micro_grenade_launcher_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Miniature Proton Torpedo Launcher","source_book":"R"},"payload":{"id":"miniature_proton_torpedo_launcher_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Missile Launcher, E-Web","source_book":"F"},"payload":{"id":"missile_launcher_e-web_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Mortar launcher","source_book":"GW"},"payload":{"id":"mortar_launcher_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Needler","source_book":"K"},"payload":{"id":"needler_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Neural inhibitor","source_book":"SV"},"payload":{"id":"neural_inhibitor_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Onasi blaster pistol","source_book":"W"},"payload":{"id":"onasi_blaster_pistol_w"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Projectile Launcher, HH-15","source_book":"W"},"payload":{"id":"projectile_launcher_hh-15_w"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Pulse rifle","source_book":"SV"},"payload":{"id":"pulse_rifle_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Pulse-wave pistol","source_book":"K"},"payload":{"id":"pulse-wave_pistol_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Pulse-wave rifle","source_book":"K"},"payload":{"id":"pulse-wave_rifle_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Rail detonator gun","source_book":"F"},"payload":{"id":"rail_detonator_gun_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Razor Bug","source_book":"L"},"payload":{"id":"razor_bug_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Ripper","source_book":"K"},"payload":{"id":"ripper_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Rocket launcher (Jango Fett's)","source_book":"T"},"payload":{"id":"rocket_launcher_jango_fetts_t"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"S-5 heavy blaster pistol","source_book":"W"},"payload":{"id":"s-5_heavy_blaster_pistol_w"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Saberdart Launcher (Jango Fett's)","source_book":"T"},"payload":{"id":"saberdart_launcher_jango_fetts_t"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Scatter gun","source_book":"GW"},"payload":{"id":"scatter_gun_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Shrapnel pistol","source_book":"UR"},"payload":{"id":"shrapnel_pistol_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Siang Lance","source_book":"R"},"payload":{"id":"siang_lance_r"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Slugthrower pistol, heavy","source_book":"UR"},"payload":{"id":"slugthrower_pistol_heavy_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Snare Pistol","source_book":"GI"},"payload":{"id":"snare_pistol_gi"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Snare rifle","source_book":"SV"},"payload":{"id":"snare_rifle_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Sonic Stunner","source_book":"T"},"payload":{"id":"sonic_stunner_t"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Sonic disruptor","source_book":"K"},"payload":{"id":"sonic_disruptor_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Sonic pistol","source_book":"K"},"payload":{"id":"sonic_pistol_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Sonic pistol, heavy","source_book":"K"},"payload":{"id":"sonic_pistol_heavy_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Sonic rifle","source_book":"K"},"payload":{"id":"sonic_rifle_k"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"SoroSuub Firelance","source_book":"C"},"payload":{"id":"sorosuub_firelance_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Squib battering ram","source_book":"SV"},"payload":{"id":"squib_battering_ram_sv"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Squib tensor rifle","source_book":"UR"},"payload":{"id":"squib_tensor_rifle_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Stokhli Spray stick","source_book":"F"},"payload":{"id":"stokhli_spray_stick_f"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Stun pistol","source_book":"UR"},"payload":{"id":"stun_pistol_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Tactical tractor beam","source_book":"GW"},"payload":{"id":"tactical_tractor_beam_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Targeting laser","source_book":"GW"},"payload":{"id":"targeting_laser_gw"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Thud Bug","source_book":"L"},"payload":{"id":"thud_bug_l"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Verpine shatter gun","source_book":"UR"},"payload":{"id":"verpine_shatter_gun_ur"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket antipersonnel","source_book":"C"},"payload":{"id":"wrist_rocket_antipersonnel_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket antivehicle","source_book":"C"},"payload":{"id":"wrist_rocket_antivehicle_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket flash","source_book":"C"},"payload":{"id":"wrist_rocket_flash_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket hollow-tip (empty)","source_book":"C"},"payload":{"id":"wrist_rocket_hollow-tip_empty_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket hollow-tip (nerve toxin)","source_book":"C"},"payload":{"id":"wrist_rocket_hollow-tip_nerve_toxin_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket hollow-tip (stun gas)","source_book":"C"},"payload":{"id":"wrist_rocket_hollow-tip_stun_gas_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket ion blast","source_book":"C"},"payload":{"id":"wrist_rocket_ion_blast_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Wrist rocket launcher","source_book":"C"},"payload":{"id":"wrist_rocket_launcher_c"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Xerrol NightStinger","source_book":"GI"},"payload":{"id":"xerrol_nightstinger_gi"}},
+  {"target_file_key":"ranged_weapons","action":"update","identifier":{"name":"Yuuzhan Vong Biotech","source_book":"L"},"payload":{"id":"yuuzhan_vong_biotech_l"}},
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "ARC Trooper armor", "source_book": "CR"},
+    "payload": {
+      "id": "arc_trooper_armor_cr",
+      "page": 281,
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 6,
+      "fortitude_defense_bonus": 2,
+      "max_dex_bonus": 3,
+      "armor_check_penalty": -2,
+      "has_helmet_package": true,
+      "special_properties_text": "Standard equipment for Advanced Recon Commandos. Includes helmet package functions."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Armored spacesuit", "source_book": "CR"},
+    "payload": {
+      "id": "armored_spacesuit_cr",
+      "page": 132,
+      "armor_category": "Heavy Armor",
+      "reflex_defense_bonus": 9,
+      "fortitude_defense_bonus": 3,
+      "max_dex_bonus": 1,
+      "armor_check_penalty": -10,
+      "speed_penalty_text": "Reduces speed to 3/4 (e.g., 6sq->4sq; 4sq->3sq); Run speed x3",
+      "weight_kg": 35,
+      "availability": "Restricted",
+      "special_properties_text": "Contains a sealed life support system providing 24 hours of survival in vacuum or hostile environments.",
+      "full_text_description": "This bulky coverall contains a sealed life support system that provides everything the wearer needs to survive for 24 hours in the vacuum of space or any other hostile environment."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Battle armor", "source_book": "CR"},
+    "payload": {
+      "id": "battle_armor_cr",
+      "page": 132,
+      "armor_category": "Medium Armor",
+      "reflex_defense_bonus": 8,
+      "fortitude_defense_bonus": 2,
+      "max_dex_bonus": 2,
+      "armor_check_penalty": -5,
+      "speed_penalty_text": "Reduces speed to 3/4 (e.g., 6sq->4sq; 4sq->3sq)",
+      "weight_kg": 16,
+      "availability": "Military",
+      "full_text_description": "Battle armor combines protective metal or composite plates with a padded jumpsuit to form a layer of protection. While off-the-rack battle armor is available, most users cobble together their gear from various sources."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Battle armor, heavy", "source_book": "CR"},
+    "payload": {
+      "id": "battle_armor_heavy_cr",
+      "page": 132,
+      "armor_category": "Heavy Armor",
+      "reflex_defense_bonus": 10,
+      "fortitude_defense_bonus": 4,
+      "max_dex_bonus": 1,
+      "armor_check_penalty": -10,
+      "speed_penalty_text": "Reduces speed to 3/4 (e.g., 6sq->4sq; 4sq->3sq); Run speed x3",
+      "weight_kg": 30,
+      "availability": "Military",
+      "full_text_description": "Similar to regular battle armor, heavy battle armor features more plating than padding, including various pieces molded to fit the user, such as breastplates and armor covering the arms and legs."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Blast helmet and vest", "source_book": "CR"},
+    "payload": {
+      "id": "blast_helmet_and_vest_cr",
+      "page": 132,
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 2,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 5,
+      "armor_check_penalty": -2,
+      "speed_penalty_text": null,
+      "weight_kg": 3,
+      "availability": "Licensed",
+      "full_text_description": "This armor consists of a lightweight helmet and a composite vest that, when worn together, offer limited protection against incoming attacks."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Ceremonial armor", "source_book": "CR"},
+    "payload": {
+      "id": "ceremonial_armor_cr",
+      "page": 132,
+      "armor_category": "Medium Armor",
+      "reflex_defense_bonus": 7,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 2,
+      "armor_check_penalty": -5,
+      "speed_penalty_text": "Reduces speed to 3/4 (e.g., 6sq->4sq; 4sq->3sq)",
+      "weight_kg": 13,
+      "availability": "Restricted",
+      "full_text_description": "Ceremonial armor blends practicality with ornate design. Republic Guards and Imperial Royal Guards wear different styles of ceremonial armor. A typical suit of ceremonial armor consists of a helmet, durable breast guard, shoulder guards, and articulated greaves for the arms and legs."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Clone Trooper armor", "source_book": "CR"},
+    "payload": {
+      "id": "clone_trooper_armor_cr",
+      "page": 280, 
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 6,
+      "fortitude_defense_bonus": 2,
+      "max_dex_bonus": 3,
+      "armor_check_penalty": -2,
+      "has_helmet_package": true,
+      "special_properties_text": "Standard issue armor for Republic Clone Troopers. Includes helmet package functions (integrated comlink, +2 Perception, low-light vision). Based on Stormtrooper Armor stats.",
+      "weight_kg": 10,
+      "availability": "Military"
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Combat jumpsuit", "source_book": "CR"},
+    "payload": {
+      "id": "combat_jumpsuit_cr",
+      "page": 132,
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 4,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 4,
+      "armor_check_penalty": -2,
+      "speed_penalty_text": null,
+      "weight_kg": 8,
+      "availability": "Licensed",
+      "full_text_description": "This heavily padded jumpsuit is designed to provide limited protection against physical and energy trauma without overly restricting the wearer's movement."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Corellian powersuit", "source_book": "CR"},
+    "payload": {
+      "id": "corellian_powersuit_cr",
+      "page": 132,
+      "armor_category": "Medium Armor",
+      "reflex_defense_bonus": 7,
+      "fortitude_defense_bonus": 3,
+      "max_dex_bonus": 3,
+      "armor_check_penalty": -5,
+      "speed_penalty_text": "Reduces speed to 3/4 (e.g., 6sq->4sq; 4sq->3sq)",
+      "weight_kg": 20,
+      "availability": "Restricted",
+      "special_properties_text": "Contains an energized exoskeleton and servomotors. Grants wearer a +2 equipment bonus to Strength if proficient with Medium Armor.",
+      "parsed_properties":[{"type":"bonus","value":2,"target":"Strength","description":"Grants wearer a +2 equipment bonus to Strength if proficient with Medium Armor."}],
+      "full_text_description": "This suit of body armor contains an energized exoskeleton and a series of servomotors that boosts the wearer's physical strength. Used by professional soldiers, mercenaries, and bounty hunters, the powersuit requires skill and training to use effectively. The Corellian powersuit grants its wearer a +2 equipment bonus to Strength, but only if the wearer has the Armor Proficiency (medium) feat."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Darth Vader's custom armor", "source_book": "CR"},
+    "payload": {
+      "id": "darth_vaders_custom_armor_cr",
+      "page": 261,
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 8,
+      "fortitude_defense_bonus": 2,
+      "max_dex_bonus": 3,
+      "armor_check_penalty": -2,
+      "speed_penalty_text": null,
+      "weight_kg": 11,
+      "availability": "Unique",
+      "has_helmet_package": true,
+      "special_properties_text": "Based on armored flight suit, heavily modified. Includes life support. Helmet package functions integrated.",
+      "full_text_description": "Darth Vader's custom armor is a heavily modified suit of armored flight suit, providing substantial protection and integrated life support systems critical to his survival. It includes functions equivalent to a helmet package."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Droid, Duranium battle armor", "source_book": "CR"},
+    "payload": {
+      "id": "droid_duranium_battle_armor_cr",
+      "page": 196,
+      "armor_category": "Heavy Armor",
+      "reflex_defense_bonus": 10,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 2,
+      "armor_check_penalty": -10,
+      "speed_penalty_text": "Droid speed unaffected unless noted by specific droid design.",
+      "weight_kg": 10,
+      "availability": "Military",
+      "special_properties_text": "Cost: 10,000 x Cost Factor. Weight: 10 x Cost Factor kg. For droids, armor does not typically reduce speed unless the droid's design is specifically impacted."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Droid, Duranium plating", "source_book": "CR"},
+    "payload": {
+      "id": "droid_duranium_plating_cr",
+      "page": 196,
+      "armor_category": "Medium Armor",
+      "reflex_defense_bonus": 8,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 2,
+      "armor_check_penalty": -5,
+      "speed_penalty_text": "Droid speed unaffected unless noted by specific droid design.",
+      "weight_kg": 16,
+      "availability": "Restricted",
+      "special_properties_text": "Cost: 6,400 x Cost Factor. Weight: 16 x Cost Factor kg."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Droid, Durasteel battle armor", "source_book": "CR"},
+    "payload": {
+      "id": "droid_durasteel_battle_armor_cr",
+      "page": 196,
+      "armor_category": "Medium Armor", 
+      "reflex_defense_bonus": 8,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 3,
+      "armor_check_penalty": -5,
+      "speed_penalty_text": "Droid speed unaffected unless noted by specific droid design.",
+      "weight_kg": 8,
+      "availability": "Restricted",
+      "special_properties_text": "Cost: 9,600 x Cost Factor. Weight: 8 x Cost Factor kg."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Droid, Durasteel plating", "source_book": "CR"},
+    "payload": {
+      "id": "droid_durasteel_plating_cr",
+      "page": 196,
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 6,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 3,
+      "armor_check_penalty": -2,
+      "speed_penalty_text": null,
+      "weight_kg": 12,
+      "availability": "Licensed",
+      "special_properties_text": "Cost: 3,600 x Cost Factor. Weight: 12 x Cost Factor kg."
+    }
+  },
+  {
+    "target_file_key": "armor",
+    "action": "update",
+    "identifier": {"name": "Droid, Durasteel shell", "source_book": "CR"},
+    "payload": {
+      "id": "droid_durasteel_shell_cr",
+      "page": 196,
+      "armor_category": "Light Armor",
+      "reflex_defense_bonus": 4,
+      "fortitude_defense_bonus": 0,
+      "max_dex_bonus": 4,
+      "armor_check_penalty": -2,
+      "speed_penalty_text": null,
+      "weight_kg": 8,
+      "availability": "Licensed",
+      "special_properties_text": "Cost: 1,600 x Cost Factor. Weight: 8 x Cost Factor kg."
+    }
+  },
+  {"target_file_key":"armor","action":"update","identifier":{"name":"AT-AT pilot suit","source_book":"D7"},"payload":{"id":"at-at_pilot_suit_d7"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Barabel microbe armor","source_book":"GW"},"payload":{"id":"barabel_microbe_armor_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Battle armor, heavy powered","source_book":"K"},"payload":{"id":"battle_armor_heavy_powered_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Battle armor, light","source_book":"K"},"payload":{"id":"battle_armor_light_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Battle armor, light powered","source_book":"K"},"payload":{"id":"battle_armor_light_powered_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Battle armor, powered","source_book":"K"},"payload":{"id":"battle_armor_powered_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Beskar'gam, heavy","source_book":"SV"},"payload":{"id":"beskargam_heavy_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Beskar'gam, light","source_book":"SV"},"payload":{"id":"beskargam_light_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Beskar'gam, medium","source_book":"SV"},"payload":{"id":"beskargam_medium_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Biohazard suit","source_book":"GW"},"payload":{"id":"biohazard_suit_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Blast jacket (Atton Rand's)","source_book":"K"},"payload":{"id":"blast_jacket_atton_rands_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Boba Fett's Mandalorian Armor","source_book":"L"},"payload":{"id":"boba_fetts_mandalorian_armor_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Bodyguard armor","source_book":"D3"},"payload":{"id":"bodyguard_armor_d3"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Camo armor","source_book":"C"},"payload":{"id":"camo_armor_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Camo scout armor","source_book":"GW"},"payload":{"id":"camo_scout_armor_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Clone scout trooper armor","source_book":"C"},"payload":{"id":"clone_scout_trooper_armor_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Clone spacetrooper armor","source_book":"C"},"payload":{"id":"clone_spacetrooper_armor_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Clone Trooper armor, fire-resistant","source_book":"C"},"payload":{"id":"clone_trooper_armor_fire-resistant_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Commando armor","source_book":"T"},"payload":{"id":"commando_armor_t"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Cortosis Gauntlet","source_book":"L"},"payload":{"id":"cortosis_gauntlet_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Coruscant Guard armor","source_book":"F"},"payload":{"id":"coruscant_guard_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Dark armor, heavy","source_book":"J"},"payload":{"id":"dark_armor_heavy_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Dark armor, light","source_book":"J"},"payload":{"id":"dark_armor_light_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Dark armor, medium","source_book":"J"},"payload":{"id":"dark_armor_medium_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Darth Bandon's fiber armor","source_book":"K"},"payload":{"id":"darth_bandons_fiber_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Darth Malak's armor","source_book":"K"},"payload":{"id":"darth_malaks_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Darth Revan's armor","source_book":"W"},"payload":{"id":"darth_revans_armor_w"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Droid, Crystadurium Plating","source_book":"SGD"},"payload":{"id":"droid_crystadurium_plating_sgd"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Droid, Duravlex Shell","source_book":"SGD"},"payload":{"id":"droid_duravlex_shell_sgd"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Droid, Laminanium Plating","source_book":"SGD"},"payload":{"id":"droid_laminanium_plating_sgd"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, heavy SR 25","source_book":"K"},"payload":{"id":"energy_shields_heavy_sr_25_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, heavy SR 25 (Calo Nord's Verpine Prototype)","source_book":"K"},"payload":{"id":"energy_shields_heavy_sr_25_calo_nords_verpine_prototype_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, heavy SR 30","source_book":"K"},"payload":{"id":"energy_shields_heavy_sr_30_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, light SR 10","source_book":"K"},"payload":{"id":"energy_shields_light_sr_10_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, light SR 5","source_book":"K"},"payload":{"id":"energy_shields_light_sr_5_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, medium SR 15","source_book":"K"},"payload":{"id":"energy_shields_medium_sr_15_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Energy shields, medium SR 20","source_book":"K"},"payload":{"id":"energy_shields_medium_sr_20_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"EVO Trooper armor","source_book":"F"},"payload":{"id":"evo_trooper_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Exar Kun's light battle suit","source_book":"K"},"payload":{"id":"exar_kuns_light_battle_suit_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Fiber armor","source_book":"K"},"payload":{"id":"fiber_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Galactic Alliance Armor","source_book":"L"},"payload":{"id":"galactic_alliance_armor_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Galactic Alliance Armor, fleet crew","source_book":"L"},"payload":{"id":"galactic_alliance_armor_fleet_crew_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Geonosian warrior tunic","source_book":"C"},"payload":{"id":"geonosian_warrior_tunic_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"GTU AV-1C combat armor","source_book":"SV"},"payload":{"id":"gtu_av-1c_combat_armor_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"GTU AV-1S scout armor","source_book":"SV"},"payload":{"id":"gtu_av-1s_scout_armor_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Half-vest","source_book":"SV"},"payload":{"id":"half-vest_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Haz-chem coveralls","source_book":"GW"},"payload":{"id":"haz-chem_coveralls_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Heavy dungeoneer armor","source_book":"F"},"payload":{"id":"heavy_dungeoneer_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Imperial Knight armor","source_book":"L"},"payload":{"id":"imperial_knight_armor_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Jedi battle armor, light","source_book":"J"},"payload":{"id":"jedi_battle_armor_light_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Jedi battle armor, medium","source_book":"J"},"payload":{"id":"jedi_battle_armor_medium_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Jumptrooper armor","source_book":"F"},"payload":{"id":"jumptrooper_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Katarn-class commando armor","source_book":"GW"},"payload":{"id":"katarn-class_commando_armor_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Knighthunter armor","source_book":"L"},"payload":{"id":"knighthunter_armor_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Krail 210 personal armor","source_book":"SV"},"payload":{"id":"krail_210_personal_armor_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Krath armor","source_book":"K"},"payload":{"id":"krath_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Krath battle armor","source_book":"K"},"payload":{"id":"krath_battle_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Light combat armor","source_book":"F"},"payload":{"id":"light_combat_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Makeshift body armor","source_book":"D2"},"payload":{"id":"makeshift_body_armor_d2"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Mandalorian Armor","source_book":"T"},"payload":{"id":"mandalorian_armor_t"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Mandalorian armor (Jango Fett's)","source_book":"T"},"payload":{"id":"mandalorian_armor_jango_fetts_t"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Mandalorian battle armor","source_book":"K"},"payload":{"id":"mandalorian_battle_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Mandalorian combat suit","source_book":"K"},"payload":{"id":"mandalorian_combat_suit_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Marine armor","source_book":"GW"},"payload":{"id":"marine_armor_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Matrix armor","source_book":"K"},"payload":{"id":"matrix_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Merr-Sonn KZZ riot armor","source_book":"R"},"payload":{"id":"merr-sonn_kzz_riot_armor_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Mesh armor","source_book":"K"},"payload":{"id":"mesh_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Miner’s suit","source_book":"D9"},"payload":{"id":"miners_suit_d9"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Neo-Crusader assault armor","source_book":"K"},"payload":{"id":"neo-crusader_assault_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Neo-Crusader light armor","source_book":"K"},"payload":{"id":"neo-crusader_light_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Orbalisk armor","source_book":"J"},"payload":{"id":"orbalisk_armor_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Phase II Dark Trooper armor","source_book":"R"},"payload":{"id":"phase_ii_dark_trooper_armor_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Phase III Dark Trooper armor","source_book":"R"},"payload":{"id":"phase_iii_dark_trooper_armor_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Phase Zero Dark Trooper armor","source_book":"F"},"payload":{"id":"phase_zero_dark_trooper_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Radtrooper armor","source_book":"F"},"payload":{"id":"radtrooper_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Republic combat armor","source_book":"K"},"payload":{"id":"republic_combat_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Republic heavy armor","source_book":"K"},"payload":{"id":"republic_heavy_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Republic light armor","source_book":"K"},"payload":{"id":"republic_light_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Riot Shield","source_book":"T"},"payload":{"id":"riot_shield_t"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Royal Guard armor","source_book":"F"},"payload":{"id":"royal_guard_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Seatrooper Armor","source_book":"R"},"payload":{"id":"seatrooper_armor_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Separatist commando armor","source_book":"D2"},"payload":{"id":"separatist_commando_armor_d2"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Shadow Guard armor","source_book":"F"},"payload":{"id":"shadow_guard_armor_f"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Shadow trooper armor","source_book":"D4"},"payload":{"id":"shadow_trooper_armor_d4"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Shadowsuit","source_book":"SV"},"payload":{"id":"shadowsuit_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Shield gauntlet","source_book":"R"},"payload":{"id":"shield_gauntlet_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Sith Battle suit","source_book":"K"},"payload":{"id":"sith_battle_suit_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Sith Trooper Armor","source_book":"K"},"payload":{"id":"sith_trooper_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Skakoan heavy pressure suit","source_book":"W"},"payload":{"id":"skakoan_heavy_pressure_suit_w"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Skakoan light pressure suit","source_book":"W"},"payload":{"id":"skakoan_light_pressure_suit_w"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Skakoan medium pressure suit","source_book":"W"},"payload":{"id":"skakoan_medium_pressure_suit_w"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"SpecForce armor","source_book":"T"},"payload":{"id":"specforce_armor_t"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Stalker armor","source_book":"GW"},"payload":{"id":"stalker_armor_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Storm Commando armor","source_book":"R"},"payload":{"id":"storm_commando_armor_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Stormtrooper armor, reinforced","source_book":"R"},"payload":{"id":"stormtrooper_armor_reinforced_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Stormtrooper, stygian-triprismatic","source_book":"R"},"payload":{"id":"stormtrooper_stygian-triprismatic_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Stun cloak","source_book":"GW"},"payload":{"id":"stun_cloak_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Stun cloak, all-temp. cloak upgrade","source_book":"GW"},"payload":{"id":"stun_cloak_all-temp_cloak_upgrade_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Stun cloak, camo. poncho upgrade","source_book":"GW"},"payload":{"id":"stun_cloak_camo_poncho_upgrade_gw"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Swamptrooper armor","source_book":"R"},"payload":{"id":"swamptrooper_armor_r"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Swoop biker's garb","source_book":"D2"},"payload":{"id":"swoop_bikers_garb_d2"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Thinsuit","source_book":"C"},"payload":{"id":"thinsuit_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Tracker utility vest","source_book":"C"},"payload":{"id":"tracker_utility_vest_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Ubese environmental suit","source_book":"SV"},"payload":{"id":"ubese_environmental_suit_sv"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Vacuum pod","source_book":"C"},"payload":{"id":"vacuum_pod_c"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Venom assault armor","source_book":"L"},"payload":{"id":"venom_assault_armor_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Weave armor","source_book":"K"},"payload":{"id":"weave_armor_k"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"WJ-880 blinding helmet","source_book":"J"},"payload":{"id":"wj-880_blinding_helmet_j"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Yuuzhan Vong Biotech","source_book":"L"},"payload":{"id":"yuuzhan_vong_biotech_l"}},
+  {"target_file_key":"armor","action":"update","identifier":{"name":"Zero-G Stormtrooper Armor","source_book":"R"},"payload":{"id":"zero-g_stormtrooper_armor_r"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Helmet package","source_book":"CR"},"payload":{
+    "id":"helmet_package_cr",
+    "page":139,
+    "cost":{"text_original":"4000","options":[{"type":"fixed_amount","value":4000}],"selection_logic":null},
+    "weight_kg":1.0,
+    "accessory_type_code":"A",
+    "accessory_type_description":"Armor Upgrade",
+    "availability":"Common",
+    "full_text_description":"When installed in the helmet of a suit of armor, this electronic package allows the armor to grant the wearer a +2 equipment bonus on Perception checks as well as low-light vision. In addition, it includes an integrated hands-free comlink. Stormtrooper armor and its variants include such a system (MFTAS, or Multi-Frequency Target Acquisition System), already included in its statistics. Installing a helmet package takes 1 hour and a DC 20 Mechanics check.",
+    "comments_and_effects_text":"Grants wearer +2 equip. bonus on Perception checks, low-light vision, and an integrated hands-free comlink. Install: 1 hr, DC 20 Mechanics.",
+    "parsed_effects":[
+      {"type":"bonus","value":2,"target":"Perception checks","description":"+2 equipment bonus on Perception checks."},
+      {"type":"narrative_property","description":"Grants low-light vision."},
+      {"type":"narrative_property","description":"Includes an integrated hands-free comlink."}
+    ]
+  }},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Targeting scope","source_book":"CR"},"payload":{
+    "id":"targeting_scope_cr",
+    "page":139,
+    "cost":{"text_original":"100","options":[{"type":"fixed_amount","value":100}],"selection_logic":null},
+    "weight_kg":0.2,
+    "accessory_type_code":"R",
+    "accessory_type_description":"Weapon Upgrade (Ranged)",
+    "availability":"Common",
+    "full_text_description":"A standard targeting scope reduces the range by one category (for example, from medium to short range). However, you must aim at your target to gain this benefit, and you lose the benefit if you change targets or lose line of sight to your target. Installing a targeting scope on a rifle or pistol requires 10 minutes and a DC 10 Mechanics check.",
+    "comments_and_effects_text":"Standard. Reduces weapon range penalty by one category if aimed. Install: 10 min, DC 10 Mechanics.",
+    "parsed_effects":[{"type":"narrative_property","description":"Reduces weapon range penalty by one category if aimed."}]
+  }},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Targeting scope, low-light","source_book":"CR"},"payload":{
+    "id":"targeting_scope_low-light_cr",
+    "page":139,
+    "cost":{"text_original":"1000","options":[{"type":"fixed_amount","value":1000}],"selection_logic":null},
+    "weight_kg":1.2,
+    "accessory_type_code":"R",
+    "accessory_type_description":"Weapon Upgrade (Ranged)",
+    "availability":"Common",
+    "full_text_description":"An enhanced low-light targeting scope functions the same as a standard targeting scope in normal light. However, after aiming at a target, it allows the wielder to ignore concealment (but not total concealment) from darkness when attacking that target. Installing a targeting scope on a rifle or pistol requires 10 minutes and a DC 10 Mechanics check.",
+    "comments_and_effects_text":"Enhanced Low-Light. Functions as standard scope; additionally, if aimed, allows wielder to ignore concealment (but not total) from darkness. Install: 10 min, DC 10 Mechanics.",
+    "parsed_effects":[
+      {"type":"narrative_property","description":"Functions as standard targeting scope."},
+      {"type":"narrative_property","description":"If aimed, allows wielder to ignore concealment (but not total concealment) from darkness."}
+    ]
+  }},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Aquatic adaptation","source_book":"SV"},"payload":{"id":"aquatic_adaptation_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Armor reinforcement","source_book":"K"},"payload":{"id":"armor_reinforcement_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Armorplast","source_book":"SV"},"payload":{"id":"armorplast_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Bayonet ring","source_book":"SV"},"payload":{"id":"bayonet_ring_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Beam splitter","source_book":"K"},"payload":{"id":"beam_splitter_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Beckon call","source_book":"J"},"payload":{"id":"beckon_call_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Bipod","source_book":"SV"},"payload":{"id":"bipod_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Blade lock","source_book":"J"},"payload":{"id":"blade_lock_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Cheater","source_book":"SV"},"payload":{"id":"cheater_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Climbing claws","source_book":"SV"},"payload":{"id":"climbing_claws_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Cloaked","source_book":"SV"},"payload":{"id":"cloaked_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Componentization","source_book":"GI"},"payload":{"id":"componentization_gi"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Concealed compartment","source_book":"J"},"payload":{"id":"concealed_compartment_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Diagnostics system","source_book":"SV"},"payload":{"id":"diagnostics_system_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Double trigger","source_book":"SV"},"payload":{"id":"double_trigger_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Droidification","source_book":"SV"},"payload":{"id":"droidification_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Dual gear","source_book":"SV"},"payload":{"id":"dual_gear_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Durasteel bonding","source_book":"K"},"payload":{"id":"durasteel_bonding_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Electrograpple handle","source_book":"SV"},"payload":{"id":"electrograpple_handle_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Electrum detail","source_book":"J"},"payload":{"id":"electrum_detail_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Enhanced energy projector","source_book":"K"},"payload":{"id":"enhanced_energy_projector_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Environmental sealing","source_book":"SV"},"payload":{"id":"environmental_sealing_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Environmental systems","source_book":"SV"},"payload":{"id":"environmental_systems_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Extra power source","source_book":"SV"},"payload":{"id":"extra_power_source_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Fiber cord","source_book":"J"},"payload":{"id":"fiber_cord_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Flash Suppressor/Silencer","source_book":"GI"},"payload":{"id":"flash_suppressor_silencer_gi"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Force-Activated","source_book":"J"},"payload":{"id":"force-activated_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Gyro","source_book":"SV"},"payload":{"id":"gyro_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Hair trigger","source_book":"K"},"payload":{"id":"hair_trigger_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Holoshroud","source_book":"SV"},"payload":{"id":"holoshroud_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Improved energy cell","source_book":"K"},"payload":{"id":"improved_energy_cell_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Integrated equipment, 1","source_book":"SV"},"payload":{"id":"integrated_equipment_1_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Integrated equipment, 10","source_book":"SV"},"payload":{"id":"integrated_equipment_10_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Integrated equipment, 2","source_book":"SV"},"payload":{"id":"integrated_equipment_2_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Integrated equipment, 5","source_book":"SV"},"payload":{"id":"integrated_equipment_5_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Interlocking hilt","source_book":"J"},"payload":{"id":"interlocking_hilt_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Internal generator","source_book":"SV"},"payload":{"id":"internal_generator_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Ion charger","source_book":"SV"},"payload":{"id":"ion_charger_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Ion shielding","source_book":"GW"},"payload":{"id":"ion_shielding_gw"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Jump servos","source_book":"SV"},"payload":{"id":"jump_servos_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Memory upgrade","source_book":"SV"},"payload":{"id":"memory_upgrade_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Memory upgrade, advanced","source_book":"SV"},"payload":{"id":"memory_upgrade_advanced_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Mesh underlay","source_book":"K"},"payload":{"id":"mesh_underlay_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Miniaturized","source_book":"SV"},"payload":{"id":"miniaturized_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Missile load","source_book":"SV"},"payload":{"id":"missile_load_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Neutronium reinforcement","source_book":"SV"},"payload":{"id":"neutronium_reinforcement_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Overload switch","source_book":"SV"},"payload":{"id":"overload_switch_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Powered exoskeleton","source_book":"SV"},"payload":{"id":"powered_exoskeleton_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Pressure grip","source_book":"J"},"payload":{"id":"pressure_grip_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Pulse charger","source_book":"SV"},"payload":{"id":"pulse_charger_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Radiation shielding","source_book":"SV"},"payload":{"id":"radiation_shielding_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Rangefinder","source_book":"SV"},"payload":{"id":"rangefinder_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Rangefinder, armor","source_book":"SV"},"payload":{"id":"rangefinder_armor_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Rapid Recycler","source_book":"SV"},"payload":{"id":"rapid_recycler_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Ready harness","source_book":"SV"},"payload":{"id":"ready_harness_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Recognition system","source_book":"SV"},"payload":{"id":"recognition_system_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Remote activation","source_book":"SV"},"payload":{"id":"remote_activation_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Repulsorlift","source_book":"SV"},"payload":{"id":"repulsorlift_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Retractable stock","source_book":"SV"},"payload":{"id":"retractable_stock_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Secret compartment","source_book":"SV"},"payload":{"id":"secret_compartment_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Shadowskin","source_book":"SV"},"payload":{"id":"shadowskin_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Shadowskin, reflec","source_book":"SV"},"payload":{"id":"shadowskin_reflec_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Shield generator, SR 10","source_book":"SV"},"payload":{"id":"shield_generator_sr_10_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Shield generator, SR 5","source_book":"SV"},"payload":{"id":"shield_generator_sr_5_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Shockweb","source_book":"SV"},"payload":{"id":"shockweb_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Silverplate","source_book":"SV"},"payload":{"id":"silverplate_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Slinker","source_book":"SV"},"payload":{"id":"slinker_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Sniper switch","source_book":"SV"},"payload":{"id":"sniper_switch_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Spring loaded","source_book":"SV"},"payload":{"id":"spring_loaded_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Storage capacity","source_book":"SV"},"payload":{"id":"storage_capacity_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Trapped grip","source_book":"J"},"payload":{"id":"trapped_grip_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Tremor cell","source_book":"K"},"payload":{"id":"tremor_cell_k"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Vacuum seals","source_book":"SV"},"payload":{"id":"vacuum_seals_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Vacuum seals, advanced","source_book":"SV"},"payload":{"id":"vacuum_seals_advanced_sv"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Waterproof casing","source_book":"J"},"payload":{"id":"waterproof_casing_j"}},
+  {"target_file_key":"accessories","action":"update","identifier":{"name":"Weapon mount","source_book":"SV"},"payload":{"id":"weapon_mount_sv"}},
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "All-temperature cloak", "source_book": "CR"},
+    "payload": {
+      "id": "all-temperature_cloak_cr",
+      "page": 137,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 1.5,
+      "availability": "Common",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "This wrap-around cloak protects its wearer from the elements, providing a +5 equipment bonus to its wearer's Fortitude Defense against extreme heat or cold (see Extreme Temperatures, page 254).",
+      "special_properties_text": "+5 equip. bonus to Fortitude Defense against extreme heat or cold.",
+      "parsed_effects": [{"type": "bonus", "value": 5, "target": "Fortitude Defense vs extreme heat/cold", "description": "+5 equipment bonus to Fortitude Defense against extreme heat or cold."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "antiox_breath_mask_cr",
+      "name": "Antiox breath mask",
+      "source_book": "CR",
+      "page": 27,
+      "cost": {"text_original": "2000", "options": [{"type": "fixed_amount", "value": 2000}]},
+      "weight_kg": 2.0,
+      "availability": "Specialized",
+      "equipment_category_code": "LIFE",
+      "equipment_category_description": "Life Support",
+      "full_text_description": "Special breath mask required by Kel Dor to survive in standard nitrogen/oxygen atmospheres. Includes vocoder. Replacement filters cost 200 credits for a year's supply (50 on Dorin).",
+      "special_properties_text": "Required for Kel Dor survival off Dorin. Poisonous to other species.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Required for Kel Dor survival in non-native atmospheres. Provides breathable air from filters."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Aquata breather", "source_book": "CR"},
+    "payload": {
+      "id": "aquata_breather_cr",
+      "page": 135,
+      "cost": {"text_original": "350", "options": [{"type": "fixed_amount", "value": 350}]},
+      "weight_kg": 0.2,
+      "availability": "Licensed",
+      "equipment_category_code": "LIFE",
+      "equipment_category_description": "Life Support",
+      "full_text_description": "While underwater, an Aquata Breather can provide up to 2 hours of breathable air through its mouthpiece.",
+      "special_properties_text": "Provides 2 hours of breathable air underwater.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Provides 2 hours of breathable air underwater."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Bacta tank (empty)", "source_book": "CR"},
+    "payload": {
+      "id": "bacta_tank_empty_cr",
+      "page": 136,
+      "cost": {"text_original": "100000", "options": [{"type": "fixed_amount", "value": 100000}]},
+      "weight_kg": 500,
+      "availability": "Restricted",
+      "equipment_category_code": "MED",
+      "equipment_category_description": "Medical Gear",
+      "full_text_description": "This large, specialized tank is filled with the powerful healing agent, bacta, which promotes rapid healing. Requires 300 liters of bacta to fill. Used in conjunction with surgery or to treat disease, poison, or radiation.",
+      "special_properties_text": "Requires bacta to function. Aids in healing.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Promotes rapid healing when filled with bacta."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Bacta, 1 liter", "source_book": "CR"},
+    "payload": {
+      "id": "bacta_1_liter_cr",
+      "page": 136,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 1,
+      "availability": "Licensed",
+      "equipment_category_code": "MED",
+      "equipment_category_description": "Medical Gear",
+      "full_text_description": "A powerful healing agent used in bacta tanks."
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "bandolier_cr",
+      "name": "Bandolier",
+      "source_book": "CR",
+      "page": 139,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 2.0,
+      "availability": "Common",
+      "equipment_category_code": "WAA",
+      "equipment_category_description": "Weapon and Armor Accessory",
+      "full_text_description": "A bandolier has 12 slots that can each hold a single Tiny weapon (such as a grenade or a knife) or a single piece of equipment weighing up to 0.5 kg. Any item on the bandolier can be retrieved as a move action.",
+      "special_properties_text": "Holds 12 Tiny items (up to 0.5kg each). Retrieve as move action.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Holds 12 Tiny items. Retrieval is a move action."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Binder cuffs", "source_book": "CR"},
+    "payload": {
+      "id": "binder_cuffs_cr",
+      "page": 138,
+      "cost": {"text_original": "50", "options": [{"type": "fixed_amount", "value": 50}]},
+      "weight_kg": 0.5,
+      "availability": "Licensed",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Durasteel restraints designed to lock two limbs of a prisoner. DR 10, 20 HP, Break DC 30 Str or DC 25 Mechanics to remove without code.",
+      "special_properties_text": "DR 10, 20 HP. Break DC 30 Str. DC 25 Mechanics to open.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Restrains limbs. DR 10, 20 HP."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Breath mask", "source_book": "CR"},
+    "payload": {
+      "id": "breath_mask_cr",
+      "page": 135,
+      "cost": {"text_original": "200", "options": [{"type": "fixed_amount", "value": 200}]},
+      "weight_kg": 2,
+      "availability": "Common",
+      "equipment_category_code": "LIFE",
+      "equipment_category_description": "Life Support",
+      "full_text_description": "This personal atmosphere-filtering system consists of a mask that fits over the nose and mouth and a hose connecting the mask to a portable life-support system. A breath mask provides 1 hour of breathable atmosphere before the filter and atmosphere canister must be replaced. A functional breath mask grants immunity to inhaled poisons, including poisonous atmospheres.",
+      "special_properties_text": "Provides 1 hour of breathable air. Immune to inhaled poisons.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Provides 1 hour of breathable air. Grants immunity to inhaled poisons."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "breath_mask_atmosphere_filter_cr",
+      "name": "Breath mask, atmosphere filter",
+      "source_book": "CR",
+      "page": 136,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 1.0,
+      "availability": "Common",
+      "equipment_category_code": "LIFE",
+      "equipment_category_description": "Life Support Component",
+      "full_text_description": "Replacement filter and atmosphere canister for a breath mask."
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Chain (3 meters)", "source_book": "CR"},
+    "payload": {
+      "id": "chain_3_meters_cr",
+      "page": 137,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 2,
+      "availability": "Common",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "This 3-meter (2-square) length of chain has damage reduction 10 and 5 hit points. It has Strength 44 and can safely support over 5 metric tons of weight, and it can be broken with a DC 32 Strength check.",
+      "special_properties_text": "DR 10, 5 HP. Break DC 32 Str.",
+      "parsed_effects": [{"type": "narrative_property", "description": "DR 10, 5 HP. Strong chain."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Code cylinder", "source_book": "CR"},
+    "payload": {
+      "id": "code_cylinder_cr",
+      "page": 133,
+      "cost": {"text_original": "500", "options": [{"type": "fixed_amount", "value": 500}]},
+      "weight_kg": 0.1,
+      "availability": "Restricted",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "A compact encoded security device issued to many military, political, or corporate officials, a code cylinder accesses computer data via a droid's scomp link or provides entry into restricted facilities. Each cylinder features the user's personal security clearance data.",
+      "special_properties_text": "Storage device (Int 10, Will Def 15). Hostile attitude, self-destructs if Use Computer check fails by 5+.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Provides access based on security clearance."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "comlink_encryption_cr",
+      "name": "Comlink, encryption",
+      "source_book": "CR",
+      "page": 134,
+      "cost": {"text_original": "Base x10", "options": [{"type": "base_item_multiplier", "value": 10.0}],"description":"Cost of base comlink x10"},
+      "weight_kg": null,
+      "availability": "Restricted",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device Modification",
+      "full_text_description": "A comlink can have hardwired encryption routines, adding +10 to the DC of all Use Computer checks made to intercept your transmission, for ten times the base cost of the comlink.",
+      "special_properties_text": "Adds +10 to DC to intercept transmission. Modifies a base comlink.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Increases DC to intercept messages by +10."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "comlink_holo_capability_cr",
+      "name": "Comlink, holo capability",
+      "source_book": "CR",
+      "page": 134,
+      "cost": {"text_original": "Base x5", "options": [{"type": "base_item_multiplier", "value": 5.0}],"description":"Cost of base comlink x5"},
+      "weight_kg": null,
+      "availability": "Licensed",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device Modification",
+      "full_text_description": "A comlink can have holo capability (three-dimensional images in addition to audio) for five times the base cost of the comlink.",
+      "special_properties_text": "Allows transmission/reception of 3D holo images. Modifies a base comlink.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Enables 3D holo communication."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Comlink, long-range", "source_book": "CR"},
+    "payload": {
+      "id": "comlink_long-range_cr",
+      "page": 134,
+      "cost": {"text_original": "250", "options": [{"type": "fixed_amount", "value": 250}]},
+      "weight_kg": 1.0,
+      "availability": "Licensed",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device",
+      "full_text_description": "Has a range of 200 kilometers or high orbit, and requires a backpack-sized comset. For double the cost, can be miniaturized to wrist-size.",
+      "special_properties_text": "Range 200km or high orbit. Requires comset (or double cost for wrist-size).",
+      "parsed_effects": [{"type": "narrative_property", "description": "200km / high orbit range."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Comlink, short-range", "source_book": "CR"},
+    "payload": {
+      "id": "comlink_short-range_cr",
+      "page": 134,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device",
+      "full_text_description": "Has a range of 50 kilometers or low orbit. Can be built into helmets and armor.",
+      "special_properties_text": "Range 50km or low orbit.",
+      "parsed_effects": [{"type": "narrative_property", "description": "50km / low orbit range."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "comlink_video_capability_cr",
+      "name": "Comlink, video capability",
+      "source_book": "CR",
+      "page": 134,
+      "cost": {"text_original": "Base x2", "options": [{"type": "base_item_multiplier", "value": 2.0}],"description":"Cost of base comlink x2"},
+      "weight_kg": null,
+      "availability": "Licensed",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device Modification",
+      "full_text_description": "A comlink can have video capability (two-dimensional images in addition to audio) for twice the base cost of the comlink.",
+      "special_properties_text": "Allows transmission/reception of 2D video images. Modifies a base comlink.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Enables 2D video communication."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Credit chip", "source_book": "CR"},
+    "payload": {
+      "id": "credit_chip_cr",
+      "page": 133,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "A small, flat card that features a security codeout and credit algorithm memory stripes. Securely tracks and transacts funds. Storage device (Int 10, Will Def 15), hostile attitude, self-destructs if Use Computer check fails by 5+.",
+      "special_properties_text": "Securely stores and transacts credits. Int 10, Will Def 15. Self-destructs on tampering.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Stores credits for transactions."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Cybernetic prosthesis", "source_book": "CR"},
+    "payload": {
+      "id": "cybernetic_prosthesis_cr",
+      "page": 136,
+      "cost": {"text_original": "1500", "options": [{"type": "fixed_amount", "value": 1500}],"description":"Does not include surgical cost (500 credits)."},
+      "weight_kg": null,
+      "availability": "Licensed",
+      "equipment_category_code": "MED",
+      "equipment_category_description": "Medical Gear",
+      "full_text_description": "Mechanical replacement for a limb or extremity. Requires Cybernetic Surgery feat to install. Performs as well as original limb. Takes full damage from ion weapons. -1 to Use the Force checks per prosthetic (max -5).",
+      "special_properties_text": "Replaces limb/extremity. Takes full ion damage. -1 Use the Force per prosthetic (max -5).",
+      "parsed_effects": [{"type": "narrative_property", "description": "Replaces a lost limb or extremity."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Datacards, blank (10)", "source_book": "CR"},
+    "payload": {
+      "id": "datacards_blank_10_cr",
+      "page": 135,
+      "cost": {"text_original": "10", "options": [{"type": "fixed_amount", "value": 10}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "Simple storage device with Intelligence 2. Used as external storage for a computer. No direct interface.",
+      "special_properties_text": "Int 2. For data storage.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Stores data for computer access."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Datapad", "source_book": "CR"},
+    "payload": {
+      "id": "datapad_cr",
+      "page": 135,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 0.5,
+      "availability": "Common",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "Handheld personal computer (notebook, planner, calculator). Can interface with larger networks. Computer with Intelligence 12.",
+      "special_properties_text": "Int 12.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Personal computer functions."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Datapad, basic", "source_book": "CR"},
+    "payload": {
+      "id": "datapad_basic_cr",
+      "page": 135,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 0.3,
+      "availability": "Common",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "Simpler datapad, primarily a storage device with display, input, and editing capability. No ability to run programs. Intelligence 10.",
+      "special_properties_text": "Int 10. Primarily for data storage and viewing/editing.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Basic data storage and access."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Electrobinoculars", "source_book": "CR"},
+    "payload": {
+      "id": "electrobinoculars_cr",
+      "page": 135,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 1.0,
+      "availability": "Licensed",
+      "equipment_category_code": "DET",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "Magnifies distant objects. Internal display for range, azimuth, elevation. Zoom/wide-vision. Radiation sensors and nightvision mode (grants darkvision to user's normal sight range). Reduces range penalty on Perception checks to -1 per 10 squares.",
+      "special_properties_text": "Reduces Perception range penalty to -1/10sq. Darkvision. Radiation sensors.",
+      "parsed_effects": [
+        {"type": "narrative_property", "description": "Reduces Perception check range penalty."},
+        {"type": "narrative_property", "description": "Grants darkvision."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Energy cell", "source_book": "CR"},
+    "payload": {
+      "id": "energy_cell_cr",
+      "page": 138,
+      "cost": {"text_original": "10", "options": [{"type": "fixed_amount", "value": 10}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Small flat disk battery providing power for devices, including certain types of weapons. Can be recharged with a power recharger.",
+      "special_properties_text": "Standard power source for many small devices and weapons.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Provides power."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Field kit", "source_book": "CR"},
+    "payload": {
+      "id": "field_kit_cr",
+      "page": 137,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 10,
+      "availability": "Common",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "Backpack full of survival gear: two condensing canteens with water purification, sunshield roll, week's food rations, two glow rods, two breath masks, 24 filters, 12 atmosphere canisters, and an all-temperature cloak. Needed for Survival checks to endure extreme temperatures.",
+      "special_properties_text": "Contains various survival items. Required for some Survival skill uses.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Comprehensive survival package."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Fire extinguisher", "source_book": "CR"},
+    "payload": {
+      "id": "fire_extinguisher_cr",
+      "page": 138,
+      "cost": {"text_original": "50", "options": [{"type": "fixed_amount", "value": 50}]},
+      "weight_kg": 3,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Produces a chemical cloud providing total concealment (1sq radius per round of use, dissipates in 3 rounds). Can put out fires up to 10 squares. 10 uses. Reloadable.",
+      "special_properties_text": "Creates obscuring cloud. Extinguishes fires.",
+      "parsed_effects": [
+        {"type": "narrative_property", "description": "Creates total concealment cloud."},
+        {"type": "narrative_property", "description": "Extinguishes fires."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Flight suit", "source_book": "CR"},
+    "payload": {
+      "id": "flight_suit_cr",
+      "page": 136,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 3.0,
+      "availability": "Common",
+      "equipment_category_code": "LIFE",
+      "equipment_category_description": "Life Support",
+      "full_text_description": "The flight suit is a one-piece coverall (plus a helmet) that provides life support, protects the wearer from hostile environments, and prevents the wearer from succumbing to the adverse effects of high-velocity flying. A flight suit includes a matching helmet and gloves that seal around the wearer and provide up to 10 hours of life support. As long as you have life support remaining, you are immune to any hostile atmosphere or inhaled poison hazard. The suit also grants a +1 equipment bonus to your Fortitude Defense.",
+      "special_properties_text": "Provides 10 hours of life support. Grants +1 equipment bonus to Fortitude Defense. Immune to hostile atmospheres/inhaled poisons while active.",
+      "parsed_effects": [
+        {"type": "narrative_property", "description": "Provides 10 hours of life support."},
+        {"type": "bonus", "value": 1, "target": "Fortitude Defense", "description": "Grants +1 equipment bonus to Fortitude Defense."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Fusion lantern", "source_book": "CR"},
+    "payload": {
+      "id": "fusion_lantern_cr",
+      "page": 135,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 2.0,
+      "availability": "Common",
+      "equipment_category_code": "DETC",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "A hand-held light source larger than a glow rod, the fusion lantern produces light and heat. The light spreads out from the lantern, producing illumination in a 6-square radius.",
+      "special_properties_text": "Produces light and heat in a 6-square radius.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Illuminates a 6-square radius."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Glow rod", "source_book": "CR"},
+    "payload": {
+      "id": "glow_rod_cr",
+      "page": 135,
+      "cost": {"text_original": "10", "options": [{"type": "fixed_amount", "value": 10}]},
+      "weight_kg": 1.0,
+      "availability": "Common",
+      "equipment_category_code": "DETC",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "A glow rod is a portable illumination device that projects a beam of light up to 6 squares.",
+      "special_properties_text": "Projects a beam of light 6 squares long.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Projects a beam of light 6 squares long."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Helmet package", "source_book": "CR"},
+    "payload": {
+      "id": "helmet_package_cr",
+      "page": 139,
+      "cost": {"text_original": "4000", "options": [{"type": "fixed_amount", "value": 4000}]},
+      "weight_kg": 1.0,
+      "availability": "Common",
+      "equipment_category_code": "WAA",
+      "equipment_category_description": "Weapon and Armor Accessory",
+      "full_text_description": "When installed in the helmet of a suit of armor, this electronic package allows the armor to grant the wearer a +2 equipment bonus on Perception checks as well as low-light vision. In addition, it includes an integrated hands-free comlink. Installing a helmet package takes 1 hour and a DC 20 Mechanics check.",
+      "special_properties_text": "Grants wearer +2 equip. bonus on Perception checks, low-light vision, and an integrated hands-free comlink. Install: 1 hr, DC 20 Mechanics.",
+      "parsed_effects":[
+        {"type":"bonus","value":2,"target":"Perception checks","description":"+2 equipment bonus on Perception checks."},
+        {"type":"narrative_property","description":"Grants low-light vision."},
+        {"type":"narrative_property","description":"Includes an integrated hands-free comlink."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Holoprojector, personal", "source_book": "CR"},
+    "payload": {
+      "id": "holoprojector_personal_cr",
+      "page": 135,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 0.5,
+      "availability": "Licensed",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "A handheld, personal hologram transmitter used to view real-time or recorded three-dimensional images or pass information via comlink. Storage device with Intelligence 2, stores 1 hour of holo recording or 1,000 holo images.",
+      "special_properties_text": "Int 2. Stores 1 hr holo recording or 1000 images.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Displays 3D holo images."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "holster_concealed_cr",
+      "name": "Holster, Concealed",
+      "source_book": "CR",
+      "page": 139,
+      "cost": {"text_original": "50", "options": [{"type": "fixed_amount", "value": 50}]},
+      "weight_kg": 0.2,
+      "availability": "Licensed",
+      "equipment_category_code": "WAA",
+      "equipment_category_description": "Weapon and Armor Accessory",
+      "full_text_description": "Designed to keep a weapon out of sight (e.g., shoulder, waistband, ankle, boot, wrist holsters). Allows drawing a concealed weapon as a move action but with a -5 penalty on Stealth check to conceal the weapon.",
+      "special_properties_text": "For Small or Tiny weapons/single-bladed lightsabers. Draw concealed as move (-5 Stealth penalty).",
+      "parsed_effects": [{"type": "narrative_property", "description": "Aids in concealing weapons."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "holster_hip_cr",
+      "name": "Holster, Hip",
+      "source_book": "CR",
+      "page": 139,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 0.5,
+      "availability": "Common",
+      "equipment_category_code": "WAA",
+      "equipment_category_description": "Weapon and Armor Accessory",
+      "full_text_description": "Holds weapon in an easily accessed and visible location. Generally available for Medium or smaller weapons.",
+      "special_properties_text": "For Medium or smaller weapons.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Holds weapon on hip."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Jet pack", "source_book": "CR"},
+    "payload": {
+      "id": "jet_pack_cr",
+      "page": 137,
+      "cost": {"text_original": "3000", "options": [{"type": "fixed_amount", "value": 3000}]},
+      "weight_kg": 30.0,
+      "availability": "Restricted",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "A propulsion system allowing flight over short distances. Activate as swift action, grants fly speed of 6 squares. 10 charges. DC 20 Pilot check if landing after moving >12 squares in a turn; failure results in prone. Lifts up to 180kg. Replacement fuel cells cost 100 credits.",
+      "special_properties_text": "Fly speed 6 sq. 10 charges. Lifts 180kg.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Allows short-distance flight."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Liquid cable dispenser (15 meters)", "source_book": "CR"},
+    "payload": {
+      "id": "liquid_cable_dispenser_15_meters_cr",
+      "page": 137,
+      "cost": {"text_original": "10", "options": [{"type": "fixed_amount", "value": 10}]},
+      "weight_kg": 0.2,
+      "availability": "Common",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "Contains a special liquid that instantly solidifies on contact with atmosphere or vacuum to form a tough, lightweight, flexible cable. Dispenses 15 meters (10 squares) of cable. Cable has Strength 28, supports 560kg, Break DC 24 Str. Refillable.",
+      "special_properties_text": "Dispenses 15m cable. Str 28, Break DC 24 Str.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Creates instant cable."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Medical kit", "source_book": "CR"},
+    "payload": {
+      "id": "medical_kit_cr",
+      "page": 137,
+      "cost": {"text_original": "600", "options": [{"type": "fixed_amount", "value": 600}]},
+      "weight_kg": 2.0,
+      "availability": "Licensed",
+      "equipment_category_code": "MED",
+      "equipment_category_description": "Medical Gear",
+      "full_text_description": "Backpack-sized kit with diagnostic scanners, anti-venom, medicines, burn treatments, defibrillators, respirator, shock blankets, pressure cuffs, repulsorlift stretcher. Required to revive, treat disease/poison/radiation.",
+      "special_properties_text": "Comprehensive medical supplies. Required for specific Treat Injury uses.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Enables advanced medical treatment."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Medpac", "source_book": "CR"},
+    "payload": {
+      "id": "medpac_cr",
+      "page": 137,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 1.0,
+      "availability": "Common",
+      "equipment_category_code": "MED",
+      "equipment_category_description": "Medical Gear",
+      "full_text_description": "Compact package with bandages, bacta, synthetic flesh, coagulants, stimulants for first aid. Expended on use. Can only benefit once per 24 hours.",
+      "special_properties_text": "Single-use first aid kit.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Provides supplies for first aid."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Mesh tape", "source_book": "CR"},
+    "payload": {
+      "id": "mesh_tape_cr",
+      "page": 138,
+      "cost": {"text_original": "5", "options": [{"type": "fixed_amount", "value": 5}]},
+      "weight_kg": 0.5,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Adhesive tape. Adhesive Strength 15 (supports 90kg indefinitely, 180kg for 5 rounds). Tape Strength 20 (Break DC 20 Str). Roll provides 30 meters of 5cm wide tape.",
+      "special_properties_text": "Strong adhesive tape. 30m roll.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Multi-purpose adhesive tape."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Pocket scrambler", "source_book": "CR"},
+    "payload": {
+      "id": "pocket_scrambler_cr",
+      "page": 133,
+      "cost": {"text_original": "400", "options": [{"type": "fixed_amount", "value": 400}]},
+      "weight_kg": 0.5,
+      "availability": "Restricted",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device",
+      "full_text_description": "Add-on device for communications gear. Encodes outgoing messages. Intercepted messages require DC 30 Use Computer check to decrypt.",
+      "special_properties_text": "Encrypts communications. DC 30 Use Computer to decrypt.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Secures communications."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Portable computer", "source_book": "CR"},
+    "payload": {
+      "id": "portable_computer_cr",
+      "page": 135,
+      "cost": {"text_original": "5000", "options": [{"type": "fixed_amount", "value": 5000}]},
+      "weight_kg": 2.0,
+      "availability": "Licensed",
+      "equipment_category_code": "COMP",
+      "equipment_category_description": "Computers and Storage Devices",
+      "full_text_description": "Compact computer for complex programs on the go. Intelligence 14.",
+      "special_properties_text": "Int 14.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Full computer functionality, portable."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Power generator", "source_book": "CR"},
+    "payload": {
+      "id": "power_generator_cr",
+      "page": 138,
+      "cost": {"text_original": "750", "options": [{"type": "fixed_amount", "value": 750}]},
+      "weight_kg": 15,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Small fusion reactor for continuous power for heavy weapons, vehicles, structures. Explodes if destroyed (1d20+10 attack vs Reflex in 4sq, 8d6 energy damage).",
+      "special_properties_text": "Provides continuous power. Explodes on destruction.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Powers large equipment."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Power pack", "source_book": "CR"},
+    "payload": {
+      "id": "power_pack_cr",
+      "page": 138,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Compact rectangular battery for energy weapons. Rechargeable.",
+      "special_properties_text": "Ammunition for most blaster weapons.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Powers energy weapons."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Power recharger", "source_book": "CR"},
+    "payload": {
+      "id": "power_recharger_cr",
+      "page": 138,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 1.0,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Recharges one power pack or energy cell in 4 hours. Holds power for 100 recharges or connects to building/ship power for unlimited capacity.",
+      "special_properties_text": "Recharges power packs/energy cells.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Recharges energy sources."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Ration pack", "source_book": "CR"},
+    "payload": {
+      "id": "ration_pack_cr",
+      "page": 137,
+      "cost": {"text_original": "5", "options": [{"type": "fixed_amount", "value": 5}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "Compact meal providing one day's nourishment for a range of species. Does not include water.",
+      "special_properties_text": "One day's food.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Provides one day of sustenance."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "recording_unit_audiorecorder_cr",
+      "name": "Recording unit, audiorecorder",
+      "source_book": "CR",
+      "page": 135,
+      "cost": {"text_original": "25", "options": [{"type": "fixed_amount", "value": 25}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "DETC",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "Storage device (Int 1) with playback. Stores 100 hours of high-quality sound. DC 15 Use Computer to modify recording.",
+      "special_properties_text": "Int 1. Stores 100 hrs audio.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Records and plays audio."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "recording_unit_holorecorder_cr",
+      "name": "Recording unit, holorecorder",
+      "source_book": "CR",
+      "page": 135,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 1.0,
+      "availability": "Licensed",
+      "equipment_category_code": "DETC",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "Storage device (Int 1) with playback. Stores 1 hour of high-quality holo recordings. DC 15 Use Computer to modify recording.",
+      "special_properties_text": "Int 1. Stores 1 hr holo.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Records and plays holo-images."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "recording_unit_videorecorder_cr",
+      "name": "Recording unit, videorecorder",
+      "source_book": "CR",
+      "page": 135,
+      "cost": {"text_original": "50", "options": [{"type": "fixed_amount", "value": 50}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "DETC",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "Storage device (Int 1) with playback. Stores 10 hours of high-quality video. DC 15 Use Computer to modify recording.",
+      "special_properties_text": "Int 1. Stores 10 hrs video.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Records and plays video."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Security kit", "source_book": "CR"},
+    "payload": {
+      "id": "security_kit_cr",
+      "page": 138,
+      "cost": {"text_original": "750", "options": [{"type": "fixed_amount", "value": 750}]},
+      "weight_kg": 1.0,
+      "availability": "Restricted",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Set of special tools for bypassing electronic and mechanical locks. Includes electronic components and dedicated sensor devices. Required for some Mechanics skill uses (e.g., disarming traps/security). Includes comlink to monitor silent alarm frequencies.",
+      "special_properties_text": "For bypassing locks/security. Monitors silent alarms.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Aids in security system circumvention."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Sensor pack", "source_book": "CR"},
+    "payload": {
+      "id": "sensor_pack_cr",
+      "page": 135,
+      "cost": {"text_original": "1500", "options": [{"type": "fixed_amount", "value": 1500}]},
+      "weight_kg": 9.0,
+      "availability": "Licensed",
+      "equipment_category_code": "DETC",
+      "equipment_category_description": "Detection and Surveillance Devices",
+      "full_text_description": "Portable scanning device with readout display and scanning dish. Provides general details on comm signals, life forms, and hazards within 1 kilometer. Operating grants +5 circumstance bonus on Perception checks.",
+      "special_properties_text": "Scans 1km. Grants +5 Perception bonus when active.",
+      "parsed_effects": [{"type": "bonus", "value": 5, "target": "Perception checks", "description": "+5 circumstance bonus on Perception checks when operating."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Space suit", "source_book": "CR"},
+    "payload": {
+      "id": "space_suit_cr",
+      "page": 136,
+      "cost": {"text_original": "2000", "options": [{"type": "fixed_amount", "value": 2000}]},
+      "weight_kg": 15,
+      "availability": "Common",
+      "equipment_category_code": "LIFE",
+      "equipment_category_description": "Life Support",
+      "full_text_description": "This bulky coverall contains a sealed life support system that provides everything the wearer needs to survive for 24 hours in the vacuum of space or any other hostile environment. As long as you have life support remaining, you are immune to any atmosphere or inhaled poison hazard. The suit also grants a +2 equipment bonus to your Fortitude Defense.",
+      "special_properties_text": "Provides 24 hours of life support. Grants +2 equipment bonus to Fortitude Defense. Immune to vacuum/hostile atmospheres/inhaled poisons while active.",
+      "parsed_effects": [
+        {"type": "narrative_property", "description": "Provides 24 hours of life support."},
+        {"type": "bonus", "value": 2, "target": "Fortitude Defense", "description": "Grants +2 equipment bonus to Fortitude Defense."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Surgery kit", "source_book": "CR"},
+    "payload": {
+      "id": "surgery_kit_cr",
+      "page": 137,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 1.0,
+      "availability": "Licensed",
+      "equipment_category_code": "MED",
+      "equipment_category_description": "Medical Gear",
+      "full_text_description": "Small kit with instruments needed to perform surgery using the Treat Injury skill. Required for Perform Surgery.",
+      "special_properties_text": "Required for Perform Surgery Treat Injury skill use.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Enables surgical procedures."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Syntherope (45 meters)", "source_book": "CR"},
+    "payload": {
+      "id": "syntherope_45_meters_cr",
+      "page": 137,
+      "cost": {"text_original": "20", "options": [{"type": "fixed_amount", "value": 20}]},
+      "weight_kg": 2.5,
+      "availability": "Common",
+      "equipment_category_code": "SURV",
+      "equipment_category_description": "Survival Gear",
+      "full_text_description": "Coil of 45 meters (30 squares) of strong, durable rope. Strength 30, supports 720kg, Break DC 25 Str. Reusable.",
+      "special_properties_text": "45m. Str 30, Break DC 25 Str.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Strong, reusable rope."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "targeting_scope_enhanced_low-light_cr",
+      "name": "Targeting scope, enhanced low-light",
+      "source_book": "CR",
+      "page": 139,
+      "cost": {"text_original": "1000", "options": [{"type": "fixed_amount", "value": 1000}]},
+      "weight_kg": 1.2,
+      "availability": "Common",
+      "equipment_category_code": "WAA",
+      "equipment_category_description": "Weapon and Armor Accessory",
+      "full_text_description": "An enhanced low-light targeting scope functions the same as a standard targeting scope in normal light. However, after aiming at a target, it allows the wielder to ignore concealment (but not total concealment) from darkness when attacking that target. Installing a targeting scope on a rifle or pistol requires 10 minutes and a DC 10 Mechanics check.",
+      "special_properties_text": "Enhanced Low-Light. Functions as standard scope; additionally, if aimed, allows wielder to ignore concealment (but not total) from darkness. Install: 10 min, DC 10 Mechanics.",
+      "parsed_effects":[
+        {"type":"narrative_property","description":"Functions as standard targeting scope."},
+        {"type":"narrative_property","description":"If aimed, allows wielder to ignore concealment (but not total concealment) from darkness."}
+      ]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "targeting_scope_standard_cr",
+      "name": "Targeting scope, standard",
+      "source_book": "CR",
+      "page": 139,
+      "cost": {"text_original": "100", "options": [{"type": "fixed_amount", "value": 100}]},
+      "weight_kg": 0.2,
+      "availability": "Common",
+      "equipment_category_code": "WAA",
+      "equipment_category_description": "Weapon and Armor Accessory",
+      "full_text_description": "A standard targeting scope reduces the range by one category (for example, from medium to short range). However, you must aim at your target to gain this benefit, and you lose the benefit if you change targets or lose line of sight to your target. Installing a targeting scope on a rifle or pistol requires 10 minutes and a DC 10 Mechanics check.",
+      "special_properties_text": "Standard. Reduces weapon range penalty by one category if aimed. Install: 10 min, DC 10 Mechanics.",
+      "parsed_effects":[{"type":"narrative_property","description":"Reduces weapon range penalty by one category if aimed."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "add",
+    "payload": {
+      "id": "timer_for_explosives_cr",
+      "name": "Timer (for Explosives)",
+      "source_book": "CR",
+      "page": 129,
+      "cost": {"text_original": "250", "options": [{"type": "fixed_amount", "value": 250}]},
+      "weight_kg": 0.1,
+      "availability": "Licensed",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "A device used to set a delay for explosives like Detonite or Explosive Charges. Standard timers can be set with up to an hour delay.",
+      "special_properties_text": "Sets delay for explosives. From Table 8-6: Explosives.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Used to time detonations."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Tool kit", "source_book": "CR"},
+    "payload": {
+      "id": "tool_kit_cr",
+      "page": 138,
+      "cost": {"text_original": "250", "options": [{"type": "fixed_amount", "value": 250}]},
+      "weight_kg": 1.0,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Broad collection of tools for analyzing, modifying, and rebuilding technological devices. Required for reprogramming droids or repairing damaged droids/vehicles. Contents include electroshock probe, fusion cutter, etc.",
+      "special_properties_text": "Required for various Mechanics skill uses.",
+      "parsed_effects": [{"type": "narrative_property", "description": "General purpose tool collection for repairs and modifications."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Utility belt", "source_book": "CR"},
+    "payload": {
+      "id": "utility_belt_cr",
+      "page": 139,
+      "cost": {"text_original": "500", "options": [{"type": "fixed_amount", "value": 500}]},
+      "weight_kg": 4.0,
+      "availability": "Common",
+      "equipment_category_code": "TOOL",
+      "equipment_category_description": "Tools",
+      "full_text_description": "Contains several pouches with: 3-day food capsules, medpac, tool kit, spare power pack, spare energy cell, glow rod, comlink, liquid cable dispenser with grappling hook, and empty pouches. Weight includes typical load.",
+      "special_properties_text": "Carries a variety of essential gear.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Contains multiple useful items."}]
+    }
+  },
+  {
+    "target_file_key": "equipment_general",
+    "action": "update",
+    "identifier": {"name": "Vox-box", "source_book": "CR"},
+    "payload": {
+      "id": "vox-box_cr",
+      "page": 133,
+      "cost": {"text_original": "200", "options": [{"type": "fixed_amount", "value": 200}]},
+      "weight_kg": 0.1,
+      "availability": "Common",
+      "equipment_category_code": "COMM",
+      "equipment_category_description": "Communications Device",
+      "full_text_description": "Simple audio playback unit with 12 preprogrammed phrases in Basic. Useful for species that understand but cannot speak Basic. Phrases can be altered with a DC 10 Use Computer check.",
+      "special_properties_text": "Plays 12 preprogrammed audio phrases.",
+      "parsed_effects": [{"type": "narrative_property", "description": "Allows basic verbal communication."}]
+    }
+  },
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"ABC Scrambler","source_book":"SV"},"payload":{"id":"abc_scrambler_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Ambient aural amplifier","source_book":"R"},"payload":{"id":"ambient_aural_amplifier_r"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Antidote synthesizer","source_book":"UR"},"payload":{"id":"antidote_synthesizer_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Anti-rad dose","source_book":"GW"},"payload":{"id":"anti-rad_dose_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Antisecurity Blades (Jango Fett's)","source_book":"T"},"payload":{"id":"antisecurity_blades_jango_fetts_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Antitoxin Patch","source_book":"GI"},"payload":{"id":"antitoxin_patch_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Aural amplifier","source_book":"K"},"payload":{"id":"aural_amplifier_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bao-Dur's cybernetic arm","source_book":"K"},"payload":{"id":"bao-durs_cybernetic_arm_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Battle harness, Sith","source_book":"J"},"payload":{"id":"battle_harness_sith_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Body spikes","source_book":"L"},"payload":{"id":"bio-implant_body_spikes_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Cosmetic enhancements","source_book":"L"},"payload":{"id":"bio-implant_cosmetic_enhancements_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Enhanced vision","source_book":"L"},"payload":{"id":"bio-implant_enhanced_vision_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Natural armor","source_book":"L"},"payload":{"id":"bio-implant_natural_armor_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Natural weapon","source_book":"L"},"payload":{"id":"bio-implant_natural_weapon_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Poison filter","source_book":"L"},"payload":{"id":"bio-implant_poison_filter_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bio-implant, Replacement body part","source_book":"L"},"payload":{"id":"bio-implant_replacement_body_part_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Bioscanner","source_book":"C"},"payload":{"id":"bioscanner_c"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"BioTech Borg Construct AJ-6","source_book":"R"},"payload":{"id":"biotech_borg_construct_aj-6_r"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Biotech tool kit","source_book":"L"},"payload":{"id":"biotech_tool_kit_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Camouflage netting","source_book":"C"},"payload":{"id":"camouflage_netting_c"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Camouflage netting","source_book":"GW"},"payload":{"id":"camouflage_netting_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Camouflage netting, powered","source_book":"C"},"payload":{"id":"camouflage_netting_powered_c"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Camouflage poncho","source_book":"GW"},"payload":{"id":"camouflage_poncho_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Climbing harness","source_book":"UR"},"payload":{"id":"climbing_harness_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Com scrambler","source_book":"GW"},"payload":{"id":"com_scrambler_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Comlink, Earbud","source_book":"GI"},"payload":{"id":"comlink_earbud_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Comlink, hands-free","source_book":"L"},"payload":{"id":"comlink_hands-free_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Comlink, tightbeam","source_book":"GW"},"payload":{"id":"comlink_tightbeam_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Communication scanner","source_book":"GW"},"payload":{"id":"communication_scanner_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Computer interface visor","source_book":"K"},"payload":{"id":"computer_interface_visor_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Computer spikes","source_book":"T"},"payload":{"id":"computer_spikes_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Computer, bracer","source_book":"C"},"payload":{"id":"computer_bracer_c"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Computerized interface scope","source_book":"R"},"payload":{"id":"computerized_interface_scope_r"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cortosis Gauntlet","source_book":"T"},"payload":{"id":"cortosis_gauntlet_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cryogenic pouch","source_book":"GW"},"payload":{"id":"cryogenic_pouch_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Augmented neurosystem (Dengar's)","source_book":"R"},"payload":{"id":"cybernetics_augmented_neurosystem_dengars_r"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Borg Construct","source_book":"GW"},"payload":{"id":"cybernetics_borg_construct_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Borg Construct Datacard/Know cart port","source_book":"GW"},"payload":{"id":"cybernetics_borg_construct_datacard_know_cart_port_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Borg Construct Knowledge cartridge","source_book":"GW"},"payload":{"id":"cybernetics_borg_construct_knowledge_cartridge_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Comlink, subcutaneous","source_book":"GW"},"payload":{"id":"cybernetics_comlink_subcutaneous_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Cybernetic prosthesis","source_book":"GW"},"payload":{"id":"cybernetics_cybernetic_prosthesis_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Eye, infrared sensor","source_book":"GW"},"payload":{"id":"cybernetics_eye_infrared_sensor_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Eye, targeting","source_book":"GW"},"payload":{"id":"cybernetics_eye_targeting_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Eye, telescopic","source_book":"GW"},"payload":{"id":"cybernetics_eye_telescopic_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Ion Shielding","source_book":"GW"},"payload":{"id":"cybernetics_ion_shielding_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Sensory enhancement","source_book":"GW"},"payload":{"id":"cybernetics_sensory_enhancement_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Skeletal reinforcement","source_book":"GW"},"payload":{"id":"cybernetics_skeletal_reinforcement_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Cybernetics, Tremor sensor","source_book":"GW"},"payload":{"id":"cybernetics_tremor_sensor_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Darth Krayt's holocron","source_book":"L"},"payload":{"id":"darth_krayts_holocron_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Decoy Glowrod","source_book":"F"},"payload":{"id":"decoy_glowrod_f"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Demolitions sensor","source_book":"K"},"payload":{"id":"demolitions_sensor_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Droid diagnostic","source_book":"GW"},"payload":{"id":"droid_diagnostic_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Emergency vacuum seal","source_book":"UR"},"payload":{"id":"emergency_vacuum_seal_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Energy cage, universal","source_book":"J"},"payload":{"id":"energy_cage_universal_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"FastFlesh Medpac","source_book":"T"},"payload":{"id":"fastflesh_medpac_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Field food processor","source_book":"GW"},"payload":{"id":"field_food_processor_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Fire paste","source_book":"UR"},"payload":{"id":"fire_paste_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Fire rod","source_book":"UR"},"payload":{"id":"fire_rod_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Flash Suppressor/Silencer","source_book":"GI"},"payload":{"id":"flash_suppressor_silencer_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Force Cage","source_book":"SV"},"payload":{"id":"force_cage_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Force detector","source_book":"J"},"payload":{"id":"force_detector_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Force training aid","source_book":"J"},"payload":{"id":"force_training_aid_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Gand breathing apparatus","source_book":"SV"},"payload":{"id":"gand_breathing_apparatus_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Gand transliterator","source_book":"SV"},"payload":{"id":"gand_transliterator_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Geological compressor","source_book":"J"},"payload":{"id":"geological_compressor_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Halo lamp","source_book":"C"},"payload":{"id":"halo_lamp_c"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Heat Sensor","source_book":"T"},"payload":{"id":"heat_sensor_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"HiBaka 2000 Mem-Stik","source_book":"T"},"payload":{"id":"hibaka_2000_mem-stik_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Holo Converter","source_book":"GI"},"payload":{"id":"holo_converter_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Holocron","source_book":"J"},"payload":{"id":"holocron_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Holoshroud","source_book":"F"},"payload":{"id":"holoshroud_f"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Hush-About Personal Jetpack","source_book":"F"},"payload":{"id":"hush-about_personal_jetpack_f"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Hypoinjector wristband","source_book":"UR"},"payload":{"id":"hypoinjector_wristband_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, bio-stabilizer","source_book":"K"},"payload":{"id":"implant_bio-stabilizer_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, Cardio","source_book":"K"},"payload":{"id":"implant_cardio_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, Combat","source_book":"K"},"payload":{"id":"implant_combat_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, Memory","source_book":"K"},"payload":{"id":"implant_memory_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, nerve reinforcement","source_book":"K"},"payload":{"id":"implant_nerve_reinforcement_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, regenerative","source_book":"K"},"payload":{"id":"implant_regenerative_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Implant, sensory","source_book":"K"},"payload":{"id":"implant_sensory_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Infra-goggles","source_book":"K"},"payload":{"id":"infra-goggles_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Jedi Imprisonment Device","source_book":"GW"},"payload":{"id":"jedi_imprisonment_device_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Jet pack (Jango Fett's)","source_book":"T"},"payload":{"id":"jet_pack_jango_fetts_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Lectroticker","source_book":"T"},"payload":{"id":"lectroticker_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Life support chamber (Ooroo's)","source_book":"J"},"payload":{"id":"life_support_chamber_ooroos_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Lock Breaking Kit","source_book":"SV"},"payload":{"id":"lock_breaking_kit_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Low-light goggles (Calo Nord's)","source_book":"K"},"payload":{"id":"low-light_goggles_calo_nords_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Man Trap","source_book":"SV"},"payload":{"id":"man_trap_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Mask of Darth Nihilus","source_book":"UR"},"payload":{"id":"mask_of_darth_nihilus_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"MDS-50 Medisensor","source_book":"T"},"payload":{"id":"mds-50_medisensor_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Mechanical interface visor","source_book":"K"},"payload":{"id":"mechanical_interface_visor_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Medical bundle, 8-2A","source_book":"J"},"payload":{"id":"medical_bundle_8-2a_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Medical interface visor","source_book":"K"},"payload":{"id":"medical_interface_visor_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Micro shield (handheld version)","source_book":"SGD"},"payload":{"id":"micro_shield_handheld_version_sgd"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Microlab","source_book":"UR"},"payload":{"id":"microlab_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Mobile Hologram Projection Pod","source_book":"W"},"payload":{"id":"mobile_hologram_projection_pod_w"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Motion sensing visor","source_book":"K"},"payload":{"id":"motion_sensing_visor_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Multitool, personal","source_book":"UR"},"payload":{"id":"multitool_personal_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Muur Talisman","source_book":"J"},"payload":{"id":"muur_talisman_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Neural band","source_book":"K"},"payload":{"id":"neural_band_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Ooglith Masquer","source_book":"W"},"payload":{"id":"ooglith_masquer_w"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Panic Ring","source_book":"GI"},"payload":{"id":"panic_ring_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Personal field shelter","source_book":"GW"},"payload":{"id":"personal_field_shelter_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Phrik-alloy vambraces (Zayne Carrick's)","source_book":"K"},"payload":{"id":"phrik-alloy_vambraces_zayne_carricks_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Plasma bridge","source_book":"GW"},"payload":{"id":"plasma_bridge_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Plastent","source_book":"UR"},"payload":{"id":"plastent_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Portable beacon","source_book":"UR"},"payload":{"id":"portable_beacon_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Propulsion Pack","source_book":"R"},"payload":{"id":"propulsion_pack_r"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Proximity flare","source_book":"GW"},"payload":{"id":"proximity_flare_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Radiation detector","source_book":"GW"},"payload":{"id":"radiation_detector_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Redirection Crystal","source_book":"GI"},"payload":{"id":"redirection_crystal_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Repulsor boots","source_book":"UR"},"payload":{"id":"repulsor_boots_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Repulsor hitch","source_book":"UR"},"payload":{"id":"repulsor_hitch_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Repulsor pad","source_book":"F"},"payload":{"id":"repulsor_pad_f"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Rhen-Orm Biocomputer","source_book":"T"},"payload":{"id":"rhen-orm_biocomputer_t"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Saddle, riding","source_book":"UR"},"payload":{"id":"saddle_riding_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Saddle, war","source_book":"UR"},"payload":{"id":"saddle_war_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Shield Cage","source_book":"GI"},"payload":{"id":"shield_cage_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Shipsuit","source_book":"UR"},"payload":{"id":"shipsuit_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Signal wand","source_book":"UR"},"payload":{"id":"signal_wand_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Sith Amulet","source_book":"J"},"payload":{"id":"sith_amulet_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Sith Scrolls and Tomes","source_book":"J"},"payload":{"id":"sith_scrolls_and_tomes_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Sith Talisman","source_book":"J"},"payload":{"id":"sith_talisman_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Sonar mapper","source_book":"UR"},"payload":{"id":"sonar_mapper_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Sound sponge","source_book":"F"},"payload":{"id":"sound_sponge_f"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Spacer's Chest","source_book":"SV"},"payload":{"id":"spacers_chest_sv"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Spy bug","source_book":"L"},"payload":{"id":"spy_bug_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Stealth field generator","source_book":"K"},"payload":{"id":"stealth_field_generator_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Subelectronic converter","source_book":"J"},"payload":{"id":"subelectronic_converter_j"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Subsonic field emitter","source_book":"UR"},"payload":{"id":"subsonic_field_emitter_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Surveillance Detector","source_book":"GI"},"payload":{"id":"surveillance_detector_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Surveillance Tagger","source_book":"GI"},"payload":{"id":"surveillance_tagger_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Targeting beacon","source_book":"GW"},"payload":{"id":"targeting_beacon_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Toxin Detector","source_book":"GI"},"payload":{"id":"toxin_detector_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Translator, personal","source_book":"UR"},"payload":{"id":"translator_personal_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Triangulation visor","source_book":"GW"},"payload":{"id":"triangulation_visor_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Ultraviolet visor (Defel)","source_book":"GI"},"payload":{"id":"ultraviolet_visor_defel_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Vacuum mask","source_book":"K"},"payload":{"id":"vacuum_mask_k"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Vacuum survival pouch","source_book":"GW"},"payload":{"id":"vacuum_survival_pouch_gw"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Veridicator","source_book":"GI"},"payload":{"id":"veridicator_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Vid-Vox Scrambler","source_book":"GI"},"payload":{"id":"vid-vox_scrambler_gi"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Visual wrist comm","source_book":"C"},"payload":{"id":"visual_wrist_comm_c"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Voice amplifier","source_book":"D5"},"payload":{"id":"voice_amplifier_d5"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Water extractor","source_book":"UR"},"payload":{"id":"water_extractor_ur"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Xcalq portable computer \"Slicer Special\"","source_book":"L"},"payload":{"id":"xcalq_portable_computer_slicer_special_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Xcalq stealth pack","source_book":"L"},"payload":{"id":"xcalq_stealth_pack_l"}},
+  {"target_file_key":"equipment_general","action":"update","identifier":{"name":"Yuuzhan Vong Biotech","source_book":"L"},"payload":{"id":"yuuzhan_vong_biotech_l"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Bounding mine","source_book":"GW"},"payload":{"id":"bounding_mine_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Cannon, heavy","source_book":"GW"},"payload":{"id":"cannon_heavy_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Cannon, light","source_book":"GW"},"payload":{"id":"cannon_light_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Field gun","source_book":"GW"},"payload":{"id":"field_gun_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Fragmentation wire","source_book":"GW"},"payload":{"id":"fragmentation_wire_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Howitzer","source_book":"GW"},"payload":{"id":"howitzer_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Mortar, frag","source_book":"GW"},"payload":{"id":"mortar_frag_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Mortar, ion","source_book":"GW"},"payload":{"id":"mortar_ion_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Mortar, stun","source_book":"GW"},"payload":{"id":"mortar_stun_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Mortar, thermal","source_book":"GW"},"payload":{"id":"mortar_thermal_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Razor wire","source_book":"GW"},"payload":{"id":"razor_wire_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Repulsorlift Inhibitor","source_book":"GW"},"payload":{"id":"repulsorlift_inhibitor_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Smart mine","source_book":"GW"},"payload":{"id":"smart_mine_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Static mine","source_book":"GW"},"payload":{"id":"static_mine_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Turbolaser, orbital","source_book":"GW"},"payload":{"id":"turbolaser_orbital_gw"}},
+  {"target_file_key":"defensive_items","action":"update","identifier":{"name":"Vehicular mine","source_book":"GW"},"payload":{"id":"vehicular_mine_gw"}},
+  {
+    "target_file_key": "explosives",
+    "action": "update",
+    "identifier": {"name": "Detonite", "source_book": "CR"},
+    "payload": {
+      "id": "detonite_cr",
+      "page": 131,
+      "cost": {"text_original": "500", "options": [{"type": "fixed_amount", "value": 500}]},
+      "damage_text": "5d6",
+      "damage_structured": {"text_original": "5d6", "primary_damage": {"text_original":"5d6","dice_count":5,"die_type":6,"bonus_modifier":0}},
+      "damage_types": ["Energy"],
+      "weight_kg": 0.1,
+      "availability": "Restricted",
+      "blast_radius_text": "1sq",
+      "special_properties_text": "Stable contact explosive. Can be shaped or molded. Requires a timer.",
+      "web_marker": null
+    }
+  },
+  {
+    "target_file_key": "explosives",
+    "action": "update",
+    "identifier": {"name": "Explosive charge", "source_book": "CR"},
+    "payload": {
+      "id": "explosive_charge_cr",
+      "page": 131,
+      "cost": {"text_original": "1500", "options": [{"type": "fixed_amount", "value": 1500}]},
+      "damage_text": "10d6",
+      "damage_structured": {"text_original": "10d6", "primary_damage": {"text_original":"10d6","dice_count":10,"die_type":6,"bonus_modifier":0}},
+      "damage_types": ["Energy"],
+      "weight_kg": 0.5,
+      "availability": "Restricted",
+      "blast_radius_text": "1sq",
+      "special_properties_text": "Highly restricted. Delivers destructive energy to a specific point. Mechanics check ignores DR of attached objects; good check result increases damage.",
+      "web_marker": null
+    }
+  },
+  {
+    "target_file_key": "explosives",
+    "action": "update",
+    "identifier": {"name": "Timer", "source_book": "CR"},
+    "payload": {
+      "id": "timer_cr",
+      "page": 131,
+      "cost": {"text_original": "250", "options": [{"type": "fixed_amount", "value": 250}]},
+      "damage_text": null,
+      "damage_structured": null,
+      "damage_types": [],
+      "weight_kg": 0.1,
+      "availability": "Licensed",
+      "blast_radius_text": null,
+      "delay_rounds_text": "Up to 1 hour",
+      "special_properties_text": "Used to set delay for explosives. Standard timers can be set with up to an hour delay. Longer delays require specialized timers.",
+      "web_marker": null
+    }
+  },
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Antipersonnel Mine","source_book":"GW"},"payload":{"id":"antipersonnel_mine_gw","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Antipersonnel Mine, HX2","source_book":"W"},"payload":{"id":"antipersonnel_mine_hx2_w","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Antivehicle mine","source_book":"F"},"payload":{"id":"antivehicle_mine_f","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Antivehicle Proton Mine","source_book":"W"},"payload":{"id":"antivehicle_proton_mine_w","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Detonite cord","source_book":"GW"},"payload":{"id":"detonite_cord_gw","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Flechette mine","source_book":"F"},"payload":{"id":"flechette_mine_f","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Ion mine","source_book":"GW"},"payload":{"id":"ion_mine_gw","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Land mine","source_book":"F"},"payload":{"id":"land_mine_f","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Laser trip mine","source_book":"F"},"payload":{"id":"laser_trip_mine_f","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Limpet mine","source_book":"GW"},"payload":{"id":"limpet_mine_gw","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Manual trigger","source_book":"F"},"payload":{"id":"manual_trigger_f","web_marker":null}},
+  {"target_file_key":"explosives","action":"update","identifier":{"name":"Proximity mine","source_book":"F"},"payload":{"id":"proximity_mine_f","web_marker":null}}
+]

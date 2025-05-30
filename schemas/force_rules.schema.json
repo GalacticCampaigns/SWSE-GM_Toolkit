@@ -1,0 +1,273 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Force Rules",
+  "description": "Schema for general rules governing the Force, Force Points, the Dark Side, and Force Powers in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "force_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string"
+		},
+		"source_book_reference": {
+		  "type": "string"
+		},
+		"page_reference_general": {
+		  "type": "string"
+		},
+		"the_force_overview": {
+		  "type": "object",
+		  "properties": {
+			"general_principles": {
+			  "type": "string"
+			},
+			"using_the_force_skill": {
+			  "type": "string"
+			},
+			"force_abilities_categories": {
+			  "type": "string"
+			},
+			"force_sensitivity_feat_requirement": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"general_principles",
+			"using_the_force_skill",
+			"force_abilities_categories",
+			"force_sensitivity_feat_requirement"
+		  ]
+		},
+		"force_points": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"gaining_force_points": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  }
+			},
+			"using_force_points": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "use": {
+					"type": "string"
+				  },
+				  "details": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "use",
+				  "details"
+				]
+			  }
+			},
+			"regaining_force_points": {
+			  "type": "string"
+			},
+			"force_point_limit_per_round": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"gaining_force_points",
+			"using_force_points",
+			"regaining_force_points",
+			"force_point_limit_per_round",
+			"source_page_reference"
+		  ]
+		},
+		"the_dark_side": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"dark_side_score_dss": {
+			  "type": "object",
+			  "properties": {
+				"tracking": {
+				  "type": "string"
+				},
+				"gaining_dark_side_points": {
+				  "type": "array",
+				  "items": {
+					"type": "string"
+				  }
+				},
+				"immediate_effect_of_gaining_dss_point": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"tracking",
+				"gaining_dark_side_points",
+				"immediate_effect_of_gaining_dss_point"
+			  ]
+			},
+			"consequences_of_dark_side_score": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "condition": {
+					"type": "string"
+				  },
+				  "effect": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "condition",
+				  "effect"
+				]
+			  }
+			},
+			"atoning_for_dark_side_points": {
+			  "type": "object",
+			  "properties": {
+				"process": {
+				  "type": "string"
+				},
+				"source_page_reference": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"process",
+				"source_page_reference"
+			  ]
+			},
+			"dramatic_heroism": {
+			  "type": "object",
+			  "properties": {
+				"description": {
+				  "type": "string"
+				},
+				"source_page_reference": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"description",
+				"source_page_reference"
+			  ]
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"dark_side_score_dss",
+			"consequences_of_dark_side_score",
+			"atoning_for_dark_side_points",
+			"dramatic_heroism",
+			"source_page_reference"
+		  ]
+		},
+		"force_powers_general_rules": {
+		  "type": "object",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"learning_powers": {
+			  "type": "string"
+			},
+			"selecting_powers": {
+			  "type": "string"
+			},
+			"force_power_suite": {
+			  "type": "string"
+			},
+			"using_powers": {
+			  "type": "string"
+			},
+			"regaining_spent_powers": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "method": {
+					"type": "string"
+				  },
+				  "details": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "method",
+				  "details"
+				]
+			  }
+			},
+			"descriptors": {
+			  "type": "object",
+			  "properties": {
+				"introduction": {
+				  "type": "string"
+				},
+				"light_side": {
+				  "type": "string"
+				},
+				"dark_side": {
+				  "type": "string"
+				},
+				"mind_affecting": {
+				  "type": "string"
+				},
+				"telekinetic": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"introduction",
+				"light_side",
+				"dark_side",
+				"mind_affecting",
+				"telekinetic"
+			  ]
+			},
+			"source_page_reference": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"learning_powers",
+			"selecting_powers",
+			"force_power_suite",
+			"using_powers",
+			"regaining_spent_powers",
+			"descriptors",
+			"source_page_reference"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference",
+		"page_reference_general",
+		"the_force_overview",
+		"force_points",
+		"the_dark_side",
+		"force_powers_general_rules"
+	  ]
+	}
+  },
+  "required": [
+    "force_rules_data"
+  ]
+}

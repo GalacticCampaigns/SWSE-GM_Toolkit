@@ -1,0 +1,264 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Class Rules",
+  "description": "Schema for general rules pertaining to character classes in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "class_rules_data": {
+      "type": "object",
+      "properties": {
+        "file_description": {
+          "type": "string"
+        },
+        "source_book_reference": {
+          "type": "string"
+        },
+        "page_reference_general": {
+          "type": "string"
+        },
+        "choosing_a_heroic_class": {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "source_page_reference": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "description",
+            "source_page_reference"
+          ]
+        },
+        "class_and_level_bonuses": {
+          "type": "object",
+          "properties": {
+            "base_attack_bonus": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "source_page_reference": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "source_page_reference"
+              ]
+            },
+            "damage_bonus_heroic_level": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "formula": {
+                  "type": "string"
+                },
+                "source_page_reference": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "formula",
+                "source_page_reference"
+              ]
+            },
+            "defense_bonuses_from_class": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "source_page_reference": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "source_page_reference"
+              ]
+            },
+            "heroic_level_definition_for_defenses": {
+              "type": "string"
+            },
+            "source_page_reference": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "base_attack_bonus",
+            "damage_bonus_heroic_level",
+            "defense_bonuses_from_class",
+            "heroic_level_definition_for_defenses",
+            "source_page_reference"
+          ]
+        },
+        "level_dependent_benefits_heroic": {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "table_reference_crb": {
+              "type": "string"
+            },
+            "experience_points_xp": {
+              "type": "string"
+            },
+            "feats_progression_by_character_level": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "source_page_reference": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "source_page_reference"
+              ]
+            },
+            "talents_progression_by_heroic_class_level": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "source_page_reference": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description",
+                "source_page_reference"
+              ]
+            },
+            "ability_score_increases_by_character_level": {
+              "type": "object",
+              "properties": {
+                "levels": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "benefit": {
+                  "type": "string"
+                },
+                "retroactivity": {
+                  "type": "string"
+                },
+                "multiclass_note": {
+                  "type": "string"
+                },
+                "source_page_reference": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "levels",
+                "benefit",
+                "retroactivity",
+                "multiclass_note",
+                "source_page_reference"
+              ]
+            },
+            "source_page_reference": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "description",
+            "table_reference_crb",
+            "experience_points_xp",
+            "feats_progression_by_character_level",
+            "talents_progression_by_heroic_class_level",
+            "ability_score_increases_by_character_level",
+            "source_page_reference"
+          ]
+        },
+        "multiclass_characters": {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "level_definition": {
+              "type": "string"
+            },
+            "hit_points": {
+              "type": "string"
+            },
+            "base_attack_bonus": {
+              "type": "string"
+            },
+            "defenses": {
+              "type": "string"
+            },
+            "skills": {
+              "type": "string"
+            },
+            "starting_feats_new_class": {
+              "type": "string"
+            },
+            "talents": {
+              "type": "string"
+            },
+            "bonus_feats_from_class": {
+              "type": "string"
+            },
+            "adding_a_second_class": {
+              "type": "string"
+            },
+            "benefits_not_gained_when_multiclassing_into_new_class": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "advancing_a_level_multiclass": {
+              "type": "string"
+            },
+            "source_page_reference": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "description",
+            "level_definition",
+            "hit_points",
+            "base_attack_bonus",
+            "defenses",
+            "skills",
+            "starting_feats_new_class",
+            "talents",
+            "bonus_feats_from_class",
+            "adding_a_second_class",
+            "benefits_not_gained_when_multiclassing_into_new_class",
+            "advancing_a_level_multiclass",
+            "source_page_reference"
+          ]
+        }
+      },
+      "required": [
+        "file_description",
+        "source_book_reference",
+        "page_reference_general",
+        "choosing_a_heroic_class",
+        "class_and_level_bonuses",
+        "level_dependent_benefits_heroic",
+        "multiclass_characters"
+      ]
+    }
+  },
+  "required": [
+    "class_rules_data"
+  ]
+}

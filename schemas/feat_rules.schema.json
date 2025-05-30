@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Feat Rules",
+  "description": "Schema for the general rules of acquiring and using Feats in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "feat_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"source_book_reference": {
+		  "type": "string",
+		  "description": "Abbreviation for the primary source book."
+		},
+		"page_reference_general": {
+		  "type": "string",
+		  "description": "General page reference in the source book for feat rules."
+		},
+		"acquiring_feats": {
+		  "type": "object",
+		  "description": "Rules on how characters acquire feats.",
+		  "properties": {
+			"at_character_creation": {
+			  "type": "string",
+			  "description": "Feats gained at 1st level."
+			},
+			"by_level_progression": {
+			  "type": "object",
+			  "properties": {
+				"levels": {
+				  "type": "array",
+				  "items": {
+					"type": "integer"
+				  },
+				  "description": "Character levels at which new general feats are gained."
+				},
+				"description": {
+				  "type": "string",
+				  "description": "Explanation of feat progression by character level."
+				},
+				"multiclass_note": {
+				  "type": "string",
+				  "description": "Note on how multiclassing affects feat progression."
+				}
+			  },
+			  "required": [
+				"levels",
+				"description",
+				"multiclass_note"
+			  ]
+			},
+			"bonus_feats": {
+			  "type": "array",
+			  "items": {
+				"type": "string"
+			  },
+			  "description": "Sources of bonus feats (e.g., heroic classes, species)."
+			},
+			"source_page_reference": {
+			  "type": "string",
+			  "description": "Page reference for rules on acquiring feats."
+			}
+		  },
+		  "required": [
+			"at_character_creation",
+			"by_level_progression",
+			"bonus_feats",
+			"source_page_reference"
+		  ]
+		},
+		"prerequisites": {
+		  "type": "object",
+		  "description": "Rules concerning feat prerequisites.",
+		  "properties": {
+			"general_rule": {
+			  "type": "string",
+			  "description": "The basic rule for meeting prerequisites."
+			},
+			"timing_of_acquisition": {
+			  "type": "string",
+			  "description": "Rule about gaining feats and prerequisites at the same level."
+			},
+			"numerical_values_as_minimums": {
+			  "type": "string",
+			  "description": "How numerical prerequisites are interpreted."
+			},
+			"losing_prerequisites_effect": {
+			  "type": "string",
+			  "description": "What happens if a character no longer meets a feat's prerequisites."
+			},
+			"source_page_reference": {
+			  "type": "string",
+			  "description": "Page reference for prerequisite rules."
+			}
+		  },
+		  "required": [
+			"general_rule",
+			"timing_of_acquisition",
+			"numerical_values_as_minimums",
+			"losing_prerequisites_effect",
+			"source_page_reference"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference",
+		"page_reference_general",
+		"acquiring_feats",
+		"prerequisites"
+	  ]
+	}
+  },
+  "required": [
+    "feat_rules_data"
+  ]
+}

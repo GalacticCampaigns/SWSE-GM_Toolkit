@@ -1,0 +1,254 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Character Creation Rules",
+  "description": "Schema for the steps and initial statistics involved in character creation for Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "character_creation_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"source_book_reference": {
+		  "type": "string",
+		  "description": "Abbreviation for the primary source book."
+		},
+		"primary_page_reference_crb": {
+		  "type": "string",
+		  "description": "Primary page reference in the Core Rulebook."
+		},
+		"general_notes": {
+		  "type": "array",
+		  "items": {
+			"type": "string"
+		  },
+		  "description": "General notes about character creation."
+		},
+		"creation_steps": {
+		  "type": "array",
+		  "description": "The sequential steps for creating a character.",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "step_number": {
+				"type": "integer"
+			  },
+			  "title": {
+				"type": "string"
+			  },
+			  "summary_from_crb": {
+				"type": "string"
+			  },
+			  "primer_notes": {
+				"type": "string"
+			  },
+			  "detailed_rules_reference": {
+				"type": "string"
+			  }
+			},
+			"required": [
+			  "step_number",
+			  "title",
+			  "summary_from_crb",
+			  "primer_notes",
+			  "detailed_rules_reference"
+			]
+		  }
+		},
+		"initial_combat_statistics_summary_at_1st_level": {
+		  "type": "object",
+		  "description": "Summary of how initial combat statistics are determined at 1st level.",
+		  "properties": {
+			"hit_points": {
+			  "type": "object",
+			  "properties": {
+				"source_page_reference": {
+				  "type": "string"
+				},
+				"by_class_type": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "class_group": {
+						"type": "array",
+						"items": {
+						  "type": "string"
+						}
+					  },
+					  "formula": {
+						"type": "string"
+					  }
+					},
+					"required": [
+					  "class_group",
+					  "formula"
+					]
+				  }
+				},
+				"general_note": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"source_page_reference",
+				"by_class_type",
+				"general_note"
+			  ]
+			},
+			"defenses": {
+			  "type": "object",
+			  "properties": {
+				"source_page_reference": {
+				  "type": "string"
+				},
+				"reflex_defense_formula": {
+				  "type": "string"
+				},
+				"fortitude_defense_formula": {
+				  "type": "string"
+				},
+				"will_defense_formula": {
+				  "type": "string"
+				},
+				"class_bonus_note": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"source_page_reference",
+				"reflex_defense_formula",
+				"fortitude_defense_formula",
+				"will_defense_formula",
+				"class_bonus_note"
+			  ]
+			},
+			"damage_threshold": {
+			  "type": "object",
+			  "properties": {
+				"source_page_reference": {
+				  "type": "string"
+				},
+				"formula_small_medium": {
+				  "type": "string"
+				},
+				"note": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"source_page_reference",
+				"formula_small_medium",
+				"note"
+			  ]
+			},
+			"base_attack_bonus": {
+			  "type": "object",
+			  "properties": {
+				"source_page_reference": {
+				  "type": "string"
+				},
+				"at_1st_level": {
+				  "type": "array",
+				  "items": {
+					"type": "object",
+					"properties": {
+					  "class_group": {
+						"type": "array",
+						"items": {
+						  "type": "string"
+						}
+					  },
+					  "bab": {
+						"type": "string"
+					  }
+					},
+					"required": [
+					  "class_group",
+					  "bab"
+					]
+				  }
+				}
+			  },
+			  "required": [
+				"source_page_reference",
+				"at_1st_level"
+			  ]
+			},
+			"melee_attack_bonus": {
+			  "type": "string"
+			},
+			"ranged_attack_bonus": {
+			  "type": "string"
+			},
+			"speed": {
+			  "type": "string"
+			},
+			"force_points": {
+			  "type": "object",
+			  "properties": {
+				"source_page_reference": {
+				  "type": "string"
+				},
+				"starting_value": {
+				  "type": "integer"
+				},
+				"note_feat": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"source_page_reference",
+				"starting_value",
+				"note_feat"
+			  ]
+			},
+			"destiny_points": {
+			  "type": "object",
+			  "properties": {
+				"source_page_reference": {
+				  "type": "string"
+				},
+				"starting_value": {
+				  "type": "integer"
+				},
+				"condition": {
+				  "type": "string"
+				}
+			  },
+			  "required": [
+				"source_page_reference",
+				"starting_value",
+				"condition"
+			  ]
+			}
+		  },
+		  "required": [
+			"hit_points",
+			"defenses",
+			"damage_threshold",
+			"base_attack_bonus",
+			"melee_attack_bonus",
+			"ranged_attack_bonus",
+			"speed",
+			"force_points",
+			"destiny_points"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference",
+		"primary_page_reference_crb",
+		"general_notes",
+		"creation_steps",
+		"initial_combat_statistics_summary_at_1st_level"
+	  ]
+	}
+  },
+  "required": [
+    "character_creation_rules_data"
+  ]
+}

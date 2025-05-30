@@ -3,522 +3,424 @@
     "description": "Compilation of Defensive Items for Star Wars SAGA Edition.",
     "defensive_items_list": [
       {
+        "id": "bounding_mine_gw",
         "name": "Bounding mine",
-        "cost": {
-          "text_original": "250",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 250
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "6d6",
+        "source_book": "GW",
+        "page": "99",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 250,
         "damage_structured": {
-          "text_original": "6d6",
+          "text": "6d6",
           "dice_count": 6,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "6d6",
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 1,
-        "perception_dc_to_detect": 25,
-        "availability": "Military",
-        "splash_radius_text": "3sq",
         "delay_rounds_text": null,
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 99
+        "perception_dc_to_detect": 25,
+        "splash_radius_text": "3sq",
+        "weight_kg": 1
       },
       {
+        "id": "cannon_heavy_gw",
         "name": "Cannon, heavy",
-        "cost": {
-          "text_original": "2000",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 2000
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 2000,
+        "damage_structured": {
+          "text": "10d10x2",
+          "dice_count": 10,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 2
         },
         "damage_text": "10d10x2",
-        "damage_structured": {
-          "text_original": "10d10x2",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 15,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "6sq",
         "delay_rounds_text": "6",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "6sq",
+        "weight_kg": 15
       },
       {
+        "id": "cannon_light_gw",
         "name": "Cannon, light",
-        "cost": {
-          "text_original": "1000",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 1000
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 1000,
+        "damage_structured": {
+          "text": "8d10x2",
+          "dice_count": 8,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 2
         },
         "damage_text": "8d10x2",
-        "damage_structured": {
-          "text_original": "8d10x2",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 8,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "4sq",
         "delay_rounds_text": "4",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "4sq",
+        "weight_kg": 8
       },
       {
+        "id": "field_gun_gw",
         "name": "Field gun",
-        "cost": {
-          "text_original": "500",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 500
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 500,
+        "damage_structured": {
+          "text": "4d10x2",
+          "dice_count": 4,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 2
         },
         "damage_text": "4d10x2",
-        "damage_structured": {
-          "text_original": "4d10x2",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 2,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": "2",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "2sq",
+        "weight_kg": 2
       },
       {
+        "id": "fragmentation_wire_gw",
         "name": "Fragmentation wire",
-        "cost": {
-          "text_original": "100/m",
-          "options": [
-            {
-              "type": "text_description",
-              "description": "100/m"
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "2d6",
+        "source_book": "GW",
+        "page": "98",
+        "availability": "Military",
+        "comments_and_effects_text": "makes +10 atk for target in sq",
+        "cost_credits": "100/m",
         "damage_structured": {
-          "text_original": "2d6",
+          "text": "2d6",
           "dice_count": 2,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "2d6",
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": "2/m",
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "1sq",
         "delay_rounds_text": null,
-        "comments_and_effects_text": "makes +10 atk for target in sq",
         "parsed_effects": [
           {
             "type": "narrative_property",
             "description": "makes +10 atk for target in sq"
           }
         ],
-        "source_book": "GW",
-        "page": 98
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "1sq",
+        "weight_kg": "2/m"
       },
       {
+        "id": "howitzer_gw",
         "name": "Howitzer",
-        "cost": {
-          "text_original": "750",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 750
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 750,
+        "damage_structured": {
+          "text": "6d10x2",
+          "dice_count": 6,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 2
         },
         "damage_text": "6d10x2",
-        "damage_structured": {
-          "text_original": "6d10x2",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 4,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "3sq",
         "delay_rounds_text": "3",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "3sq",
+        "weight_kg": 4
       },
       {
+        "id": "mortar_frag_gw",
         "name": "Mortar, frag",
-        "cost": {
-          "text_original": "300",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 300
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "4d6",
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 300,
         "damage_structured": {
-          "text_original": "4d6",
+          "text": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "4d6",
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 1.8,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": "2",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "2sq",
+        "weight_kg": 1.8
       },
       {
+        "id": "mortar_ion_gw",
         "name": "Mortar, ion",
-        "cost": {
-          "text_original": "450",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 450
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "4d6",
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 450,
         "damage_structured": {
-          "text_original": "4d6",
+          "text": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "4d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 1.8,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": "2",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "2sq",
+        "weight_kg": 1.8
       },
       {
+        "id": "mortar_stun_gw",
         "name": "Mortar, stun",
-        "cost": {
-          "text_original": "450",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 450
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "4d6",
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 450,
         "damage_structured": {
-          "text_original": "4d6",
+          "text": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "4d6",
         "damage_types": [
           "Energy (Ion)"
         ],
-        "weight_kg": 1.8,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": "2",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "2sq",
+        "weight_kg": 1.8
       },
       {
+        "id": "mortar_thermal_gw",
         "name": "Mortar, thermal",
-        "cost": {
-          "text_original": "3000",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 3000
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "8d6",
+        "source_book": "GW",
+        "page": "100",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 3000,
         "damage_structured": {
-          "text_original": "8d6",
+          "text": "8d6",
           "dice_count": 8,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "8d6",
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": 1.8,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "4sq",
         "delay_rounds_text": "2",
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 100
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "4sq",
+        "weight_kg": 1.8
       },
       {
+        "id": "razor_wire_gw",
         "name": "Razor wire",
-        "cost": {
-          "text_original": "10/m",
-          "options": [
-            {
-              "type": "text_description",
-              "description": "10/m"
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "2d6",
+        "source_book": "GW",
+        "page": "98",
+        "availability": "Restricted",
+        "comments_and_effects_text": "makes +10 atk for target in sq & if successful target can't move, difficult terrain",
+        "cost_credits": "10/m",
         "damage_structured": {
-          "text_original": "2d6",
+          "text": "2d6",
           "dice_count": 2,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "2d6",
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": "2/m",
-        "perception_dc_to_detect": null,
-        "availability": "Restricted",
-        "splash_radius_text": null,
         "delay_rounds_text": null,
-        "comments_and_effects_text": "makes +10 atk for target in sq & if successful target can't move, difficult terrain",
         "parsed_effects": [
           {
             "type": "narrative_property",
             "description": "makes +10 atk for target in sq & if successful target can't move, difficult terrain"
           }
         ],
-        "source_book": "GW",
-        "page": 98
+        "perception_dc_to_detect": null,
+        "splash_radius_text": null,
+        "weight_kg": "2/m"
       },
       {
+        "id": "repulsorlift_inhibitor_gw",
         "name": "Repulsorlift Inhibitor",
-        "cost": {
-          "text_original": "",
-          "options": [
-            {
-              "type": "text_description",
-              "description": "None Specified"
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "99",
+        "availability": "",
+        "comments_and_effects_text": "makes +10 atk v. vehicle for 3d10x2 ion dam & half spd",
+        "cost_credits": null,
+        "damage_structured": {
+          "text": "3d10x2",
+          "dice_count": 3,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 2
         },
         "damage_text": "3d10x2",
-        "damage_structured": {
-          "text_original": "3d10x2",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": null,
-        "perception_dc_to_detect": null,
-        "availability": "",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": null,
-        "comments_and_effects_text": "makes +10 atk v. vehicle for 3d10x2 ion dam & half spd",
         "parsed_effects": [
           {
             "type": "narrative_property",
             "description": "makes +10 atk v. vehicle for 3d10x2 ion dam & half spd"
           }
         ],
-        "source_book": "GW",
-        "page": 99
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "2sq",
+        "weight_kg": null
       },
       {
+        "id": "smart_mine_gw",
         "name": "Smart mine",
-        "cost": {
-          "text_original": "500",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 500
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "5d6",
+        "source_book": "GW",
+        "page": "99",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 500,
         "damage_structured": {
-          "text_original": "5d6",
+          "text": "5d6",
           "dice_count": 5,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "5d6",
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 1.5,
-        "perception_dc_to_detect": 20,
-        "availability": "Military",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": null,
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 99
+        "perception_dc_to_detect": 20,
+        "splash_radius_text": "2sq",
+        "weight_kg": 1.5
       },
       {
+        "id": "static_mine_gw",
         "name": "Static mine",
-        "cost": {
-          "text_original": "100",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 100
-            }
-          ],
-          "selection_logic": null
-        },
-        "damage_text": "4d6",
+        "source_book": "GW",
+        "page": "99",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 100,
         "damage_structured": {
-          "text_original": "4d6",
+          "text": "4d6",
           "dice_count": 4,
           "die_type": 6,
-          "bonus_modifier": 0
+          "bonus_modifier": 0,
+          "damage_multiplier": null
         },
+        "damage_text": "4d6",
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 1,
-        "perception_dc_to_detect": 25,
-        "availability": "Military",
-        "splash_radius_text": "2sq",
         "delay_rounds_text": null,
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 99
+        "perception_dc_to_detect": 25,
+        "splash_radius_text": "2sq",
+        "weight_kg": 1
       },
       {
+        "id": "turbolaser_orbital_gw",
         "name": "Turbolaser, orbital",
-        "cost": {
-          "text_original": "n/a",
-          "options": [
-            {
-              "type": "text_description",
-              "description": "N/a"
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "101",
+        "availability": "Military",
+        "comments_and_effects_text": "-10 penalty to hit",
+        "cost_credits": null,
+        "damage_structured": {
+          "text": "5d10x5",
+          "dice_count": 5,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 5
         },
         "damage_text": "5d10x5",
-        "damage_structured": {
-          "text_original": "5d10x5",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Energy"
         ],
-        "weight_kg": null,
-        "perception_dc_to_detect": null,
-        "availability": "Military",
-        "splash_radius_text": "10sq",
         "delay_rounds_text": "10",
-        "comments_and_effects_text": "-10 penalty to hit",
         "parsed_effects": [
           {
             "type": "narrative_property",
             "description": "-10 penalty to hit"
           }
         ],
-        "source_book": "GW",
-        "page": 101
+        "perception_dc_to_detect": null,
+        "splash_radius_text": "10sq",
+        "weight_kg": null
       },
       {
+        "id": "vehicular_mine_gw",
         "name": "Vehicular mine",
-        "cost": {
-          "text_original": "500",
-          "options": [
-            {
-              "type": "fixed_amount",
-              "value": 500
-            }
-          ],
-          "selection_logic": null
+        "source_book": "GW",
+        "page": "99",
+        "availability": "Military",
+        "comments_and_effects_text": null,
+        "cost_credits": 500,
+        "damage_structured": {
+          "text": "4d10x2",
+          "dice_count": 4,
+          "die_type": 10,
+          "bonus_modifier": 0,
+          "damage_multiplier": 2
         },
         "damage_text": "4d10x2",
-        "damage_structured": {
-          "text_original": "4d10x2",
-          "notes": "Could not fully parse damage string."
-        },
         "damage_types": [
           "Slashing"
         ],
-        "weight_kg": 10,
-        "perception_dc_to_detect": 25,
-        "availability": "Military",
-        "splash_radius_text": "3sq",
         "delay_rounds_text": null,
-        "comments_and_effects_text": null,
         "parsed_effects": [],
-        "source_book": "GW",
-        "page": 99
+        "perception_dc_to_detect": 25,
+        "splash_radius_text": "3sq",
+        "weight_kg": 10
       }
     ]
   }

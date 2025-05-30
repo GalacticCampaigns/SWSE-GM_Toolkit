@@ -1,36 +1,178 @@
 {
-  "saga_index_meta": {
-    "document_info": {
-      "title": "SAGA Index version 4.0",
-      "authors": [
-        "Shane A. Thelen (ewokontoast)",
-        "Staffan Bengtsson (JemyM)"
-      ],
-      "contact": {
-        "person": "richterbelmont10",
-        "email": "richterbelmont10@gmail.com",
-        "note": "(please put \"Saga Index\" in the subject line)"
+  "source_books_data": {
+    "saga_index_meta": {
+      "document_info": {
+        "title": "SAGA Index version 4.0",
+        "authors": [
+          "Shane A. Thelen (ewokontoast)",	"Staffan Bengtsson (JemyM)"
+        ],
+        "contact": {
+          "person": "richterbelmont10",
+          "email": "richterbelmont10@gmail.com",
+          "note": "(please put \"Saga Index\" in the subject line)"
+        }
       }
     },
     "book_abbreviations": [
-      {        "abbr": "CR",         "full_name": "Saga Edition Core Rulebook"      },
-      {        "abbr": "S",         "full_name": "Starships of the Galaxy"      },
-      {        "abbr": "T",        "full_name": "Threats of the Galaxy"      },
-      {        "abbr": "K",        "full_name": "Knights of the Old Republic Campaign Guide"      },
-      {        "abbr": "F",        "full_name": "Force Unleashed Campaign Guide"      },
-      {        "abbr": "SV",        "full_name": "Scum & Villainy"      },
-      {        "abbr": "C",        "full_name": "Clone Wars Campaign Guide"      },
-      {        "abbr": "L",        "full_name": "Legacy Era Campaign Guide"      },
-      {        "abbr": "J",        "full_name": "Jedi Academy Training Manual"      },
-      {        "abbr": "R",        "full_name": "Rebellion Era Campaign Guide"      },
-      {        "abbr": "GW",        "full_name": "Galaxy at War"      },
-      {        "abbr": "SGD",        "full_name": "Scavenger's Guide to Droids"      },
-      {        "abbr": "GI",        "full_name": "Galaxy of Intrigue"      },
-      {        "abbr": "UR",        "full_name": "Unknown Regions"      },
-      {        "abbr": "D#",        "full_name": "Dawn of defiance (# equals episode)"      },
-      {        "abbr": "W",        "full_name": "Web Articles (download the file, then go to page)"      },
-      {        "abbr": "25",        "full_name": "25 to Rescue: A Star Wars Roleplaying Game Encounter"      },
-      {        "abbr": "ID",        "full_name": "Iridonian Darkness: A Knights of the Old Republic Adventure"      }
+      {
+        "abbr": "CR",
+        "full_name": "Saga Edition Core Rulebook",
+        "authors": [	"Christopher Perkins",	"Owen K.C. Stephens",	"Rodney Thompson"],
+        "developer_editor": "Gary M. Sarli",
+        "original_rpg_designers_lineage": [	"Bill Slavicsek",	"Andy Collins",	"JD Wiker"	],
+        "publisher": "Wizards of the Coast, Inc.",
+        "first_printing_date": "May 2007",
+        "publication_date": "June 5, 2007",
+        "isbn_10": "078694356X",
+        "isbn_13": "978-0-7869-4356-2",
+        "copyright_year": 2007,
+        "licensing_notes": "Lucasfilm Ltd. & TM. Wizards of the Coast, Inc."
+      },
+      {
+        "abbr": "S",
+        "full_name": "Starships of the Galaxy",
+        "authors": ["Owen K.C. Stephens", "Rodney Thompson"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "December 18, 2007",
+        "isbn_10": "078694823X",
+        "isbn_13": "978-0786948239"
+      },
+      {
+        "abbr": "T",
+        "full_name": "Threats of the Galaxy",
+        "authors": ["Rodney Thompson", "Eric Cagle", "Gary Astleford", "Robert J. Schwalb", "John Snead", "Patrick Stutzman"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "May 20, 2008",
+        "isbn_10": "0786947810",
+        "isbn_13": "978-0786947812"
+      },
+      {
+        "abbr": "K",
+        "full_name": "Knights of the Old Republic Campaign Guide",
+        "authors": ["Rodney Thompson", "Sterling Hershey", "Abel G. Peña", "John Jackson Miller"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "August 19, 2008",
+        "isbn_10": "0786949236",
+        "isbn_13": "978-0786949236"
+      },
+      {
+        "abbr": "F",
+        "full_name": "Force Unleashed Campaign Guide",
+        "authors": ["Sterling Hershey", "Owen K.C. Stephens", "Rodney Thompson", "Peter Schweighofer"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "September 16, 2008",
+        "isbn_10": "0786947438",
+        "isbn_13": "978-0786947430"
+      },
+      {
+        "abbr": "SV",
+        "full_name": "Scum & Villainy",
+        "authors": ["Gary Astleford", "Robert J. Schwalb", "Owen K. C. Stephens", "Rodney Thompson"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "November 18, 2008",
+        "isbn_10": "0786950358",
+        "isbn_13": "978-0786950355"
+      },
+      {
+        "abbr": "C",
+        "full_name": "Clone Wars Campaign Guide",
+        "authors": ["T. Rob Brown", "Rodney Thompson", "J.D. Wiker", "Gary Astleford", "Patrick Stutzman"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "January 20, 2009",
+        "isbn_10": "0786949996",
+        "isbn_13": "978-0786949991"
+      },
+      {
+        "abbr": "L",
+        "full_name": "Legacy Era Campaign Guide",
+        "authors": ["Rodney Thompson", "Sterling Hershey", "Gary Astleford"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "March 17, 2009",
+        "isbn_10": "078695051X",
+        "isbn_13": "978-0786950515"
+      },
+      {
+        "abbr": "J",
+        "full_name": "Jedi Academy Training Manual",
+        "authors": ["Rodney Thompson"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "May 19, 2009",
+        "isbn_10": "0786951834",
+        "isbn_13": "978-0786951833"
+      },
+      {
+        "abbr": "R",
+        "full_name": "Rebellion Era Campaign Guide",
+        "authors": ["Rodney Thompson", "Sterling Hershey", "Owen K.C. Stephens", "JD Wiker"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "July 2009",
+        "isbn_10": "078694983X",
+        "isbn_13": "978-0786949830"
+      },
+      {
+        "abbr": "GW",
+        "full_name": "Galaxy at War",
+        "authors": ["Rodney Thompson", "Gary Astleford", "Eric Cagle", "Daniel Wallace"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "September 2009",
+        "isbn_10": "0786952210",
+        "isbn_13": "978-0786952212"
+      },
+      {
+        "abbr": "SGD",
+        "full_name": "Scavenger's Guide to Droids",
+        "authors": ["Rodney Thompson"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "November 17, 2009",
+        "isbn_10": "078695230X",
+        "isbn_13": "978-0786952304"
+      },
+      {
+        "abbr": "GI",
+        "full_name": "Galaxy of Intrigue",
+        "authors": ["Rodney Thompson", "Gary Astleford", "Eric Cagle", "T. Rob Brown"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "January 19, 2010",
+        "isbn_10": "0786954000",
+        "isbn_13": "978-0786954001"
+      },
+      {
+        "abbr": "UR",
+        "full_name": "Unknown Regions",
+        "authors": ["Rodney Thompson", "Daniel Wallace", "Sterling Hershey"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": "April 20, 2010",
+        "isbn_10": "0786953993",
+        "isbn_13": "978-0786953998"
+      },
+      {
+        "abbr": "D#",
+        "full_name": "Dawn of defiance (# equals episode)"
+        "publisher": "Wizards of the Coast, Inc.",
+      },
+      {
+        "abbr": "W",
+        "full_name": "Web Articles (download the file, then go to page)"
+        "publisher": "Wizards of the Coast, Inc.",
+      },
+      {
+        "abbr": "25",
+        "full_name": "25 to Rescue: A Star Wars Roleplaying Game Encounter",
+        "authors": ["Wizards of the Coast"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": null,
+        "isbn_10": null,
+        "isbn_13": null
+      },
+      {
+        "abbr": "ID",
+        "full_name": "Iridonian Darkness: A Knights of the Old Republic Adventure",
+        "authors": ["Wizards of the Coast"],
+        "publisher": "Wizards of the Coast, Inc.",
+        "publication_date": null,
+        "isbn_10": null,
+        "isbn_13": null
+      }
     ]
   }
 }

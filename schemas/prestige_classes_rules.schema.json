@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Prestige Class Rules",
+  "description": "Schema for general rules and mechanics related to Prestige Classes in Star Wars Saga Edition.",
+  "type": "object",
+  "properties": {
+    "prestige_classes_game_rules_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"source_book_reference": {
+		  "type": "string",
+		  "description": "Abbreviation for the primary source book."
+		},
+		"page_reference_general": {
+		  "type": "string",
+		  "description": "General page reference in the source book for prestige class rules."
+		},
+		"prestige_class_overview": {
+		  "type": "object",
+		  "description": "An overview of what prestige classes are.",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"entry_requirements": {
+			  "type": "string"
+			},
+			"advancement": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"entry_requirements",
+			"advancement"
+		  ]
+		},
+		"prestige_class_game_rules": {
+		  "type": "object",
+		  "description": "Specific game mechanics for prestige classes.",
+		  "properties": {
+			"hit_points": {
+			  "type": "string"
+			},
+			"force_points": {
+			  "type": "string"
+			},
+			"defense_bonuses": {
+			  "type": "string"
+			},
+			"base_attack_bonus_bab": {
+			  "type": "string"
+			},
+			"talents": {
+			  "type": "string"
+			},
+			"special_abilities": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"hit_points",
+			"force_points",
+			"defense_bonuses",
+			"base_attack_bonus_bab",
+			"talents",
+			"special_abilities"
+		  ]
+		},
+		"table_12_1_prestige_class_level_progression_summary": {
+		  "type": "object",
+		  "description": "Summary of general level progression benefits for prestige classes.",
+		  "properties": {
+			"description": {
+			  "type": "string"
+			},
+			"source_page_reference": {
+			  "type": "string"
+			},
+			"benefits_by_level": {
+			  "type": "array",
+			  "items": {
+				"type": "object",
+				"properties": {
+				  "prestige_class_level": {
+					"type": "integer"
+				  },
+				  "force_points_gained_formula": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "prestige_class_level",
+				  "force_points_gained_formula"
+				]
+			  }
+			},
+			"general_notes": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"description",
+			"source_page_reference",
+			"benefits_by_level",
+			"general_notes"
+		  ]
+		}
+	  },
+	  "required": [
+		"file_description",
+		"source_book_reference",
+		"page_reference_general",
+		"prestige_class_overview",
+		"prestige_class_game_rules",
+		"table_12_1_prestige_class_level_progression_summary"
+	  ]
+	},
+  "required": [
+    "prestige_classes_rules_data"
+  ]
+}

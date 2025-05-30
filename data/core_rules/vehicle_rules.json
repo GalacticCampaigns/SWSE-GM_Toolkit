@@ -1,0 +1,178 @@
+{
+  "vehicle_rules_data": {
+    "description": "General rules for vehicles from the Star Wars Saga Edition Core Rulebook, covering vehicle scale, types, statistics, and character interactions.",
+    "rules_sections": [
+      {
+        "rule_id": "vehicle_scale",
+        "title": "Vehicle Scale",
+        "source_book": "CR",
+        "page": 165,
+        "details": [
+          {
+            "sub_rule_id": "scale_overview",
+            "text": "Vehicle rules use two scales: character scale and starship scale. If an encounter involves both vehicles and characters on foot, use character scale. If the scene involves vehicles only, use starship scale."
+          },
+          {
+            "sub_rule_id": "character_scale",
+            "title": "Character Scale",
+            "text": "Character scale is identical to the standard movement scale where each square equals 1.5 meters. Most vehicles occupy multiple squares. Vehicles of Colossal (frigate) size or greater are typically not placed on the battle map in character scale; they are either off-map or the battle occurs inside them. More than one surface vehicle cannot occupy the same space, and collisions occur if a vehicle enters an occupied square."
+          },
+          {
+            "sub_rule_id": "starship_scale",
+            "title": "Starship Scale",
+            "text": "In starship scale, each grid square represents a variable distance (hundreds or thousands of meters). The grid represents relative movement. Multiple starships can occupy the same square without collision if they are of different sizes or if their pilots succeed on opposed Pilot checks. Starship scale is primarily for starship-to-starship combat."
+          }
+        ]
+      },
+      {
+        "rule_id": "vehicle_types",
+        "title": "Vehicle Types",
+        "source_book": "CR",
+        "page": 166,
+        "details": [
+          {
+            "sub_rule_id": "planetary_vehicles_overview",
+            "title": "Planetary Vehicles",
+            "text": "Planetary vehicles are subdivided into ground vehicles and air vehicles."
+          },
+          {
+            "sub_rule_id": "ground_vehicles",
+            "title": "Ground Vehicles",
+            "text": "Operate on or very near a planetary surface. Types include: Speeders (repulsorlift, ignore difficult terrain), Tracked (great traction, ignore difficult terrain, half damage from collisions with smaller obstacles), Walkers (legged, ignore obstacles three+ sizes smaller), Wheeled (fast, maneuverable, cheap alternative to repulsorlift)."
+          },
+          {
+            "sub_rule_id": "air_vehicles",
+            "title": "Air Vehicles",
+            "text": "Operate above a planetary surface within atmosphere. Type: Airspeeders (repulsorlift, up to 300km altitude, ignore terrain/obstruction penalties, most maneuverable planetary vehicle)."
+          },
+          {
+            "sub_rule_id": "starships_overview",
+            "title": "Starships",
+            "text": "Capable of interplanetary and interstellar travel. Subdivided into starfighters, space transports, capital ships, and space stations."
+          },
+          {
+            "sub_rule_id": "starfighters",
+            "title": "Starfighters",
+            "text": "Small, agile starships of Gargantuan size or smaller. Excel at space combat, can function in atmosphere. Can have minimal crew (e.g., 1 pilot)."
+          },
+          {
+            "sub_rule_id": "space_transports",
+            "title": "Space Transports",
+            "text": "Mid-size starships of Colossal or Colossal (frigate) size with fewer than 200 hit points. Used for cargo, passengers, or as gunships/assault shuttles."
+          },
+          {
+            "sub_rule_id": "capital_ships",
+            "title": "Capital Ships",
+            "text": "Starships of Colossal (frigate) size or larger. Carry large crews/passengers, may house other craft. Some large transports/colony ships fall here."
+          },
+          {
+            "sub_rule_id": "space_stations",
+            "title": "Space Stations",
+            "text": "Have starship-like statistics but are typically immobile. Can house thousands or millions. (Death Star is a notable mobile exception)."
+          }
+        ]
+      },
+      {
+        "rule_id": "vehicle_statistics_explanation",
+        "title": "Understanding Vehicle Statistics",
+        "source_book": "CR",
+        "page": 167,
+        "details": [
+          {"sub_rule_id": "stat_name", "stat_name": "Name", "explanation": "The common designation of the vehicle."},
+          {"sub_rule_id": "stat_cl", "stat_name": "CL (Challenge Level)", "explanation": "Indicates the experience point award for overcoming the vehicle."},
+          {
+            "sub_rule_id": "stat_size",
+            "stat_name": "Size",
+            "explanation": "Vehicle size category (e.g., Large, Huge, Gargantuan, Colossal, Colossal (frigate), Colossal (cruiser), Colossal (station)). Vehicle size modifier applies to Reflex Defense, Initiative, and Pilot checks. See Table 10-1 (CRB book p.167) for specific modifiers.",
+            "table_10_1_summary_note": "Table 10-1 lists: Colossal (station/cruiser/frigate/standard) -10; Gargantuan -5; Huge -2; Large -1."
+          },
+          {"sub_rule_id": "stat_initiative", "stat_name": "Initiative", "explanation": "The vehicle's Initiative modifier, often derived from the pilot's Pilot skill or the vehicle's base Dexterity modifier, plus the vehicle's size modifier."},
+          {"sub_rule_id": "stat_senses", "stat_name": "Senses", "explanation": "The vehicle's Perception modifier (often based on crew) and any special senses (e.g., darkvision) its sensors possess."},
+          {
+            "sub_rule_id": "stat_defenses",
+            "stat_name": "Defenses",
+            "explanation": "Reflex Defense (Ref): Base 10 + vehicle's Dexterity modifier + vehicle's size modifier + armor bonus (from equipment) or pilot's heroic level. Represents how hard the vehicle is to hit. Fortitude Defense (Fort): Base 10 + vehicle's Strength modifier + vehicle's size modifier. Represents resistance to effects like collisions or radiation. Armor: Provides Damage Reduction (DR) against attacks."
+          },
+          {"sub_rule_id": "stat_hp", "stat_name": "Hit Points (hp)", "explanation": "A fixed value representing the vehicle's ability to take damage. Not based on a Constitution score."},
+          {"sub_rule_id": "stat_dt", "stat_name": "Damage Threshold (DT)", "explanation": "Calculated as Fortitude Defense + size bonus (Large +5, Huge +10, Gargantuan +20, Colossal +50, Col (frigate) +100, Col (cruiser) +200, Col (station) +500). Attacks dealing damage equal to or exceeding DT move the vehicle down the condition track."},
+          {"sub_rule_id": "stat_speed", "stat_name": "Speed", "explanation": "Character-scale speed in squares. Starship-scale speed in squares (if applicable). May also list maximum velocity (km/h) and operational altitude/hover height."},
+          {"sub_rule_id": "stat_fighting_space", "stat_name": "Fighting Space", "explanation": "Squares occupied by the vehicle on a battle map (character and/or starship scale)."},
+          {"sub_rule_id": "stat_base_attack", "stat_name": "Base Attack (Base Atk)", "explanation": "Vehicle's own Base Attack Bonus, used for ramming. Weapon attacks use crew BAB."},
+          {"sub_rule_id": "stat_grapple", "stat_name": "Grapple (Grp)", "explanation": "Vehicle's grapple modifier, derived from its Strength and size. Used to resist tractor beams or other grappling effects."},
+          {
+            "sub_rule_id": "stat_abilities",
+            "stat_name": "Abilities",
+            "explanation": "Strength (Str): Affects Fortitude Defense, carrying capacity, grapple modifier, and ramming damage. Dexterity (Dex): Affects Reflex Defense, Initiative (sometimes), and Pilot checks for maneuvering. Vehicles typically do not add a Dexterity bonus to Reflex Defense from armor unless specifically noted. Intelligence (Int): For on-board computers, sensors, and targeting systems. Vehicles usually have Int '-' unless they possess a droid brain. Vehicles do not have Constitution scores."
+          },
+          {"sub_rule_id": "stat_skills", "stat_name": "Skills", "explanation": "Lists skill modifiers typically made by the crew using the vehicle's systems (e.g., Initiative, Mechanics, Perception, Pilot, Use Computer)."},
+          {"sub_rule_id": "stat_crew", "stat_name": "Crew", "explanation": "Number and typical skill level of crew required (e.g., '1 pilot (skilled)', '5 (expert)')."},
+          {"sub_rule_id": "stat_passengers", "stat_name": "Passengers", "explanation": "Number of passengers the vehicle can carry in addition to its crew."},
+          {"sub_rule_id": "stat_cargo", "stat_name": "Cargo", "explanation": "Cargo capacity in kilograms."},
+          {"sub_rule_id": "stat_consumables", "stat_name": "Consumables", "explanation": "Duration of life support and other essential supplies (e.g., '1 day', '2 months')."},
+          {"sub_rule_id": "stat_carried_craft", "stat_name": "Carried Craft", "explanation": "Any smaller vehicles the vehicle is designed to carry (e.g., starfighters in a capital ship's hangar)."},
+          {"sub_rule_id": "stat_payload_armament", "stat_name": "Payload/Armament", "explanation": "Lists the vehicle's weapon systems and ordnance. Specific statistics for weapons are detailed per weapon entry."},
+          {"sub_rule_id": "stat_hyperdrive", "stat_name": "Hyperdrive", "explanation": "Multiplier used for calculating hyperspace travel times (e.g., x1, x2). Backup hyperdrive rating may be listed in parentheses. Not applicable to all vehicles."},
+          {"sub_rule_id": "stat_availability_cost", "stat_name": "Availability and Cost", "explanation": "The vehicle's restriction level (e.g., Licensed, Military, Restricted) and its cost in credits (new and/or used)."}
+        ]
+      },
+      {
+        "rule_id": "characters_in_vehicles",
+        "title": "Characters in Vehicles",
+        "source_book": "CR",
+        "page": 169,
+        "details": [
+          {
+            "sub_rule_id": "crew_roles_overview",
+            "title": "Crew Roles",
+            "text": "A character in a vehicle fills one or more roles, determining their available actions. Roles can change round to round if the position is available. Generally, only one character can fill a primary role (like pilot) at a time."
+          },
+          {
+            "sub_rule_id": "role_pilot",
+            "title": "Pilot",
+            "text": "Controls the vehicle's movement. Piloting is at least a move action. The pilot applies the vehicle's size modifier and Dexterity modifier to their Initiative and Pilot checks."
+          },
+          {
+            "sub_rule_id": "role_copilot",
+            "title": "Copilot",
+            "text": "Can assist the pilot using the aid another action (standard action). Must be able to see and advise the pilot. Only one copilot at a time."
+          },
+          {
+            "sub_rule_id": "role_gunner",
+            "title": "Gunner",
+            "text": "Operates vehicle weapons not controlled by the pilot or copilot. A vehicle can have multiple gunners if it has multiple gunner positions."
+          },
+          {
+            "sub_rule_id": "role_commander",
+            "title": "Commander",
+            "text": "Coordinates crew members and stations, analyzes the battle, and identifies enemy weaknesses. One commander at a time."
+          },
+          {
+            "sub_rule_id": "role_system_operator",
+            "title": "System Operator",
+            "text": "Manages the vehicle's shields, sensors, and communications systems. One system operator at a time."
+          },
+          {
+            "sub_rule_id": "role_engineer",
+            "title": "Engineer",
+            "text": "Chief engineer keeps the ship running, diverts power, and leads repair efforts. One chief engineer at a time."
+          },
+          {
+            "sub_rule_id": "role_other_crew",
+            "title": "Other Crew",
+            "text": "Fill support roles such as troop coordination, medical aid, guard duty, and general maintenance. Can assist others on some skill checks."
+          },
+          {
+            "sub_rule_id": "role_passenger",
+            "title": "Passenger",
+            "text": "Have no specific role in vehicle operation but may take personal actions or replace crew members if qualified."
+          },
+          {
+            "sub_rule_id": "entering_exiting",
+            "title": "Entering and Exiting Vehicles",
+            "text": "Climbing aboard or into a vehicle is typically a move action. Powering up a vehicle's systems usually requires a second move action, or can be part of a 'start vehicle' action if defined."
+          }
+        ]
+      }
+    ]
+  }
+}

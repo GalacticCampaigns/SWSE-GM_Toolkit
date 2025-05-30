@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SAGA Edition Source Books",
+  "description": "Schema for the list of source books used in the SAGA Index project.",
+  "type": "object",
+  "properties": {
+    "source_books_data": {
+      "type": "object",
+      "description": "Wrapper for the source books data.",
+      "properties": {
+        "saga_index_meta": {
+          "type": "object",
+          "description": "Metadata about the SAGA Index project itself.",
+          "properties": {
+            "document_info": {
+              "type": "object",
+              "properties": {
+                "title": {"type": "string"},
+                "authors": {
+                  "type": "array",
+                  "items": {"type": "string"}
+                },
+                "contact": {
+                  "type": "object",
+                  "properties": {
+                    "person": {"type": "string"},
+                    "email": {"type": "string", "format": "email"},
+                    "note": {"type": "string"}
+                  },
+                  "required": ["person", "email"]
+                }
+              },
+              "required": ["title", "authors", "contact"]
+            }
+          },
+          "required": ["document_info"]
+        },
+        "book_abbreviations": {
+          "type": "array",
+          "description": "A list of source books with their abbreviations and details.",
+          "items": {
+            "$ref": "#/definitions/book_entry"
+          }
+        }
+      },
+      "required": [
+        "saga_index_meta",
+        "book_abbreviations"
+      ]
+    }
+  },
+  "required": [
+    "source_books_data"
+  ],
+  "definitions": {
+    "book_entry": {
+      "type": "object",
+      "description": "Represents a single source book entry.",
+      "properties": {
+        "abbr": {
+          "type": "string",
+          "description": "The abbreviation for the source book (e.g., 'CR', 'S', 'K')."
+        },
+        "full_name": {
+          "type": "string",
+          "description": "The full name of the source book."
+        },
+        "authors": {
+          "type": ["array", "null"],
+          "items": {"type": "string"},
+          "description": "List of primary authors or designers for the source book."
+        },
+        "developer_editor": {
+          "type": ["string", "null"],
+          "description": "Key developer or editor for the source book, if distinct."
+        },
+        "original_rpg_designers_lineage": {
+          "type": ["array", "null"],
+          "items": {"type": "string"},
+          "description": "Designers of preceding works this book builds upon (e.g., for CRB)."
+        },
+        "publisher": {
+          "type": ["string", "null"],
+          "description": "The publisher of the source book."
+        },
+        "first_printing_date": {
+          "type": ["string", "null"],
+          "description": "The date of the first printing (e.g., 'May 2007')."
+        },
+        "publication_date": {
+          "type": ["string", "null"],
+          "description": "The official publication date (e.g., 'June 5, 2007')."
+        },
+        "isbn_10": {
+          "type": ["string", "null"],
+          "description": "The 10-digit ISBN for the source book."
+        },
+        "isbn_13": {
+          "type": ["string", "null"],
+          "description": "The 13-digit ISBN for the source book."
+        },
+        "copyright_year": {
+          "type": ["integer", "null"],
+          "description": "The primary copyright year for the edition."
+        },
+        "licensing_notes": {
+          "type": ["string", "null"],
+          "description": "Brief notes on licensing (e.g., 'Lucasfilm Ltd. & TM. Wizards of the Coast, Inc.')."
+        }
+      },
+      "required": [
+        "abbr",
+        "full_name"
+      ]
+    }
+  }
+}

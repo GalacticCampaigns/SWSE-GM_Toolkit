@@ -117,6 +117,10 @@
     "template_item": {
       "type": "object",
       "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the template, typically generated as snake_case(name) + '_' + source_book_abbreviation."
+        },
         "name": { "type": "string", "description": "Name of the template." },
         "applies_to_type": { "type": ["string", "null"], "description": "Type of entity the template applies to (e.g., Vehicle, Weapon, Droid)." },
         "full_text_description": { "type": ["string", "null"], "description": "Full descriptive text of the template from the 'Desc.' column." },
@@ -131,7 +135,13 @@
         "source_book": { "type": "string" },
         "page": { "type": "integer" }
       },
-      "required": ["name", "full_text_description", "source_book", "page"]
+      "required": [
+        "id",
+        "name",
+        "full_text_description",
+        "source_book",
+        "page"
+      ]
     }
   }
 }

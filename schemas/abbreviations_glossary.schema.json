@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saga Edition Abbreviations Glossary",
+  "description": "Schema for a glossary of common abbreviations, shorthand, and acronyms used in Star Wars Saga Edition data files.",
+  "type": "object",
+  "properties": {
+    "abbreviations_glossary_data": {
+      "type": "object",
+      "properties": {
+		"file_description": {
+		  "type": "string",
+		  "description": "Description of the file's purpose."
+		},
+		"last_updated": {
+		  "type": "string",
+		  "format": "date",
+		  "description": "The date when the glossary was last updated."
+		},
+		"categories": {
+		  "type": "array",
+		  "description": "Abbreviations categorized by their context.",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "category_name": {
+				"type": "string",
+				"description": "The name of the category (e.g., 'General Game Mechanics & Terms')."
+			  },
+			  "terms": {
+				"type": "array",
+				"description": "A list of terms within this category.",
+				"items": {
+				  "type": "object",
+				  "properties": {
+					"abbr": {
+					  "type": "string",
+					  "description": "The abbreviation or shorthand (e.g., 'AoO')."
+					},
+					"full_name": {
+					  "type": "string",
+					  "description": "The full name or expansion of the abbreviation (e.g., 'Attack of Opportunity')."
+					},
+					"description": {
+					  "type": "string",
+					  "description": "A brief description or definition of the term."
+					}
+				  },
+				  "required": [
+					"abbr",
+					"full_name",
+					"description"
+				  ]
+				}
+			  },
+			  "source_note": {
+				"type": "string",
+				"description": "Optional note about the source of terms in this category (e.g., for Ability Scores)."
+			  }
+			},
+			"required": [
+			  "category_name",
+			  "terms"
+			]
+		  }
+		},
+		"reference_note": {
+		  "type": "string",
+		  "description": "General reference note, e.g., for source book abbreviations."
+		}
+	  },
+	  "required": [
+		"file_description",
+		"last_updated",
+		"categories"
+	  ]
+	}
+  },
+  "required": [
+    "abbreviations_glossary_data"
+  ]
+}

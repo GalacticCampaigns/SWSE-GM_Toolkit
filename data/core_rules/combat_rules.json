@@ -1,416 +1,418 @@
 {
-  "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks.",
-  "actions_in_combat": {
-    "description": "On a character's turn, they can perform various types of actions. The number and type of actions are limited.",
-    "action_summary_per_turn": "Typically, a character can take one standard action and one move action (in any order), or one full-round action. Additionally, a character can take one swift action and any number of free actions (GM permitting). A character can also use one reaction per round (unless an ability allows more).",
-    "action_types": [
-      {
-        "type_name": "Standard Action",
-        "description": "Usually involves attacking, using a skill, activating a Force power, or performing a similar significant task.",
-        "usage_per_turn": "One (can be exchanged for a move action).",
-        "examples": [
-          "Making a single attack.",
-          "Using a skill that requires a standard action.",
-          "Activating a Force power with a standard action casting time.",
-          "Using the aid another action.",
-          "Readying an action."
-        ],
-        "source_page_reference": "CR 144-145"
-      },
-      {
-        "type_name": "Move Action",
-        "description": "Typically used to move a character's speed or perform an action that takes a similar amount of effort.",
-        "usage_per_turn": "One (can take a second move action by giving up standard action).",
-        "examples": [
-          "Moving up to character's speed.",
-          "Climbing one-fourth of speed.",
-          "Drawing or holstering a weapon (Errata: Holstering is a move action, drawing can be swift with Quick Draw feat).",
-          "Standing up from prone.",
-          "Opening or closing a door."
-        ],
-        "source_page_reference": "CR 145",
-        "errata_applied_notes": "CRB Errata p.297 clarifies drawing a weapon is a move action, holstering is a move action. Quick Draw feat makes drawing a swift action."
-      },
-      {
-        "type_name": "Full-Round Action",
-        "description": "Consumes an entire turn's worth of effort. Cannot take other standard, move, or swift actions in the same turn, but can still take free actions.",
-        "usage_per_turn": "One (replaces standard and move actions).",
-        "examples": [
-          "Making a full attack.",
-          "Charging.",
-          "Running.",
-          "Using a skill that requires a full-round action."
-        ],
-        "source_page_reference": "CR 145"
-      },
-      {
-        "type_name": "Swift Action",
-        "description": "Consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action.",
-        "usage_per_turn": "One.",
-        "examples": [
-          "Activating some talents or Force powers.",
-          "Quick Draw feat to draw a weapon.",
-          "Catching a second wind (requires three swift actions normally)."
-        ],
-        "source_page_reference": "CR 145"
-      },
-      {
-        "type_name": "Free Action",
-        "description": "Consumes a negligible amount of time and effort.",
-        "usage_per_turn": "Multiple, but GM may limit to prevent abuse.",
-        "examples": [
-          "Dropping an item.",
-          "Speaking.",
-          "Ending concentration on a Force power."
-        ],
-        "source_page_reference": "CR 145-146"
-      },
-      {
-        "type_name": "Reaction",
-        "description": "An action taken in response to an event or another creature's action, occurring outside of the character's normal turn.",
-        "usage_per_turn": "One (unless an ability like Combat Reflexes feat allows more for attacks of opportunity).",
-        "examples": [
-          "Making an attack of opportunity.",
-          "Activating a readied action.",
-          "Using certain talents or Force powers that specify 'reaction' as their activation time."
-        ],
-        "source_page_reference": "CR 146"
-      }
-    ],
-    "source_page_reference": "CR 144-146"
-  },
-  "aquatic_combat": {
-    "description": "Rules for combat occurring in water.",
-    "source_page_reference": "CR 157",
-    "movement_in_water": {
-      "swimming": "Characters without a swim speed move at half their land speed (making a Swim check each round to move one-quarter speed as a move action, or half speed as a full-round action). Creatures with a natural swim speed use that speed.",
-      "difficult_conditions": "The Swim skill is used to navigate rough water or perform other difficult maneuvers."
-    },
-    "melee_attacks_underwater": [
-      {
-        "weapon_type": "Unarmed, Slashing, or Bludgeoning",
-        "penalty": "-2 penalty on attack rolls, damage is halved."
-      },
-      {
-        "weapon_type": "Piercing",
-        "penalty": "No penalty."
-      }
-    ],
-    "ranged_attacks_underwater": [
-      {
-        "weapon_type": "Thrown weapons (not specifically designed for underwater use)",
-        "rule": "Cannot be used effectively."
-      },
-      {
-        "weapon_type": "Projectile weapons (bows, slugthrowers, not specifically designed)",
-        "rule": "Cannot be used effectively."
-      },
-      {
-        "weapon_type": "Blasters and other energy weapons",
-        "rule": "Function normally, but all range increments are halved."
-      }
-    ],
-    "other_considerations": [
-      "Suffocation: Nonamphibious creatures or those without special equipment risk drowning.",
-      "Visibility: Often reduced underwater."
-    ]
-  },
-  "general_notes_on_extensibility": "Rules herein are from the Core Rulebook (CR) unless otherwise noted. Future updates may add rules variants or expansions from other sourcebooks, which will be appropriately sourced.",
-  "initiative": {
-    "description": "An Initiative check determines the order of combat when a battle starts. It's a Dexterity check.",
-    "check_formula": "d20 + Dexterity modifier + one-half character level (rounded down) + other modifiers (feats, talents, vehicle size).",
-    "when_to_roll": "At the start of a battle, before any actions are taken, as a reaction.",
-    "initiative_count": "The result of the Initiative check is the character's initiative count, determining their place in the combat order for that encounter.",
-    "tie_breaking_rule": "If two or more combatants have the same Initiative check result, the combatant with the higher Dexterity modifier acts first. If Dexterity modifiers are also tied, the tied combatants roll a d20, and whoever rolls higher acts first.",
-    "delaying_action": {
-      "description": "You can choose to take your turn later in the round (or a subsequent round) than your initiative count would normally allow. You choose a lower initiative count to act on. Your initiative count becomes this new, lower number for the rest of the combat.",
-      "action_cost": "Free action, declared on your turn."
-    },
-    "readying_an_action": {
-      "description": "You can ready an action to take place outside of your turn when a specific trigger event occurs. Readying is a standard action.",
-      "trigger_specification": "You must specify the action you will take and the circumstances under which you will take it.",
-      "acting_when_triggered": "When the trigger occurs, you can take your readied action or choose not to. Taking the readied action uses your reaction for the round and drops your initiative count to just before the combatant whose action triggered your readied action.",
-      "action_cost": "Standard action to ready."
-    },
-    "source_page_reference": "CR 144"
-  },
-  "mounted_combat": {
-    "description": "Rules for engaging in combat while riding a creature or vehicle.",
-    "source_page_reference": "CR 156-157",
-    "general_rules": {
-      "mount_initiative": "A mount acts on its rider's Initiative count, as directed by the rider.",
-      "rider_actions": "The rider moves at the mount's speed and can perform actions as normal while the mount moves.",
-      "directing_mount": "Directing a mount is typically a move action if it's not trained for combat or riding. Warbeasts or animals trained for riding typically do not require an action to guide in normal circumstances."
-    },
-    "combat_while_mounted": [
-      {
-        "situation": "Mount as Cover",
-        "rule": "You can drop down and hang alongside your mount, using it as cover (+5 bonus to Reflex Defense). You cannot attack or cast Force powers while using your mount as cover. This typically requires a Ride check (DC 15 as per Ride skill, CR p.73)."
-      },
-      {
-        "situation": "Attacks by Rider",
-        "rule": "You can make melee or ranged attacks as normal. A charging mount allows you to make a charge attack. If the mount is also attacking, it remains in its space while you attack."
-      },
-      {
-        "situation": "Casting Force Powers",
-        "rule": "Casting a Force power while mounted requires a Ride check (DC = 10 + the level of the Force power). Failure means the power fails, but the use of the power is still expended."
-      },
-      {
-        "situation": "If Your Mount is Hit in Combat",
-        "rule": "If your mount takes damage equal to or exceeding its damage threshold, you must make a Ride check (DC = damage dealt) to stay mounted. Failure means you are knocked prone in a square adjacent to your mount."
-      },
-      {
-        "situation": "If Your Mount Falls",
-        "rule": "If your mount falls (e.g., is knocked prone or killed), you must make a DC 15 Ride check to land safely. Failure means you take 1d6 points of falling damage and fall prone."
-      }
-    ],
-    "special_mount_actions_ride_skill_interaction": "The Ride skill (CR p.73) details specific actions such as 'Fight with War-Trained Mount,' 'Overrun with Mount,' 'Soft Fall from Mount,' and 'Leap with Mount'."
-  },
-  "other_combat_modifiers": {
-    "description": "Additional modifiers and rules affecting combat calculations.",
-    "source_page_reference": "CR 158-159",
-    "attacking_an_object": {
-      "general_notes": "Objects are usually immune to critical hits unless specified otherwise. They are automatically hit if immobile, or use a DC based on size if thrown/moving (see Table 9-4).",
-      "breaking_objects": "Requires dealing damage that exceeds the object's Hardness and then reduces its Hit Points to 0.",
-      "object_hardness": "Subtract from damage dealt. See Table 9-2: Object Hardness and Hit Points & Table 9-3: Substance Hardness and Hit Points for examples.",
-      "object_hit_points": "Determined by size and material. See Table 9-2.",
-      "energy_damage_vs_objects": "Typically ignores the Hardness of most objects (except those specifically resistant, like starship hulls).",
-      "ineffective_weapons": "Some weapons may be ineffective against certain objects (e.g., a vibroblade against a stone wall).",
-      "immunities": "Objects are immune to nonlethal damage, ability damage, mind-affecting effects, poison, and disease unless specifically noted.",
-      "damaging_vehicles_and_starships": "Use Damage Reduction (DR) and Shield Rating (SR) instead of Hardness (see Chapter 11).",
-      "table_9_2_object_hardness_and_hit_points_examples": [
-        {
-          "object": "Simple Wooden Door",
-          "hardness": 5,
-          "hit_points": 30,
-          "break_dc": 20
-        },
-        {
-          "object": "Strong Wooden Door",
-          "hardness": 5,
-          "hit_points": 60,
-          "break_dc": 25
-        },
-        {
-          "object": "Datapad",
-          "hardness": 2,
-          "hit_points": 5,
-          "break_dc": 15,
-          "errata_note": "CRB Errata p.298 changes Datapad HP from 1 to 5."
-        },
-        {
-          "object": "Blaster Pistol",
-          "hardness": 10,
-          "hit_points": 15,
-          "break_dc": 20
-        },
-        {
-          "object": "Light Repeating Blaster",
-          "hardness": 10,
-          "hit_points": 30,
-          "break_dc": 25
-        }
-      ],
-      "table_9_3_substance_hardness_and_hit_points_examples": [
-        {
-          "substance": "Glass",
-          "hardness": 1,
-          "hp_per_2_5_cm_thickness": 1
-        },
-        {
-          "substance": "Ice",
-          "hardness": 0,
-          "hp_per_2_5_cm_thickness": 3
-        },
-        {
-          "substance": "Wood",
-          "hardness": 5,
-          "hp_per_2_5_cm_thickness": 10
-        },
-        {
-          "substance": "Stone",
-          "hardness": 8,
-          "hp_per_2_5_cm_thickness": 15
-        },
-        {
-          "substance": "Iron or Steel",
-          "hardness": 10,
-          "hp_per_2_5_cm_thickness": 30
-        },
-        {
-          "substance": "Reinforced Concrete",
-          "hardness": 8,
-          "hp_per_30_cm_thickness": 180
-        },
-        {
-          "substance": "Starship Hull (Durasteel)",
-          "hardness": 15,
-          "hp_per_2_5_cm_thickness": 30
-        }
-      ],
-      "table_9_4_dcs_to_break_or_burst_items_examples": [
-        {
-          "action": "Break down simple door",
-          "strength_check_dc": 20
-        },
-        {
-          "action": "Break down strong door",
-          "strength_check_dc": 25
-        },
-        {
-          "action": "Burst Ropes",
-          "strength_check_dc": 23
-        },
-        {
-          "action": "Bend Iron Bars",
-          "strength_check_dc": 24
-        }
-      ]
-    },
-    "damage_reduction_dr": {
-      "description": "DR subtracts a specific amount from damage dealt by most attacks. Damage cannot be reduced below 0.",
-      "stacking_note": "DR from multiple sources generally does not stack unless the sources are of different types (a rare occurrence)."
-    },
-    "shield_rating_sr": {
-      "description": "Shields absorb damage. Damage is applied to SR first. Once SR is depleted, any remaining damage applies to HP. SR typically regenerates over time.",
-      "regeneration": "Personal shields regenerate 5 points of SR at the start of the wielder's turn, up to their maximum SR. Vehicle/starship shields also regenerate (see Chapter 11)."
-    },
-    "improvised_weapons": {
-      "attack_penalty": "-5 penalty on attack rolls.",
-      "damage": "Determined by GM based on size and nature (e.g., Small club 1d4, Medium club 1d6).",
-      "range_increment": "2 squares if thrown.",
-      "critical_hit": "Threaten on natural 20, deal x2 damage.",
-      "notes": "Not considered armed when using an improvised weapon for purposes of provoking AoOs unless it's similar to an actual weapon."
-    },
-    "size_modifiers_table_9_1": {
-      "description": "Modifiers for size to Reflex Defense and attack rolls.",
-      "applies_to_attack_rolls": "Only for Colossal (station) and Colossal (cruiser) against smaller targets.",
-      "categories": [
-        {
-          "size_category": "Fine",
-          "reflex_defense_modifier": 10,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Remote"
-        },
-        {
-          "size_category": "Diminutive",
-          "reflex_defense_modifier": 5,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Mouse Droid"
-        },
-        {
-          "size_category": "Tiny",
-          "reflex_defense_modifier": 2,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Training Remote"
-        },
-        {
-          "size_category": "Small",
-          "reflex_defense_modifier": 1,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Ewok, Jawa"
-        },
-        {
-          "size_category": "Medium",
-          "reflex_defense_modifier": 0,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Human"
-        },
-        {
-          "size_category": "Large",
-          "reflex_defense_modifier": -1,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Dewback"
-        },
-        {
-          "size_category": "Huge",
-          "reflex_defense_modifier": -2,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Rancor"
-        },
-        {
-          "size_category": "Gargantuan",
-          "reflex_defense_modifier": -5,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: Krayt Dragon"
-        },
-        {
-          "size_category": "Colossal",
-          "reflex_defense_modifier": -10,
-          "attack_modifier_against_smaller": null,
-          "notes": "Example: AT-AT Walker"
-        },
-        {
-          "size_category": "Colossal (frigate)",
-          "reflex_defense_modifier": -10,
-          "attack_modifier_against_smaller": null
-        },
-        {
-          "size_category": "Colossal (cruiser)",
-          "reflex_defense_modifier": -10,
-          "attack_modifier_against_smaller": 5
-        },
-        {
-          "size_category": "Colossal (station)",
-          "reflex_defense_modifier": -10,
-          "attack_modifier_against_smaller": 10
-        }
-      ],
-      "errata_note": "CRB Errata p.298 for Table 9-1: For Colossal (droid), the Attack Modifier is +0."
-    },
-    "starvation_and_thirst": {
-      "description": "Prolonged lack of food or water can lead to penalties and eventually death. Resisted with Endurance checks.",
-      "reference": "Detailed rules in Survival skill (Chapter 4) and Endurance skill (Chapter 4)."
-    }
-  },
-  "primary_page_reference_crb": "143-163",
-  "source_book_reference_general": "CR",
-  "the_combat_round": {
-    "description": "Combat is played in rounds, with each round representing approximately 6 seconds of game time. During a round, each combatant gets a turn to act, in order of initiative. A new round begins when everyone eligible to act has taken a turn.",
-    "duration_seconds": 6,
-    "sequence_of_events": [
-      "Determine if anyone is surprised.",
-      "Combatants who are not surprised act in initiative order (highest to lowest). This is the surprise round if applicable.",
-      "After the surprise round (if any), all combatants act in initiative order for the first regular round.",
-      "Continue with subsequent rounds until combat ends."
-    ],
-    "surprise_round": {
-      "description": "If some but not all combatants are aware of opponents at the start of battle, a surprise round occurs before regular rounds. Combatants who are aware of opponents can act; those who are unaware cannot.",
-      "actions_allowed_if_not_surprised": "One standard action OR one move action OR one swift action.",
-      "actions_if_surprised": "No actions, flat-footed until first regular turn.",
-      "source_page_reference": "CR 143"
-    },
-    "source_page_reference": "CR 143-144"
-  },
-  "zero_gravity_environments": {
-    "description": "Rules for combat and movement in zero-gravity (Zero-G).",
-    "source_page_reference": "CR 157-158",
-    "moving_in_zero_g": [
-      {
-        "method": "Pushing Off Surfaces",
-        "rule": "Move up to half speed in a straight line. Cannot change direction without another surface to push off from."
-      },
-      {
-        "method": "Using Handholds / Magnetic Boots",
-        "rule": "Move up to half speed. Requires Climb check (DC 10) for difficult surfaces or maintaining grip under stress."
-      },
-      {
-        "method": "Thruster Packs / Jetpacks",
-        "rule": "Allow normal movement as per the device's capabilities."
-      },
-      {
-        "method": "Zero-G Training (Feat)",
-        "rule": "Allows moving normal speed using handholds/surfaces and negates penalties for certain actions in Zero-G."
-      }
-    ],
-    "attacking_in_zero_g": {
-      "melee_attacks": "Suffer a -2 penalty on attack rolls unless trained in Zero-G combat (e.g., via Zero-G Training feat) or using magnetic boots/grappling line to brace.",
-      "ranged_attacks": "Generally no penalty, unless using a weapon with significant recoil without being braced, in which case a penalty might apply (GM discretion)."
-    },
-    "other_zero_g_effects": {
-      "space_sickness": "Characters unaccustomed to Zero-G may suffer space sickness (Fortitude DC 15 check after 1 hour, failure results in -1 persistent step on the condition track).",
-      "no_down_direction": "Concepts of 'up' and 'down' are relative. Prone condition may not apply conventionally.",
-      "object_inertia": "Unsecured objects continue moving in a straight line until acted upon by another force."
-    }
+  "combat_rules_data": {
+	  "file_description": "Core rules for combat in Star Wars Saga Edition, including the combat round, initiative, and action types. This file is designed to be extensible with rules from other sourcebooks.",
+	  "actions_in_combat": {
+		"description": "On a character's turn, they can perform various types of actions. The number and type of actions are limited.",
+		"action_summary_per_turn": "Typically, a character can take one standard action and one move action (in any order), or one full-round action. Additionally, a character can take one swift action and any number of free actions (GM permitting). A character can also use one reaction per round (unless an ability allows more).",
+		"action_types": [
+		  {
+			"type_name": "Standard Action",
+			"description": "Usually involves attacking, using a skill, activating a Force power, or performing a similar significant task.",
+			"usage_per_turn": "One (can be exchanged for a move action).",
+			"examples": [
+			  "Making a single attack.",
+			  "Using a skill that requires a standard action.",
+			  "Activating a Force power with a standard action casting time.",
+			  "Using the aid another action.",
+			  "Readying an action."
+			],
+			"source_page_reference": "CR 144-145"
+		  },
+		  {
+			"type_name": "Move Action",
+			"description": "Typically used to move a character's speed or perform an action that takes a similar amount of effort.",
+			"usage_per_turn": "One (can take a second move action by giving up standard action).",
+			"examples": [
+			  "Moving up to character's speed.",
+			  "Climbing one-fourth of speed.",
+			  "Drawing or holstering a weapon (Errata: Holstering is a move action, drawing can be swift with Quick Draw feat).",
+			  "Standing up from prone.",
+			  "Opening or closing a door."
+			],
+			"source_page_reference": "CR 145",
+			"errata_applied_notes": "CRB Errata p.297 clarifies drawing a weapon is a move action, holstering is a move action. Quick Draw feat makes drawing a swift action."
+		  },
+		  {
+			"type_name": "Full-Round Action",
+			"description": "Consumes an entire turn's worth of effort. Cannot take other standard, move, or swift actions in the same turn, but can still take free actions.",
+			"usage_per_turn": "One (replaces standard and move actions).",
+			"examples": [
+			  "Making a full attack.",
+			  "Charging.",
+			  "Running.",
+			  "Using a skill that requires a full-round action."
+			],
+			"source_page_reference": "CR 145"
+		  },
+		  {
+			"type_name": "Swift Action",
+			"description": "Consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action.",
+			"usage_per_turn": "One.",
+			"examples": [
+			  "Activating some talents or Force powers.",
+			  "Quick Draw feat to draw a weapon.",
+			  "Catching a second wind (requires three swift actions normally)."
+			],
+			"source_page_reference": "CR 145"
+		  },
+		  {
+			"type_name": "Free Action",
+			"description": "Consumes a negligible amount of time and effort.",
+			"usage_per_turn": "Multiple, but GM may limit to prevent abuse.",
+			"examples": [
+			  "Dropping an item.",
+			  "Speaking.",
+			  "Ending concentration on a Force power."
+			],
+			"source_page_reference": "CR 145-146"
+		  },
+		  {
+			"type_name": "Reaction",
+			"description": "An action taken in response to an event or another creature's action, occurring outside of the character's normal turn.",
+			"usage_per_turn": "One (unless an ability like Combat Reflexes feat allows more for attacks of opportunity).",
+			"examples": [
+			  "Making an attack of opportunity.",
+			  "Activating a readied action.",
+			  "Using certain talents or Force powers that specify 'reaction' as their activation time."
+			],
+			"source_page_reference": "CR 146"
+		  }
+		],
+		"source_page_reference": "CR 144-146"
+	  },
+	  "aquatic_combat": {
+		"description": "Rules for combat occurring in water.",
+		"source_page_reference": "CR 157",
+		"movement_in_water": {
+		  "swimming": "Characters without a swim speed move at half their land speed (making a Swim check each round to move one-quarter speed as a move action, or half speed as a full-round action). Creatures with a natural swim speed use that speed.",
+		  "difficult_conditions": "The Swim skill is used to navigate rough water or perform other difficult maneuvers."
+		},
+		"melee_attacks_underwater": [
+		  {
+			"weapon_type": "Unarmed, Slashing, or Bludgeoning",
+			"penalty": "-2 penalty on attack rolls, damage is halved."
+		  },
+		  {
+			"weapon_type": "Piercing",
+			"penalty": "No penalty."
+		  }
+		],
+		"ranged_attacks_underwater": [
+		  {
+			"weapon_type": "Thrown weapons (not specifically designed for underwater use)",
+			"rule": "Cannot be used effectively."
+		  },
+		  {
+			"weapon_type": "Projectile weapons (bows, slugthrowers, not specifically designed)",
+			"rule": "Cannot be used effectively."
+		  },
+		  {
+			"weapon_type": "Blasters and other energy weapons",
+			"rule": "Function normally, but all range increments are halved."
+		  }
+		],
+		"other_considerations": [
+		  "Suffocation: Nonamphibious creatures or those without special equipment risk drowning.",
+		  "Visibility: Often reduced underwater."
+		]
+	  },
+	  "general_notes_on_extensibility": "Rules herein are from the Core Rulebook (CR) unless otherwise noted. Future updates may add rules variants or expansions from other sourcebooks, which will be appropriately sourced.",
+	  "initiative": {
+		"description": "An Initiative check determines the order of combat when a battle starts. It's a Dexterity check.",
+		"check_formula": "d20 + Dexterity modifier + one-half character level (rounded down) + other modifiers (feats, talents, vehicle size).",
+		"when_to_roll": "At the start of a battle, before any actions are taken, as a reaction.",
+		"initiative_count": "The result of the Initiative check is the character's initiative count, determining their place in the combat order for that encounter.",
+		"tie_breaking_rule": "If two or more combatants have the same Initiative check result, the combatant with the higher Dexterity modifier acts first. If Dexterity modifiers are also tied, the tied combatants roll a d20, and whoever rolls higher acts first.",
+		"delaying_action": {
+		  "description": "You can choose to take your turn later in the round (or a subsequent round) than your initiative count would normally allow. You choose a lower initiative count to act on. Your initiative count becomes this new, lower number for the rest of the combat.",
+		  "action_cost": "Free action, declared on your turn."
+		},
+		"readying_an_action": {
+		  "description": "You can ready an action to take place outside of your turn when a specific trigger event occurs. Readying is a standard action.",
+		  "trigger_specification": "You must specify the action you will take and the circumstances under which you will take it.",
+		  "acting_when_triggered": "When the trigger occurs, you can take your readied action or choose not to. Taking the readied action uses your reaction for the round and drops your initiative count to just before the combatant whose action triggered your readied action.",
+		  "action_cost": "Standard action to ready."
+		},
+		"source_page_reference": "CR 144"
+	  },
+	  "mounted_combat": {
+		"description": "Rules for engaging in combat while riding a creature or vehicle.",
+		"source_page_reference": "CR 156-157",
+		"general_rules": {
+		  "mount_initiative": "A mount acts on its rider's Initiative count, as directed by the rider.",
+		  "rider_actions": "The rider moves at the mount's speed and can perform actions as normal while the mount moves.",
+		  "directing_mount": "Directing a mount is typically a move action if it's not trained for combat or riding. Warbeasts or animals trained for riding typically do not require an action to guide in normal circumstances."
+		},
+		"combat_while_mounted": [
+		  {
+			"situation": "Mount as Cover",
+			"rule": "You can drop down and hang alongside your mount, using it as cover (+5 bonus to Reflex Defense). You cannot attack or cast Force powers while using your mount as cover. This typically requires a Ride check (DC 15 as per Ride skill, CR p.73)."
+		  },
+		  {
+			"situation": "Attacks by Rider",
+			"rule": "You can make melee or ranged attacks as normal. A charging mount allows you to make a charge attack. If the mount is also attacking, it remains in its space while you attack."
+		  },
+		  {
+			"situation": "Casting Force Powers",
+			"rule": "Casting a Force power while mounted requires a Ride check (DC = 10 + the level of the Force power). Failure means the power fails, but the use of the power is still expended."
+		  },
+		  {
+			"situation": "If Your Mount is Hit in Combat",
+			"rule": "If your mount takes damage equal to or exceeding its damage threshold, you must make a Ride check (DC = damage dealt) to stay mounted. Failure means you are knocked prone in a square adjacent to your mount."
+		  },
+		  {
+			"situation": "If Your Mount Falls",
+			"rule": "If your mount falls (e.g., is knocked prone or killed), you must make a DC 15 Ride check to land safely. Failure means you take 1d6 points of falling damage and fall prone."
+		  }
+		],
+		"special_mount_actions_ride_skill_interaction": "The Ride skill (CR p.73) details specific actions such as 'Fight with War-Trained Mount,' 'Overrun with Mount,' 'Soft Fall from Mount,' and 'Leap with Mount'."
+	  },
+	  "other_combat_modifiers": {
+		"description": "Additional modifiers and rules affecting combat calculations.",
+		"source_page_reference": "CR 158-159",
+		"attacking_an_object": {
+		  "general_notes": "Objects are usually immune to critical hits unless specified otherwise. They are automatically hit if immobile, or use a DC based on size if thrown/moving (see Table 9-4).",
+		  "breaking_objects": "Requires dealing damage that exceeds the object's Hardness and then reduces its Hit Points to 0.",
+		  "object_hardness": "Subtract from damage dealt. See Table 9-2: Object Hardness and Hit Points & Table 9-3: Substance Hardness and Hit Points for examples.",
+		  "object_hit_points": "Determined by size and material. See Table 9-2.",
+		  "energy_damage_vs_objects": "Typically ignores the Hardness of most objects (except those specifically resistant, like starship hulls).",
+		  "ineffective_weapons": "Some weapons may be ineffective against certain objects (e.g., a vibroblade against a stone wall).",
+		  "immunities": "Objects are immune to nonlethal damage, ability damage, mind-affecting effects, poison, and disease unless specifically noted.",
+		  "damaging_vehicles_and_starships": "Use Damage Reduction (DR) and Shield Rating (SR) instead of Hardness (see Chapter 11).",
+		  "table_9_2_object_hardness_and_hit_points_examples": [
+			{
+			  "object": "Simple Wooden Door",
+			  "hardness": 5,
+			  "hit_points": 30,
+			  "break_dc": 20
+			},
+			{
+			  "object": "Strong Wooden Door",
+			  "hardness": 5,
+			  "hit_points": 60,
+			  "break_dc": 25
+			},
+			{
+			  "object": "Datapad",
+			  "hardness": 2,
+			  "hit_points": 5,
+			  "break_dc": 15,
+			  "errata_note": "CRB Errata p.298 changes Datapad HP from 1 to 5."
+			},
+			{
+			  "object": "Blaster Pistol",
+			  "hardness": 10,
+			  "hit_points": 15,
+			  "break_dc": 20
+			},
+			{
+			  "object": "Light Repeating Blaster",
+			  "hardness": 10,
+			  "hit_points": 30,
+			  "break_dc": 25
+			}
+		  ],
+		  "table_9_3_substance_hardness_and_hit_points_examples": [
+			{
+			  "substance": "Glass",
+			  "hardness": 1,
+			  "hp_per_2_5_cm_thickness": 1
+			},
+			{
+			  "substance": "Ice",
+			  "hardness": 0,
+			  "hp_per_2_5_cm_thickness": 3
+			},
+			{
+			  "substance": "Wood",
+			  "hardness": 5,
+			  "hp_per_2_5_cm_thickness": 10
+			},
+			{
+			  "substance": "Stone",
+			  "hardness": 8,
+			  "hp_per_2_5_cm_thickness": 15
+			},
+			{
+			  "substance": "Iron or Steel",
+			  "hardness": 10,
+			  "hp_per_2_5_cm_thickness": 30
+			},
+			{
+			  "substance": "Reinforced Concrete",
+			  "hardness": 8,
+			  "hp_per_30_cm_thickness": 180
+			},
+			{
+			  "substance": "Starship Hull (Durasteel)",
+			  "hardness": 15,
+			  "hp_per_2_5_cm_thickness": 30
+			}
+		  ],
+		  "table_9_4_dcs_to_break_or_burst_items_examples": [
+			{
+			  "action": "Break down simple door",
+			  "strength_check_dc": 20
+			},
+			{
+			  "action": "Break down strong door",
+			  "strength_check_dc": 25
+			},
+			{
+			  "action": "Burst Ropes",
+			  "strength_check_dc": 23
+			},
+			{
+			  "action": "Bend Iron Bars",
+			  "strength_check_dc": 24
+			}
+		  ]
+		},
+		"damage_reduction_dr": {
+		  "description": "DR subtracts a specific amount from damage dealt by most attacks. Damage cannot be reduced below 0.",
+		  "stacking_note": "DR from multiple sources generally does not stack unless the sources are of different types (a rare occurrence)."
+		},
+		"shield_rating_sr": {
+		  "description": "Shields absorb damage. Damage is applied to SR first. Once SR is depleted, any remaining damage applies to HP. SR typically regenerates over time.",
+		  "regeneration": "Personal shields regenerate 5 points of SR at the start of the wielder's turn, up to their maximum SR. Vehicle/starship shields also regenerate (see Chapter 11)."
+		},
+		"improvised_weapons": {
+		  "attack_penalty": "-5 penalty on attack rolls.",
+		  "damage": "Determined by GM based on size and nature (e.g., Small club 1d4, Medium club 1d6).",
+		  "range_increment": "2 squares if thrown.",
+		  "critical_hit": "Threaten on natural 20, deal x2 damage.",
+		  "notes": "Not considered armed when using an improvised weapon for purposes of provoking AoOs unless it's similar to an actual weapon."
+		},
+		"size_modifiers_table_9_1": {
+		  "description": "Modifiers for size to Reflex Defense and attack rolls.",
+		  "applies_to_attack_rolls": "Only for Colossal (station) and Colossal (cruiser) against smaller targets.",
+		  "categories": [
+			{
+			  "size_category": "Fine",
+			  "reflex_defense_modifier": 10,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Remote"
+			},
+			{
+			  "size_category": "Diminutive",
+			  "reflex_defense_modifier": 5,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Mouse Droid"
+			},
+			{
+			  "size_category": "Tiny",
+			  "reflex_defense_modifier": 2,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Training Remote"
+			},
+			{
+			  "size_category": "Small",
+			  "reflex_defense_modifier": 1,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Ewok, Jawa"
+			},
+			{
+			  "size_category": "Medium",
+			  "reflex_defense_modifier": 0,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Human"
+			},
+			{
+			  "size_category": "Large",
+			  "reflex_defense_modifier": -1,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Dewback"
+			},
+			{
+			  "size_category": "Huge",
+			  "reflex_defense_modifier": -2,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Rancor"
+			},
+			{
+			  "size_category": "Gargantuan",
+			  "reflex_defense_modifier": -5,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: Krayt Dragon"
+			},
+			{
+			  "size_category": "Colossal",
+			  "reflex_defense_modifier": -10,
+			  "attack_modifier_against_smaller": null,
+			  "notes": "Example: AT-AT Walker"
+			},
+			{
+			  "size_category": "Colossal (frigate)",
+			  "reflex_defense_modifier": -10,
+			  "attack_modifier_against_smaller": null
+			},
+			{
+			  "size_category": "Colossal (cruiser)",
+			  "reflex_defense_modifier": -10,
+			  "attack_modifier_against_smaller": 5
+			},
+			{
+			  "size_category": "Colossal (station)",
+			  "reflex_defense_modifier": -10,
+			  "attack_modifier_against_smaller": 10
+			}
+		  ],
+		  "errata_note": "CRB Errata p.298 for Table 9-1: For Colossal (droid), the Attack Modifier is +0."
+		},
+		"starvation_and_thirst": {
+		  "description": "Prolonged lack of food or water can lead to penalties and eventually death. Resisted with Endurance checks.",
+		  "reference": "Detailed rules in Survival skill (Chapter 4) and Endurance skill (Chapter 4)."
+		}
+	  },
+	  "primary_page_reference_crb": "143-163",
+	  "source_book_reference_general": "CR",
+	  "the_combat_round": {
+		"description": "Combat is played in rounds, with each round representing approximately 6 seconds of game time. During a round, each combatant gets a turn to act, in order of initiative. A new round begins when everyone eligible to act has taken a turn.",
+		"duration_seconds": 6,
+		"sequence_of_events": [
+		  "Determine if anyone is surprised.",
+		  "Combatants who are not surprised act in initiative order (highest to lowest). This is the surprise round if applicable.",
+		  "After the surprise round (if any), all combatants act in initiative order for the first regular round.",
+		  "Continue with subsequent rounds until combat ends."
+		],
+		"surprise_round": {
+		  "description": "If some but not all combatants are aware of opponents at the start of battle, a surprise round occurs before regular rounds. Combatants who are aware of opponents can act; those who are unaware cannot.",
+		  "actions_allowed_if_not_surprised": "One standard action OR one move action OR one swift action.",
+		  "actions_if_surprised": "No actions, flat-footed until first regular turn.",
+		  "source_page_reference": "CR 143"
+		},
+		"source_page_reference": "CR 143-144"
+	  },
+	  "zero_gravity_environments": {
+		"description": "Rules for combat and movement in zero-gravity (Zero-G).",
+		"source_page_reference": "CR 157-158",
+		"moving_in_zero_g": [
+		  {
+			"method": "Pushing Off Surfaces",
+			"rule": "Move up to half speed in a straight line. Cannot change direction without another surface to push off from."
+		  },
+		  {
+			"method": "Using Handholds / Magnetic Boots",
+			"rule": "Move up to half speed. Requires Climb check (DC 10) for difficult surfaces or maintaining grip under stress."
+		  },
+		  {
+			"method": "Thruster Packs / Jetpacks",
+			"rule": "Allow normal movement as per the device's capabilities."
+		  },
+		  {
+			"method": "Zero-G Training (Feat)",
+			"rule": "Allows moving normal speed using handholds/surfaces and negates penalties for certain actions in Zero-G."
+		  }
+		],
+		"attacking_in_zero_g": {
+		  "melee_attacks": "Suffer a -2 penalty on attack rolls unless trained in Zero-G combat (e.g., via Zero-G Training feat) or using magnetic boots/grappling line to brace.",
+		  "ranged_attacks": "Generally no penalty, unless using a weapon with significant recoil without being braced, in which case a penalty might apply (GM discretion)."
+		},
+		"other_zero_g_effects": {
+		  "space_sickness": "Characters unaccustomed to Zero-G may suffer space sickness (Fortitude DC 15 check after 1 hour, failure results in -1 persistent step on the condition track).",
+		  "no_down_direction": "Concepts of 'up' and 'down' are relative. Prone condition may not apply conventionally.",
+		  "object_inertia": "Unsecured objects continue moving in a straight line until acted upon by another force."
+		}
+	  }
   }
 }
