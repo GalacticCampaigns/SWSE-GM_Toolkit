@@ -1,4 +1,5 @@
 {
+  "last_modified": "2025-05-30T22:04:47",
   "prestige_classes_data": {
     "description": "Compilation of Prestige Classes for Star Wars SAGA Edition.",
     "prestige_classes_list": [
@@ -38,104 +39,138 @@
           "fortitude": "+2",
           "will": "0"
         },
-        "description_general": "The Ace Pilot is a master of vehicle combat, treating their starship or airspeeder as an extension of themselves. They are veterans of countless engagements, known for their daring maneuvers, exceptional skill in the cockpit, and ability to push vehicles to their absolute limits, often defining themselves by the craft they fly. [Sourced from CRB p.206]",
+        "description_general": "The ace pilot is to vehicle combat what the elite trooper is to personal weapons combat. Her arms and armor are the weapons and shields of a sleek starship soaring through space or an airspeeder shrieking through the atmosphere. A veteran of countless engagements, the ace pilot has proven her skill again and again by virtue of facing the enemy and surviving—and making sure the enemy did not. She has several kills to her credit, and her combat maneuvers are occasionally studied and discussed in training academies for their ingenuity and effectiveness. [Sourced from CRB p.206]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d8",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +4 class bonus to Reflex Defense and +2 class bonus to Fortitude Defense."
+        },
         "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
-            "bab": "0",
+            "bab": "+0",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Vehicle Dodge: Dodge bonus on vehicle = 1/2 level"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": false,
             "class_feature": "Vehicle Dodge +1",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": false,
             "class_feature": "Vehicle Dodge +2",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Vehicle Dodge +3",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Vehicle Dodge +4",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": false,
             "class_feature": "Vehicle Dodge +5",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Vehicle Dodge",
+            "description": "Beginning at 2nd level, you apply a dodge bonus to the Reflex Defense of any vehicle you pilot. The dodge bonus is equal to one-half your Ace Pilot class level, rounded down (i.e., +1 at 2nd level, +2 at 4th level, +3 at 6th level, +4 at 8th level, and +5 at 10th level). Any condition that makes you lose your Dexterity bonus to Reflex Defense also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.",
+            "source_book": "CR",
+            "page": 207
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Pilot",
-            "type": "feat_or_ability",
-            "name": "Pilot"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Vehicular Combat",
-            "type": "feat_or_ability",
-            "name": "Vehicular Combat"
+            "type": "trained_skill",
+            "name": "Pilot",
+            "text_description": "Trained Skills: Pilot"
+          },
+          {
+            "type": "feat",
+            "name": "Vehicular Combat",
+            "text_description": "Feats: Vehicular Combat"
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Pilot",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Vehicular Combat",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Pilot",
+          "feat_prerequisite": "Vehicular Combat",
+          "talent_prerequisite": null,
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": null
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Expert Pilot",
+            "description": "The ace pilot relies on finely honed instincts and years of pilot training to outmaneuver and destroy enemy starships. Talents from this tree are available to the Ace Pilot prestige class."
+          },
+          {
+            "tree_name": "Gunner",
+            "description": "Many starship gunners are skilled both in and out of the cockpit and are deadly with ranged weapons of any kind. Talents from this tree are available to the Ace Pilot prestige class."
+          },
+          {
+            "tree_name": "Spacer",
+            "description": "Talents for those who prowl the space lanes seeking wealth, fame, adventure, or something more; also good with vehicles. This talent tree is originally from the Scoundrel heroic class (CRB p.47) and is also available to the Ace Pilot prestige class."
+          }
+        ]
       },
       {
+        "id": "assassin_sv_28",
         "name": "Assassin",
         "source_book": "SV",
         "page": "28",
@@ -163,7 +198,6 @@
           "will": "0"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -297,103 +331,140 @@
           "fortitude": "+2",
           "will": "0"
         },
-        "description_general": "The Bounty Hunter is a relentless tracker and formidable combatant, specializing in the pursuit and capture of targets across the galaxy. They are often shrouded in mystery, utilizing keen survival skills, specialized equipment, and a network of contacts to bring in their quarry, dead or alive, for a price. [Sourced from CRB p.207-208]",
+        "description_general": "The bounty hunter capitalizes on the vendettas of others, tracking down fugitives for their enemies, their masters, or simply for justice. The best bounty hunters are the ones who can stay emotionally detached from either their employers or their quarry—although bounty hunters who hate their prey often make more spectacular kills. Not all bounty hunters kill. Some employers reserve that pleasure for themselves, or plan to give the quarry a more or less fair trial. [Sourced from CRB p.207]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d10",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +4 class bonus to Reflex Defense and +2 class bonus to Fortitude Defense."
+        },
         "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Familiar foe: observe opponent, Atk bonus & Ref Def bonus"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Familiar foe +1",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Familiar foe +2",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Familiar foe +3",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "8",
+            "bab": "+8",
             "gains_talent_choice": false,
             "class_feature": "Familiar foe +4",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "9",
+            "bab": "+9",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "10",
+            "bab": "+10",
             "gains_talent_choice": false,
             "class_feature": "Familiar foe +5",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Familiar Foe",
+            "description": "By observing your enemy in combat, you know how to defeat him more easily. If you spend a full-round action observing an opponent in combat, you gain a bonus on attack rolls against that opponent and a bonus to your Reflex Defense against attacks made by that opponent equal to one-half your Bounty Hunter class level, rounded down (as indicated in the table). The effects last until the end of the encounter. You cannot use this ability until after your opponent has acted during the combat.",
+            "source_book": "CR",
+            "page": 209
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Survival",
-            "type": "feat_or_ability",
-            "name": "Survival"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "2 from Awareness (Scout)",
-            "type": "other"
+            "type": "trained_skill",
+            "name": "Survival",
+            "text_description": "Trained Skills: Survival"
+          },
+          {
+            "type": "talent",
+            "name": "Awareness Talent x2",
+            "talent_tree": "Awareness",
+            "source_class": "Scout",
+            "text_description": "Talents: At least two talents from the Awareness talent tree"
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Survival",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "2 from Awareness (Scout)",
-          "OTHER PREREQUISITE": ""
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Survival",
+          "feat_prerequisite": null,
+          "talent_prerequisite": "At least two talents from the Awareness talent tree (Scout)",
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": null
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Bounty Hunter",
+            "description": "The nature of their work requires bounty hunters to associate with the scum of the universe. You are among the finest bounty hunters in the galaxy, relying on the element of surprise and your hunter's instincts to catch your prey. Talents from this tree are available to the Bounty Hunter prestige class."
+          },
+          {
+            "tree_name": "Misfortune",
+            "description": "Talents available from the Scoundrel's Misfortune talent tree (CRB p.46)."
+          },
+          {
+            "tree_name": "Awareness",
+            "description": "Talents available from the Scout's Awareness talent tree (CRB p.49)."
+          }
+        ]
       },
       {
+        "id": "charlatan_sv_30",
         "name": "Charlatan",
         "source_book": "SV",
         "page": "30",
@@ -421,7 +492,6 @@
           "will": "+4"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -526,6 +596,7 @@
         }
       },
       {
+        "id": "corporate_agent_k_41",
         "name": "Corporate Agent",
         "source_book": "K",
         "page": "41",
@@ -549,7 +620,6 @@
           "will": "+4"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -677,119 +747,143 @@
           "fortitude": "0",
           "will": "+4"
         },
-        "description_general": "The Crime Lord is a mastermind of illegal enterprises, wielding influence and power within the galactic underworld. They are adept at manipulation, persuasion, and organizing networks of operatives, often building vast criminal empires through cunning, ruthlessness, and a keen understanding of illicit markets. [Sourced from CRB p.209]",
+        "description_general": "Few societies manage to eradicate crime altogether. In the underworld, someone always rises to the top, either through vision, organization, or sheer intimidation. The life of a crime lord isn't for the timid. After conquering an unseen empire, the crime lord wages a daily struggle not only to stay on top but also to stay alive. [Sourced from CRB p.209]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d8",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +2 class bonus to Reflex Defense and +4 class bonus to Will Defense."
+        },
         "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
-            "bab": "0",
+            "bab": "+0",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Ref Def +1 per ally adjacent to you = 1/2 level"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": "Command cover",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
-            "class_feature": "Command cover",
+            "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": true,
-            "class_feature": "Command cover",
+            "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": true,
-            "class_feature": "Command cover",
+            "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
-            "class_feature": "Command cover",
+            "class_feature": null,
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Command Cover",
+            "description": "Starting at 2nd level, you can use your allies to shield you from harm. You gain a +1 cover bonus to your Reflex Defense for each ally that is adjacent to you, up to a maximum bonus equal to one-half your Crime Lord class level (rounded down).",
+            "source_book": "CR",
+            "page": 210
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Deception",
-            "type": "feat_or_ability",
-            "name": "Deception"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Persuasion",
-            "type": "feat_or_ability",
-            "name": "Persuasion"
+            "type": "trained_skill",
+            "name": "Deception",
+            "text_description": "Trained Skills: Deception"
           },
           {
-            "text_description": "one from Fortune",
-            "type": "feat_or_ability",
-            "name": "one from Fortune"
+            "type": "trained_skill",
+            "name": "Persuasion",
+            "text_description": "Trained Skills: Persuasion"
           },
           {
-            "text_description": "Misfortune (scoundrel)",
-            "type": "feat_or_ability",
-            "name": "Misfortune"
-          },
-          {
-            "text_description": "or Lineage (Noble)",
-            "type": "feat_or_ability",
-            "name": "or Lineage"
+            "type": "talent",
+            "name": "Fortune, Lineage, or Misfortune Talent",
+            "text_description": "Talents: At least one talent from the Fortune, Lineage, or Misfortune talent tree."
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Deception, Persuasion",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "one from Fortune, Misfortune (scoundrel), or Lineage (Noble)",
-          "OTHER PREREQUISITE": ""
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Deception, Persuasion",
+          "feat_prerequisite": null,
+          "talent_prerequisite": "At least one talent from the Fortune, Lineage, or Misfortune talent tree",
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": null
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Infamy",
+            "description": "You are wanted in multiple systems for criminal acts, and your manner of doing business has earned you an unsavory reputation in the criminal underworld. Talents from this tree are available to the Crime Lord prestige class."
+          },
+          {
+            "tree_name": "Mastermind",
+            "description": "You have the ability to attract loyal minions and are skilled at redirecting allies on the battlefield. Talents from this tree are available to the Crime Lord prestige class."
+          },
+          {
+            "tree_name": "Influence",
+            "description": "Talents available from the Noble's Influence talent tree (CRB p.43)."
+          }
+        ]
       },
       {
+        "id": "droid_commander_c_42",
         "name": "Droid Commander",
         "source_book": "C",
         "page": "42",
@@ -821,7 +915,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -977,128 +1070,165 @@
           "fortitude": "+4",
           "will": "0"
         },
-        "description_general": "The Elite Trooper represents the pinnacle of soldiery, having honed their combat skills through rigorous training and extensive battlefield experience. They are masters of weaponry and armor, demonstrating exceptional endurance, tactical awareness, and the ability to perform incredible feats of martial prowess, often serving as special forces or shock troops. [Sourced from CRB p.211]",
+        "description_general": "The elite trooper represents an individual who has received advanced combat training. More than a mere soldier, the elite trooper is highly trained and capable of taking on any number of combat-related missions, such as guarding an important location, assaulting an enemy base, or participating in a stealthy insertion into enemy territory. She's a crack shot and, though trained in the use of armor, can easily operate without it if the situation warrants. [Sourced from CRB p.211]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d12",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +2 class bonus to Reflex Defense and +4 class bonus to Fortitude Defense."
+        },
         "hit_points_die": "d12",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": "Delay damage",
-            "special_abilities": "Delay damage: 1/encounter delay one attack or effect until the end of your next turn"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Damage Reduction 1",
-            "special_abilities": "Damage Reduction"
+            "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Damage Reduction 2",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Damage Reduction 3",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "8",
+            "bab": "+8",
             "gains_talent_choice": false,
             "class_feature": "Damage Reduction 4",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "9",
+            "bab": "+9",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "10",
+            "bab": "+10",
             "gains_talent_choice": false,
             "class_feature": "Damage Reduction 5",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Delay Damage",
+            "description": "Elite troopers are among the toughest individuals in the galaxy. After being exposed to numerous threats, foes, and combat situations, you've developed the ability to delay effects that would drop lesser creatures. Once per encounter as a reaction, you can choose to delay the effect of a single attack, ability, or effect used against you. The damage or effect does not take hold until the end of your next turn.",
+            "source_book": "CR",
+            "page": 211
+          },
+          {
+            "feature_name": "Damage Reduction",
+            "description": "At 2nd level, you gain damage reduction 1 (DR 1). At every even-numbered level after 2nd, your damage reduction improves by 1 (DR 2 at 4th level, DR 3 at 6th level, DR 4 at 8th level, and DR 5 at 10th level).",
+            "source_book": "CR",
+            "page": 212
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "AP light & medium",
-            "type": "feat_or_ability",
-            "name": "AP light & medium"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Martial Arts I",
-            "type": "feat_or_ability",
-            "name": "Martial Arts I"
-          },
-          {
-            "text_description": "& \nPB Shot OR Flurry",
-            "type": "feat_or_ability",
-            "name": "& \nPB Shot OR Flurry"
-          },
-          {
-            "text_description": "1 Armor Spec",
-            "type": "other"
-          },
-          {
-            "text_description": "Commando",
-            "type": "feat_or_ability",
-            "name": "Commando"
-          },
-          {
-            "text_description": "Weapon Spec or Mercenary (Soldier)",
-            "type": "feat_or_ability",
-            "name": "Weapon Spec or Mercenary"
-          },
-          {
-            "text_description": "BAB +7",
             "type": "base_attack_bonus",
-            "value": 7
+            "value": 7,
+            "text_description": "Base Attack Bonus: +7"
+          },
+          {
+            "type": "feat",
+            "name": "Armor Proficiency (light)",
+            "text_description": "Feats: Armor Proficiency (light)"
+          },
+          {
+            "type": "feat",
+            "name": "Armor Proficiency (medium)",
+            "text_description": "Feats: Armor Proficiency (medium)"
+          },
+          {
+            "type": "feat",
+            "name": "Martial Arts I",
+            "text_description": "Feats: Martial Arts I"
+          },
+          {
+            "type": "feat",
+            "name": "Point Blank Shot",
+            "text_description": "Feats: Point Blank Shot"
+          },
+          {
+            "type": "talent",
+            "name": "Armor Specialist, Commando, or Weapon Specialist Talent",
+            "source_class": "Soldier",
+            "text_description": "Talents: At least one talent from the Armor Specialist, Commando, or Weapon Specialist talent trees"
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "AP light & medium, \nMartial Arts I, & \nPB Shot OR Flurry",
-          "TALENT PREREQUISITE": "1 Armor Spec, Commando, Weapon Spec or Mercenary (Soldier)",
-          "OTHER PREREQUISITE": "BAB +7"
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": null,
+          "feat_prerequisite": "Armor Proficiency (light), Armor Proficiency (medium), Martial Arts I, Point Blank Shot",
+          "talent_prerequisite": "At least one talent from the Armor Specialist, Commando, or Weapon Specialist talent trees (Soldier)",
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": 7,
+          "special_prerequisite": null
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Weapon Master",
+            "description": "You are skilled at wielding a variety of weapons and can wield choice weapons with deadly precision and force. Talents from this tree are available to the Elite Trooper prestige class."
+          },
+          {
+            "tree_name": "Commando",
+            "description": "Talents available from the Soldier's Commando talent tree (CRB p.52)."
+          },
+          {
+            "tree_name": "Camouflage",
+            "description": "Talents available from the Scout's Camouflage talent tree (CRB p.49)."
+          }
+        ]
       },
       {
+        "id": "enforcer_f_43",
         "name": "Enforcer",
         "source_book": "F",
         "page": "43",
@@ -1118,7 +1248,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -1281,120 +1410,171 @@
           "fortitude": "+2",
           "will": "+4"
         },
-        "description_general": "The Force Adept is an individual who, often without formal Jedi or Sith training, has learned to touch and manipulate the Force through intuition, personal experience, or obscure traditions. They walk a unique path, their abilities shaped by their innate connection to the Force, often excelling in less common applications of its power and developing a deep, personal understanding of its workings. [Sourced from CRB p.212-213]",
+        "description_general": "The Force adept is strong in the Force but follows a different path than that of the Jedi. To the Force adept, the Force and the aid it provides are more mysterious, more supernatural. A Force adept comes from a different tradition, with different beliefs and codes of conduct than those of the Jedi. There are precious few Force adepts in the galaxy, and even fewer become adventurers. [Sourced from CRB p.212]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d8",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +4 class bonus to Will Defense and +2 class bonus to Reflex and Fortitude Defense."
+        },
         "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
-            "bab": "0",
+            "bab": "+0",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Gains Force Techniques"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Force Technique",
+            "description": "You have learned improved techniques to feel the rhythm of the Force. At every even-numbered level (2nd, 4th, 6th, 8th, and 10th), you gain one Force technique that, once selected, cannot be changed (see Force Techniques, CRB p.101).",
+            "source_book": "CR",
+            "page": 214
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
+            "type": "trained_skill",
+            "name": "Use the Force",
+            "text_description": "Trained Skills: Use the Force"
           },
           {
-            "text_description": "any three Force. Force Tradition talents are also Force talents",
-            "type": "feat_or_ability",
-            "name": "any three Force. Force Tradition talents are also Force talents"
+            "type": "feat",
+            "name": "Force Sensitivity",
+            "text_description": "Feats: Force Sensitivity"
+          },
+          {
+            "type": "talent",
+            "name": "Any Force Talent x3",
+            "source_class": "Any (Chapter 6)",
+            "text_description": "Talents: Any three Force talents"
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity",
-          "TALENT PREREQUISITE": "any three Force. Force Tradition talents are also Force talents",
-          "OTHER PREREQUISITE": ""
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Use the Force",
+          "feat_prerequisite": "Force Sensitivity",
+          "talent_prerequisite": "Any three Force talents (from CRB Chapter 6)",
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": null
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Dark Side Devotee",
+            "description": "Your powerful negative emotions allow the dark side to flow through you, giving you great power. Talents from this tree are available to the Force Adept prestige class. You must have a Dark Side Score of 1 or higher to select talents from this tree; if your Dark Side Score is ever reduced to 0, you lose access to all talents in this talent tree until your Dark Side Score increases."
+          },
+          {
+            "tree_name": "Force Adept",
+            "description": "Force adepts use the Force to survive on fringe worlds, and they often have signature Force powers that they use particularly well. Talents from this tree are available to the Force Adept prestige class."
+          },
+          {
+            "tree_name": "Force Item",
+            "description": "You can imbue weapons and objects with the power of the Force. Talents from this tree are available to the Force Adept prestige class."
+          }
+        ]
       },
       {
+        "id": "force_disciple_cr_215",
         "name": "Force Disciple",
         "source_book": "CR",
         "page": "215",
         "available_talent_trees": [
           {
             "tree_name": "Force Adept",
-            "source_description": "Force Disciple"
+            "source_description": "Force Adept"
           },
           {
-            "tree_name": "Any tree from chapter #6",
-            "source_description": ""
+            "tree_name": "Alter",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Control",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Sense",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Dark Side",
+            "source_description": "Force"
+          },
+          {
+            "tree_name": "Light Side",
+            "source_description": "Force"
           }
         ],
         "defense_bonuses": {
@@ -1402,92 +1582,117 @@
           "fortitude": "+3",
           "will": "+6"
         },
+        "description_general": "Through meditation and contemplation of the deepest mysteries of the Force, some individuals transcend the dogma in which they were raised as they reach a new and deeper understanding of their connection to the universe around them. The ebb and flow of life—quickening, growing, struggling, dying—becomes a ceaseless chorus of destiny. Some Force disciples tap into this power, become one with it, and speak its wisdom to others. Others might instead enslave destiny, twist its vision, and corrupt others for the sake of power. Force disciples, like Force adepts, exist in every Force tradition. [Sourced from CRB p.215]",
         "force_points_per_level": "7",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d8",
+          "force_points_per_level_formula": "7 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +6 class bonus to Will Defense and +3 class bonus to Reflex Defense and Fortitude Defense."
+        },
         "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
-            "bab": "0",
+            "bab": "+0",
             "gains_talent_choice": true,
             "class_feature": "Indomitable, Prophet",
-            "special_abilities": "Indomitable: immune to mind-affecting effects"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": false,
             "class_feature": "Force secret",
-            "special_abilities": "Prophet: receive 2 Destiny Points instead of 1, may immediately"
+            "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": true,
             "class_feature": "Force secret",
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": false,
             "class_feature": "Force secret",
-            "special_abilities": "Force Secrets"
+            "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": "Force secret",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "12th",
+        "other_class_features": [
+          {
+            "feature_name": "Indomitable",
+            "description": "You are immune to mind-affecting effects.",
+            "source_book": "CR",
+            "page": "215"
+          },
+          {
+            "feature_name": "Prophet",
+            "description": "Every time you gain a level in this class, you receive two Destiny Points instead of the usual one. In addition, you may sacrifice this extra Destiny Point immediately after gaining a class level. If you choose to do so, you instead receive a prophetic vision from the Force; the content of this vision is determined by the GM. The vision is instantaneous, so no time is required to exercise this option. Upon seeing the vision, you have the option to choose a new destiny (see CRB p.112) so long as the new destiny is related in some way to the vision. The GM is the final arbiter of what new destiny (or destinies) are appropriate.",
+            "source_book": "CR",
+            "page": "216"
+          },
+          {
+            "feature_name": "Force Secret",
+            "description": "You have glimpsed an eternal truth through your contemplation of the Force. At 2nd level and every level thereafter (up to 5th for this 5-level prestige class), you gain one Force secret that, once selected, cannot be changed (see Force Secrets, CRB p.103).",
+            "source_book": "CR",
+            "page": "216"
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
+            "type": "minimum_character_level",
+            "value": 12,
+            "text_description": "Minimum Level: 12th"
           },
           {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
+            "type": "trained_skill",
+            "name": "Use the Force",
+            "text_description": "Trained Skills: Use the Force"
           },
           {
-            "text_description": "any two from Dark Side \nDevotee",
-            "type": "other"
+            "type": "feat",
+            "name": "Force Sensitivity",
+            "text_description": "Feats: Force Sensitivity"
           },
           {
-            "text_description": "Force Adept",
-            "type": "feat_or_ability",
-            "name": "Force Adept"
+            "type": "talent",
+            "name": "Any two from Dark Side Devotee, Force Adept, or Force Item trees",
+            "source_class": "Force Adept",
+            "text_description": "Talents: Any two talents from the Dark Side Devotee, Force Adept, or Force Item talent tree (see Force Adept prestige class, CRB p.214)"
           },
           {
-            "text_description": "or Force Item (Force Adept)",
-            "type": "feat_or_ability",
-            "name": "or Force Item"
+            "type": "force_power",
+            "name": "Farseeing",
+            "text_description": "Force Powers: Farseeing"
           },
           {
-            "text_description": "Farseeing",
-            "type": "feat_or_ability",
-            "name": "Farseeing"
-          },
-          {
-            "text_description": "1 Force Technique",
-            "type": "feat_or_ability",
-            "name": "1 Force Technique"
+            "type": "force_technique",
+            "name": "Any one",
+            "text_description": "Force Techniques: Any one (see CRB p.101)"
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity",
-          "TALENT PREREQUISITE": "any two from Dark Side \nDevotee, Force Adept, or Force Item (Force Adept)",
-          "OTHER PREREQUISITE": "Farseeing,\n1 Force Technique"
+          "minimum_character_level_text": "12th",
+          "trained_skill_prerequisite": "Use the Force",
+          "feat_prerequisite": "Force Sensitivity",
+          "talent_prerequisite": "Any two talents from the Dark Side Devotee, Force Adept, or Force Item talent trees (Force Adept PrC)",
+          "other_prerequisite": "Force Powers: Farseeing. Force Techniques: Any one.",
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": null
         }
       },
       {
+        "id": "gladiator_k_43",
         "name": "Gladiator",
         "source_book": "K",
         "page": "43",
@@ -1511,7 +1716,6 @@
           "will": "0"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -1647,114 +1851,148 @@
           "fortitude": "0",
           "will": "+2"
         },
-        "description_general": "The Gunslinger is a master of ranged combat, particularly with pistols and other sidearms, capable of incredible feats of speed and accuracy. They are deadly shots, relying on quick reflexes, uncanny aim, and often a bit of style to overcome foes in fast-paced shootouts. [Sourced from CRB p.216]",
+        "description_general": "Since the first primitive slugthrower was developed thousands of years ago, there have been soldiers of fortune focused on pistol fighting. The tradition grew with the technology, creating a special breed of blaster-wielding freelancers who shoot first and ask questions later. Often wandering guns-for-hire, bodyguards in fringe areas, professional duelists, or even assassins, these fighters know everything there is to know about pistols of all descriptions. [Sourced from CRB p.216]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d8",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +4 class bonus to Reflex Defense and +2 class bonus to Will Defense."
+        },
         "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Trusty Sidearm: add to damage"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Trusty Sidearm +1",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Trusty Sidearm +2",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Trusty Sidearm +3",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "8",
+            "bab": "+8",
             "gains_talent_choice": false,
             "class_feature": "Trusty Sidearm +4",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "9",
+            "bab": "+9",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "10",
+            "bab": "+10",
             "gains_talent_choice": false,
             "class_feature": "Trusty Sidearm +5",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Trusty Sidearm",
+            "description": "Starting at 2nd level, you gain a bonus on damage rolls equal to one-half your Gunslinger class level (rounded down) when wielding a pistol. This damage is in addition to the character's usual level bonus to damage. This damage is doubled on a successful critical hit, as normal.",
+            "source_book": "CR",
+            "page": 217
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "PB Shot",
-            "type": "feat_or_ability",
-            "name": "PB Shot"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Precise Shot",
-            "type": "feat_or_ability",
-            "name": "Precise Shot"
+            "type": "feat",
+            "name": "Point Blank Shot",
+            "text_description": "Feats: Point Blank Shot"
           },
           {
-            "text_description": "Quick Draw",
-            "type": "feat_or_ability",
-            "name": "Quick Draw"
+            "type": "feat",
+            "name": "Precise Shot",
+            "text_description": "Feats: Precise Shot"
           },
           {
-            "text_description": "WP(pistols)",
-            "type": "feat_or_ability",
-            "name": "WP"
+            "type": "feat",
+            "name": "Quick Draw",
+            "text_description": "Feats: Quick Draw"
+          },
+          {
+            "type": "feat",
+            "name": "Weapon Proficiency (pistols)",
+            "text_description": "Feats: Weapon Proficiency (pistols)"
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "PB Shot, Precise Shot, \nQuick Draw, WP(pistols)",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": ""
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": null,
+          "feat_prerequisite": "Point Blank Shot, Precise Shot, Quick Draw, Weapon Proficiency (pistols)",
+          "talent_prerequisite": null,
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": null
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Gunslinger",
+            "description": "You never travel anywhere without a blaster (or two), and you know how to handle yourself in a gunfight. Talents from this tree are available to the Gunslinger prestige class. Errata: Talents from this tree may only be used with pistols and rifles."
+          },
+          {
+            "tree_name": "Fortune",
+            "description": "Talents available from the Scoundrel's Fortune talent tree (CRB p.46)."
+          },
+          {
+            "tree_name": "Awareness",
+            "description": "Talents available from the Scout's Awareness talent tree (CRB p.49)."
+          }
+        ]
       },
       {
+        "id": "imperial_knight_l_43",
         "name": "Imperial Knight",
         "source_book": "L",
         "page": "43",
@@ -1806,7 +2044,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -1917,6 +2154,7 @@
         }
       },
       {
+        "id": "improviser_r_41",
         "name": "Improviser",
         "source_book": "R",
         "page": "41",
@@ -1944,7 +2182,6 @@
           "will": "+4"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -2045,6 +2282,7 @@
         }
       },
       {
+        "id": "independent_droid_f_46",
         "name": "Independent Droid",
         "source_book": "F",
         "page": "46",
@@ -2068,7 +2306,6 @@
           "will": "+4"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d12",
         "level_progression": [
           {
@@ -2169,6 +2406,7 @@
         }
       },
       {
+        "id": "infiltrator_f_48",
         "name": "Infiltrator",
         "source_book": "F",
         "page": "48",
@@ -2196,7 +2434,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -2388,121 +2625,157 @@
           "fortitude": "+2",
           "will": "+2"
         },
-        "description_general": "The Jedi Knight is a guardian of peace and justice in the galaxy, having completed their Jedi training to become a full member of the Jedi Order. Skilled in the ways of the Force and the art of lightsaber combat, they follow the Jedi Code, striving to protect the innocent, uphold the ideals of the Republic (or the light), and confront the darkness. [Sourced from CRB p.217]",
+        "description_general": "Among the Jedi, those of the order who have proven capable, wise, self-sufficient, and stable are given the rank of Knight. A Jedi apprentice must learn to use the Force without instability or strain, build his or her own lightsaber, and show an understanding of the Code of the Jedi. Jedi Knights are trusted to teach apprentices, carry out missions with little aid or support, and use their best judgment when handling the unexpected. [Sourced from CRB p.217-218]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d10",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +2 class bonus to Reflex, Fortitude, and Will Defense."
+        },
         "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Gains Force Techniques"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "8",
+            "bab": "+8",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "9",
+            "bab": "+9",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "10",
+            "bab": "+10",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Force Technique",
+            "description": "You have learned improved techniques to attune yourself to the Force. At every even-numbered level (2nd, 4th, 6th, 8th, and 10th), you gain one Force technique that, once selected, cannot be changed (see Force Techniques, CRB p.101).",
+            "source_book": "CR",
+            "page": 219
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
-          },
-          {
-            "text_description": "WP lightsabers",
-            "type": "feat_or_ability",
-            "name": "WP lightsabers"
-          },
-          {
-            "text_description": "BAB +7",
             "type": "base_attack_bonus",
-            "value": 7
+            "value": 7,
+            "text_description": "Base Attack Bonus: +7"
           },
           {
-            "text_description": "self-built lightsaber",
-            "type": "other"
+            "type": "trained_skill",
+            "name": "Use the Force",
+            "text_description": "Trained Skills: Use the Force"
           },
           {
-            "text_description": "Jedi tradition",
-            "type": "feat_or_ability",
-            "name": "Jedi tradition"
+            "type": "feat",
+            "name": "Force Sensitivity",
+            "text_description": "Feats: Force Sensitivity"
+          },
+          {
+            "type": "feat",
+            "name": "Weapon Proficiency (lightsabers)",
+            "text_description": "Feats: Weapon Proficiency (lightsabers)"
+          },
+          {
+            "type": "special",
+            "text_description": "Must have built your own lightsaber (see Building a Lightsaber sidebar, CRB p.40)."
+          },
+          {
+            "type": "special",
+            "text_description": "Must be a member of the Jedi tradition (see CRB p.104)."
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "BAB +7, self-built lightsaber, \nJedi tradition"
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Use the Force",
+          "feat_prerequisite": "Force Sensitivity, Weapon Proficiency (lightsabers)",
+          "talent_prerequisite": null,
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": 7,
+          "special_prerequisite": "Must have built your own lightsaber. Must be a member of the Jedi tradition."
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Duelist",
+            "description": "Through rigorous training and experience, you become one of the greatest swordfighters in the galaxy. Talents from this tree are available to the Jedi Knight prestige class."
+          },
+          {
+            "tree_name": "Lightsaber Forms",
+            "description": "You have refined your knowledge of lightsaber technique, your blade becoming an extension of your self. Talents from this tree are available to the Jedi Knight prestige class."
+          },
+          {
+            "tree_name": "Armor Specialist",
+            "description": "Talents available from the Soldier's Armor Specialist talent tree (CRB p.51)."
+          },
+          {
+            "tree_name": "Lightsaber Combat",
+            "description": "Talents available from the Jedi's Lightsaber Combat talent tree (CRB p.41)."
+          }
+        ]
       },
       {
         "id": "jedi_master_cr_219",
@@ -2524,84 +2797,125 @@
           "fortitude": "+3",
           "will": "+3"
         },
-        "description_general": "A Jedi Master represents a pinnacle of achievement within the Jedi Order, possessing profound wisdom, exceptional skill in the Force, and a deep understanding of its mysteries. They often serve as leaders, teachers to new generations of Jedi, and powerful champions of the light side, having faced many trials and demonstrated exemplary dedication to the Jedi Code. [Sourced from CRB p.219-220]",
+        "description_general": "Jedi Masters represent the pinnacle of the Jedi order. They are Jedi who are both strong enough in the Force and patient enough in life to pass on their skills by teaching a new generation of Jedi. The journey from Padawan learner to Jedi Master usually takes decades, and many who start upon the path never reach its final destination. [Sourced from CRB p.219]",
         "force_points_per_level": "7",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d10",
+          "force_points_per_level_formula": "7 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +3 class bonus to Reflex, Fortitude, and Will Defense."
+        },
         "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": "Fearless, Serenity",
-            "special_abilities": "Fearless: immune to fear effects"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Force secret",
-            "special_abilities": "Serenity: trance, lose Dex to Def, exit swif, 1st attack or Use the Force is nat 20"
+            "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": "Force secret",
-            "special_abilities": "Force Secrets"
+            "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Force secret",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": "Force secret",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "12th",
+        "other_class_features": [
+          {
+            "feature_name": "Fearless",
+            "description": "You are immune to fear effects.",
+            "source_book": "CR",
+            "page": 220
+          },
+          {
+            "feature_name": "Serenity",
+            "description": "You may enter a brief meditative state as a full-round action. You may remain in this trance as long as you wish, and you are still aware of your surroundings; however, you are otherwise helpless and cannot perform any other actions (errata). Upon emerging from the trance (a swift action), your first attack roll or Use the Force skill check made in the following round is considered to be a natural 20.",
+            "source_book": "CR",
+            "page": 220
+          },
+          {
+            "feature_name": "Force Secret",
+            "description": "You have meditated on the deeper mysteries of the light side of the Force. At 2nd level and every level thereafter (up to 5th), you gain one Force secret that, once selected, cannot be changed (see Force Secrets, CRB p.103).",
+            "source_book": "CR",
+            "page": 220
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
+            "type": "minimum_character_level",
+            "value": 12,
+            "text_description": "Minimum Level: 12th"
           },
           {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
+            "type": "trained_skill",
+            "name": "Use the Force",
+            "text_description": "Trained Skills: Use the Force"
           },
           {
-            "text_description": "WP lightsabers",
-            "type": "feat_or_ability",
-            "name": "WP lightsabers"
+            "type": "feat",
+            "name": "Force Sensitivity",
+            "text_description": "Feats: Force Sensitivity"
           },
           {
-            "text_description": "1 Force Technique",
-            "type": "feat_or_ability",
-            "name": "1 Force Technique"
+            "type": "feat",
+            "name": "Weapon Proficiency (lightsabers)",
+            "text_description": "Feats: Weapon Proficiency (lightsabers)"
           },
           {
-            "text_description": "Jedi tradition",
-            "type": "feat_or_ability",
-            "name": "Jedi tradition"
+            "type": "force_technique",
+            "name": "Any one",
+            "text_description": "Force Techniques: Any one"
+          },
+          {
+            "type": "special",
+            "text_description": "Must be a member of the Jedi tradition (see CRB p.104)."
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "1 Force Technique, \nJedi tradition"
-        }
+          "minimum_character_level_text": "12th",
+          "trained_skill_prerequisite": "Use the Force",
+          "feat_prerequisite": "Force Sensitivity, Weapon Proficiency (lightsabers)",
+          "talent_prerequisite": null,
+          "other_prerequisite": "Force Techniques: Any one.",
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": "Must be a member of the Jedi tradition."
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Duelist",
+            "description": "Talents available from the Jedi Knight's Duelist talent tree (CRB p.218)."
+          },
+          {
+            "tree_name": "Force Talent Trees (Chapter 6)",
+            "description": "Talents available from any Force talent tree in Chapter 6: The Force (CRB p.100-102): Alter, Control, Dark Side, Sense, Light Side."
+          }
+        ]
       },
       {
+        "id": "martial_arts_master_gw_32",
         "name": "Martial Arts Master",
         "source_book": "GW",
         "page": "32",
@@ -2629,7 +2943,6 @@
           "will": "0"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -2738,6 +3051,7 @@
         }
       },
       {
+        "id": "master_privateer_sv_32",
         "name": "Master Privateer",
         "source_book": "SV",
         "page": "32",
@@ -2765,7 +3079,6 @@
           "will": "+4"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -2885,6 +3198,7 @@
         }
       },
       {
+        "id": "medic_f_52",
         "name": "Medic",
         "source_book": "F",
         "page": "52",
@@ -2904,7 +3218,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -3005,6 +3318,7 @@
         }
       },
       {
+        "id": "melee_duelist_k_46",
         "name": "Melee Duelist",
         "source_book": "K",
         "page": "46",
@@ -3028,7 +3342,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -3134,6 +3447,7 @@
         }
       },
       {
+        "id": "military_engineer_c_44",
         "name": "Military Engineer",
         "source_book": "C",
         "page": "44",
@@ -3153,7 +3467,6 @@
           "will": "+2"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -3289,107 +3602,148 @@
           "fortitude": "0",
           "will": "+4"
         },
-        "description_general": "The Officer is a leader of military forces, skilled in tactics, command, and inspiring troops on the battlefield or aboard starships. They are responsible for strategy, unit cohesion, and achieving objectives, whether serving planetary militias, sector forces, or the grand armies and navies of major galactic powers. [Sourced from CRB p.220-221]",
+        "description_general": "Even the best-trained troops need someone to make decisions and provide direction. The officer fills that role but also takes responsibility when the troops fail in their appointed tasks. They frequently also suffer the disrespect of their subordinates, who often see the uniform as a symbol of oppression. [Sourced from CRB p.220]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d8",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +2 class bonus to Reflex Defense and +4 class bonus to Will Defense."
+        },
         "hit_points_die": "d8",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Command Cover: Ref Def +1 per ally adjacent to you = 1/2 level"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
-            "gains_talent_choice": false,
-            "class_feature": "Command cover, Share talent",
-            "special_abilities": "Share talent: once a day to ally w/in 10 sq. share talent w/# of allies = 1/2 level"
-          },
-          {
-            "level": 3,
-            "bab": "3",
-            "gains_talent_choice": true,
-            "class_feature": null,
-            "special_abilities": "Talents need to be from the Influence, Inspiration, Commando or the Military Tactics tree."
-          },
-          {
-            "level": 4,
-            "bab": "4",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Command cover, Share talent",
             "special_abilities": null
           },
           {
+            "level": 3,
+            "bab": "+3",
+            "gains_talent_choice": true,
+            "class_feature": null,
+            "special_abilities": null
+          },
+          {
+            "level": 4,
+            "bab": "+4",
+            "gains_talent_choice": false,
+            "class_feature": "Share talent",
+            "special_abilities": null
+          },
+          {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
-            "class_feature": "Command cover, Share talent",
+            "class_feature": "Share talent",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "8",
+            "bab": "+8",
             "gains_talent_choice": false,
-            "class_feature": "Command cover, Share talent",
+            "class_feature": "Share talent",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "9",
+            "bab": "+9",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "10",
+            "bab": "+10",
             "gains_talent_choice": false,
-            "class_feature": "Command cover, Share talent",
+            "class_feature": "Share talent",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Command Cover",
+            "description": "Starting at 2nd level, you can use your allies to shield you from harm. You gain a +1 cover bonus to your Reflex Defense for each ally that is adjacent to you, up to a maximum bonus equal to one-half your Officer class level (rounded down).",
+            "source_book": "CR",
+            "page": 221
+          },
+          {
+            "feature_name": "Share Talent",
+            "description": "At every even-numbered level, choose a talent that you already possess. The talent you select must be under the Influence talent tree, the Inspiration talent tree, the Commando talent tree, or the Military Tactics talent tree. Once per day as a standard action, you can impart the benefits of the chosen talent to one or more allies, effectively granting them the talent (even if they don't meet the prerequisites). An ally must be within 10 squares of you and must be able to see and hear you to gain the talent; once gained, its benefits last until the end of the encounter. You can share the talent with a number of allies equal to one-half your officer class level (rounded down). Each time you gain this ability, it applies to a different talent. Once you select a shared talent, it cannot be changed.",
+            "source_book": "CR",
+            "page": 222
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Knowledge (tactics)",
-            "type": "feat_or_ability",
-            "name": "Knowledge"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
-            "type": "other"
+            "type": "trained_skill",
+            "name": "Knowledge (tactics)",
+            "text_description": "Trained Skills: Knowledge (tactics)"
           },
           {
-            "text_description": "military membership",
-            "type": "other"
+            "type": "talent",
+            "name": "Leadership or Commando Talent",
+            "text_description": "Talents: At least one talent from the Leadership talent tree or Commando talent tree"
+          },
+          {
+            "type": "special",
+            "text_description": "Must belong to an organization with a military or paramilitary division."
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Knowledge (tactics)",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "",
-          "TALENT PREREQUISITE": "1 from Commando (soldier) Veteran (soldier) or Leadership (Noble)",
-          "OTHER PREREQUISITE": "military membership"
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Knowledge (tactics)",
+          "feat_prerequisite": null,
+          "talent_prerequisite": "At least one talent from the Leadership talent tree (Noble) or Commando talent tree (Soldier)",
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": "Must belong to an organization with a military or paramilitary division."
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Military Tactics",
+            "description": "Officers study old battles, looking for historic examples of good military tactics. You are an expert at leading troops into battle and using the battlefield to your advantage. Talents from this tree are available to the Officer prestige class."
+          },
+          {
+            "tree_name": "Leadership",
+            "description": "Talents available from the Noble's Leadership talent tree (CRB p.44)."
+          },
+          {
+            "tree_name": "Commando",
+            "description": "Talents available from the Soldier's Commando talent tree (CRB p.52)."
+          }
+        ]
       },
       {
+        "id": "outlaw_sv_34",
         "name": "Outlaw",
         "source_book": "SV",
         "page": "34",
@@ -3417,7 +3771,6 @@
           "will": "0"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -3521,6 +3874,7 @@
         }
       },
       {
+        "id": "pathfinder_r_43",
         "name": "Pathfinder",
         "source_book": "R",
         "page": "43",
@@ -3544,7 +3898,6 @@
           "will": "0"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {
@@ -3649,6 +4002,7 @@
         }
       },
       {
+        "id": "saboteur_f_54",
         "name": "Saboteur",
         "source_book": "F",
         "page": "54",
@@ -3676,7 +4030,6 @@
           "will": "+4"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -3777,6 +4130,7 @@
         }
       },
       {
+        "id": "shaper_l_46",
         "name": "Shaper",
         "source_book": "L",
         "page": "46",
@@ -3800,7 +4154,6 @@
           "will": "+4"
         },
         "force_points_per_level": "0",
-        "group_heading": "Y",
         "hit_points_die": "d8",
         "level_progression": [
           {
@@ -3957,117 +4310,168 @@
           "fortitude": "+2",
           "will": "+2"
         },
-        "description_general": "The Sith Apprentice walks the path of darkness under the tutelage of a Sith Master, learning the forbidden secrets of the Sith Order and cultivating their power in the dark side of the Force. Driven by ambition, hatred, or a desire for ultimate control, they embrace the Sith Code and seek to master their passions to achieve strength. [Sourced from CRB p.223]",
+        "description_general": "The Sith apprentice combines combat mastery with the power of the dark side to create a living embodiment of rage and savagery. Physical conditioning and punishing discipline make the Sith apprentice into a formidable opponent, and facility with the powers of the dark side add a wicked barb to an otherwise deadly weapon. The Sith apprentice is dedicated to the conquest and subjugation of any obstacle to the Sith tradition. [Sourced from CRB p.223]",
         "force_points_per_level": "6",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d10",
+          "force_points_per_level_formula": "6 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +2 class bonus to Reflex, Fortitude, and Will Defense."
+        },
         "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": null,
-            "special_abilities": "Gains Force Techniques"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 6,
-            "bab": "6",
+            "bab": "+6",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 7,
-            "bab": "7",
+            "bab": "+7",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 8,
-            "bab": "8",
+            "bab": "+8",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           },
           {
             "level": 9,
-            "bab": "9",
+            "bab": "+9",
             "gains_talent_choice": true,
             "class_feature": null,
             "special_abilities": null
           },
           {
             "level": 10,
-            "bab": "10",
+            "bab": "+10",
             "gains_talent_choice": false,
             "class_feature": "Force technique",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "7th",
+        "other_class_features": [
+          {
+            "feature_name": "Force Technique",
+            "description": "You have learned improved techniques to control the Force. At every even-numbered level (2nd, 4th, 6th, 8th, and 10th), you gain one Force technique that, once selected, cannot be changed (see Force Techniques, CRB p.101).",
+            "source_book": "CR",
+            "page": 224
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
+            "type": "minimum_character_level",
+            "value": 7,
+            "text_description": "Minimum Level: 7th"
           },
           {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
+            "type": "trained_skill",
+            "name": "Use the Force",
+            "text_description": "Trained Skills: Use the Force"
           },
           {
-            "text_description": "WP lightsabers",
-            "type": "feat_or_ability",
-            "name": "WP lightsabers"
+            "type": "feat",
+            "name": "Force Sensitivity",
+            "text_description": "Feats: Force Sensitivity"
           },
           {
-            "text_description": "Dark Side score = Wis",
-            "type": "feat_or_ability",
-            "name": "Dark Side score = Wis"
+            "type": "feat",
+            "name": "Weapon Proficiency (lightsabers)",
+            "text_description": "Feats: Weapon Proficiency (lightsabers)"
           },
           {
-            "text_description": "Sith tradition",
-            "type": "feat_or_ability",
-            "name": "Sith tradition"
+            "type": "special",
+            "text_description": "Dark Side Score: Your Dark Side Score must be equal to your Wisdom score."
+          },
+          {
+            "type": "special",
+            "text_description": "Must be a member of the Sith tradition (see CRB p.105)."
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "Dark Side score = Wis, \nSith tradition"
-        }
+          "minimum_character_level_text": "7th",
+          "trained_skill_prerequisite": "Use the Force",
+          "feat_prerequisite": "Force Sensitivity, Weapon Proficiency (lightsabers)",
+          "talent_prerequisite": null,
+          "other_prerequisite": null,
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": "Dark Side Score must be equal to Wisdom score. Must be a member of the Sith tradition."
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Sith",
+            "description": "The Sith tradition believes in order through tyranny. Talents from this tree are available to the Sith Apprentice prestige class."
+          },
+          {
+            "tree_name": "Armor Specialist",
+            "description": "Talents available from the Soldier's Armor Specialist talent tree (CRB p.51)."
+          },
+          {
+            "tree_name": "Duelist",
+            "description": "Talents available from the Jedi Knight's Duelist talent tree (CRB p.218)."
+          },
+          {
+            "tree_name": "Lightsaber Combat",
+            "description": "Talents available from the Jedi's Lightsaber Combat talent tree (CRB p.41)."
+          },
+          {
+            "tree_name": "Alter",
+            "description": "Talents available from the Force Talent Tree: Alter (CRB p.100)."
+          },
+          {
+            "tree_name": "Control",
+            "description": "Talents available from the Force Talent Tree: Control (CRB p.101)."
+          },
+          {
+            "tree_name": "Sense",
+            "description": "Talents available from the Force Talent Tree: Sense (CRB p.101)."
+          },
+          {
+            "tree_name": "Dark Side",
+            "description": "Talents available from the Force Talent Tree: Dark Side (CRB p.101)."
+          }
+        ]
       },
       {
         "id": "sith_lord_cr_224",
@@ -4077,11 +4481,23 @@
         "available_talent_trees": [
           {
             "tree_name": "Sith",
-            "source_description": "Sith Apprentice"
+            "description": "The Sith tradition believes in order through tyranny. Talents from this tree are available to the Sith Apprentice prestige class."
           },
           {
-            "tree_name": "Any tree from chapter #6",
-            "source_description": ""
+            "tree_name": "Alter",
+            "description": "Talents available from the Force Talent Tree: Alter (CRB p.100)."
+          },
+          {
+            "tree_name": "Control",
+            "description": "Talents available from the Force Talent Tree: Control (CRB p.101)."
+          },
+          {
+            "tree_name": "Sense",
+            "description": "Talents available from the Force Talent Tree: Sense (CRB p.101)."
+          },
+          {
+            "tree_name": "Dark Side",
+            "description": "Talents available from the Force Talent Tree: Dark Side (CRB p.101)."
           }
         ],
         "defense_bonuses": {
@@ -4089,89 +4505,129 @@
           "fortitude": "+3",
           "will": "+3"
         },
-        "description_general": "A Sith Lord has achieved a significant degree of mastery over the dark side of the Force and typically commands considerable power and influence within the Sith Order or their own dark domain. They are figures of immense personal power, cunning, and cruelty, fully dedicated to the Sith philosophy of strength through passion and the pursuit of galactic domination or personal apotheosis through the dark side. [Sourced from CRB p.224]",
+        "description_general": "The Sith Lord is the pinnacle of the Sith tradition. Her most sacred tasks include preserving the lore and glory of the Sith and plotting their eventual ascendance to their place as rulers of the galaxy. The Sith Lord must allow nothing to stand in the way of this goal. [Sourced from CRB p.224]",
         "force_points_per_level": "7",
-        "group_heading": "Y",
+        "game_rule_information": {
+          "hit_points_die_type": "d10",
+          "force_points_per_level_formula": "7 + floor(character_level / 2)",
+          "defense_bonuses_text": "At 1st level, +3 class bonus to Reflex, Fortitude, and Will Defense."
+        },
         "hit_points_die": "d10",
         "level_progression": [
           {
             "level": 1,
-            "bab": "1",
+            "bab": "+1",
             "gains_talent_choice": true,
             "class_feature": "Fearless, Temptation",
-            "special_abilities": "Fearless: immune to fear effects"
+            "special_abilities": null
           },
           {
             "level": 2,
-            "bab": "2",
+            "bab": "+2",
             "gains_talent_choice": false,
             "class_feature": "Force secret",
-            "special_abilities": "Temptation: Persuasion v. Will Def w/in LOS see p.225 SECR"
+            "special_abilities": null
           },
           {
             "level": 3,
-            "bab": "3",
+            "bab": "+3",
             "gains_talent_choice": true,
             "class_feature": "Force secret",
-            "special_abilities": "Force secrets"
+            "special_abilities": null
           },
           {
             "level": 4,
-            "bab": "4",
+            "bab": "+4",
             "gains_talent_choice": false,
             "class_feature": "Force secret",
             "special_abilities": null
           },
           {
             "level": 5,
-            "bab": "5",
+            "bab": "+5",
             "gains_talent_choice": true,
             "class_feature": "Force secret",
             "special_abilities": null
           }
         ],
         "minimum_character_level_text": "12th",
+        "other_class_features": [
+          {
+            "feature_name": "Fearless",
+            "description": "You are immune to fear effects.",
+            "source_book": "CR",
+            "page": 225
+          },
+          {
+            "feature_name": "Temptation",
+            "description": "You are adept at using Dun Moch, an ancient and vile technique for tempting others to tap into the dark side of the Force. As a standard action, make a Persuasion check and compare it to the Will Defense of a single opponent within line of sight. If the check succeeds, the target is filled with fear or anger, briefly giving in to the dark side. If the target spends a Force Point before your next turn, it must either add 1 point to its Dark Side Score or move -1 step on the condition track as it is overcome by doubt and remorse. If the target spends a Destiny Point before your next turn, it instead must add 2 points to its Dark Side Score or move -2 steps on the condition track.",
+            "source_book": "CR",
+            "page": 225
+          },
+          {
+            "feature_name": "Force Secret",
+            "description": "You have learned forbidden secrets of tapping the dark side of the Force. At 2nd level and every level thereafter (up to 5th), you gain one Force secret that, once selected, cannot be changed (see Force Secrets, CRB p.103).",
+            "source_book": "CR",
+            "page": 225
+          }
+        ],
         "prerequisites_structured": [
           {
-            "text_description": "Use the Force",
-            "type": "feat_or_ability",
-            "name": "Use the Force"
+            "type": "minimum_character_level",
+            "value": 12,
+            "text_description": "Minimum Level: 12th"
           },
           {
-            "text_description": "Force Sensitivity",
-            "type": "feat_or_ability",
-            "name": "Force Sensitivity"
+            "type": "trained_skill",
+            "name": "Use the Force",
+            "text_description": "Trained Skills: Use the Force"
           },
           {
-            "text_description": "WP lightsabers",
-            "type": "feat_or_ability",
-            "name": "WP lightsabers"
+            "type": "feat",
+            "name": "Force Sensitivity",
+            "text_description": "Feats: Force Sensitivity"
           },
           {
-            "text_description": "1 Force Technique",
-            "type": "feat_or_ability",
-            "name": "1 Force Technique"
+            "type": "feat",
+            "name": "Weapon Proficiency (lightsabers)",
+            "text_description": "Feats: Weapon Proficiency (lightsabers)"
           },
           {
-            "text_description": "Dark Side score = Wis",
-            "type": "feat_or_ability",
-            "name": "Dark Side score = Wis"
+            "type": "force_technique",
+            "name": "Any one",
+            "text_description": "Force Techniques: Any one"
           },
           {
-            "text_description": "Sith tradition",
-            "type": "feat_or_ability",
-            "name": "Sith tradition"
+            "type": "special",
+            "text_description": "Dark Side Score: Your Dark Side Score must be equal to your Wisdom score."
+          },
+          {
+            "type": "special",
+            "text_description": "Must be a member of the Sith tradition (see CRB p.105)."
           }
         ],
         "prerequisites_summary": {
-          "TRAINED SKILL PREREQUISITE": "Use the Force",
-          "SKILL FOCUS PREREQ.": "",
-          "FEAT PREREQUISITE": "Force Sensitivity, \nWP lightsabers",
-          "TALENT PREREQUISITE": "",
-          "OTHER PREREQUISITE": "1 Force Technique, \nDark Side score = Wis, \nSith tradition"
-        }
+          "minimum_character_level_text": "12th",
+          "trained_skill_prerequisite": "Use the Force",
+          "feat_prerequisite": "Force Sensitivity, Weapon Proficiency (lightsabers)",
+          "talent_prerequisite": null,
+          "other_prerequisite": "Force Techniques: Any one.",
+          "base_attack_bonus_prerequisite": null,
+          "special_prerequisite": "Dark Side Score must be equal to Wisdom score. Must be a member of the Sith tradition."
+        },
+        "talent_trees_details": [
+          {
+            "tree_name": "Sith",
+            "description": "Talents available from the Sith Apprentice's Sith talent tree (CRB p.223)."
+          },
+          {
+            "tree_name": "Force Talent Trees (Chapter 6)",
+            "description": "Talents available from any Force talent tree in Chapter 6: The Force (CRB p.100-102): Alter, Control, Dark Side, Sense."
+          }
+        ]
       },
       {
+        "id": "vanguard_c_47",
         "name": "Vanguard",
         "source_book": "C",
         "page": "47",
@@ -4195,7 +4651,6 @@
           "will": "0"
         },
         "force_points_per_level": "6",
-        "group_heading": "Y",
         "hit_points_die": "d10",
         "level_progression": [
           {

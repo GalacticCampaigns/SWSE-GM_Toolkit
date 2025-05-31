@@ -1,0 +1,249 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Droid Chassis Schema",
+  "description": "Schema for individual Droid Chassis entries in Star Wars SAGA Edition, designed to be populated from CSV and detailed book sources.",
+  "type": "object",
+  "properties": {
+    "droid_chassis_data": {
+      "type": "object",
+      "description": "Wrapper object for the list of droid chassis.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "default": "Compilation of Droid Chassis for Star Wars SAGA Edition."
+        },
+        "droid_chassis_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/droid_chassis_entry"
+          }
+        }
+      },
+      "required": ["description", "droid_chassis_list"]
+    }
+  },
+  "definitions": {
+    "source_details_object": {
+      "type": "object",
+      "description": "Specifies source information for a piece of data.",
+      "properties": {
+        "source_book": { "type": "string", "description": "Abbreviation of the source book (e.g., CR, SGD, SV, W)." },
+        "page": { "type": "string", "description": "Page number or range in the specified source book." },
+        "reference_type": {
+          "type": "string",
+          "enum": ["primary_definition", "stat_block_source", "mention", "expanded_details", "modification_option"],
+          "description": "Nature of the information from this source."
+        }
+      },
+      "required": ["source_book", "page"]
+    },
+    "droid_chassis_entry": {
+      "type": "object",
+      "description": "Represents a single droid chassis or model.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the droid chassis (e.g., snake_case_name_source_page)."
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the droid model/chassis (from CSV 'DROID' column)."
+        },
+        "primary_source": {
+          "$ref": "#/definitions/source_details_object",
+          "description": "Primary source book and page from the CSV ('BOOK', 'PAGE')."
+        },
+        "full_text_description": {
+          "type": "string",
+          "description": "Detailed descriptive text from the source book, typically CRB Chapter 11 or other primary stat block source."
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "Manufacturer of the droid (from CSV 'MANUFACTURER' column)."
+        },
+        "cl": {
+          "type": "integer",
+          "description": "Corrected Challenge Level (from CSV 'CL (correct)' column)."
+        },
+        "cl_source_original": {
+          "type": "integer",
+          "description": "Original CL listed in the CSV source, if different (from CSV 'CL (Source)' column)."
+        },
+        "size_category_text": {
+          "type": "string",
+          "description": "Size category (e.g., Tiny, Small, Medium, Large, Huge, Gargantuan, Colossal). Derived from CSV 'Size' column.",
+          "enum": ["Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal"]
+        },
+        "degree": {
+          "type": "integer",
+          "description": "Droid degree (1-5) (from CSV 'Degree' column)."
+        },
+        "typical_class_levels_summary": {
+          "type": "object",
+          "description": "A flexible map of class names to the number of levels typically associated with this droid model. Only classes in which the droid has levels will be present as keys. Also includes a general notes field for this build.",
+          "properties": {
+            "notes": {
+              "type": "string",
+              "description": "Any general notes on this typical class build or progression for this droid model."
+            }
+          },
+          "patternProperties": {
+            "^(?!notes$)[A-Za-z0-9_ -]+$": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Number of levels in this class. Only present if levels > 0."
+            }
+          },
+          "additionalProperties": false,
+          "propertyNames": {
+            "pattern": "^([A-Za-z0-9_ -]+|notes)$"
+          }
+        },
+        "stat_block_details": {
+          "type": "object",
+          "description": "Detailed stat block information, typically from the primary source book (e.g., CRB).",
+          "properties": {
+            "initiative_modifier": { "type": "integer" },
+            "senses_perception_modifier": { "type": "integer" },
+            "senses_special_qualities": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Special sensory capabilities (e.g., 'darkvision', 'low-light vision')."
+            },
+            "defenses": {
+              "type": "object",
+              "properties": {
+                "reflex_defense_total": { "type": "integer" },
+                "reflex_defense_flat_footed": { "type": "integer" },
+                "fortitude_defense_total": { "type": "integer" },
+                "will_defense_total": { "type": "integer" },
+                "armor_bonus_to_reflex": { "type": "integer", "description": "Bonus from armor plating." },
+                "damage_reduction_dr_value": { "type": "integer" },
+                "shield_rating_sr_total": { "type": "integer", "description": "If equipped with shield generators." }
+              },
+              "required": ["reflex_defense_total", "fortitude_defense_total", "will_defense_total"]
+            },
+            "hit_points_total": { "type": "integer" },
+            "damage_threshold_base": { "type": "integer" },
+            "speed_systems": {
+              "type": "array",
+              "description": "Movement systems and speeds.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": { "type": "string", "enum": ["Walk", "Fly", "Swim", "Climb", "Burrow", "Wheeled", "Tracked"] },
+                  "squares": { "type": "integer", "description": "Speed in squares." },
+                  "max_velocity_kph_atmosphere": {"type": "integer", "description": "Max atmospheric speed in km/h, if applicable." },
+                  "notes": { "type": "string", "description": "Any special notes about this movement type." }
+                },
+                "required": ["type", "squares"]
+              }
+            },
+            "fighting_space": { "type": "string", "description": "Space occupied in squares (e.g., '1 square', '2x2 squares')." },
+            "reach": { "type": "string", "description": "Reach in squares (e.g., '1 square')." },
+            "base_attack_bonus": { "type": "integer" },
+            "grapple_modifier": { "type": "integer" },
+            "ability_scores": {
+              "type": "object",
+              "properties": {
+                "strength": { "type": "integer" },
+                "dexterity": { "type": "integer" },
+                "intelligence": { "type": "integer" },
+                "wisdom": { "type": "integer" },
+                "charisma": { "type": "integer" }
+              },
+              "required": ["strength", "dexterity", "intelligence", "wisdom", "charisma"]
+            },
+            "skills": {
+              "type": "array",
+              "description": "List of trained skills and their modifiers.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "skill_name": { "type": "string" },
+                  "modifier": { "type": "integer" },
+                  "notes": { "type": "string", "description": "e.g., 'can take 10', 'class skill'." }
+                },
+                "required": ["skill_name", "modifier"]
+              }
+            },
+            "feats": {
+              "type": "array",
+              "description": "List of feats possessed by the base model.",
+              "items": { "type": "string" }
+            },
+            "talents": {
+              "type": "array",
+              "description": "List of talents possessed by the base model.",
+              "items": { "type": "string" }
+            },
+            "base_equipment_and_systems": {
+                "type": "array",
+                "description": "Standard equipment, weapons, and systems integral to this chassis.",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "item_name_or_type": { "type": "string" },
+                        "category": { "type": "string", "description": "e.g., Weapon, Sensor, Tool, Locomotion, Appendage, Processor." },
+                        "summary": { "type": "string", "description": "Brief details, stats, or description." },
+                        "source_details": { "$ref": "#/definitions/source_details_object" }
+                    },
+                    "required": ["item_name_or_type", "category"]
+                }
+            },
+            "special_qualities_summary": {
+                "type": "array",
+                "description": "Inherent special qualities of the chassis.",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "quality_name": { "type": "string" },
+                        "summary": { "type": "string", "description": "Brief description of the quality." },
+                        "source_details": { "$ref": "#/definitions/source_details_object" }
+                    },
+                    "required": ["quality_name"]
+                }
+            }
+          }
+        },
+        "availability_cost_info": {
+          "type": "object",
+          "description": "Availability and cost information (from CSV).",
+          "properties": {
+            "availability_code": { "type": "string", "description": "Availability code (e.g., L, Re, U)." },
+            "cost_new_credits": { "type": ["integer", "null"], "description": "Cost new in credits. Null if N/A." },
+            "cost_used_credits": { "type": ["integer", "null"], "description": "Cost used in credits. Null if N/A." },
+            "cost_notes": {"type": "string", "description": "Any notes if costs are N/A, conditional, or if only one type of cost is available."}
+          }
+        },
+        "additional_notes_and_modifications": {
+          "type": "string",
+          "description": "General notes, common modifications, or comments (from CSV 'COMMENTS & MODIFICATIONS' and other sources)."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Descriptive tags for filtering and categorization (e.g., Protocol, Medical, Battle, Labor, Wheeled, Tracked)."
+        },
+        "image_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to an image of the droid, if available."
+        },
+        "additional_source_references": {
+            "type": "array",
+            "description": "List of other source books and pages where this droid chassis or substantially similar versions are detailed.",
+            "items": { "$ref": "#/definitions/source_details_object" }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "primary_source",
+        "cl",
+        "size_category_text",
+        "degree"
+      ]
+    }
+  }
+}

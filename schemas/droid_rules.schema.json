@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Droid Rules Schema (Multi-Source Ready)",
+  "description": "Schema for general rules pertaining to Droids in Star Wars SAGA Edition. Designed to accommodate rules from multiple sourcebooks.",
+  "definitions": {
+    "source_details_object": {
+      "type": "object",
+      "description": "Specifies source information if different from the file's default source, or for explicit citation of an expansion, errata, or alternative rule.",
+      "properties": {
+        "source_book": {
+          "type": "string",
+          "description": "Abbreviation of the source book (e.g., CR, SGD, KOTORCG)."
+        },
+        "page": {
+          "type": "string",
+          "description": "Page number or page range in the specified source book."
+        },
+        "reference_type": {
+          "type": "string",
+          "enum": ["primary_definition", "supplemental_rule", "clarification", "errata", "expansion", "alternative_rule"],
+          "description": "Describes the nature of the information from this specific source relative to any default or pre-existing rule."
+        },
+        "notes": {
+            "type": "string",
+            "description": "Optional brief note about this specific source reference (e.g., 'This rule supersedes CRB p.X for this specific case')."
+        }
+      },
+      "required": ["source_book", "page"]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "droid_rules_data": {
+      "type": "object",
+      "description": "Wrapper object for all droid-related rules.",
+      "properties": {
+        "file_meta_info": {
+          "type": "object",
+          "description": "Metadata about this rules file.",
+          "properties": {
+            "file_description": {
+              "type": "string",
+              "description": "A general description of this file's contents."
+            },
+            "default_source_book": {
+              "type": "string",
+              "description": "The default source book for entries in this file unless overridden by a specific 'source_details' object (e.g., 'CR')."
+            },
+            "default_source_page_range": {
+              "type": "string",
+              "description": "General page range in the default source book that these rules primarily cover."
+            }
+          },
+          "required": ["file_description", "default_source_book"]
+        },
+        "general_droid_characteristics": {
+          "type": "object",
+          "description": "Core traits and characteristics defining droids. Assumed CRB unless 'source_details' is present.",
+          "properties": {
+            "introduction": { "type": "string" },
+            "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this entire section, if not the file's default." },
+            "construct_type_summary": { "type": "string" },
+            "ability_scores_notes": {
+              "type": "object",
+              "properties": {
+                "constitution_absence": { "type": "string" },
+                "intelligence_overview": { "type": "string" },
+                "wisdom_and_charisma_notes": { "type": "string" }
+              },
+              "required": ["constitution_absence", "intelligence_overview"]
+            },
+            "skills_and_feats_acquisition": { "type": "string" },
+            "senses_overview": {
+              "type": "object",
+              "properties": {
+                "darkvision": { "type": "string" },
+                "other_sensory_systems_general": { "type": "string" }
+              }
+            },
+            "droid_immunities": {
+              "type": "object",
+              "properties": {
+                "introduction": {"type": "string"},
+                "immunities_list": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "immunity_description": { "type": "string" },
+                      "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this specific immunity if not default." }
+                    },
+                    "required": ["immunity_description"]
+                  }
+                }
+              }
+            },
+            "droid_vulnerabilities": {
+              "type": "object",
+               "properties": {
+                "introduction": {"type": "string"},
+                "vulnerabilities_list": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "vulnerability_description": { "type": "string" },
+                      "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this specific vulnerability if not default." }
+                    },
+                    "required": ["vulnerability_description"]
+                  }
+                }
+              }
+            }
+          },
+          "required": ["introduction", "construct_type_summary", "ability_scores_notes", "droid_immunities"]
+        },
+        "droid_degrees_classification": {
+          "type": "object",
+          "description": "Explanation of the five degrees of droid classification.",
+          "properties": {
+            "introduction": { "type": "string" },
+            "source_details": { "$ref": "#/definitions/source_details_object" },
+            "degrees_list": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "degree_number": { "type": "integer" },
+                  "degree_name": { "type": "string" },
+                  "description_summary": { "type": "string" },
+                  "primary_functions_and_roles": { "type": "string" },
+                  "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this specific degree's details if not default." }
+                },
+                "required": ["degree_number", "degree_name", "description_summary", "primary_functions_and_roles"]
+              }
+            }
+          },
+          "required": ["introduction", "degrees_list"]
+        },
+        "droid_acquisition_and_construction_rules": {
+          "type": "object",
+          "description": "Rules concerning how droids are obtained or built by characters.",
+          "properties": {
+            "source_details": { "$ref": "#/definitions/source_details_object" },
+            "purchasing_droids_overview": {
+              "type": "object",
+              "properties": {
+                "general_notes": { "type": "string" },
+                "cost_factors": { "type": "string" },
+                "availability_and_legality": { "type": "string" }
+              }
+            },
+            "building_droids_by_pcs": {
+              "type": "object",
+              "description": "Rules for Player Characters constructing droids from scratch or assembling them from parts.",
+              "properties": {
+                "introduction_and_feasibility": { "type": "string" },
+                "skill_requirements_and_checks": { "type": "string" },
+                "process_summary": { "type": "string" },
+                "time_and_material_costs": { "type": "string" },
+                "limitations_and_restrictions": { "type": "string" }
+              }
+            }
+          }
+        },
+        "droid_modification_rules": {
+          "type": "object",
+          "description": "General rules for modifying droids, installing systems, and making upgrades.",
+           "properties": {
+            "source_details": { "$ref": "#/definitions/source_details_object" },
+            "general_principles_of_modification": { "type": "string" },
+            "installing_and_removing_systems": { "type": "string" },
+            "upgrading_components": { "type": "string" },
+            "skill_checks_time_and_cost": { "type": "string" }
+          }
+        },
+        "droid_programming_personality_and_memory": {
+          "type": "object",
+          "description": "Rules related to a droid's software, character, and data storage.",
+          "properties": {
+            "source_details": { "$ref": "#/definitions/source_details_object" },
+            "programming_fundamentals": { "type": "string" },
+            "personality_development_and_quirks": { "type": "string" },
+            "behavioral_constraints": {
+                "type": "object",
+                "properties": {
+                    "restraining_bolts": {"type": "string"},
+                    "loyalty_programming": {"type": "string"}
+                }
+            },
+            "memory_operations": {
+              "type": "object",
+              "properties": {
+                "memory_capacity_and_limits": { "type": "string" },
+                "memory_wipes_procedure_and_effects": { "type": "string" }
+              }
+            },
+            "reprogramming_rules": {
+              "type": "object",
+              "properties": {
+                "overview_and_scope": { "type": "string" },
+                "skill_checks_time_and_cost": { "type": "string" },
+                "limitations_on_reprogramming": { "type": "string" }
+              }
+            }
+          }
+        },
+        "droids_as_heroic_characters": {
+          "type": "object",
+          "description": "Rules and considerations for droids as player characters or significant NPCs with class levels.",
+          "properties": {
+            "source_details": { "$ref": "#/definitions/source_details_object" },
+            "introduction": { "type": "string" },
+            "class_selection_notes": { "type": "string" },
+            "advancement_and_experience": { "type": "string" },
+            "special_considerations": { "type": "string" }
+          }
+        },
+        "droid_maintenance_repair_and_destruction_rules": {
+          "type": "object",
+          "description": "Rules for maintaining droid functionality, repairing damage, and handling their destruction.",
+          "properties": {
+            "source_details": { "$ref": "#/definitions/source_details_object" },
+            "routine_maintenance_needs": { "type": "string" },
+            "repairing_damaged_droids": {
+              "type": "object",
+              "properties": {
+                "hit_point_restoration": { "type": "string" },
+                "repair_skill_checks": { "type": "string" },
+                "spare_parts_and_tools": { "type": "string" },
+                "critical_damage_and_system_malfunctions": { "type": "string" }
+              }
+            },
+            "droid_at_zero_hp": { "type": "string" },
+            "droid_destruction_and_rebuilding": { "type": "string" }
+          }
+        },
+        "droids_and_the_force_interaction": {
+            "type": "object",
+            "description": "Rules and lore concerning droids' relationship with the Force.",
+            "properties": {
+                "source_details": { "$ref": "#/definitions/source_details_object" },
+                "force_sensitivity_status": { "type": "string" },
+                "effects_of_force_powers_on_droids": { "type": "string" },
+                "droids_in_force_traditions": { "type": "string" }
+            }
+        }
+      },
+      "required": [
+        "file_meta_info",
+        "general_droid_characteristics",
+        "droid_degrees_classification",
+        "droid_acquisition_and_construction_rules",
+        "droid_modification_rules",
+        "droid_programming_personality_and_memory",
+        "droids_as_heroic_characters",
+        "droid_maintenance_repair_and_destruction_rules",
+        "droids_and_the_force_interaction"
+      ]
+    }
+  },
+  "required": ["droid_rules_data"]
+}

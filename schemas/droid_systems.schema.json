@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Droid Systems Schema",
+  "description": "Schema for Droid Systems, Accessories, and Equipment in Star Wars SAGA Edition. Designed to accommodate data from CSV, Core Rulebook, and other supplements.",
+  "type": "object",
+  "properties": {
+    "droid_systems_data": {
+      "type": "object",
+      "description": "Wrapper object for the list of droid systems.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "default": "Compilation of Droid Systems, Accessories, and Equipment for Star Wars SAGA Edition."
+        },
+        "droid_systems_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/droid_system_entry"
+          }
+        }
+      },
+      "required": ["description", "droid_systems_list"]
+    }
+  },
+  "definitions": {
+    "source_details_object": {
+      "type": "object",
+      "description": "Specifies source information for a piece of data.",
+      "properties": {
+        "source_book": {
+          "type": "string",
+          "description": "Abbreviation of the source book (e.g., CR, SGD, KOTORCG)."
+        },
+        "page": {
+          "type": "string",
+          "description": "Page number or page range in the specified source book."
+        },
+        "reference_type": {
+          "type": "string",
+          "enum": ["primary_definition", "mention", "expanded_rule", "clarification", "errata", "alternative_rule"],
+          "description": "Nature of the information from this source."
+        },
+        "notes": {
+            "type": "string",
+            "description": "Optional brief note about this specific source reference."
+        }
+      },
+      "required": ["source_book", "page"]
+    },
+    "value_object": {
+      "description": "Represents a value that could be a direct number, a text description, or based on a multiplier.",
+      "type": "object",
+      "properties": {
+        "base_value": {
+          "type": ["number", "string"],
+          "description": "The direct numeric value (e.g., cost in credits, weight in kg) or a string if non-numeric (e.g., 'Varies', 'See Notes')."
+        },
+        "factor_multiplier": {
+          "type": "number",
+          "description": "A multiplier if the value is based on a factor (e.g., 20 for '20 x cost factor')."
+        },
+        "factor_basis": {
+          "type": "string",
+          "description": "Describes what the factor multiplier applies to (e.g., 'droid_size_cost_factor', 'chassis_base_price')."
+        },
+        "text_override": {
+          "type": "string",
+          "description": "A complete textual description if the value cannot be easily structured (e.g., 'See Armor Table, CR p.132')."
+        }
+      }
+    },
+    "droid_system_entry": {
+      "type": "object",
+      "description": "Represents a single droid system, accessory, or piece of equipment.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the droid system (e.g., snake_case_name_source_book_page)."
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the droid system (from CSV 'DROID SYSTEM')."
+        },
+        "primary_source": {
+          "$ref": "#/definitions/source_details_object",
+          "description": "Primary source book and page for this system entry, typically from the CSV."
+        },
+        "description_text": {
+          "type": "string",
+          "description": "Descriptive text of the system and its general function (from CSV 'Desc.')."
+        },
+        "group": {
+          "type": "string",
+          "description": "General categorization of the system (from CSV 'GROUP').",
+          "enum": [
+            "Locomotion System",
+            "Processor System",
+            "Appendage",
+            "Sensor System",
+            "Communications System",
+            "Weapon System",
+            "Armor Plating",
+            "Tool",
+            "Integrated Equipment",
+            "Accessory",
+            "Droid Trait Modifier",
+            "General Upgrade",
+            "Defensive System"
+          ]
+        },
+        "cost_details": {
+          "$ref": "#/definitions/value_object",
+          "description": "Cost of the system in credits. Can be a direct value, based on a cost factor, or a textual reference."
+        },
+        "weight_details": {
+          "$ref": "#/definitions/value_object",
+          "description": "Weight of the system in kg. Can be a direct value, based on a weight factor, or a textual reference."
+        },
+        "availability_text": {
+          "type": "string",
+          "description": "Availability code or description (e.g., L, Re, U, M, I, -, from CSV 'AVAIL.')."
+        },
+        "benefits_and_comments": {
+          "type": "string",
+          "description": "Summary of game mechanical benefits, effects, or other comments (from CSV 'COMMENTS & BENEFITS')."
+        },
+        "detailed_rules_and_effects": {
+          "type": "string",
+          "description": "More detailed structured rules, specific game mechanics, or effects if not fully captured in benefits_and_comments. Can be Markdown formatted text for complex descriptions."
+        },
+        "system_type_tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Additional specific tags for categorization or mechanics (e.g., 'Visual Sensor', 'Repulsorlift', 'Melee Weapon Mount', 'Energy Shield')."
+        },
+        "prerequisites_text": {
+            "type": "string",
+            "description": "Textual description of any prerequisites for installing or using this system (e.g., droid size, specific chassis feature, other systems)."
+        },
+        "installation_dc_mechanics": {
+          "type": "integer",
+          "description": "Typical Mechanics DC to install this system into a droid chassis."
+        },
+        "installation_time_text": {
+          "type": "string",
+          "description": "Typical time required to install this system (e.g., '1 hour', '10 minutes per slot')."
+        },
+        "slots_required": {
+          "type": "integer",
+          "description": "Number of system slots this component might occupy on a droid chassis, if applicable by specific construction rules."
+        },
+        "power_consumption_notes": {
+          "type": "string",
+          "description": "Notes on power requirements or if it draws significantly on a droid's power supply."
+        },
+        "image_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to an image of the droid system, if available."
+        },
+        "additional_source_references": {
+            "type": "array",
+            "description": "List of other source books and pages where this system or substantially similar versions are detailed or expanded upon.",
+            "items": { "$ref": "#/definitions/source_details_object" }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "primary_source",
+        "group"
+      ]
+    }
+  }
+}

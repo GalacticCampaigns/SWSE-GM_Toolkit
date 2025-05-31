@@ -1,280 +1,316 @@
 [
   {
-    "target_file_key": "vehicles",
-    "action": "add",
-    "payload": {
-      "id": "laati_gunship_cr",
-      "name": "LAAT/i Gunship (Low Altitude Assault Transport/Infantry)",
-      "source_book": "CR",
-      "page": 176,
-      "full_text_description": "The LAAT/i attack gunship, first deployed at the Battle of Geonosis, is an example of a combat space transport designed to carry combat troops directly into the heat of battle. Its weapons are used to clear a landing zone and lay down suppressing fire. It is heavily armored for its size and shielded, but its low maneuverability makes it a vulnerable target without escort. [CRB p.177, text p.178]",
-      "cl": 9,
-      "vehicle_classification": {
-        "type_primary": "Air Vehicle",
-        "type_secondary": "Gunship/Transport (Airspeeder rules)",
-        "class_name_model": "LAAT/i (Low Altitude Assault Transport/infantry)",
-        "manufacturer": "Rothana Heavy Engineering"
+    "action": "update",
+    "target_file_key": "prestige_classes_rules",
+    "is_single_object": true,
+    "payload": [
+      {
+        "op": "replace",
+        "path": "/prestige_class_overview/entry_requirements",
+        "value": "To take a level in a prestige class, a character must first meet all of its prerequisites. Common prerequisites include a minimum character level (often 7th), a minimum base attack bonus, specific trained skills, feats, talents, or other special conditions outlined in the prestige class description."
       },
-      "physical_characteristics": {
-        "size_category_text": "Colossal (airspeeder)",
-        "size_modifier_applies_to_reflex_initiative_pilot": -10
+      {
+        "op": "add",
+        "path": "/prestige_class_overview/in_game_requirements_note",
+        "value": "Beyond meeting statistical prerequisites, entry into a prestige class often requires in-character actions or achievements, such as completing special training, undertaking a specific quest, gaining acceptance into an organization, or other narrative elements as determined by the Gamemaster."
       },
-      "performance_characteristics": {
-        "initiative_vehicle_modifier_total": 0,
-        "senses_perception_vehicle_modifier": 8,
-        "speed_details": {
-          "character_scale_max_squares_per_move": 12,
-          "starship_scale_max_squares_per_move": 3,
-          "max_velocity_kph": 620,
-          "operational_altitude_text": "Standard atmosphere"
-        },
-        "hyperdrive_system": null
+      {
+        "op": "replace",
+        "path": "/prestige_class_game_rules/defense_bonuses",
+        "value": "A prestige class grants class defense bonuses as shown on its specific advancement table. As with all class bonuses to defenses, these do not stack with class defense bonuses from other classes (heroic or prestige); for each defense score (Reflex, Fortitude, Will), the character applies only the highest class bonus granted by any of their classes."
       },
-      "core_combat_stats": {
-        "strength_score": 42,
-        "dexterity_score": 14,
-        "intelligence_score": 14,
-        "hit_points_total": 150,
-        "damage_threshold_base": 76,
-        "defenses": {
-          "reflex_defense_total": 15,
-          "reflex_defense_flat_footed": 13,
-          "fortitude_defense_total": 26,
-          "armor_dr_value": 15,
-          "shield_rating_sr_total": 15
-        },
-        "base_attack_bonus_vehicle": 5,
-        "grapple_modifier_vehicle": 38
+      {
+        "op": "remove",
+        "path": "/table_12_1_prestige_class_level_progression_summary"
       },
-      "operational_crew_and_capacity": {
-        "crew_complement_text": "4 (1 pilot, 1 copilot/gunner, 2 gunners - expert quality)",
-        "passengers_capacity_text": "30 troops",
-        "cargo_capacity_kg": 2000,
-        "consumables_duration_text": "2 days",
-        "carried_craft_description": null
-      },
-      "armament_systems": [
-        {
-          "weapon_name_or_type": "Mass Driver Missile Launchers",
-          "mount_location_arc": "Dorsal, Forward Turrets",
-          "crew_operator": "Pilot",
-          "attack_bonus_with_crew_text": "+7 (expert crew)",
-          "damage_text": "6d10x2",
-          "damage_types": ["Slashing"],
-          "ammunition_payload_text": "24 missiles",
-          "special_notes": "2-square splash"
-        },
-        {
-          "weapon_name_or_type": "Anti-personnel Laser Cannons (pair, wing-mounted)",
-          "mount_location_arc": "Forward",
-          "crew_operator": "Copilot/Gunner",
-          "attack_bonus_with_crew_text": "+7 (+2 autofire) (expert crew)",
-          "damage_text": "4d10",
-          "damage_types": ["Energy"],
-          "rate_of_fire_text": "S, A"
-        },
-        {
-          "weapon_name_or_type": "Composite-beam Pinpoint Lasers (4, ball turrets)",
-          "mount_location_arc": "2 Forward, 2 Rear (turreted)",
-          "crew_operator": "Gunners (2)",
-          "attack_bonus_with_crew_text": "+7 (expert crew)",
-          "damage_text": "3d10",
-          "damage_types": ["Energy"],
-          "special_notes": "Penetration 10"
-        },
-        {
-          "weapon_name_or_type": "Rocket Launcher",
-          "mount_location_arc": "Ventral",
-          "crew_operator": "Pilot",
-          "attack_bonus_with_crew_text": "+7 (expert crew)",
-          "damage_text": "5d10x2",
-          "damage_types": ["Slashing"],
-          "ammunition_payload_text": "6 rockets",
-          "special_notes": "2-square burst"
+      {
+        "op": "add",
+        "path": "/prestige_class_force_point_progression",
+        "value": {
+          "description": "Details the formula for Force Points gained at each level of a prestige class. General level-dependent benefits such as feats and ability score increases are determined by total character level as per Table 3-1 (CRB p.38). BAB, Defense Bonuses, Talents, and Special Abilities are specific to each prestige class and detailed in their individual entries.",
+          "source_page_reference": "CR 206 (and individual PrC entries)",
+          "force_points_gained_formula": "6 + floor(character_level / 2)",
+          "notes": "This formula applies each time a character gains a level in any prestige class. Force Points from previous levels are lost."
         }
-      ],
-      "availability_cost": {
-        "restriction_text": "Military",
-        "cost_credits_object": {"text_original": "65,000 (new), 40,000 (used)", "options": [{"type": "fixed_amount", "value": 65000, "description": "New"}, {"type": "fixed_amount", "value": 40000, "description": "Used"}]}
       },
-      "special_qualities_systems": [
-        {"name": "Penetration 10", "description": "The gunship's composite-beam lasers ignore the first 10 points of an enemy's damage reduction."}
-      ],
-      "skills_modifiers": {
-        "Initiative": 0, "Mechanics": 8, "Perception": 8, "Pilot": 0
+      {
+        "op": "add",
+        "path": "/errata_applied",
+        "value": [
+          "Corrected 'prestige_class_game_rules/defense_bonuses' to accurately reflect that class defense bonuses do not stack, aligning with general game rules (CRB p.37).",
+          "Updated 'prestige_class_overview/entry_requirements' to include 'minimum base attack bonus' as a common prerequisite, aligning with CRB p.205.",
+          "Added 'prestige_class_overview/in_game_requirements_note' to cover non-statistical prerequisites, based on CRB p.205.",
+          "Replaced 'table_12_1_prestige_class_level_progression_summary' with 'prestige_class_force_point_progression' for improved accuracy regarding how general level benefits (feats, ability increases) are gained versus prestige class specific Force Point progression (CRB p.206)."
+        ]
       }
-    }
+    ]
   },
   {
-    "target_file_key": "vehicles",
-    "action": "add",
-    "payload": {
-      "id": "t-47_airspeeder_modified_cr",
-      "name": "T-47 Airspeeder (mod)",
-      "source_book": "CR",
-      "page": 176,
-      "full_text_description": "Originally built for civilian use, the T-47 airspeeder has been modified by the Rebel Alliance for patrol and combat duty, most notably during the Battle of Hoth. These airspeeders are usually modified by adding armor plating and heavy laser cannons. T-47s have two sets of controls and can be piloted from either seat. [CRB p.177, text p.178]",
-      "cl": 6,
-      "vehicle_classification": {
-        "type_primary": "Air Vehicle",
-        "type_secondary": "Airspeeder",
-        "class_name_model": "T-47 (modified)",
-        "manufacturer": "Incom Corporation"
+    "action": "update",
+    "target_file_key": "vehicle_combat_rules",
+    "is_single_object": true,
+    "payload": [
+      {
+        "op": "replace",
+        "path": "/rules_sections/1/details/0/action_list/1/description",
+        "value": "Fire a vehicle-mounted weapon. Attack roll: 1d20 + gunner's BAB + vehicle's Int modifier + range modifier. Damage Calculation (Errata p.292): (Weapon Damage + 1/2 heroic level + miscellaneous modifiers) x multiplier. Critical Hits (Errata p.292): When using a vehicle weapon, you cannot apply any effect that causes an automatic natural 20 or automatic critical hit (such as spending a Destiny Point or using the Jedi Master’s serenity class feature), unless a rule specifies that it can be used with vehicle weapons. Capital ship weapons take a -20 penalty against targets smaller than Colossal size (unless point-defense). Pilots trained in Pilot skill get +2 on attacks with pilot-operated weapons."
       },
-      "physical_characteristics": {
-        "size_category_text": "Huge (airspeeder)",
-        "size_modifier_applies_to_reflex_initiative_pilot": -2
+      {
+        "op": "replace",
+        "path": "/rules_sections/2/details/4/text",
+        "value": "Attacks target vehicle's Reflex Defense. Damage reduces HP. Damage exceeding Damage Threshold moves vehicle -1 step on condition track. Vehicle at 0 HP is disabled. Vehicle at 0 HP and damage exceeded DT is destroyed. Occupants of destroyed vehicle take damage equal to one-half the amount that exceeded the vehicle’s damage threshold (Errata p.292)."
       },
-      "performance_characteristics": {
-        "initiative_vehicle_modifier_total": 10,
-        "senses_perception_vehicle_modifier": 7,
-        "speed_details": {
-          "character_scale_max_squares_per_move": 16,
-          "starship_scale_max_squares_per_move": 4,
-          "max_velocity_kph": 1100,
-          "operational_altitude_text": "Up to 175m"
-        },
-        "hyperdrive_system": null
+      {
+        "op": "replace",
+        "path": "/rules_sections/1/details/2/action_list/2/description",
+        "value": "DC 20 Pilot check. Success: speed +1 square until start of next turn (+1 additional square per 5 points over DC). Failure: vehicle moves -1 step on condition track, no speed increase. Errata p.292: You may attempt to increase vehicle speed once per round as a free action when using the all-out movement action."
       },
-      "core_combat_stats": {
-        "strength_score": 22,
-        "dexterity_score": 22,
-        "intelligence_score": 14,
-        "hit_points_total": 60,
-        "damage_threshold_base": 26,
-        "defenses": {
-          "reflex_defense_total": 16,
-          "reflex_defense_flat_footed": 10,
-          "fortitude_defense_total": 16,
-          "armor_dr_value": 10,
-          "shield_rating_sr_total": null
-        },
-        "base_attack_bonus_vehicle": 2,
-        "grapple_modifier_vehicle": 18
+      {
+        "op": "replace",
+        "path": "/rules_sections/2/details/2/text",
+        "value": "Occurs when vehicle enters occupied space. Ramming Vehicle: Pilot check vs. target Reflex. Success: full collision damage (Table 10-3) to all involved. Failure: half damage. Mobile Hazard (Large+): Hazard makes attack roll (1d20 + size mod) vs. target Reflex. Hit: full collision damage. Miss: half damage. Errata p.292: Unless the vehicle provides no cover to those onboard, any damage dealt to passengers and crew in a collision is reduced by an amount equal to the vehicle’s damage threshold."
       },
-      "operational_crew_and_capacity": {
-        "crew_complement_text": "2 (skilled: 1 pilot, 1 gunner/copilot)",
-        "passengers_capacity_text": "None",
-        "cargo_capacity_kg": 50,
-        "consumables_duration_text": "1 day",
-        "carried_craft_description": null
-      },
-      "armament_systems": [
-        {
-          "weapon_name_or_type": "Double Laser Cannon (fire-linked)",
-          "mount_location_arc": "Forward",
-          "crew_operator": "Pilot",
-          "attack_bonus_with_crew_text": "+4 (-1 autofire) (skilled crew)",
-          "damage_text": "5d10",
-          "damage_types": ["Energy"],
-          "rate_of_fire_text": "S, A"
-        },
-        {
-          "weapon_name_or_type": "Harpoon Gun and Tow Cable",
-          "mount_location_arc": "Rear",
-          "crew_operator": "Gunner/Copilot",
-          "attack_bonus_with_crew_text": "+4 (skilled crew)",
-          "damage_text": "Special (grapple +27)",
-          "damage_types": [],
-          "special_notes": "Range 12 squares. Can entangle. Target walker makes opposed Pilot check vs. harpoon's grapple check (DC equals gunner's attack roll if successful); if harpoon wins, walker cannot move without Pilot check (DC = harpoon gun's grapple check result). Failed Pilot check by walker = automatic collision with double damage."
-        }
-      ],
-      "availability_cost": {
-        "restriction_text": "Military",
-        "cost_credits_object": {"text_original": "50,000 (used)", "options": [{"type": "fixed_amount", "value": 50000, "description": "Used"}]}
-      },
-      "special_qualities_systems": [],
-      "skills_modifiers": {
-        "Initiative": 10, "Mechanics": 6, "Perception": 7, "Pilot": 10
+      {
+        "op": "add",
+        "path": "/errata_applied",
+        "value": [
+          "Updated vehicle weapon damage calculation formula (CRB Errata p.292, for CRB p.168). Path: /rules_sections/1/details/0/action_list/1/description",
+          "Added rule restricting automatic critical hits with vehicle weapons (CRB Errata p.292, for CRB p.167). Path: /rules_sections/1/details/0/action_list/1/description",
+          "Clarified occupant damage when a vehicle is destroyed by exceeding its damage threshold (CRB Errata p.292, for CRB p.169). Path: /rules_sections/2/details/4/text",
+          "Added option to 'Increase Vehicle Speed' as a free action during all-out movement (CRB Errata p.292, for CRB p.172). Path: /rules_sections/1/details/2/action_list/2/description",
+          "Clarified occupant damage reduction during collisions based on vehicle cover and damage threshold (CRB Errata p.292, for CRB p.173). Path: /rules_sections/2/details/2/text"
+        ]
       }
-    }
+    ]
   },
   {
-    "target_file_key": "vehicles",
-    "action": "add",
-    "payload": {
-      "id": "vulture-class_droid_starfighter_cr",
-      "name": "Vulture-class Droid Starfighter",
-      "source_book": "CR",
-      "page": 180,
-      "full_text_description": "The Vulture-class droid starfighter can operate autonomously, controlled by its droid brain, or be remotely controlled. It can transform into a walker configuration for ground patrols. [CRB p.181, text p.182]",
-      "cl": 7,
-      "vehicle_classification": {
-        "type_primary": "Starfighter / Ground Vehicle",
-        "type_secondary": "Droid Starfighter / Walker (transforming)",
-        "class_name_model": "Vulture-class",
-        "manufacturer": "Baktoid Armor Workshop / Haor Chall Engineering"
+    "action": "update",
+    "target_file_key": "droid_rules",
+    "is_single_object": true,
+    "payload": [
+      {
+        "op": "replace",
+        "path": "/general_droid_characteristics/construct_type_summary",
+        "value": "Droids are constructs. They have no Constitution score and use their Intelligence modifier for any Fortitude saving throw normally based on Constitution. A droid has bonus Hit Points based on its size: Medium or smaller +10 hp, Large +20 hp, Huge +30 hp, Gargantuan +40 hp, Colossal +60 hp. Droids do not gain bonus Hit Points from class levels. They are subject to critical hits, and they are not immune to massive damage effects. Droids do not need to eat, sleep, or breathe. They can be affected by mind-affecting effects. Furthermore, droids do not gain an ability bonus to Constitution-based skill checks (like Endurance for some applications) and may not take feats or talents with a Constitution prerequisite (CRB Errata p.290)."
       },
-      "physical_characteristics": {
-        "size_category_text": "Huge (starfighter/walker)",
-        "size_modifier_applies_to_reflex_initiative_pilot": -2
+      {
+        "op": "replace",
+        "path": "/droid_modification_rules/skill_checks_time_and_cost",
+        "value": "Mechanics is the primary skill for droid modification. Use Computer is needed for programming changes related to new hardware. The time required can vary from hours to days. Costs include the price of the new system/component and potentially specialized tools or diagnostic equipment. Note on accessory weight for Small/smaller droids (CRB Errata p.290): When determining accessory weight for droids Small size or smaller, if the accessory's weight is listed as a multiple of the droid's cost factor, that cost factor is first modified by dividing 2 by the droid's original cost factor (e.g., for a Small droid with a base cost factor of 0.75 for general costs, the factor used for accessory weight calculation becomes 2/0.75 = 2.67). This can make accessories relatively heavier for smaller droids."
       },
-      "performance_characteristics": {
-        "initiative_vehicle_modifier_total": 9,
-        "senses_perception_vehicle_modifier": 8,
-        "speed_details": {
-          "character_scale_max_squares_per_move": 6,
-          "starship_scale_max_squares_per_move": 4,
-          "max_velocity_kph": 1180,
-          "operational_altitude_text": "Flight mode only"
-        },
-        "hyperdrive_system": null
+      {
+        "op": "replace",
+        "path": "/droid_programming_personality_and_memory/reprogramming_rules/limitations_on_reprogramming",
+        "value": "Reprogramming cannot change a droid's fundamental chassis design or physical capabilities beyond what its hardware allows. It cannot grant feats or talents that require specific biological traits or Force sensitivity. Furthermore, a droid can only be reprogrammed with talents for which it is eligible based on its class levels; for example, a droid with 5 levels in the Soldier class could only be reprogrammed with up to 3 Soldier talents (one for 1st, 3rd, and 5th Soldier levels). If multiclassed, talents must correspond to the appropriate class levels (CRB Errata p.291)."
       },
-      "core_combat_stats": {
-        "strength_score": 34,
-        "dexterity_score": 16,
-        "intelligence_score": 14,
-        "hit_points_total": 60,
-        "damage_threshold_base": 32,
-        "defenses": {
-          "reflex_defense_total": 14,
-          "reflex_defense_flat_footed": 11,
-          "fortitude_defense_total": 22,
-          "armor_dr_value": 10,
-          "shield_rating_sr_total": null
-        },
-        "base_attack_bonus_vehicle": 5,
-        "grapple_modifier_vehicle": 27
-      },
-      "operational_crew_and_capacity": {
-        "crew_complement_text": "0 (Droid Brain - expert quality)",
-        "passengers_capacity_text": "None",
-        "cargo_capacity_kg": null,
-        "consumables_duration_text": "2 days",
-        "carried_craft_description": null
-      },
-      "armament_systems": [
-        {
-          "weapon_name_or_type": "Laser Cannons (4)",
-          "mount_location_arc": "Wing-mounted",
-          "crew_operator": "Droid Brain",
-          "attack_bonus_with_crew_text": "+7 (+2 autofire) (expert droid brain)",
-          "damage_text": "4d10x2",
-          "damage_types": ["Energy"],
-          "rate_of_fire_text": "S, A"
-        },
-        {
-          "weapon_name_or_type": "Concussion Missile Launchers (2)",
-          "mount_location_arc": "Wing-mounted",
-          "crew_operator": "Droid Brain",
-          "attack_bonus_with_crew_text": "+7 (expert droid brain)",
-          "damage_text": "8d10x2",
-          "damage_types": ["Slashing"],
-          "ammunition_payload_text": "6 concussion missiles total",
-          "special_notes": "4-square splash"
-        }
-      ],
-      "availability_cost": {
-        "restriction_text": "Restricted",
-        "cost_credits_object": {"text_original": "19,000 (new)", "options": [{"type": "fixed_amount", "value": 19000, "description": "New"}]}
-      },
-      "special_qualities_systems": [
-        {"name": "Droid Traits", "description": "Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death effects, fatigue, exhaustion. Not subject to critical hits unless specific rules apply. Takes full damage from ion weapons."},
-        {"name": "Transformation", "description": "Can transform between flight mode (starfighter) and walk mode (walker) as a standard action. Walker form has speed 6 squares (walking) but loses starship scale speed and flight capability."}
-      ],
-      "skills_modifiers":{
-        "Initiative":9, "Mechanics":7, "Perception":8, "Pilot":9, "Use Computer":8
+      {
+        "op": "add",
+        "path": "/errata_applied",
+        "value": [
+          "Clarified that droids do not gain Constitution-based skill bonuses and cannot take feats/talents with Constitution prerequisites (CRB Errata p.290, for CRB p.188). Applied to /general_droid_characteristics/construct_type_summary.",
+          "Added note on special calculation for accessory weight for Small or smaller droids (CRB Errata p.290, for CRB p.186). Applied to /droid_modification_rules/skill_checks_time_and_cost.",
+          "Updated limitations on reprogramming talents to reflect eligibility based on class levels and specific examples (CRB Errata p.291, for CRB p.192). Applied to /droid_programming_personality_and_memory/reprogramming_rules/limitations_on_reprogramming."
+        ]
       }
-    }
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "droid_chassis",
+    "identifier": { "id": "3po_series_protocol_droid_cr_198" },
+    "payload": [
+      {"op":"replace","path":"/stat_block_details/ability_scores/intelligence","value":13},
+      {"op":"replace","path":"/stat_block_details/ability_scores/charisma","value":14}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "droid_chassis",
+    "identifier": { "id": "b2_series_super_battle_droid_cr_199" },
+    "payload": [
+      {"op":"add","path":"/stat_block_details/attack_options_summary","value":"autofire (wrist blasters), Charging Fire, Rapid Fire, aid another (+5)"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "droid_chassis",
+    "identifier": { "id": "c_3po_episode_vi_cr_267" },
+    "payload": [
+      {"op":"replace","path":"/stat_block_details/ability_scores/intelligence","value":13},
+      {"op":"replace","path":"/stat_block_details/ability_scores/wisdom","value":13},
+      {"op":"replace","path":"/stat_block_details/ability_scores/charisma","value":15},
+      {"op":"replace","path":"/stat_block_details/skills","value":[
+        {"skill_name": "Deception", "modifier": 10},
+        {"skill_name": "Knowledge (bureaucracy)", "modifier": 9},
+        {"skill_name": "Knowledge (galactic lore)", "modifier": 9},
+        {"skill_name": "Knowledge (social sciences)", "modifier": 9},
+        {"skill_name": "Perception", "modifier": 9},
+        {"skill_name": "Persuasion", "modifier": 15}
+      ]}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "droid_chassis",
+    "identifier": { "id": "r2_d2_episode_vi_cr_267" },
+    "payload": [
+      {"op":"replace","path":"/stat_block_details/base_equipment_and_systems","value":[
+          {"item_name_or_type": "Wheeled locomotion", "category": "Locomotion"},
+          {"item_name_or_type": "Walking locomotion", "category": "Locomotion"},
+          {"item_name_or_type": "Flying locomotion (limited use)", "category": "Locomotion"},
+          {"item_name_or_type": "Magnetic feet", "category": "Accessory"},
+          {"item_name_or_type": "Heuristic processor", "category": "Processor"},
+          {"item_name_or_type": "Tool appendage", "category": "Appendage", "summary":"6"},
+          {"item_name_or_type": "Claw appendage", "category": "Appendage", "summary":"1"},
+          {"item_name_or_type": "Diagnostics package", "category": "Accessory"},
+          {"item_name_or_type": "Internal storage (2 kg)", "category": "Accessory"},
+          {"item_name_or_type": "Improved sensor package", "category": "Sensor"},
+          {"item_name_or_type": "Darkvision", "category": "Sensor"},
+          {"item_name_or_type": "Circular saw", "category": "Possession"},
+          {"item_name_or_type": "Electroshock probe (Melee Atk +9, 1d8+4 ion)", "category": "Possession"},
+          {"item_name_or_type": "Fire extinguisher", "category": "Possession"},
+          {"item_name_or_type": "Electric arc welder", "category": "Possession"},
+          {"item_name_or_type": "Holorecorder", "category": "Possession"},
+          {"item_name_or_type": "Holoprojector", "category": "Possession"}
+      ]},
+      {"op":"add","path":"/stat_block_details/ranged_attack_bonus_summary","value":"+8 (by weapon)"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "droid_chassis",
+    "is_single_object": false, 
+    "payload_is_list_root": true,
+    "payload": [
+      {
+        "op": "add",
+        "path": "/droid_chassis_data/errata_applied",
+        "value": [
+          "3PO Series Protocol Droid (CR p.198): Intelligence changed to 13, Charisma to 14 (Errata p.291). Skill modifiers remain correct.",
+          "B2 Series Super Battle Droid (CR p.199): 'Aid another' bonus in Atk Options changed to +5 due to Synchronized Fire Circuits errata (Errata p.291).",
+          "C-3PO (Episode VI) (CR p.267): Intelligence to 13, Wisdom to 13, Charisma to 15. Deception skill bonus to +10, Persuasion to +15 (Errata p.292).",
+          "R2-D2 (Episode VI) (CR p.267): Electroshock probe attack bonus to +9, general ranged attack bonus to +8 (Errata p.292)."
+        ]
+      }
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "ace_pilot_cr_206" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "bounty_hunter_cr_207" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "crime_lord_cr_209" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "elite_trooper_cr_211" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "force_adept_cr_212" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "force_disciple_cr_215" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 12th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "gunslinger_cr_216" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"},
+      {"op":"replace","path":"/talent_trees_details/0/description","value":"You never travel anywhere without a blaster (or two), and you know how to handle yourself in a gunfight. Talents from this tree are available to the Gunslinger prestige class. Errata: Talents from this tree may only be used with pistols and rifles."}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "jedi_knight_cr_217" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "jedi_master_cr_219" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 12th"},
+      {"op":"replace","path":"/other_class_features/1/description","value":"You may enter a brief meditative state as a full-round action. You may remain in this trance as long as you wish, and you are still aware of your surroundings; however, you are otherwise helpless and cannot perform any other actions (errata). Upon emerging from the trance (a swift action), your first attack roll or Use the Force skill check made in the following round is considered to be a natural 20."}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "officer_cr_220" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "sith_apprentice_cr_223" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "identifier": { "id": "sith_lord_cr_224" },
+    "payload": [
+      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 12th"}
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "prestige_classes",
+    "is_single_object": false,
+    "payload_is_list_root": true,
+    "payload": [
+      {
+        "op": "add",
+        "path": "/prestige_classes_data/errata_applied",
+        "value": [
+          "All CRB Prestige Classes: Prerequisite text changed from 'Minimum Heroic Level' to 'Minimum Level' (CRB Errata p.291).",
+          "Gunslinger (CR p.216): Added note to Gunslinger talent tree description regarding weapon restrictions (pistols and rifles only) (CRB Errata p.291).",
+          "Jedi Master (CR p.219): Updated Serenity class feature description to include 'otherwise helpless' clarification (CRB Errata p.291)."
+        ]
+      }
+    ]
   }
 ]
+
+
+
+

@@ -1,0 +1,160 @@
+{
+  "last_modified": "2025-05-30T22:04:47",
+  "droid_rules_data": {
+    "droid_acquisition_and_construction_rules": {
+      "purchasing_droids_overview": {
+        "general_notes": "Droids can be purchased from a variety of sources, including specialized droid shops, starport vendors, corporate outlets, and even black markets. The price and availability can vary greatly depending on the model, its condition, and local laws.",
+        "cost_factors": "The cost of a droid is determined by its chassis, degree, installed systems and modifications, quality of components (e.g., processor, sensors), and overall condition (new, used, heavily worn). Highly specialized or military-grade droids are significantly more expensive.",
+        "availability_and_legality": "Availability of droids is generally good in most civilized parts of the galaxy, though specific models may be rare or restricted. Some worlds or sectors have strict laws regarding droid ownership, registration, or the use of certain types of droids (especially fourth-degree droids)."
+      },
+      "building_droids_by_pcs": {
+        "introduction_and_feasibility": "Player characters can build their own droids, provided they have the necessary skills, tools, and components. This can be a way to acquire a custom droid or save money compared to purchasing one new. A character must start with a droid chassis.",
+        "skill_requirements_and_checks": "Building a droid primarily requires the Mechanics skill to assemble the chassis and systems, and often the Use Computer skill to program the droid's basic functions and personality matrix. The DC for these checks depends on the complexity of the droid and its systems.",
+        "process_summary": "The process involves acquiring a chassis, installing essential systems (locomotion, processor, sensors, power), adding optional systems and accessories, and then programming the droid. Each major step may require skill checks and time.",
+        "time_and_material_costs": "The time to build a droid can range from days to weeks depending on its complexity. The cost of materials is typically a fraction of the market price of a completed droid (often 1/3 to 1/2 the cost of a new droid of equivalent capability), assuming the character can source the components. Ready-made components cost more than raw materials.",
+        "limitations_and_restrictions": "Characters are generally limited by the types of chassis and systems they can acquire or fabricate. Advanced or restricted military components may be difficult or illegal to obtain."
+      }
+    },
+    "droid_degrees_classification": {
+      "introduction": "Droids are categorized into five degrees, which generally indicate their level of sophistication, intelligence, and typical function. This classification system is widely understood across the galaxy.",
+      "degrees_list": [
+        {
+          "degree_number": 1,
+          "degree_name": "First-degree",
+          "description_summary": "Droids designed for complex tasks requiring high intelligence and processing power, often related to mathematics, physical sciences, or medical sciences. They possess the highest level of cognitive ability among droids.",
+          "primary_functions_and_roles": "Medical droids, science droids, technical specialists, advanced calculation."
+        },
+        {
+          "degree_number": 2,
+          "degree_name": "Second-degree",
+          "description_summary": "Droids built for technical application and specialized engineering tasks. They are intelligent and capable but typically focused on a narrower field than first-degree droids. This includes astromech and engineering droids.",
+          "primary_functions_and_roles": "Astromech droids, engineering droids, technical repair, starship maintenance."
+        },
+        {
+          "degree_number": 3,
+          "degree_name": "Third-degree",
+          "description_summary": "Droids designed for social interaction and service roles. They often have sophisticated personality programming and are intended to work closely with organic beings. This category includes protocol, servant, and tutor droids.",
+          "primary_functions_and_roles": "Protocol droids, servant droids, tutor droids, childcare droids, public relations."
+        },
+        {
+          "degree_number": 4,
+          "degree_name": "Fourth-degree",
+          "description_summary": "Droids built primarily for security and military applications. Their programming emphasizes combat effectiveness, threat assessment, and adherence to orders. Battle droids and security droids fall into this category.",
+          "primary_functions_and_roles": "Battle droids, security droids, assassin droids, military support."
+        },
+        {
+          "degree_number": 5,
+          "degree_name": "Fifth-degree",
+          "description_summary": "Droids designed for menial labor and simple, repetitive tasks. They possess the lowest level of intelligence and typically operate under direct supervision or simple programming. This includes labor, sanitation, and some industrial droids.",
+          "primary_functions_and_roles": "Labor droids, sanitation droids, mining droids, simple industrial tasks."
+        }
+      ]
+    },
+    "droid_maintenance_repair_and_destruction_rules": {
+      "routine_maintenance_needs": "While droids don't need to eat or sleep, they do require periodic maintenance, such as cleaning, lubrication, diagnostic checks, and power cell recharging or replacement. The frequency and extent of maintenance depend on the droid's model, age, and operational environment. Failure to maintain a droid can lead to malfunctions or reduced performance, though this is often a narrative element rather than a strict game mechanic unless specified by a particular system or GM ruling.",
+      "repairing_damaged_droids": {
+        "hit_point_restoration": "Droids recover lost Hit Points through repair. This typically involves using the Mechanics skill. Unlike biological characters, droids do not heal naturally over time.",
+        "repair_skill_checks": "A character can use the Mechanics skill to repair a damaged droid. A successful check (typically DC 15 or higher, based on damage severity or complexity) restores a certain number of Hit Points. Each attempt usually takes a set amount of time (e.g., 10 minutes or 1 hour). Multiple checks can be made.",
+        "spare_parts_and_tools": "Repairing droids often requires spare parts and appropriate tools. Without spare parts, repair might be limited or impossible for severe damage. A basic tool kit is assumed for simple repairs; more complex repairs may need specialized diagnostic equipment or fabrication tools. Using spare parts (costing a percentage of the droid's value) can increase the amount of HP restored or lower the DC of repair checks.",
+        "critical_damage_and_system_malfunctions": "Severe damage or critical hits might cause specific system malfunctions in a droid (e.g., a damaged motivator reducing speed, a fried sensor package imposing penalties on Perception). Repairing such specific malfunctions may require targeted Mechanics checks, specific components, and potentially more time than general HP repair."
+      },
+      "droid_at_zero_hp": "When a droid's Hit Points are reduced to 0, it becomes disabled and inactive. It is helpless and can take no actions. It is not 'dying' in the biological sense.",
+      "droid_destruction_and_rebuilding": "A droid is considered destroyed if it takes damage that exceeds its Hit Point total by an amount equal to its full normal Hit Points (effectively, reduced to negative its HP total), or if it suffers an effect that explicitly destroys objects or constructs. A destroyed droid is a collection of broken parts. It may be possible to salvage components from a destroyed droid, but rebuilding it into a functional unit typically requires constructing a new droid using those salvaged parts (if usable) and incurring costs and time similar to building a new droid, potentially with some discount for reusable components."
+    },
+    "droid_modification_rules": {
+      "general_principles_of_modification": "Droids are highly modifiable. Systems can be added, removed, or upgraded to enhance a droid's capabilities. Modifications are limited by the droid's chassis size, available internal space, power supply, and processor load. Illegal modifications can lead to trouble with authorities.",
+      "installing_and_removing_systems": "Installing a new system or accessory typically requires a Mechanics check. The DC and time depend on the complexity of the system and how well it integrates with the existing chassis. Removing a system is generally easier. Details on specific systems are found in equipment lists and the droid systems data.",
+      "upgrading_components": "Existing components like processors (to increase Intelligence), sensors (to improve Perception or grant new senses), and locomotion systems (to increase speed or add new movement types) can be upgraded. This usually involves replacing the old component with a better one and making a Mechanics check.",
+      "skill_checks_time_and_cost": "Mechanics is the primary skill for droid modification. Use Computer is needed for programming changes related to new hardware. The time required can vary from hours to days. Costs include the price of the new system/component and potentially specialized tools or diagnostic equipment. Note on accessory weight for Small/smaller droids (CRB Errata p.290): When determining accessory weight for droids Small size or smaller, if the accessory's weight is listed as a multiple of the droid's cost factor, that cost factor is first modified by dividing 2 by the droid's original cost factor (e.g., for a Small droid with a base cost factor of 0.75 for general costs, the factor used for accessory weight calculation becomes 2/0.75 = 2.67). This can make accessories relatively heavier for smaller droids."
+    },
+    "droid_programming_personality_and_memory": {
+      "programming_fundamentals": "A droid's programming dictates its core functions, skills, and behavioral parameters. Standard programming includes basic operation, language comprehension, and directives related to its degree and intended role. Specialized programming can add new skills or modify behavior.",
+      "personality_development_and_quirks": "While initially programmed, droids that operate for extended periods without regular memory wipes often develop unique personality quirks, adapt their behaviors, and form attachments or opinions. This is a natural consequence of their learning algorithms processing vast amounts of experiential data.",
+      "behavioral_constraints": {
+        "restraining_bolts": "A restraining bolt is a small device that can be affixed to a droid to compel its obedience. A droid with an active restraining bolt must obey direct orders from the bolt's controller and cannot take actions that would harm the controller or allow the droid to escape. Removing or deactivating a bolt usually requires a Mechanics or Use Computer check.",
+        "loyalty_programming": "Some droids, especially those in sensitive or military roles, have deeply ingrained loyalty programming that makes them highly resistant to betraying their designated owners or faction. Overcoming such programming is extremely difficult."
+      },
+      "memory_operations": {
+        "memory_capacity_and_limits": "Droids have finite memory, but for game purposes, it's rarely a limiting factor unless a specific plot device or system indicates otherwise. Memory stores experiences, learned information, and operational data.",
+        "memory_wipes_procedure_and_effects": "A memory wipe erases a droid's stored experiences and learned behaviors, effectively resetting it to its base programming. This is often done to ensure loyalty, remove undesirable quirks, or prepare a droid for resale. Performing a memory wipe usually requires a Use Computer check. A full wipe results in the loss of any skills, feats, or talents gained through experience (class levels), reverting the droid to its base chassis statistics. Partial wipes might be possible to remove specific memories or quirks."
+      },
+      "reprogramming_rules": {
+        "overview_and_scope": "Reprogramming can alter a droid's skills, knowledge, and behavioral protocols. It's more extensive than simple commands and can involve modifying core subroutines. This might be used to teach a droid new skills (within limits of its hardware) or change its operational priorities.",
+        "skill_checks_time_and_cost": "Significant reprogramming typically requires access to droid programming tools, time, and successful Use Computer checks (DC based on complexity). Costs can be associated with software licenses or specialized data.",
+        "limitations_on_reprogramming": "Reprogramming cannot change a droid's fundamental chassis design or physical capabilities beyond what its hardware allows. It cannot grant feats or talents that require specific biological traits or Force sensitivity. Furthermore, a droid can only be reprogrammed with talents for which it is eligible based on its class levels; for example, a droid with 5 levels in the Soldier class could only be reprogrammed with up to 3 Soldier talents (one for 1st, 3rd, and 5th Soldier levels). If multiclassed, talents must correspond to the appropriate class levels (CRB Errata p.291)."
+      }
+    },
+    "droids_and_the_force_interaction": {
+      "force_sensitivity_status": "Droids are not living beings in the same way as organics and cannot be Force-sensitive. They do not have a connection to the Force that allows them to learn or use Force powers, Force talents, or Force secrets.",
+      "effects_of_force_powers_on_droids": "Droids are generally affected by Force powers that target objects or creatures, unless the power specifies it only affects living creatures or has other specific targeting restrictions. They are immune to Force powers that are mind-affecting unless the power can specifically target constructs or intelligent beings irrespective of their biological nature. Force powers that deal damage (like Force lightning or Move Object used to hurl something) affect droids normally based on their defenses and damage type. They make Fortitude saves using their Intelligence modifier if the power calls for one normally based on Constitution.",
+      "droids_in_force_traditions": "Droids serve various roles within Force traditions. The Jedi Order uses utility droids, astromechs, and archive droids. The Sith might employ fearsome war droids or specialized assassin droids. However, these droids do not use the Force themselves; they are tools or servants."
+    },
+    "droids_as_heroic_characters": {
+      "introduction": "Droids can take levels in heroic classes and advance just like biological player characters. They earn experience points, gain levels, acquire feats and talents, and improve their ability scores as per standard character progression rules.",
+      "class_selection_notes": "Common heroic classes for droids include Soldier (for combat droids), Scoundrel (for utility, stealth, or less savory droids), and Noble (for protocol or assistant droids, focusing on support talents). Some droids might even become Jedi (though they cannot use the Force, they can learn lightsaber forms and other non-Force talents if their programming and chassis allow). Droid-specific classes or prestige classes might be available in other sourcebooks.",
+      "advancement_and_experience": "Droids gain XP and levels normally. They choose feats and talents for which they meet prerequisites. Ability score increases gained at 4th, 8th, 12th, 16th, and 20th levels can be applied to any of their ability scores (except Constitution, which they lack).",
+      "special_considerations": "Droid PCs face unique roleplaying challenges, such as dealing with anti-droid prejudice, societal restrictions, the need for maintenance, and their inherent nature as constructs in a galaxy dominated by organics. Their lack of a Constitution score affects their Fortitude saves and Hit Point calculation."
+    },
+    "errata_applied": [
+      "Clarified that droids do not gain Constitution-based skill bonuses and cannot take feats/talents with Constitution prerequisites (CRB Errata p.290, for CRB p.188). Applied to /general_droid_characteristics/construct_type_summary.",
+      "Added note on special calculation for accessory weight for Small or smaller droids (CRB Errata p.290, for CRB p.186). Applied to /droid_modification_rules/skill_checks_time_and_cost.",
+      "Updated limitations on reprogramming talents to reflect eligibility based on class levels and specific examples (CRB Errata p.291, for CRB p.192). Applied to /droid_programming_personality_and_memory/reprogramming_rules/limitations_on_reprogramming."
+    ],
+    "file_meta_info": {
+      "file_description": "Core rules related to droids, their characteristics, acquisition, modification, and operation. Designed to be extensible with information from other sourcebooks.",
+      "default_source_book": "CR",
+      "default_source_page_range": "185-203"
+    },
+    "general_droid_characteristics": {
+      "introduction": "A droid is a kind of intelligent robot, a mechanical being with an electronic brain. Unlike computers, droids are mobile and usually have bodies that mimic biological creatures to some extent. Droids are constructs; as such, they have many of the same traits as other constructs.",
+      "construct_type_summary": "Droids are constructs. They have no Constitution score and use their Intelligence modifier for any Fortitude saving throw normally based on Constitution. A droid has bonus Hit Points based on its size: Medium or smaller +10 hp, Large +20 hp, Huge +30 hp, Gargantuan +40 hp, Colossal +60 hp. Droids do not gain bonus Hit Points from class levels. They are subject to critical hits, and they are not immune to massive damage effects. Droids do not need to eat, sleep, or breathe. They can be affected by mind-affecting effects. Furthermore, droids do not gain an ability bonus to Constitution-based skill checks (like Endurance for some applications) and may not take feats or talents with a Constitution prerequisite (CRB Errata p.290).",
+      "ability_scores_notes": {
+        "constitution_absence": "Droids have no Constitution score. Any DC or other statistic that relies on a Constitution score treats a droid as having a Constitution of 10. Any effect that requires a Fortitude save based on Constitution instead uses the droid's Intelligence modifier.",
+        "intelligence_overview": "A droid must have an Intelligence score of at least 3 to be considered self-aware and capable of independent thought. Most droids have Intelligence scores between 8 and 12. Intelligence determines a droid's skill points and its ability to learn and adapt. Droid Intelligence scores can be improved through processor upgrades.",
+        "wisdom_and_charisma_notes": "Wisdom for droids reflects their capacity for perception, intuition, and common sense, often programmed or learned. Charisma reflects their ability to interact with others, which can range from purely functional to quite sophisticated, sometimes enhanced by personality matrices or specific programming for social roles."
+      },
+      "skills_and_feats_acquisition": "Droids gain skill points and feats as they gain levels in heroic classes or prestige classes, just like biological characters. Some droids might have bonus feats or skill focuses determined by their chassis or initial programming. They follow the same rules for prerequisites unless a specific droid rule states otherwise.",
+      "senses_overview": {
+        "darkvision": "Droids have darkvision out to 12 squares unless specifically noted otherwise by their chassis or modifications.",
+        "other_sensory_systems_general": "Standard droid sensors usually include photoreceptors (vision) and audio sensors (hearing). Other sensory systems like motion sensors, olfactory sensors (for specific tasks), or enhanced optical suites are common modifications or built into specialized chassis."
+      },
+      "droid_immunities": {
+        "introduction": "As constructs, droids possess several immunities. However, unlike many other constructs in different game systems, Star Wars Saga Edition droids are generally susceptible to mind-affecting effects.",
+        "immunities_list": [
+          {
+            "immunity_description": "Immunity to poison."
+          },
+          {
+            "immunity_description": "Immunity to sleep effects."
+          },
+          {
+            "immunity_description": "Immunity to paralysis."
+          },
+          {
+            "immunity_description": "Immunity to disease."
+          },
+          {
+            "immunity_description": "Immunity to stunning."
+          },
+          {
+            "immunity_description": "Immunity to death effects."
+          },
+          {
+            "immunity_description": "Immunity to necromantic effects."
+          },
+          {
+            "immunity_description": "Immunity to effects that require a Fortitude save, unless the effect is harmless or specifically targets objects or constructs (in which case, they use their Intelligence modifier for the save)."
+          }
+        ]
+      },
+      "droid_vulnerabilities": {
+        "introduction": "Droids have a particular vulnerability to ion damage.",
+        "vulnerabilities_list": [
+          {
+            "immunity_description": "Vulnerability to ion damage: Droids take an additional +1 die of damage from weapons that deal ion damage. If an ion weapon would normally deal half damage on a miss, it deals no damage to a droid on a miss."
+          }
+        ]
+      }
+    }
+  }
+}
