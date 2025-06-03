@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Planets Schema",
+  "description": "Schema for detailed information about planets in the Star Wars SAGA Edition universe, designed as a cohesive data source, accommodating initial population from various sources including CSVs and direct sourcebook entry.",
+  "type": "object",
+  "properties": {
+    "planets_data": {
+      "type": "object",
+      "description": "Wrapper object for the list of planets.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "default": "Compilation of planetary data for Star Wars SAGA Edition."
+        },
+        "planets_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/planet_entry"
+          }
+        }
+      },
+      "required": ["description", "planets_list"]
+    }
+  },
+  "definitions": {
+    "source_details_object": {
+      "type": "object",
+      "description": "Specifies source information for a piece of data.",
+      "properties": {
+        "source_book": { "type": "string", "description": "Abbreviation of the source book." },
+        "page": { "type": "string", "description": "Page number or page range." },
+        "reference_type": { "type": "string", "enum": ["primary_definition", "gazetteer_entry", "mention", "expanded_lore", "map_reference", "initial_csv_load"], "description": "Nature of the information from this source." },
+        "notes": { "type": ["string", "null"], "description": "Optional brief note." }
+      },
+      "required": ["source_book", "page"]
+    },
+    "knowledge_check_object": {
+      "type": "object",
+      "description": "Details information revealed by a Knowledge (Galactic Lore) check.",
+      "properties": {
+        "dc": { "type": "integer" },
+        "information_revealed": { "type": "string" },
+        "source_details": { "$ref": "#/definitions/source_details_object" }
+      },
+      "required": ["dc", "information_revealed"]
+    },
+    "point_of_interest_object": {
+      "type": "object",
+      "description": "Describes a notable location on the planet.",
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "type": "string" },
+        "description": { "type": "string" },
+        "coordinates_or_general_location": { "type": ["string", "null"] },
+        "significance": { "type": ["string", "null"] },
+        "source_details": { "$ref": "#/definitions/source_details_object" }
+      },
+      "required": ["name", "description"]
+    },
+    "planet_entry": {
+      "type": "object",
+      "description": "Represents a single planet or significant celestial body.",
+      "properties": {
+        "id": { "type": "string", "description": "Unique identifier for the planet (e.g., tatooine_cr_236)." },
+        "name": { "type": "string", "description": "Common name of the planet." },
+        "primary_source": { "$ref": "#/definitions/source_details_object", "description": "Primary source book and page for this planet's main entry or initial data population." },
+        "general_description": { "type": ["string", "null"], "description": "A general overview and descriptive text for the planet, typically sourced from its primary gazetteer entry or descriptive text in sourcebooks." },
+        "initial_data_notes": { "type": ["string", "null"], "description": "Miscellaneous comments or important notes carried over from an initial data import (e.g., from a CSV's 'COMMENTS' column), to be reviewed and integrated or clarified." },
+        "astronomical_data": {
+          "type": "object",
+          "properties": {
+            "region_of_space": { "type": ["string", "null"], "description": "The galactic region where the planet is located (e.g., Core Worlds, Outer Rim Territories)." },
+            "sector": { "type": ["string", "null"] },
+            "system": { "type": ["string", "null"], "description": "The star system the planet belongs to." },
+            "grid_coordinates": { "type": ["string", "null"], "description": "Standard galactic grid coordinates, if known." },
+            "number_of_suns": { "type": ["integer", "string", "null"], "description":"Number of suns in the planet's system. Can be a number or a descriptive string (e.g., 'Binary')." },
+            "number_of_moons": { "type": ["integer", "string", "null"], "description": "Number of moons orbiting the planet. Can be a number or a descriptive string." },
+            "orbital_period_value": { "type": ["number", "null"], "description": "Numeric value of the planet's orbital period." },
+            "orbital_period_unit_note": { "type": ["string", "null"], "description": "Unit or contextual note for the orbital period (e.g., 'standard days', 'local days')." },
+            "rotation_period_value": { "type": ["number", "null"], "description": "Numeric value of the planet's rotation period." },
+            "rotation_period_unit_note": { "type": ["string", "null"], "description": "Unit or contextual note for the rotation period (e.g., 'standard hours')." },
+            "diameter_km": { "type": ["integer", "null"] }
+          }
+        },
+        "physical_characteristics": {
+          "type": "object",
+          "properties": {
+            "atmosphere_type": { "type": ["string", "null"], "description": "E.g., Type I (Breathable), Type II (Breath Mask Required)." },
+            "climate_summary": { "type": ["string", "null"], "description": "General climate conditions of the planet (e.g., Temperate, Arid, Arctic, Tropical)." },
+            "gravity_text": { "type": ["string", "null"], "description": "Textual description of the planet's surface gravity (e.g., 'Standard', 'High', '0.75g'). This may be supplemented by or align with specific rules in `environmental_rules.json`." },
+            "terrain_types": { "type": "array", "items": { "type": "string" }, "description": "List of dominant terrain features (e.g., Deserts, Mountains, Forests, Oceans, Urban)." }
+          }
+        },
+        "societal_information": {
+          "type": "object",
+          "properties": {
+            "primary_native_species_text": { "type": ["string", "null"], "description": "Primary native sentient species of the planet, as a textual list." },
+            "sentient_species_notes": { "type": ["string", "null"], "description": "General notes on the sentient species inhabiting the planet, including population distribution if known." },
+            "population_composition": {
+              "type": "array",
+              "description": "Structured breakdown of the sentient species population, including estimated percentages or presence status, and native status.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "species_name": { "type": "string" },
+                  "percentage_or_status": { "type": ["number", "string", "null"], "description": "Percentage, count, or status (e.g., 'Dominant', 'Present')."},
+                  "is_native": { "type": ["boolean", "null"] }
+                },
+                "required": ["species_name"]
+              }
+            },
+            "population_estimate": { "type": ["string", "null"], "description": "Estimated population (e.g., '1.5 billion', 'Sparse')." },
+            "capital_city": { "type": ["string", "null"], "description": "Name of the planet's designated capital city or primary settlement." },
+            "government_type": { "type": ["string", "null"], "description": "Predominant form of government on the planet." },
+            "major_allegiance": { "type": ["string", "null"], "description": "Primary political affiliation during a specific era (e.g., Galactic Republic, Separatist Alliance, Galactic Empire, Rebel Alliance, New Republic)." },
+            "languages_spoken": { "type": "array", "items": { "type": "string" }, "description": "Commonly spoken languages." }
+          }
+        },
+        "economy_and_trade": {
+          "type": "object",
+          "properties": {
+            "major_exports": { "type": "array", "items": { "type": "string" }, "description": "List of major goods, resources, or services exported by the planet." },
+            "major_imports": { "type": "array", "items": { "type": "string" }, "description": "List of major goods, resources, or services imported by the planet." },
+            "trade_notes": { "type": ["string", "null"], "description": "Other relevant economic information."}
+          }
+        },
+        "knowledge_galactic_lore_checks": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/knowledge_check_object" }
+        },
+        "points_of_interest": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/point_of_interest_object" }
+        },
+        "adventure_hooks_summary": { "type": ["string", "null"], "description": "A brief summary or list of potential adventure hooks related to the planet." },
+        "wiki_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL to the planet's Wookieepedia (or similar Star Wars wiki) entry, if available."
+        },
+        "tags": { "type": "array", "items": { "type": "string" }, "description": "Descriptive tags for filtering and categorization (e.g., 'Desert Planet', 'Core World', 'Sith Homeworld', 'Major Trade Hub')." },
+        "errata_applied": {
+          "type": "array",
+          "description": "List of errata changes specifically applied to this planet entry or its source material.",
+          "items": { "type": "string" }
+        },
+        "additional_source_references": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/source_details_object" }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "primary_source"
+      ]
+    }
+  }
+}
