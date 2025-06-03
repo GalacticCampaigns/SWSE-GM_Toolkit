@@ -1,6 +1,12 @@
 {
+  "last_modified": "2025-05-31T13:54:09",
   "vehicle_rules_data": {
     "description": "General rules for vehicles from the Star Wars Saga Edition Core Rulebook, covering vehicle scale, types, statistics, and character interactions.",
+    "errata_applied": [
+      "Clarified vehicle Reflex Defense calculation, armor bonus, and DR separation (CRB p.167-168). Path: /rules_sections/2/details/5/explanation",
+      "Added section for Vehicle Weapon Attacks (General) incorporating errata for Critical Hit restrictions (CRB Errata p.292 for CRB p.167) and updated Damage Formula (CRB Errata p.292 for CRB p.168). Path: /rules_sections/2/details/- (new entry)",
+      "Updated explanation for Damage Threshold (stat_dt) to include errata clarification on occupant damage when a vehicle is destroyed (CRB Errata p.292 for CRB p.169). Path: /rules_sections/2/details/7/explanation"
+    ],
     "rules_sections": [
       {
         "rule_id": "vehicle_scale",
@@ -78,41 +84,122 @@
         "source_book": "CR",
         "page": 167,
         "details": [
-          {"sub_rule_id": "stat_name", "stat_name": "Name", "explanation": "The common designation of the vehicle."},
-          {"sub_rule_id": "stat_cl", "stat_name": "CL (Challenge Level)", "explanation": "Indicates the experience point award for overcoming the vehicle."},
+          {
+            "sub_rule_id": "stat_name",
+            "stat_name": "Name",
+            "explanation": "The common designation of the vehicle."
+          },
+          {
+            "sub_rule_id": "stat_cl",
+            "stat_name": "CL (Challenge Level)",
+            "explanation": "Indicates the experience point award for overcoming the vehicle."
+          },
           {
             "sub_rule_id": "stat_size",
             "stat_name": "Size",
             "explanation": "Vehicle size category (e.g., Large, Huge, Gargantuan, Colossal, Colossal (frigate), Colossal (cruiser), Colossal (station)). Vehicle size modifier applies to Reflex Defense, Initiative, and Pilot checks. See Table 10-1 (CRB book p.167) for specific modifiers.",
             "table_10_1_summary_note": "Table 10-1 lists: Colossal (station/cruiser/frigate/standard) -10; Gargantuan -5; Huge -2; Large -1."
           },
-          {"sub_rule_id": "stat_initiative", "stat_name": "Initiative", "explanation": "The vehicle's Initiative modifier, often derived from the pilot's Pilot skill or the vehicle's base Dexterity modifier, plus the vehicle's size modifier."},
-          {"sub_rule_id": "stat_senses", "stat_name": "Senses", "explanation": "The vehicle's Perception modifier (often based on crew) and any special senses (e.g., darkvision) its sensors possess."},
+          {
+            "sub_rule_id": "stat_initiative",
+            "stat_name": "Initiative",
+            "explanation": "The vehicle's Initiative modifier, often derived from the pilot's Pilot skill or the vehicle's base Dexterity modifier, plus the vehicle's size modifier."
+          },
+          {
+            "sub_rule_id": "stat_senses",
+            "stat_name": "Senses",
+            "explanation": "The vehicle's Perception modifier (often based on crew) and any special senses (e.g., darkvision) its sensors possess."
+          },
           {
             "sub_rule_id": "stat_defenses",
             "stat_name": "Defenses",
-            "explanation": "Reflex Defense (Ref): Base 10 + vehicle's Dexterity modifier + vehicle's size modifier + armor bonus (from equipment) or pilot's heroic level. Represents how hard the vehicle is to hit. Fortitude Defense (Fort): Base 10 + vehicle's Strength modifier + vehicle's size modifier. Represents resistance to effects like collisions or radiation. Armor: Provides Damage Reduction (DR) against attacks."
+            "explanation": "Reflex Defense (Ref): Base 10 + vehicle's Dexterity modifier + vehicle's size modifier + EITHER vehicle's armor bonus (from equipment) OR pilot's heroic level (whichever is better). Represents how hard the vehicle is to hit. Fortitude Defense (Fort): Base 10 + vehicle's Strength modifier + vehicle's size modifier. Represents resistance to effects like collisions or radiation. Armor Bonus specific to Reflex Defense. Damage Reduction (DR) is a separate property that reduces damage taken from hits and is listed in a vehicle's stat block if applicable."
           },
-          {"sub_rule_id": "stat_hp", "stat_name": "Hit Points (hp)", "explanation": "A fixed value representing the vehicle's ability to take damage. Not based on a Constitution score."},
-          {"sub_rule_id": "stat_dt", "stat_name": "Damage Threshold (DT)", "explanation": "Calculated as Fortitude Defense + size bonus (Large +5, Huge +10, Gargantuan +20, Colossal +50, Col (frigate) +100, Col (cruiser) +200, Col (station) +500). Attacks dealing damage equal to or exceeding DT move the vehicle down the condition track."},
-          {"sub_rule_id": "stat_speed", "stat_name": "Speed", "explanation": "Character-scale speed in squares. Starship-scale speed in squares (if applicable). May also list maximum velocity (km/h) and operational altitude/hover height."},
-          {"sub_rule_id": "stat_fighting_space", "stat_name": "Fighting Space", "explanation": "Squares occupied by the vehicle on a battle map (character and/or starship scale)."},
-          {"sub_rule_id": "stat_base_attack", "stat_name": "Base Attack (Base Atk)", "explanation": "Vehicle's own Base Attack Bonus, used for ramming. Weapon attacks use crew BAB."},
-          {"sub_rule_id": "stat_grapple", "stat_name": "Grapple (Grp)", "explanation": "Vehicle's grapple modifier, derived from its Strength and size. Used to resist tractor beams or other grappling effects."},
+          {
+            "sub_rule_id": "stat_hp",
+            "stat_name": "Hit Points (hp)",
+            "explanation": "A fixed value representing the vehicle's ability to take damage. Not based on a Constitution score."
+          },
+          {
+            "sub_rule_id": "stat_dt",
+            "stat_name": "Damage Threshold (DT)",
+            "explanation": "Calculated as Fortitude Defense + size bonus (Large +5, Huge +10, Gargantuan +20, Colossal +50, Col (frigate) +100, Col (cruiser) +200, Col (station) +500). Attacks dealing damage equal to or exceeding DT move the vehicle -1 step on the condition track. If a vehicle is reduced to 0 HP by an attack that also equals or exceeds its Damage Threshold, it is destroyed. Occupants of such a destroyed vehicle take damage equal to one-half the amount of damage that exceeded the vehicle’s damage threshold (Errata p.292 for CRB p.169)."
+          },
+          {
+            "sub_rule_id": "stat_speed",
+            "stat_name": "Speed",
+            "explanation": "Character-scale speed in squares. Starship-scale speed in squares (if applicable). May also list maximum velocity (km/h) and operational altitude/hover height."
+          },
+          {
+            "sub_rule_id": "stat_fighting_space",
+            "stat_name": "Fighting Space",
+            "explanation": "Squares occupied by the vehicle on a battle map (character and/or starship scale)."
+          },
+          {
+            "sub_rule_id": "stat_base_attack",
+            "stat_name": "Base Attack (Base Atk)",
+            "explanation": "Vehicle's own Base Attack Bonus, used for ramming. Weapon attacks use crew BAB."
+          },
+          {
+            "sub_rule_id": "stat_grapple",
+            "stat_name": "Grapple (Grp)",
+            "explanation": "Vehicle's grapple modifier, derived from its Strength and size. Used to resist tractor beams or other grappling effects."
+          },
           {
             "sub_rule_id": "stat_abilities",
             "stat_name": "Abilities",
             "explanation": "Strength (Str): Affects Fortitude Defense, carrying capacity, grapple modifier, and ramming damage. Dexterity (Dex): Affects Reflex Defense, Initiative (sometimes), and Pilot checks for maneuvering. Vehicles typically do not add a Dexterity bonus to Reflex Defense from armor unless specifically noted. Intelligence (Int): For on-board computers, sensors, and targeting systems. Vehicles usually have Int '-' unless they possess a droid brain. Vehicles do not have Constitution scores."
           },
-          {"sub_rule_id": "stat_skills", "stat_name": "Skills", "explanation": "Lists skill modifiers typically made by the crew using the vehicle's systems (e.g., Initiative, Mechanics, Perception, Pilot, Use Computer)."},
-          {"sub_rule_id": "stat_crew", "stat_name": "Crew", "explanation": "Number and typical skill level of crew required (e.g., '1 pilot (skilled)', '5 (expert)')."},
-          {"sub_rule_id": "stat_passengers", "stat_name": "Passengers", "explanation": "Number of passengers the vehicle can carry in addition to its crew."},
-          {"sub_rule_id": "stat_cargo", "stat_name": "Cargo", "explanation": "Cargo capacity in kilograms."},
-          {"sub_rule_id": "stat_consumables", "stat_name": "Consumables", "explanation": "Duration of life support and other essential supplies (e.g., '1 day', '2 months')."},
-          {"sub_rule_id": "stat_carried_craft", "stat_name": "Carried Craft", "explanation": "Any smaller vehicles the vehicle is designed to carry (e.g., starfighters in a capital ship's hangar)."},
-          {"sub_rule_id": "stat_payload_armament", "stat_name": "Payload/Armament", "explanation": "Lists the vehicle's weapon systems and ordnance. Specific statistics for weapons are detailed per weapon entry."},
-          {"sub_rule_id": "stat_hyperdrive", "stat_name": "Hyperdrive", "explanation": "Multiplier used for calculating hyperspace travel times (e.g., x1, x2). Backup hyperdrive rating may be listed in parentheses. Not applicable to all vehicles."},
-          {"sub_rule_id": "stat_availability_cost", "stat_name": "Availability and Cost", "explanation": "The vehicle's restriction level (e.g., Licensed, Military, Restricted) and its cost in credits (new and/or used)."}
+          {
+            "sub_rule_id": "stat_skills",
+            "stat_name": "Skills",
+            "explanation": "Lists skill modifiers typically made by the crew using the vehicle's systems (e.g., Initiative, Mechanics, Perception, Pilot, Use Computer)."
+          },
+          {
+            "sub_rule_id": "stat_crew",
+            "stat_name": "Crew",
+            "explanation": "Number and typical skill level of crew required (e.g., '1 pilot (skilled)', '5 (expert)')."
+          },
+          {
+            "sub_rule_id": "stat_passengers",
+            "stat_name": "Passengers",
+            "explanation": "Number of passengers the vehicle can carry in addition to its crew."
+          },
+          {
+            "sub_rule_id": "stat_cargo",
+            "stat_name": "Cargo",
+            "explanation": "Cargo capacity in kilograms."
+          },
+          {
+            "sub_rule_id": "stat_consumables",
+            "stat_name": "Consumables",
+            "explanation": "Duration of life support and other essential supplies (e.g., '1 day', '2 months')."
+          },
+          {
+            "sub_rule_id": "stat_carried_craft",
+            "stat_name": "Carried Craft",
+            "explanation": "Any smaller vehicles the vehicle is designed to carry (e.g., starfighters in a capital ship's hangar)."
+          },
+          {
+            "sub_rule_id": "stat_payload_armament",
+            "stat_name": "Payload/Armament",
+            "explanation": "Lists the vehicle's weapon systems and ordnance. Specific statistics for weapons are detailed per weapon entry."
+          },
+          {
+            "sub_rule_id": "stat_hyperdrive",
+            "stat_name": "Hyperdrive",
+            "explanation": "Multiplier used for calculating hyperspace travel times (e.g., x1, x2). Backup hyperdrive rating may be listed in parentheses. Not applicable to all vehicles."
+          },
+          {
+            "sub_rule_id": "stat_availability_cost",
+            "stat_name": "Availability and Cost",
+            "explanation": "The vehicle's restriction level (e.g., Licensed, Military, Restricted) and its cost in credits (new and/or used)."
+          },
+          {
+            "sub_rule_id": "stat_vehicle_weapon_attacks",
+            "stat_name": "Vehicle Weapon Attacks (General)",
+            "explanation": "Attacks with vehicle weapons use the gunner's Base Attack Bonus + the vehicle's Intelligence modifier (if any) + range modifiers. Damage Calculation (Errata p.292 for CRB p.168): (Weapon Damage + 1/2 gunner's heroic level + miscellaneous modifiers) x multiplier. Critical Hits (Errata p.292 for CRB p.167): A natural 20 on the attack roll automatically hits and deals double damage. However, when using a vehicle weapon, you cannot apply any effect that causes an automatic natural 20 or automatic critical hit (such as spending a Destiny Point), unless a specific rule explicitly states it can be used with vehicle weapons."
+          }
         ]
       },
       {

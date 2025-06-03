@@ -1,0 +1,217 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hazards Schema",
+  "description": "Schema for Hazards in Star Wars SAGA Edition, accommodating data from CSV, Core Rulebook, and other supplements.",
+  "type": "object",
+  "properties": {
+    "hazards_data": {
+      "type": "object",
+      "description": "Wrapper object for the list of hazards.",
+      "properties": {
+        "description": {
+          "type": "string",
+          "default": "Compilation of Hazards for Star Wars SAGA Edition."
+        },
+        "hazards_list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/hazard_entry"
+          }
+        },
+        "errata_applied": {
+          "type": "array",
+          "description": "List of errata changes applied to the data within this file or related rules.",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["description", "hazards_list"]
+    }
+  },
+  "definitions": {
+    "source_details_object": {
+      "type": "object",
+      "description": "Specifies source information for a piece of data.",
+      "properties": {
+        "source_book": {
+          "type": "string",
+          "description": "Abbreviation of the source book (e.g., CR, SGD, UR, D1)."
+        },
+        "page": {
+          "type": "string",
+          "description": "Page number or page range in the specified source book."
+        },
+        "reference_type": {
+          "type": "string",
+          "enum": ["primary_definition", "stat_block_source", "mention", "expanded_details", "clarification", "errata", "alternative_rule"],
+          "description": "Nature of the information from this source."
+        },
+        "notes": {
+            "type": ["string", "null"],
+            "description": "Optional brief note about this specific source reference."
+        }
+      },
+      "required": ["source_book", "page"]
+    },
+    "value_object": {
+      "description": "Represents a value that could be a direct number, a text description, or based on a multiplier (for optional cost/weight of artificial traps).",
+      "type": "object",
+      "properties": {
+        "base_value": {
+          "type": ["number", "string", "null"],
+          "description": "The direct numeric value (e.g., cost in credits, weight in kg) or a string if non-numeric (e.g., 'Varies')."
+        },
+        "factor_multiplier": {
+          "type": ["number", "null"],
+          "description": "A multiplier if the value is based on a factor."
+        },
+        "factor_basis": {
+          "type": ["string", "null"],
+          "description": "Describes what the factor multiplier applies to (e.g., 'droid_size_cost_factor')."
+        },
+        "text_override": {
+          "type": ["string", "null"],
+          "description": "A complete textual description if the value cannot be easily structured."
+        }
+      }
+    },
+    "skill_interaction_object": {
+      "type": "object",
+      "description": "Describes how a skill can be used in relation to the hazard.",
+      "properties": {
+        "skill_name": {
+          "type": "string",
+          "description": "Name of the skill (e.g., Perception, Mechanics, Treat Injury, Survival)."
+        },
+        "dc": {
+          "type": ["integer", "null"],
+          "description": "Difficulty Class for the skill check."
+        },
+        "effect_description": {
+          "type": "string",
+          "description": "Description of what succeeding on this skill check achieves regarding the hazard."
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Any additional notes, e.g., tools required, consequences of failure."
+        }
+      },
+      "required": ["skill_name", "effect_description"]
+    },
+    "damage_effect_object": {
+        "type": "object",
+        "description": "Describes the damage and effects of a hazard.",
+        "properties": {
+            "damage_dice_text": {
+              "type": ["string", "null"],
+              "description": "Damage expression (e.g., '2d6', '1d4+1', 'half of hit damage', 'none')."
+            },
+            "damage_types": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "List of damage types (e.g., ['acid'], ['piercing'], ['fire'], ['condition_track_penalty'])."
+            },
+            "additional_effects_text": {
+              "type": ["string", "null"],
+              "description": "Other effects (e.g., 'Target moves -1 persistent step on CT', 'Target is knocked prone')."
+            }
+        }
+    },
+    "hazard_entry": {
+      "type": "object",
+      "description": "Represents a single hazard.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the hazard (e.g., snake_case_name_source_book_page)."
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the hazard (from CSV 'HAZARD')."
+        },
+        "primary_source": {
+          "$ref": "#/definitions/source_details_object",
+          "description": "Primary source book and page for this hazard entry (from CSV 'BOOK', 'PAGE')."
+        },
+        "hazard_type_tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Categorical tags for the hazard, parsed from CSV 'Type' (e.g., ['Acid', 'Contact'], ['Atmospheric', 'Natural'], ['Artificial', 'Trap'])."
+        },
+        "typical_locations": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Common locations where this hazard might be found (from CSV 'Location', can be multiple if comma-separated in CSV)."
+        },
+        "cl": {
+          "type": ["integer", "null"],
+          "description": "Challenge Level of the hazard (from CSV 'CL')."
+        },
+        "trigger_description": {
+          "type": ["string", "null"],
+          "description": "Textual description of what triggers the hazard (from CSV 'Trigger')."
+        },
+        "attack_details": {
+          "type": "object",
+          "properties": {
+            "bonus_text": {
+              "type": ["string", "null"],
+              "description": "Attack bonus modifier as text (e.g., '+5', '+12') or descriptive text if not a direct roll (e.g., 'Automatic on contact'). From CSV 'Attack'."
+            },
+            "defense_targeted": {
+              "type": ["string", "null"],
+              "enum": ["Reflex", "Fortitude", "Will", null],
+              "description": "The defense the hazard targets (from CSV 'Defense')."
+            },
+            "notes": {
+              "type": ["string", "null"],
+              "description": "Additional notes about the attack mechanism or how it's resolved."
+            }
+          }
+        },
+        "damage_on_hit": {
+          "$ref": "#/definitions/damage_effect_object",
+          "description": "Damage and effects if the hazard's attack hits or its primary effect occurs."
+        },
+        "damage_on_miss_or_save": {
+          "$ref": "#/definitions/damage_effect_object",
+          "description": "Damage and effects if the hazard's attack misses or a save is successful (parsed from CSV 'Damage (type; failure)')."
+        },
+        "recurrence_description": {
+          "type": ["string", "null"],
+          "description": "How often or under what conditions the hazard effect repeats (from CSV 'Recurrence')."
+        },
+        "special_qualities_and_rules": {
+          "type": ["string", "null"],
+          "description": "Additional special rules, qualities, or notes about the hazard's operation (from CSV 'Special')."
+        },
+        "skill_interactions": {
+          "type": "array",
+          "description": "Skills that can be used to detect, avoid, disable, or mitigate the hazard (from CSV 'Skill 1', 'Skill 2', 'Skill 3').",
+          "items": { "$ref": "#/definitions/skill_interaction_object" }
+        },
+        "full_text_description_from_book": {
+          "type": ["string", "null"],
+          "description": "Detailed descriptive text from a source book, if available beyond the CSV summary."
+        },
+        "cost_details": {
+          "$ref": "#/definitions/value_object",
+          "description": "Cost of the hazard if it's an artificial trap or device (from CSV 'COST', if applicable)."
+        },
+        "weight_details": {
+          "$ref": "#/definitions/value_object",
+          "description": "Weight of the hazard if it's an artificial trap or device (from CSV 'WEIGHT', if applicable)."
+        },
+        "availability_text": {
+          "type": ["string", "null"],
+          "description": "Availability code or description for artificial traps/devices (from CSV 'AVAIL.', if applicable)."
+        },
+        "additional_source_references": {
+            "type": "array",
+            "description": "List of other source books and pages where this hazard or substantially similar versions are detailed or expanded upon.",
+            "items": { "$ref": "#/definitions/source_details_object" }
+        }
+      },
+      "required": ["id", "name", "primary_source", "hazard_type_tags"]
+    }
+  }
+}

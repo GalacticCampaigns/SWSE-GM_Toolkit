@@ -1,0 +1,39 @@
+{
+  "adventure_design_principles_data": {
+    "file_description": "Principles and guidelines for designing engaging adventures in Star Wars Saga Edition, primarily based on CRB Chapter 14: Gamemastering.",
+    "default_source_book": "CR",
+    "default_source_page_range": "249-251",
+    "errata_applied": [],
+    "defining_adventure_goals": {
+      "title": "Defining Adventure Goals",
+      "source_page_reference": "CRB 249",
+      "description": "Adventures (missions) are collections of related encounters forming a storyline. Both encounters and overall adventures should have specific, attainable heroic goals. These goals often begin with descriptive verbs that define the required action.",
+      "example_goal_verbs": ["capture", "defeat", "discover", "destroy", "escape", "find", "negotiate", "obtain", "protect", "rescue", "survive"],
+      "goal_progression": "Minor encounter goals should contribute to achieving the adventure's ultimate goal. For example, destroying a superweapon (adventure goal) might require capturing a spy, discovering a location, infiltrating, defeating guards, and activating a self-destruct (encounter goals)."
+    },
+    "crafting_exciting_adventures_techniques": {
+      "title": "Techniques for Exciting Adventures",
+      "source_page_reference": "CRB 250-251",
+      "intriguing_npc_interactions": {
+        "title": "Intriguing Interactions",
+        "description": "Treat GM characters as more than props. Run them as a player would run a hero, based on their pre-determined outlook and motivations. Not all interactions require skill checks; roleplaying can shift NPC attitudes. Heroes' attitudes are determined by players, not NPC skill checks."
+      },
+      "worthy_adversaries": {
+        "title": "Worthy Adversaries",
+        "description": "Include competent adversaries beyond generic foes. Flesh out enemies with plausible motivations and intelligence. Avoid making villains omniscient; allow heroes to surprise them. Give major villains underlings, but ensure heroes eventually have a chance to confront the main villain. Ensure climactic villains are appropriately challenging."
+      },
+      "exciting_combat_scenarios": {
+        "title": "Exciting Combats",
+        "description": "Use interesting locations and environmental factors to add twists to combat scenes (e.g., narrow ledges, moving platforms, energy fields). Consider varied settings like mounted combat or underwater scenarios."
+      },
+      "daring_escapes": {
+        "title": "Daring Escapes",
+        "description": "If heroes are captured or forced to surrender, set up situations for daring escapes, possibly with unexpected assistance. This can turn setbacks into new, engaging story developments."
+      },
+      "compound_encounters": {
+        "title": "Compound Encounters",
+        "description": "Make encounters more complex by adding new threats, goals, or opportunities after the action has started. Example: adding a new foe mid-fight, or introducing a time-sensitive objective. Ensure the overall Encounter Level remains balanced, as heroes haven't had a chance to recover."
+      }
+    }
+  }
+}

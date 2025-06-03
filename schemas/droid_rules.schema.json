@@ -55,10 +55,10 @@
         },
         "general_droid_characteristics": {
           "type": "object",
-          "description": "Core traits and characteristics defining droids. Assumed CRB unless 'source_details' is present.",
+          "description": "Core traits and characteristics defining droids.",
           "properties": {
             "introduction": { "type": "string" },
-            "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this entire section, if not the file's default." },
+            "source_details": { "$ref": "#/definitions/source_details_object" },
             "construct_type_summary": { "type": "string" },
             "ability_scores_notes": {
               "type": "object",
@@ -87,7 +87,7 @@
                     "type": "object",
                     "properties": {
                       "immunity_description": { "type": "string" },
-                      "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this specific immunity if not default." }
+                      "source_details": { "$ref": "#/definitions/source_details_object" }
                     },
                     "required": ["immunity_description"]
                   }
@@ -104,7 +104,7 @@
                     "type": "object",
                     "properties": {
                       "vulnerability_description": { "type": "string" },
-                      "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this specific vulnerability if not default." }
+                      "source_details": { "$ref": "#/definitions/source_details_object" }
                     },
                     "required": ["vulnerability_description"]
                   }
@@ -129,7 +129,7 @@
                   "degree_name": { "type": "string" },
                   "description_summary": { "type": "string" },
                   "primary_functions_and_roles": { "type": "string" },
-                  "source_details": { "$ref": "#/definitions/source_details_object", "description": "Source for this specific degree's details if not default." }
+                  "source_details": { "$ref": "#/definitions/source_details_object" }
                 },
                 "required": ["degree_number", "degree_name", "description_summary", "primary_functions_and_roles"]
               }
@@ -152,7 +152,6 @@
             },
             "building_droids_by_pcs": {
               "type": "object",
-              "description": "Rules for Player Characters constructing droids from scratch or assembling them from parts.",
               "properties": {
                 "introduction_and_feasibility": { "type": "string" },
                 "skill_requirements_and_checks": { "type": "string" },
@@ -244,6 +243,13 @@
                 "effects_of_force_powers_on_droids": { "type": "string" },
                 "droids_in_force_traditions": { "type": "string" }
             }
+        },
+        "errata_applied": {
+          "type": "array",
+          "description": "List of errata changes applied to this rules file.",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": [

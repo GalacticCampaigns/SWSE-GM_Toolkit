@@ -1,0 +1,46 @@
+{
+  "environmental_rules_data": {
+    "file_description": "General rules for environmental conditions such as gravity and visibility from the Star Wars Saga Edition Core Rulebook, Chapter 14.",
+    "default_source_book": "CR",
+    "errata_applied": [
+      "Falling Damage (Acrobatics/Jump interaction) clarification from CRB Errata p.291 (for CRB p.255) noted for context, though detailed mechanics are in skill descriptions."
+    ],
+    "gravity_rules": {
+      "introduction": "The force that gravity exerts on a person determines how they develop physically as well as their ability to perform certain actions. Gravity also affects the amount of damage a character takes from falling. The Star Wars Roleplaying Game presents four simplified gravity environments.",
+      "source_page_reference": "CRB 256-257",
+      "normal_gravity": {
+        "range_g_force": "0.8g to 1.2g",
+        "description": "Imposes no special modifiers on ability scores, attack rolls, skill checks, speed, carrying capacity, or the amount of damage taken from a fall."
+      },
+      "low_gravity": {
+        "range_g_force": "0.1g to less than 0.8g",
+        "description": "Effects include: Speed increases by one-quarter (round down, min 1 square) for all movement modes. Normal carrying capacity is doubled. +2 circumstance bonus on Strength-based skill checks (Climb, Jump, Swim). -2 penalty on attack rolls (unless native to low-g or has Spacehound talent). Falling damage uses d4s instead of d6s."
+      },
+      "high_gravity": {
+        "range_g_force": "More than 1.2g",
+        "description": "Effects include: Speed decreases to three-quarters normal (round down, min 1 square) for all movement modes. Normal carrying capacity is halved. -2 penalty on Strength-based skill checks (Climb, Jump, Swim). -2 penalty on attack rolls (unless native to high-g or has Spacehound talent). Falling damage uses d8s instead of d6s."
+      },
+      "zero_gravity": {
+        "range_g_force": "Less than 0.1g",
+        "description": "Effects include: Space Sickness (Fortitude save (1d20, no modifier) vs. Fort Defense, or move -1 persistent step on condition track; recurs after 8 hours once, Treat Injury DC 20 or 8 hours rest to remove persistent condition; Spacehound talent or being a Droid grants immunity). Fly speed equal to base land speed (or natural fly speed, whichever is greater), movement in straight lines only, change course by pushing off larger objects. Normal carrying capacity increases by 10 times. +10 circumstance bonus on Strength checks to lift/move heavy unsecured objects. -5 penalty on attack rolls and skill checks (unless native to zero-g or has Spacehound talent). Long-term exposure (120+ hours) results in -2 persistent steps on condition track upon returning to normal gravity (removed after 24 hours in normal gravity)."
+      }
+    },
+    "visibility_rules": {
+      "introduction": "Rules pertaining to light conditions and their effects on visibility in combat and exploration.",
+      "source_page_reference": "CRB 257",
+      "light_sources_summary": "Light sources illuminate a specific radius and provide shadowy illumination (granting concealment) out to twice that radius. See CRB Table 14-4 for examples (Torch: 3 squares light, 6 shadowy, 2 hours; Glow Rod: 6-square beam or 3-square radius, 6 hours; Fusion Lantern: 6-square radius, 6 hours). Without a light source in darkness, characters are effectively blinded.",
+      "darkvision": {
+        "description": "A creature or droid with darkvision can see in the dark, ignoring concealment and total concealment due to darkness. Darkvision is black and white only; some light is needed to discern colors. It is otherwise like normal sight, and a creature with darkvision can function with no light at all."
+      },
+      "low_light_vision": {
+        "description": "A creature or droid with low-light vision can see without penalty in shadowy illumination, ignoring concealment (but not total concealment) due to darkness. It retains the ability to distinguish color and detail under these conditions."
+      },
+      "concealment_reference": {
+        "description": "For rules on concealment and total concealment, see CRB page 156."
+      },
+      "blindness_reference": {
+        "description": "For rules on the blinded condition, see CRB page 254 (under Hazards) or page 148 (Condition Track if it leads to that state)."
+      }
+    }
+  }
+}

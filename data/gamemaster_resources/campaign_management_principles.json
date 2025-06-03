@@ -1,0 +1,61 @@
+{
+  "campaign_management_principles_data": {
+    "file_description": "Principles for managing ongoing campaigns in Star Wars Saga Edition, focusing on narrative cohesion, a living galaxy, and player engagement, based on CRB Chapter 14: Gamemastering.",
+    "default_source_book": "CR",
+    "default_source_page_range": "251-252",
+    "errata_applied": [],
+    "establishing_the_campaign": {
+      "title": "Establishing the Campaign",
+      "source_page_reference": "CRB 251",
+      "create_a_context": {
+        "title": "Create a Context",
+        "description": "Before starting, decide the campaign's context (theme, overarching plotline) based on the chosen era. Examples: Rebel plots, Jedi quests, trade enterprises, mercenary work. This context guides adventure design."
+      }
+    },
+    "incorporating_gm_characters": {
+      "title": "Incorporating Interesting GM Characters",
+      "source_page_reference": "CRB 251-252",
+      "general_populace": {
+        "title": "General Populace",
+        "description": "Most NPCs are living their own lives, often oblivious to heroes unless interacted with directly. Their reactions should be natural based on hero actions. The galaxy doesn't automatically recognize player characters as 'heroes'."
+      },
+      "villains_and_opponents": {
+        "title": "Villains and Opponents",
+        "points": [
+          "Flesh out enemies with plausible motivations, reasons for their actions, and how they interact with their surroundings.",
+          "Make enemies as smart and resourceful as they would realistically be. Hutts are cunning; Trandoshans might be more direct.",
+          "Villains should be fallible and not omniscient; allow heroes to surprise them occasionally.",
+          "Give major villains underlings and support structures, but ensure heroes eventually get opportunities to confront the primary antagonists."
+        ]
+      },
+      "allies": {
+        "title": "Allies",
+        "description": "Develop NPC allies (friends, relatives, contacts) with names, species, and personalities. They can provide information, resources, safe havens, or even join heroes on missions (use mission allies sparingly to avoid PC reliance)."
+      }
+    },
+    "maintaining_a_living_galaxy": {
+      "title": "Maintaining a Living Galaxy",
+      "source_page_reference": "CRB 252",
+      "recurring_characters": {
+        "title": "Recurring Characters",
+        "description": "Judiciously reuse NPCs (allies or antagonists) to lend realism, remind heroes of their past actions and relationships, and show an evolving world. This reaffirms the heroes' place in the campaign."
+      },
+      "deep_relationships": {
+        "title": "Deep Relationships",
+        "description": "Allow heroes to form meaningful, positive, or negative relationships with NPCs. These connections can serve as plot hooks, emotional anchors, or sources of conflict."
+      },
+      "change_what_heroes_know": {
+        "title": "Change What the Heroes Know",
+        "description": "Introduce changes to previously established locations, organizations, political situations, or NPC statuses to make the world feel dynamic and responsive, independent of direct PC actions. This can intrigue players and create new adventure seeds."
+      },
+      "hit_them_where_they_hurt_moderately": {
+        "title": "Hit Them Where They Hurt (Moderately)",
+        "description": "Occasionally, use established relationships or familiar places as focal points for new challenges or threats to motivate players. This should be used with caution to avoid players becoming too detached or fearful of forming connections."
+      },
+      "foreshadowing_future_events": {
+        "title": "Foreshadowing Future Events",
+        "description": "Hint at future plots, emerging threats, or major campaign shifts in earlier adventures. This can be done through rumors, subtle clues, or minor encounters, building anticipation and narrative cohesion when those events come to pass."
+      }
+    }
+  }
+}

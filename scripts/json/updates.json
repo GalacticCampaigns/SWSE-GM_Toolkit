@@ -1,316 +1,90 @@
 [
   {
     "action": "update",
-    "target_file_key": "prestige_classes_rules",
-    "is_single_object": true,
+    "target_file_key": "skills",
+    "identifier": { "id": "acrobatics" },
     "payload": [
       {
         "op": "replace",
-        "path": "/prestige_class_overview/entry_requirements",
-        "value": "To take a level in a prestige class, a character must first meet all of its prerequisites. Common prerequisites include a minimum character level (often 7th), a minimum base attack bonus, specific trained skills, feats, talents, or other special conditions outlined in the prestige class description."
-      },
+        "path": "/common_uses/4/description",
+        "value": "You can reduce the damage you take from a fall with a successful DC 15 Acrobatics check. If your check result beats the DC by 10 or more, you take only one-quarter damage. If it beats the DC by 20 or more, you take no damage. Errata (CRB p.291 for CRB p.255): If the check succeeds and you take no damage from the fall, you land on your feet. If you fall from a height of greater than 60 meters, treat the fall as being only 60 meters for the purposes of reducing falling distance with this skill. If struck by a falling object, a successful check reduces damage by half. [Sourced from CRB p.64, Errata p.291]"
+      }
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "skills",
+    "identifier": { "id": "jump" },
+    "payload": [
       {
-        "op": "add",
-        "path": "/prestige_class_overview/in_game_requirements_note",
-        "value": "Beyond meeting statistical prerequisites, entry into a prestige class often requires in-character actions or achievements, such as completing special training, undertaking a specific quest, gaining acceptance into an organization, or other narrative elements as determined by the Gamemaster."
+        "op": "replace",
+        "path": "/common_uses/2/description",
+        "value": "If you intentionally jump down from a height, you can attempt a DC 15 Jump check to take falling damage as if you had dropped 3 meters (2 squares) fewer than you actually did. For every 10 points by which you beat the DC, you can subtract an additional 3 meters from the fall when determining damage. Errata (CRB p.291 for CRB p.255): If the check succeeds and you take no damage from the fall (because the effective fall distance was reduced to 0 or less through successive reductions), you land on your feet. If you fall from a height of greater than 60 meters, treat the fall as being only 60 meters for the purposes of reducing falling distance with this skill. [Sourced from CRB p.69, Errata p.291]"
+      }
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "skills",
+    "identifier": { "id": "mechanics" },
+    "payload": [
+      {
+        "op": "replace",
+        "path": "/common_uses/0/description",
+        "value": "Disarm a security device, defeat a lock, or disable/rig a mechanical trap. Requires appropriate tools (e.g., security kit for locks/electronic traps, tool kit for mechanical traps). Disabling a simple device takes 1 minute. Complex devices might take longer. The DC is set by the device or trap. If disabling a trap and the check fails by 10 or more, you trigger it. If attempting to rig a device to fail and the check fails by 5 or more, you believe it's rigged but it isn't. [Sourced from CRB p.70, p.253]"
       },
       {
         "op": "replace",
-        "path": "/prestige_class_game_rules/defense_bonuses",
-        "value": "A prestige class grants class defense bonuses as shown on its specific advancement table. As with all class bonuses to defenses, these do not stack with class defense bonuses from other classes (heroic or prestige); for each defense score (Reflex, Fortitude, Will), the character applies only the highest class bonus granted by any of their classes."
+        "path": "/common_uses/3/description",
+        "value": "Disarm an explosive set to go off. Requires a security kit or tool kit. The DC is usually 15 unless the individual who set the explosive chose a higher DC (see Set Detonator). If you fail the check by 5 or more, the explosive detonates. This takes a full-round action. [Sourced from CRB p.70-71]"
+      }
+    ]
+  },
+  {
+    "action": "update",
+    "target_file_key": "skills",
+    "identifier": { "id": "treat_injury" },
+    "payload": [
+      {
+        "op": "replace",
+        "path": "/common_uses/5/description",
+        "value": "You can tend to a character afflicted by a disease. This takes 10 minutes of work. If your Treat Injury check against the DC of the disease is successful, the target character automatically recovers from the disease and no longer suffers its ill effects. You can make one attempt to treat a specific disease in a given character per day. Requires a medical kit or medpac. [Sourced from CRB p.74]"
       },
       {
-        "op": "remove",
-        "path": "/table_12_1_prestige_class_level_progression_summary"
+        "op": "replace",
+        "path": "/common_uses/6/description",
+        "value": "You can tend to a character afflicted by a poison. This takes 1 minute of work. If your Treat Injury check against the DC of the poison is successful, the target character no longer suffers any ill effects from the poison (though Hit Point damage already dealt by the poison is not restored). You can make one attempt to treat a specific poison in a given character per minute of treatment. Requires a medical kit or medpac. [Sourced from CRB p.74]"
       },
       {
         "op": "add",
-        "path": "/prestige_class_force_point_progression",
+        "path": "/common_uses/-",
         "value": {
-          "description": "Details the formula for Force Points gained at each level of a prestige class. General level-dependent benefits such as feats and ability score increases are determined by total character level as per Table 3-1 (CRB p.38). BAB, Defense Bonuses, Talents, and Special Abilities are specific to each prestige class and detailed in their individual entries.",
-          "source_page_reference": "CR 206 (and individual PrC entries)",
-          "force_points_gained_formula": "6 + floor(character_level / 2)",
-          "notes": "This formula applies each time a character gains a level in any prestige class. Force Points from previous levels are lost."
+          "use_name": "Treat Radiation",
+          "trained_only": true,
+          "armor_check_penalty_for_this_use": false,
+          "description": "You can treat a character suffering from radiation poisoning. This takes 8 hours of work and requires a medical kit or medpac. If your Treat Injury check against the DC of the radiation (e.g., Moderate Radiation DC 20, Extreme Radiation DC 30, as per CRB p.255, Table 14-3) is successful, the patient is cured, and any persistent conditions from the radiation are removed. You can treat one untrained character or up to six trained characters simultaneously. You can use this application on yourself, but you take a -5 penalty on the check. [Sourced from CRB p.76, p.255]",
+          "dc": {"type": "variable", "determination_formula": "Radiation's DC (see CRB p.255, Table 14-3)"},
+          "action_cost": "8 hours"
         }
-      },
-      {
-        "op": "add",
-        "path": "/errata_applied",
-        "value": [
-          "Corrected 'prestige_class_game_rules/defense_bonuses' to accurately reflect that class defense bonuses do not stack, aligning with general game rules (CRB p.37).",
-          "Updated 'prestige_class_overview/entry_requirements' to include 'minimum base attack bonus' as a common prerequisite, aligning with CRB p.205.",
-          "Added 'prestige_class_overview/in_game_requirements_note' to cover non-statistical prerequisites, based on CRB p.205.",
-          "Replaced 'table_12_1_prestige_class_level_progression_summary' with 'prestige_class_force_point_progression' for improved accuracy regarding how general level benefits (feats, ability increases) are gained versus prestige class specific Force Point progression (CRB p.206)."
-        ]
       }
     ]
   },
   {
     "action": "update",
-    "target_file_key": "vehicle_combat_rules",
-    "is_single_object": true,
-    "payload": [
-      {
-        "op": "replace",
-        "path": "/rules_sections/1/details/0/action_list/1/description",
-        "value": "Fire a vehicle-mounted weapon. Attack roll: 1d20 + gunner's BAB + vehicle's Int modifier + range modifier. Damage Calculation (Errata p.292): (Weapon Damage + 1/2 heroic level + miscellaneous modifiers) x multiplier. Critical Hits (Errata p.292): When using a vehicle weapon, you cannot apply any effect that causes an automatic natural 20 or automatic critical hit (such as spending a Destiny Point or using the Jedi Master’s serenity class feature), unless a rule specifies that it can be used with vehicle weapons. Capital ship weapons take a -20 penalty against targets smaller than Colossal size (unless point-defense). Pilots trained in Pilot skill get +2 on attacks with pilot-operated weapons."
-      },
-      {
-        "op": "replace",
-        "path": "/rules_sections/2/details/4/text",
-        "value": "Attacks target vehicle's Reflex Defense. Damage reduces HP. Damage exceeding Damage Threshold moves vehicle -1 step on condition track. Vehicle at 0 HP is disabled. Vehicle at 0 HP and damage exceeded DT is destroyed. Occupants of destroyed vehicle take damage equal to one-half the amount that exceeded the vehicle’s damage threshold (Errata p.292)."
-      },
-      {
-        "op": "replace",
-        "path": "/rules_sections/1/details/2/action_list/2/description",
-        "value": "DC 20 Pilot check. Success: speed +1 square until start of next turn (+1 additional square per 5 points over DC). Failure: vehicle moves -1 step on condition track, no speed increase. Errata p.292: You may attempt to increase vehicle speed once per round as a free action when using the all-out movement action."
-      },
-      {
-        "op": "replace",
-        "path": "/rules_sections/2/details/2/text",
-        "value": "Occurs when vehicle enters occupied space. Ramming Vehicle: Pilot check vs. target Reflex. Success: full collision damage (Table 10-3) to all involved. Failure: half damage. Mobile Hazard (Large+): Hazard makes attack roll (1d20 + size mod) vs. target Reflex. Hit: full collision damage. Miss: half damage. Errata p.292: Unless the vehicle provides no cover to those onboard, any damage dealt to passengers and crew in a collision is reduced by an amount equal to the vehicle’s damage threshold."
-      },
-      {
-        "op": "add",
-        "path": "/errata_applied",
-        "value": [
-          "Updated vehicle weapon damage calculation formula (CRB Errata p.292, for CRB p.168). Path: /rules_sections/1/details/0/action_list/1/description",
-          "Added rule restricting automatic critical hits with vehicle weapons (CRB Errata p.292, for CRB p.167). Path: /rules_sections/1/details/0/action_list/1/description",
-          "Clarified occupant damage when a vehicle is destroyed by exceeding its damage threshold (CRB Errata p.292, for CRB p.169). Path: /rules_sections/2/details/4/text",
-          "Added option to 'Increase Vehicle Speed' as a free action during all-out movement (CRB Errata p.292, for CRB p.172). Path: /rules_sections/1/details/2/action_list/2/description",
-          "Clarified occupant damage reduction during collisions based on vehicle cover and damage threshold (CRB Errata p.292, for CRB p.173). Path: /rules_sections/2/details/2/text"
-        ]
-      }
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "droid_rules",
-    "is_single_object": true,
-    "payload": [
-      {
-        "op": "replace",
-        "path": "/general_droid_characteristics/construct_type_summary",
-        "value": "Droids are constructs. They have no Constitution score and use their Intelligence modifier for any Fortitude saving throw normally based on Constitution. A droid has bonus Hit Points based on its size: Medium or smaller +10 hp, Large +20 hp, Huge +30 hp, Gargantuan +40 hp, Colossal +60 hp. Droids do not gain bonus Hit Points from class levels. They are subject to critical hits, and they are not immune to massive damage effects. Droids do not need to eat, sleep, or breathe. They can be affected by mind-affecting effects. Furthermore, droids do not gain an ability bonus to Constitution-based skill checks (like Endurance for some applications) and may not take feats or talents with a Constitution prerequisite (CRB Errata p.290)."
-      },
-      {
-        "op": "replace",
-        "path": "/droid_modification_rules/skill_checks_time_and_cost",
-        "value": "Mechanics is the primary skill for droid modification. Use Computer is needed for programming changes related to new hardware. The time required can vary from hours to days. Costs include the price of the new system/component and potentially specialized tools or diagnostic equipment. Note on accessory weight for Small/smaller droids (CRB Errata p.290): When determining accessory weight for droids Small size or smaller, if the accessory's weight is listed as a multiple of the droid's cost factor, that cost factor is first modified by dividing 2 by the droid's original cost factor (e.g., for a Small droid with a base cost factor of 0.75 for general costs, the factor used for accessory weight calculation becomes 2/0.75 = 2.67). This can make accessories relatively heavier for smaller droids."
-      },
-      {
-        "op": "replace",
-        "path": "/droid_programming_personality_and_memory/reprogramming_rules/limitations_on_reprogramming",
-        "value": "Reprogramming cannot change a droid's fundamental chassis design or physical capabilities beyond what its hardware allows. It cannot grant feats or talents that require specific biological traits or Force sensitivity. Furthermore, a droid can only be reprogrammed with talents for which it is eligible based on its class levels; for example, a droid with 5 levels in the Soldier class could only be reprogrammed with up to 3 Soldier talents (one for 1st, 3rd, and 5th Soldier levels). If multiclassed, talents must correspond to the appropriate class levels (CRB Errata p.291)."
-      },
-      {
-        "op": "add",
-        "path": "/errata_applied",
-        "value": [
-          "Clarified that droids do not gain Constitution-based skill bonuses and cannot take feats/talents with Constitution prerequisites (CRB Errata p.290, for CRB p.188). Applied to /general_droid_characteristics/construct_type_summary.",
-          "Added note on special calculation for accessory weight for Small or smaller droids (CRB Errata p.290, for CRB p.186). Applied to /droid_modification_rules/skill_checks_time_and_cost.",
-          "Updated limitations on reprogramming talents to reflect eligibility based on class levels and specific examples (CRB Errata p.291, for CRB p.192). Applied to /droid_programming_personality_and_memory/reprogramming_rules/limitations_on_reprogramming."
-        ]
-      }
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "droid_chassis",
-    "identifier": { "id": "3po_series_protocol_droid_cr_198" },
-    "payload": [
-      {"op":"replace","path":"/stat_block_details/ability_scores/intelligence","value":13},
-      {"op":"replace","path":"/stat_block_details/ability_scores/charisma","value":14}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "droid_chassis",
-    "identifier": { "id": "b2_series_super_battle_droid_cr_199" },
-    "payload": [
-      {"op":"add","path":"/stat_block_details/attack_options_summary","value":"autofire (wrist blasters), Charging Fire, Rapid Fire, aid another (+5)"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "droid_chassis",
-    "identifier": { "id": "c_3po_episode_vi_cr_267" },
-    "payload": [
-      {"op":"replace","path":"/stat_block_details/ability_scores/intelligence","value":13},
-      {"op":"replace","path":"/stat_block_details/ability_scores/wisdom","value":13},
-      {"op":"replace","path":"/stat_block_details/ability_scores/charisma","value":15},
-      {"op":"replace","path":"/stat_block_details/skills","value":[
-        {"skill_name": "Deception", "modifier": 10},
-        {"skill_name": "Knowledge (bureaucracy)", "modifier": 9},
-        {"skill_name": "Knowledge (galactic lore)", "modifier": 9},
-        {"skill_name": "Knowledge (social sciences)", "modifier": 9},
-        {"skill_name": "Perception", "modifier": 9},
-        {"skill_name": "Persuasion", "modifier": 15}
-      ]}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "droid_chassis",
-    "identifier": { "id": "r2_d2_episode_vi_cr_267" },
-    "payload": [
-      {"op":"replace","path":"/stat_block_details/base_equipment_and_systems","value":[
-          {"item_name_or_type": "Wheeled locomotion", "category": "Locomotion"},
-          {"item_name_or_type": "Walking locomotion", "category": "Locomotion"},
-          {"item_name_or_type": "Flying locomotion (limited use)", "category": "Locomotion"},
-          {"item_name_or_type": "Magnetic feet", "category": "Accessory"},
-          {"item_name_or_type": "Heuristic processor", "category": "Processor"},
-          {"item_name_or_type": "Tool appendage", "category": "Appendage", "summary":"6"},
-          {"item_name_or_type": "Claw appendage", "category": "Appendage", "summary":"1"},
-          {"item_name_or_type": "Diagnostics package", "category": "Accessory"},
-          {"item_name_or_type": "Internal storage (2 kg)", "category": "Accessory"},
-          {"item_name_or_type": "Improved sensor package", "category": "Sensor"},
-          {"item_name_or_type": "Darkvision", "category": "Sensor"},
-          {"item_name_or_type": "Circular saw", "category": "Possession"},
-          {"item_name_or_type": "Electroshock probe (Melee Atk +9, 1d8+4 ion)", "category": "Possession"},
-          {"item_name_or_type": "Fire extinguisher", "category": "Possession"},
-          {"item_name_or_type": "Electric arc welder", "category": "Possession"},
-          {"item_name_or_type": "Holorecorder", "category": "Possession"},
-          {"item_name_or_type": "Holoprojector", "category": "Possession"}
-      ]},
-      {"op":"add","path":"/stat_block_details/ranged_attack_bonus_summary","value":"+8 (by weapon)"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "droid_chassis",
-    "is_single_object": false, 
-    "payload_is_list_root": true,
-    "payload": [
-      {
-        "op": "add",
-        "path": "/droid_chassis_data/errata_applied",
-        "value": [
-          "3PO Series Protocol Droid (CR p.198): Intelligence changed to 13, Charisma to 14 (Errata p.291). Skill modifiers remain correct.",
-          "B2 Series Super Battle Droid (CR p.199): 'Aid another' bonus in Atk Options changed to +5 due to Synchronized Fire Circuits errata (Errata p.291).",
-          "C-3PO (Episode VI) (CR p.267): Intelligence to 13, Wisdom to 13, Charisma to 15. Deception skill bonus to +10, Persuasion to +15 (Errata p.292).",
-          "R2-D2 (Episode VI) (CR p.267): Electroshock probe attack bonus to +9, general ranged attack bonus to +8 (Errata p.292)."
-        ]
-      }
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "ace_pilot_cr_206" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "bounty_hunter_cr_207" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "crime_lord_cr_209" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "elite_trooper_cr_211" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "force_adept_cr_212" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "force_disciple_cr_215" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 12th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "gunslinger_cr_216" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"},
-      {"op":"replace","path":"/talent_trees_details/0/description","value":"You never travel anywhere without a blaster (or two), and you know how to handle yourself in a gunfight. Talents from this tree are available to the Gunslinger prestige class. Errata: Talents from this tree may only be used with pistols and rifles."}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "jedi_knight_cr_217" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "jedi_master_cr_219" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 12th"},
-      {"op":"replace","path":"/other_class_features/1/description","value":"You may enter a brief meditative state as a full-round action. You may remain in this trance as long as you wish, and you are still aware of your surroundings; however, you are otherwise helpless and cannot perform any other actions (errata). Upon emerging from the trance (a swift action), your first attack roll or Use the Force skill check made in the following round is considered to be a natural 20."}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "officer_cr_220" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "sith_apprentice_cr_223" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 7th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
-    "identifier": { "id": "sith_lord_cr_224" },
-    "payload": [
-      {"op":"replace","path":"/prerequisites_structured/0/text_description","value":"Minimum Level: 12th"}
-    ]
-  },
-  {
-    "action": "update",
-    "target_file_key": "prestige_classes",
+    "target_file_key": "skills",
     "is_single_object": false,
     "payload_is_list_root": true,
     "payload": [
       {
         "op": "add",
-        "path": "/prestige_classes_data/errata_applied",
+        "path": "/skills_data/errata_applied",
         "value": [
-          "All CRB Prestige Classes: Prerequisite text changed from 'Minimum Heroic Level' to 'Minimum Level' (CRB Errata p.291).",
-          "Gunslinger (CR p.216): Added note to Gunslinger talent tree description regarding weapon restrictions (pistols and rifles only) (CRB Errata p.291).",
-          "Jedi Master (CR p.219): Updated Serenity class feature description to include 'otherwise helpless' clarification (CRB Errata p.291)."
+          "Acrobatics (Reduce Falling Damage): Updated to include CRB Errata p.291 (for CRB p.255) regarding landing on feet and 60m limit.",
+          "Jump (Reduce Falling Damage/Jump Down Safely): Updated to include CRB Errata p.291 (for CRB p.255) regarding landing on feet and 60m limit.",
+          "Mechanics (Disable Device/Arm-Disarm Explosives): Descriptions refined to better align with CRB p.70 & p.253 regarding consequences of failure.",
+          "Treat Injury (Treat Disease/Poison): Clarified DC reference to 'DC of the disease/poison'. Added 'Treat Radiation' application based on CRB p.74 & p.255."
         ]
       }
     ]
   }
 ]
-
-
-
-

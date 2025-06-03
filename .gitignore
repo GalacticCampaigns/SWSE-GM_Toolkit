@@ -1,8 +1,6 @@
-scripts/json/updates.json
 /data/core_rules/backup
 /data/character_elements/backup
 /data/index_elements/backup
 /data/lore/backup
 /data/meta_info/backup
-
-scripts/json/updates.json
+/scripts/json

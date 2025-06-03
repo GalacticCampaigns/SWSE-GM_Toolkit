@@ -1,0 +1,67 @@
+{
+  "encounter_building_rules_data": {
+    "file_description": "Rules and guidelines for building and balancing encounters, awarding experience points, and other rewards from the Star Wars Saga Edition Core Rulebook, Chapter 14.",
+    "default_source_book": "CR",
+    "default_source_page_range": "247-248",
+    "errata_applied": [
+      "Measuring Encounter Difficulty (Combining CLs): Formula clarified to be (Sum of CLs)/3 OR Highest Single CL + 2, whichever is more. Restriction added: Most encounters should not include a single enemy whose CL is more than 3 levels higher than the average party level (CRB Errata p.291 for CRB p.247)."
+    ],
+    "challenge_levels_overview": {
+      "title": "Challenge Levels (CL)",
+      "source_page_reference": "CRB 247",
+      "description": "Every opponent or hazard has a Challenge Level (CL) indicating its toughness. A CL N threat is considered challenging for a single character of a similar level. For example, four CL 1 stormtroopers should prove challenging to four 1st-level heroes.",
+      "complications": {
+        "title": "Complications",
+        "description": "Factors making an encounter harder (e.g., improved cover for opponents, specific environmental hindrances for PCs). General effect: Increases the CL of every affected obstacle, threat, or situation by 1 for XP calculation purposes."
+      },
+      "beneficial_circumstances": {
+        "title": "Beneficial Circumstances",
+        "description": "Factors making an encounter easier due to circumstances beyond the heroes' direct control (e.g., opponents are already injured). General effect: The GM may reduce the XP award by as much as half. XP should not be reduced if the beneficial circumstances are the direct or indirect result of good planning or roleplaying by the heroes."
+      }
+    },
+    "measuring_encounter_difficulty": {
+      "title": "Measuring Encounter Difficulty",
+      "source_page_reference": "CRB 247-248",
+      "general_guidelines": [
+        "Encounters with two to six opponents often work best.",
+        "Single-opponent encounters are typically reserved for higher-CL 'boss' type threats.",
+        "Avoid encounters with more than a dozen opponents unless the intention is to make the heroes feel overwhelmed.",
+        "Vary encounter composition: combine different sorts of obstacles, threats, and situations rather than just groups of identical enemies."
+      ],
+      "combining_different_cls": {
+        "title": "Combining Different CLs (Includes Errata from p.291)",
+        "formula_description": "To determine the effective Challenge Level of an encounter with multiple threats:",
+        "step_1_sum_cls": "Sum the CLs of all individual threats, obstacles, or situations in the encounter.",
+        "step_2_divide_sum": "Divide this sum by 3 (round down). This is Result A.",
+        "step_3_highest_cl_plus_two": "Identify the highest single CL of any threat in the encounter. Add 2 to this value. This is Result B.",
+        "final_encounter_cl_calculation": "The combined CL for the encounter is the HIGHER of Result A or Result B.",
+        "party_size_adjustment": "These calculations assume a party of four heroes. For each additional hero beyond four, subtract 1 from the calculated combined CL. For each hero fewer than four, add 1 to the calculated combined CL.",
+        "difficulty_interpretation_notes": [
+          "If calculated combined CL is within 1 level of the heroes' average character level: Expect a tough but fair challenge.",
+          "If calculated combined CL is 2 to 3 levels above heroes' average character level: Expect a difficult encounter that will seriously tax the heroes' abilities and resources.",
+          "If calculated combined CL is 4 or more levels above heroes' average character level: Expect a very difficult fight, with a real risk of one or more hero deaths."
+        ],
+        "single_high_cl_threat_restriction": "Most encounters should not include a single enemy whose CL is more than 3 levels higher than the average party level (CRB Errata p.291)."
+      }
+    },
+    "awarding_experience_points": {
+      "title": "Awarding Experience Points (XP)",
+      "source_page_reference": "CRB 248",
+      "general_principle": "Heroes receive XP for overcoming opponents, hazards, and other obstacles that stand in the way of achieving adventure goals. Overcoming an obstacle doesn't always mean defeating it in combat; tricking, bribing, or bypassing an opponent to achieve a goal can also count for full XP.",
+      "xp_table_reference_summary": "XP awards are based on the Challenge Level of the threat overcome, as detailed in CRB Table 14-1: Experience Point Awards (p.248). Example values include: CL 1 = 200 XP; CL 5 = 1,000 XP; CL 10 = 2,000 XP; CL 15 = 3,000 XP; CL 20 = 4,000 XP. (The full table should be referenced for other CLs).",
+      "xp_distribution": "XP awards should generally be split equally among all heroes who participated in overcoming the challenge.",
+      "reduced_xp_for_low_cl_threats": "Beginning at 6th character level, heroes receive only one-tenth (1/10th) of the normal XP award for any threat with a Challenge Level equal to or less than (the heroes' average character level - 5)."
+    },
+    "awarding_other_rewards": {
+      "title": "Awarding Other Rewards",
+      "source_page_reference": "CRB 248",
+      "general_guideline_credits": "As a general rule, a challenging yet fair encounter should net the heroes resources equivalent to their average character level multiplied by 2,000 credits. This total value is then divided equally among them.",
+      "difficulty_adjustment_rewards": "Easier encounters might yield half these resources or none at all. Difficult encounters should provide at least 50% more resources.",
+      "timing_of_rewards": "Rewards can be distributed at the end of each encounter or, more commonly, as a lump sum (of credits, valuable items, or information) at the conclusion of an adventure.",
+      "types_of_rewards": {
+        "credits": "Includes actual currency (credit chips, coins), credit vouchers, electronic fund transfers, or valuable trade goods easily converted to cash.",
+        "equipment": "Heroes might acquire equipment by recovering it from battlefields, seizing it from defeated enemies, or finding it. GMs should be judicious to prevent excessive looting from slowing down the game. Highlight notable/useful items and downplay mundane or unusable gear. Enforce encumbrance rules if necessary, and the value of salvaged equipment can be considered part of the total reward value for the encounter/adventure."
+      }
+    }
+  }
+}

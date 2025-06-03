@@ -1,4 +1,5 @@
 {
+  "last_modified": "2025-05-31T19:43:00",
   "skills_data": {
     "description": "Compilation of Skills for Star Wars SAGA Edition.",
     "skills_list": [
@@ -105,7 +106,7 @@
           },
           {
             "use_name": "Reduce Falling Damage",
-            "description": "Treat a fall as if it were 3 meters (2 squares) shorter when determining damage. For every 10 points by which you beat this DC, you can subtract an additional 3 meters from the fall. If you take no damage from the fall, you land on your feet. If struck by a falling object, a successful check reduces damage by half. [CRB text p.64, cite: 408-409]",
+            "description": "You can reduce the damage you take from a fall with a successful DC 15 Acrobatics check. If your check result beats the DC by 10 or more, you take only one-quarter damage. If it beats the DC by 20 or more, you take no damage. Errata (CRB p.291 for CRB p.255): If the check succeeds and you take no damage from the fall, you land on your feet. If you fall from a height of greater than 60 meters, treat the fall as being only 60 meters for the purposes of reducing falling distance with this skill. If struck by a falling object, a successful check reduces damage by half. [Sourced from CRB p.64, Errata p.291]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -661,7 +662,7 @@
           },
           {
             "use_name": "Jump Down",
-            "description": "If you intentionally jump down from a height, you can attempt a DC 15 Jump check to take falling damage as if you had dropped 3 meters (2 squares) fewer than you actually did. For every 10 points by which you beat the DC, you can subtract an additional 3 meters from the fall when determining damage (CR Errata p.290). If you succeed on this check and take no damage, you land on your feet. [CRB text p.69, cite: 450]",
+            "description": "If you intentionally jump down from a height, you can attempt a DC 15 Jump check to take falling damage as if you had dropped 3 meters (2 squares) fewer than you actually did. For every 10 points by which you beat the DC, you can subtract an additional 3 meters from the fall when determining damage. Errata (CRB p.291 for CRB p.255): If the check succeeds and you take no damage from the fall (because the effective fall distance was reduced to 0 or less through successive reductions), you land on your feet. If you fall from a height of greater than 60 meters, treat the fall as being only 60 meters for the purposes of reducing falling distance with this skill. [Sourced from CRB p.69, Errata p.291]",
             "trained_only": false,
             "armor_check_penalty_for_this_use": true,
             "dc": {
@@ -1034,7 +1035,7 @@
         "common_uses": [
           {
             "use_name": "Disable Device",
-            "description": "Disarm a security device, defeat a lock or trap, or rig a device to fail. Requires security kit. Failure by 5+ springs trap or device appears disabled but isn't. [CRB text p.70, cite: 455-456]",
+            "description": "Disarm a security device, defeat a lock, or disable/rig a mechanical trap. Requires appropriate tools (e.g., security kit for locks/electronic traps, tool kit for mechanical traps). Disabling a simple device takes 1 minute. Complex devices might take longer. The DC is set by the device or trap. If disabling a trap and the check fails by 10 or more, you trigger it. If attempting to rig a device to fail and the check fails by 5 or more, you believe it's rigged but it isn't. [Sourced from CRB p.70, p.253]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -1102,7 +1103,7 @@
           },
           {
             "use_name": "Handle Explosives (Disarm Explosive Device)",
-            "description": "Disarm an explosive set to go off. Requires security kit. DC usually 15 unless setter chose higher. Failure by 5+ detonates explosive. [CRB text p.70-71, cite: 460-461]",
+            "description": "Disarm an explosive set to go off. Requires a security kit or tool kit. The DC is usually 15 unless the individual who set the explosive chose a higher DC (see Set Detonator). If you fail the check by 5 or more, the explosive detonates. This takes a full-round action. [Sourced from CRB p.70-71]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2052,7 +2053,7 @@
           },
           {
             "use_name": "Treat Disease",
-            "description": "Treating a diseased character requires 8 hours and a medical kit. Check vs. disease's DC. Success: patient cured, persistent conditions from disease removed. Can treat 1 (untrained) or up to 6 (trained) simultaneously. [CRB text p.76, cite: 512]",
+            "description": "You can tend to a character afflicted by a disease. This takes 10 minutes of work. If your Treat Injury check against the DC of the disease is successful, the target character automatically recovers from the disease and no longer suffers its ill effects. You can make one attempt to treat a specific disease in a given character per day. Requires a medical kit or medpac. [Sourced from CRB p.74]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2063,7 +2064,7 @@
           },
           {
             "use_name": "Treat Poison",
-            "description": "As a full-round action, treat a poisoned character. Requires a medical kit. Check vs. poison's DC. Success: poison detoxified, persistent conditions from poison removed. [CRB text p.76, cite: 512-513]",
+            "description": "You can tend to a character afflicted by a poison. This takes 1 minute of work. If your Treat Injury check against the DC of the poison is successful, the target character no longer suffers any ill effects from the poison (though Hit Point damage already dealt by the poison is not restored). You can make one attempt to treat a specific poison in a given character per minute of treatment. Requires a medical kit or medpac. [Sourced from CRB p.74]",
             "trained_only": true,
             "armor_check_penalty_for_this_use": false,
             "dc": {
@@ -2082,6 +2083,17 @@
               "determination_formula": "Radiation's DC (see CRB p.255)"
             },
             "time_to_perform": "8 hours."
+          },
+          {
+            "use_name": "Treat Radiation",
+            "trained_only": true,
+            "armor_check_penalty_for_this_use": false,
+            "description": "You can treat a character suffering from radiation poisoning. This takes 8 hours of work and requires a medical kit or medpac. If your Treat Injury check against the DC of the radiation (e.g., Moderate Radiation DC 20, Extreme Radiation DC 30, as per CRB p.255, Table 14-3) is successful, the patient is cured, and any persistent conditions from the radiation are removed. You can treat one untrained character or up to six trained characters simultaneously. You can use this application on yourself, but you take a -5 penalty on the check. [Sourced from CRB p.76, p.255]",
+            "dc": {
+              "type": "variable",
+              "determination_formula": "Radiation's DC (see CRB p.255, Table 14-3)"
+            },
+            "action_cost": "8 hours"
           }
         ],
         "description_general": "Use this skill to keep a badly wounded friend from dying, to heal the injured, or to treat a diseased or poisoned character. [CRB text p.75, cite: 505]",

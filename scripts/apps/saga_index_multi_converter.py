@@ -12,14 +12,16 @@ ARMOR_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Armor.csv')
 MELEE_WEAPONS_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Melee.csv')
 RANGED_WEAPONS_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Ranged.csv')
 ACCESSORIES_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Accessories.csv')
-DEFENSES_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Defenses.csv')
+DEFENSES_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Defenses.csv') # For Defensive Items like mines
 EQUIPMENT_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Equipment.csv')
 VEHICLES_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Vehicles.csv')
 STARSHIPS_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Starships.csv')
 EXPLOSIVES_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Explosives.csv')
 TECHSPEC_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-TechSpec.csv')
 TEMPLATES_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Templates.csv')
-DROID_SYSTEMS_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Character-Droid Systems.csv') # Added Droid Systems CSV Path
+DROID_SYSTEMS_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Character-Droid Systems.csv')
+HAZARDS_CSV_PATH = os.path.join(LOCAL_ROOT_PATH, r'scripts\csv\Index-Hazards.csv')
+
 
 # Output JSON Paths for Item Elements
 ARMOR_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\armor.json')
@@ -33,7 +35,8 @@ STARSHIPS_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\starsh
 EXPLOSIVES_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\explosives.json')
 TECHSPEC_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\tech_specialist_upgrades.json')
 TEMPLATES_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\templates.json')
-DROID_SYSTEMS_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\droid_systems.json') # Added Droid Systems JSON Path
+DROID_SYSTEMS_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\droid_systems.json')
+HAZARDS_JSON_PATH = os.path.join(LOCAL_ROOT_PATH, r'data\index_elements\hazards.json')
 
 
 # --- SCRIPT EXECUTION CONFIGURATION ---
@@ -49,7 +52,8 @@ PROCESS_CONFIG = {
     "explosives": False,
     "tech_specialist_upgrades": False,
     "templates": False,
-    "droid_systems": True, # Added Droid Systems
+    "droid_systems": False,
+    "hazards": True,
 }
 
 # --- 2. GENERIC HELPER FUNCTIONS ---
@@ -66,7 +70,7 @@ def clean_value(value): # CORRECTED
         return temp_value
     return value
 
-def mtr_explanations(text): # From saga_index_multi_converter.py
+def mtr_explanations(text):
     if not text: return ""
     description = text; clarification_text = "(must take re-roll)"
     description = description.replace(", mtr", f" {clarification_text}").replace(" mtr", f" {clarification_text}")
@@ -80,7 +84,7 @@ def mtr_explanations(text): # From saga_index_multi_converter.py
     if description.endswith(clarification_text) and text.strip().endswith('.') and not description.endswith('.'): description += '.'
     return description
 
-def read_csv_data(file_path, string_data_var_name=None, known_delimiter=None, use_direct_reader=False): # From saga_index_multi_converter.py
+def read_csv_data(file_path, string_data_var_name=None, known_delimiter=None, use_direct_reader=False):
     content = None; source_type = "None"; reader_obj = None
     try:
         if file_path and 'YOUR_PATH_TO_CSV' not in file_path and os.path.exists(file_path):
@@ -98,12 +102,12 @@ def read_csv_data(file_path, string_data_var_name=None, known_delimiter=None, us
             if known_delimiter:
                 reader_obj = csv.DictReader(io.StringIO(cleaned_content), delimiter=known_delimiter)
                 print(f"Using specified delimiter '{known_delimiter}' for {source_type}.")
-            else:
+            else: # Try to sniff
                 try:
                     sample_for_sniffing = "\n".join(cleaned_content.splitlines()[:20])
-                    if not sample_for_sniffing: sample_for_sniffing = cleaned_content
-                    if len(sample_for_sniffing.strip()) <= 1 and '\n' not in sample_for_sniffing:
-                         raise csv.Error("Sample too small to sniff after cleaning, trying defaults.")
+                    if not sample_for_sniffing.strip(): sample_for_sniffing = cleaned_content
+                    if len(sample_for_sniffing.strip()) <=1 and '\n' not in sample_for_sniffing and cleaned_content.count(cleaned_content.splitlines()[0] if cleaned_content.splitlines() else "") <=1 :
+                         raise csv.Error("Sample too small or uniform to sniff accurately, trying defaults.")
                     dialect = csv.Sniffer().sniff(sample_for_sniffing)
                     reader_obj = csv.DictReader(io.StringIO(cleaned_content), dialect=dialect)
                     print(f"Sniffed delimiter '{dialect.delimiter}' for {source_type}.")
@@ -112,7 +116,7 @@ def read_csv_data(file_path, string_data_var_name=None, known_delimiter=None, us
                     first_row_peek_check = next(peek_reader, None)
                     del peek_reader; del temp_io_check
                     first_raw_line = cleaned_content.splitlines()[0] if cleaned_content.splitlines() else ""
-                    if first_row_peek_check and len(first_row_peek_check.keys()) < 3 and \
+                    if first_row_peek_check and len(first_row_peek_check.keys()) < 2 and \
                        (first_raw_line.count(',') > len(first_row_peek_check.keys()) or \
                         first_raw_line.count('\t') > len(first_row_peek_check.keys()) or \
                         first_raw_line.count(';') > len(first_row_peek_check.keys())):
@@ -127,7 +131,7 @@ def read_csv_data(file_path, string_data_var_name=None, known_delimiter=None, us
                             temp_reader = csv.DictReader(temp_io, delimiter=delim_try)
                             first_row_check = next(temp_reader, None)
                             del temp_reader; del temp_io
-                            if first_row_check and len(first_row_check.keys()) > 2:
+                            if first_row_check and len(first_row_check.keys()) > 1:
                                 print(f"Successfully prepared to read from {source_type} using '{delim_try}' delimiter.")
                                 reader_obj = csv.DictReader(io.StringIO(cleaned_content), delimiter=delim_try)
                                 break
@@ -141,20 +145,29 @@ def read_csv_data(file_path, string_data_var_name=None, known_delimiter=None, us
     except FileNotFoundError: print(f"Error: CSV file not found at '{file_path}'."); return []
     except Exception as e: print(f"Error reading or parsing CSV data from {source_type}: {e}"); return []
 
-
-def save_json_data(data, output_path, data_type_name): # From saga_index_multi_converter.py
+def save_json_data(data, output_path, data_type_name):
     if not data: print(f"No data to save for {data_type_name}."); data_to_save = []
-    else: data_to_save = sorted(data, key=lambda x: x.get("name", "Unnamed Item")) # Default for items
+    else: data_to_save = sorted(data, key=lambda x: x.get("name", "Unnamed Item"))
 
     list_key_name = f"{data_type_name.lower().replace(' ', '_').replace('-', '_')}_list"
     wrapper_key_name = f"{data_type_name.lower().replace(' ', '_').replace('-', '_')}_data"
 
-    final_output = {
-        wrapper_key_name: {
-            "description": f"Compilation of {data_type_name} for Star Wars SAGA Edition.",
-            list_key_name: data_to_save
+    # Special handling for errata in hazards schema
+    if data_type_name.lower() == "hazards":
+        final_output = {
+            wrapper_key_name: {
+                "description": f"Compilation of {data_type_name} for Star Wars SAGA Edition.",
+                list_key_name: data_to_save,
+                "errata_applied": [] # Add errata_applied field as per schema for hazards
+            }
         }
-    }
+    else:
+        final_output = {
+            wrapper_key_name: {
+                "description": f"Compilation of {data_type_name} for Star Wars SAGA Edition.",
+                list_key_name: data_to_save
+            }
+        }
     try:
         output_dir = os.path.dirname(output_path)
         if output_dir and not os.path.exists(output_dir): os.makedirs(output_dir); print(f"Created output directory: {output_dir}")
@@ -162,15 +175,15 @@ def save_json_data(data, output_path, data_type_name): # From saga_index_multi_c
         print(f"Successfully generated {data_type_name} JSON to: {output_path}\n")
     except Exception as e: print(f"Error writing {data_type_name} JSON to file {output_path}: {e}\n")
 
-def attempt_numeric_conversion(value_str, item_name_for_warning, field_name_for_warning, data_type_for_warning): # From saga_index_multi_converter.py
+def attempt_numeric_conversion(value_str, item_name_for_warning, field_name_for_warning, data_type_for_warning):
     original_value_for_warning = value_str
     if value_str is None or value_str == '': return None
     if isinstance(value_str, (int, float)): return value_str
-    known_non_numeric = ['varies', 'none', 's', '∞', '?', '-', 'see text', 'see description', 'n/a', '']
-    cleaned_value_for_check = clean_value(str(value_str)).lower()
+    known_non_numeric = ['varies', 'none', 's', '∞', '?', '-', 'see text', 'see description', 'n/a']
+    cleaned_value_for_check = clean_value(str(value_str)).lower() # Uses the corrected clean_value
     if cleaned_value_for_check in known_non_numeric:
         if cleaned_value_for_check == "-" and field_name_for_warning.lower().startswith("cost"): return None
-        return None # Treat other known non-numerics as not a number for conversion purposes
+        return None
 
     cleaned_str = str(value_str).replace(',', '')
     if cleaned_str.lower().endswith('x') and field_name_for_warning.lower() in ['cost', 'weight', 'cost_credits', 'weight_kg', 'cargo (tons)']:
@@ -185,8 +198,6 @@ def attempt_numeric_conversion(value_str, item_name_for_warning, field_name_for_
         return None
 
 # --- ITEM-SPECIFIC HELPER FUNCTIONS ---
-# (parse_damage_string, parse_weapon_category_code, etc. ... these are from the original saga_index_multi_converter.py)
-# ... (Assuming all existing helpers from saga_index_multi_converter.py are here)
 def parse_damage_string(damage_str):
     if not damage_str: return None
     original_text = damage_str.strip()
@@ -231,7 +242,7 @@ def parse_weapon_category_code(code_str, is_ranged=False):
     return mapping.get(code, f"Unknown Code ({code})")
 
 def parse_item_size_code(code_str):
-    if not code_str: return "Medium" # Default for items
+    if not code_str: return "Medium"
     code = code_str.strip().upper()
     mapping = {'T': "Tiny", 'S': "Small", 'M': "Medium", 'L': "Large", 'H': "Huge", 'G': "Gargantuan", 'C': "Colossal", 'D':"Diminutive", 'F':"Fine"}
     return mapping.get(code, code)
@@ -258,7 +269,7 @@ def parse_armor_category_from_desc(desc_str, item_name="Unknown Item"):
     if "energy shield" in name_lower: return "Energy Shield"
     return "Unknown Category"
 
-def parse_item_effects(text_block): # This is a key helper from index script
+def parse_item_effects(text_block):
     if not text_block: return []
     effects = []
     potential_properties = re.split(r';\s*', text_block)
@@ -318,14 +329,14 @@ def parse_area_of_effect(burst_text):
         if "sq" in text_original: shape = "burst"
     return {"text_original": text_original, "shape": shape, "value_squares": value_squares, "unit": unit if value_squares is not None else None}
 
-def parse_cost_object(cost_str_single, item_name, data_type_name): # Simplified for single cost string
+def parse_cost_object(cost_str_single, item_name, data_type_name):
     options = []; text_original_cleaned = clean_value(cost_str_single)
     if text_original_cleaned:
         val = attempt_numeric_conversion(text_original_cleaned, item_name, "Cost", data_type_name)
         options.append({
             "type": "fixed_amount" if isinstance(val, (int, float)) else "text_description",
             "value": val if isinstance(val, (int, float)) else text_original_cleaned,
-            "description": "Standard", # Default description
+            "description": "Standard",
             "unit_type": "credit" if isinstance(val, (int, float)) else None
         })
     return {
@@ -335,228 +346,171 @@ def parse_cost_object(cost_str_single, item_name, data_type_name): # Simplified 
         "notes": None
     }
 
-# --- Helper function for Droid System Value Object (Moved here) ---
-def _parse_value_object(value_str, item_name_for_warning, field_name_for_warning, data_type_for_warning="Droid System"):
+# --- Helper function for Droid System/Hazard Value Object ---
+def _parse_value_object(value_str, item_name_for_warning, field_name_for_warning, data_type_for_warning="Item"):
     if value_str is None or value_str == '':
         return {"base_value": None, "factor_multiplier": None, "factor_basis": None, "text_override": None}
 
-    cleaned_val_str = clean_value(str(value_str)) # Ensure it's cleaned
-
+    cleaned_val_str = clean_value(str(value_str)) # Uses the corrected clean_value
     numeric_val = attempt_numeric_conversion(cleaned_val_str, item_name_for_warning, field_name_for_warning, data_type_for_warning)
 
     if numeric_val is not None:
         return {"base_value": numeric_val, "factor_multiplier": None, "factor_basis": None, "text_override": None}
     else:
+        # If not numeric, check for common textual overrides or store the original cleaned string
         if cleaned_val_str.lower() in ["varies", "see text", "see description", "n/a", "-"] or "see " in cleaned_val_str.lower():
             return {"base_value": None, "factor_multiplier": None, "factor_basis": None, "text_override": cleaned_val_str}
         else:
+            # If it's a string but not a clear directive, store it as base_value (schema allows string)
             return {"base_value": cleaned_val_str, "factor_multiplier": None, "factor_basis": None, "text_override": None}
 
+# --- Hazard Specific Helper Functions ---
+def _parse_hazard_damage_effect(damage_str_full, is_miss_effect_text=False):
+    if not damage_str_full or damage_str_full.lower() == 'none':
+        return {"damage_dice_text": None, "damage_types": [], "additional_effects_text": None}
+
+    damage_str = damage_str_full.strip()
+    dice_text = None
+    damage_types = []
+    additional_effects_parts = []
+
+    dice_pattern = r"(\b\d*d\d+(?:[xX]\d+)?(?:[+-]\d+)?\b|\b[xX]\d+\b)"
+    dice_match = re.search(dice_pattern, damage_str)
+
+    if dice_match:
+        dice_text = dice_match.group(1)
+        temp_damage_str = damage_str.replace(dice_text, "", 1).strip()
+    else:
+        temp_damage_str = damage_str
+
+    type_pattern = r"\(([^)]+)\)"
+    type_match_list = re.findall(type_pattern, temp_damage_str) # Find all type groups
+    
+    temp_str_for_effects = temp_damage_str
+    if type_match_list:
+        for types_content in type_match_list:
+            # Split types within parentheses by comma, semicolon, or slash
+            current_types = [t.strip().lower() for t in re.split(r'[,;/]\s*', types_content) if t.strip()]
+            damage_types.extend(current_types)
+            # Remove the processed type group for effect parsing
+            temp_str_for_effects = temp_str_for_effects.replace(f"({types_content})", "", 1).strip()
+    
+    if not damage_types and damage_str_full:
+        common_types = ["acid", "fire", "cold", "electricity", "energy", "sonic", "bludgeoning", "piercing", "slashing", "untyped", "poison"]
+        for ct in common_types:
+            # Check for standalone type words, trying to avoid parts of other words
+            if re.search(r'\b' + re.escape(ct) + r'\b', damage_str_full, re.IGNORECASE):
+                 if ct not in damage_types: damage_types.append(ct)
+
+    if temp_str_for_effects: # What's left after dice and (types)
+        # Split remaining by common delimiters like ' and ', '; ', but be careful not to oversplit
+        # For now, let's treat the remainder as a single block, can be refined.
+        # Remove "and" if it's just joining two effect phrases
+        cleaned_effect_remainder = re.sub(r"^\s*and\s*", "", temp_str_for_effects, flags=re.IGNORECASE).strip()
+        if cleaned_effect_remainder:
+            additional_effects_parts.append(cleaned_effect_remainder)
+
+
+    ct_pattern = r"(target moves\s*([+-]?\d+)\s*(?:persistent)?\s*step(?:s)?\s*on(?: the)?\s*(?:ct|condition track)|(?:[+-]?\d+)\s*(?:persistent)?\s*step(?:s)?\s*on\s*ct|(?<!no )ct movement)"
+    ct_match = re.search(ct_pattern, damage_str_full, re.IGNORECASE)
+    if ct_match:
+        ct_effect_text = ct_match.group(0).strip()
+        # Avoid duplicating if already captured in general effects
+        current_additional_text = " ".join(additional_effects_parts)
+        if ct_effect_text.lower() not in current_additional_text.lower():
+             additional_effects_parts.append(ct_effect_text)
+        if "condition_track_penalty" not in damage_types and "no ct movement" not in ct_effect_text.lower() :
+            damage_types.append("condition_track_penalty")
+    
+    if not dice_text and (damage_types or additional_effects_parts):
+        if is_miss_effect_text and not damage_str_full.strip().lower().startswith("see effects"):
+            dice_text = "See effects"
+        elif not (damage_str_full.lower().startswith("1/2") or damage_str_full.lower().startswith("half")):
+             dice_text = "Varies"
+    elif not dice_text and not damage_types and not additional_effects_parts and damage_str_full:
+        dice_text = damage_str_full
+
+    if is_miss_effect_text and (damage_str_full.lower().startswith("1/2") or damage_str_full.lower().startswith("half")):
+        if not dice_text or dice_text in ["See effects", "Varies"]: dice_text = damage_str_full.strip()
+
+    final_additional_effects = "; ".join(filter(None, additional_effects_parts)) if additional_effects_parts else None
+    # If dice_text itself contains "and" and effects, separate them if additional_effects is empty
+    if dice_text and " and " in dice_text and not final_additional_effects:
+        potential_dice_split = dice_text.split(" and ", 1)
+        # Check if the first part looks like dice
+        if re.match(dice_pattern, potential_dice_split[0]):
+            dice_text = potential_dice_split[0]
+            final_additional_effects = potential_dice_split[1]
+        # else keep dice_text as is
+
+    return {
+        "damage_dice_text": dice_text.strip() if dice_text else None,
+        "damage_types": sorted(list(set(t for t in damage_types if t))),
+        "additional_effects_text": final_additional_effects.strip() if final_additional_effects else None
+    }
+
+def _parse_hazard_skill_interaction(skill_str): # Updated version
+    if not skill_str or skill_str.lower() == 'none':
+        return None
+
+    skill_name_val = "Unknown"
+    dc_val = None
+    effect_description_val = skill_str
+    notes_val = None
+    
+    # Regex: Skill Name potentially with (details) (DC XX or DC varies [; notes]): Effect
+    match = re.match(r"([\w\s\(\/\).-]+?)\s*(?:\(\s*DC\s*([\w\s\d]+)\s*(?:;\s*([^)]+))?\s*\))?:\s*(.+)", skill_str.strip(), re.IGNORECASE)
+    
+    if match:
+        skill_name_val = match.group(1).strip()
+        dc_text = match.group(2)
+        notes_from_dc_paren = match.group(3).strip() if match.group(3) else None
+        effect_description_val = match.group(4).strip()
+
+        if dc_text:
+            if dc_text.isdigit():
+                dc_val = int(dc_text)
+            else: 
+                dc_val = None 
+                note_prefix = f"DC {dc_text}"
+                if notes_from_dc_paren:
+                    notes_val = f"{note_prefix}; {notes_from_dc_paren}"
+                else:
+                    notes_val = note_prefix
+        
+        if notes_from_dc_paren and not notes_val:
+            notes_val = notes_from_dc_paren
+    else:
+        # Fallback for "Skill: Effect" if no DC part at all or primary regex fails
+        fallback_match = re.match(r"([\w\s\(\/\).-]+?):\s*(.+)", skill_str.strip(), re.IGNORECASE)
+        if fallback_match:
+            skill_name_val = fallback_match.group(1).strip()
+            effect_description_val = fallback_match.group(2).strip()
+        else:
+            print(f"Warning (Hazard Skill): Could not fully parse skill interaction: '{skill_str}'")
+            # Return raw string as effect if no pattern matches
+            return {"skill_name": "Unknown", "dc": None, "effect_description": skill_str, "notes": "Requires manual review"}
+
+    return {
+        "skill_name": skill_name_val,
+        "dc": dc_val,
+        "effect_description": effect_description_val,
+        "notes": notes_val
+    }
+
 # --- 3. PROCESSING FUNCTIONS ---
-# ... (Existing Armor, Weapons, Accessories, etc. processing functions)
-def process_armor_csv():
-    print("Processing Armor...")
-    raw_data = read_csv_data(ARMOR_CSV_PATH)
-    processed_armor_list = []
-    if not raw_data: save_json_data(processed_armor_list, ARMOR_JSON_PATH, "Armor"); return
-    for idx, row_raw in enumerate(raw_data):
-        row = {k: clean_value(v) for k,v in row_raw.items()}
-        name = row.get('ITEM', '')
-        book = row.get('BOOK', '')
-        page = row.get('PAGE', '')
-        if not name or not book or not page or len(name) > 60 or "see page" in name.lower() or name.startswith(','): continue
-        desc_text = row.get('Desc.', ''); armor_cat = parse_armor_category_from_desc(desc_text, name)
-        comments_text = row.get('COMMENTS', ''); parsed_props = parse_item_effects(comments_text) if comments_text else []
-        spd_6sq = row.get('Spd 6sq', ''); spd_4sq = row.get('Spd 4sq', '')
-        speed_penalty_text = []
-        if spd_6sq: speed_penalty_text.append(f"6sq Base: {spd_6sq}")
-        if spd_4sq: speed_penalty_text.append(f"4sq Base: {spd_4sq}")
-        helmet_p_val_raw = row.get('Helmet P.', ''); helmet_p_val_cleaned = clean_value(helmet_p_val_raw)
-        armor_item = {"name": name, "full_text_description": desc_text or None, "armor_category": armor_cat,
-                      "armor_check_penalty": attempt_numeric_conversion(row.get('ACP', ''), name, 'ACP', 'Armor'),
-                      "cost_credits": attempt_numeric_conversion(row.get('Cost', ''), name, 'Cost', 'Armor'),
-                      "reflex_defense_bonus": attempt_numeric_conversion(row.get('Ref bonus', ''), name, 'Ref bonus', 'Armor'),
-                      "fortitude_defense_bonus": attempt_numeric_conversion(row.get('Fort bonus', ''), name, 'Fort bonus', 'Armor'),
-                      "max_dex_bonus": attempt_numeric_conversion(row.get('Max Dex', ''), name, 'Max Dex', 'Armor'),
-                      "speed_penalty_text": ", ".join(speed_penalty_text) if speed_penalty_text else None,
-                      "weight_kg": attempt_numeric_conversion(row.get('Weight', ''), name, 'Weight', 'Armor'),
-                      "availability": row.get('Avail.', ''), "upgrade_slots_text": row.get('U. Slots', '') or None,
-                      "has_helmet_package": helmet_p_val_cleaned.lower() == 'x' if isinstance(helmet_p_val_cleaned, str) else False,
-                      "special_properties_text": comments_text or None, "parsed_properties": parsed_props,
-                      "skill_bonuses_text": f"Skill: {row.get('Skill','N/A')}, Bonus: {row.get('Skillbonus','N/A')}" if row.get('Skill') else None,
-                      "ability_bonuses_text": f"Ability: {row.get('Ability','N/A')}, Bonus: {row.get('Abilitybonus','N/A')}" if row.get('Ability') else None,
-                      "used_by_text": row.get('Used By', '') or None, "source_book": book, "page": str(page)}
-        processed_armor_list.append(armor_item)
-    save_json_data(processed_armor_list, ARMOR_JSON_PATH, "Armor")
+# (Placeholders for functions you've already developed and tested)
+def process_armor_csv(): print("Skipping Armor processing.")
+def process_melee_weapons_csv(): print("Skipping Melee Weapons processing.")
+def process_ranged_weapons_csv(): print("Skipping Ranged Weapons processing.")
+def process_accessories_csv(): print("Skipping Accessories processing.")
+def process_defensive_items_csv(): print("Skipping Defensive Items processing.")
+def process_equipment_general_csv(): print("Skipping General Equipment processing.")
+def process_vehicles_csv(): print("Skipping Vehicles processing.")
+def process_starships_csv(): print("Skipping Starships processing.")
+def process_explosives_csv(): print("Skipping Explosives processing.")
 
-def process_melee_weapons_csv():
-    print("Processing Melee Weapons...")
-    raw_data = read_csv_data(MELEE_WEAPONS_CSV_PATH)
-    processed_weapons = []
-    if not raw_data: save_json_data(processed_weapons, MELEE_WEAPONS_JSON_PATH, "Melee Weapons"); return
-    for idx, row_raw in enumerate(raw_data):
-        row = {k: clean_value(v) for k,v in row_raw.items()}
-        name = row.get('WEAPON', '')
-        if not name or not row.get('BOOK', '') or not row.get('PAGE', '') or len(name) > 60 or "see page" in name.lower() or name.startswith(','): continue
-        proficiency_code = row.get('Wpn Type', '')
-        damage_type_raw_text = row.get('Dmg Type', ''); damage_types_list = parse_damage_types_string(damage_type_raw_text)
-        damage_text = row.get(' Damage', row.get('Damage',''))
-        stun_text = row.get('Stun', '')
-        comments_text = row.get('COMMENTS', ''); parsed_props = parse_item_effects(comments_text) if comments_text else []
-        weapon = {"name": name, "full_text_description": row.get('Desc.', '') or None,
-                  "weapon_category": parse_weapon_category_code(proficiency_code, is_ranged=False),
-                  "size_category": parse_item_size_code(row.get('Size', '')),
-                  "cost_credits": attempt_numeric_conversion(row.get('Cost',''), name, 'Cost', 'Melee'),
-                  "damage_text": damage_text, "damage_structured": parse_damage_string(damage_text),
-                  "stun_damage_text": stun_text or None, "stun_damage_structured": parse_damage_string(stun_text) if stun_text else None,
-                  "weight_kg": attempt_numeric_conversion(row.get('Weight',''), name, 'Weight', 'Melee'),
-                  "damage_types": damage_types_list, "availability": row.get('Avail.', ''),
-                  "reach_or_thrown_info": row.get('Thrown / Reach', '') or None,
-                  "extra_cost_note": row.get(' Extra cost', row.get('Extra cost','')) or None,
-                  "build_dc_note": row.get(' Build DC', row.get('Build DC','')) or None,
-                  "special_properties_text": comments_text or None, "parsed_properties": parsed_props,
-                  "used_by_text": row.get('Used by', '') or None, "source_book": row.get('BOOK', ''), "page": str(row.get('PAGE', ''))}
-        processed_weapons.append(weapon)
-    save_json_data(processed_weapons, MELEE_WEAPONS_JSON_PATH, "Melee Weapons")
-
-def process_ranged_weapons_csv():
-    print("Processing Ranged Weapons...")
-    raw_data = read_csv_data(RANGED_WEAPONS_CSV_PATH)
-    processed_weapons = []
-    if not raw_data: save_json_data(processed_weapons, RANGED_WEAPONS_JSON_PATH, "Ranged Weapons"); return
-    for idx, row_raw in enumerate(raw_data):
-        row = {k: clean_value(v) for k,v in row_raw.items()}
-        name = row.get('WEAPON', '')
-        if not name or not row.get('BOOK', '') or not row.get('PAGE', '') or len(name) > 70 or "see page" in name.lower() or name.startswith(','):
-            continue
-        proficiency_code = row.get('Wpn Type', '')
-        damage_type_raw_text = row.get('Dmg Type', ''); damage_types_list = parse_damage_types_string(damage_type_raw_text)
-        damage_text = row.get(' Damage', row.get('Damage','')); stun_text = row.get('Stun', '')
-        comments_text = row.get('COMMENTS', ''); parsed_props = parse_item_effects(comments_text) if comments_text else []
-        classification_tags = []
-        if row.get("Pistol", row.get("Pistol\nRifle", '')): classification_tags.append("Pistol")
-        if row.get("Rifle", row.get("Pistol\nRifle", '')):
-             if "rifle" in str(row.get("Pistol\nRifle", "")).lower() : classification_tags.append("Rifle")
-        if row.get("Heavy", row.get("Heavy\nExotic", '')): classification_tags.append("Heavy Weapon")
-        if row.get("Exotic", row.get("Heavy\nExotic", '')):
-            if "exotic" in str(row.get("Heavy\nExotic", "")).lower() : classification_tags.append("Exotic Weapon")
-        if row.get("Simple", '' ): classification_tags.append("Simple Weapon")
-        if row.get("Accurate", row.get("Accurate\nInaccurate", '')): classification_tags.append("Accurate")
-        if row.get("Inaccurate", row.get("Accurate\nInaccurate", '')):
-             if "inaccurate" in str(row.get("Accurate\nInaccurate", "")).lower(): classification_tags.append("Inaccurate")
-        classification_tags = sorted(list(set(t for t in classification_tags if t)))
-        weapon = {"name": name, "full_text_description": row.get('Desc.', '') or None,
-                  "weapon_category": parse_weapon_category_code(proficiency_code, is_ranged=True),
-                  "size_category": parse_item_size_code(row.get('Size', '')),
-                  "cost_credits": attempt_numeric_conversion(row.get('Cost',''), name, 'Cost', 'Ranged'),
-                  "damage_text": damage_text, "damage_structured": parse_damage_string(damage_text),
-                  "stun_damage_text": stun_text or None, "stun_damage_structured": parse_damage_string(stun_text) if stun_text else None,
-                  "rate_of_fire_text": row.get('Fire Rate', ''), "rate_of_fire_structured": parse_rate_of_fire(row.get('Fire Rate', '')),
-                  "weight_kg": attempt_numeric_conversion(row.get('Weight',''), name, 'Weight', 'Ranged'),
-                  "damage_types": damage_types_list, "availability": row.get('Avail.', ''),
-                  "area_effect_text": row.get('Area', '') or None,
-                  "ammunition_shots": attempt_numeric_conversion(row.get('Shots',''), name, 'Shots', 'Ranged'),
-                  "ammunition_cost_text": row.get(' Ammo Cost', row.get('Ammo Cost','')) or None,
-                  "accuracy_note": row.get(' Accuracy', row.get('Accuracy','')) or None,
-                  "special_properties_text": comments_text or None, "parsed_properties": parsed_props,
-                  "classification_tags": classification_tags, "used_by_text": row.get('Used By', '') or None,
-                  "source_book": row.get('BOOK', ''), "page": str(row.get('PAGE', ''))}
-        processed_weapons.append(weapon)
-    save_json_data(processed_weapons, RANGED_WEAPONS_JSON_PATH, "Ranged Weapons")
-
-def process_accessories_csv():
-    print("Processing Accessories...")
-    raw_data = read_csv_data(ACCESSORIES_CSV_PATH)
-    processed_items = []
-    if not raw_data: save_json_data(processed_items, ACCESSORIES_JSON_PATH, "Accessories"); return
-    for row_raw in raw_data:
-        row = {k: clean_value(v) for k,v in row_raw.items()}
-        name = row.get('ACCESSORIES', '')
-        if not name or not row.get('BOOK', '') or not row.get('PAGE', '') or len(name) > 70: continue
-        desc_text = row.get('Desc.', '')
-        comments_text = row.get('COMMENTS', ''); parsed_effects = parse_item_effects(comments_text) if comments_text else []
-        weight_text = row.get('Weight', ''); weight_kg = None
-        if weight_text:
-            if "%" in weight_text: weight_kg = None
-            else: weight_kg = attempt_numeric_conversion(weight_text, name, 'Weight', 'Accessory')
-        item = {"name": name, "full_text_description": desc_text or None,
-                "accessory_type_code": row.get('Type', ''),
-                "accessory_type_description": parse_accessory_type_code(row.get('Type', '')),
-                "upgrade_points_cost_text": row.get('U. Points', '') or None,
-                "availability": row.get('Avail.', ''),
-                "cost_credits": attempt_numeric_conversion(row.get('Cost', ''), name, 'Cost', 'Accessory'),
-                "weight_text": weight_text or None, "weight_kg": weight_kg,
-                "comments_and_effects_text": comments_text or None, "parsed_effects": parsed_effects,
-                "source_book": row.get('BOOK', ''), "page": str(row.get('PAGE', ''))}
-        processed_items.append(item)
-    save_json_data(processed_items, ACCESSORIES_JSON_PATH, "Accessories")
-
-def process_defensive_items_csv():
-    print("Processing Defensive Items (Mines, Emplacements)...")
-    raw_data = read_csv_data(DEFENSES_CSV_PATH)
-    processed_items = []
-    if not raw_data: save_json_data(processed_items, DEFENSIVE_ITEMS_JSON_PATH, "Defensive Items"); return
-    for row_raw in raw_data:
-        row = {k: clean_value(v) for k,v in row_raw.items()}
-        name = row.get('WEAPON', '')
-        if not name or not row.get('BOOK', '') or not row.get('PAGE', '') or len(name) > 50: continue
-        damage_text = row.get('Damage', '')
-        damage_type_raw_text = row.get('Type', ''); damage_types_list = parse_damage_types_string(damage_type_raw_text)
-        comments_text = row.get('COMMENTS', ''); parsed_effects = parse_item_effects(comments_text) if comments_text else []
-        delay_key = "Delay\n(rounds)" if "Delay\n(rounds)" in row_raw else "Delay" # Check raw for multi-line key
-        item = {"name": name,
-                "cost_credits": attempt_numeric_conversion(row.get('Cost', ''), name, 'Cost', 'Defensive Item'),
-                "damage_text": damage_text, "damage_structured": parse_damage_string(damage_text),
-                "damage_types": damage_types_list,
-                "weight_kg": attempt_numeric_conversion(row.get('Weight', ''), name, 'Weight', 'Defensive Item'),
-                "perception_dc_to_detect": attempt_numeric_conversion(row.get('Perception', ''), name, 'Perception DC', 'Defensive Item'),
-                "availability": row.get('Avail.', ''),
-                "splash_radius_text": row.get('Splash', '') or None,
-                "delay_rounds_text": row.get(delay_key, '') or None,
-                "comments_and_effects_text": comments_text or None, "parsed_effects": parsed_effects,
-                "source_book": row.get('BOOK', ''), "page": str(row.get('PAGE', ''))}
-        processed_items.append(item)
-    save_json_data(processed_items, DEFENSIVE_ITEMS_JSON_PATH, "Defensive Items")
-
-def process_equipment_general_csv():
-    print("Processing General Equipment...")
-    raw_data = read_csv_data(EQUIPMENT_CSV_PATH)
-    processed_items = []
-    if not raw_data: save_json_data(processed_items, EQUIPMENT_JSON_PATH, "General Equipment"); return
-    for idx, row_raw in enumerate(raw_data):
-        row = {k: clean_value(v) for k,v in row_raw.items()}
-        name = row.get('ITEM', '')
-        book = row.get('BOOK', '')
-        page = row.get('PAGE', '')
-        if not name or not book or not page or len(name) > 70 or name.startswith(',') or \
-           (book and (',' in book or len(book) > 5)) or \
-           (page and not re.match(r"^\d+(-?\d*)?$", page) and page.lower() != 'various'):
-            continue
-        desc_text = row.get('Desc.', '')
-        comments_text = row.get('COMMENTS', ''); parsed_effects = parse_item_effects(comments_text) if comments_text else []
-        item = {"name": name, "full_text_description": desc_text or None,
-                "equipment_category_code": row.get('TYPE', ''),
-                "equipment_category_description": parse_accessory_type_code(row.get('TYPE', '')), # Re-use for broad categories
-                "cost_credits": attempt_numeric_conversion(row.get('Cost', ''), name, 'Cost', 'Equipment'),
-                "weight_kg": attempt_numeric_conversion(row.get('Weight', ''), name, 'Weight', 'Equipment'),
-                "uses_text": row.get('Uses', '') or None,
-                "use_cost_text": row.get(' Use Cost', row.get('Use Cost', '')) or None,
-                "comments_and_effects_text": comments_text or None, "parsed_effects": parsed_effects,
-                "source_book": book, "page": str(page)}
-        processed_items.append(item)
-    save_json_data(processed_items, EQUIPMENT_JSON_PATH, "General Equipment")
-
-# (Vehicle, Starship, Explosives processing functions from original saga_index_multi_converter.py would be here)
-# ...
-# Placeholder for Vehicles
-def process_vehicles_csv(): print("Skipping Vehicles processing (placeholder).")
-# Placeholder for Starships
-def process_starships_csv(): print("Skipping Starships processing (placeholder).")
-# Placeholder for Explosives
-def process_explosives_csv(): print("Skipping Explosives processing (placeholder).")
-
-
-def process_droid_systems_csv(): # Moved here
+def process_droid_systems_csv():
     print("Processing Droid Systems...")
     raw_data = read_csv_data(DROID_SYSTEMS_CSV_PATH)
     processed_systems = []
@@ -574,7 +528,6 @@ def process_droid_systems_csv(): # Moved here
 
     for row_idx, row_dict_raw in enumerate(raw_data):
         row = {k: clean_value(v) for k, v in row_dict_raw.items()}
-
         name = row.get('DROID SYSTEM', '')
         book = row.get('BOOK', '')
         page_str = str(row.get('PAGE', ''))
@@ -585,51 +538,136 @@ def process_droid_systems_csv(): # Moved here
             continue
 
         if group not in valid_groups:
-            # Allow if it's a known variant like "Armor" instead of "Armor Plating" but map it.
-            if group == "Armor" and "Armor Plating" in valid_groups:
-                group = "Armor Plating"
-            elif group == "Communications" and "Communications System" in valid_groups:
-                group = "Communications System"
-            # Add other similar mappings if observed from data
-            else:
-                print(f"Warning (Droid Systems): Invalid GROUP '{group}' for item '{name}' in row {row_idx + 2}. CSV had '{row_dict_raw.get('GROUP', '')}'. Valid are: {valid_groups}. Storing as is.")
-
+            mapped_group = group
+            if group.lower() == "armor": mapped_group = "Armor Plating"
+            elif group.lower() == "communications": mapped_group = "Communications System"
+            if mapped_group in valid_groups: group = mapped_group
+            else: print(f"Warning (Droid Systems): Invalid GROUP '{group}' for item '{name}'. Storing as is.")
 
         id_base = f"{name}_{book}_{page_str}".lower()
         id_base = re.sub(r'[^a-z0-9_]+', '_', id_base)
         system_id = re.sub(r'_+', '_', id_base).strip('_')
 
         system_obj = {
-            "id": system_id,
-            "name": name,
-            "primary_source": {
-                "source_book": book,
-                "page": page_str,
-                "reference_type": "primary_definition",
-                "notes": None
-            },
-            "description_text": row.get('Desc.', None),
-            "group": group, # Store the (potentially mapped) group
+            "id": system_id, "name": name,
+            "primary_source": {"source_book": book, "page": page_str, "reference_type": "primary_definition", "notes": None},
+            "description_text": row.get('Desc.', None), "group": group,
             "cost_details": _parse_value_object(row.get('COST'), name, 'COST', 'Droid System'),
             "weight_details": _parse_value_object(row.get('WEIGHT'), name, 'WEIGHT', 'Droid System'),
             "availability_text": row.get('AVAIL.', None),
             "benefits_and_comments": row.get('COMMENTS & BENEFITS', None),
-            # Consider using parse_item_effects for benefits_and_comments if its structure aligns
-            # "parsed_effects": parse_item_effects(row.get('COMMENTS & BENEFITS', '')), # Alternative
-            "detailed_rules_and_effects": None,
-            "system_type_tags": [],
-            "prerequisites_text": None,
-            "installation_dc_mechanics": None,
-            "installation_time_text": None,
-            "slots_required": None,
-            "power_consumption_notes": None,
-            "image_url": None,
+            "detailed_rules_and_effects": None, "system_type_tags": [], "prerequisites_text": None,
+            "installation_dc_mechanics": None, "installation_time_text": None,
+            "slots_required": None, "power_consumption_notes": None, "image_url": None,
             "additional_source_references": []
         }
         processed_systems.append(system_obj)
-
     save_json_data(processed_systems, DROID_SYSTEMS_JSON_PATH, "Droid Systems")
 
+def process_hazards_csv():
+    print("Processing Hazards...")
+    raw_data = read_csv_data(HAZARDS_CSV_PATH)
+    processed_hazards = []
+
+    if not raw_data:
+        save_json_data(processed_hazards, HAZARDS_JSON_PATH, "Hazards")
+        return
+
+    for row_idx, row_dict_raw in enumerate(raw_data):
+        row = {k: clean_value(v) for k, v in row_dict_raw.items()} # Clean values once
+
+        name = row.get('HAZARD', '')
+        book = row.get('BOOK', '')
+        page_str = str(row.get('PAGE', ''))
+
+        if not name or not book or not page_str:
+            print(f"Warning (Hazards): Skipping row {row_idx + 2} due to missing Name, Book, or Page.")
+            continue
+
+        id_base = f"{name}_{book}_{page_str}".lower()
+        id_base = re.sub(r'[^a-z0-9_]+', '_', id_base)
+        hazard_id = re.sub(r'_+', '_', id_base).strip('_')
+
+        hazard_type_tags = [tag.strip() for tag in row.get('Type', '').split(';') if tag.strip()]
+        typical_locations = [loc.strip() for loc in row.get('Location', '').split(',') if loc.strip() and loc.strip().lower() != 'none']
+
+        damage_full_str = row.get('Damage (type; failure)', '')
+        hit_part_str = damage_full_str
+        miss_part_str = None
+
+        # Updated splitting logic for damage string
+        split_keywords = ["; 1/2", "; half"] 
+        found_split_kw = False
+        for kw in split_keywords:
+            # Find case-insensitive keyword
+            kw_match_idx = -1
+            try:
+                kw_match_idx = damage_full_str.lower().rfind(kw) # search from right
+            except AttributeError: # if damage_full_str is not a string (e.g. None)
+                pass
+
+            if kw_match_idx != -1:
+                 # Ensure it's a logical split point (not at the very beginning, and possibly preceded by space/paren)
+                if kw_match_idx > 0 and (damage_full_str[kw_match_idx-1].isspace() or damage_full_str[kw_match_idx-1] == ')' or damage_full_str[kw_match_idx-1].isalnum()):
+                    hit_part_str = damage_full_str[:kw_match_idx].strip()
+                    # Get the original casing for the keyword part
+                    miss_part_str = damage_full_str[kw_match_idx:].replace(";", "", 1).strip()
+                    found_split_kw = True
+                    break
+        if not found_split_kw and ";" in damage_full_str:
+            # More careful split on semicolon, ensuring it's not inside parentheses
+            # This regex finds the first semicolon NOT inside parentheses
+            match_semicolon_split = re.match(r"([^(;]*?(?:\([^)]*\)[^(;]*?)*?);(.*)", damage_full_str)
+            if match_semicolon_split:
+                hit_part_str = match_semicolon_split.group(1).strip()
+                miss_part_str = match_semicolon_split.group(2).strip()
+            # else: hit_part_str remains damage_full_str, miss_part_str remains None
+
+        damage_on_hit_data = _parse_hazard_damage_effect(hit_part_str)
+        damage_on_miss_data = _parse_hazard_damage_effect(miss_part_str, is_miss_effect_text=True) if miss_part_str else \
+                              {"damage_dice_text": None, "damage_types": [], "additional_effects_text": None}
+
+        skill_interactions = []
+        for skill_col_key in ['Skill 1', 'Skill 2', 'Skill 3']:
+            skill_detail_str = row.get(skill_col_key, '')
+            if skill_detail_str and skill_detail_str.lower() not in ['none', 'n/a', '']:
+                parsed_interaction = _parse_hazard_skill_interaction(skill_detail_str)
+                if parsed_interaction:
+                    skill_interactions.append(parsed_interaction)
+        
+        defense_targeted_raw = row.get('Defense') # Already cleaned by row = {...}
+        valid_defenses_map = {"reflex": "Reflex", "fortitude": "Fortitude", "will": "Will", "ref": "Reflex", "fort": "Fortitude"}
+        defense_targeted = None
+        if defense_targeted_raw:
+            defense_targeted_lower = defense_targeted_raw.lower()
+            if defense_targeted_lower in valid_defenses_map:
+                defense_targeted = valid_defenses_map[defense_targeted_lower]
+            elif "/" in defense_targeted_raw:
+                print(f"Warning (Hazards): Defense '{defense_targeted_raw}' for '{name}' has multiple types. Setting to null. CSV: '{row_dict_raw.get('Defense')}'.")
+            elif defense_targeted_lower not in ['none', 'n/a', '']:
+                print(f"Warning (Hazards): Unrecognized Defense '{defense_targeted_raw}' for '{name}'. Setting to null. CSV: '{row_dict_raw.get('Defense')}'.")
+
+        hazard_obj = {
+            "id": hazard_id, "name": name,
+            "primary_source": {"source_book": book, "page": page_str, "reference_type": "primary_definition", "notes": None},
+            "hazard_type_tags": hazard_type_tags,
+            "typical_locations": typical_locations if typical_locations else None,
+            "cl": attempt_numeric_conversion(row.get('CL'), name, 'CL', 'Hazard'),
+            "trigger_description": row.get('Trigger') or None,
+            "attack_details": {"bonus_text": row.get('Attack') or None, "defense_targeted": defense_targeted, "notes": None},
+            "damage_on_hit": damage_on_hit_data,
+            "damage_on_miss_or_save": damage_on_miss_data,
+            "recurrence_description": row.get('Recurrence') or None,
+            "special_qualities_and_rules": row.get('Special') or None,
+            "skill_interactions": skill_interactions if skill_interactions else None,
+            "full_text_description_from_book": None,
+            "cost_details": _parse_value_object(row.get('COST'), name, 'COST', 'Hazard'), # COST might not be typical for hazards
+            "weight_details": _parse_value_object(row.get('WEIGHT'), name, 'WEIGHT', 'Hazard'), # WEIGHT might not be typical
+            "availability_text": row.get('AVAIL.') or None, # AVAIL. might not be typical
+            "additional_source_references": []
+        }
+        processed_hazards.append(hazard_obj)
+    save_json_data(processed_hazards, HAZARDS_JSON_PATH, "Hazards")
 
 # --- 4. MAIN EXECUTION ---
 if __name__ == '__main__':
@@ -643,8 +681,7 @@ if __name__ == '__main__':
     if PROCESS_CONFIG.get("vehicles", False): process_vehicles_csv()
     if PROCESS_CONFIG.get("starships", False): process_starships_csv()
     if PROCESS_CONFIG.get("explosives", False): process_explosives_csv()
-    # if PROCESS_CONFIG.get("tech_specialist_upgrades", False): process_techspec_csv() # Placeholder
-    # if PROCESS_CONFIG.get("templates", False): process_templates_csv() # Placeholder
-    if PROCESS_CONFIG.get("droid_systems", False): process_droid_systems_csv() # Added call
+    if PROCESS_CONFIG.get("droid_systems", False): process_droid_systems_csv()
+    if PROCESS_CONFIG.get("hazards", False): process_hazards_csv()
 
     print("\nConfigured item/index element CSV processing complete.")

@@ -1,146 +1,171 @@
 {
+  "last_modified": "2025-05-31T18:51:52",
   "skill_rules_data": {
-  "source_book_reference_general": "CR",
-  "file_description": "General rules and mechanics governing the use of skills in Star Wars Saga Edition, including the skill check formula, trained/untrained use, Taking 10/20, Aid Another, opposed checks, ability checks, and other relevant system mechanics.",
-	  "page_reference_general": "57-61",
-	  "skill_check_formula": {
-		"formula_string": "d20 + 1/2 Character Level (rounded down) + Ability Modifier + 5 (if Trained) + Miscellaneous Modifiers",
-		"components": [
-		  {
-			"name": "d20_roll",
-			"description": "A roll of a 20-sided die."
-		  },
-		  {
-			"name": "half_character_level",
-			"description": "Half of the character's total character level, rounded down. This is a universal bonus reflecting general experience."
-		  },
-		  {
-			"name": "ability_modifier",
-			"description": "The modifier of the skill's key ability (e.g., DEX for Stealth, CHA for Use the Force)."
-		  },
-		  {
-			"name": "trained_bonus",
-			"value": 5,
-			"condition": "Applies if the character is trained in the skill being used."
-		  },
-		  {
-			"name": "miscellaneous_modifiers",
-			"description": "Includes circumstance modifiers, bonuses/penalties from feats, talents, equipment, or specific situations."
-		  }
-		],
-		"target": "Difficulty Class (DC) or Opposed Check result.",
-		"source_page_reference": "CR 58 [cite: 358, 362]"
-	  },
-	  "trained_skills_general_rules": {
-		"bonus_for_training": {
-		  "value": 5,
-		  "description": "Being trained in a skill grants a +5 bonus to checks made with that skill. This is included in the skill check formula. [cite: 358]"
-		},
-		"access_to_specialized_uses": "Certain complex or specialized applications of skills can only be attempted if the character is trained. [cite: 357] (Handled by 'trained_only' field in individual skill uses in skills.json)",
-		"source_page_reference": "CR 57-58 [cite: 357, 358]"
-	  },
-	  "untrained_skill_usage": {
-		"general_rule": "Most skills can be used untrained, meaning a character can make a check with them even if they are not trained in the skill (they do not receive the +5 trained bonus). [cite: 358]",
-		"exceptions": "Some specific skill uses, or entire skills (marked with 'No' in the 'Untrained' column on Table 4-2: Skills), may require training to attempt. [cite: 360, 368] (Indicated by 'trained_only: true' for specific common uses in skills.json).",
-		"source_page_reference": "CR 58, 62 [cite: 358, 368, 403]"
-	  },
-	  "taking_10": {
-		"description": "If a character is not under immediate pressure or threat (e.g., not in combat or a similarly stressful situation), they can choose to 'Take 10' on a skill check. This means treating the d20 roll as if it were a 10, without actually rolling the die. This represents performing the task carefully and reliably. [cite: 384]",
-		"conditions_for_use": [
-		  "Not under immediate pressure or threat (e.g., no combat, no imminent danger). [cite: 384]",
-		  "The task is one where success is reasonably assured with careful effort."
-		],
-		"restrictions": [
-		  "Cannot be used for checks where luck is a major factor (e.g., most attack rolls).",
-		  "Cannot be used if failure carries significant risk. [cite: 385]",
-		  "Cannot be used on a check to Aid Another. [cite: 385]",
-		  "Generally cannot Take 10 when using a skill untrained, though GM may allow exceptions for truly routine activities. [cite: 385]"
-		],
-		"source_page_reference": "CR 61 [cite: 384, 385]"
-	  },
-	  "taking_20": {
-		"description": "If a character has ample time, is not under pressure, and can try repeatedly without adverse consequences for failure, they can 'Take 20'. This assumes they spend enough time to eventually roll a natural 20 on the d20, representing maximum effort and time spent. [cite: 387]",
-		"conditions_for_use": [
-		  "Ample time is available. [cite: 387]",
-		  "No immediate pressure or threat. [cite: 387]",
-		  "No adverse consequences for failing individual attempts. [cite: 387]"
-		],
-		"time_cost": "Typically takes 20 times longer than a single attempt (usually 2 minutes for a skill that normally takes one round/6 seconds). [cite: 387]",
-		"restrictions": [
-		  "Cannot be used if under pressure. [cite: 387]",
-		  "Cannot be used if failure has negative repercussions. [cite: 387]"
-		],
-		"source_page_reference": "CR 61"
-	  },
-	  "aid_another_skill_checks": {
-		"description": "A character can help another character achieve success on their skill check or ability check by making the same kind of skill check or ability check in a cooperative effort. [cite: 392]",
-		"mechanic": "The helper makes a skill check (of the same type as the leader) against DC 10. [cite: 392] You can't take 10 on this check. [cite: 392]",
-		"success_outcome": "If the helper succeeds, the leader gets a +2 circumstance bonus on their check. [cite: 392]",
-		"failure_outcome": "No bonus is granted.",
-		"limitations": "The GM limits cooperation as appropriate for the circumstances (e.g., only a limited number of characters can help at once). [cite: 392]",
-		"variant_aid": "Cooperation may not require all characters to make the same skill check if a different skill could logically provide aid (GM discretion). [cite: 394]",
-		"source_page_reference": "CR 61-62"
-	  },
-	  "opposed_skill_checks": {
-		"description": "Some skill checks are made against a randomized number, usually another character's skill check result (e.g., Stealth vs. Perception). [cite: 366]",
-		"mechanic": "Both characters involved make a skill check with their relevant skill. The character with the higher result wins the contest. [cite: 366]",
-		"tie_resolution": "For ties on opposed checks, the character with the higher skill modifier wins. If those scores are the same, roll again. [cite: 366]",
-		"source_page_reference": "CR 58 [cite: 366]"
-	  },
-	  "trying_again_general_rules": {
-		"general_rule": "In general, you can try a skill check again if you fail, and you can keep trying indefinitely. [cite: 369]",
-		"consequences_of_failure": "Many skills, however, have natural consequences for failing that must be accounted for (e.g., an alarm sounding on a failed Mechanics check). [cite: 369]",
-		"restrictions_on_retry": "Some skills can't be tried again once a check has failed for a particular task. [cite: 369]",
-		"no_penalty_for_failure": "If a skill carries no penalty for failure, you can Take 20 and assume that you keep trying until you eventually succeed. [cite: 370]",
-		"source_page_reference": "CR 58-59 [cite: 369, 370]"
-	  },
-	  "rerolling_general_rules": {
-		"declaration_timing": "If a species trait, talent, or other special ability allows a reroll, you must declare using this option immediately after making the check but before any effects are resolved. [cite: 372]",
-		"accepting_result": "Generally, you must accept the result of the reroll, even if it is worse, unless the ability specifies otherwise (e.g., 'keeping the better result'). [cite: 372]",
-		"keeping_better_result": "Some abilities allow keeping the better of the two results, often restricted in use (e.g., limited times per day or requiring a Force Point). [cite: 373]",
-		"multiple_reroll_sources": "If multiple abilities allow rerolling the same check, you may choose to take each reroll one at a time in any order, resolving each before deciding whether to use another. [cite: 374]",
-		"source_page_reference": "CR 60"
-	  },
-	  "checks_without_rolls": {
-		"description": "For very simple tasks where a character's skill modifier is exceptionally high relative to the task's simplicity, the GM might rule that the character automatically succeeds without needing a roll. Conversely, some tasks may be impossible unless the character is trained in the relevant skill, regardless of their ability modifier. [cite: 384, 395]",
-		"gm_discretion_note": "This is largely a GM judgment call to speed up play for trivial tasks or to enforce training requirements.",
-		"source_page_reference": "CR 61 (also mentioned on p.60) [cite: 384, 395]"
-	  },
-	  "circumstance_modifiers": {
-		"description": "Environmental factors, specific situations, or the use of particular tools can grant bonuses or impose penalties on skill checks. These are typically referred to as circumstance modifiers. [cite: 379]",
-		"typical_bonus_favorable": "+2 (or more for very favorable conditions or aid). [cite: 377]",
-		"typical_penalty_unfavorable": "-2 (or more for very unfavorable conditions). [cite: 378]",
-		"modifier_vs_dc_change": "Circumstances affecting ability to perform change the skill modifier; circumstances modifying how well one has to perform change the DC. [cite: 379]",
-		"source_page_reference": "CR 59"
-	  },
-	  "skill_focus_feat_interaction": {
-		"description": "The Skill Focus feat grants an additional +5 competence bonus to checks with one specific trained skill. [cite: 357]",
-		"interaction_with_training": "This bonus stacks with the +5 bonus for being trained in the skill, resulting in a total of +10 from these two sources before other modifiers. [cite: 357]",
-		"source_page_reference": "CR 57 [cite: 357]"
-	  },
-	  "ability_checks_general_rules": {
-		"description": "For tasks where no specific skill applies, you make an ability check. [cite: 395]",
-		"formula": "Roll 1d20 and apply the appropriate ability modifier. [cite: 395]",
-		"dc_or_opposed_check": "The GM assigns a DC, or sets up an opposed check when two characters are engaged in a contest using one ability against another. [cite: 395]",
-		"contests_without_luck": "For simple tests of ability without a luck factor (e.g., who is stronger), the character with the higher ability score wins. Opposed checks are made if scores are identical. [cite: 395, 396]",
-		"example_ability_checks": [
-		  {"task": "Forcing open a jammed or locked door", "key_ability": "Strength"},
-		  {"task": "Tying a rope", "key_ability": "Dexterity"},
-		  {"task": "Holding one's breath (beyond normal limits)", "key_ability": "Constitution"},
-		  {"task": "Navigating a maze without specific survival techniques", "key_ability": "Intelligence"},
-		  {"task": "Remembering to lock a door", "key_ability": "Wisdom"},
-		  {"task": "Getting yourself noticed in a crowd", "key_ability": "Charisma"}
-		],
-		"source_page_reference": "CR 61 [cite: 395, 396]"
-	  },
-	  "advancing_skills":{
-		"description": "A character's skill modifiers are based on character level and ability modifiers, so they automatically increase as the character gains levels or improves ability scores. When a character gains a level, half their character level (rounded down) is added to all skill checks. [cite: 359, 364]",
-		"source_page_reference": "CR 58 [cite: 359, 364]"
-	   },
-	   "time_and_skill_checks_general":{
-		 "action_type_variance": "A skill's description specifies whether using it is a standard action, move action, swift action, full-round action, or if it takes minutes or hours. [cite: 383]",
-		 "provoking_attack_of_opportunity": "Using a skill that requires concentration (distracting from full awareness) generally provokes an Attack of Opportunity if performed within an opponent's threatened area. [cite: 383]",
-		 "source_page_reference": "CR 61 [cite: 383]"
-	   }
+    "file_description": "General rules and mechanics governing the use of skills in Star Wars Saga Edition, including the skill check formula, trained/untrained use, Taking 10/20, Aid Another, opposed checks, ability checks, and other relevant system mechanics.",
+    "page_reference_general": "57-61",
+    "ability_checks_general_rules": {
+      "description": "For tasks where no specific skill applies, you make an ability check. [cite: 395]",
+      "formula": "Roll 1d20 and apply the appropriate ability modifier. [cite: 395]",
+      "dc_or_opposed_check": "The GM assigns a DC, or sets up an opposed check when two characters are engaged in a contest using one ability against another. [cite: 395]",
+      "contests_without_luck": "For simple tests of ability without a luck factor (e.g., who is stronger), the character with the higher ability score wins. Opposed checks are made if scores are identical. [cite: 395, 396]",
+      "example_ability_checks": [
+        {
+          "task": "Forcing open a jammed or locked door",
+          "key_ability": "Strength"
+        },
+        {
+          "task": "Tying a rope",
+          "key_ability": "Dexterity"
+        },
+        {
+          "task": "Holding one's breath (beyond normal limits)",
+          "key_ability": "Constitution"
+        },
+        {
+          "task": "Navigating a maze without specific survival techniques",
+          "key_ability": "Intelligence"
+        },
+        {
+          "task": "Remembering to lock a door",
+          "key_ability": "Wisdom"
+        },
+        {
+          "task": "Getting yourself noticed in a crowd",
+          "key_ability": "Charisma"
+        }
+      ],
+      "source_page_reference": "CR 61 [cite: 395, 396]"
+    },
+    "advancing_skills": {
+      "description": "A character's skill modifiers are based on character level and ability modifiers, so they automatically increase as the character gains levels or improves ability scores. When a character gains a level, half their character level (rounded down) is added to all skill checks. [cite: 359, 364]",
+      "source_page_reference": "CR 58 [cite: 359, 364]"
+    },
+    "aid_another_skill_checks": {
+      "description": "A character can help another character achieve success on their skill check or ability check by making the same kind of skill check or ability check in a cooperative effort. [cite: 392]",
+      "mechanic": "The helper makes a skill check (of the same type as the leader) against DC 10. [cite: 392] You can't take 10 on this check. [cite: 392]",
+      "success_outcome": "If the helper succeeds, the leader gets a +2 circumstance bonus on their check. [cite: 392]",
+      "failure_outcome": "No bonus is granted.",
+      "limitations": "The GM limits cooperation as appropriate for the circumstances (e.g., only a limited number of characters can help at once). [cite: 392]",
+      "variant_aid": "Cooperation may not require all characters to make the same skill check if a different skill could logically provide aid (GM discretion). [cite: 394]",
+      "source_page_reference": "CR 61-62"
+    },
+    "checks_without_rolls": {
+      "description": "For very simple tasks where a character's skill modifier is exceptionally high relative to the task's simplicity, the GM might rule that the character automatically succeeds without needing a roll. Conversely, some tasks may be impossible unless the character is trained in the relevant skill, regardless of their ability modifier. [cite: 384, 395]",
+      "gm_discretion_note": "This is largely a GM judgment call to speed up play for trivial tasks or to enforce training requirements.",
+      "source_page_reference": "CR 61 (also mentioned on p.60) [cite: 384, 395]"
+    },
+    "circumstance_modifiers": {
+      "description": "Environmental factors, specific situations, or the use of particular tools can grant bonuses or impose penalties on skill checks. These are typically referred to as circumstance modifiers. [cite: 379]",
+      "typical_bonus_favorable": "+2 (or more for very favorable conditions or aid). [cite: 377]",
+      "typical_penalty_unfavorable": "-2 (or more for very unfavorable conditions). [cite: 378]",
+      "modifier_vs_dc_change": "Circumstances affecting ability to perform change the skill modifier; circumstances modifying how well one has to perform change the DC. [cite: 379]",
+      "source_page_reference": "CR 59"
+    },
+    "errata_applied": [
+      "Acrobatics (Reduce Falling Damage): Updated to include errata regarding landing on feet if no damage is taken and the 60-meter limit for skill application (CRB Errata p.291 for CRB p.255).",
+      "Jump (Reduce Falling Damage): Updated to include errata regarding landing on feet if no damage is taken and the 60-meter limit for skill application (CRB Errata p.291 for CRB p.255).",
+      "Treat Injury (Treat Disease/Poison): Clarified DC reference to 'DC of the disease/poison' (CRB p.74).",
+      "Treat Injury: Added 'Treat Radiation' application based on CRB p.74 and p.255."
+    ],
+    "opposed_skill_checks": {
+      "description": "Some skill checks are made against a randomized number, usually another character's skill check result (e.g., Stealth vs. Perception). [cite: 366]",
+      "mechanic": "Both characters involved make a skill check with their relevant skill. The character with the higher result wins the contest. [cite: 366]",
+      "tie_resolution": "For ties on opposed checks, the character with the higher skill modifier wins. If those scores are the same, roll again. [cite: 366]",
+      "source_page_reference": "CR 58 [cite: 366]"
+    },
+    "rerolling_general_rules": {
+      "declaration_timing": "If a species trait, talent, or other special ability allows a reroll, you must declare using this option immediately after making the check but before any effects are resolved. [cite: 372]",
+      "accepting_result": "Generally, you must accept the result of the reroll, even if it is worse, unless the ability specifies otherwise (e.g., 'keeping the better result'). [cite: 372]",
+      "keeping_better_result": "Some abilities allow keeping the better of the two results, often restricted in use (e.g., limited times per day or requiring a Force Point). [cite: 373]",
+      "multiple_reroll_sources": "If multiple abilities allow rerolling the same check, you may choose to take each reroll one at a time in any order, resolving each before deciding whether to use another. [cite: 374]",
+      "source_page_reference": "CR 60"
+    },
+    "skill_check_formula": {
+      "formula_string": "d20 + 1/2 Character Level (rounded down) + Ability Modifier + 5 (if Trained) + Miscellaneous Modifiers",
+      "components": [
+        {
+          "name": "d20_roll",
+          "description": "A roll of a 20-sided die."
+        },
+        {
+          "name": "half_character_level",
+          "description": "Half of the character's total character level, rounded down. This is a universal bonus reflecting general experience."
+        },
+        {
+          "name": "ability_modifier",
+          "description": "The modifier of the skill's key ability (e.g., DEX for Stealth, CHA for Use the Force)."
+        },
+        {
+          "name": "trained_bonus",
+          "value": 5,
+          "condition": "Applies if the character is trained in the skill being used."
+        },
+        {
+          "name": "miscellaneous_modifiers",
+          "description": "Includes circumstance modifiers, bonuses/penalties from feats, talents, equipment, or specific situations."
+        }
+      ],
+      "target": "Difficulty Class (DC) or Opposed Check result.",
+      "source_page_reference": "CR 58 [cite: 358, 362]"
+    },
+    "skill_focus_feat_interaction": {
+      "description": "The Skill Focus feat grants an additional +5 competence bonus to checks with one specific trained skill. [cite: 357]",
+      "interaction_with_training": "This bonus stacks with the +5 bonus for being trained in the skill, resulting in a total of +10 from these two sources before other modifiers. [cite: 357]",
+      "source_page_reference": "CR 57 [cite: 357]"
+    },
+    "source_book_reference_general": "CR",
+    "taking_10": {
+      "description": "If a character is not under immediate pressure or threat (e.g., not in combat or a similarly stressful situation), they can choose to 'Take 10' on a skill check. This means treating the d20 roll as if it were a 10, without actually rolling the die. This represents performing the task carefully and reliably. [cite: 384]",
+      "conditions_for_use": [
+        "Not under immediate pressure or threat (e.g., no combat, no imminent danger). [cite: 384]",
+        "The task is one where success is reasonably assured with careful effort."
+      ],
+      "restrictions": [
+        "Cannot be used for checks where luck is a major factor (e.g., most attack rolls).",
+        "Cannot be used if failure carries significant risk. [cite: 385]",
+        "Cannot be used on a check to Aid Another. [cite: 385]",
+        "Generally cannot Take 10 when using a skill untrained, though GM may allow exceptions for truly routine activities. [cite: 385]"
+      ],
+      "source_page_reference": "CR 61 [cite: 384, 385]"
+    },
+    "taking_20": {
+      "description": "If a character has ample time, is not under pressure, and can try repeatedly without adverse consequences for failure, they can 'Take 20'. This assumes they spend enough time to eventually roll a natural 20 on the d20, representing maximum effort and time spent. [cite: 387]",
+      "conditions_for_use": [
+        "Ample time is available. [cite: 387]",
+        "No immediate pressure or threat. [cite: 387]",
+        "No adverse consequences for failing individual attempts. [cite: 387]"
+      ],
+      "time_cost": "Typically takes 20 times longer than a single attempt (usually 2 minutes for a skill that normally takes one round/6 seconds). [cite: 387]",
+      "restrictions": [
+        "Cannot be used if under pressure. [cite: 387]",
+        "Cannot be used if failure has negative repercussions. [cite: 387]"
+      ],
+      "source_page_reference": "CR 61"
+    },
+    "time_and_skill_checks_general": {
+      "action_type_variance": "A skill's description specifies whether using it is a standard action, move action, swift action, full-round action, or if it takes minutes or hours. [cite: 383]",
+      "provoking_attack_of_opportunity": "Using a skill that requires concentration (distracting from full awareness) generally provokes an Attack of Opportunity if performed within an opponent's threatened area. [cite: 383]",
+      "source_page_reference": "CR 61 [cite: 383]"
+    },
+    "trained_skills_general_rules": {
+      "bonus_for_training": {
+        "value": 5,
+        "description": "Being trained in a skill grants a +5 bonus to checks made with that skill. This is included in the skill check formula. [cite: 358]"
+      },
+      "access_to_specialized_uses": "Certain complex or specialized applications of skills can only be attempted if the character is trained. [cite: 357] (Handled by 'trained_only' field in individual skill uses in skills.json)",
+      "source_page_reference": "CR 57-58 [cite: 357, 358]"
+    },
+    "trying_again_general_rules": {
+      "general_rule": "In general, you can try a skill check again if you fail, and you can keep trying indefinitely. [cite: 369]",
+      "consequences_of_failure": "Many skills, however, have natural consequences for failing that must be accounted for (e.g., an alarm sounding on a failed Mechanics check). [cite: 369]",
+      "restrictions_on_retry": "Some skills can't be tried again once a check has failed for a particular task. [cite: 369]",
+      "no_penalty_for_failure": "If a skill carries no penalty for failure, you can Take 20 and assume that you keep trying until you eventually succeed. [cite: 370]",
+      "source_page_reference": "CR 58-59 [cite: 369, 370]"
+    },
+    "untrained_skill_usage": {
+      "general_rule": "Most skills can be used untrained, meaning a character can make a check with them even if they are not trained in the skill (they do not receive the +5 trained bonus). [cite: 358]",
+      "exceptions": "Some specific skill uses, or entire skills (marked with 'No' in the 'Untrained' column on Table 4-2: Skills), may require training to attempt. [cite: 360, 368] (Indicated by 'trained_only: true' for specific common uses in skills.json).",
+      "source_page_reference": "CR 58, 62 [cite: 358, 368, 403]"
+    }
   }
 }
