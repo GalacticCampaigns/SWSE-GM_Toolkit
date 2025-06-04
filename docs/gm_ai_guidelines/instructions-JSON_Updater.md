@@ -1,7 +1,7 @@
-Instructions for Generating JSON Edits for SAGA Index Data & Character Profiles
-===============================================================================
+Instructions for AI: Generating JSON Edits for SAGA Index Data & Character Profiles
+===================================================================================
 
-Version 5.1 (2025-05-30)
+Version 5.2 (2025-06-04)
 
 1\. Introduction
 ----------------
@@ -17,17 +17,21 @@ Example Root Structure:
 
     [
       {
-        "target_file_key": "string", "action": "string", "is_single_object": false, "identifier": {"key": "value"},
+        "target_file_key": "string",
+        "action": "string",
+        "is_single_object": false,
+        "identifier": {"key": "value"},
         "payload": [
-          {"op": "operation", "path": "/path", "value": "new_value"},
-          {"op": "operation", "path": "/path", "value": "new_value"}
+          {"op": "operation", "path": "/path_relative_to_record", "value": "new_value"}
         ]
       },
       {
-        "target_file_key": "string", "action": "string", "is_single_object": true, "identifier": {"keys_to_delete": ["some_key"]},
+        "target_file_key": "string",
+        "action": "string",
+        "is_single_object": true,
+        "identifier": {},
         "payload": [
-          {"op": "operation", "path": "/path", "value": "new_value"},
-          {"op": "operation", "path": "/path", "value": "new_value"}
+          {"op": "operation", "path": "/path_from_data_wrapper_content_root", "value": "new_value"}
         ]
       }
     ]
@@ -35,219 +39,169 @@ Example Root Structure:
 
 *   `is_single_object` (boolean, optional):
     
-    *   Set to `true` only if the `target_file_key` refers to a JSON file that is fundamentally:
+    *   Set to `true` if the `target_file_key` refers to a JSON file where the content _within its primary `*_data` wrapper_ (e.g., inside `class_rules_data`) is to be treated as a single object for path-based operations. Also use for files that are genuinely single root objects without a wrapper, if any exist and are configured as such.
         
-        1.  A single configuration object at its root (e.g., `class_rules.json`).
-            
-        2.  OR a file where individual records are _intentionally_ stored as top-level keys in the root object (e.g., a hypothetical `custom_id_map.json` file structured as `{"id_1": {...}, "id_2": {...}}`).
-            
-    *   If omitted or `false` (this is the default and correct setting for standard SAGA Index item files like `armor.json`, `feats.json`, `vehicles.json` when they follow the `*_data`/`*_list` structure), the script assumes the target file contains a list of records (potentially within a wrapper object) or is a multi-collection file (like NPC Profiles).
+    *   If omitted or `false` (default for SAGA Index item files like `armor.json`), the script assumes the target file contains a list of records within its `*_data` -> `*_list` structure.
         
 *   `payload` for "update" actions is an array of patch operations (see Section V).
     
 
 ### II. `target_file_key`
 
-This string specifies which main data category (and thus which JSON file) the edit applies to.
+This string specifies the target data. Assumes all primary data files (SAGA Index lists and Single Object Rule/Lore files) have a top-level `{filename_base}_data` wrapper.
 
 *   For files containing a list of records (e.g., SAGA Index files like `armor.json`, `feats.json`, `vehicles.json`):
     
-    *   The `target_file_key` is the filename without the `.json` extension (e.g., `"armor"`, `"vehicles"`).
+    *   `target_file_key` is the filename base (e.g., `"vehicles"`).
         
-    *   Important: For these files, ensure `is_single_object` is omitted or set to `false` in the edit request. The script will expect a structure like `{"vehicles_data": {"vehicle_list": [...]}}`.
+    *   `is_single_object` should be omitted or `false`. Paths in update payloads are relative to the identified record in the `*_list`.
         
-*   For files that are genuinely a single JSON object at their root (Type A or Type B described in Section I):
+*   For files where the content of the `*_data` wrapper is a single object (e.g., `class_rules.json`, `ability_system_rules.json`):
     
-    *   The `target_file_key` is the filename without the `.json` extension (e.g., `"class_rules"`).
+    *   `target_file_key` is the filename base (e.g., `"class_rules"`).
         
-    *   Crucially, include `"is_single_object": true` in the edit request object for these files.
+    *   Include `"is_single_object": true`. Paths in update payloads are relative to the object _inside_ the `*_data` wrapper (see Section V for path details).
         
-*   For multi-collection files (e.g., an NPC Profile file like `WIDT_NPCS.json`): Use a composite key: `filename_base#collection_name`.
+*   For multi-collection files (e.g., `WIDT_NPCS.json`): Use `filename_base#collection_name` (e.g., `"WIDT_NPCS#pcs"`). Do not use `is_single_object: true`.
     
-    *   Example: `"WIDT_NPCS#pcs"`.
-        
-    *   Do not use `"is_single_object": true` for these multi-collection targets.
-        
-
-The `json_updater.py` script uses `target_file_key` and the `is_single_object` flag to locate the correct file and apply edits appropriately based on its dynamically generated or static configuration for that target.
 
 ### III. `action`
 
-Defines the operation:
+Defines the operation: `"update"`, `"add"`, `"delete"`.
 
-*   `"update"`: Modifies an existing record or a single-object file using a series of patch operations defined in the `payload`. Requires `identifier` (for list/map/dynamic-key single-object files) and `payload` (as an array of operations).
-    
-*   `"add"`: Adds a new, entirely separate record/entry. Requires `payload` (as the complete new object/value). For object maps or dynamic-key single objects, `identifier` specifies the new key.
-    
-*   `"delete"`: Removes an existing record/entry or top-level keys from a single-object file. Requires `identifier`.
-    
+### IV. `identifier`
 
-### IV. `identifier` (for "update" and "delete", and "add" to object maps/dynamic-key single objects)
+Uniquely locates records or target keys.
 
-Uniquely locates the record or target keys.
-
-*   For SAGA Index files (list-based, e.g., `target_file_key: "vehicles"`, ensure `is_single_object: false` or omitted):
+*   For SAGA Index files (list-based, `is_single_object: false` or omitted):
     
-    *   `"id"` (string, optional but preferred if the record has a unique ID field).
+    *   Preferred: `{"id":"unique_item_id"}`
         
-    *   `"name"` (string, required if `"id"` is not used/available).
+    *   Fallback: `{"name":"Item Name", "source_book":"CR", "page":123}`
         
-    *   `"source_book"` (string, recommended if using `"name"`).
+    *   For `"add"` to lists, `identifier` is not used by the script.
         
-    *   `"page"` (integer or string, optional, for further disambiguation if using `"name"` and `"source_book"`).
-        
-    *   For `"add"` to these lists, the `identifier` is typically not used by the script.
-        
-    *   Example for update/delete (preferred): `{"id":"laati_gunship_cr"}`
-        
-*   For NPC Profile collections (list-based or object map, `is_single_object: false` or omitted):
+*   For NPC Profile collections (`is_single_object: false` or omitted):
     
-    *   If targeting `...#pcs`: `{"pc_id": "PC001"}`
+    *   `...#pcs`: `{"pc_id": "PC001"}`
         
-    *   If targeting `...#npcs`: `{"npc_id": "NPC001"}`
+    *   `...#factions` (object map): `{"faction_id": "FACTION_ID_001"}` (also for "add" key)
         
-    *   If targeting `...#factions` (object map): `{"faction_id": "FACTION_ID_001"}` (also used as the key for "add")
-        
-    *   If targeting `...#npc_stat_blocks`: `{"npc_id_ref": "NPC001"}`
-        
-*   For 'Single Object' files (when `is_single_object: true` in the edit request):
+*   For 'Single Object' files (when `is_single_object: true`):
     
-    *   Type A (Config-like, e.g., `class_rules.json` where payload keys are literal top-level keys):
+    *   Type A (Config-like, e.g., content of `class_rules_data`):
         
-        *   For `action: "update"`: `identifier` is not used by the script (patches apply to root). Can be `{}`.
+        *   `action: "update"`: `identifier` is not used.
             
-        *   For `action: "add"` (adding/replacing top-level keys): `identifier` is not used. Payload keys are targets.
+        *   `action: "add"` (adding top-level keys within the `*_data` wrapper content): `identifier` is not used.
             
-        *   For `action: "delete"`: `identifier` must contain `{"keys_to_delete": ["key1_to_remove"]}`.
+        *   `action: "delete"`: `identifier` must be `{"keys_to_delete": ["key1_to_remove_from_wrapper_content"]}`.
             
-    *   Type B (Dynamic-key root object, e.g., a hypothetical `ship_manifest.json` structured as `{"ship_id_1":{...}, ...}`):
+    *   Type B (Dynamic-key object within wrapper, e.g., if `vehicles_data` contained a map of vehicle IDs):
         
-        *   For `action: "update"` or `action: "delete"`: `identifier` uses the key (e.g., `{"id": "ship_id_1"}`).
+        *   `action: "update"` or `action: "delete"`: `identifier` uses the key (e.g., `{"id": "vehicle_id_key"}`).
             
-        *   For `action: "add"`: `identifier` is not strictly needed if the key is derived from `payload.id`. Can be `{}`.
+        *   `action: "add"`: `identifier` not needed if key is from `payload.id`.
             
 
 ### V. `payload`
 
 *   For `"add"` action:
     
-    *   List-based files/collections: `payload` is the complete new record object itself.
+    *   To a LIST (e.g., `vehicle_list` in `vehicles_data`): `payload` is the complete new record object itself.
         
-    *   Object maps (e.g., `...#factions`): `identifier` specifies the new key. `payload` is the complete new value object.
+    *   To an OBJECT MAP (e.g., `factions` in `WIDT_NPCS.json`): `identifier` specifies the new key. `payload` is the complete new value object.
         
-    *   'Single Object' files (Type A - config-like): `payload` is an object where its keys are new top-level keys to add/replace in the target JSON file.
+    *   To 'Single Object' content (Type A - config-like, `is_single_object: true`): `payload` is an object where its keys are new keys to add/replace within the `*_data` wrapper's content.
         
-    *   'Single Object' files (Type B - dynamic-key root): `payload` is the complete new record object. The script uses `payload[config.id_field]` as the new top-level key.
+    *   To 'Single Object' content (Type B - dynamic-key, `is_single_object: true`): `payload` is the complete new record object. Script uses `payload[config.id_field]` as the new key within the `*_data` wrapper's content.
         
 *   For `"update"` action:
     
-    *   The `payload` is an array of patch operation objects. Each object specifies a single atomic change.
+    *   `payload` is an array of patch operation objects: `{"op": "string", "path": "string", "value": "any"}`
         
-    *   Patch Operation Object Structure:
-        
-            {"op": "string", "path": "string", "value": "any"}
+        *   `"op"`: `"replace"`, `"add"`, `"remove"`.
             
-        
-        *   `"op"`: Operation - `"replace"`, `"add"`, `"remove"`.
+        *   `"path"`: JSON Pointer string (RFC 6901).
             
-        *   `"path"`: JSON Pointer string (RFC 6901) to the target field.
-            
-            *   For list-based items, path is relative to the identified item.
+            *   For list-based items (`is_single_object: false` or omitted): Path is relative to the identified record object. (e.g., to change the `name` of a feat, path is `"/name"`).
                 
-            *   For single-object files, path is from the root of the file's main content object.
+            *   For single-object content (`is_single_object: true`): Path is relative to the content of the `*_data` wrapper. (e.g., if `skill_rules.json` has `{"skill_rules_data": {"general_info": "..."}}`, to update `general_info`, the path is `"/general_info"`). Do NOT include the `*_data` wrapper key itself in these paths.
                 
-        *   `"value"`: The new value. Required for `"replace"` and `"add"`. Omitted for `"remove"`.
+        *   `"value"`: New value for "replace"/"add". Omitted for "remove".
             
-    *   JSON Pointer Paths (`path`): Start with `/`. Segments separated by `/`. (e.g., `/memberName`, `/arrayName/index`, `/arrayName/-` to append). Special characters `~` and `/` in segments are encoded as `~0` and `~1`.
+    *   JSON Pointer Paths (`path`): Start with `/`. Segments separated by `/`. Special characters `~` and `/` in segments are encoded as `~0` and `~1`.
         
 
 Field Naming and Data Types in `value`:
 
-*   `snake_case` for field names.
-    
-*   Adhere to target's JSON schema.
+*   `snake_case` for field names. Adhere to schemas.
     
 
 ### VI. Examples
 
-1\. Update Armor Cost and Add a Note (SAGA Index list file):
+1\. Add a Vehicle to `vehicles.json` (as a SAGA Index list file):
 
     {
-      "target_file_key": "armor", "action": "update", "identifier": {"name": "Combat Jumpsuit", "source_book": "CR"},
-      "payload": [
-        {"op": "replace", "path": "/cost", "value": {"text_original": "1250 credits", "options": [{"type": "fixed_amount", "value": 1250}], "selection_logic": null}},
-        {"op": "add", "path": "/availability", "value": "Common"},
-        {"op": "add", "path": "/designer_notes", "value": "Standard issue for planetary militias."}
-      ]
-    }
-    
-    
-
-2\. Update a Nested Description in `class_rules.json` (Single Object file):
-
-    {
-      "target_file_key": "class_rules", "action": "update", "is_single_object": true,
-      "payload": [
-        {"op": "replace", "path": "/class_rules_data/multiclass_characters/description", "value": "A new, concise description of multiclassing."}
-      ]
-    }
-    
-    
-
-3\. Add a New Vehicle to `vehicles.json` (as a SAGA Index list file; `is_single_object: false` or omitted):
-
-    {
-      "target_file_key": "vehicles", "action": "add",
+      "target_file_key": "vehicles",
+      "action": "add", 
+      "is_single_object": false, 
       "payload": {
-        "id": "laati_gunship_cr", "name": "LAAT/i Gunship", "source_book": "CR", "page": 176 
+        "id": "laati_gunship_cr", 
+        "name": "LAAT/i Gunship", 
+        "source_book": "CR", 
+        "page": 176 
         /*...other vehicle data...*/
       }
     }
     
-    
 
-4\. Add an entry to a hypothetical `ship_manifest.json` (Single Object with dynamic keys from payload's "id"):
-
-    {
-      "target_file_key": "ship_manifest", "action": "add", "is_single_object": true,
-      "payload": {
-        "id": "millennium_falcon_yt1300", "name": "Millennium Falcon", "class": "YT-1300 light freighter" 
-        /*...rest of object...*/
-      }
-    }
-    
-    
-
-5\. Remove a Specific Special Quality from a Feat and Change its Benefit Summary:
+2\. Update a Nested Description in `class_rules.json` (Single Object content within `class_rules_data`):
 
     {
-      "target_file_key": "feats", "action": "update", "identifier": { "name": "Powerful Charge", "source_book": "CR" },
+      "target_file_key": "class_rules",
+      "action": "update",
+      "is_single_object": true,
       "payload": [
-        { "op": "remove", "path": "/special_qualities/1" },
-        { "op": "replace", "path": "/benefit_summary", "value": "New benefit summary after removing one quality." }
+        {"op": "replace", "path": "/multiclass_characters/description", "value": "A new, concise description of multiclassing."}
       ]
     }
     
+
+_(Path is relative to the content of `class_rules_data`)_
+
+3\. Update a specific skill application in `skills.json` (SAGA Index list file):
+
+    {
+      "target_file_key": "skills",
+      "action": "update",
+      "is_single_object": false,
+      "identifier": { "id": "acrobatics_cr" },
+      "payload": [
+        { "op": "replace", "path": "/common_uses/4/description", "value": "Updated description for Acrobatics common use at index 4."}
+      ]
+    }
     
 
-_(Note: `/special_qualities/1` assumes the quality to remove is at index 1 of the array.)_
+_(Path is relative to the "acrobatics\_cr" skill object found in `skills_list`)_
 
 Version Log
 -----------
 
 _This section is for tracking changes to these instructions. For the script's version log, see the comments within the `json_updater.py` file._
 
+*   Version 5.2 (2025-06-04):
+    
+    *   CRITICAL CLARIFICATION for `path` in "update" operations (Section V): Explicitly stated that for `is_single_object: true` files that have a `*_data` wrapper (like `class_rules.json`), the JSON Pointer `path` must be relative to the _content of that wrapper_, not starting with the wrapper key itself. Example 2 updated for `class_rules.json`.
+        
+    *   Minor clarifications on identifier usage for different file types.
+        
 *   Version 5.1 (2025-05-30):
     
-    *   Reformatted JSON examples in Section I and VI for improved human readability, using multi-lines for edit request objects and their primary keys, while keeping individual patch operations compact.
+    *   Reformatted JSON examples in Section I and VI for improved human readability.
         
 *   Version 5.0 (2025-05-27):
     
-    *   Major Change: Replaced "update" `payload` structure. It is now an array of patch operations (op, path, value), similar to JSON Patch, for granular updates to both list-based records and single-object files.
+    *   Major Change: Replaced "update" `payload` structure to be an array of patch operations.
         
-    *   Updated Sections I, III, V, and VI (Examples) to reflect the new path-based update mechanism.
-        
-*   Version 4.x (Prior to 2025-05-27):
-    
-    *   Included clarifications on `is_single_object` flag usage, `identifier` and `payload` distinctions for various file types (config-like single objects vs. dynamic-key root objects vs. list-based), and handling of multi-collection files. Added versioning to the document.
-
+*   (Older version log entries omitted for brevity)
