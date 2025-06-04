@@ -1,4 +1,5 @@
 {
+  "last_modified": "2025-06-04T15:15:30",
   "feats_data": {
     "description": "Compilation of Feats for Star Wars SAGA Edition.",
     "feats_list": [
@@ -40,6 +41,9 @@
         ],
         "prerequisites_text": "DEX 13, Dodge, Vehicular Combat, Trained in Pilot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/A_Few_Maneuvers"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -72,6 +76,9 @@
         ],
         "prerequisites_text": "BAB +6",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Accelerated_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -117,6 +124,9 @@
         ],
         "prerequisites_text": "Dex 13, Str 13, trained in Acrobatics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Acrobatic_Ally"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -171,6 +181,9 @@
         ],
         "prerequisites_text": "DEX 13, Dodge, Mobility, Skill Focus (Acrobatics), trained in Acrobatics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Acrobatic_Dodge"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -211,6 +224,9 @@
         "prerequisites_text": "Trained in Acrobatics",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Acrobatic_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -240,6 +256,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Adaptable_Talent"
+        ],
         "type": [
           "talent"
         ]
@@ -269,6 +288,9 @@
         ],
         "prerequisites_text": "BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Advantageous_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -305,6 +327,9 @@
         ],
         "prerequisites_text": "Trained in Stealth",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Advantageous_Cover"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -348,6 +373,9 @@
         ],
         "prerequisites_text": "Droid, Point Blank Shot, Precise Shot, proficient with weapon.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Aiming_Accuracy"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -379,6 +407,9 @@
         ],
         "prerequisites_text": "Ewok",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ample_Foraging"
+        ],
         "type": [
           "defensive",
           "fortitude defense",
@@ -411,6 +442,9 @@
         ],
         "prerequisites_text": "Dex 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Angled_Throw"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -441,6 +475,9 @@
         ],
         "prerequisites_text": "Nelvaanian species",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Anointed_Hunter"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -471,6 +508,9 @@
         ],
         "prerequisites_text": "Trained in Swim",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GaW_Military_Heroes"
+        ],
         "type": [
           "skill(swim)",
           "support",
@@ -511,6 +551,9 @@
         "prerequisites_text": "Armor Proficiency (light), Armor Proficiency (medium)",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Armor_Proficiency_(Heavy)"
+        ],
         "type": [
           "armor",
           "combat",
@@ -547,6 +590,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Armor_Proficiency_(Light)"
+        ],
         "type": [
           "armor",
           "combat",
@@ -586,6 +632,9 @@
         "prerequisites_text": "Armor Proficiency (light)",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Armor_Proficiency_(Medium)"
+        ],
         "type": [
           "armor",
           "combat",
@@ -620,6 +669,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Artillery_Shot"
+        ],
         "type": [
           "burst",
           "combat",
@@ -657,6 +709,9 @@
         ],
         "prerequisites_text": "Trained in Climb",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(climb)",
           "support",
@@ -690,6 +745,9 @@
         ],
         "prerequisites_text": "Double Attack or Dual Weapon Mastery I, BAB +6",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Assault"
+        ],
         "type": [
           "combat",
           "fired",
@@ -722,6 +780,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Assured_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -766,6 +827,9 @@
         ],
         "prerequisites_text": "Attack Combo (Melee), Attack Combo (Ranged), BAB +9",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Attack_Combo"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -801,6 +865,9 @@
         ],
         "prerequisites_text": "BAB +3",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Attack_Combo_(Melee)"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -836,6 +903,9 @@
         ],
         "prerequisites_text": "BAB +3",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Attack_Combo_(Ranged)"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -868,6 +938,9 @@
         ],
         "prerequisites_text": "Weapon Focus",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Autofire_Assault"
+        ],
         "type": [
           "autofire",
           "combat",
@@ -899,6 +972,9 @@
         ],
         "prerequisites_text": "Weapon Focus",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Autofire_Sweep"
+        ],
         "type": [
           "autofire",
           "combat",
@@ -926,6 +1002,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bad_Feeling"
+        ],
         "type": [
           "combat",
           "mobility"
@@ -962,6 +1041,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bantha_Herder"
+        ],
         "type": [
           "combat",
           "damage",
@@ -1011,6 +1093,9 @@
         "prerequisites_text": "Str 13, base attack bonus +1",
         "special_note": null,
         "special_text": "Unleashed: When you use the Bantha Rush feat, you can spend a Destiny Point to automatically increase the distance you move your target by 5 squares and knock your target prone. (This 'Unleashed' text is often associated with this feat, e.g. Force Unleashed Campaign Guide, though not in the CRB p.83 description itself).",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bantha_Rush"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -1065,6 +1150,9 @@
         ],
         "prerequisites_text": "STR 13, BAB +1, Bantha Rush, Trip",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Battering_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -1095,6 +1183,9 @@
         ],
         "prerequisites_text": "Cerean",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Binary_Mind"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -1127,6 +1218,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Biotech_Specialist"
+        ],
         "type": [
           "craft",
           "skill(mechanics"
@@ -1156,6 +1250,9 @@
         ],
         "prerequisites_text": "Trained in Treat Injury",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Biotech_Surgery"
+        ],
         "type": [
           "skill(treat injury)"
         ]
@@ -1189,6 +1286,9 @@
         ],
         "prerequisites_text": "Coordinated Attack, BAB +2",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Blaster_Barrage"
+        ],
         "type": [
           "autofire",
           "combat",
@@ -1231,6 +1331,9 @@
         ],
         "prerequisites_text": "Crush, Pin, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bone_Crusher"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -1261,6 +1364,9 @@
         ],
         "prerequisites_text": "Bothan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bothan_Will"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -1290,6 +1396,9 @@
         ],
         "prerequisites_text": "Wookiee",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bowcaster_Marksman"
+        ],
         "type": [
           "bowcaster",
           "combat",
@@ -1324,6 +1433,9 @@
         ],
         "prerequisites_text": "Int 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Brilliant_Defense"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -1350,6 +1462,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Brink_of_Death"
+        ],
         "type": [
           "combat",
           "damage",
@@ -1393,6 +1508,9 @@
         "prerequisites_text": "Proficient with heavy weapons, proficient with weapon",
         "special_note": null,
         "special_text": "Firing a burst expends five shots and can only be done if the weapon has at least five shots remaining. If you do not have a Strength of 13 or higher, increase the penalty on attacks to –10 when using this feat with non-vehicle weapons. (Errata p.290)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Burst_Fire"
+        ],
         "type": [
           "SotG",
           "autofire",
@@ -1436,6 +1554,9 @@
         ],
         "prerequisites_text": "Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Soldier)"
+        ],
         "type": [
           "combat",
           "mobility",
@@ -1477,6 +1598,9 @@
         "prerequisites_text": "Point Blank Shot, base attack bonus +2",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Careful_Shot"
+        ],
         "type": [
           "SotG",
           "aim",
@@ -1517,6 +1641,9 @@
         ],
         "prerequisites_text": "Rage",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Channel_Rage"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -1555,6 +1682,9 @@
         "prerequisites_text": "Base attack bonus +4",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Charging_Fire"
+        ],
         "type": [
           "charge",
           "combat",
@@ -1598,6 +1728,9 @@
         ],
         "prerequisites_text": "Combo, requires Dodge",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cloud_\"Slinky\"_Wii'Tuc"
+        ],
         "type": [
           "charge",
           "combat",
@@ -1634,6 +1767,9 @@
         ],
         "prerequisites_text": "Quarren",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Clawed_Subspecies"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -1679,6 +1815,9 @@
         "prerequisites_text": "Strength 13, Power Attack",
         "special_note": null,
         "special_text": "Unleashed: When you deal enough damage to an opponent to reduce its hit points to 0, you can spend a Destiny Point to get an immediate extra melee attack against all opponents within your reach. This feat works in all other ways as the Cleave feat. (This 'Unleashed' text is from Force Unleashed Campaign Guide, not CRB.)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cleave"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -1717,6 +1856,9 @@
         ],
         "prerequisites_text": "Trained in Acrobatics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Close_Combat_Escape"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -1756,6 +1898,9 @@
         ],
         "prerequisites_text": "Rapid Shot, BAB +6",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Collateral_Damage"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -1789,6 +1934,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Combat_Reflexes"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -1829,6 +1977,9 @@
         ],
         "prerequisites_text": "Trained in Deception",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Combat_Trickery"
+        ],
         "type": [
           "combat",
           "flat-footed",
@@ -1869,6 +2020,9 @@
         ],
         "prerequisites_text": "Str 13, Con 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Conditioning"
+        ],
         "type": [
           "constitution",
           "defensive",
@@ -1899,6 +2053,9 @@
         ],
         "prerequisites_text": "Bothan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Confident_Success"
+        ],
         "type": [
           "skill(gather information)",
           "species(bothan)"
@@ -1927,6 +2084,9 @@
         ],
         "prerequisites_text": "Rage",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Controlled_Rage"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -1962,6 +2122,9 @@
         "prerequisites_text": "Base attack bonus +2",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Coordinated_Attack"
+        ],
         "type": [
           "SotG",
           "aid fire",
@@ -2011,6 +2174,9 @@
         ],
         "prerequisites_text": "BAB +5, Coordinated Attack",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Coordinated_Barrage"
+        ],
         "type": [
           "aid fire",
           "combat",
@@ -2044,6 +2210,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cornered"
+        ],
         "type": [
           "attack rolls",
           "combat",
@@ -2077,6 +2246,9 @@
         ],
         "prerequisites_text": "Trained in Stealth",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(stealth)",
           "support",
@@ -2117,6 +2289,9 @@
         ],
         "prerequisites_text": "BAB +9, Weapon Focus (chosen melee weapon), proficient with chosen melee weapon*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Critical_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -2160,6 +2335,9 @@
         ],
         "prerequisites_text": "BAB +6, Point Blank Shot, Precise Shot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Crossfire"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -2202,6 +2380,9 @@
         "prerequisites_text": "Pin, base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Crush"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -2234,6 +2415,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cunning_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -2268,6 +2452,9 @@
         ],
         "prerequisites_text": "Trained in Knowledge (bureaucracy)",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Noble)"
+        ],
         "type": [
           "skill(knowledge (bureaucracy))"
         ]
@@ -2301,6 +2488,9 @@
         "prerequisites_text": "Trained in Treat Injury",
         "special_note": null,
         "special_text": "You can install a cybernetic prosthesis on yourself, but you take a -5 penalty on the Treat Injury skill check. If you have the Surgical Expertise feat (see page 88), you can install a cybernetic prosthesis in 10 minutes instead of 1 hour. [CRB p.85, cite: 568-569]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cybernetic_Surgery"
+        ],
         "type": [
           "skill(treat injury)"
         ],
@@ -2337,6 +2527,9 @@
         ],
         "prerequisites_text": "Droid, Dex 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Damage_Conversion"
+        ],
         "type": [
           "combat",
           "damage threshold",
@@ -2367,6 +2560,9 @@
         ],
         "prerequisites_text": "Sullustan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Darkness_Dweller"
+        ],
         "type": [
           "species(sullustan)"
         ]
@@ -2410,6 +2606,9 @@
         "prerequisites_text": "Point Blank Shot, Precise Shot, base attack bonus +4",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deadeye"
+        ],
         "type": [
           "SotG",
           "aim",
@@ -2472,6 +2671,9 @@
         ],
         "prerequisites_text": "BAB +9, Sniper, trained in Stealth, Point Blank Shot, Precise Shot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deadly_Sniper"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -2505,6 +2707,9 @@
         ],
         "prerequisites_text": "Trained in Initiative",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deceptive_Drop"
+        ],
         "type": [
           "combat",
           "damage",
@@ -2539,6 +2744,9 @@
         ],
         "prerequisites_text": "Quarren",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deep_Sight"
+        ],
         "type": [
           "species(quarren)"
         ]
@@ -2564,6 +2772,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deft_Charge"
+        ],
         "type": [
           "charge",
           "mobility"
@@ -2595,6 +2806,9 @@
         ],
         "prerequisites_text": "Cha 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Demoralizing_Strike"
+        ],
         "type": [
           "attack of opportunity",
           "charisma",
@@ -2626,6 +2840,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Desperate_Gambit"
+        ],
         "type": [
           "attack roll",
           "combat",
@@ -2656,6 +2873,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Destructive_Force"
+        ],
         "type": [
           "combat",
           "damage",
@@ -2688,6 +2908,9 @@
         ],
         "prerequisites_text": "Ithorian",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Devastating_Bellow"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -2721,6 +2944,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Disabler"
+        ],
         "type": [
           "combat",
           "fired)",
@@ -2751,6 +2977,9 @@
         ],
         "prerequisites_text": "Sullustan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Disarming_Charm"
+        ],
         "type": [
           "skill(deception)",
           "skill(persuasion)",
@@ -2780,6 +3009,9 @@
         ],
         "prerequisites_text": "Droid",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Distracting_Droid"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -2813,6 +3045,9 @@
         ],
         "prerequisites_text": "trained in Deception",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Disturbing_Presence"
+        ],
         "type": [
           "skill(deception)",
           "tumble"
@@ -2844,6 +3079,9 @@
         ],
         "prerequisites_text": "Trained in Jump",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Duck_and_Cover"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -2884,6 +3122,9 @@
         "prerequisites_text": "Dexterity 13",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dodge"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -2924,6 +3165,9 @@
         ],
         "prerequisites_text": "Combo, requires Charging Fire",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Combined_Feats"
+        ],
         "type": [
           "attack roll",
           "charge",
@@ -2963,6 +3207,9 @@
         ],
         "prerequisites_text": "Combo, requires Running Attack",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Zeltron_Thrill-Seeker"
+        ],
         "type": [
           "combat",
           "combo",
@@ -3011,6 +3258,9 @@
         "prerequisites_text": "Base attack bonus +6, proficient with chosen weapon",
         "special_note": null,
         "special_text": "You may select this feat multiple times. Each time you select this feat, it applies to a different exotic weapon or weapon group. [CRB p.85, cite: 572]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Double_Attack"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -3059,6 +3309,9 @@
         ],
         "prerequisites_text": "Cha 13, Sith",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dreadful_Countenance"
+        ],
         "type": [
           "x"
         ]
@@ -3093,6 +3346,9 @@
         "prerequisites_text": "Rage species trait, base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dreadful_Rage"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -3127,6 +3383,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics & Use Computer",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droid_Focus"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -3163,6 +3422,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droid_Hunter"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -3199,6 +3461,9 @@
         ],
         "prerequisites_text": "Droid, equipped with shield generator",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droid_Shield_Mastery"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -3231,6 +3496,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droidcraft"
+        ],
         "type": [
           "skill(mechanics"
         ]
@@ -3271,6 +3539,9 @@
         "prerequisites_text": "Dexterity 13, base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dual_Weapon_Mastery_I"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -3317,6 +3588,9 @@
         ],
         "prerequisites_text": "Combo, requires Quick Draw",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sluissi_Mandalorian_Soldier"
+        ],
         "type": [
           "combat",
           "combo",
@@ -3370,6 +3644,9 @@
         "prerequisites_text": "Dexterity 15, base attack bonus +6, Dual Weapon Mastery I",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dual_Weapon_Mastery_II"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -3430,6 +3707,9 @@
         "prerequisites_text": "Dexterity 17, base attack bonus +11, Dual Weapon Mastery I, Dual Weapon Mastery II",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dual_Weapon_Mastery_III"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -3473,6 +3753,9 @@
         ],
         "prerequisites_text": "Trained in Stealth",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Scoundrel)"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -3507,6 +3790,9 @@
         ],
         "prerequisites_text": "Dex 13, Martial Arts I",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Echani_Training"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -3543,6 +3829,9 @@
         ],
         "prerequisites_text": "Dex 13, Martial Arts I",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Echani_Training"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -3576,6 +3865,9 @@
         ],
         "prerequisites_text": "Skill Focus (Knowledge [social sciences]) or (Knowledge [galactic lore]).",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Elder's_Knowledge"
+        ],
         "type": [
           "skill(galactic lore)",
           "skill(social sciences)",
@@ -3620,6 +3912,9 @@
         ],
         "prerequisites_text": "Droid, equipped with hovering locomotion or flying locomotion, Dex 13, Dodge.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Erratic_Target"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -3658,6 +3953,9 @@
         "prerequisites_text": "Base attack bonus +1",
         "special_note": null,
         "special_text": "You can gain this feat multiple times. Each time you take the feat, it applies to a different weapon. [CRB p.85, cite: 578]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Exotic_Weapon_Proficiency"
+        ],
         "type": [
           "atlatl",
           "bowcaster",
@@ -3701,6 +3999,9 @@
         ],
         "prerequisites_text": "Trained in Treat Injury",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Experienced_Medic"
+        ],
         "type": [
           "skill(treat injury)"
         ]
@@ -3731,6 +4032,9 @@
         ],
         "prerequisites_text": "Cha 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Expert_Briber"
+        ],
         "type": [
           "charisma",
           "trade"
@@ -3761,6 +4065,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Expert_Droid_Repair"
+        ],
         "type": [
           "skill(mechanics"
         ]
@@ -3791,6 +4098,9 @@
         "prerequisites_text": "Rage species trait",
         "special_note": null,
         "special_text": "You can take this feat multiple times; each time you take the feat, you can rage one additional time per day. [CRB p.86, cite: 579]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extra_Rage"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -3827,6 +4137,9 @@
         "prerequisites_text": "Trained in Endurance",
         "special_note": null,
         "special_text": "A nonheroic character that takes this feat for the first time can catch a second wind once per day. You can take this feat multiple times; each time you take this feat, you can catch a second wind one additional time per day. [CRB p.86, cite: 580]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extra_Second_Wind"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -3870,6 +4183,9 @@
         "prerequisites_text": "Point Blank Shot",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Far_Shot"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -3908,6 +4224,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fast_Surge"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -3936,6 +4255,9 @@
         ],
         "prerequisites_text": "Mon Calamari",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fast_Swimmer"
+        ],
         "type": [
           "species(mon calamari)"
         ]
@@ -3973,6 +4295,9 @@
         ],
         "prerequisites_text": "Str 13, Dex 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fatal_Hit"
+        ],
         "type": [
           "combat",
           "damage",
@@ -4017,6 +4342,9 @@
         ],
         "prerequisites_text": "Str 15",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Feats"
+        ],
         "type": [
           "skill(general)",
           "strength"
@@ -4042,6 +4370,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Jedi)"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -4068,6 +4399,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Scout)"
+        ],
         "type": [
           "burst",
           "combat",
@@ -4103,6 +4437,9 @@
         ],
         "prerequisites_text": "Duros",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Flawless_Pilot"
+        ],
         "type": [
           "skill(pilot)",
           "species(duros)",
@@ -4142,6 +4479,9 @@
         ],
         "prerequisites_text": "Running Attack, DEX 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fleet-Footed"
+        ],
         "type": [
           "mobility"
         ]
@@ -4170,6 +4510,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Johana_\"Valkyrie\"_Forto"
+        ],
         "type": [
           "autofire",
           "combat",
@@ -4204,6 +4547,9 @@
         ],
         "prerequisites_text": "Dex 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Flurry"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -4238,6 +4584,9 @@
         ],
         "prerequisites_text": "BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Flèche"
+        ],
         "type": [
           "charge",
           "combat",
@@ -4276,6 +4625,9 @@
         ],
         "prerequisites_text": "Rage, Controlled Rage",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Focused_Rage"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -4299,6 +4651,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Follow_Through"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -4334,6 +4689,9 @@
         "prerequisites_text": "Force Sensitivity",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Boon"
+        ],
         "type": [
           "force"
         ],
@@ -4360,6 +4718,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Readiness"
+        ],
         "type": [
           "force"
         ]
@@ -4391,6 +4752,9 @@
         ],
         "prerequisites_text": "Force Sensitivity, Trained in Use Force",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Regimen_Mastery"
+        ],
         "type": [
           "force",
           "skill(use the force)"
@@ -4425,6 +4789,9 @@
         "prerequisites_text": "Cannot be a droid",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Sensitivity"
+        ],
         "type": [
           "force"
         ],
@@ -4464,6 +4831,9 @@
         "prerequisites_text": "Force Sensitivity, trained in the Use the Force skill",
         "special_note": null,
         "special_text": "You can take this feat more than once. Each time you take this feat, you add to your Force suite a number of new Force powers equal to 1 + your Wisdom modifier. If your Wisdom modifier permanently increases, you immediately gain a number of Force powers equal to the number of Force Training feats you have taken. (Errata p.290 clarifies the number of powers gained on taking the feat again is 1 + WIS mod). [CRB p.86, cite: 584]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Training"
+        ],
         "type": [
           "force",
           "skill(use the force)"
@@ -4503,6 +4873,9 @@
         ],
         "prerequisites_text": "Combo, requires Improved Disarm",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Disarm"
+        ],
         "type": [
           "combat",
           "combo",
@@ -4541,6 +4914,9 @@
         ],
         "prerequisites_text": "Cha 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Jedi)"
+        ],
         "type": [
           "Will Defense",
           "charisma",
@@ -4580,6 +4956,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Forceful_Blast"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -4614,6 +4993,9 @@
         ],
         "prerequisites_text": "Force Sensitivity, Force Training",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Forceful_Recovery"
+        ],
         "type": [
           "force",
           "second wind"
@@ -4641,6 +5023,9 @@
         ],
         "prerequisites_text": "Ewok",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Forest_Stalker"
+        ],
         "type": [
           "skill(stealth)",
           "species(ewok)"
@@ -4672,6 +5057,9 @@
         ],
         "prerequisites_text": "Con 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fortifying_Recovery"
+        ],
         "type": [
           "combat",
           "constitution",
@@ -4704,6 +5092,9 @@
         ],
         "prerequisites_text": "Trained in Gather Information",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bonus_Feats_(Scoundrel)"
+        ],
         "type": [
           "skill(gather information)",
           "trade"
@@ -4749,6 +5140,9 @@
         ],
         "prerequisites_text": "BAB +4, Str 13, Cleave, Power Attack",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Frightening_Cleave"
+        ],
         "type": [
           "cleave",
           "combat",
@@ -4780,6 +5174,9 @@
         ],
         "prerequisites_text": "Rodian",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fringe_Benefits"
+        ],
         "type": [
           "species(rodian)",
           "trade"
@@ -4804,6 +5201,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Galactic_Alliance_Military_Training"
+        ],
         "type": [
           "combat",
           "damage threshold",
@@ -4830,6 +5230,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gearhead"
+        ],
         "type": [
           "skill(mechanics",
           "skill(use computer)"
@@ -4860,6 +5263,9 @@
         ],
         "prerequisites_text": "Dex 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Grab_Back"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -4892,6 +5298,9 @@
         ],
         "prerequisites_text": "proficient with armor worn",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Coruscant_Guard_Squad"
+        ],
         "type": [
           "Will Defense",
           "armor",
@@ -4919,6 +5328,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Grapple_Resistance"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -4949,6 +5361,9 @@
         ],
         "prerequisites_text": "Point Blank Shot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Grazing_Shot"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -4999,6 +5414,9 @@
         "prerequisites_text": "Str 13, Power Attack, Cleave, base attack bonus +4",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Great_Cleave"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -5034,6 +5452,9 @@
         ],
         "prerequisites_text": "Gungan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gungan_Weapon_Master"
+        ],
         "type": [
           "atlatl",
           "cesta",
@@ -5069,6 +5490,9 @@
         ],
         "prerequisites_text": "BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gunnery_Specialist"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -5117,6 +5541,9 @@
         ],
         "prerequisites_text": "Trip, Weapon Focus in selected weapon, Weapon Proficiency in selected weapon*, BAB +8.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Halt"
+        ],
         "type": [
           "Attack of Opportunity",
           "combat",
@@ -5149,6 +5576,9 @@
         ],
         "prerequisites_text": "Tech Specialist",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hasty_Modification"
+        ],
         "type": [
           "craft",
           "skill(mechanics",
@@ -5184,6 +5614,9 @@
         ],
         "prerequisites_text": "Weapon Focus (heavy weapons), Weapon Proficiency (heavy weapons).",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Heavy_Hitter"
+        ],
         "type": [
           "combat",
           "heavy)",
@@ -5214,6 +5647,9 @@
         ],
         "prerequisites_text": "Shapeshift",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hideous_Visage"
+        ],
         "type": [
           "skill(deception)",
           "species(shapeshifter)"
@@ -5247,6 +5683,9 @@
         ],
         "prerequisites_text": "Combat Reflexes, Martial Arts I",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hijkata_Training"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -5292,6 +5731,9 @@
         ],
         "prerequisites_text": "Sneak Attack, Rapid Shot, or Rapid Strike",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hobbling_Strike"
+        ],
         "type": [
           "combat",
           "damage",
@@ -5327,6 +5769,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hold_Together"
+        ],
         "type": [
           "skill(mechanics)"
         ]
@@ -5353,6 +5798,9 @@
         ],
         "prerequisites_text": "Rodian",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hunter's_Instincts"
+        ],
         "type": [
           "skill(perception))",
           "species(rodian)"
@@ -5382,6 +5830,9 @@
         ],
         "prerequisites_text": "Trained in Use Computer",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hyperblazer"
+        ],
         "type": [
           "skill(use computer)"
         ]
@@ -5408,6 +5859,9 @@
         ],
         "prerequisites_text": "Twi'lek",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Imperceptible_Liar"
+        ],
         "type": [
           "skill(deception)",
           "species(twi’lek)"
@@ -5432,6 +5886,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Imperial_Military_Training"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -5464,6 +5921,9 @@
         ],
         "prerequisites_text": "Shapeshift species trait, Skill Focus (Deception)",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Impersonate"
+        ],
         "type": [
           "skill(deception)",
           "species(shapeshifter)"
@@ -5496,6 +5956,9 @@
         ],
         "prerequisites_text": "Con 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Impetuous_Move"
+        ],
         "type": [
           "combat",
           "constitution",
@@ -5528,6 +5991,9 @@
         ],
         "prerequisites_text": "Must possess a cybernetic implant",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Implant_Training"
+        ],
         "type": [
           "x"
         ]
@@ -5567,6 +6033,9 @@
         ],
         "prerequisites_text": "Str 15, Bantha Rush, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Bantha_Rush"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -5614,6 +6083,9 @@
         "prerequisites_text": "Dexterity 13, Dodge, Mobility",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Charge"
+        ],
         "type": [
           "charge",
           "dexterity",
@@ -5645,6 +6117,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": "You can take this feat more than once. Its effects stack. Each time you take this feat, increase your damage threshold by 5. [CRB p.87, cite: 587-588]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Damage_Threshold"
+        ],
         "type": [
           "combat",
           "damage threshold",
@@ -5689,6 +6164,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Defenses"
+        ],
         "type": [
           "SotG",
           "Will Defense",
@@ -5742,6 +6220,9 @@
         "prerequisites_text": "Intelligence 13, Melee Defense",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Disarm"
+        ],
         "type": [
           "combat",
           "disarm",
@@ -5787,6 +6268,9 @@
         ],
         "prerequisites_text": "Combo, requires Force Training",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Combined_Feats"
+        ],
         "type": [
           "combat",
           "combo",
@@ -5832,6 +6316,9 @@
         ],
         "prerequisites_text": "Combat Reflexes, Opportunistic Trickery, Sneak Attack",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Opportunistic_Trickery"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -5867,6 +6354,9 @@
         ],
         "prerequisites_text": "Rapid Strike",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Rapid_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -5915,6 +6405,9 @@
         ],
         "prerequisites_text": "DEX 15, Skill Focus (Deception), trained in Deception and Stealth",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Sleight_of_Hand"
+        ],
         "type": [
           "dexterity",
           "skill(deception)",
@@ -5946,6 +6439,9 @@
         ],
         "prerequisites_text": "Weapon Proficiency (simple weapons).",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improvised_Weapon_Mastery"
+        ],
         "type": [
           "combat",
           "offensive"
@@ -5971,6 +6467,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Impulsive_Flight"
+        ],
         "type": [
           "mobility"
         ]
@@ -5997,6 +6496,9 @@
         ],
         "prerequisites_text": "Zabrak",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Inborn_Resilience"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -6043,6 +6545,9 @@
         ],
         "prerequisites_text": "Conditioning, STR 13, CON 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Increased_Agility"
+        ],
         "type": [
           "dexterity",
           "skill(climb)",
@@ -6076,6 +6581,9 @@
         ],
         "prerequisites_text": "Gamorrean",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Increased_Resistance"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -6109,6 +6617,9 @@
         ],
         "prerequisites_text": "Cha 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Indomitable_Personality"
+        ],
         "type": [
           "Will Defense",
           "charisma",
@@ -6140,6 +6651,9 @@
         ],
         "prerequisites_text": "Trained in Perception",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Informer"
+        ],
         "type": [
           "skill(gather information)",
           "skill(perception))"
@@ -6173,6 +6687,9 @@
         ],
         "prerequisites_text": "Proficient in weapon used*, living character (not a droid).",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Instinctive_Attack"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -6204,6 +6721,9 @@
         ],
         "prerequisites_text": "Living character (not a droid)",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Instinctive_Defense"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -6233,6 +6753,9 @@
         ],
         "prerequisites_text": "Zabrak",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Instinctive_Perception"
+        ],
         "type": [
           "skill(perception))",
           "species(zabrak)"
@@ -6262,6 +6785,9 @@
         ],
         "prerequisites_text": "Trained in Persuasion",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Intimidator"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -6292,6 +6818,9 @@
         ],
         "prerequisites_text": "Droid with Str 13 or cyborg with Con 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ion_Shielding"
+        ],
         "type": [
           "combat",
           "constitution)",
@@ -6318,6 +6847,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jedi_Familiarity"
+        ],
         "type": [
           "force"
         ]
@@ -6349,6 +6881,9 @@
         ],
         "prerequisites_text": "Twi'lek, Force Sensitivity",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jedi_Heritage"
+        ],
         "type": [
           "force",
           "species(twi’lek)",
@@ -6377,6 +6912,9 @@
         ],
         "prerequisites_text": "Kel Dor",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Justice_Seeker"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -6416,6 +6954,9 @@
         ],
         "prerequisites_text": "Martial Arts I, trained in Stealth",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/K'tara_Training"
+        ],
         "type": [
           "combat",
           "martial arts",
@@ -6463,6 +7004,9 @@
         ],
         "prerequisites_text": "DEX 13, BAB +1, Dual Weapon Mastery I, Martial Arts I.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/K'thri_Training"
+        ],
         "type": [
           "combat",
           "martial arts",
@@ -6492,6 +7036,9 @@
         ],
         "prerequisites_text": "Ewok",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Keen_Scent"
+        ],
         "type": [
           "species(ewok)"
         ]
@@ -6530,6 +7077,9 @@
         ],
         "prerequisites_text": "Quick Draw, Lightning Draw, trained in Stealth",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knife_Trick"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -6577,6 +7127,9 @@
         ],
         "prerequisites_text": "Str 13, Dex 13, Multi-Grab",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knock_Heads"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -6608,6 +7161,9 @@
         ],
         "prerequisites_text": "Bothan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Lasting_Influence"
+        ],
         "type": [
           "skill(persuasion)",
           "species(bothan)"
@@ -6631,6 +7187,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DE_Training_Droid"
+        ],
         "type": [
           "support"
         ]
@@ -6666,6 +7225,9 @@
         ],
         "prerequisites_text": "Quick Draw, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Lightning_Draw"
+        ],
         "type": [
           "combat",
           "fired",
@@ -6707,6 +7269,9 @@
         "prerequisites_text": "Intelligence 13",
         "special_note": null,
         "special_text": "You can take this feat more than once. Each time you take this feat, you gain a number of additional languages equal to 1 plus your Intelligence bonus (minimum of 1). [CRB p.87, cite: 588]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Linguist"
+        ],
         "type": [
           "intelligence"
         ],
@@ -6737,6 +7302,9 @@
         ],
         "prerequisites_text": "Droid",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Logic_Upgrade:_Self-Defense"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -6773,6 +7341,9 @@
         ],
         "prerequisites_text": "Droid, basic processor",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Logic_Upgrade:_Skill_Swap"
+        ],
         "type": [
           "skill(general)",
           "species(droid)"
@@ -6805,6 +7376,9 @@
         ],
         "prerequisites_text": "Droid, BAB +4",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Logic_Upgrade:_Tactician"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -6834,6 +7408,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Long_Haft_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed)",
@@ -6867,6 +7444,9 @@
         ],
         "prerequisites_text": "Charging Fire, BAB +4",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mandalorian_Training"
+        ],
         "type": [
           "Will Defense",
           "charge",
@@ -6900,6 +7480,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Maniacal_Charge"
+        ],
         "type": [
           "charge",
           "combat",
@@ -6940,6 +7523,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": "A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.87, cite: 589-590]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Martial_Arts_I"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -6995,6 +7581,9 @@
         "prerequisites_text": "Martial Arts I, base attack bonus +3",
         "special_note": null,
         "special_text": "A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.87, cite: 591]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Martial_Arts_II"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -7054,6 +7643,9 @@
         "prerequisites_text": "Martial Arts I, Martial Arts II, base attack bonus +6",
         "special_note": null,
         "special_text": "A situation that makes you lose your Dexterity bonus to Reflex Defense (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses. [CRB p.87, cite: 592-593]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Martial_Arts_III"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -7087,6 +7679,9 @@
         ],
         "prerequisites_text": "Rodian",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Master_Tracker"
+        ],
         "type": [
           "skill(survival)",
           "species(rodian)"
@@ -7123,6 +7718,9 @@
         ],
         "prerequisites_text": "trained in Deception, Cha 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/An'ya_Kuro,_Jedi_Master"
+        ],
         "type": [
           "charisma",
           "skill(deception)"
@@ -7163,6 +7761,9 @@
         ],
         "prerequisites_text": "Point Blank Shot, Precise Shot, BAB +4",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Meat_Shield"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -7200,6 +7801,9 @@
         ],
         "prerequisites_text": "Droid, Martial Arts I, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mechanical_Martial_Arts"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -7229,6 +7833,9 @@
         ],
         "prerequisites_text": "Trained in Treat Injury",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(treat injury)",
           "support",
@@ -7271,6 +7878,9 @@
         "prerequisites_text": "Intelligence 13",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Melee_Defense"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -7318,6 +7928,9 @@
         ],
         "prerequisites_text": "Con 13, shapeshift, trained Deception",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Metamorph"
+        ],
         "type": [
           "species(shapeshifter)"
         ]
@@ -7353,6 +7966,9 @@
         "prerequisites_text": "Strength 13",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mighty_Swing"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -7391,6 +8007,9 @@
         ],
         "prerequisites_text": "Str 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mighty_Throw"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -7423,6 +8042,9 @@
         ],
         "prerequisites_text": "Cerean",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mind_of_Reason"
+        ],
         "type": [
           "intelligence",
           "skill(general)",
@@ -7452,6 +8074,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mission_Specialist"
+        ],
         "type": [
           "skill(general)"
         ]
@@ -7493,6 +8118,9 @@
         "prerequisites_text": "Dexterity 13, Dodge",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mobility"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -7526,6 +8154,9 @@
         ],
         "prerequisites_text": "Trained in Pilot or Ride",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Momentum_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -7561,6 +8192,9 @@
         ],
         "prerequisites_text": "Mon Calamari",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mon_Calamari_Shipwright"
+        ],
         "type": [
           "combat",
           "skill(mechanics",
@@ -7594,6 +8228,9 @@
         ],
         "prerequisites_text": "Trained in Ride",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mounted_Combat"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -7623,6 +8260,9 @@
         ],
         "prerequisites_text": "Trained in Pilot or Ride",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mounted_Defense"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -7653,6 +8293,9 @@
         ],
         "prerequisites_text": "Trained in Ride",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(ride)",
           "support",
@@ -7691,6 +8334,9 @@
         ],
         "prerequisites_text": "DEX 13, Dodge",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Moving_Target"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -7722,6 +8368,9 @@
         ],
         "prerequisites_text": "Dex 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Multi-Grab"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -7762,6 +8411,9 @@
         ],
         "prerequisites_text": "Droid, Intelligence 13, proficient with weapon.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Multi-Targeting"
+        ],
         "type": [
           "aim",
           "intelligence",
@@ -7794,6 +8446,9 @@
         ],
         "prerequisites_text": "Cha 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Natural_Leader"
+        ],
         "type": [
           "charisma"
         ]
@@ -7820,6 +8475,9 @@
         ],
         "prerequisites_text": "Ithorian",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nature_Specialist"
+        ],
         "type": [
           "skill(knowledge(life sciences))",
           "species(ithorian)"
@@ -7851,6 +8509,9 @@
         ],
         "prerequisites_text": "Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Never_Surrender"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -7880,6 +8541,9 @@
         ],
         "prerequisites_text": "Nikto",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nikto_Survival"
+        ],
         "type": [
           "skill(survival)",
           "species(nikto)"
@@ -7907,6 +8571,9 @@
         ],
         "prerequisites_text": "Trained in Acrobatics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(acrobatics)",
           "support",
@@ -7932,6 +8599,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Officer_Candidacy_Training"
+        ],
         "type": [
           "x"
         ]
@@ -7962,6 +8632,9 @@
         ],
         "prerequisites_text": "Combat Reflexes",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Opportunistic_Retreat"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -7989,6 +8662,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Opportunistic_Shooter"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -8026,6 +8702,9 @@
         ],
         "prerequisites_text": "Combat Reflexes, Sneak Attack",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Opportunistic_Trickery"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -8055,6 +8734,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Overwhelming_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -8087,6 +8769,9 @@
         ],
         "prerequisites_text": "Dark Side Score 1+",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Darth_Andeddu,_Dark_Side_Spirit"
+        ],
         "type": [
           "dark side",
           "force",
@@ -8116,6 +8801,9 @@
         ],
         "prerequisites_text": "Cerean",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Perfect_Intuition"
+        ],
         "type": [
           "skill(initiative",
           "species(cerean)"
@@ -8143,6 +8831,9 @@
         ],
         "prerequisites_text": "Gungan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Perfect_Swimmer"
+        ],
         "type": [
           "skill(swim)",
           "species(gungan)"
@@ -8181,6 +8872,9 @@
         "prerequisites_text": "Base attack bonus +1",
         "special_note": null,
         "special_text": "You cannot use the Pin and Trip feats during the same round. You can use the Pin and Crush feat in the same round, however. [CRB p.88, cite: 597]",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pin"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -8235,6 +8929,9 @@
         ],
         "prerequisites_text": "Droid, equipped with claw or hand appendage, base attack bonus +1, Pin, Crush.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pincer"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -8285,6 +8982,9 @@
         ],
         "prerequisites_text": "Droid, Aiming Accuracy, Point Blank Shot, Precise Shot, proficient with weapon.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pinpoint_Accuracy"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -8320,6 +9020,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pistoleer"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -8348,6 +9051,9 @@
         ],
         "prerequisites_text": "Trandoshan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pitiless_Warrior"
+        ],
         "type": [
           "species(trandoshan)"
         ]
@@ -8386,6 +9092,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Point-Blank_Shot"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -8427,6 +9136,9 @@
         ],
         "prerequisites_text": "Con 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Poison_Resistance"
+        ],
         "type": [
           "combat",
           "constitution",
@@ -8466,6 +9178,9 @@
         "prerequisites_text": "Str 13",
         "special_note": null,
         "special_text": "If you attack with a two-handed weapon, or with a one-handed weapon wielded in two hands, instead add twice the number subtracted from your attack rolls. You can't add the bonus from Power Attack to the damage dealt against an object or vehicle.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Power_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -8497,6 +9212,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Power_Blast"
+        ],
         "type": [
           "combat",
           "fired",
@@ -8538,6 +9256,9 @@
         "prerequisites_text": "Medium or larger size, base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Powerful_Charge"
+        ],
         "type": [
           "charge",
           "combat",
@@ -8574,6 +9295,9 @@
         ],
         "prerequisites_text": "Rage",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Powerful_Rage"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -8611,6 +9335,9 @@
         "prerequisites_text": "Point Blank Shot",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Precise_Shot"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -8649,6 +9376,9 @@
         ],
         "prerequisites_text": "Int 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Predictive_Defense"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -8683,6 +9413,9 @@
         ],
         "prerequisites_text": "Point Blank Shot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Prime_Shot"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -8713,6 +9446,9 @@
         ],
         "prerequisites_text": "Gamorrean",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Primitive_Warrior"
+        ],
         "type": [
           "combat",
           "melee(armed)",
@@ -8743,6 +9479,9 @@
         ],
         "prerequisites_text": "Gamorrean",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Quick_Comeback"
+        ],
         "type": [
           "combat",
           "damage threshold",
@@ -8781,6 +9520,9 @@
         "prerequisites_text": "Base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Quick_Draw"
+        ],
         "type": [
           "combat",
           "fired",
@@ -8822,6 +9564,9 @@
         ],
         "prerequisites_text": "Combo, requires Dual Weapon Mastery I",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Elite_Clone_Commando"
+        ],
         "type": [
           "combat",
           "combo",
@@ -8860,6 +9605,9 @@
         ],
         "prerequisites_text": "Combo, requires proficiency in lightsabers",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jedi_Watchman_Talent_Tree"
+        ],
         "type": [
           "combat",
           "combo",
@@ -8890,6 +9638,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Quick_Skill"
+        ],
         "type": [
           "skill(general)"
         ]
@@ -8934,6 +9685,9 @@
         ],
         "prerequisites_text": "Str 15, Crush, Pin, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rancor_Crush"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -8966,6 +9720,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rapid_Reaction"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -9007,6 +9764,9 @@
         "prerequisites_text": "Base attack bonus +1, proficient with weapon",
         "special_note": null,
         "special_text": "Using this feat fires two shots and can only be done if the weapon has sufficient ammunition remaining. The effects of this feat do not stack with the extra damage provided by the Burst Fire feat (page 82) or Deadeye feat (page 84). If you do not have a Strength of 13 or higher, increase the penalty to attacks to –5 when using this feat with non-vehicle weapons. (Errata p.290 [cite: 2003])",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rapid_Shot"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -9060,6 +9820,9 @@
         "prerequisites_text": "Base attack bonus +1, proficient with weapon",
         "special_note": null,
         "special_text": "If you do not have a Dexterity of 13 or higher, increase the penalty to attacks to –5 when using this feat with non-light weapons. (Errata p.290)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rapid_Strike"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -9092,6 +9855,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rapport"
+        ],
         "type": [
           "support"
         ]
@@ -9118,6 +9884,9 @@
         ],
         "prerequisites_text": "Kel Dor",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Read_the_Winds"
+        ],
         "type": [
           "skill(perception))",
           "species(kel dor)"
@@ -9155,6 +9924,9 @@
         ],
         "prerequisites_text": "Running Attack, DEX 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rebel_Military_Training"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -9186,6 +9958,9 @@
         ],
         "prerequisites_text": "Trained in one Knowledge skill",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Recall"
+        ],
         "type": [
           "skill(knowledge)"
         ]
@@ -9213,6 +9988,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Recovering_Surge"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -9235,6 +10013,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Recurring_Success"
+        ],
         "type": [
           "feat",
           "talent"
@@ -9262,6 +10043,9 @@
         ],
         "prerequisites_text": "Trandoshan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Regenerative_Healing"
+        ],
         "type": [
           "second wind",
           "species(trandoshan)"
@@ -9303,6 +10087,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*, Double Attack with weapon used, BAB +6",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Relentless_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -9332,6 +10119,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Republic_Military_Training"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -9364,6 +10154,9 @@
         ],
         "prerequisites_text": "Str 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Resilient_Strength"
+        ],
         "type": [
           "constitution",
           "defensive",
@@ -9396,6 +10189,9 @@
         ],
         "prerequisites_text": "BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Resolute_Stance"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -9429,6 +10225,9 @@
         ],
         "prerequisites_text": "Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Resurgence"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -9459,6 +10258,9 @@
         ],
         "prerequisites_text": "Wookiee",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Resurgent_Vitality"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -9508,6 +10310,9 @@
         ],
         "prerequisites_text": "DEX 15, Quick Draw, Weapon Focus (chosen exotic ranged weapon or weapon group), BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Return_Fire"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -9544,6 +10349,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Returning_Bug"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -9575,6 +10383,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Riflemaster"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -9607,6 +10418,9 @@
         ],
         "prerequisites_text": "Trained in Climb or Jump",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Risk_Taker"
+        ],
         "type": [
           "skill(climb)",
           "skill(jump)"
@@ -9645,6 +10459,9 @@
         "prerequisites_text": "Dexterity 13",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Running_Attack"
+        ],
         "type": [
           "attack roll",
           "combat",
@@ -9690,6 +10507,9 @@
         ],
         "prerequisites_text": "Combo, requires Dodge",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dodge"
+        ],
         "type": [
           "attack roll",
           "combat",
@@ -9727,6 +10547,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sadistic_Strike"
+        ],
         "type": [
           "combat",
           "damage",
@@ -9771,6 +10594,9 @@
         ],
         "prerequisites_text": "Double Attack (chosen weapon), proficient with weapon*, BAB +6",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Savage_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -9801,6 +10627,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Scavenger"
+        ],
         "type": [
           "craft",
           "skill(mechanics",
@@ -9829,6 +10658,9 @@
         ],
         "prerequisites_text": "Kel Dor",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "defensive",
           "fortitude defense",
@@ -9856,6 +10688,9 @@
         ],
         "prerequisites_text": "Droid or cyborg with associated hardware",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sensor_Link"
+        ],
         "type": [
           "skill(perception)",
           "species(cyborg)",
@@ -9880,6 +10715,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Separatist_Military_Training"
+        ],
         "type": [
           "attack roll",
           "combat",
@@ -9926,6 +10764,9 @@
         "prerequisites_text": "Constitution 13, trained in Endurance",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shake_It_Off"
+        ],
         "type": [
           "constitution",
           "skill(endurance)"
@@ -9956,6 +10797,9 @@
         ],
         "prerequisites_text": "Mon Calamari",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sharp_Senses"
+        ],
         "type": [
           "skill(perception))",
           "species(mon calamari)"
@@ -9987,6 +10831,9 @@
         ],
         "prerequisites_text": "Droid or cyborg with scomp link or similar direct data link with the vehicle, trained in Mechanics skill.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shield_Surge"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -10019,6 +10866,9 @@
         ],
         "prerequisites_text": "Quarren",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shrewd_Bargainer"
+        ],
         "type": [
           "skill(persuasion)",
           "species(quarren)"
@@ -10049,6 +10899,9 @@
         ],
         "prerequisites_text": "Tech Specialist",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Signature_Device"
+        ],
         "type": [
           "craft",
           "skill(mechanics",
@@ -10081,6 +10934,9 @@
         ],
         "prerequisites_text": "Trained in Persuasion",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Silver_Tongue"
+        ],
         "type": [
           "skill(persuasion)"
         ]
@@ -10101,6 +10957,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sith_Military_Training"
+        ],
         "type": [
           "(u)",
           "combat",
@@ -10129,6 +10988,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Skill_Challenge:_Catastrophic_Avoidance"
+        ],
         "type": [
           "skill challenge"
         ]
@@ -10149,6 +11011,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Skill_Challenge:_Last_Resort"
+        ],
         "type": [
           "skill challenge"
         ]
@@ -10169,6 +11034,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Skill_Challenge:_Recovery"
+        ],
         "type": [
           "skill challenge"
         ]
@@ -10202,6 +11070,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": "This feat may be selected multiple times. Its effects do not stack. Each time you take this feat, it applies to a different trained skill.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Skill_Focus"
+        ],
         "type": [
           "skill(general)"
         ],
@@ -10236,6 +11107,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": "This feat may be selected multiple times. Each time you take this feat, it applies to a different class skill.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Skill_Training"
+        ],
         "type": [
           "skill(general)"
         ],
@@ -10271,6 +11145,9 @@
         ],
         "prerequisites_text": "Small or larger droid with 2 appropriate appendages, Str 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Slammer"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -10301,6 +11178,9 @@
         ],
         "prerequisites_text": "Trained in Use Computer",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(use computer)",
           "support",
@@ -10339,6 +11219,9 @@
         ],
         "prerequisites_text": "Dodge, DEX 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Slippery_Maneuver"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -10381,6 +11264,9 @@
         "prerequisites_text": "Point Blank Shot, Precise Shot, base attack bonus +4",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sniper"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -10418,6 +11304,9 @@
         ],
         "prerequisites_text": "Proficient with ranged weapon*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sniper_Shot"
+        ],
         "type": [
           "combat",
           "fired",
@@ -10449,6 +11338,9 @@
         ],
         "prerequisites_text": "Duros",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Spacer's_Surge"
+        ],
         "type": [
           "skill(pilot)",
           "species(duros)",
@@ -10483,6 +11375,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sport_Hunter"
+        ],
         "type": [
           "aim",
           "combat",
@@ -10507,6 +11402,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Spray_Shot"
+        ],
         "type": [
           "autofire",
           "combat",
@@ -10544,6 +11442,9 @@
         ],
         "prerequisites_text": "Proficient with weapon used*, BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Staggering_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -10575,6 +11476,9 @@
         ],
         "prerequisites_text": "Rapid Shot or Rapid Strike or Sneak Attack talent",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Staggering_Attack"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -10604,6 +11508,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Stand_Tall"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -10636,6 +11543,9 @@
         ],
         "prerequisites_text": "Tech Specialist, Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Starship_Designer"
+        ],
         "type": [
           "craft",
           "skill(mechanics",
@@ -10669,6 +11579,9 @@
         ],
         "prerequisites_text": "Vehicular Combat, Trained in Pilot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Starship_Tactics"
+        ],
         "type": [
           "skill(pilot)",
           "starship",
@@ -10708,6 +11621,9 @@
         ],
         "prerequisites_text": "Martial Arts I, Running Attack, DEX 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Stava_Training"
+        ],
         "type": [
           "charge",
           "combat",
@@ -10742,6 +11658,9 @@
         ],
         "prerequisites_text": "Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Stay_Up"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -10784,6 +11703,9 @@
         ],
         "prerequisites_text": "Careful Shot, BAB +2, Point Blank Shot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Steadying_Position"
+        ],
         "type": [
           "aim",
           "combat",
@@ -10818,6 +11740,9 @@
         ],
         "prerequisites_text": "BAB +1",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Strafe"
+        ],
         "type": [
           "autofire",
           "combat",
@@ -10848,6 +11773,9 @@
         ],
         "prerequisites_text": "Ithorian",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Strong_Bellow"
+        ],
         "type": [
           "combat",
           "offensive",
@@ -10878,6 +11806,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Alter_Talent_Tree"
+        ],
         "type": [
           "force"
         ],
@@ -10922,6 +11853,9 @@
         ],
         "prerequisites_text": "INT 17, Tech Specialist, 9th level, trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Superior_Tech"
+        ],
         "type": [
           "craft",
           "intelligence",
@@ -10962,6 +11896,9 @@
         ],
         "prerequisites_text": "Str 13, Burst Fire, WP Heavy",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Suppression_Fire"
+        ],
         "type": [
           "aid fire",
           "combat",
@@ -10996,6 +11933,9 @@
         ],
         "prerequisites_text": "Sullustan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sure_Climber"
+        ],
         "type": [
           "skill(climb)",
           "species(sullustan)"
@@ -11031,6 +11971,9 @@
         "prerequisites_text": "Trained in Treat Injury",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Surgical_Expertise"
+        ],
         "type": [
           "skill(treat injury)"
         ],
@@ -11060,6 +12003,9 @@
         ],
         "prerequisites_text": "Twi'lek",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "defensive",
           "fortitude defense",
@@ -11097,6 +12043,9 @@
         ],
         "prerequisites_text": "Coordinated Attack, BAB +2",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Swarm"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -11130,6 +12079,9 @@
         ],
         "prerequisites_text": "Combat Reflexes",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tactical_Advantage"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -11172,6 +12124,9 @@
         ],
         "prerequisites_text": "Starship Tactics, Vehicular Combat, trained in Pilot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tactical_Genius"
+        ],
         "type": [
           "skill(pilot)",
           "starship"
@@ -11215,6 +12170,9 @@
         ],
         "prerequisites_text": "Dodge, Martial Arts I, trained in Initiative, DEX 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tae-Jitsu_Training"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -11253,6 +12211,9 @@
         ],
         "prerequisites_text": "Weapon Proficiency in selected weapon*, BAB +5.",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Targeted_Area"
+        ],
         "type": [
           "area",
           "combat",
@@ -11284,6 +12245,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tech_Specialist"
+        ],
         "type": [
           "craft",
           "skill(mechanics",
@@ -11312,6 +12276,9 @@
         ],
         "prerequisites_text": "Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(mechanics",
           "support",
@@ -11346,6 +12313,9 @@
         ],
         "prerequisites_text": "Martial Arts I, Str 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Teräs_Käsi_Training"
+        ],
         "type": [
           "combat",
           "martial arts",
@@ -11376,6 +12346,9 @@
         ],
         "prerequisites_text": "Trandoshan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Thick_Skin"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -11416,6 +12389,9 @@
         "prerequisites_text": "Trip, base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Throw"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -11450,6 +12426,9 @@
         ],
         "prerequisites_text": "Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(endurance)",
           "support",
@@ -11477,6 +12456,9 @@
         ],
         "prerequisites_text": "Small or larger droid with 2 appendages with tools",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tool_Frenzy"
+        ],
         "type": [
           "combat",
           "melee(unarmed)",
@@ -11506,6 +12488,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Toughness"
+        ],
         "type": [
           "combat",
           "defensive"
@@ -11540,6 +12525,9 @@
         ],
         "prerequisites_text": "Trained in Ride",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Trample"
+        ],
         "type": [
           "charge",
           "combat",
@@ -11565,6 +12553,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Trench_Warrior"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -11605,6 +12596,9 @@
         "prerequisites_text": "Base attack bonus +1",
         "special_note": null,
         "special_text": "You cannot use the Pin and Trip feats during the same round.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Trip"
+        ],
         "type": [
           "combat",
           "grapple",
@@ -11656,6 +12650,9 @@
         "prerequisites_text": "Base attack bonus +11, Double Attack (chosen weapon), proficient with chosen weapon",
         "special_note": null,
         "special_text": "You may select this feat multiple times. Each time you select this feat, it applies to a different exotic weapon or weapon group.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Triple_Attack"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -11708,6 +12705,9 @@
         "prerequisites_text": "Proficient with weapon, base attack bonus +8",
         "special_note": null,
         "special_text": "You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different weapon.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Triple_Crit"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -11749,6 +12749,9 @@
         ],
         "prerequisites_text": "Proficient with weapon*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tumble_Defense"
+        ],
         "type": [
           "attack of opportunity",
           "combat",
@@ -11791,6 +12794,9 @@
         ],
         "prerequisites_text": "Droid, Dex 13, hovering/flying/wheeled/tracked locomotion",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Turn_and_Burn"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -11821,6 +12827,9 @@
         ],
         "prerequisites_text": "Trained in Jump",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(jump)",
           "support",
@@ -11849,6 +12858,9 @@
         ],
         "prerequisites_text": "Trained in Pilot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(pilot)",
           "starship",
@@ -11879,6 +12891,9 @@
         ],
         "prerequisites_text": "Destiny",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unleashed"
+        ],
         "type": [
           "x"
         ]
@@ -11910,6 +12925,9 @@
         ],
         "prerequisites_text": "Extra Second Wind, Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unstoppable_Combatant"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -11935,6 +12953,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unstoppable_Force"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -11964,6 +12985,9 @@
         ],
         "prerequisites_text": "BAB +2",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unswerving_Resolve"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -11992,6 +13016,9 @@
         ],
         "prerequisites_text": "Zabrak",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unwavering_Focus"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -12024,6 +13051,9 @@
         ],
         "prerequisites_text": "Trained in Perception",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unwavering_Resolve"
+        ],
         "type": [
           "Will Defense",
           "defensive",
@@ -12060,6 +13090,9 @@
         ],
         "prerequisites_text": "Tech Specialist, Trained in Mechanics",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vehicle_Systems_Expertise"
+        ],
         "type": [
           "combat",
           "skill(mechanics",
@@ -12108,6 +13141,9 @@
         "prerequisites_text": "Trained in Pilot",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vehicular_Combat"
+        ],
         "type": [
           "SotG",
           "combat",
@@ -12148,6 +13184,9 @@
         ],
         "prerequisites_text": "Trained in Pilot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vehicular_Surge"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -12178,6 +13217,9 @@
         ],
         "prerequisites_text": "Duros",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Veteran_Spacer"
+        ],
         "type": [
           "skill(use computer)",
           "species(duros)",
@@ -12211,6 +13253,9 @@
         ],
         "prerequisites_text": "Extra Second Wind, Trained in Endurance",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vitality_Surge"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -12239,6 +13284,9 @@
         ],
         "prerequisites_text": "Gungan",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Warrior_Heritage"
+        ],
         "type": [
           "Will Defense",
           "atlatl",
@@ -12268,6 +13316,9 @@
         "prerequisites_structured": [],
         "prerequisites_text": "None",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wary_Defender"
+        ],
         "type": [
           "Will Defense",
           "combat",
@@ -12297,6 +13348,9 @@
         ],
         "prerequisites_text": "Trained in Perception",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(perception))",
           "support",
@@ -12334,6 +13388,9 @@
         "prerequisites_text": "Base attack bonus +1",
         "special_note": null,
         "special_text": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Weapon_Finesse"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -12374,6 +13431,9 @@
         ],
         "prerequisites_text": "Combo, requires Weapon Focus",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Darth_Traya"
+        ],
         "type": [
           "combat",
           "combo",
@@ -12421,6 +13481,9 @@
         "prerequisites_text": "Proficient with chosen weapon",
         "special_note": null,
         "special_text": "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new exotic weapon or weapon group. (Errata p.299 removed 'Delete the third sentence under the Weapon Focus header.' - this sentence isn't present in CRB p.89 text).",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Weapon_Focus"
+        ],
         "type": [
           "combat",
           "fired",
@@ -12464,6 +13527,9 @@
         ],
         "prerequisites_text": "Combo, requires Weapon Finesse",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Combined_Feats"
+        ],
         "type": [
           "combat",
           "combo",
@@ -12508,6 +13574,9 @@
         "prerequisites_text": null,
         "special_note": null,
         "special_text": "You can gain this feat multiple times. Each time you take the feat, it applies to a different weapon group. You cannot take exotic weapons as a weapon group; instead, you must select the Exotic Weapon Proficiency feat (see page 84) to gain proficiency with a specific exotic weapon (such as the bowcaster or flamethrower).",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Weapon_Proficiency"
+        ],
         "type": [
           "combat",
           "fired",
@@ -12550,6 +13619,9 @@
         ],
         "prerequisites_text": "Combo, requires Quick Draw",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Weapon_Proficiency"
+        ],
         "type": [
           "combat",
           "combo",
@@ -12602,6 +13674,9 @@
         "prerequisites_text": "Dex 13, Int 13, Melee Defense, base attack bonus +4",
         "special_note": null,
         "special_text": "Unleashed: When you use the Whirlwind Attack feat, you can spend a Destiny Point to gain a +5 bonus on your attack roll and knock prone any targets you damage. (This 'Unleashed' text is from Force Unleashed Campaign Guide, not CRB.)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Whirlwind_Attack"
+        ],
         "type": [
           "combat",
           "dexterity",
@@ -12640,6 +13715,9 @@
         ],
         "prerequisites_text": "Rapid Strike",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wicked_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -12672,6 +13750,9 @@
         ],
         "prerequisites_text": "Trained in Survival",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wilderness_First_Aid"
+        ],
         "type": [
           "skill(survival)"
         ]
@@ -12698,6 +13779,9 @@
         ],
         "prerequisites_text": "Trained in Survival",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Specialization_Feats"
+        ],
         "type": [
           "skill(survival)",
           "support",
@@ -12733,6 +13817,9 @@
         ],
         "prerequisites_text": "BAB +5, proficient with weapon*",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Withdrawal_Strike"
+        ],
         "type": [
           "combat",
           "melee(armed",
@@ -12766,6 +13853,9 @@
         ],
         "prerequisites_text": "Str 13",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wookiee_Grip"
+        ],
         "type": [
           "combat",
           "melee(armed)",
@@ -12796,6 +13886,9 @@
         ],
         "prerequisites_text": "Wookiee",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wroshyr_Rage"
+        ],
         "type": [
           "combat",
           "defensive",
@@ -12838,6 +13931,9 @@
         ],
         "prerequisites_text": "Martial Arts I, Con 13, Wookiee",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wrruushi_Training"
+        ],
         "type": [
           "combat",
           "constitution",
@@ -12873,6 +13969,9 @@
         ],
         "prerequisites_text": "Point Blank Shot",
         "special_note": null,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Zero_Range"
+        ],
         "type": [
           "combat",
           "offensive",

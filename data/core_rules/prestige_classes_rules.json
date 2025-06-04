@@ -1,5 +1,5 @@
 {
-  "last_modified": "2025-05-30T22:04:47",
+  "last_modified": "2025-06-04T10:20:54",
   "prestige_classes_rules_data": {
     "errata_applied": [
       "Corrected 'prestige_class_game_rules/defense_bonuses' to accurately reflect that class defense bonuses do not stack, aligning with general game rules (CRB p.37).",
@@ -29,6 +29,13 @@
       "advancement": "Levels in prestige classes are taken instead of levels in heroic classes. A character can have levels in multiple prestige classes, provided they meet the prerequisites for each.",
       "in_game_requirements_note": "Beyond meeting statistical prerequisites, entry into a prestige class often requires in-character actions or achievements, such as completing special training, undertaking a specific quest, gaining acceptance into an organization, or other narrative elements as determined by the Gamemaster."
     },
+    "rules_keywords": [
+      "Prestige Classes",
+      "Saga Edition Character Advancement",
+      "Prestige Class Rules",
+      "Prestige Class Prerequisites",
+      "Prestige Class Benefits"
+    ],
     "source_book_reference": "CR"
   }
 }

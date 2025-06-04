@@ -31,7 +31,9 @@ REM ###  GET HELP  ###
 rem py %PYTHON_SCRIPT_PATH% -h
 
 
-py %PYTHON_SCRIPT_PATH% "D:\OneDrive\Documents\GitHub\SagaIndex\scripts\json\updates.json"
+REM		py %PYTHON_SCRIPT_PATH% "D:\OneDrive\Documents\GitHub\SagaIndex\scripts\json\updates.json"
+
+py %PYTHON_SCRIPT_PATH% "D:\OneDrive\Documents\GitHub\SagaIndex\scripts\json\wiki_updates_payload.json"
 rem  --npc_profile_file "G:\My Drive\Google AI Studio\WIDT\WIDT_NPCS.json"
 
 REM Option 2: Calling python.exe directly

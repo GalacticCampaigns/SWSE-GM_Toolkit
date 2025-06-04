@@ -6,8 +6,8 @@ import shutil
 from datetime import datetime
 
 # --- SCRIPT VERSION INFO ---
-SCRIPT_VERSION = "2.4.12" 
-SCRIPT_LAST_UPDATED = "2025-05-30"
+SCRIPT_VERSION = "2.4.14" 
+SCRIPT_LAST_UPDATED = "2025-06-04"
 
 # --- SCRIPT INSTRUCTIONS & SETUP ---
 """
@@ -40,7 +40,7 @@ NPC_PROFILE_COLLECTION_KEYS = {
     "factions": {"id_field": "faction_id", "is_list_of_objects": False, "is_object_map": True, "sort_key": None, "preferred_top_keys": ["faction_id", "faction_name"]},
     "npc_stat_blocks": {"id_field": "npc_id_ref", "sort_key": "npc_id_ref", "preferred_top_keys": ["npc_id_ref", "character_name_display"], "is_list_of_objects": True, "is_object_map": False}
 }
-DEFAULT_SAGA_INDEX_TOP_KEYS = ["id", "name", "source_book", "page"]
+DEFAULT_SAGA_INDEX_TOP_KEYS = ["id", "name", "source_book", "page"] 
 DEFAULT_CONFIG_OBJECT_TOP_KEYS = ["file_description", "source_book_reference", "page_reference_general", "last_modified"] 
 DEFAULT_DYNAMIC_KEY_OBJECT_TOP_KEYS = ["last_modified"] 
 
@@ -59,7 +59,8 @@ def populate_initial_config(npc_profile_path_override=None):
             "is_list_of_objects": details.get("is_list_of_objects", True),
             "is_object_map": details.get("is_object_map", False), "is_single_object_content": False, 
             "sort_key": details.get("sort_key"), 
-            "preferred_top_keys": details.get("preferred_top_keys", []),
+            "preferred_top_keys": details.get("preferred_top_keys", []), 
+            "preferred_object_keys": [], 
             "preferred_root_keys": ["last_modified", "pcs", "npcs", "factions", "npc_stat_blocks"] 
         }
     print(f"Initialized static config for '{base_npc_filename}' collections using path: {actual_npc_profile_path}")
@@ -84,7 +85,8 @@ def generate_dynamic_target_files_config(root_path, existing_config):
                     full_file_path = os.path.join(category_dir_path, filename_with_ext)
                     
                     is_single_obj_content_inferred = False 
-                    preferred_keys_list_records = DEFAULT_SAGA_INDEX_TOP_KEYS.copy()
+                    preferred_keys_for_list_records = DEFAULT_SAGA_INDEX_TOP_KEYS.copy()
+                    preferred_keys_for_single_object_content = [] 
                     preferred_keys_root_default = ["last_modified", f"{target_file_key}_data"] 
                     id_field_inferred = "name" 
                     secondary_id_inferred = "source_book"
@@ -101,6 +103,7 @@ def generate_dynamic_target_files_config(root_path, existing_config):
                             wrapped_content = json_content_peek[data_key_conv]
                             if list_key_conv in wrapped_content and isinstance(wrapped_content.get(list_key_conv), list):
                                 is_single_obj_content_inferred = False 
+                                preferred_keys_for_single_object_content = [] 
                                 print(f"    Inferred '{target_file_key}' as SAGA Index List structure (wrapped).")
                             else: 
                                 is_single_obj_content_inferred = True
@@ -108,26 +111,28 @@ def generate_dynamic_target_files_config(root_path, existing_config):
                                 id_field_inferred = None 
                                 secondary_id_inferred = None
                                 sort_key_inferred = None
-                                preferred_keys_list_records = [] 
-                                preferred_keys_list = DEFAULT_CONFIG_OBJECT_TOP_KEYS.copy() 
+                                preferred_keys_for_list_records = [] 
+                                preferred_keys_for_single_object_content = DEFAULT_CONFIG_OBJECT_TOP_KEYS.copy() 
                                 if base_filename not in ["class_rules", "combat_rules", "skill_rules", "eras_overview", "force_traditions_lore"]:
                                     id_field_inferred = "id" 
-                                    preferred_keys_list = DEFAULT_DYNAMIC_KEY_OBJECT_TOP_KEYS.copy()
+                                    preferred_keys_for_single_object_content = DEFAULT_DYNAMIC_KEY_OBJECT_TOP_KEYS.copy()
                                 print(f"    Inferred '{target_file_key}' as Single Object Content (within wrapper '{data_key_conv}'). ID field for dynamic keys: '{id_field_inferred}'.")
                         else: 
                             print(f"    File '{filename_with_ext}' does not have expected wrapper '{data_key_conv}'. Assuming SAGA Index List structure config (will create wrapper).")
                             is_single_obj_content_inferred = False 
+                            preferred_keys_for_single_object_content = [] 
                     else: 
                         print(f"    Warning: File {filename_with_ext} is not a JSON object at root. Assuming SAGA Index List structure config.")
                         is_single_obj_content_inferred = False
+                        preferred_keys_for_single_object_content = [] 
 
                     config[target_file_key] = {"full_path": full_file_path, "data_wrapper_key": data_key_conv, "collection_key": list_key_conv,
                         "id_field": id_field_inferred, "secondary_id_field": secondary_id_inferred,
                         "is_list_of_objects": not is_single_obj_content_inferred, 
                         "is_single_object_content": is_single_obj_content_inferred, 
                         "is_object_map": False, "sort_key": sort_key_inferred, 
-                        "preferred_top_keys": preferred_keys_list_records, 
-                        "preferred_object_keys": preferred_keys_list, 
+                        "preferred_top_keys": preferred_keys_for_list_records, # Corrected variable name here
+                        "preferred_object_keys": preferred_keys_for_single_object_content, 
                         "preferred_root_keys": preferred_keys_root_default
                         }
                     print(f"    Discovered and configured: '{target_file_key}' -> {full_file_path} (Config: is_single_object_content: {is_single_obj_content_inferred})")
@@ -153,7 +158,6 @@ def load_json_file(file_path):
 
 def save_updated_json_file(full_data_obj, output_path, config_entry, is_single_object_content_from_edit_flag=False): 
     is_single_object_content_file_type = is_single_object_content_from_edit_flag or config_entry.get("is_single_object_content", False)
-    preferred_top_keys = config_entry.get("preferred_top_keys", []) 
     
     data_wrapper_key = config_entry.get("data_wrapper_key")
     collection_key = config_entry.get("collection_key") 
@@ -208,15 +212,13 @@ def save_updated_json_file(full_data_obj, output_path, config_entry, is_single_o
     elif is_single_object_content_file_type and not data_wrapper_key and not collection_key : 
          current_preferred_keys = config_entry.get("preferred_object_keys", DEFAULT_CONFIG_OBJECT_TOP_KEYS)
          if not current_preferred_keys and isinstance(full_data_obj, dict): 
-             # This case is for single root objects where keys are dynamic (like vehicle IDs)
-             # We want to sort the main keys alphabetically after "last_modified"
              temp_obj_for_reorder = full_data_obj.copy() 
              full_data_obj.clear()
              if "last_modified" in temp_obj_for_reorder: 
                  full_data_obj["last_modified"] = temp_obj_for_reorder.pop("last_modified")
              for key in sorted(temp_obj_for_reorder.keys()): 
                  if key in temp_obj_for_reorder: full_data_obj[key] = temp_obj_for_reorder[key]
-         elif current_preferred_keys : # For config-like single objects with defined top keys
+         elif current_preferred_keys : 
             full_data_obj = reorder_record_keys(full_data_obj, current_preferred_keys) 
     else:
         print(f"Error: Save - Cannot determine data structure for {output_path} with config: {config_entry}")
@@ -227,13 +229,11 @@ def save_updated_json_file(full_data_obj, output_path, config_entry, is_single_o
         if "last_modified" not in root_preferred_keys: 
             root_preferred_keys.insert(0, "last_modified")
         
-        if data_wrapper_key and data_wrapper_key not in root_preferred_keys:
+        primary_data_container_key = data_wrapper_key if data_wrapper_key else collection_key
+        if primary_data_container_key and primary_data_container_key not in root_preferred_keys:
             idx = root_preferred_keys.index("last_modified") if "last_modified" in root_preferred_keys else -1
-            root_preferred_keys.insert(idx + 1, data_wrapper_key)
-        elif not data_wrapper_key and collection_key and collection_key not in root_preferred_keys and collection_key is not None : 
-             idx = root_preferred_keys.index("last_modified") if "last_modified" in root_preferred_keys else -1
-             root_preferred_keys.insert(idx + 1, collection_key) # Ensure collection key is also preferred for NPC profiles
-
+            root_preferred_keys.insert(idx + 1, primary_data_container_key)
+        
         temp_full_obj = full_data_obj.copy()
         full_data_obj.clear()
         for key in root_preferred_keys:
@@ -593,24 +593,25 @@ if __name__ == '__main__':
     main(args.edits_file, args.root_path, args.dry_run)
 
 # --- SCRIPT VERSION LOG ---
+# Version 2.4.14 (2025-06-04):
+# - Corrected UnboundLocalError in `generate_dynamic_target_files_config` by ensuring
+#   `preferred_keys_for_single_object_content` is initialized before its potential use
+#   when assigning to `preferred_object_keys` in the config dictionary.
+# - Ensured `preferred_keys_for_list_records` is consistently used for the `preferred_top_keys`
+#   field in the config dictionary for list-based files.
+#
+# Version 2.4.13 (2025-05-31):
+# - Fixed UnboundLocalError for `preferred_keys_list_records` in `generate_dynamic_target_files_config`
+#   by ensuring `preferred_keys_for_single_object_content` is initialized correctly in all paths
+#   and used for `preferred_object_keys` in the config entry.
+# - Synchronized SCRIPT_VERSION and SCRIPT_LAST_UPDATED constants with this log.
+#
 # Version 2.4.12 (2025-05-30):
 # - Ensured `save_updated_json_file` only creates one backup per physical file path per script run
 #   by introducing `backed_up_files_this_run` set.
 # - Corrected `TypeError` in `apply_edit` by consistently using `is_single_object_content_override`
 #   as the parameter name in both definition and calls from `main`.
-# - (User must fix syntax errors in their actual data files like WIDT_NPCS.json separately).
-#
-# Version 2.4.11 (2025-05-30):
-# - Added/updated "last_modified" timestamp at the root of saved JSON files.
-# - Refined save_updated_json_file to attempt reordering of root keys to place
-#   "last_modified" and primary data keys (like "*_data" or NPC collection keys) first.
-#
-# Version 2.4.10 (2025-05-30):
-# - Corrected `save_updated_json_file` to properly handle collections that are
-#   top-level keys in the JSON file (e.g., "pcs", "npcs" in WIDT_NPCS.json)
-#   when `data_wrapper_key` is None but `is_single_object_content` is False.
-#
-# Version 2.4.9 (2025-05-30):
-# - Added JSON Pointer segment decoding (~1 for / and ~0 for ~) in `apply_edit` for path-based updates.
+# - Refined `save_updated_json_file` to correctly handle saving collections that are top-level keys 
+#   (e.g., "pcs", "npcs" in NPC Profile files where data_wrapper_key is None).
 #
 # (Older version log entries omitted for brevity)

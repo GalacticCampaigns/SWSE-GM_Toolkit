@@ -1,94 +1,199 @@
 {
+  "last_modified": "2025-06-04T11:21:54",
   "ability_system_rules_data": {
-	  "file_description": "General system rules for ability scores in Star Wars Saga Edition, including generation methods, the modifier table, and rules for changing scores.",
-	  "source_book_reference": "CR",
-	  "page_reference_general": "18-20",
-	  "score_generation_methods": {
-		"dice_rolling": {
-		  "method_description": "Roll four six-sided dice (4d6). Disregard the lowest die and total the three highest dice. Repeat six times to generate six scores. [cite: 93, 94]",
-		  "reroll_condition": "Scores may be scrapped and all six rerolled if the total of all ability modifiers (before species adjustments) is 0 or less, OR if the highest score rolled is 13 or lower. [cite: 98]"
-		},
-		"planned_generation": {
-		  "method_description": "All six ability scores start at 8. You have 25 points to spend to increase these scores according to the cost table. After selecting scores, apply any species modifiers. [cite: 99]",
-		  "starting_score": 8,
-		  "points_to_spend": 25,
-		  "cost_table": [
-			{"score": 8, "cost_to_reach_from_8": 0},
-			{"score": 9, "cost_to_reach_from_8": 1},
-			{"score": 10, "cost_to_reach_from_8": 2},
-			{"score": 11, "cost_to_reach_from_8": 3},
-			{"score": 12, "cost_to_reach_from_8": 4},
-			{"score": 13, "cost_to_reach_from_8": 5},
-			{"score": 14, "cost_to_reach_from_8": 6},
-			{"score": 15, "cost_to_reach_from_8": 8},
-			{"score": 16, "cost_to_reach_from_8": 10},
-			{"score": 17, "cost_to_reach_from_8": 13},
-			{"score": 18, "cost_to_reach_from_8": 16}
-		  ],
-		  "source_page_reference": "CR 19 [cite: 99]"
-		},
-		"standard_score_package": {
-		  "method_description": "Assign the following scores to abilities as desired, then apply species modifiers. [cite: 100]",
-		  "scores_array": [15, 14, 13, 12, 10, 8],
-		  "source_page_reference": "CR 19 [cite: 100]"
-		}
-	  },
-	  "ability_modifier_table": {
-		"description": "Table 1-1: Ability Modifiers. The modifier is added to or subtracted from die rolls related to that ability. [cite: 96]",
-		"formula_note": "This table is derived from the formula: Modifier = floor((Score - 10) / 2).",
-		"modifiers": [
-		  {"score_range": "1", "modifier": -5},
-		  {"score_range": "2-3", "modifier": -4},
-		  {"score_range": "4-5", "modifier": -3},
-		  {"score_range": "6-7", "modifier": -2},
-		  {"score_range": "8-9", "modifier": -1},
-		  {"score_range": "10-11", "modifier": 0},
-		  {"score_range": "12-13", "modifier": 1},
-		  {"score_range": "14-15", "modifier": 2},
-		  {"score_range": "16-17", "modifier": 3},
-		  {"score_range": "18-19", "modifier": 4},
-		  {"score_range": "20-21", "modifier": 5},
-		  {"score_range": "22-23", "modifier": 6},
-		  {"score_range": "24-25", "modifier": 7},
-		  {"score_range": "26-27", "modifier": 8},
-		  {"score_range": "28-29", "modifier": 9},
-		  {"score_range": "30-31", "modifier": 10}
-		],
-		"source_page_reference": "CR 19 [cite: 98]"
-	  },
-	  "changing_ability_scores": {
-		"level_progression_increase": {
-		  "description": "At 4th, 8th, 12th, 16th, and 20th character level, a heroic character increases two different ability scores by 1 point each. [cite: 112, 215, 216]",
-		  "levels": [4, 8, 12, 16, 20],
-		  "number_of_scores_increased": 2,
-		  "increase_amount_per_score": 1,
-		  "restriction": "Cannot apply both increases to a single ability score at the same level."
-		},
-		"aging_effects_note": "As a character ages, some ability scores increase and others decrease. Details are typically found in a separate section on aging effects (referenced as Table 7-2: Aging Effects, page 110 in the Core Rulebook). [cite: 113]",
-		"retroactivity_principle": "When an ability score changes, all attributes associated with that score change accordingly. For example, an Intelligence increase affects the number of trained skills and known languages; a Wisdom increase (for Force users with Force Training) affects the number of known Force powers. [cite: 113, 105, 108]",
-		"source_page_reference": "CR 20 [cite: 112, 113]"
-	  },
-	  "roleplaying_guidance_int_wis_cha": {
-		"source_page_reference": "CR 20 [cite: 109, 110, 111, 112]",
-		"intelligence": {
-		  "high_score_traits": "Curious, knowledgeable, prone to using big words. [cite: 109]",
-		  "high_int_low_wis": "Smart but absent-minded, or knowledgeable but lacking common sense. [cite: 109]",
-		  "high_int_low_cha": "May be a know-it-all or a reclusive scholar. [cite: 110]",
-		  "high_int_low_wis_low_cha": "Usually puts their foot in their mouth. [cite: 110]",
-		  "low_score_traits": "Mispronounces and misuses words, has trouble following directions, or fails to get the joke. [cite: 110]"
-		},
-		"wisdom": {
-		  "high_score_traits": "May be sensible, serene, 'in tune,' alert, or centered. [cite: 111]",
-		  "high_wis_low_int": "Aware, but simple. [cite: 111]",
-		  "high_wis_low_cha": "Knows enough to speak carefully and may become an adviser or 'power behind the throne' rather than a leader. [cite: 111]",
-		  "low_score_traits": "May be rash, imprudent, irresponsible, or 'out of it.' [cite: 111]"
-		},
-		"charisma": {
-		  "high_score_traits": "May be beautiful, handsome, striking, personable, and confident. [cite: 112]",
-		  "high_cha_low_int": "Can usually pass herself off as knowledgeable, until she meets a true expert. [cite: 112]",
-		  "high_cha_low_wis": "May be popular, but he doesn't know who his real friends are. [cite: 112]",
-		  "low_score_traits": "May be reserved, gruff, rude, fawning, or simply nondescript. [cite: 112]"
-		}
-	  }
+    "ability_modifier_table": {
+      "description": "Table 1-1: Ability Modifiers. The modifier is added to or subtracted from die rolls related to that ability.",
+      "formula_note": "This table is derived from the formula: Modifier = floor((Score - 10) / 2).",
+      "modifiers": [
+        {
+          "score_range": "1",
+          "modifier": -5
+        },
+        {
+          "score_range": "2-3",
+          "modifier": -4
+        },
+        {
+          "score_range": "4-5",
+          "modifier": -3
+        },
+        {
+          "score_range": "6-7",
+          "modifier": -2
+        },
+        {
+          "score_range": "8-9",
+          "modifier": -1
+        },
+        {
+          "score_range": "10-11",
+          "modifier": 0
+        },
+        {
+          "score_range": "12-13",
+          "modifier": 1
+        },
+        {
+          "score_range": "14-15",
+          "modifier": 2
+        },
+        {
+          "score_range": "16-17",
+          "modifier": 3
+        },
+        {
+          "score_range": "18-19",
+          "modifier": 4
+        },
+        {
+          "score_range": "20-21",
+          "modifier": 5
+        },
+        {
+          "score_range": "22-23",
+          "modifier": 6
+        },
+        {
+          "score_range": "24-25",
+          "modifier": 7
+        },
+        {
+          "score_range": "26-27",
+          "modifier": 8
+        },
+        {
+          "score_range": "28-29",
+          "modifier": 9
+        },
+        {
+          "score_range": "30-31",
+          "modifier": 10
+        }
+      ],
+      "source_page_reference": "CR 19",
+      "explicit_formula": "floor((score - 10) / 2)"
+    },
+    "changing_ability_scores": {
+      "level_progression_increase": {
+        "description": "At 4th, 8th, 12th, 16th, and 20th character level, a heroic character increases two different ability scores by 1 point each.",
+        "levels": [
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "number_of_scores_increased": 2,
+        "increase_amount_per_score": 1,
+        "restriction": "Cannot apply both increases to a single ability score at the same level."
+      },
+      "aging_effects_note": "As a character ages, some ability scores increase and others decrease. Details are typically found in a separate section on aging effects (referenced as Table 7-2: Aging Effects, page 110 in the Core Rulebook).",
+      "retroactivity_principle": "When an ability score changes, all attributes associated with that score change accordingly. For example, an Intelligence increase affects the number of trained skills and known languages; a Wisdom increase (for Force users with Force Training) affects the number of known Force powers.",
+      "source_page_reference": "CR 20"
+    },
+    "file_description": "General system rules for ability scores in Star Wars Saga Edition, including generation methods, the modifier table, and rules for changing scores.",
+    "page_reference_general": "18-20",
+    "roleplaying_guidance_int_wis_cha": {
+      "source_page_reference": "CR 20",
+      "intelligence": {
+        "high_score_traits": "Curious, knowledgeable, prone to using big words.",
+        "high_int_low_wis": "Smart but absent-minded, or knowledgeable but lacking common sense.",
+        "high_int_low_cha": "May be a know-it-all or a reclusive scholar.",
+        "high_int_low_wis_low_cha": "Usually puts their foot in their mouth.",
+        "low_score_traits": "Mispronounces and misuses words, has trouble following directions, or fails to get the joke."
+      },
+      "wisdom": {
+        "high_score_traits": "May be sensible, serene, 'in tune,' alert, or centered.",
+        "high_wis_low_int": "Aware, but simple.",
+        "high_wis_low_cha": "Knows enough to speak carefully and may become an adviser or 'power behind the throne' rather than a leader.",
+        "low_score_traits": "May be rash, imprudent, irresponsible, or 'out of it.'"
+      },
+      "charisma": {
+        "high_score_traits": "May be beautiful, handsome, striking, personable, and confident.",
+        "high_cha_low_int": "Can usually pass herself off as knowledgeable, until she meets a true expert.",
+        "high_cha_low_wis": "May be popular, but he doesn't know who his real friends are.",
+        "low_score_traits": "May be reserved, gruff, rude, fawning, or simply nondescript."
+      }
+    },
+    "rules_keywords": [
+      "Ability Scores",
+      "Character Statistics",
+      "Ability Modifiers",
+      "Score Generation",
+      "Character Creation Rules",
+      "Saga Edition Abilities"
+    ],
+    "score_generation_methods": {
+      "dice_rolling": {
+        "method_description": "Roll four six-sided dice (4d6). Disregard the lowest die and total the three highest dice. Repeat six times to generate six scores.",
+        "reroll_condition": "Scores may be scrapped and all six rerolled if the total of all ability modifiers (before species adjustments) is 0 or less, OR if the highest score rolled is 13 or lower."
+      },
+      "planned_generation": {
+        "method_description": "All six ability scores start at 8. You have 25 points to spend to increase these scores according to the cost table. After selecting scores, apply any species modifiers.",
+        "starting_score": 8,
+        "points_to_spend": 25,
+        "cost_table": [
+          {
+            "score": 8,
+            "cost_to_reach_from_8": 0
+          },
+          {
+            "score": 9,
+            "cost_to_reach_from_8": 1
+          },
+          {
+            "score": 10,
+            "cost_to_reach_from_8": 2
+          },
+          {
+            "score": 11,
+            "cost_to_reach_from_8": 3
+          },
+          {
+            "score": 12,
+            "cost_to_reach_from_8": 4
+          },
+          {
+            "score": 13,
+            "cost_to_reach_from_8": 5
+          },
+          {
+            "score": 14,
+            "cost_to_reach_from_8": 6
+          },
+          {
+            "score": 15,
+            "cost_to_reach_from_8": 8
+          },
+          {
+            "score": 16,
+            "cost_to_reach_from_8": 10
+          },
+          {
+            "score": 17,
+            "cost_to_reach_from_8": 13
+          },
+          {
+            "score": 18,
+            "cost_to_reach_from_8": 16
+          }
+        ],
+        "source_page_reference": "CR 19"
+      },
+      "standard_score_package": {
+        "method_description": "Assign the following scores to abilities as desired, then apply species modifiers.",
+        "scores_array": [
+          15,
+          14,
+          13,
+          12,
+          10,
+          8
+        ],
+        "source_page_reference": "CR 19"
+      }
+    },
+    "source_book_reference": "CR",
+    "system_introduction_what_are_abilities": "The six fundamental abilities define a character's raw potential: Strength (STR), Dexterity (DEX), Constitution (CON), Intelligence (INT), Wisdom (WIS), and Charisma (CHA). These scores, and primarily their modifiers, underpin most other character statistics and are critical inputs for nearly all game mechanics."
   }
 }

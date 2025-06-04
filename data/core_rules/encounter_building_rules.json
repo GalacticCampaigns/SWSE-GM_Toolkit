@@ -1,11 +1,25 @@
 {
+  "last_modified": "2025-06-04T11:21:54",
   "encounter_building_rules_data": {
-    "file_description": "Rules and guidelines for building and balancing encounters, awarding experience points, and other rewards from the Star Wars Saga Edition Core Rulebook, Chapter 14.",
-    "default_source_book": "CR",
-    "default_source_page_range": "247-248",
-    "errata_applied": [
-      "Measuring Encounter Difficulty (Combining CLs): Formula clarified to be (Sum of CLs)/3 OR Highest Single CL + 2, whichever is more. Restriction added: Most encounters should not include a single enemy whose CL is more than 3 levels higher than the average party level (CRB Errata p.291 for CRB p.247)."
-    ],
+    "awarding_experience_points": {
+      "title": "Awarding Experience Points (XP)",
+      "source_page_reference": "CRB 248",
+      "general_principle": "Heroes receive XP for overcoming opponents, hazards, and other obstacles that stand in the way of achieving adventure goals. Overcoming an obstacle doesn't always mean defeating it in combat; tricking, bribing, or bypassing an opponent to achieve a goal can also count for full XP.",
+      "xp_table_reference_summary": "XP awards are based on the Challenge Level of the threat overcome, as detailed in CRB Table 14-1: Experience Point Awards (p.248). Example values include: CL 1 = 200 XP; CL 5 = 1,000 XP; CL 10 = 2,000 XP; CL 15 = 3,000 XP; CL 20 = 4,000 XP. (The full table should be referenced for other CLs).",
+      "xp_distribution": "XP awards should generally be split equally among all heroes who participated in overcoming the challenge.",
+      "reduced_xp_for_low_cl_threats": "Beginning at 6th character level, heroes receive only one-tenth (1/10th) of the normal XP award for any threat with a Challenge Level equal to or less than (the heroes' average character level - 5)."
+    },
+    "awarding_other_rewards": {
+      "title": "Awarding Other Rewards",
+      "source_page_reference": "CRB 248",
+      "general_guideline_credits": "As a general rule, a challenging yet fair encounter should net the heroes resources equivalent to their average character level multiplied by 2,000 credits. This total value is then divided equally among them.",
+      "difficulty_adjustment_rewards": "Easier encounters might yield half these resources or none at all. Difficult encounters should provide at least 50% more resources.",
+      "timing_of_rewards": "Rewards can be distributed at the end of each encounter or, more commonly, as a lump sum (of credits, valuable items, or information) at the conclusion of an adventure.",
+      "types_of_rewards": {
+        "credits": "Includes actual currency (credit chips, coins), credit vouchers, electronic fund transfers, or valuable trade goods easily converted to cash.",
+        "equipment": "Heroes might acquire equipment by recovering it from battlefields, seizing it from defeated enemies, or finding it. GMs should be judicious to prevent excessive looting from slowing down the game. Highlight notable/useful items and downplay mundane or unusable gear. Enforce encumbrance rules if necessary, and the value of salvaged equipment can be considered part of the total reward value for the encounter/adventure."
+      }
+    },
     "challenge_levels_overview": {
       "title": "Challenge Levels (CL)",
       "source_page_reference": "CRB 247",
@@ -19,6 +33,12 @@
         "description": "Factors making an encounter easier due to circumstances beyond the heroes' direct control (e.g., opponents are already injured). General effect: The GM may reduce the XP award by as much as half. XP should not be reduced if the beneficial circumstances are the direct or indirect result of good planning or roleplaying by the heroes."
       }
     },
+    "default_source_book": "CR",
+    "default_source_page_range": "247-248",
+    "errata_applied": [
+      "Measuring Encounter Difficulty (Combining CLs): Formula clarified to be (Sum of CLs)/3 OR Highest Single CL + 2, whichever is more. Restriction added: Most encounters should not include a single enemy whose CL is more than 3 levels higher than the average party level (CRB Errata p.291 for CRB p.247)."
+    ],
+    "file_description": "Rules and guidelines for building and balancing encounters, awarding experience points, and other rewards from the Star Wars Saga Edition Core Rulebook, Chapter 14.",
     "measuring_encounter_difficulty": {
       "title": "Measuring Encounter Difficulty",
       "source_page_reference": "CRB 247-248",
@@ -44,24 +64,12 @@
         "single_high_cl_threat_restriction": "Most encounters should not include a single enemy whose CL is more than 3 levels higher than the average party level (CRB Errata p.291)."
       }
     },
-    "awarding_experience_points": {
-      "title": "Awarding Experience Points (XP)",
-      "source_page_reference": "CRB 248",
-      "general_principle": "Heroes receive XP for overcoming opponents, hazards, and other obstacles that stand in the way of achieving adventure goals. Overcoming an obstacle doesn't always mean defeating it in combat; tricking, bribing, or bypassing an opponent to achieve a goal can also count for full XP.",
-      "xp_table_reference_summary": "XP awards are based on the Challenge Level of the threat overcome, as detailed in CRB Table 14-1: Experience Point Awards (p.248). Example values include: CL 1 = 200 XP; CL 5 = 1,000 XP; CL 10 = 2,000 XP; CL 15 = 3,000 XP; CL 20 = 4,000 XP. (The full table should be referenced for other CLs).",
-      "xp_distribution": "XP awards should generally be split equally among all heroes who participated in overcoming the challenge.",
-      "reduced_xp_for_low_cl_threats": "Beginning at 6th character level, heroes receive only one-tenth (1/10th) of the normal XP award for any threat with a Challenge Level equal to or less than (the heroes' average character level - 5)."
-    },
-    "awarding_other_rewards": {
-      "title": "Awarding Other Rewards",
-      "source_page_reference": "CRB 248",
-      "general_guideline_credits": "As a general rule, a challenging yet fair encounter should net the heroes resources equivalent to their average character level multiplied by 2,000 credits. This total value is then divided equally among them.",
-      "difficulty_adjustment_rewards": "Easier encounters might yield half these resources or none at all. Difficult encounters should provide at least 50% more resources.",
-      "timing_of_rewards": "Rewards can be distributed at the end of each encounter or, more commonly, as a lump sum (of credits, valuable items, or information) at the conclusion of an adventure.",
-      "types_of_rewards": {
-        "credits": "Includes actual currency (credit chips, coins), credit vouchers, electronic fund transfers, or valuable trade goods easily converted to cash.",
-        "equipment": "Heroes might acquire equipment by recovering it from battlefields, seizing it from defeated enemies, or finding it. GMs should be judicious to prevent excessive looting from slowing down the game. Highlight notable/useful items and downplay mundane or unusable gear. Enforce encumbrance rules if necessary, and the value of salvaged equipment can be considered part of the total reward value for the encounter/adventure."
-      }
-    }
+    "rules_keywords": [
+      "Encounter Building",
+      "Challenge Level (CL)",
+      "XP Awards",
+      "Saga Edition GM Rules",
+      "Treasure Distribution"
+    ]
   }
 }

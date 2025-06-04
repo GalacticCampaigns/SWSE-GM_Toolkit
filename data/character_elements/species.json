@@ -1,4 +1,5 @@
 {
+  "last_modified": "2025-06-04T15:15:30",
   "species_data": {
     "description": "Compilation of Species for Star Wars SAGA Edition.",
     "species_list": [
@@ -67,7 +68,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Advozse"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Advozse"
+        ]
       },
       {
         "id": "aleena_f_12",
@@ -138,7 +145,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Aleena"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Aleena"
+        ]
       },
       {
         "id": "amanin_w_337",
@@ -232,7 +245,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Amani"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Amani"
+        ]
       },
       {
         "id": "anzati_ur_10",
@@ -326,7 +345,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Anzati"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Anzati"
+        ]
       },
       {
         "id": "aqualish_cr_284",
@@ -397,7 +422,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Aqualish"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Aqualish"
+        ]
       },
       {
         "id": "arcona_w_156",
@@ -450,7 +481,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Arcona"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Arcona"
+        ]
       },
       {
         "id": "arkanian_k_10",
@@ -520,7 +557,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Arkanian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Arkanian"
+        ]
       },
       {
         "id": "arkanian_offshoot_k_11",
@@ -586,7 +629,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Arkanian_Offshoot"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Arkanian_Offshoot"
+        ]
       },
       {
         "id": "balosar_sv_154",
@@ -667,7 +716,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Balosar"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Balosar"
+        ]
       },
       {
         "id": "barabel_gw_11",
@@ -792,7 +847,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Barabel"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Barabel"
+        ]
       },
       {
         "id": "barabel_sv_154",
@@ -917,7 +978,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Barabel"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Barabel"
+        ]
       },
       {
         "id": "bith_gi_10",
@@ -997,7 +1064,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bith"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Bith"
+        ]
       },
       {
         "id": "bith_t_26",
@@ -1072,7 +1145,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bith"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Bith"
+        ]
       },
       {
         "id": "blood_carver_sv_6",
@@ -1130,7 +1209,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Blood_Carver"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Blood_Carver"
+        ]
       },
       {
         "id": "bothan_cr_23",
@@ -1185,7 +1270,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bothan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Bothan"
+        ]
       },
       {
         "id": "caamasi_f_13",
@@ -1264,7 +1355,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Caamasi"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Caamasi"
+        ]
       },
       {
         "id": "cathar_k_12",
@@ -1334,7 +1431,13 @@
             ]
           }
         ],
-        "speed_squares": 8
+        "speed_squares": 8,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cathar"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cathar"
+        ]
       },
       {
         "id": "celegian_j_106",
@@ -1429,7 +1532,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Celegian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Celegian"
+        ]
       },
       {
         "id": "cerean_cr_24",
@@ -1487,7 +1596,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cerean"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cerean"
+        ]
       },
       {
         "id": "chadra_fan_ur_11",
@@ -1559,7 +1674,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chadra-Fan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chadra-Fan"
+        ]
       },
       {
         "id": "chadra_fan_l_211",
@@ -1631,7 +1752,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chadra-Fan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chadra-Fan"
+        ]
       },
       {
         "id": "chagrian_l_10",
@@ -1695,7 +1822,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chagrian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chagrian"
+        ]
       },
       {
         "id": "chagrian_c_159",
@@ -1759,7 +1892,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chagrian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chagrian"
+        ]
       },
       {
         "id": "chiss_l_11",
@@ -1804,7 +1943,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chiss"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chiss"
+        ]
       },
       {
         "id": "chiss_ur_126",
@@ -1849,7 +1994,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chiss"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chiss"
+        ]
       },
       {
         "id": "chiss_f_192",
@@ -1894,7 +2045,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chiss"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chiss"
+        ]
       },
       {
         "id": "chistori_t_34",
@@ -1978,7 +2135,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chistori"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chistori"
+        ]
       },
       {
         "id": "clawdite_sv_7",
@@ -2044,7 +2207,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Clawdite"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Clawdite"
+        ]
       },
       {
         "id": "clone_republic_c_91",
@@ -2099,7 +2268,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Clone_Trooper"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Clone_commando"
+        ]
       },
       {
         "id": "codru_ji_l_12",
@@ -2168,7 +2343,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Codru-Ji"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Codru-Ji"
+        ]
       },
       {
         "id": "croke_j_128",
@@ -2262,7 +2443,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Croke"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Croke"
+        ]
       },
       {
         "id": "dashade_gw_12",
@@ -2335,7 +2522,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dashade"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Dashade"
+        ]
       },
       {
         "id": "defel_gi_11",
@@ -2389,7 +2582,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Defel"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Defel"
+        ]
       },
       {
         "id": "devaronian_females_l_214",
@@ -2456,7 +2655,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Devaronian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Devaronian"
+        ]
       },
       {
         "id": "devaronian_females_w_228",
@@ -2523,7 +2728,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Devaronian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Devaronian"
+        ]
       },
       {
         "id": "devaronian_males_l_214",
@@ -2590,7 +2801,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Devaronian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Devaronian"
+        ]
       },
       {
         "id": "devaronian_males_w_228",
@@ -2657,7 +2874,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Devaronian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Devaronian"
+        ]
       },
       {
         "id": "draethos_k_12",
@@ -2738,7 +2961,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Draethos"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Draethos"
+        ]
       },
       {
         "id": "droid_1st_degree_medium_medical_scientific_cr_186",
@@ -2883,7 +3112,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/1st-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_one_droid"
+        ]
       },
       {
         "id": "droid_1st_degree_small_medical_scientific_cr_186",
@@ -3022,7 +3257,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/1st-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_one_droid"
+        ]
       },
       {
         "id": "droid_2nd_degree_medium_astromech_technical_cr_186",
@@ -3153,7 +3394,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/2nd-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_two_droid"
+        ]
       },
       {
         "id": "droid_2nd_degree_small_astromech_technical_cr_186",
@@ -3292,7 +3539,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/2nd-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_two_droid"
+        ]
       },
       {
         "id": "droid_3rd_degree_medium_protocol_service_cr_186",
@@ -3427,7 +3680,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/3rd-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_three_droid"
+        ]
       },
       {
         "id": "droid_3rd_degree_small_protocol_service_cr_186",
@@ -3566,7 +3825,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/3rd-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_three_droid"
+        ]
       },
       {
         "id": "droid_4th_degree_medium_combat_security_cr_186",
@@ -3701,7 +3966,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/4th-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_four_droid"
+        ]
       },
       {
         "id": "droid_4th_degree_small_combat_security_cr_186",
@@ -3840,7 +4111,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/4th-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_four_droid"
+        ]
       },
       {
         "id": "droid_5th_degree_medium_labor_utility_cr_186",
@@ -3975,7 +4252,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/5th-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_five_droid"
+        ]
       },
       {
         "id": "droid_5th_degree_small_labor_utility_cr_186",
@@ -4114,7 +4397,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/5th-Degree_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Class_five_droid"
+        ]
       },
       {
         "id": "droid_astromech_droid_sgd_11",
@@ -4245,7 +4534,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Astromech_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Astromech_droid"
+        ]
       },
       {
         "id": "droid_battle_droid_sgd_11",
@@ -4376,7 +4671,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Battle_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Battle_droid"
+        ]
       },
       {
         "id": "droid_labor_droid_sgd_11",
@@ -4507,7 +4808,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Labor_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Labor_droid"
+        ]
       },
       {
         "id": "droid_mechanic_droid_sgd_12",
@@ -4638,7 +4945,10 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mechanic_Droid"
+        ]
       },
       {
         "id": "droid_medical_droid_sgd_12",
@@ -4769,7 +5079,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Medical_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Medical_droid"
+        ]
       },
       {
         "id": "droid_probe_droid_sgd_12",
@@ -4900,7 +5216,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Probe_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Probe_droid"
+        ]
       },
       {
         "id": "droid_protocol_droid_sgd_13",
@@ -5035,7 +5357,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/The_Imperial_Knights"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Protocol_droid"
+        ]
       },
       {
         "id": "droid_service_droid_sgd_13",
@@ -5166,7 +5494,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Service_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Service_droid"
+        ]
       },
       {
         "id": "dug_c_10",
@@ -5264,7 +5598,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dug"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Dug"
+        ]
       },
       {
         "id": "dug_w_312",
@@ -5366,7 +5706,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dug"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Dug"
+        ]
       },
       {
         "id": "duros_cr_25",
@@ -5410,7 +5756,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Duros"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Duros"
+        ]
       },
       {
         "id": "ebruchi_ur_127",
@@ -5491,7 +5843,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ebruchi"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ebruchi"
+        ]
       },
       {
         "id": "elomin_gi_133",
@@ -5548,7 +5906,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Elomin"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Elomin"
+        ]
       },
       {
         "id": "ewok_cr_25",
@@ -5628,7 +5992,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ewok"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ewok"
+        ]
       },
       {
         "id": "falleen_sv_8",
@@ -5702,7 +6072,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Falleen"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Falleen"
+        ]
       },
       {
         "id": "feeorin_k_13",
@@ -5824,7 +6200,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Feeorin"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Feeorin"
+        ]
       },
       {
         "id": "felucian_f_14",
@@ -5931,7 +6313,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Felucian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Felucian"
+        ]
       },
       {
         "id": "fosh_gi_12",
@@ -5990,7 +6378,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fosh"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Fosh"
+        ]
       },
       {
         "id": "gamorrean_cr_26",
@@ -6060,7 +6454,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gamorrean"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gamorrean"
+        ]
       },
       {
         "id": "gand_sv_8",
@@ -6142,7 +6542,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gand"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gand"
+        ]
       },
       {
         "id": "gen_dai_c_11",
@@ -6174,7 +6580,13 @@
         "pc_or_npc": "P",
         "size": "Large",
         "special_qualities": [],
-        "speed_squares": 8
+        "speed_squares": 8,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gen'Dai"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gen'Dai"
+        ]
       },
       {
         "id": "geonosian_w_164",
@@ -6278,7 +6690,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Geonosian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Geonosian"
+        ]
       },
       {
         "id": "geonosian_c_181",
@@ -6378,7 +6796,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Geonosian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Geonosian"
+        ]
       },
       {
         "id": "givin_gi_13",
@@ -6448,7 +6872,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Givin"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Givin"
+        ]
       },
       {
         "id": "gotal_gi_14",
@@ -6512,7 +6942,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gotal"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gotal"
+        ]
       },
       {
         "id": "gran_f_15",
@@ -6590,7 +7026,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gran"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gran"
+        ]
       },
       {
         "id": "gungan_cr_26",
@@ -6696,7 +7138,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gungan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gungan"
+        ]
       },
       {
         "id": "herglic_gi_15",
@@ -6749,7 +7197,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Herglic"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Herglic"
+        ]
       },
       {
         "id": "houk_sv_155",
@@ -6811,7 +7265,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Houk"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Houk"
+        ]
       },
       {
         "id": "human_cr_23",
@@ -6854,7 +7314,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Human"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Human"
+        ]
       },
       {
         "id": "hutt_cr_284",
@@ -6928,7 +7394,13 @@
             ]
           }
         ],
-        "speed_squares": 2
+        "speed_squares": 2,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hutt"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Hutt"
+        ]
       },
       {
         "id": "iktotchi_c_12",
@@ -6999,7 +7471,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Iktotchi"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Iktotchi"
+        ]
       },
       {
         "id": "ishi_tib_ur_12",
@@ -7086,7 +7564,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ishi_Tib"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ishi_Tib"
+        ]
       },
       {
         "id": "ithorian_cr_27",
@@ -7179,7 +7663,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ithorian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ithorian"
+        ]
       },
       {
         "id": "jawa_sv_9",
@@ -7258,7 +7748,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jawa"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Jawa"
+        ]
       },
       {
         "id": "jawa_w_164",
@@ -7341,7 +7837,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jawa"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Jawa"
+        ]
       },
       {
         "id": "kaleesh_c_12",
@@ -7427,7 +7929,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kaleesh"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Kaleesh"
+        ]
       },
       {
         "id": "kaminoan_c_13",
@@ -7493,7 +8001,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kaminoan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Kaminoan"
+        ]
       },
       {
         "id": "kaminoan_w_164",
@@ -7559,7 +8073,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kaminoan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Kaminoan"
+        ]
       },
       {
         "id": "kel_dor_cr_28",
@@ -7637,7 +8157,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kel_Dor"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Kel_Dor"
+        ]
       },
       {
         "id": "kerkoiden_c_14",
@@ -7695,7 +8221,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kerkoiden"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Kerkoiden"
+        ]
       },
       {
         "id": "khil_k_14",
@@ -7791,7 +8323,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Khil"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Khil"
+        ]
       },
       {
         "id": "killik_ur_131",
@@ -7900,7 +8438,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Killik"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Killik"
+        ]
       },
       {
         "id": "kissai_k_15",
@@ -7968,7 +8512,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kissai"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Kissai"
+        ]
       },
       {
         "id": "klatoonian_l_13",
@@ -8012,7 +8562,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Klatooinian_Jedi_Sentinel_Master"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Klatooinian"
+        ]
       },
       {
         "id": "krevaaki_ur_12",
@@ -8104,7 +8660,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Krevaaki"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Krevaaki"
+        ]
       },
       {
         "id": "krevaaki_j_111",
@@ -8196,7 +8758,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Krevaaki"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Krevaaki"
+        ]
       },
       {
         "id": "lugubraa_ur_135",
@@ -8299,7 +8867,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Lugubraa"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Lugubraa"
+        ]
       },
       {
         "id": "lurmen_gw_12",
@@ -8388,7 +8962,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Lurmen"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Lurmen"
+        ]
       },
       {
         "id": "mantellian_savrip_t_117",
@@ -8517,7 +9097,13 @@
             ]
           }
         ],
-        "speed_squares": 8
+        "speed_squares": 8,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mantellian_Savrip"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mantellian_Savrip"
+        ]
       },
       {
         "id": "massassi_k_15",
@@ -8620,7 +9206,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Massassi"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Massassi"
+        ]
       },
       {
         "id": "miraluka_k_16",
@@ -8674,7 +9266,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Miraluka"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Miraluka"
+        ]
       },
       {
         "id": "miraluka_t_31",
@@ -8728,7 +9326,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Miraluka"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Miraluka"
+        ]
       },
       {
         "id": "mon_calamari_cr_28",
@@ -8820,7 +9424,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mon_Calamari"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mon_Calamari"
+        ]
       },
       {
         "id": "mrlssi_gi_16",
@@ -8888,7 +9498,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mrlssi"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mrlssi"
+        ]
       },
       {
         "id": "nagai_l_14",
@@ -8955,7 +9571,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nagai"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nagai"
+        ]
       },
       {
         "id": "nautolan_c_15",
@@ -9050,7 +9672,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nautolan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nautolan"
+        ]
       },
       {
         "id": "nazren_w_234",
@@ -9100,7 +9728,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nazren"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nazren"
+        ]
       },
       {
         "id": "near_human_ability_adjustment_ur_18",
@@ -9158,7 +9792,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_additional_arms_ur_18",
@@ -9188,7 +9828,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_altiri_ur_163",
@@ -9230,7 +9876,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Altiri_Pirate_Captain"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Altiri/Legends"
+        ]
       },
       {
         "id": "near_human_anarrian_ur_163",
@@ -9282,7 +9934,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Anarrian_Expert_Assassin"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Anarrian"
+        ]
       },
       {
         "id": "near_human_biotech_augmentation_ur_18",
@@ -9312,7 +9970,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_breathe_underwater_ur_18",
@@ -9342,7 +10006,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_climate_adaptation_ur_18",
@@ -9372,7 +10042,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_conductive_ur_18",
@@ -9402,7 +10078,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_cultural_cybernetics_ur_18",
@@ -9432,7 +10114,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_darkvision_ur_18",
@@ -9462,7 +10150,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_empath_ur_18",
@@ -9492,7 +10186,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Taeon_Skywalker"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_expert_swimmer_ur_18",
@@ -9523,7 +10223,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_heightened_awareness_ur_18",
@@ -9554,7 +10260,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_low_light_vision_ur_18",
@@ -9584,7 +10296,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_natural_armor_ur_18",
@@ -9616,7 +10334,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_natural_weapon_ur_18",
@@ -9648,7 +10372,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_naturally_acrobatic_ur_18",
@@ -9679,7 +10409,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_oreenians_ur_179",
@@ -9720,7 +10456,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_persistent_ur_18",
@@ -9751,7 +10493,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_quick_ur_18",
@@ -9781,7 +10529,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_quick_healing_ur_18",
@@ -9811,7 +10565,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_resistant_ur_18",
@@ -9843,7 +10603,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_scent_ur_18",
@@ -9873,7 +10639,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_spring_step_ur_18",
@@ -9904,7 +10676,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_strength_surge_ur_18",
@@ -9945,7 +10723,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_visually_striking_ur_18",
@@ -9976,7 +10760,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "near_human_weapon_familiarity_ur_18",
@@ -10007,7 +10797,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Near-Humans"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Near-human"
+        ]
       },
       {
         "id": "neimodian_cr_285",
@@ -10066,7 +10862,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Neimoidian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Neimoidian"
+        ]
       },
       {
         "name": "Neimoidian",
@@ -10121,7 +10923,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Neimoidian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Neimoidian"
+        ]
       },
       {
         "id": "nelvaanian_c_16",
@@ -10200,7 +11008,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nelvaanian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nelvaanian"
+        ]
       },
       {
         "id": "nikto_ur_13",
@@ -10268,7 +11082,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nikto"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nikto"
+        ]
       },
       {
         "id": "noghri_w_164",
@@ -10359,7 +11179,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Noghri"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Noghri"
+        ]
       },
       {
         "id": "noghri_f_185",
@@ -10454,7 +11280,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Noghri"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Noghri"
+        ]
       },
       {
         "id": "nosaurian_f_15",
@@ -10516,7 +11348,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nosaurian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nosaurian"
+        ]
       },
       {
         "id": "nyriaanan_gi_144",
@@ -10577,7 +11415,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Nyriaanan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Nyriaanan"
+        ]
       },
       {
         "id": "palowick_gi_131",
@@ -10649,7 +11493,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pa'lowick"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Pa'lowick"
+        ]
       },
       {
         "id": "pauan_w_230",
@@ -10722,7 +11572,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pau'an"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Pau'an"
+        ]
       },
       {
         "id": "phindian_w_158",
@@ -10775,7 +11631,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Phindian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Phindian"
+        ]
       },
       {
         "id": "polis_massan_w_249",
@@ -10857,7 +11719,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Polis_Massan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Kallidahin"
+        ]
       },
       {
         "id": "quarren_cr_29",
@@ -10949,7 +11817,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Quarren"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Quarren"
+        ]
       },
       {
         "id": "rakata_k_17",
@@ -11092,7 +11966,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rakata"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Rakatan"
+        ]
       },
       {
         "id": "replica_droid_t_153",
@@ -11206,7 +12086,13 @@
             ]
           }
         ],
-        "speed_squares": 0
+        "speed_squares": 0,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Replica_Droid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Replica_droid"
+        ]
       },
       {
         "id": "rodian_cr_29",
@@ -11275,7 +12161,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rodian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Rodian"
+        ]
       },
       {
         "id": "ryn_sv_10",
@@ -11350,7 +12242,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ryn"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ryn"
+        ]
       },
       {
         "id": "sakiyan_l_204",
@@ -11407,7 +12305,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sakiyan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sakiyan"
+        ]
       },
       {
         "id": "selkath_k_18",
@@ -11479,7 +12383,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Selkath"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Selkath"
+        ]
       },
       {
         "id": "shard_j_79",
@@ -11547,7 +12457,13 @@
             ]
           }
         ],
-        "speed_squares": 0
+        "speed_squares": 0,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shard"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Shard"
+        ]
       },
       {
         "id": "shistavanen_ur_14",
@@ -11637,7 +12553,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shistavanen"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Shistavanen"
+        ]
       },
       {
         "id": "skakoan_w_160",
@@ -11719,7 +12641,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Skakoan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Skakoan"
+        ]
       },
       {
         "id": "sluissi_ur_14",
@@ -11792,7 +12720,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sluissi"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sluissi"
+        ]
       },
       {
         "id": "snivvian_k_19",
@@ -11844,7 +12778,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Snivvian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Snivvian"
+        ]
       },
       {
         "id": "sorcerer_of_rhand_ur_143",
@@ -11937,7 +12877,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sorcerer_of_Rhand"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sorcerers_of_Rhand"
+        ]
       },
       {
         "id": "squib_ur_15",
@@ -12011,7 +12957,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Squib"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Squib"
+        ]
       },
       {
         "id": "ssi_ruuk_ur_147",
@@ -12088,7 +13040,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ssi-Ruuk"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ssi-ruuk_Star_Cluster"
+        ]
       },
       {
         "id": "stereb_d9_12",
@@ -12204,7 +13162,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Stereb"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Stereb"
+        ]
       },
       {
         "id": "sullustan_cr_30",
@@ -12266,7 +13230,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sullustan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sullustan"
+        ]
       },
       {
         "id": "talz_f_16",
@@ -12331,7 +13301,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Talz"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Talz"
+        ]
       },
       {
         "id": "taung_gw_13",
@@ -12397,7 +13373,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Taung"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Taung"
+        ]
       },
       {
         "id": "tchuukthai_j_109",
@@ -12435,7 +13417,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tchuukthai"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Tchuukthai"
+        ]
       },
       {
         "id": "thakwaash_gw_14",
@@ -12493,7 +13481,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Thakwaash"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Thakwaash"
+        ]
       },
       {
         "id": "tof_ur_149",
@@ -12586,7 +13580,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tof"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Tof"
+        ]
       },
       {
         "id": "togorian_f_17",
@@ -12655,7 +13655,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Togorian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Togorian"
+        ]
       },
       {
         "id": "togruta_f_17",
@@ -12719,7 +13725,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Togruta"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Togruta"
+        ]
       },
       {
         "id": "toydarian_sv_11",
@@ -12783,7 +13795,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Toydarian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Toydarian"
+        ]
       },
       {
         "id": "trandoshan_cr_31",
@@ -12856,7 +13874,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Trandoshan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Trandoshan"
+        ]
       },
       {
         "id": "trianii_gw_15",
@@ -12916,7 +13940,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Trianii"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Trianii"
+        ]
       },
       {
         "id": "tusken_raider_w_164",
@@ -12963,7 +13993,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Tusken_Raider"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Tusken_Raider"
+        ]
       },
       {
         "id": "twi_lek_cr_31",
@@ -13027,7 +14063,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Twi'lek"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Twi'lek"
+        ]
       },
       {
         "id": "ubese_sv_12",
@@ -13116,7 +14158,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ubese"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ubese"
+        ]
       },
       {
         "id": "ugnaught_f_223",
@@ -13136,7 +14184,13 @@
         "pc_or_npc": "N",
         "size": "Small",
         "special_qualities": [],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ugnaught"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ugnaught"
+        ]
       },
       {
         "id": "ugor_d4_9",
@@ -13168,7 +14222,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ugor"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ugor"
+        ]
       },
       {
         "id": "umbaran_gi_18",
@@ -13271,7 +14331,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Umbaran"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Umbaran"
+        ]
       },
       {
         "id": "umbaran_c_160",
@@ -13374,7 +14440,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Umbaran"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Umbaran"
+        ]
       },
       {
         "id": "utai_t_127",
@@ -13443,7 +14515,13 @@
             ]
           }
         ],
-        "speed_squares": 4
+        "speed_squares": 4,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Utai"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Utai"
+        ]
       },
       {
         "id": "vagaari_ur_153",
@@ -13520,7 +14598,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vagaari"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Vagaari"
+        ]
       },
       {
         "id": "vahla_l_59",
@@ -13581,7 +14665,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vahla"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Vahla"
+        ]
       },
       {
         "id": "verpine_ur_16",
@@ -13650,7 +14740,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Verpine"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Verpine"
+        ]
       },
       {
         "id": "vultan_j_107",
@@ -13704,7 +14800,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vultan"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Vultan"
+        ]
       },
       {
         "id": "vurk_c_17",
@@ -13789,7 +14891,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vurk"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Vurk"
+        ]
       },
       {
         "id": "weequay_l_15",
@@ -13860,7 +14968,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Weequay"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Weequay"
+        ]
       },
       {
         "id": "whiphid_f_18",
@@ -13929,7 +15043,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Whiphid"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Whiphid"
+        ]
       },
       {
         "id": "wookiee_cr_32",
@@ -14042,7 +15162,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wookiee"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Wookiee"
+        ]
       },
       {
         "id": "wroonian_sv_156",
@@ -14094,7 +15220,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wroonian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Wroonian"
+        ]
       },
       {
         "id": "yarkora_f_19",
@@ -14168,7 +15300,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Yarkora"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Yarkora"
+        ]
       },
       {
         "id": "yevetha_gw_16",
@@ -14233,7 +15371,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Yevetha"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Yevetha"
+        ]
       },
       {
         "id": "yuuzhan_vong_l_16",
@@ -14297,7 +15441,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Yuuzhan_Vong"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Yuuzhan_Vong"
+        ]
       },
       {
         "id": "yuuzhan_vong_cr_285",
@@ -14359,7 +15509,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Yuuzhan_Vong"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Yuuzhan_Vong"
+        ]
       },
       {
         "id": "yuzzem_gw_17",
@@ -14445,7 +15601,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Yuzzem"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Yuzzem"
+        ]
       },
       {
         "id": "zabrak_cr_32",
@@ -14492,7 +15654,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Zabrak"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Zabrak"
+        ]
       },
       {
         "id": "zeltron_l_17",
@@ -14586,7 +15754,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Zeltron"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Zeltron"
+        ]
       },
       {
         "id": "zeltron_w_311",
@@ -14684,7 +15858,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Zeltron"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Zeltron"
+        ]
       },
       {
         "id": "zygerrian_gw_17",
@@ -14746,7 +15926,13 @@
             ]
           }
         ],
-        "speed_squares": 6
+        "speed_squares": 6,
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Zygerrian"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Zygerrian"
+        ]
       }
     ]
   }

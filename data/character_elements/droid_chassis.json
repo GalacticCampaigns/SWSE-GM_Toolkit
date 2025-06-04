@@ -1,5 +1,5 @@
 {
-  "last_modified": "2025-05-30T22:04:47",
+  "last_modified": "2025-06-04T15:15:30",
   "droid_chassis_data": {
     "description": "Compilation of Droid Chassis for Star Wars SAGA Edition.",
     "droid_chassis_list": [
@@ -59,11 +59,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/11-17-Series_Mining_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/11-17-series_mining_droid"
+        ]
       },
       {
         "id": "2_1b_advanced_medical_droid_w_338",
@@ -121,12 +127,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/2-1B_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3,
           "Noble": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/MD-series_medical_droid/Legends"
+        ]
       },
       {
         "id": "2_1b_medical_droid_cr_197",
@@ -184,11 +196,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/2-1B_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/2-1B_surgical_droid"
+        ]
       },
       {
         "id": "3d_4_administrative_droid_gi_73",
@@ -246,11 +264,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/3D-4_Administrative_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/3D-4_administrative_droid"
+        ]
       },
       {
         "id": "3po_series_protocol_droid_cr_198",
@@ -308,11 +332,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/3PO-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/3PO-series_protocol_droid"
+        ]
       },
       {
         "id": "3px_espionage_droid_t_145",
@@ -370,12 +400,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/3PX_Espionage_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1,
           "Scoundrel": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/C-3PX"
+        ]
       },
       {
         "id": "3z3_medical_droid_l_70",
@@ -433,11 +469,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/3Z3_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/3Z3_medical_droid"
+        ]
       },
       {
         "id": "4_lom_r_143",
@@ -495,6 +537,9 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/4-LOM"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
@@ -503,7 +548,10 @@
           "Scoundrel": 1,
           "Scout": 3,
           "Bounty Hunter": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/4-LOM"
+        ]
       },
       {
         "id": "5_bt_threat_analysis_droid_gi_72",
@@ -561,11 +609,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/5-BT_Threat_Analysis_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/5-BT_Threat_Analysis_Droid"
+        ]
       },
       {
         "id": "501_z_security_droid_squad_d9_37",
@@ -623,11 +677,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/501-Z_Police/Security_Droid_Squad"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/501-Z_police_droid"
+        ]
       },
       {
         "id": "501_z_police_security_droid_t_155",
@@ -685,11 +745,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/501-Z_Police/Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/501-Z_police_droid"
+        ]
       },
       {
         "id": "5yq_series_protocol_droid_c_70",
@@ -747,11 +813,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/5YQ-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/5YQ-series_protocol_droid"
+        ]
       },
       {
         "id": "8d_smelter_droid_sgd_68",
@@ -809,11 +881,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/8D_Smelter_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/8D_smelter_droid"
+        ]
       },
       {
         "id": "8d8_smelting_operator_droid_sv_157",
@@ -871,11 +949,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/8D8_Smelting_Operator"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/8D_smelter_droid"
+        ]
       },
       {
         "id": "a_dsd_c86_advanced_dwarf_spider_droid_c_188",
@@ -933,11 +1017,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/A-DSD_Advanced_Dwarf_Spider_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/A-DSD_advanced_dwarf_spider_droid"
+        ]
       },
       {
         "id": "a_series_assassin_droid_c_189",
@@ -995,12 +1085,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/A-Series_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Elite Trooper": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/A-series_assassin_droid"
+        ]
       },
       {
         "id": "a_series_medical_droid_gw_50",
@@ -1058,11 +1154,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/A-Series_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Noble": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/EV-series_medical_droid"
+        ]
       },
       {
         "id": "a9g_series_archive_droid_sgd_70",
@@ -1120,11 +1222,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/A9G-Series_Archive_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/A9G-series_Data_Storage_Unit"
+        ]
       },
       {
         "id": "ad_series_weapons_maintenance_droid_sgd_72",
@@ -1182,10 +1290,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/AD-Series_Weapons_Maintenance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/AD-series_weapons_maintenance_droid"
+        ]
       },
       {
         "id": "as23_aerial_survey_droid_ur_43",
@@ -1243,11 +1357,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/AS23_Aerial_Survey_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/AS23_aerial_survey_droid"
+        ]
       },
       {
         "id": "asn_121_assassin_droid_t_135",
@@ -1305,10 +1425,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/ASN-121_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/ASN-121/Legends"
+        ]
       },
       {
         "id": "asn_121_assassin_droid_w_303",
@@ -1366,10 +1492,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/ASN-121_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/ASN-121/Legends"
+        ]
       },
       {
         "id": "asp_series_labor_droid_cr_203",
@@ -1427,11 +1559,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/ASP_Labor_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/ASP-series_labor_droid"
+        ]
       },
       {
         "id": "az_series_battle_droid_gw_181",
@@ -1489,10 +1627,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/AZ-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/AZ-series_battle_droid"
+        ]
       },
       {
         "id": "advanced_purge_trooper_dx_19",
@@ -1550,11 +1694,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Advanced_Purge_Trooper"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Elite Trooper": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Purge_trooper"
+        ]
       },
       {
         "id": "aggressor_series_battle_droid_l_75",
@@ -1612,10 +1762,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Aggressor-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Aggressor-series_battle_droid"
+        ]
       },
       {
         "id": "annihilator_droid_sgd_74",
@@ -1673,11 +1829,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Scorpenek_Annihilator_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Scorpenek_annihilator_droid"
+        ]
       },
       {
         "id": "assassin_battle_droid_c_190",
@@ -1735,11 +1897,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Battle_Droid_Assassin"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG-88_assassin_droid/Legends"
+        ]
       },
       {
         "id": "automated_sentry_gun_gw_98",
@@ -1797,11 +1965,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Automated_Sentry_Gun"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Automated_sentry_gun"
+        ]
       },
       {
         "id": "b1_series_battle_droid_cr_199",
@@ -1859,11 +2033,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B1-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B1-series_battle_droid"
+        ]
       },
       {
         "id": "b1_a_air_battle_droid_c_189",
@@ -1921,11 +2101,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B1-A_Air_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B1-A_air_battle_droid"
+        ]
       },
       {
         "id": "b1_series_battle_droid_squad_c_94",
@@ -1983,11 +2169,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B1-Series_Battle_Droid_Squad"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/B1-series_battle_droid"
+        ]
       },
       {
         "id": "b2_series_heavy_super_battle_droid_squad_25_10",
@@ -2045,11 +2237,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B2-HA-Series_Super_Battle_Droid_Squad"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/B2-series_super_battle_droid"
+        ]
       },
       {
         "id": "b2_series_super_battle_droid_cr_199",
@@ -2108,11 +2306,17 @@
           "special_qualities_summary": [],
           "attack_options_summary": "autofire (wrist blasters), Charging Fire, Rapid Fire, aid another (+5)"
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B2-Series_Super_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B2-series_super_battle_droid"
+        ]
       },
       {
         "id": "b2_series_super_battle_droid_commander_25_11",
@@ -2170,12 +2374,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B2-Series_Super_Battle_Droid_Commander"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Droid Commander": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B2-HA_super_battle_droid/Legends"
+        ]
       },
       {
         "id": "b2_aa_air_assault_super_battle_droid_gw_52",
@@ -2233,11 +2443,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B2-AA_Air_Assault_Super_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B2-AA_air_assault_super_battle_droid"
+        ]
       },
       {
         "id": "b3_series_ultra_battle_droid_t_140",
@@ -2295,11 +2511,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B3-Series_Ultra_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B3_ultra_battle_droid"
+        ]
       },
       {
         "id": "b3_a_series_ultra_battle_droid_t_140",
@@ -2357,10 +2579,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B3-A-Series_Ultra_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/B3-A_ultra_battle_droid"
+        ]
       },
       {
         "id": "b4j4_security_droid_gi_75",
@@ -2418,11 +2646,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B4J4_Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/B4J4_security_droid"
+        ]
       },
       {
         "id": "bca_11_x_training_lightsaber_practice_droid_c_71",
@@ -2480,11 +2714,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/BCA-11/X_Training_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/BCA-11/X_lightsaber_practice_droid"
+        ]
       },
       {
         "id": "bd_3000_luxury_droid_f_105",
@@ -2542,11 +2782,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/BD-3000_Luxury_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/BD-3000_luxury_droid"
+        ]
       },
       {
         "id": "bl_39_interrogator_droid_l_70",
@@ -2604,12 +2850,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/BL-39_Interrogator_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1,
           "Scoundrel": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/BL-39_interrogator_droid"
+        ]
       },
       {
         "id": "bl_series_battle_legionnaire_gi_75",
@@ -2667,11 +2919,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/BL-Series_Legionnaire_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/BL-series_Battle_Legionnaire"
+        ]
       },
       {
         "id": "blx_labor_droid_sgd_76",
@@ -2729,11 +2987,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/BLX_Labor_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/BLX_labor_droid"
+        ]
       },
       {
         "id": "bt_16_perimeter_security_droid_r_55",
@@ -2791,12 +3055,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/BT-16_Perimeter_Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/BT-16_perimeter_droid"
+        ]
       },
       {
         "id": "bx_series_droid_commando_c_192",
@@ -2854,11 +3124,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/BX-Series_Droid_Commando"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/BX-series_droid_commando"
+        ]
       },
       {
         "id": "battle_droid_sergeant_w_284",
@@ -2916,11 +3192,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/B1-Series_Battle_Droid_Sergeant"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Unidentified_B1_battle_droid_sergeant_(Teth)"
+        ]
       },
       {
         "id": "behemoth_junk_droid_f_107",
@@ -2978,11 +3260,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Behemoth_Junk_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Junk_behemoth"
+        ]
       },
       {
         "id": "brute_junk_droid_f_107",
@@ -3040,6 +3328,9 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Brute_Junk_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
@@ -3127,11 +3418,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/C-3PO"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/C-3PO"
+        ]
       },
       {
         "id": "c_b3_cortosis_battle_droid_c_191",
@@ -3189,11 +3486,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/C-B3_Cortosis_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/C-B3_cortosis_battle_droid"
+        ]
       },
       {
         "id": "cll_6_binary_load_lifter_c_72",
@@ -3251,11 +3554,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/CLL-6_Binary_Load_Lifter"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/CLL-6_binary_load_lifter_droid"
+        ]
       },
       {
         "id": "cll_m2_ordnance_lifter_gw_56",
@@ -3313,11 +3622,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/CLL-M2_Ordnance_Lifter"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/CLL-M2_binary_loadlifter/Legends"
+        ]
       },
       {
         "id": "cz_series_secretary_droid_sgd_80",
@@ -3375,11 +3690,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/CZ-Series_Secretary_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/CZ-series_secretary/business_communications_droid"
+        ]
       },
       {
         "id": "chiba_dr10_protocol_droid_gw_52",
@@ -3437,11 +3758,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Chiba_DR-10_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Chiba_DR-10_protocol_droid"
+        ]
       },
       {
         "id": "cloud_city_patrol_droid_d3_27",
@@ -3499,6 +3826,9 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wing_Guard_Patrol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
@@ -3560,11 +3890,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/CA-B2_Cold_Assault_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cold_assault_battle_droid"
+        ]
       },
       {
         "id": "colicoid_infiltrator_series_droid_sgd_78",
@@ -3622,11 +3958,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Infiltrator-Series_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Colicoid_Infiltrator-series_droid"
+        ]
       },
       {
         "id": "commando_droid_captain_w_285",
@@ -3684,12 +4026,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/BX-Series_Droid_Commando_Captain"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Droid Commander": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Commando_droid_captain"
+        ]
       },
       {
         "id": "crab_droid_scout_cr_201",
@@ -3747,11 +4095,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LM-432_Crab_Droid_Scout"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/LM-432_crab_droid"
+        ]
       },
       {
         "id": "crab_droid_lm_432_assault_c_194",
@@ -3809,11 +4163,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/LM-432_%22Muckraker%22_Crab_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 18
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LM-432_crab_droid/Legends"
+        ]
       },
       {
         "id": "dd_13_medical_assistant_droid_c_66",
@@ -3871,11 +4231,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DD-13_Medical_Assistant_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/DD-13_medical_assistant_droid"
+        ]
       },
       {
         "id": "drk_1_probe_droid_t_149",
@@ -3933,11 +4299,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DRK-1_Probe_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/DRK-1_Dark_Eye_probe_droid/Legends"
+        ]
       },
       {
         "id": "dsd1_dwarf_spider_droid_cr_200",
@@ -3995,11 +4367,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DSD1_Dwarf_Spider_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/DSD1_dwarf_spider_droid"
+        ]
       },
       {
         "id": "dsh_3_probe_droid_ur_43",
@@ -4057,11 +4435,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DSH-3_Probe_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/DSH-3_probe_droid"
+        ]
       },
       {
         "id": "dt_16_destructor_battle_droid_sgd_86",
@@ -4119,11 +4503,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DT-16_\"Destructor\"_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/DT-16_Destructor_battle_droid"
+        ]
       },
       {
         "id": "dum_series_pit_droid_c_70",
@@ -4181,11 +4571,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Pit_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/DUM-series_pit_droid"
+        ]
       },
       {
         "id": "dark_trooper_phase_i_r_128",
@@ -4243,11 +4639,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Phase_I_Dark_Trooper"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Dark_Trooper"
+        ]
       },
       {
         "id": "dark_trooper_phase_ii_r_128",
@@ -4305,11 +4707,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Phase_II_Dark_Trooper"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Phase_II_Dark_Trooper"
+        ]
       },
       {
         "id": "dark_trooper_phase_iii_r_129",
@@ -4367,11 +4775,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Phase_III_Dark_Trooper"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Phase_III_Dark_Trooper"
+        ]
       },
       {
         "id": "devastator_war_droid_k_87",
@@ -4429,11 +4843,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Devastator_War_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Devastator_war_droid"
+        ]
       },
       {
         "id": "droideka_mark_ii_sgd_84",
@@ -4491,11 +4911,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droideka_Mk_II_Destroyer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Droideka_Mark_II"
+        ]
       },
       {
         "id": "droideka_series_destroyer_droid_cr_200",
@@ -4553,11 +4979,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droideka-Series_Destroyer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Droideka"
+        ]
       },
       {
         "id": "droideka_sniper_gw_54",
@@ -4615,12 +5047,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sniper_Droideka"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9,
           "Scout": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Droideka_Sharpshooter"
+        ]
       },
       {
         "id": "droideka_ultra_c_197",
@@ -4678,11 +5116,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droideka-Series_Ultra_Destroyer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 16
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ultra_Droideka"
+        ]
       },
       {
         "id": "duelist_elite_training_droid_sgd_88",
@@ -4740,10 +5184,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/DE_Training_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Training_droid"
+        ]
       },
       {
         "id": "e522_assassin_droid_sgd_90",
@@ -4801,11 +5251,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/E522_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/E522_assassin_droid"
+        ]
       },
       {
         "id": "eg_6_series_power_droid_t_148",
@@ -4863,11 +5319,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/EG-6_Power_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/EG-6_power_droid"
+        ]
       },
       {
         "id": "ei_9_network_security_droid_sgd_92",
@@ -4925,13 +5387,19 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/EI-9_Network_Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3,
           "Scoundrel": 3,
           "Scout": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/EI-9_network_security_droid"
+        ]
       },
       {
         "id": "et_74_communications_droid_k_80",
@@ -4989,11 +5457,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/ET-74_Communications_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/ET-74_communications_droid"
+        ]
       },
       {
         "id": "ev_series_supervisor_sgd_94",
@@ -5051,12 +5525,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/EV-Series_Supervisor_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1,
           "Noble": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/EV-series_supervisor_droid/Legends"
+        ]
       },
       {
         "id": "evs_construction_droid_t_143",
@@ -5114,11 +5594,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/EVS_Construction_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 15
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/EVS_Construction_Droid"
+        ]
       },
       {
         "id": "ew_3_midwife_droid_c_67",
@@ -5176,11 +5662,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/EW-3_Midwife_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Midwife_droid"
+        ]
       },
       {
         "id": "eradicator_series_battle_droid_gw_53",
@@ -5238,11 +5730,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Eradicator-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 8
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Eradicator-series_battle_droid"
+        ]
       },
       {
         "id": "f1_exploration_droid_ur_44",
@@ -5300,11 +5798,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/F1_Exploration_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/F1_exploration_droid"
+        ]
       },
       {
         "id": "fa_4_pilot_droid_c_161",
@@ -5362,11 +5866,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FA-4_Pilot_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FA-4_pilot_droid"
+        ]
       },
       {
         "id": "fa_5_valet_droid_c_72",
@@ -5424,11 +5934,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FA-5_Valet_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FA-5_valet_droid"
+        ]
       },
       {
         "id": "feg_series_pilot_droid_l_71",
@@ -5486,11 +6002,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FEG-Series_Pilot_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FEG-series_pilot_droid"
+        ]
       },
       {
         "id": "fiii_footman_droid_gi_74",
@@ -5548,11 +6070,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FIII_Footman_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 5
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FIII_Footman_droid"
+        ]
       },
       {
         "id": "fltch_series_battle_droid_sgd_96",
@@ -5610,11 +6138,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FLTCH-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FLTCH-series_battle_droid"
+        ]
       },
       {
         "id": "fsd_6d_surveillance_droid_d6_27",
@@ -5672,11 +6206,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FSD-6D_Surveillance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FSD-6D_flying_surveillance_droid"
+        ]
       },
       {
         "id": "fx_6_medical_assistance_droid_c_160",
@@ -5734,11 +6274,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FX-6_Medical_Assistance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FX-6_medical_assistant_droid"
+        ]
       },
       {
         "id": "fx_6_medical_droid_f_103",
@@ -5796,11 +6342,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FX-6_Medical_Assistance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FX-6_medical_assistant_droid"
+        ]
       },
       {
         "id": "fx_7_medical_droid_r_52",
@@ -5858,11 +6410,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/FX-7_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/FX-7_medical_assistant_droid/Legends"
+        ]
       },
       {
         "id": "g2_repair_droid_sgd_98",
@@ -5920,11 +6478,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/G2_Repair_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/G2_repair_droid"
+        ]
       },
       {
         "id": "gd16_series_pilot_droid_sgd_100",
@@ -5982,11 +6546,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GD16-Series_Pilot_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GD16-series_pilot_droid"
+        ]
       },
       {
         "id": "ge3_series_protocol_droid_k_82",
@@ -6044,11 +6614,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GE3-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GE3-series_protocol_droid"
+        ]
       },
       {
         "id": "gg_series_hospitality_droid_k_83",
@@ -6106,11 +6682,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GG-Series_Hospitality_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GG-series_hospitality_droid"
+        ]
       },
       {
         "id": "gh_7_medical_droid_t_147",
@@ -6168,11 +6750,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GH-7_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GH-7_series_medical_assistance_droid"
+        ]
       },
       {
         "id": "go_to_k_212",
@@ -6230,12 +6818,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kasumi_Goto"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4,
           "Scoundrel": 5
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/G0-T0"
+        ]
       },
       {
         "id": "go_to_infrastructure_planning_droid_k_81",
@@ -6293,11 +6887,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/G0-T0_Infrastructure-Planning_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/G0-T0"
+        ]
       },
       {
         "id": "grz_6b_demolitions_droid_t_144",
@@ -6355,11 +6955,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GRZ-6B_Demolitions_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 16
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GRZ-6B_wrecker_droid"
+        ]
       },
       {
         "id": "gx1_series_battle_droid_sgd_102",
@@ -6417,12 +7023,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GX1-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GX1-series_battle_droid"
+        ]
       },
       {
         "id": "gy_i_information_analysis_droid_sgd_104",
@@ -6480,11 +7092,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/GY-I_Information_Analysis_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Noble": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/GY-I_information_analysis_droid"
+        ]
       },
       {
         "id": "guri_t_153",
@@ -6542,12 +7160,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Guri"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Noble": 2,
           "Scoundrel": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Guri"
+        ]
       },
       {
         "id": "h_1me_battle_mechanic_droid_sgd_106",
@@ -6605,11 +7229,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/H-1ME_Battle_Mechanic_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/H-1ME_battle_mechanic_droid"
+        ]
       },
       {
         "id": "hk_24_series_assassin_droid_k_84",
@@ -6667,11 +7297,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HK-50_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HK-24_series_assassin_droid"
+        ]
       },
       {
         "id": "hk_47_k_212",
@@ -6729,11 +7365,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HK-47"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Elite Trooper": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HK-47"
+        ]
       },
       {
         "id": "hk_50_series_assassin_droid_k_85",
@@ -6791,12 +7433,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HK-50_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Elite Trooper": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HK-50_series_assassin_droid"
+        ]
       },
       {
         "id": "hk_77_assassin_droid_sgd_108",
@@ -6854,10 +7502,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HK-77_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HK-77_assassin_droid"
+        ]
       },
       {
         "id": "hk_series_droid_independent_k_84",
@@ -6915,10 +7569,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Independent_HK-Series_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HK-series_assassin_droid"
+        ]
       },
       {
         "id": "hkb_3_hunter_killer_droid_sgd_110",
@@ -6976,12 +7636,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HKB-3_Hunter-Killer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HKB-3_hunter-killer_droid"
+        ]
       },
       {
         "id": "ht_drone_r_57",
@@ -7039,11 +7705,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HT_Drone"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RHTC-560_HT_Drone"
+        ]
       },
       {
         "id": "hv_7_loading_droid_l_77",
@@ -7101,11 +7773,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/HV-7_Loading_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/HV-7_loading_droid"
+        ]
       },
       {
         "id": "holocam_droid_l_72",
@@ -7163,11 +7841,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Holocam_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cam_droid/Legends"
+        ]
       },
       {
         "id": "ig_lancer_combat_droid_c_192",
@@ -7225,11 +7909,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/4th-Degree_Droid_Models"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG_lancer_droid/Legends"
+        ]
       },
       {
         "id": "ig_series_battle_droid_t_141",
@@ -7287,11 +7977,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/4th-Degree_Droid_Models"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG-series_battle_droid_army"
+        ]
       },
       {
         "id": "ig_100_series_magnaguard_cr_201",
@@ -7349,10 +8045,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IG-100_MagnaGuard"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG-97_battle_droid"
+        ]
       },
       {
         "id": "ig_110_lightsaber_droid_c_193",
@@ -7410,11 +8112,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IG-110_Lightsaber_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Jedi": 5
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG-110_lightsaber_droid"
+        ]
       },
       {
         "id": "ig_86_sentinel_droid_c_71",
@@ -7472,10 +8180,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IG-86_Sentinel_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG-86_sentinel_droid"
+        ]
       },
       {
         "id": "ig_88_r_143",
@@ -7533,13 +8247,19 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IG-88"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 1,
           "Scout": 4,
           "Bounty Hunter": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IG-88B"
+        ]
       },
       {
         "id": "im_6_medical_droid_c_67",
@@ -7597,11 +8317,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IM-6_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IM-6_Battlefield_Medical_Droid/Legends"
+        ]
       },
       {
         "id": "it_o_interrogator_f_194",
@@ -7659,11 +8385,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/IT-0_Interrogator_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Noble": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IT-O_interrogation_droid/Legends"
+        ]
       },
       {
         "id": "iw_37_pincer_loader_droid_c_73",
@@ -7721,11 +8453,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IW-37_Pincer_Loader_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IW-37_pincer_loader_droid"
+        ]
       },
       {
         "id": "ix_6_heavy_combat_droid_l_75",
@@ -7783,10 +8521,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IX-6_Heavy_Combat_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IX-6_heavy_combat_droid"
+        ]
       },
       {
         "id": "imperial_city_maintenance_droid_r_130",
@@ -7844,11 +8588,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IC-M_General_Utility_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IC-M_General_Utility_Droid"
+        ]
       },
       {
         "id": "imperial_espionage_droid_r_127",
@@ -7906,11 +8656,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Imperial_Espionage_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Imperial_espionage_droid"
+        ]
       },
       {
         "id": "j9_worker_droid_sv_157",
@@ -7968,11 +8724,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/J9_Worker_Drone"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/J9_worker_drone"
+        ]
       },
       {
         "id": "jk_13_security_droid_c_193",
@@ -8030,10 +8792,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/JK-13_Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/JK-13_security_droid"
+        ]
       },
       {
         "id": "juggernaut_war_droid_k_85",
@@ -8091,11 +8859,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Juggernaut_War_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Juggernaut_war_droid"
+        ]
       },
       {
         "id": "junk_droid_f_106",
@@ -8153,11 +8927,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Junk_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Unidentified_junk_droid/Legends"
+        ]
       },
       {
         "id": "k_series_spaceport_control_droid_sv_96",
@@ -8215,11 +8995,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/K-Series_Spaceport_Control_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/K-Series_spaceport_control_droid"
+        ]
       },
       {
         "id": "k_x12_probe_droid_k_86",
@@ -8277,12 +9063,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/K-X12_Probe_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/K-X12_probe_droid"
+        ]
       },
       {
         "id": "kdy_4_tech_droid_gw_51",
@@ -8340,11 +9132,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/KDY-4_Tech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/KDY-4_tech_droid"
+        ]
       },
       {
         "id": "km1_mining_droid_sgd_112",
@@ -8402,11 +9200,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/KM1_Mining_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/KM1_mining_droid"
+        ]
       },
       {
         "id": "krath_war_droid_k_222",
@@ -8464,11 +9268,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Krath_War_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Krath_war_droid"
+        ]
       },
       {
         "id": "le_series_repair_droid_c_68",
@@ -8526,11 +9336,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LE-Series_Repair_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LE-series_repair_droid"
+        ]
       },
       {
         "id": "lep_series_service_droid_sgd_140",
@@ -8588,11 +9404,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/3rd-Degree_Droid_Models"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LEP-series_service_droid"
+        ]
       },
       {
         "id": "lom_series_protocol_droid_r_54",
@@ -8650,11 +9472,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LOM-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LOM-series_protocol_droid"
+        ]
       },
       {
         "id": "lon_29_battle_droid_commander_l_76",
@@ -8712,11 +9540,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LON-29_Battle_Droid_Commander"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LON-29_battle_droid_commander"
+        ]
       },
       {
         "id": "lr_57_combat_droid_c_195",
@@ -8774,11 +9608,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LR-57_Combat_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LR-57_combat_droid/Legends"
+        ]
       },
       {
         "id": "lv_38_spotter_probe_droid_r_110",
@@ -8836,12 +9676,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LV-38_Longvision_Spotter/Probe_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1,
           "Scout": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Longvision_LV-38_spotter/probe_droid"
+        ]
       },
       {
         "id": "lv8_series_guard_droid_l_74",
@@ -8899,11 +9745,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/LV8-Series_Guard_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LV8-series_guard_droid"
+        ]
       },
       {
         "id": "m_3po_series_military_protocol_droid_t_150",
@@ -8961,11 +9813,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/M-3PO-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/M-3PO_military_protocol_droid"
+        ]
       },
       {
         "id": "m38_explorer_droid_sgd_114",
@@ -9023,11 +9881,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/M38-Series_Explorer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/M38-series_explorer_droid"
+        ]
       },
       {
         "id": "m4_series_messenger_droid_gi_73",
@@ -9085,11 +9949,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/M4-Series_Messenger_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/M4-series_Messenger_Droid"
+        ]
       },
       {
         "id": "mev_series_medical_evacuation_droid_sgd_116",
@@ -9147,11 +10017,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/MEV-Series_Medical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 5
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/MEV-series_medical_evacuation_droid"
+        ]
       },
       {
         "id": "mk_series_maintenance_droid_sgd_118",
@@ -9209,11 +10085,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/MK-Series_Maintenance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/MK-series_maintenance_droid"
+        ]
       },
       {
         "id": "mr_200_series_minesweeper_droid_gw_57",
@@ -9271,11 +10153,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/MR-200-Series_Minesweeper_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/MR-200_Series_minesweeper_droid"
+        ]
       },
       {
         "id": "mrd_39b_assassin_droid_gi_208",
@@ -9333,10 +10221,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/MRD-39B_Assassin_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/MRD-39B_assassin_droid"
+        ]
       },
       {
         "id": "mse_6_repair_droid_f_197",
@@ -9394,11 +10288,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/MSE-6_Repair_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/MSE-6_series_repair_droid/Legends"
+        ]
       },
       {
         "id": "mule_droid_ur_45",
@@ -9456,11 +10356,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/MULE_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/PackTrack_41LT-R"
+        ]
       },
       {
         "id": "mark_i_patrol_droid_k_86",
@@ -9518,11 +10424,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mark_I_Patrol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/IMG-099_Imperial_Mark_IV_patrol_droid"
+        ]
       },
       {
         "id": "mark_iv_series_sentry_droid_t_157",
@@ -9580,11 +10492,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/4th-Degree_Droid_Models"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/Mark_IV_sentry_droid/Legends"
+        ]
       },
       {
         "id": "mark_vii_inquisitor_series_seeker_droid_t_156",
@@ -9642,11 +10560,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Mark_VII_%22Inquisitor%22_Seeker_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mark_VII_\"Inquisitor\"_Series_Seeker_Droid"
+        ]
       },
       {
         "id": "marksman_h_combat_remote_c_162",
@@ -9704,11 +10628,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Marksman-H_Combat_Remote"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Marksman-H_combat_remote"
+        ]
       },
       {
         "id": "model_88_series_administration_droid_sgd_120",
@@ -9766,12 +10696,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/88-Series_Administration_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6,
           "Noble": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Model_88-series_administration_droid"
+        ]
       },
       {
         "id": "nr_1100_slicer_droid_gi_72",
@@ -9829,11 +10765,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/NR-1100_Slicer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/NR-1100_slicer_droid"
+        ]
       },
       {
         "id": "oom_series_battle_droid_c_196",
@@ -9891,11 +10833,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/OOM-Series_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/OOM-series_battle_droid"
+        ]
       },
       {
         "id": "octuptarra_combat_tri_droid_c_196",
@@ -9953,11 +10901,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Octuptarra_Combat_Tri-Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Octuptarra_combat_tri-droid/Legends"
+        ]
       },
       {
         "id": "p2_series_astromech_droid_c_69",
@@ -10015,11 +10969,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/P2-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/P2-series_astromech_droid"
+        ]
       },
       {
         "id": "pg_5_gunnery_droid_sgd_122",
@@ -10077,11 +11037,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/PG-5_Gunnery_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/PG-5_gunnery_droid"
+        ]
       },
       {
         "id": "pi_series_medical_assistant_droid_l_69",
@@ -10139,11 +11105,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/PI-Series_Medical_Assistant_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/PI-series_medical_assistant_droid"
+        ]
       },
       {
         "id": "pk_work_droid_t_160",
@@ -10201,11 +11173,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/TotG_Droids"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Labor,_Repair_and_Miscellaneous_Droids"
+        ]
       },
       {
         "id": "pk_2m_mining_droid_d9_33",
@@ -10263,11 +11241,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/PK-2M_Mining_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/PK-2M_mining_droid"
+        ]
       },
       {
         "id": "plnk_series_power_droid_sgd_124",
@@ -10325,11 +11309,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/PLNK-Series_Power_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/PLNK-series_power_droid"
+        ]
       },
       {
         "id": "pistoeka_buzz_droid_t_142",
@@ -10387,10 +11377,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Buzz_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Pistoeka_sabotage_droid"
+        ]
       },
       {
         "id": "proxy_f_196",
@@ -10448,12 +11444,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/PROXY"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Indep Droid": 3,
           "Jedi": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/PROXY"
+        ]
       },
       {
         "id": "purge_trooper_gw_54",
@@ -10511,11 +11513,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Purge_Trooper"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Purge_Trooper"
+        ]
       },
       {
         "id": "q7_series_astromech_droid_f_104",
@@ -10573,11 +11581,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Q7-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Q7-series_astromech_droid/Legends"
+        ]
       },
       {
         "id": "r_1_recon_droid_f_197",
@@ -10635,11 +11649,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R-1_Recon_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R-1_recon_droid"
+        ]
       },
       {
         "id": "r_8009_utility_droid_k_89",
@@ -10697,11 +11717,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R-8009_Utility_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R-8009_utility_droid"
+        ]
       },
       {
         "id": "r2_series_astromech_cr_198",
@@ -10759,11 +11785,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R2-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R2-series_astromech_droid"
+        ]
       },
       {
         "id": "r2_d2_episode_vi_cr_267",
@@ -10893,12 +11925,18 @@
           "special_qualities_summary": [],
           "ranged_attack_bonus_summary": "+8 (by weapon)"
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/R2-D2"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1,
           "Noble": 5
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/R2-D2"
+        ]
       },
       {
         "id": "r2_r_series_reconnaissance_astromech_droid_t_139",
@@ -10956,11 +11994,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R2-R-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R2-R-series_astromech_droid"
+        ]
       },
       {
         "id": "r3_series_astromech_droid_t_136",
@@ -11018,11 +12062,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R3-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R3-series_astromech_droid/Legends"
+        ]
       },
       {
         "id": "r4_series_astromech_droid_t_137",
@@ -11080,11 +12130,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R4-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R4_astromech_droid/Legends"
+        ]
       },
       {
         "id": "r4_series_agromech_droid_r_53",
@@ -11142,11 +12198,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R4-Series_Agromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R4_astromech_droid/Legends"
+        ]
       },
       {
         "id": "r5_series_astromech_droid_t_137",
@@ -11204,11 +12266,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R5-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R5_series_astromech_droid"
+        ]
       },
       {
         "id": "r7_series_astromech_droid_t_138",
@@ -11266,11 +12334,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R7-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R7-series_astromech_droid"
+        ]
       },
       {
         "id": "r8_series_astromech_droid_sgd_128",
@@ -11328,11 +12402,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R8-Series_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/R8-series_astromech_droid"
+        ]
       },
       {
         "id": "ra_7_protocol_droid_f_195",
@@ -11390,11 +12470,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/RA-7_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RA-7_protocol_droid"
+        ]
       },
       {
         "id": "rhtc_560_hunter_trainer_r_56",
@@ -11452,10 +12538,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/RHTC-560_Hunter_Trainer"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RHTC-560_Hunter_Trainer"
+        ]
       },
       {
         "id": "ro_d_series_droid_sgd_126",
@@ -11513,12 +12605,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/AD-Series_Weapons_Maintenance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1,
           "Scoundrel": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RO-D-series_droid"
+        ]
       },
       {
         "id": "rww_series_protocol_droid_sgd_130",
@@ -11576,11 +12674,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/RWW-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RWW-series_protocol_droid"
+        ]
       },
       {
         "id": "rx_series_pilot_droid_sv_96",
@@ -11638,11 +12742,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/RX-Series_Pilot_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RX-series_pilot_droid"
+        ]
       },
       {
         "id": "rx_series_pilot_droid_sgd_132",
@@ -11700,11 +12810,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/RX-Series_Pilot_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/RX-series_pilot_droid"
+        ]
       },
       {
         "id": "rakatan_guard_droid_k_223",
@@ -11762,11 +12878,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/4th-Degree_Droid_Models"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 15
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Revanchist"
+        ]
       },
       {
         "id": "recon_droid_w_331",
@@ -11824,11 +12946,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/R-1_Recon_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ringneck_recon_droid"
+        ]
       },
       {
         "id": "replica_droid_t_152",
@@ -11886,11 +13014,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Replica_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 4
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Replica_droid"
+        ]
       },
       {
         "id": "roving_eye_observation_droid_l_72",
@@ -11948,11 +13082,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Roving_Eye_Observation_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Roving_Eye_observation_droid"
+        ]
       },
       {
         "id": "s19_astromech_droid_sgd_134",
@@ -12010,11 +13150,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/S19_Astromech_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/S19_astromech_droid"
+        ]
       },
       {
         "id": "s6_series_security_maintenance_droid_k_88",
@@ -12072,11 +13218,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/S6-Series_Security/Maintenance_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/S6-series_security/maintenance_droid"
+        ]
       },
       {
         "id": "sd_6_hulk_infantry_droid_war_droid_t_158",
@@ -12134,6 +13286,9 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/SD-6_\"Hulk\"_Infantry_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
@@ -12196,10 +13351,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/SD-6_\"Hulk\"_Infantry_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/SD-6_Hulk_infantry_droid"
+        ]
       },
       {
         "id": "sd_9_series_battle_droid_sgd_136",
@@ -12257,11 +13418,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/SD-9_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Elite Trooper": 8
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/SD-9_battle_droid"
+        ]
       },
       {
         "id": "sd_x_series_stealth_battle_droid_sgd_138",
@@ -12319,11 +13486,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/SD-X_Stealth_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/SD-X-series_stealth_battle_droid"
+        ]
       },
       {
         "id": "sp_4_analysis_droid_c_68",
@@ -12381,11 +13554,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/SP-4_Analysis_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/SP-4_analysis_droid"
+        ]
       },
       {
         "id": "sabacc_dealer_droid_d3_30",
@@ -12443,11 +13622,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sabacc_Dealer_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Dealer_droid/Legends"
+        ]
       },
       {
         "id": "security_droid_clan_mionne_d3_35",
@@ -12505,6 +13690,9 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Mionne_Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
@@ -12566,11 +13754,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shadow_Security_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Elite Trooper": 10
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Shadow_Security_Droid"
+        ]
       },
       {
         "id": "sentinel_droid_k_87",
@@ -12628,11 +13822,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/IG-86_Sentinel_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sentinel_droid"
+        ]
       },
       {
         "id": "shadow_droid_sgd_142",
@@ -12690,11 +13890,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shadow_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Shadow_Droid"
+        ]
       },
       {
         "id": "sith_elite_warbot_t_159",
@@ -12752,11 +13958,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sith_Elite_Warbot"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sith_Elite_Warbot"
+        ]
       },
       {
         "id": "sith_mark_i_assault_droid_k_165",
@@ -12814,11 +14026,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Mark_I_Assault_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mark_I_assault_droid"
+        ]
       },
       {
         "id": "sith_mark_iv_assault_droid_k_165",
@@ -12876,11 +14094,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Mark_IV_Assault_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Battle_of_Czerka_431"
+        ]
       },
       {
         "id": "spelunker_probe_droid_chameleon_c_197",
@@ -12938,12 +14162,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Spelunker_Probe_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3,
           "Scout": 5
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Spelunker_probe_droid/Legends"
+        ]
       },
       {
         "id": "t0_d_interrogation_droid_d9_44",
@@ -13001,11 +14231,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T0-D_Interrogation_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/T0-D_interrogation_droid"
+        ]
       },
       {
         "id": "t0_d_interrogation_droid_t_146",
@@ -13063,11 +14299,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T0-D_Interrogation_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/T0-D_interrogation_droid"
+        ]
       },
       {
         "id": "t1_bulk_loader_k_88",
@@ -13125,11 +14367,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T1_Bulk_Loader_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/LB-series_bulk-loading_droid"
+        ]
       },
       {
         "id": "t1_lb_elbee_w_241",
@@ -13187,12 +14435,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T1-LB"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2,
           "Scoundrel": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/T1-LB"
+        ]
       },
       {
         "id": "t3_m4_k_216",
@@ -13250,12 +14504,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T3-M4"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2,
           "Scoundrel": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/T3-M4"
+        ]
       },
       {
         "id": "t3_series_utility_droid_k_82",
@@ -13313,11 +14573,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T3-Series_Utility_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/T3-series_utility_droid"
+        ]
       },
       {
         "id": "t4_turret_droid_sgd_144",
@@ -13375,11 +14641,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T4_Turret_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/T4_turret_droid"
+        ]
       },
       {
         "id": "tc_series_protocol_droid_t_151",
@@ -13437,11 +14709,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/TC-Series_Protocol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Noble": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/TC-series_protocol_droid"
+        ]
       },
       {
         "id": "tc_sc_infiltration_droid_sgd_146",
@@ -13499,11 +14777,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/TC-SC_Infiltration_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scoundrel": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/TC-SC_infiltration_droid"
+        ]
       },
       {
         "id": "tt_8l_gatekeeper_droid_sgd_148",
@@ -13561,11 +14845,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/TT-8L_Gatekeeper_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/TT-8L_gatekeeper_droid"
+        ]
       },
       {
         "id": "tactical_droid_gw_55",
@@ -13623,10 +14913,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/T-Series_Tactical_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Tactical_droid"
+        ]
       },
       {
         "id": "v2_series_commando_droid_sgd_150",
@@ -13684,11 +14980,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/V2-Series_Commando_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/V2-series_commando_droid"
+        ]
       },
       {
         "id": "v6_series_pilot_droid_sgd_152",
@@ -13746,11 +15048,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/V6-Series_Pilot_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/V6-series_pilot_droid"
+        ]
       },
       {
         "id": "vx_series_artillery_droid_t_134",
@@ -13808,11 +15116,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/VX-Series_Artillery_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/VX_series_artillery_droid"
+        ]
       },
       {
         "id": "vigilant_2x_series_picket_droid_gw_55",
@@ -13870,11 +15184,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vigilant_2X-Series_Picket_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 9
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Vigilant_2X-series_picket_droid"
+        ]
       },
       {
         "id": "viper_series_probe_droid_cr_202",
@@ -13932,11 +15252,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Viper-Series_Probe_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Scavenger's_Guide_to_Droids"
+        ]
       },
       {
         "id": "wed_treadwell_repair_droid_r_54",
@@ -13994,11 +15320,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/WED_Treadwell"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/WED_Treadwell_repair_droid"
+        ]
       },
       {
         "id": "wed_treadwell_repair_droid_w_291",
@@ -14056,11 +15388,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/WED_Treadwell"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/WED_Treadwell_repair_droid"
+        ]
       },
       {
         "id": "wed_15_treadmill_maintenance_droid_t_154",
@@ -14118,10 +15456,16 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/WSB-15_Sabotage_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/WED-15_Treadwell_droid/Legends"
+        ]
       },
       {
         "id": "wed_20_treadwell_ur_47",
@@ -14179,11 +15523,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/WED-20_Treadwell"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/WED-20_Treadwell"
+        ]
       },
       {
         "id": "wsb_15_sabotage_droid_t_154",
@@ -14241,12 +15591,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/WSB-15_Sabotage_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 3,
           "Scoundrel": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/WSB-15_sabotage_droid"
+        ]
       },
       {
         "id": "wanderer_scout_surveyor_droid_ur_46",
@@ -14304,11 +15660,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wanderer_Scout_Surveyor_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Wanderer_Scout_Surveyor"
+        ]
       },
       {
         "id": "warden_droid_d1_38",
@@ -14366,11 +15728,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Imperial_Warden_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Warden_droid"
+        ]
       },
       {
         "id": "x_1_viper_droid_sgd_154",
@@ -14428,11 +15796,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/X-1_Viper_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 12
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/wiki/X-1_Viper"
+        ]
       },
       {
         "id": "xk_v8_excavation_droid_d2_21",
@@ -14490,11 +15864,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/XK-V8_Excavation_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 2
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/XK-V8_Excavation_Droid"
+        ]
       },
       {
         "id": "xlt_014_labor_droid_sgd_156",
@@ -14552,11 +15932,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/XLT-014_Labor_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/XLT-014_labor_droid"
+        ]
       },
       {
         "id": "yvh_series_battle_droid_sgd_158",
@@ -14614,12 +16000,18 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/YVH_Battle_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Scout": 3,
           "Elite Trooper": 1
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/YVH-Series_battle_droid"
+        ]
       },
       {
         "id": "z65_patrol_droid_l_73",
@@ -14677,11 +16069,17 @@
           "base_equipment_and_systems": [],
           "special_qualities_summary": []
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Z65_Patrol_Droid"
+        ],
         "tags": [],
         "typical_class_levels_summary": {
           "notes": null,
           "Non-Heroic": 6
-        }
+        },
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Z65_patrol_droid"
+        ]
       }
     ]
   }

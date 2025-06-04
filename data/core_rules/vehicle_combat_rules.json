@@ -1,5 +1,5 @@
 {
-  "last_modified": "2025-05-30T22:04:47",
+  "last_modified": "2025-06-04T11:21:54",
   "vehicle_combat_rules_data": {
     "description": "Rules for vehicle combat from the Star Wars Saga Edition Core Rulebook, covering starting battles, combat actions, attacking vehicles, and special combat rules.",
     "errata_applied": [
@@ -8,6 +8,14 @@
       "Clarified occupant damage when a vehicle is destroyed by exceeding its damage threshold (CRB Errata p.292, for CRB p.169). Path: /rules_sections/2/details/4/text",
       "Added option to 'Increase Vehicle Speed' as a free action during all-out movement (CRB Errata p.292, for CRB p.172). Path: /rules_sections/1/details/2/action_list/2/description",
       "Clarified occupant damage reduction during collisions based on vehicle cover and damage threshold (CRB Errata p.292, for CRB p.173). Path: /rules_sections/2/details/2/text"
+    ],
+    "rules_keywords": [
+      "Vehicle Combat",
+      "Starship Combat",
+      "Vehicle Actions",
+      "Dogfighting",
+      "Vehicle Damage Rules",
+      "Saga Edition Vehicle Combat"
     ],
     "rules_sections": [
       {

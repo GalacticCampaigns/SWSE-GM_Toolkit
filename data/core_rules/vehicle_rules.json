@@ -1,11 +1,19 @@
 {
-  "last_modified": "2025-05-31T13:54:09",
+  "last_modified": "2025-06-04T11:21:54",
   "vehicle_rules_data": {
     "description": "General rules for vehicles from the Star Wars Saga Edition Core Rulebook, covering vehicle scale, types, statistics, and character interactions.",
     "errata_applied": [
       "Clarified vehicle Reflex Defense calculation, armor bonus, and DR separation (CRB p.167-168). Path: /rules_sections/2/details/5/explanation",
       "Added section for Vehicle Weapon Attacks (General) incorporating errata for Critical Hit restrictions (CRB Errata p.292 for CRB p.167) and updated Damage Formula (CRB Errata p.292 for CRB p.168). Path: /rules_sections/2/details/- (new entry)",
       "Updated explanation for Damage Threshold (stat_dt) to include errata clarification on occupant damage when a vehicle is destroyed (CRB Errata p.292 for CRB p.169). Path: /rules_sections/2/details/7/explanation"
+    ],
+    "rules_keywords": [
+      "Vehicle Rules",
+      "Starship Rules",
+      "Vehicle Scale",
+      "Vehicle Statistics",
+      "Crew Roles",
+      "Saga Edition Vehicles General"
     ],
     "rules_sections": [
       {

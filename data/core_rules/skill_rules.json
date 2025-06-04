@@ -1,5 +1,5 @@
 {
-  "last_modified": "2025-05-31T18:51:52",
+  "last_modified": "2025-06-04T11:21:54",
   "skill_rules_data": {
     "file_description": "General rules and mechanics governing the use of skills in Star Wars Saga Edition, including the skill check formula, trained/untrained use, Taking 10/20, Aid Another, opposed checks, ability checks, and other relevant system mechanics.",
     "page_reference_general": "57-61",
@@ -80,6 +80,14 @@
       "multiple_reroll_sources": "If multiple abilities allow rerolling the same check, you may choose to take each reroll one at a time in any order, resolving each before deciding whether to use another. [cite: 374]",
       "source_page_reference": "CR 60"
     },
+    "rules_keywords": [
+      "Skill Rules",
+      "Skill Checks",
+      "Saga Edition Skills Mechanics",
+      "Ability Checks",
+      "Trained Skills",
+      "Untrained Skills"
+    ],
     "skill_check_formula": {
       "formula_string": "d20 + 1/2 Character Level (rounded down) + Ability Modifier + 5 (if Trained) + Miscellaneous Modifiers",
       "components": [

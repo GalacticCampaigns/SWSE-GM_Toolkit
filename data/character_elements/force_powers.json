@@ -1,4 +1,5 @@
 {
+  "last_modified": "2025-06-04T15:15:30",
   "force_powers_data": {
     "description": "Compilation of Force Powers for Star Wars SAGA Edition.",
     "force_powers_list": [
@@ -77,6 +78,9 @@
             "text": "If you have the Juyo talent and miss with both attack rolls, this power remains in your Force suite instead of being spent as normal."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Assured_Strike"
+        ],
         "target_info": "1"
       },
       {
@@ -104,7 +108,13 @@
         "name_qualifier": "telekinetic",
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "2x2"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ballistakinesis"
+        ],
+        "target_info": "2x2",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ballistakinesis"
+        ]
       },
       {
         "name": "Barrier of Blades",
@@ -136,6 +146,9 @@
             "form_name": "Shien",
             "text": "If you have the Shien talent, you can redirect (as per the Redirect Shot talent) one blaster bolt that misses you while this power is in effect."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Barrier_of_Blades"
         ],
         "target_info": "you"
       },
@@ -247,6 +260,9 @@
             "text": "When you use the battlestrike power and you spend a Destiny Point, your next melee attack, if successful, also moves the target an additional -2 steps along the condition track, regardless of whether the damage exceeds the target's damage threshold."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Battle_Strike"
+        ],
         "target_info": "You"
       },
       {
@@ -275,6 +291,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Blind"
+        ],
         "target_info": "1"
       },
       {
@@ -341,6 +360,9 @@
             "form_name": "Soresu",
             "text": "If you have the Soresu talent, you can add the deflection bonus on Use the Force checks made to use the Block and Deflect talents until the end of your next turn."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Circle_of_Shelter"
         ],
         "target_info": "you"
       },
@@ -413,7 +435,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cloak"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cloak"
+        ]
       },
       {
         "name": "Combustion",
@@ -441,7 +469,13 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "2x2"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Combustion"
+        ],
+        "target_info": "2x2",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Combustion"
+        ]
       },
       {
         "name": "Contentious Opportunity",
@@ -519,6 +553,9 @@
             "text": "If you have the Makashi talent, you gain a +2 Force bonus on attacks of opportunity (including this one) until the end of your next turn."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Contentious_Opportunity"
+        ],
         "target_info": "1"
       },
       {
@@ -590,7 +627,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Convection"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Convection"
+        ]
       },
       {
         "name": "Corruption",
@@ -661,7 +704,13 @@
         "name_qualifier": "dark side",
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Corruption"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Corruption"
+        ]
       },
       {
         "name": "Crucitorn",
@@ -732,7 +781,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Crucitorn"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Crucitorn"
+        ]
       },
       {
         "name": "Cryokinesis",
@@ -807,7 +862,13 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cryokinesis"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cryokinesis"
+        ]
       },
       {
         "id": "dark_rage_cr_96",
@@ -907,6 +968,9 @@
             "text": "When you use the dark rage power and you spend a Destiny Point, you gain a +10 rage bonus on melee attack rolls and damage rolls for the remainder of the encounter."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dark_Rage"
+        ],
         "target_info": "You"
       },
       {
@@ -979,7 +1043,13 @@
         "name_qualifier": "dark side",
         "range_squares": "touch",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dark_Transfer"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Dark_transfer"
+        ]
       },
       {
         "name": "Dark Transfer",
@@ -1051,7 +1121,13 @@
         "name_qualifier": "dark side",
         "range_squares": "touch",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dark_Transfer"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Dark_transfer"
+        ]
       },
       {
         "name": "Deflecting Slash",
@@ -1128,6 +1204,9 @@
             "text": "If you have the Soresu talent, you can spend a Force Point to redirect the incoming attack (as per the Redirect Shot talent) at any other target within 6 squares of you."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deflecting_Slash"
+        ],
         "target_info": "you"
       },
       {
@@ -1199,6 +1278,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Detonate"
+        ],
         "target_info": "1"
       },
       {
@@ -1276,6 +1358,9 @@
             "text": "If you have the Shii-Cho talent, you can use this power as a reaction to being attacked by an adjacent opponent."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Disarming_Slash"
+        ],
         "target_info": "1"
       },
       {
@@ -1347,7 +1432,13 @@
         "name_qualifier": null,
         "range_squares": "6",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Drain_Energy"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Tutaminis"
+        ]
       },
       {
         "name": "Draw Closer \n[lightsaber form, telekinetic]",
@@ -1424,6 +1515,9 @@
             "text": "If you have the Niman talent, you can target a creature within 12 squares (instead of 6 squares)."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Draw_Closer"
+        ],
         "target_info": "1"
       },
       {
@@ -1495,7 +1589,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Energy_Resistance"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Energy_resistance"
+        ]
       },
       {
         "name": "Enlighten \n[light side, mind-affecting]",
@@ -1522,6 +1622,9 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Enlighten"
+        ],
         "target_info": "ally"
       },
       {
@@ -1603,6 +1706,9 @@
             "text": "If you have the Djem So talent, after successfully activating this power you gain one temporary Force Point which can only be used to activate the Djem So talent. If this temporary Force Point is not used before the end of the encounter, it is lost."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Falling_Avalanche"
+        ],
         "target_info": "you"
       },
       {
@@ -1641,6 +1747,9 @@
             "note_type": "force_point_spend",
             "text": "If you successfully use this Force power, you can spend a Force Point to gain a clear mental image of the target’s surroundings, as well as other creatures and objects within 6 squares of it."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Farseeing"
         ],
         "target_info": "One creature you know or have met before"
       },
@@ -1714,6 +1823,9 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Powers"
+        ],
         "target_info": "1"
       },
       {
@@ -1747,6 +1859,9 @@
             "form_name": "Djem So",
             "text": "If you have the Djem So talent, after successfully activating this power you gain one temporary Force Point which can only be used to activate the Djem So talent. If this temporary Force Point is not used before the end of the encounter, it is lost."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fluid_Riposte"
         ],
         "target_info": "you"
       },
@@ -1834,7 +1949,13 @@
         "name_qualifier": null,
         "range_squares": "6",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Fold_Space"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Fold_space"
+        ]
       },
       {
         "name": "Force Blast",
@@ -1905,7 +2026,13 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Blast"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Force_blast"
+        ]
       },
       {
         "id": "force_disarm_cr_97",
@@ -1951,6 +2078,9 @@
             "note_type": "force_point_spend",
             "text": "You can spend a Force Point to damage or destroy the target weapon instead. If your disarm attempt succeeds, the weapon takes damage equal to your Use the Force check result. You must declare that you are using this option before making your disarm attempt."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Disarm"
         ],
         "target_info": "One target within 12 squares and within line of sight"
       },
@@ -2052,6 +2182,9 @@
             "text": "When you successfully use the Force grip power on a target, you can spend a Destiny Point to maintain the power with no concentration (requiring no action) for a number of rounds equal to half your Charisma modifier (minimum 1 round). Taking damage still requires you to make Use the Force checks to maintain the power."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Grip"
+        ],
         "target_info": "One target within 12 squares and within line of sight"
       },
       {
@@ -2123,7 +2256,13 @@
         "name_qualifier": "light side",
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": null
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Light"
+        ],
+        "target_info": null,
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Force_Light"
+        ]
       },
       {
         "id": "force_lightning_cr_97",
@@ -2168,7 +2307,13 @@
             "text": "When you use the Force lightning power, you can spend a Destiny Point to target all creatures in a 6-square cone that originates from your square."
           }
         ],
-        "target_info": "One target in line of sight and within 6 squares of you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Lightning"
+        ],
+        "target_info": "One target in line of sight and within 6 squares of you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Force_lightning"
+        ]
       },
       {
         "name": "Force Scream",
@@ -2239,7 +2384,13 @@
         "name_qualifier": "dark side",
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "all"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Scream"
+        ],
+        "target_info": "all",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Force_scream"
+        ]
       },
       {
         "name": "Force Shield",
@@ -2311,6 +2462,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Shield"
+        ],
         "target_info": "you"
       },
       {
@@ -2383,6 +2537,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Shield"
+        ],
         "target_info": "you"
       },
       {
@@ -2443,6 +2600,9 @@
             "note_type": "force_point_spend",
             "text": "When you use this power, you can spend a Force Point to deal an additional 2d6 points of damage to targets in the area."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Slam"
         ],
         "target_info": "All targets within a 6-square cone and within line of sight"
       },
@@ -2515,6 +2675,9 @@
         "name_qualifier": "dark side",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Storm"
+        ],
         "target_info": "1"
       },
       {
@@ -2586,6 +2749,9 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Storm_(FUCG)"
+        ],
         "target_info": "you"
       },
       {
@@ -2644,6 +2810,9 @@
             "text": "When you use this power, you can spend a Force Point to move the target an additional –1 step along the condition track."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Stun"
+        ],
         "target_info": "One creature within 6 squares or within your line of sight"
       },
       {
@@ -2692,6 +2861,9 @@
             "note_type": "unleashed_version",
             "text": "When you use the Force thrust power and you spend a Destiny Point, opponents affected by the power do not add their size modifier to their Strength checks to resist the power's effect. A creature that would normally have a penalty on its Strength check due to size still retains that penalty. Additionally, the distance you move the target is multiplied by 2. If you push the target into a larger object, the target takes 1d6 points of damage per square moved by this power."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Thrust"
         ],
         "target_info": "One object or character within 12 squares and within line of sight"
       },
@@ -2764,7 +2936,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Track"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Force_Track"
+        ]
       },
       {
         "name": "Force Whirlwind",
@@ -2835,6 +3013,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Whirlwind"
+        ],
         "target_info": "1"
       },
       {
@@ -2906,7 +3087,13 @@
         "name_qualifier": "dark side",
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": null
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hatred"
+        ],
+        "target_info": null,
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Hatred"
+        ]
       },
       {
         "name": "Hawk-Bat Swoop",
@@ -2986,6 +3173,9 @@
             "form_name": "Ataru",
             "text": "If you have the Ataru talent, you can also move up to 2 squares after you resolve your lightsaber attack. This movement does not provoke attacks of opportunity."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Hawk-Bat_Swoop"
         ],
         "target_info": "you"
       },
@@ -3068,6 +3258,9 @@
             "text": "If you have the Sokan talent, you deal +1 die of damage with attacks of opportunity until the start of your next turn."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/High_Ground_Defense"
+        ],
         "target_info": "you"
       },
       {
@@ -3143,7 +3336,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Inertia"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Inertia"
+        ]
       },
       {
         "name": "Inspire",
@@ -3214,7 +3413,13 @@
         "name_qualifier": "light side",
         "range_squares": "6",
         "special_rules_and_notes": [],
-        "target_info": "allies"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Inspire"
+        ],
+        "target_info": "allies",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Inspire"
+        ]
       },
       {
         "name": "Intercept",
@@ -3242,6 +3447,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Intercept"
+        ],
         "target_info": "1"
       },
       {
@@ -3303,7 +3511,13 @@
         "name_qualifier": null,
         "range_squares": "6",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ionize"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Ionize"
+        ]
       },
       {
         "name": "Kinetic Combat",
@@ -3330,6 +3544,9 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kinetic_Combat"
+        ],
         "target_info": "you"
       },
       {
@@ -3357,6 +3574,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kinetic_Combat"
+        ],
         "target_info": "you"
       },
       {
@@ -3421,6 +3641,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Levitate"
+        ],
         "target_info": "you"
       },
       {
@@ -3448,6 +3671,9 @@
         "name_qualifier": "dark side",
         "range_squares": "adjacent",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Lightning_Burst"
+        ],
         "target_info": "all"
       },
       {
@@ -3481,6 +3707,9 @@
             "text": "If you have the Makashi talent, until the end of your next turn the target provokes an attack of opportunity from you if it makes an attack and is within your reach."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Makashi_Riposte"
+        ],
         "target_info": "you"
       },
       {
@@ -3509,7 +3738,13 @@
         "name_qualifier": "light side",
         "range_squares": "6",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Malacia"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Malacia"
+        ]
       },
       {
         "name": "Memory Walk \n[dark side, mind-affecting]",
@@ -3581,6 +3816,9 @@
         "name_qualifier": null,
         "range_squares": "6",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Memory_Walk"
+        ],
         "target_info": "1"
       },
       {
@@ -3652,7 +3890,13 @@
         "name_qualifier": "mind-affecting",
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mind_Shard"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mind_Shard"
+        ]
       },
       {
         "id": "mind_trick_cr_98",
@@ -3712,7 +3956,13 @@
             "text": "If you are making a suggestion, you may spend a Force Point to improve the target’s attitude by one step, plus one additional step for every 5 points by which your Use the Force check exceeds the target’s Will Defense."
           }
         ],
-        "target_info": "One Intelligence 3 or higher creature in line of sight and within 12 squares of you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mind_Trick"
+        ],
+        "target_info": "One Intelligence 3 or higher creature in line of sight and within 12 squares of you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Mind_trick"
+        ]
       },
       {
         "name": "Morichro",
@@ -3740,7 +3990,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Morichro"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Morichro"
+        ]
       },
       {
         "id": "move_object_cr_98",
@@ -3855,6 +4111,9 @@
             "text": "When you hurl one object or character into another object or character and you spend a Destiny Point, multiply the damage dealt by 2."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Move_Object"
+        ],
         "target_info": "One character or object within 12 squares and within your line of sight"
       },
       {
@@ -3901,6 +4160,9 @@
             "text": "Does not work against Force powers like Force Lightning (CRB Errata p.291)."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Negate_Energy"
+        ],
         "target_info": "One attack made against you that deals energy weapon damage"
       },
       {
@@ -3929,6 +4191,9 @@
         "name_qualifier": "mind-affecting",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Obscure"
+        ],
         "target_info": "1"
       },
       {
@@ -4006,6 +4271,9 @@
             "text": "If you have the Tràkata talent, you also ignore any deflection bonus the target has from the Lightsaber Defense talent."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pass_the_Blade"
+        ],
         "target_info": "you"
       },
       {
@@ -4081,7 +4349,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Phase"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Phase"
+        ]
       },
       {
         "name": "Plant Surge",
@@ -4112,7 +4386,13 @@
         "name_qualifier": null,
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Plant_Surge"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Plant_Surge"
+        ]
       },
       {
         "name": "Prescience",
@@ -4173,6 +4453,9 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Prescience"
+        ],
         "target_info": "1"
       },
       {
@@ -4251,6 +4534,9 @@
             "text": "If you have the Niman talent, you also compare the result of your Use the Force check to all other adjacent enemies; if your Use the Force check equals or exceeds an enemy's Fortitude Defense, it is pushed 1 square away from you. This is an area effect."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pushing_Slash"
+        ],
         "target_info": "1"
       },
       {
@@ -4297,6 +4583,9 @@
             "text": "Cannot be maintained. (CRB Errata p.291)"
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rebuke"
+        ],
         "target_info": "One Force power directed at you"
       },
       {
@@ -4324,6 +4613,9 @@
         "name_qualifier": "dark side",
         "range_squares": "6",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rend"
+        ],
         "target_info": "1"
       },
       {
@@ -4352,7 +4644,13 @@
         "name_qualifier": "telekinetic",
         "range_squares": "adjacent",
         "special_rules_and_notes": [],
-        "target_info": "all"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Repulse"
+        ],
+        "target_info": "all",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Repulse"
+        ]
       },
       {
         "name": "Resist Force",
@@ -4413,6 +4711,9 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Resist_Force"
+        ],
         "target_info": "you"
       },
       {
@@ -4485,7 +4786,13 @@
         "name_qualifier": "lightsaber form",
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "2"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Rising_Whirlwind"
+        ],
+        "target_info": "2",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Rising_Whirlwind"
+        ]
       },
       {
         "name": "Saber Swarm",
@@ -4571,6 +4878,9 @@
             "text": "If you have the Ataru talent, your opponent takes a -5 penalty on all Use the Force checks made to block your attacks using the Block talent or the Makashi Riposte power (see page 32)."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Saber_Swarm"
+        ],
         "target_info": "1"
       },
       {
@@ -4647,6 +4957,9 @@
             "form_name": "Shii-Cho",
             "text": "If you have the Shii-Cho talent, you can use this power in the place of a melee attack roll at the end of a charge. You gain the benefits of the Powerful Charge feat on the initial lightsaber attack only if you use this power in this way."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sarlacc_Sweep"
         ],
         "target_info": "2"
       },
@@ -4735,7 +5048,13 @@
             "text": "Alternatively, you can spend a Destiny Point (see page 112) to increase the duration to a number of days equal to the target’s Dark Side Score."
           }
         ],
-        "target_info": "One Force-using creature with a Dark Side Score of 1 or higher that is within 12 squares and within line of sight"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sever_Force"
+        ],
+        "target_info": "One Force-using creature with a Dark Side Score of 1 or higher that is within 12 squares and within line of sight",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sever_Force"
+        ]
       },
       {
         "name": "Shatterpoint",
@@ -4806,7 +5125,13 @@
         "name_qualifier": null,
         "range_squares": null,
         "special_rules_and_notes": [],
-        "target_info": "you"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shatterpoint"
+        ],
+        "target_info": "you",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Shatterpoint"
+        ]
       },
       {
         "name": "Shien Deflection",
@@ -4887,6 +5212,9 @@
             "text": "If you have the Shien talent, until the start of your next turn you take no cumulative penalties on your Use the Force checks for multiple Deflect attempts."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shien_Deflection"
+        ],
         "target_info": "you"
       },
       {
@@ -4958,7 +5286,13 @@
         "name_qualifier": "telekinetic",
         "range_squares": "12",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Slow"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Slow"
+        ]
       },
       {
         "name": "Stagger",
@@ -4986,6 +5320,9 @@
         "name_qualifier": "telekinetic",
         "range_squares": "adjacent",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Stagger"
+        ],
         "target_info": "1"
       },
       {
@@ -5080,6 +5417,9 @@
             "text": "You may spend a Destiny Point (see page 112) to gain an additional 4 squares of movement; when you do so, you may also use any and all movement for the round as a part of a jump (no Jump check required)."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Surge"
+        ],
         "target_info": "You"
       },
       {
@@ -5161,6 +5501,9 @@
             "text": "if you have the Vaapad talent, your target is considered flat-footed against you until the end of your turn."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Swift_Flank"
+        ],
         "target_info": "you"
       },
       {
@@ -5188,7 +5531,13 @@
         "name_qualifier": null,
         "range_squares": "touch",
         "special_rules_and_notes": [],
-        "target_info": "1"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Technometry"
+        ],
+        "target_info": "1",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Technometry"
+        ]
       },
       {
         "name": "Tempered Aggression \n[dark side, \nlightsaber form]",
@@ -5255,6 +5604,9 @@
             "text": "If you have the Vaapad talent, this Force power does not have the [dark side] descriptor for you."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sora_Bulq,_Dark_Lord"
+        ],
         "target_info": "1"
       },
       {
@@ -5282,7 +5634,13 @@
         "name_qualifier": "mind-affecting",
         "range_squares": "2",
         "special_rules_and_notes": [],
-        "target_info": "all"
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Thought_Bomb"
+        ],
+        "target_info": "all",
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Thought_bomb"
+        ]
       },
       {
         "name": "Twin Strike",
@@ -5343,6 +5701,9 @@
         "name_qualifier": "lightsaber form",
         "range_squares": null,
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Twin_Strike"
+        ],
         "target_info": "1"
       },
       {
@@ -5375,6 +5736,9 @@
             "form_name": "Trakata",
             "text": "If you have the Trakata talent, you deal +2 dice of damage with the first attack you make on your next turn against your attacker."
           }
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unbalancing_Block"
         ],
         "target_info": "you"
       },
@@ -5457,6 +5821,9 @@
             "text": "If you have the Sokan talent, you gain a +5 Force bonus to your Reflex Defense against attacks of opportunity made against you during this movement."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Unhindered_Charge"
+        ],
         "target_info": "you"
       },
       {
@@ -5528,6 +5895,9 @@
         "name_qualifier": "light side",
         "range_squares": "12",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Valor"
+        ],
         "target_info": "ally"
       },
       {
@@ -5611,6 +5981,9 @@
             "text": "You may spend a Destiny Point (see page 112) to move the target +5 steps on the condition track in addition to healing it normally."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vital_Transfer"
+        ],
         "target_info": "One creature touched"
       },
       {
@@ -5688,6 +6061,9 @@
             "text": "If you have the Juyo talent, this power does not have the [dark side] descriptor for you."
           }
         ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/wiki/Vornskr%27s_Ferocity"
+        ],
         "target_info": "1"
       },
       {
@@ -5716,6 +6092,9 @@
         "name_qualifier": "dark side",
         "range_squares": "6",
         "special_rules_and_notes": [],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Wound"
+        ],
         "target_info": "1"
       }
     ]

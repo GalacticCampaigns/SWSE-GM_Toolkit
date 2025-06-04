@@ -1,5 +1,5 @@
 {
-  "last_modified": "2025-05-30T22:04:47",
+  "last_modified": "2025-06-04T15:15:30",
   "prestige_classes_data": {
     "description": "Compilation of Prestige Classes for Star Wars SAGA Edition.",
     "prestige_classes_list": [
@@ -154,6 +154,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": null
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ace_Pilot"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Expert Pilot",
@@ -297,7 +300,13 @@
           "FEAT PREREQUISITE": "Sniper",
           "TALENT PREREQUISITE": "Dastardly Strike (Scoundrel-Misfortune)",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Assassin"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Assassin"
+        ]
       },
       {
         "id": "bounty_hunter_cr_207",
@@ -448,6 +457,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": null
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Bounty_Hunter"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Bounty Hunter",
@@ -461,6 +473,9 @@
             "tree_name": "Awareness",
             "description": "Talents available from the Scout's Awareness talent tree (CRB p.49)."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Bounty_hunter"
         ]
       },
       {
@@ -593,7 +608,10 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "1 Disgrace, Influence or Lineage (Noble)",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Charlatan"
+        ]
       },
       {
         "id": "corporate_agent_k_41",
@@ -721,7 +739,10 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "work for \ninterstellar corporation"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Corporate_Agent"
+        ]
       },
       {
         "id": "crime_lord_cr_209",
@@ -867,6 +888,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": null
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Crime_Lord"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Infamy",
@@ -880,6 +904,9 @@
             "tree_name": "Influence",
             "description": "Talents available from the Noble's Influence talent tree (CRB p.43)."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Crime_lord"
         ]
       },
       {
@@ -1016,7 +1043,10 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "1 Leadership (Noble)\nor Commando (Soldier)",
           "OTHER PREREQUISITE": "Droids only"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Droid_Commander"
+        ]
       },
       {
         "id": "elite_trooper_cr_211",
@@ -1212,6 +1242,9 @@
           "base_attack_bonus_prerequisite": 7,
           "special_prerequisite": null
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Elite_Trooper"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Weapon Master",
@@ -1348,7 +1381,13 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "1 from Survivor (Scout)",
           "OTHER PREREQUISITE": "work for law enforcement \nor security organization"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Enforcer"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Enforcer"
+        ]
       },
       {
         "id": "force_adept_cr_212",
@@ -1531,6 +1570,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": null
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Adept"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Dark Side Devotee",
@@ -1544,6 +1586,9 @@
             "tree_name": "Force Item",
             "description": "You can imbue weapons and objects with the power of the Force. Talents from this tree are available to the Force Adept prestige class."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Force_Adept"
         ]
       },
       {
@@ -1689,7 +1734,10 @@
           "other_prerequisite": "Force Powers: Farseeing. Force Techniques: Any one.",
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": null
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Disciple"
+        ]
       },
       {
         "id": "gladiator_k_43",
@@ -1813,7 +1861,13 @@
           "FEAT PREREQUISITE": "Imp Dam Thresh, WP advanced",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "BAB +7"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gladiator"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gladiator"
+        ]
       },
       {
         "id": "gunslinger_cr_216",
@@ -1976,6 +2030,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": null
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gunslinger"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Gunslinger",
@@ -1989,6 +2046,9 @@
             "tree_name": "Awareness",
             "description": "Talents available from the Scout's Awareness talent tree (CRB p.49)."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Gunslinger"
         ]
       },
       {
@@ -2151,7 +2211,13 @@
           "FEAT PREREQUISITE": "AP(medium),\nWP(lightsabers)",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "BAB +7, \nDefender of Roan Fel"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Imperial_Knight"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Imperial_Knight"
+        ]
       },
       {
         "id": "improviser_r_41",
@@ -2279,7 +2345,10 @@
           "FEAT PREREQUISITE": "Skill Focus (Mechanics)",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improviser"
+        ]
       },
       {
         "id": "independent_droid_f_46",
@@ -2403,7 +2472,10 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "Heuristic Processor, \nDroids only"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Independent_Droid"
+        ]
       },
       {
         "id": "infiltrator_f_48",
@@ -2535,7 +2607,13 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "2 from Camouflage or Spy (Scout)",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Infiltrator"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Infiltrator"
+        ]
       },
       {
         "id": "jedi_knight_cr_217",
@@ -2758,6 +2836,9 @@
           "base_attack_bonus_prerequisite": 7,
           "special_prerequisite": "Must have built your own lightsaber. Must be a member of the Jedi tradition."
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jedi_Knight"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Duelist",
@@ -2775,6 +2856,9 @@
             "tree_name": "Lightsaber Combat",
             "description": "Talents available from the Jedi's Lightsaber Combat talent tree (CRB p.41)."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Jedi_Knight"
         ]
       },
       {
@@ -2903,6 +2987,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": "Must be a member of the Jedi tradition."
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jedi_Master"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Duelist",
@@ -2912,6 +2999,9 @@
             "tree_name": "Force Talent Trees (Chapter 6)",
             "description": "Talents available from any Force talent tree in Chapter 6: The Force (CRB p.100-102): Alter, Control, Dark Side, Sense, Light Side."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Jedi_Master"
         ]
       },
       {
@@ -3048,7 +3138,10 @@
           "FEAT PREREQUISITE": "Martial Arts I&II, Melee Defense, 1 Martial Arts Training",
           "TALENT PREREQUISITE": "1 either Brawler (Soldier) or Survivor (Scout)",
           "OTHER PREREQUISITE": "BAB +7"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Martial_Arts_Master"
+        ]
       },
       {
         "id": "master_privateer_sv_32",
@@ -3195,7 +3288,10 @@
           "FEAT PREREQUISITE": "Vehicular Combat",
           "TALENT PREREQUISITE": "2 from Misfortune, Smuggling,\nor Spacer (all Scoundrel)",
           "OTHER PREREQUISITE": "expanded on F51"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Master_Privateer"
+        ]
       },
       {
         "id": "medic_f_52",
@@ -3315,7 +3411,13 @@
           "FEAT PREREQUISITE": "Surgical Expertise",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Medic"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Medic"
+        ]
       },
       {
         "id": "melee_duelist_k_46",
@@ -3444,7 +3546,10 @@
           "FEAT PREREQUISITE": "Melee Def, Rapid Strike,\nWeapon Focus (any melee)",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "BAB +7"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Melee_Duelist"
+        ]
       },
       {
         "id": "military_engineer_c_44",
@@ -3564,7 +3669,10 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "BAB +7"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Military_Engineer"
+        ]
       },
       {
         "id": "officer_cr_220",
@@ -3727,6 +3835,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": "Must belong to an organization with a military or paramilitary division."
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Officer"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Military Tactics",
@@ -3740,6 +3851,9 @@
             "tree_name": "Commando",
             "description": "Talents available from the Soldier's Commando talent tree (CRB p.52)."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Officer"
         ]
       },
       {
@@ -3871,7 +3985,13 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "1 Disgrace (Noble) \nor Misfortune (Scoundrel)",
           "OTHER PREREQUISITE": "Must be wanted by the authorities in at least one system"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Outlaw"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Outlaw"
+        ]
       },
       {
         "id": "pathfinder_r_43",
@@ -3999,7 +4119,10 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "2 Awareness, Camouflage\nor Survivor (Scout)",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pathfinder"
+        ]
       },
       {
         "id": "saboteur_f_54",
@@ -4127,7 +4250,13 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Saboteur"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Saboteur"
+        ]
       },
       {
         "id": "shaper_l_46",
@@ -4256,7 +4385,13 @@
           "FEAT PREREQUISITE": "Biotech Specialist",
           "TALENT PREREQUISITE": "",
           "OTHER PREREQUISITE": "Yuuzhan Vong"
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Shaper"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Shaper_caste"
+        ]
       },
       {
         "id": "sith_apprentice_cr_223",
@@ -4438,6 +4573,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": "Dark Side Score must be equal to Wisdom score. Must be a member of the Sith tradition."
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sith_Apprentice"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Sith",
@@ -4471,6 +4609,9 @@
             "tree_name": "Dark Side",
             "description": "Talents available from the Force Talent Tree: Dark Side (CRB p.101)."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sith_apprentice"
         ]
       },
       {
@@ -4615,6 +4756,9 @@
           "base_attack_bonus_prerequisite": null,
           "special_prerequisite": "Dark Side Score must be equal to Wisdom score. Must be a member of the Sith tradition."
         },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Sith_Lord"
+        ],
         "talent_trees_details": [
           {
             "tree_name": "Sith",
@@ -4624,6 +4768,9 @@
             "tree_name": "Force Talent Trees (Chapter 6)",
             "description": "Talents available from any Force talent tree in Chapter 6: The Force (CRB p.100-102): Alter, Control, Dark Side, Sense."
           }
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Sith_Lord"
         ]
       },
       {
@@ -4747,7 +4894,13 @@
           "FEAT PREREQUISITE": "",
           "TALENT PREREQUISITE": "2 Camouflage (Scout) or Commando (Soldier)",
           "OTHER PREREQUISITE": ""
-        }
+        },
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Vanguard"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Vanguard"
+        ]
       }
     ]
   }

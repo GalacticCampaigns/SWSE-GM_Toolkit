@@ -1,5 +1,5 @@
 {
-  "last_modified": "2025-05-31T19:43:00",
+  "last_modified": "2025-06-04T15:15:30",
   "skills_data": {
     "description": "Compilation of Skills for Star Wars SAGA Edition.",
     "skills_list": [
@@ -144,6 +144,9 @@
         "special_rules_summary": [
           "You can't take 10 or take 20 on an Acrobatics check. [CRB text p.64, cite: 410]",
           "If you are trained in Acrobatics, you gain a +2 dodge bonus to your Reflex Defense when fighting defensively (see Fighting Defensively, page 152). (CRB Errata p.290 changes this to +5 bonus [cite: 1968])"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Acrobatics"
         ]
       },
       {
@@ -251,6 +254,9 @@
         "special_rules_summary": [
           "Someone using a rope can haul a character by strength (see encumbrance rules p.140).",
           "You can take 10 while climbing, but you can't take 20. [CRB text p.65, cite: 418]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Climb"
         ]
       },
       {
@@ -367,6 +373,9 @@
         "retry_rules_summary": "Generally, a failed Deception check makes the target too suspicious for another attempt in the same circumstances. For feinting in combat, you may retry freely. [CRB text p.67, cite: 434]",
         "special_rules_summary": [
           "You can take 10 when making a deception (except for feinting in combat), but you can't take 20. [CRB text p.67, cite: 434]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Deception"
         ]
       },
       {
@@ -488,7 +497,10 @@
         ],
         "description_general": "You can push yourself beyond your normal physical limits. [CRB text p.67, cite: 435]",
         "key_ability": "CON",
-        "page_range": "67-68"
+        "page_range": "67-68",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Endurance"
+        ]
       },
       {
         "id": "gather_information",
@@ -575,6 +587,9 @@
           "You can take 10 on a Gather Information check, but you can't take 20. [CRB text p.69, cite: 446]",
           "A successful Persuasion check can reduce the monetary cost of a Gather Information check. [CRB text p.69, cite: 446]",
           "Some information is beyond the reach of a Gather Information skill check (GM discretion). [CRB text p.69, cite: 446]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Gather_Information"
         ]
       },
       {
@@ -620,6 +635,9 @@
         "page_range": "69",
         "special_rules_summary": [
           "You can take 10 on an Initiative check, but you can't take 20. [CRB text p.69, cite: 448]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Initiative"
         ]
       },
       {
@@ -679,6 +697,9 @@
           "You can take 10 when making a Jump check. [CRB text p.69, cite: 450]",
           "If there is no danger associated with failing, you can take 20. [CRB text p.69, cite: 450]",
           "Distance covered by a long jump or high jump counts against your maximum movement in a round; distance covered by jumping down does not. [CRB text p.69, cite: 451]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Jump"
         ]
       },
       {
@@ -727,6 +748,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -775,6 +799,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -823,6 +850,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -871,6 +901,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -919,6 +952,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -969,6 +1005,9 @@
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill.",
           "Footnote 2 from Table 4-2 (CRB p.62 [cite: 403]): Soldier has Knowledge (Tactics) as a class skill only."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -1017,6 +1056,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Knowledge check, but you can't take 20. [CRB text p.70, cite: 454]",
           "Footnote 1 from Table 4-2: Some uses of the skill (Expert Knowledge) require that you be trained in the skill."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Knowledge"
         ]
       },
       {
@@ -1188,6 +1230,9 @@
           "You can take 10 or take 20 on a Mechanics check. [CRB text p.71, cite: 466]",
           "When making a Mechanics check to accomplish a jury-rig repair, you can't take 20. [CRB text p.71, cite: 466-467]",
           "CR Errata p.290[cite: 1970]: Characters who are untrained in the Mechanics skill can still use the aid another action to assist on Mechanics checks."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Mechanics"
         ]
       },
       {
@@ -1368,6 +1413,9 @@
         "special_rules_summary": [
           "You can take 10 or take 20 when making a Perception check. [CRB text p.72, cite: 475]",
           "Taking 20 means you spend 2 minutes attempting to notice something that may or may not be there. [CRB text p.72, cite: 475]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Perception"
         ]
       },
       {
@@ -1481,6 +1529,9 @@
         "retry_rules_summary": "If you fail a Persuasion check (Change Attitude or Intimidate), you cannot make any further Persuasion checks against that creature for that purpose for 24 hours. [CRB text p.72, cite: 481]",
         "special_rules_summary": [
           "You can take 10 on a Persuasion check, but you can't take 20. [CRB text p.72, cite: 481]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Persuasion"
         ]
       },
       {
@@ -1562,6 +1613,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Pilot check except when attempting to increase a vehicle's speed. [CRB text p.73, cite: 485]",
           "You can't take 20 on a Pilot check. [CRB text p.73, cite: 485]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Pilot"
         ]
       },
       {
@@ -1703,6 +1757,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Ride check, but you can't take 20. [CRB text p.73, cite: 490]",
           "Errata p.298: Armor Check Penalty applies only when attempting to fast mount or fast dismount."
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Ride"
         ]
       },
       {
@@ -1809,6 +1866,9 @@
         "page_range": "73-74",
         "special_rules_summary": [
           "You can take 10 when making a Stealth check, but you can't take 20. [CRB text p.74, cite: 498]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Stealth"
         ]
       },
       {
@@ -1935,6 +1995,9 @@
         "special_rules_summary": [
           "You can take 10 when making a Survival check. [CRB text p.75, cite: 503]",
           "You can take 20 if there is no danger or penalty for failure, but it takes twenty times as long as normal to do so. [CRB text p.75, cite: 503]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Survival"
         ]
       },
       {
@@ -1981,6 +2044,9 @@
         "retry_rules_summary": "A new check is allowed the round after a check is failed. [CRB text p.75, cite: 504]",
         "special_rules_summary": [
           "You can take 10 when making a Swim check, but you can't take 20. [CRB text p.75, cite: 504]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Swim"
         ]
       },
       {
@@ -2101,6 +2167,9 @@
         "page_range": "75-76",
         "special_rules_summary": [
           "You can take 10 when making a Treat Injury check, but you can't take 20. [CRB text p.76, cite: 514]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Treat_Injury"
         ]
       },
       {
@@ -2233,6 +2302,9 @@
           "You can take 10 on Use Computer checks. [CRB text p.78, cite: 526]",
           "You can take 20 on a Use Computer check except when attempting to improve access. [CRB text p.78, cite: 526]",
           "When a computer is friendly or helpful toward you, you gain an equipment bonus on all Use Computer checks made with that computer equal to its Intelligence bonus. [CRB text p.78, cite: 526]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Use_Computer"
         ]
       },
       {
@@ -2362,6 +2434,9 @@
           "You can't make Use the Force checks unless you have the Force Sensitivity feat. [CRB text p.78, cite: 536]",
           "Use the Force is a class skill for any character with the Force Sensitivity feat (CRB Table 4-2 footnote).",
           "You can take 10 on a Use the Force check, but you can't take 20. [CRB text p.78, cite: 536]"
+        ],
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Kaleesh_Force_Sage"
         ]
       }
     ]

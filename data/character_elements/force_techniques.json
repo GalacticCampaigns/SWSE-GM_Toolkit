@@ -1,4 +1,5 @@
 {
+  "last_modified": "2025-06-04T15:15:30",
   "force_techniques_data": {
     "description": "Compilation of Force Techniques for Star Wars SAGA Edition.",
     "force_techniques_list": [
@@ -17,7 +18,10 @@
         "force_power_association": "Vital Transfer",
         "full_text_additional_desc": "When you use the vital transfer power, you can spend a Destiny Point to fully heal the target of all damage and remove all of the target's debilitating conditions.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Advanced_Vital_Transfer"
+        ]
       },
       {
         "name": "Cure Disease",
@@ -33,7 +37,13 @@
         "force_power_association": "Vital Transfer",
         "full_text_additional_desc": "When you use the vital transfer power, if your Use the Force check equals or exceeds the Treat Injury DC of a disease currently ailing the target, you can spend a Force Point to cure that disease.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Cure_Disease"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Cure_Disease"
+        ]
       },
       {
         "name": "Detoxify Poison",
@@ -49,7 +59,13 @@
         "force_power_association": "Vital Transfer",
         "full_text_additional_desc": "You can use the vital transfer power to treat a poison affecting the target. Instead of the normal effect of the vital transfer power, you can compare the result of your Use the Force check to the poison's DC (see page 255 of the Saga Edition core rulebook). If you equal or exceed the poison's DC, you detoxify the poison as per the use of the Treat Injury skill.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Detoxify_Poison"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Detoxify_Poison"
+        ]
       },
       {
         "name": "Dominate Mind",
@@ -65,7 +81,10 @@
         "force_power_association": "Mind Trick",
         "full_text_additional_desc": "When using mind trick, if you exceed your target's Will Defense by 10 or more points, your can choose what your target does with its standard action on its next turn.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Dominate_Mind"
+        ]
       },
       {
         "name": "Extended Blind",
@@ -81,7 +100,10 @@
         "force_power_association": "Blind",
         "full_text_additional_desc": "The base range for your blind power increases to 18 squares (instead of 12 squares).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extended_Blind"
+        ]
       },
       {
         "name": "Extended Force Disarm",
@@ -97,7 +119,10 @@
         "force_power_association": "Force Disarm",
         "full_text_additional_desc": "The base range for your Force disarm power increases to 18 squares (instead of 12 squares).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extended_Force_Disarm"
+        ]
       },
       {
         "name": "Extended Force Grip",
@@ -113,7 +138,10 @@
         "force_power_association": "Force Grip",
         "full_text_additional_desc": "The base range for your Force grip power increases to 18 squares (instead of 12 squares).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extended_Force_Grip"
+        ]
       },
       {
         "name": "Extended Force Thrust",
@@ -129,7 +157,10 @@
         "force_power_association": "Force Thrust",
         "full_text_additional_desc": "The base range for your Force thrust power increases to 18 squares (instead of 12 squares).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extended_Force_Thrust"
+        ]
       },
       {
         "name": "Extended Move Object",
@@ -145,7 +176,10 @@
         "force_power_association": "Move Object",
         "full_text_additional_desc": "The base range for your move object power increases to 18 squares (instead of 12 squares).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Extended_Move_Object"
+        ]
       },
       {
         "id": "force_point_recovery_cr_102",
@@ -168,7 +202,10 @@
         "force_power_association": null,
         "full_text_additional_desc": "At the end of an encounter, you automatically recover 1 Force Point spent during the encounter. [cannot use to recover temporary FP's -JC 110; cannot recover FP’s spent to Atone –JC 111]",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Point_Recovery"
+        ]
       },
       {
         "id": "force_power_mastery_cr_102",
@@ -190,7 +227,10 @@
         "full_text_additional_desc": "Choose a single Force power. You may take 10 on Use the Force checks to activate this Force power even when distracted or threatened. You may select this Force technique multiple times; each time you select this Force technique, it applies to a different Force power.",
         "prerequisites_structured": [],
         "prerequisites_text": "None",
-        "special_text": "You may select this Force technique multiple times; each time you select this Force technique, it applies to a different Force power."
+        "special_text": "You may select this Force technique multiple times; each time you select this Force technique, it applies to a different Force power.",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Force_Power_Mastery"
+        ]
       },
       {
         "name": "Improved Ballistakinesis",
@@ -206,7 +246,10 @@
         "force_power_association": "Ballistakinesis",
         "full_text_additional_desc": "When you use ballistakinesis, you may spend a Force Point to target a 3x3 area instead of a 2x2 area.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Ballistakinesis"
+        ]
       },
       {
         "name": "Improved Battle Strike",
@@ -222,7 +265,10 @@
         "force_power_association": "Battle Strike",
         "full_text_additional_desc": "When you use the battlestrike power, you can apply the bonus to attack rolls and damage rolls for all attacks made during a full attack action.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Battle_Strike"
+        ]
       },
       {
         "name": "Improved Cloak",
@@ -239,7 +285,10 @@
         "force_power_association": "Cloak",
         "full_text_additional_desc": "You can maintain your cloak power as a move action instead of a standard action.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Cloak"
+        ]
       },
       {
         "name": "Improved Convection",
@@ -255,7 +304,10 @@
         "force_power_association": "Convection",
         "full_text_additional_desc": "When your target takes fire damage from convection, the fire attacks the target's Fortitude Defense using your base attack bonus instead of the normal +5 bonus (see page 255 of the Saga Edition core rulebook for more information on fire damage).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Convection"
+        ]
       },
       {
         "name": "Improved Crucitorn",
@@ -271,7 +323,10 @@
         "force_power_association": "Crucitorn",
         "full_text_additional_desc": "If you use crucitorn and the attack or Force power still deals more damage than your damage threshold, you do not expend this use of the power, and it remains in your Force suite.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Crucitorn"
+        ]
       },
       {
         "name": "Improved Cryokinesis",
@@ -288,7 +343,10 @@
         "force_power_association": "Cryokinesis",
         "full_text_additional_desc": "You can use cryokinesis on occupied vehicles within range; however, the vehicle only moves down the condition track if your Use the Force check also exceeds the vehicle's Fortitude Defense.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Cryokinesis"
+        ]
       },
       {
         "name": "Improved Dark Rage",
@@ -304,7 +362,10 @@
         "force_power_association": "Dark Rage",
         "full_text_additional_desc": "When you use the dark rage power, you ignore the restriction that prevents you from using skills or performing tasks that require patience and concentration. Additionally, you can always activate this power in the surprise round, even if you are considered surprised.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Dark_Rage"
+        ]
       },
       {
         "name": "Improved Dark Transfer",
@@ -320,7 +381,10 @@
         "force_power_association": "Dark Transfer",
         "full_text_additional_desc": "When you use dark transfer, you may spend a Force Point to revive a creature that died since the end of your last turn. You must succeed on a DC 25 Use the Force check. If the check succeeds, the target creature is unconscious instead of dead and does not heal any hit points from the use of dark transfer.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Dark_Transfer"
+        ]
       },
       {
         "name": "Improved Detonate",
@@ -336,7 +400,10 @@
         "force_power_association": "Detonate",
         "full_text_additional_desc": "When you use the detonate power, you also damage enemies near the targeted object. Compare the result of your Use the Force check to the Reflex Defense of all enemies within 2 squares of the object. If your check equals or exceeds the enemy's Reflex Defense, the enemy takes slashing damage equal to one-half the damage sustained by the object. This is an area attack.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Detonate"
+        ]
       },
       {
         "name": "Improved Energy Resistance",
@@ -352,7 +419,10 @@
         "force_power_association": "Energy Resistance",
         "full_text_additional_desc": "When you activate energy resistance, you can choose to have it affect one of your allies within 6 squares instead of you.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Energy_Resistance"
+        ]
       },
       {
         "name": "Improved Enlighten",
@@ -368,7 +438,10 @@
         "force_power_association": "Enlighten",
         "full_text_additional_desc": "When you use the enlighten power, you may spend a Force Point to affect one additional ally.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Enlighten"
+        ]
       },
       {
         "name": "Improved Fold Space",
@@ -385,7 +458,10 @@
         "force_power_association": "Fold Space",
         "full_text_additional_desc": "Whenever you use fold space, you can spend a Force Point to move the object anywhere within line of sight. Alternately, you can spend a Destiny Point to move the object anywhere within the same star system.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Fold_Space"
+        ]
       },
       {
         "name": "Improved Force Disarm",
@@ -402,7 +478,10 @@
         "force_power_association": "Force Disarm",
         "full_text_additional_desc": "When you use the Force disarm power, you can change the time it takes to activate it to a full-round action; if you do so, your opponent does not gain the normal +10 bonus to Reflex Defense normally associated with disarming.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Disarm"
+        ]
       },
       {
         "name": "Improved Force Grip",
@@ -418,7 +497,10 @@
         "force_power_association": "Force Grip",
         "full_text_additional_desc": "When you use the Force grip power, you can spend a Force Point as a free action to maintain the Force grip for 1 additional round without the need to concentrate. However, after this additional round you may not resume concentrating on the power.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Grip"
+        ]
       },
       {
         "name": "Improved Force Light",
@@ -434,7 +516,10 @@
         "force_power_association": "Force Light",
         "full_text_additional_desc": "You can spend a Force Point to cause your Force light to blind those it harms; any creature that takes damage from Force light grants concealment to all other targets until the end of its next turn. You can spend a Destiny Point to change this to total concealment instead.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Light"
+        ]
       },
       {
         "name": "Improved Force Lightning",
@@ -450,7 +535,10 @@
         "force_power_association": "Force Lightning",
         "full_text_additional_desc": "When you use the Force lightning power and change the time it takes to activate to a full-round action, your target must make a Strength check. If your Use the Force check result beats the target's Strength check, you push it back 1 square plus 1 additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. The target adds its base attack bonus and size modifier to its Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Lightning"
+        ]
       },
       {
         "name": "Improved Force Shield",
@@ -466,7 +554,10 @@
         "force_power_association": "Force Shield",
         "full_text_additional_desc": "When you use the Force shield power, you can spend a Force Point to expand the radius of the Force shield so that it protects you and all allies adjacent to you. Alternatively, you can spend a Destiny Point to have the Force shield protect a vehicle you occupy, regardless of the vehicle's size. If the vehicle already has a Shield Rating, the SR of the vehicle and the SR granted by this power do not stack.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Shield"
+        ]
       },
       {
         "name": "Improved Force Slam",
@@ -482,7 +573,10 @@
         "force_power_association": "Force Slam",
         "full_text_additional_desc": "When you use the Force slam power, you can change the time it takes to activate to a full-round action in order to target all targets within a 2-square radius originating in your square. You can spend a Force Point to increase the area to a 4-square-radius burst that originates from your square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Slam"
+        ]
       },
       {
         "name": "Improved Force Storm",
@@ -498,7 +592,10 @@
         "force_power_association": "Force Storm",
         "full_text_additional_desc": "As a swift action, you can end the duration of the Force storm power to deal 4d6 points of damage to all targets within 2 squares of you.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Storm"
+        ]
       },
       {
         "name": "Improved Force Storm (telekinetic)",
@@ -514,7 +611,10 @@
         "force_power_association": "Force Storm (telekinetic)",
         "full_text_additional_desc": "You can spend a Force Point when you activate Force storm to fill the storm with Force lightning. When you activate the power, and again whenever you spend a standard action to maintain the power, compare the results of your Use the Force check to the Reflex Defense of one target within the storm's area. If the skill check result equals or exceeds the target's Reflex Defense, the target takes 3d6 points of Force damage. You can spend a Destiny Point to increase the damage to 6d6 points.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Storm"
+        ]
       },
       {
         "name": "Improved Force Stun",
@@ -530,7 +630,10 @@
         "force_power_association": "Force Stun",
         "full_text_additional_desc": "Your successful Force stun also temporarily immobilizes the target for one round.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Stun"
+        ]
       },
       {
         "name": "Improved Force Thrust",
@@ -546,7 +649,10 @@
         "force_power_association": "Force Thrust",
         "full_text_additional_desc": "When you use the Force thrust power, you can change the time it takes to activate it to a full-round action and spend a Force Point in order to target all creatures in a 6-square cone that originates from your square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Thrust"
+        ]
       },
       {
         "id": "improved_force_trance_cr_102",
@@ -573,7 +679,10 @@
             "application_name": "Force Trance"
           }
         ],
-        "prerequisites_text": "Force Trance (Use the Force skill application)"
+        "prerequisites_text": "Force Trance (Use the Force skill application)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Force_Trance"
+        ]
       },
       {
         "name": "Improved Ionize",
@@ -589,7 +698,10 @@
         "force_power_association": "Ionize",
         "full_text_additional_desc": "When you use the ionize power, you can spend a Force point to have the target take full ion damage (instead of halving the ion damage after comparing it to the target's damage threshold, as normal).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Ionize"
+        ]
       },
       {
         "name": "Improved Kinetic Combat",
@@ -605,7 +717,10 @@
         "force_power_association": "Kinetic Combat",
         "full_text_additional_desc": "You can wield up to three weapons simultaneously using the kinetic combat power, though moving and attacking with one of the weapons is still a standard action.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Kinetic_Combat"
+        ]
       },
       {
         "name": "Improved Levitate",
@@ -622,7 +737,10 @@
         "force_power_association": "Levitate",
         "full_text_additional_desc": "If you are moved into a pit or off another elevated surface involuntarily, such as by being the target of a force thrust or Bantha Rush, you can spent a Force Point to activate this power as a reaction. If you do so, you end your forced movement in the last square before the edge of the precipice.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Levitate"
+        ]
       },
       {
         "name": "Improved Lightning Burst",
@@ -638,7 +756,10 @@
         "force_power_association": "Lightning Burst",
         "full_text_additional_desc": "When you use the lightning burst power, also compare the result of your Use the Force check to each target's Fortitude Defense. If your check result equals or exceeds both a target's Reflex Defense and its Fortitude Defense, you push the target 1 square away from you and knock the target prone. This movement does not provoke attacks of opportunity.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Lightning_Burst"
+        ]
       },
       {
         "name": "Improved Malacia",
@@ -654,7 +775,10 @@
         "force_power_association": "Malacia",
         "full_text_additional_desc": "You can maintain the damage threshold penalty of the malacia power as a swift action.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Malacia"
+        ]
       },
       {
         "name": "Improved Mind Trick",
@@ -670,7 +794,10 @@
         "force_power_association": "Mind Trick",
         "full_text_additional_desc": "When you use the mind trick power, you can change the time it takes to activate it to a full-round action in order to target all creatures in a 6-square cone that originates from your square. You can spend a Force Point to increase the area to a 12-square cone that originates from your square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Mind_Trick"
+        ]
       },
       {
         "id": "improved_move_light_object_cr_103",
@@ -705,7 +832,10 @@
             "application_name": "Move Light Object"
           }
         ],
-        "prerequisites_text": "Move Light Object (Use the Force skill application)"
+        "prerequisites_text": "Move Light Object (Use the Force skill application)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Move_Light_Object"
+        ]
       },
       {
         "name": "Improved Obscure",
@@ -725,7 +855,10 @@
         "force_power_association": "Obscure",
         "full_text_additional_desc": "When you use the obscure power, you may spend a Force Point to gain a +5 Force bonus on your Use the Force check.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Obscure"
+        ]
       },
       {
         "name": "Improved Phase",
@@ -742,7 +875,10 @@
         "force_power_association": "Phase",
         "full_text_additional_desc": "When you use the phase power, you can end a single move action inside an occupied space, but you must still end your turn in a legal, unoccupied square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Phase"
+        ]
       },
       {
         "name": "Improved Plant Surge",
@@ -758,7 +894,10 @@
         "force_power_association": "Plant Surge",
         "full_text_additional_desc": "You can spend a Force Point to have plant surge target all enemies in a 5x5 square area; at least one square must be within the power's range. Alternately, you can spend a Destiny Point to target all enemies in a 10x10 square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Plant_Surge"
+        ]
       },
       {
         "name": "Improved Rebuke",
@@ -774,7 +913,10 @@
         "force_power_association": "Rebuke",
         "full_text_additional_desc": "When an ally within 12 squares and within line of sight of you is the target of a Force power, you can use the rebuke power as though you were the target of that Force power instead.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Rebuke"
+        ]
       },
       {
         "name": "Improved Rend",
@@ -790,7 +932,10 @@
         "force_power_association": "Rend",
         "full_text_additional_desc": "The range of your rend power increases to 12 squares. When using this power on an object or character or creature, you can ignore the object's or creature's damage reduction.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Rend"
+        ]
       },
       {
         "name": "Improved Repulse",
@@ -806,7 +951,10 @@
         "force_power_association": "Repulse",
         "full_text_additional_desc": "When you use the repulse power, you can change the time it takes to activate it to a full-round action in order to target all creatures in a 2-square-radius burst that originates from your square. You can spend a Force Point to increase the area to a 4-square-radius burst that originates from your square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Repulse"
+        ]
       },
       {
         "name": "Improved Resist Force",
@@ -822,7 +970,10 @@
         "force_power_association": "Resist Force",
         "full_text_additional_desc": "When you activate resist force, you can choose to have it affect one of your allies within 6 squares instead of you.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Resist_Force"
+        ]
       },
       {
         "id": "improved_sense_force_cr_103",
@@ -850,7 +1001,10 @@
             "application_name": "Sense Force"
           }
         ],
-        "prerequisites_text": "Sense Force (Use the Force skill application)"
+        "prerequisites_text": "Sense Force (Use the Force skill application)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Sense_Force"
+        ]
       },
       {
         "id": "improved_sense_surroundings_cr_103",
@@ -878,7 +1032,10 @@
             "application_name": "Sense Surroundings"
           }
         ],
-        "prerequisites_text": "Sense Surroundings (Use the Force skill application)"
+        "prerequisites_text": "Sense Surroundings (Use the Force skill application)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Sense_Surroundings"
+        ]
       },
       {
         "name": "Improved Shatterpoint",
@@ -895,7 +1052,10 @@
         "force_power_association": "Shatterpoint",
         "full_text_additional_desc": "When you move a target down the condition track with an attack benefitting from the shatterpoint power, you can spend a Force Point to make the target's condition persistent. This persistent condition can only be removed if the target receives surgery (for living beings) or repairs (for droids, objects, and vehicles).",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Shatterpoint"
+        ]
       },
       {
         "name": "Improved Stagger",
@@ -911,7 +1071,10 @@
         "force_power_association": "Stagger",
         "full_text_additional_desc": "When you use the stagger power, you may spend a Force Point to push your target 2 squares away from you, instead of just 1 square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Stagger"
+        ]
       },
       {
         "name": "Improved Technometry",
@@ -927,7 +1090,13 @@
         "force_power_association": "Technometry",
         "full_text_additional_desc": "When you use the technometry power, you can change the time it takes to activate to a full-round action and target all droids in a 6-square cone that originates from your square.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Technometry"
+        ],
+        "wookieepedia_urls": [
+          "https://starwars.fandom.com/en/wiki/Technometry"
+        ]
       },
       {
         "id": "improved_telepathy_cr_103",
@@ -954,7 +1123,10 @@
             "application_name": "Telepathy"
           }
         ],
-        "prerequisites_text": "Telepathy (Use the Force skill application)"
+        "prerequisites_text": "Telepathy (Use the Force skill application)",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Telepathy"
+        ]
       },
       {
         "name": "Improved Thought Bomb",
@@ -970,7 +1142,10 @@
         "force_power_association": "Thought Bomb",
         "full_text_additional_desc": "You can spend a Force Point to have thought bomb target all enemies within 5 squares of you. Alternately, you can spend a Destiny Point to target all enemies within your line of sight.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Thought_Bomb"
+        ]
       },
       {
         "name": "Improved Valor",
@@ -986,7 +1161,10 @@
         "force_power_association": "Valor",
         "full_text_additional_desc": "When you activate valor, you gain the benefits of this power as well.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Valor"
+        ]
       },
       {
         "name": "Improved Vital Transfer",
@@ -1002,7 +1180,10 @@
         "force_power_association": "Vital Transfer",
         "full_text_additional_desc": "You can use the vital transfer power against a target within 6 squares and line of sight.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Improved_Vital_Transfer"
+        ]
       },
       {
         "name": "Language Absorption",
@@ -1018,7 +1199,10 @@
         "force_power_association": null,
         "full_text_additional_desc": "You can use telepathy to forcibly learn a language from another creature. If the target is unwilling, you must succeed on a Use the Force check against the target's Will Defense, as with the telepathy aspect of the Use the Force skill. You retain the ability to speak and understand this language for 24 hours.",
         "prerequisites_structured": [],
-        "prerequisites_text": "None"
+        "prerequisites_text": "None",
+        "swse_wiki_urls": [
+          "https://swse.fandom.com/en/wiki/Language_Absorption"
+        ]
       }
     ]
   }
