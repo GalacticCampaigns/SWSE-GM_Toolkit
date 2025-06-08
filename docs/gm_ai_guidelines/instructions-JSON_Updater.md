@@ -1,7 +1,7 @@
-Instructions for AI: Generating JSON Edits for SAGA Index Data & Character Profiles
-===================================================================================
+Instructions for Generating JSON Edits for SAGA Index Data & Character Profiles
+===============================================================================
 
-Version 5.2 (2025-06-04)
+Version 5.2 (2025-06-07)
 
 1\. Introduction
 ----------------
@@ -11,28 +11,24 @@ This document outlines the format for providing JSON-based edits to update struc
 2\. Overall Structure of the Edit File
 --------------------------------------
 
-The edit file itself must be a JSON array. Each element in this array is an "edit request object." This structure allows for batching multiple edits, potentially across different data files, in a single transaction.
+The edit file itself must be a JSON Array, starting with `[` and ending with `]`. Each element in this array is an "edit request object." A single file can contain multiple edit request objects to perform a batch of updates.
 
 Example Root Structure:
 
     [
       {
-        "target_file_key": "string",
-        "action": "string",
-        "is_single_object": false,
+        "target_file_key": "filename_base#collection_name",
+        "action": "update",
         "identifier": {"key": "value"},
         "payload": [
           {"op": "operation", "path": "/path_relative_to_record", "value": "new_value"}
         ]
       },
       {
-        "target_file_key": "string",
-        "action": "string",
-        "is_single_object": true,
-        "identifier": {},
-        "payload": [
-          {"op": "operation", "path": "/path_from_data_wrapper_content_root", "value": "new_value"}
-        ]
+        "target_file_key": "some_other_file",
+        "action": "add",
+        "is_single_object": false,
+        "payload": { ... }
       }
     ]
     
@@ -48,13 +44,13 @@ Example Root Structure:
 
 ### II. `target_file_key`
 
-This string specifies the target data. Assumes all primary data files (SAGA Index lists and Single Object Rule/Lore files) have a top-level `{filename_base}_data` wrapper.
+This string specifies the target data. Each edit request object must target only one collection.
 
 *   For files containing a list of records (e.g., SAGA Index files like `armor.json`, `feats.json`, `vehicles.json`):
     
     *   `target_file_key` is the filename base (e.g., `"vehicles"`).
         
-    *   `is_single_object` should be omitted or `false`. Paths in update payloads are relative to the identified record in the `*_list`.
+    *   `is_single_object` should be omitted or set to `false`. Paths in update payloads are relative to the identified record in the `*_list`.
         
 *   For files where the content of the `*_data` wrapper is a single object (e.g., `class_rules.json`, `ability_system_rules.json`):
     
@@ -62,8 +58,12 @@ This string specifies the target data. Assumes all primary data files (SAGA Inde
         
     *   Include `"is_single_object": true`. Paths in update payloads are relative to the object _inside_ the `*_data` wrapper (see Section V for path details).
         
-*   For multi-collection files (e.g., `WIDT_NPCS.json`): Use `filename_base#collection_name` (e.g., `"WIDT_NPCS#pcs"`). Do not use `is_single_object: true`.
+*   For multi-collection files (e.g., `SWFO_Profiles.json`): Use a composite key: `filename_base#collection_name`.
     
+    *   Example: `"SWFO_Profiles#pcs"`.
+        
+    *   Do not use `is_single_object: true` for these multi-collection targets.
+        
 
 ### III. `action`
 
@@ -97,7 +97,7 @@ Uniquely locates records or target keys.
             
         *   `action: "delete"`: `identifier` must be `{"keys_to_delete": ["key1_to_remove_from_wrapper_content"]}`.
             
-    *   Type B (Dynamic-key object within wrapper, e.g., if `vehicles_data` contained a map of vehicle IDs):
+    *   Type B (Dynamic-key object within wrapper):
         
         *   `action: "update"` or `action: "delete"`: `identifier` uses the key (e.g., `{"id": "vehicle_id_key"}`).
             
@@ -142,45 +142,19 @@ Field Naming and Data Types in `value`:
 
 1\. Add a Vehicle to `vehicles.json` (as a SAGA Index list file):
 
-    {
-      "target_file_key": "vehicles",
-      "action": "add", 
-      "is_single_object": false, 
-      "payload": {
-        "id": "laati_gunship_cr", 
-        "name": "LAAT/i Gunship", 
-        "source_book": "CR", 
-        "page": 176 
-        /*...other vehicle data...*/
-      }
-    }
+    {"target_file_key":"vehicles","action":"add","is_single_object":false,"payload":{"id":"laati_gunship_cr","name":"LAAT/i Gunship","source_book":"CR","page":176 /*...other vehicle data...*/}}
     
 
 2\. Update a Nested Description in `class_rules.json` (Single Object content within `class_rules_data`):
 
-    {
-      "target_file_key": "class_rules",
-      "action": "update",
-      "is_single_object": true,
-      "payload": [
-        {"op": "replace", "path": "/multiclass_characters/description", "value": "A new, concise description of multiclassing."}
-      ]
-    }
+    {"target_file_key":"class_rules","action":"update","is_single_object":true,"payload":[{"op":"replace","path":"/multiclass_characters/description","value":"A new, concise description of multiclassing."}]}
     
 
 _(Path is relative to the content of `class_rules_data`)_
 
 3\. Update a specific skill application in `skills.json` (SAGA Index list file):
 
-    {
-      "target_file_key": "skills",
-      "action": "update",
-      "is_single_object": false,
-      "identifier": { "id": "acrobatics_cr" },
-      "payload": [
-        { "op": "replace", "path": "/common_uses/4/description", "value": "Updated description for Acrobatics common use at index 4."}
-      ]
-    }
+    {"target_file_key":"skills","action":"update","is_single_object":false,"identifier":{"id":"acrobatics_cr"},"payload":[{"op":"replace","path":"/common_uses/4/description","value":"Updated description for Acrobatics common use at index 4."}]}
     
 
 _(Path is relative to the "acrobatics\_cr" skill object found in `skills_list`)_
@@ -190,15 +164,17 @@ Version Log
 
 _This section is for tracking changes to these instructions. For the script's version log, see the comments within the `json_updater.py` file._
 
-*   Version 5.2 (2025-06-04):
+*   Version 5.2 (2025-06-07):
     
-    *   CRITICAL CLARIFICATION for `path` in "update" operations (Section V): Explicitly stated that for `is_single_object: true` files that have a `*_data` wrapper (like `class_rules.json`), the JSON Pointer `path` must be relative to the _content of that wrapper_, not starting with the wrapper key itself. Example 2 updated for `class_rules.json`.
+    *   CRITICAL CLARIFICATION (Section 2): Emphasized that the root of the edits file MUST be a JSON Array `[]`.
         
-    *   Minor clarifications on identifier usage for different file types.
+    *   Clarified that `target_file_key` for multi-collection files should use the dynamic filename base (e.g., "SWFO\_Profiles#pcs").
+        
+    *   Clarified that for "single object" files with a `*_data` wrapper, the patch `path` is relative to the content _inside_ the wrapper.
         
 *   Version 5.1 (2025-05-30):
     
-    *   Reformatted JSON examples in Section I and VI for improved human readability.
+    *   Reformatted JSON examples for improved human readability.
         
 *   Version 5.0 (2025-05-27):
     
