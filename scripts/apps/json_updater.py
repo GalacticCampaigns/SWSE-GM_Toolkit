@@ -6,8 +6,8 @@ import shutil
 from datetime import datetime
 
 # --- SCRIPT VERSION INFO ---
-SCRIPT_VERSION = "2.4.14" 
-SCRIPT_LAST_UPDATED = "2025-06-04"
+SCRIPT_VERSION = "2.4.15" 
+SCRIPT_LAST_UPDATED = "2025-06-07"
 
 # --- SCRIPT INSTRUCTIONS & SETUP ---
 """
@@ -50,7 +50,9 @@ INITIAL_TARGET_FILES_CONFIG = {}
 def populate_initial_config(npc_profile_path_override=None):
     global INITIAL_TARGET_FILES_CONFIG 
     actual_npc_profile_path = npc_profile_path_override if npc_profile_path_override else NPC_PROFILE_FILE_PATH
-    base_npc_filename = NPC_PROFILE_FILENAME_BASE 
+    
+    base_npc_filename, _ = os.path.splitext(os.path.basename(actual_npc_profile_path))
+
     for collection_key_suffix, details in NPC_PROFILE_COLLECTION_KEYS.items():
         target_key = f"{base_npc_filename}#{collection_key_suffix}"
         INITIAL_TARGET_FILES_CONFIG[target_key] = {
@@ -131,7 +133,7 @@ def generate_dynamic_target_files_config(root_path, existing_config):
                         "is_list_of_objects": not is_single_obj_content_inferred, 
                         "is_single_object_content": is_single_obj_content_inferred, 
                         "is_object_map": False, "sort_key": sort_key_inferred, 
-                        "preferred_top_keys": preferred_keys_for_list_records, # Corrected variable name here
+                        "preferred_top_keys": preferred_keys_for_list_records, 
                         "preferred_object_keys": preferred_keys_for_single_object_content, 
                         "preferred_root_keys": preferred_keys_root_default
                         }
@@ -483,7 +485,9 @@ def main(edits_file_path, root_path, dry_run=False):
     if not TARGET_FILES_CONFIG: print("Error: Failed to generate/load any target files configuration. Exiting."); return
 
     edit_requests = load_json_file(edits_file_path)
-    if not edit_requests or not isinstance(edit_requests, list): print("Error: Edits file is empty, not found, or not a JSON list."); return
+    if not edit_requests or not isinstance(edit_requests, list): 
+        print("Error: Edits file is empty, not found, or not a JSON list. The root must be an array `[]`.")
+        return
 
     edits_by_target = {}; total_edits_processed_successfully = 0; backed_up_files_this_run = set()
     for edit in edit_requests:
@@ -509,7 +513,12 @@ def main(edits_file_path, root_path, dry_run=False):
             if not target_data_obj_original: print(f"Error: Could not load target file {file_path}. Skipping."); continue
         elif all(edit.get("action") == "add" for edit in edits_for_file):
              print(f"Target file {file_path} not found. Will simulate/create new file for 'add' operations.")
-             if is_single_object_content_for_this_batch: target_data_obj_original = {} 
+             if is_single_object_content_for_this_batch: 
+                # A single root object starts empty if new
+                if config_entry.get("data_wrapper_key"): # But if it has a wrapper, create that first
+                    target_data_obj_original = {config_entry["data_wrapper_key"]:{}}
+                else:
+                    target_data_obj_original = {}
              elif config_entry.get("data_wrapper_key"): 
                  target_data_obj_original = {
                      config_entry["data_wrapper_key"]: {
@@ -595,10 +604,7 @@ if __name__ == '__main__':
 # --- SCRIPT VERSION LOG ---
 # Version 2.4.14 (2025-06-04):
 # - Corrected UnboundLocalError in `generate_dynamic_target_files_config` by ensuring
-#   `preferred_keys_for_single_object_content` is initialized before its potential use
-#   when assigning to `preferred_object_keys` in the config dictionary.
-# - Ensured `preferred_keys_for_list_records` is consistently used for the `preferred_top_keys`
-#   field in the config dictionary for list-based files.
+#   `preferred_keys_for_list_records` is consistently named and used.
 #
 # Version 2.4.13 (2025-05-31):
 # - Fixed UnboundLocalError for `preferred_keys_list_records` in `generate_dynamic_target_files_config`

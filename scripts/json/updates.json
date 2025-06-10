@@ -1,0 +1,73 @@
+{
+  "target_file_key": "swfo_profiles",
+  "action": "update",
+  "is_single_object": true,
+  "identifier": null,
+  "payload": [
+    {
+      "op": "remove",
+      "path": "/factions/PROTECTOR_ORDER_UNKNOWN_CELL_001/npc_members/2",
+      "comment": "Removes Ghurn Skirata from the Protector Order's member list as per user instruction."
+    },
+    {
+      "op": "replace",
+      "path": "/npcs/0/temporary_conditions_effects/1/effects_summary_gm",
+      "value": "Is consciously bound by a deep-seated compulsion that she rationalizes as absolute duty or a sacred vow. She is aware of the Protectors and her role, but is psychically incapable of betraying their secrets. Attempts to force discussion are met with willed, defiant resistance. A direct psychic or philosophical assault on the Compulsion itself (as Verita does) can cause a severe mental crisis, as it attacks the core of her perceived identity.",
+      "comment": "Updates Nadia's Compulsion to reflect her conscious awareness of the Protectors but ignorance of the Compulsion's true nature."
+    },
+    {
+      "op": "replace",
+      "path": "/npcs/0/personality/primary_vice_flaw",
+      "value": "Unquestioning Loyalty (Compelled) / Inability to Defy Perceived Duty",
+      "comment": "Refines Nadia's primary flaw to align with her new state of awareness."
+    },
+    {
+      "op": "replace",
+      "path": "/npcs/0/gm_notes_plot_hooks/ai_behavioral_prompts_gm/3",
+      "value": "Becomes cold, defiant, and actively resistant if pressed on Protector secrets, citing sacred duty or vows she cannot break. Her demeanor shifts from guarded to overtly defensive.",
+      "comment": "Updates Nadia's behavioral prompt to reflect active resistance instead of confused evasion."
+    },
+    {
+      "op": "add",
+      "path": "/npcs/3/gm_notes_plot_hooks/secrets_unknown_to_npc",
+      "value": [
+        {
+          "secret": "A fragment of the Progenitor's consciousness (the one she was meant to succeed) was unintentionally imprinted onto her during the memory wipe. This gives her flashes of insight and a 'feel' for major Protector movements she cannot explain.",
+          "reveal_condition": "Deep psychological analysis, powerful Force rituals, or direct confrontation with the Progenitor who performed the wipe.",
+          "impact_if_revealed": "Could destabilize Verita, but also provide a direct line to deeper Protector secrets.",
+          "source_citation_gm_knowledge": "Forgotten Ones - Campaign Worldbuilding"
+        }
+      ],
+      "comment": "Adds a new 'secrets_unknown_to_npc' field to Verita with the Progenitor fragment secret."
+    },
+    {
+      "op": "add",
+      "path": "/npcs/3/character_relationships/HIGH_PROTECTOR_LYRA_NPC",
+      "value": {
+        "target_character_id": "HIGH_PROTECTOR_LYRA_NPC",
+        "status_summary": "Hostile - Former Colleague/Rival",
+        "attitude_score": -10,
+        "trust_level": "N/A",
+        "tags": [
+          "Antagonist",
+          "Protector Loyalist",
+          "Betrayer"
+        ],
+        "notes_on_relationship": "Lyra was the other Protector Heir alongside Verita and remained loyal to the Progenitors, playing a role in Verita's downfall. She now relentlessly hunts Verita and the Cooperative."
+      },
+      "comment": "Adds High Protector Lyra as a specific antagonist in Verita's relationship list."
+    },
+    {
+      "op": "add",
+      "path": "/npcs/2/gm_notes_plot_hooks/potential_plot_hooks_involving_npc/-",
+      "value": "The PCs could discover logs or damaged systems related to the Venture's original, advanced capabilities, such as a 'Void Sheath' stealth system, dormant 'Resonance Emitter' weaponry, or a degraded self-repair nanite system.",
+      "comment": "Adds a new plot hook to Eve regarding the Venture's discoverable advanced systems."
+    },
+    {
+      "op": "add",
+      "path": "/npcs/2/gm_notes_plot_hooks/potential_plot_hooks_involving_npc/-",
+      "value": "A primary plot hook could be the discovery of Evelyn Archer's secret 'Temporal Field Research Lab' hidden deep within the ship's core, containing her original, non-Protector motivations and research.",
+      "comment": "Adds a new plot hook to Eve regarding Evelyn Archer's hidden lab."
+    }
+  ]
+}
