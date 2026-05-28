@@ -204,7 +204,7 @@
         "benefit_summary": "Can use any Force power that normally requires a swift, move, or standard action as a full-round action instead to reroll the Use the Force check (must accept reroll).",
         "benefit_text_long": "You may use any Force power that normally requires a swift action, move action, or standard action as a full-round action instead. If you choose to do so, you may reroll your Use the Force check to activate that power, but you must accept the result of the reroll, even if it is worse.",
         "class_association": [
-          "Dathomiri Witch"
+          "Dathomiri Witch", "Force-Using Traditions"
         ],
         "description": "reroll any force power as a full-round action",
         "effects": [
@@ -1206,7 +1206,7 @@
         "benefit_summary": "Full-round action, spend Force Point to permanently increase armor bonus of a suit of armor by +2 and its max Dexterity bonus by +1. Only benefits you.",
         "benefit_text_long": "As a full-round action, you may spend a Force Point to attune a suit of armor to the Force, permanently increasing its armor bonus by +2. In addition, the maximum Dexterity bonus of the attuned armor permanently improves by +1. Only you can benefit from wearing the attuned armor; the benefits do not apply if someone else dons the armor.",
         "class_association": [
-          "Jensaarai Defender"
+          "Jensaarai Defender", "Force-Using Traditions"
         ],
         "description": "armor bonus +2, Dex bonus improves +1",
         "effects": [
@@ -3406,7 +3406,7 @@
         "benefit_summary": "Can use Use the Force check instead of Persuasion to change attitude of undomesticated creature (INT 2 or less). No -5 penalty if creature can't understand language.",
         "benefit_text_long": "You may make a Use the Force check in place of a Persuasion check when attempting to change the attitude of an undomesticated creature with an Intelligence of 2 or less. Additionally, you do not take the normal -5 penalty on the check if the creature can't speak or understand your language.",
         "class_association": [
-          "Dathomiri Witch",
+          "Dathomiri Witch", "Force-Using Traditions",
           "Felucian Shaman"
         ],
         "description": "UseForce replaces Persuasion w/animal Int 2 or less, -5 if animal doesn't understand doesn't apply",
@@ -3929,7 +3929,7 @@
         "benefit_summary": "If beast's attitude shifted to indifferent or friendly, treat as domesticated for you only. Can use as mount if 1+ size category larger.",
         "benefit_text_long": "Whenever you manage to shift the attitude of a beast to indifferent or friendly, you may treat that creature as a domesticated animal—but for you only (it remains undomesticated in its response to other creatures). Additionally, you may use this beast as a mount, as per the Ride skill (see page 72), provided that it is at least one size category larger than you and has a comfortable place for you to sit.",
         "class_association": [
-          "Dathomiri Witch",
+          "Dathomiri Witch", "Force-Using Traditions",
           "Felucian Shaman"
         ],
         "description": "treat animal as domesticated and can Ride",
@@ -10088,7 +10088,7 @@
         "benefit_summary": "Swift action, spend Force Point to fly at land speed (ascend half, descend double) until start of next turn.",
         "benefit_text_long": "As a swift action, you can spend a Force Point to fly. You gain a fly speed equal to your land speed, and you can ascend at half speed or descend at double speed. The flight lasts until the start of your next turn; if you're still airborne at that time, you fall.",
         "class_association": [
-          "Dathomiri Witch"
+          "Dathomiri Witch", "Force-Using Traditions"
         ],
         "description": "fly speed double land speed, ascend 1/2 speed, descend double speed, until next turn",
         "effects": [
@@ -10474,7 +10474,7 @@
         "benefit_summary": "Swift action, surround self with invisible bubble shielding from electronic surveillance and blocking sensors/communications. Lasts while concentrating (standard action) or until start of next turn.",
         "benefit_text_long": "As a swift action, you can surround yourself with an invisible bubble of Force power that shields you and anything you're carrying from electronic surveillance. The bubble also blocks all electronic sensors and communications. The Force cloak lasts for as long as you concentrate (a standard action) or until the start of your next turn.",
         "class_association": [
-          "Jensaarai Defender"
+          "Jensaarai Defender", "Force-Using Traditions"
         ],
         "description": "blocks electronic surveillance until next turn or spending standard action",
         "effects": [
@@ -10511,7 +10511,7 @@
         "benefit_summary": "As Force Cloak, but can expand bubble to envelop creatures (including self) equal to character level.",
         "benefit_text_long": "As the Force Cloak talent, except that you can expand the bubble to envelop a number of creatures (including yourself) equal to your character level.",
         "class_association": [
-          "Jensaarai Defender"
+          "Jensaarai Defender", "Force-Using Traditions"
         ],
         "description": "expands bubble to number of creatures = to character level",
         "effects": [
@@ -17690,7 +17690,7 @@
         "benefit_summary": "Swift action, take penalty up to -5 on attack roll to add same (up to +5, max BAB) as Force bonus to an ally's Reflex Defense in line of sight. Lasts until start of your next turn.",
         "benefit_text_long": "As a swift action, you can take a penalty of up to -5 on your attack roll and add the same number (up to +5) as a Force bonus to an ally's Reflex Defense, provided the ally is within your line of sight when you activate this talent. The bonus you confer cannot exceed your base attack bonus. The changes to your attack rolls and your ally's Reflex Defense last until the start of your next turn.",
         "class_association": [
-          "Jensaarai Defender"
+          "Jensaarai Defender", "Force-Using Traditions"
         ],
         "description": "take up to -5 on Atk to give up to +5 Ref Def to ally in LOS",
         "effects": [
